@@ -15,6 +15,7 @@ import { waterfall, type Waterfall } from '../../model/waterfall';
 import { getConstants, getSettings, getTech, getTimeline, unwrapMine } from '../../data/load';
 import type { MineRecord } from '../../data/schemas';
 import { applyOverrides, type Overrides } from '../../state/session';
+import { applyUploadedSeries } from '../DataPage/upload';
 import { CUSTOM_BASIS, type DrainedUse, type MineView } from '../../state/url';
 import { NPV_CURVE_STEP_USD_PER_T, PRICE_SLIDER_USD_PER_T } from './controls';
 
@@ -27,8 +28,12 @@ export interface ClosureBasis {
 /** Everything about a mine that does not depend on the controls. */
 export interface MineBase {
   record: MineRecord;
-  /** The record as `evaluate` takes it, with session overrides applied. */
+  /** The record as `evaluate` takes it, with session overrides and uploaded yearly series applied. */
   input: MineInput;
+  /** True when an upload set a yearly series for this mine. */
+  hasUploadedSeries: boolean;
+  /** The session overrides this base was built from. */
+  overrides: Overrides;
   settings: Settings;
   tech: TechLibrary;
   constants: Constants;
@@ -47,7 +52,8 @@ export function mineBase(record: MineRecord, overrides: Overrides): MineBase {
   const settings = applyOverrides(getSettings(), overrides, 'settings');
   const tech = applyOverrides(getTech(), overrides, 'tech');
   const constants = applyOverrides(getConstants(), overrides, 'constants');
-  const input = applyOverrides(unwrapMine(record, getTimeline()), overrides, `mine.${record.id}`);
+  const plain = applyOverrides(unwrapMine(record, getTimeline()), overrides, `mine.${record.id}`);
+  const input = applyUploadedSeries(plain, overrides);
 
   const alternatives = record.closureAlternatives ?? [];
   const bases: ClosureBasis[] =
@@ -70,7 +76,7 @@ export function mineBase(record: MineRecord, overrides: Overrides): MineBase {
     gwp: settings.gwp,
     creditingYears: settings.creditingYears,
   };
-  return { record, input, settings, tech, constants, bases, defaults };
+  return { record, input, hasUploadedSeries: input !== plain, overrides, settings, tech, constants, bases, defaults };
 }
 
 export interface NpvPoint {
@@ -112,8 +118,9 @@ export function useMineModel(base: MineBase, view: MineView): MineModel {
       techOverride: { ...base.input.techOverride, drained: drainedUse, amm: drainedUse },
     };
     if (drainedMm3PerYr !== null) next.drainedMm3PerYr = drainedMm3PerYr;
-    return next;
-  }, [base.input, closureYear, vamConc, drainedMm3PerYr, drainedUse]);
+    // Same order as the Compare page, so the two pages agree: an uploaded series wins over the slider.
+    return applyUploadedSeries(next, base.overrides);
+  }, [base.input, base.overrides, closureYear, vamConc, drainedMm3PerYr, drainedUse]);
 
   const settingsAtAnyPrice = useMemo<Settings>(
     () => ({ ...base.settings, discountRate, gwp, grantShare, creditingYears }),
