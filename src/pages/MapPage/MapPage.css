@@ -1,0 +1,357 @@
+/* Map landing page layout (design/Main.dc.html at 1440px, design/Landing-Mobile.dc.html at 390px). */
+
+.map-hero {
+  display: grid;
+  grid-template-columns: minmax(320px, 452px) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'intro figure'
+    'legend figure';
+  column-gap: 40px;
+  padding-top: 8px;
+  padding-bottom: 72px;
+}
+
+.map-intro {
+  grid-area: intro;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 64px;
+}
+
+.map-intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.map-intro-text .eyebrow {
+  font-size: 13px;
+}
+
+.map-lede {
+  margin: 0;
+  max-width: 34em;
+}
+
+.map-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.map-method-link {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink-2);
+  text-underline-offset: 4px;
+}
+
+.map-figure {
+  grid-area: figure;
+  min-width: 0;
+}
+
+.map-frame-placeholder {
+  width: 100%;
+  max-width: 780px;
+  margin-inline: auto;
+}
+
+/* Legend: dots and counts as in the artboard, on top of the shared LegendRow. */
+.map-legend {
+  grid-area: legend;
+  align-self: start;
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.map-legend-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.map-legend-title {
+  margin: 0;
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+
+.map-legend-unit {
+  font-size: var(--fs-caps);
+  color: var(--ink-3);
+}
+
+.map-legend .legend {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-top: 0;
+}
+
+.map-legend .legend-row {
+  min-height: 30px;
+  border-bottom: 0;
+  font-size: 15px;
+}
+
+.map-legend .legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.map-legend .legend-swatch-hollow,
+.map-legend .legend-row:last-child .legend-swatch {
+  width: 8px;
+  height: 8px;
+  margin: 0 1px;
+}
+
+.map-legend .legend-row:last-child .legend-label {
+  color: var(--ink-2);
+}
+
+.map-legend .legend-count {
+  font-size: var(--fs-label);
+  color: var(--ink-2);
+}
+
+.map-legend-note {
+  margin: 12px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-3);
+}
+
+/* Phone start card: hidden while the pin carries its own card. */
+.map-start-card {
+  grid-area: card;
+  display: none;
+}
+
+/* How it works */
+.map-steps {
+  border-top: 1px solid var(--line);
+}
+
+.map-steps-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 72px;
+  padding-bottom: 80px;
+}
+
+.map-steps-title {
+  max-width: 18em;
+}
+
+.map-steps-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.map-step {
+  flex: 1 1 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 18px;
+  border-top: 1px solid var(--ink);
+}
+
+.map-step-n {
+  font-size: 13px;
+  color: var(--ink-3);
+}
+
+.map-step-title {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.map-step-body {
+  margin: 0;
+  color: var(--ink-2);
+}
+
+/* Narrow desktop and tablet: one column, map under the intro. */
+@media (max-width: 1040px) {
+  .map-hero {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: none;
+    grid-template-areas:
+      'intro'
+      'figure'
+      'card'
+      'legend';
+  }
+
+  .map-intro {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+/* Phones (design/Landing-Mobile.dc.html). */
+@media (max-width: 720px) {
+  .map-hero {
+    padding-bottom: 0;
+  }
+
+  .map-intro {
+    gap: 14px;
+    padding-bottom: 8px;
+  }
+
+  .map-intro-text {
+    gap: 14px;
+  }
+
+  .map-intro-text .eyebrow {
+    font-size: var(--fs-caps);
+  }
+
+  .map-intro-text .t-h1 {
+    line-height: 1.04;
+  }
+
+  .map-lede {
+    font-size: var(--fs-body);
+  }
+
+  /* The start card below the map carries the call to action on phones. */
+  .map-actions {
+    display: none;
+  }
+
+  .map-figure {
+    margin-inline: -4px;
+    padding-top: 8px;
+  }
+
+  .map-start-card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 8px -4px 0;
+    padding: 18px;
+    border-color: var(--ink);
+    box-shadow: var(--shadow-pin);
+  }
+
+  .map-start-card-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .map-start-card-dot {
+    flex: none;
+    width: 12px;
+    height: 12px;
+    margin-top: 8px;
+    border-radius: 50%;
+    box-shadow:
+      0 0 0 2px var(--card),
+      0 0 0 3.5px var(--ink);
+  }
+
+  .map-start-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .map-start-card-text .eyebrow {
+    font-size: 11px;
+  }
+
+  .map-start-card-name {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+  }
+
+  .map-start-card-meta {
+    font-size: var(--fs-label);
+    color: var(--ink-2);
+  }
+
+  .map-start-card-btn {
+    width: 100%;
+  }
+
+  .map-legend {
+    margin-top: 28px;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .map-legend .legend {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px 16px;
+  }
+
+  .map-legend .legend-row {
+    min-height: 32px;
+    gap: 10px;
+    font-size: var(--fs-label);
+  }
+
+  .map-legend .legend-count {
+    font-size: 13px;
+  }
+
+  .map-legend-note {
+    margin-top: 4px;
+  }
+
+  .map-steps {
+    margin-top: 40px;
+  }
+
+  .map-steps-inner {
+    gap: 24px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+  }
+
+  .map-steps-list {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .map-step {
+    flex: none;
+    gap: 8px;
+    padding-top: 14px;
+  }
+
+  .map-step-n {
+    font-size: var(--fs-caps);
+  }
+
+  .map-step-title {
+    font-size: 18px;
+  }
+
+  .map-step-body {
+    font-size: 15px;
+  }
+}
