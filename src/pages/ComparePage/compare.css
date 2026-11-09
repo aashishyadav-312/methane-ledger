@@ -1,0 +1,263 @@
+/* Compare page. Tokens only (docs/DESIGN.md). */
+.compare-page {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding-block: 40px 72px;
+}
+
+.compare-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.compare-headline {
+  margin: 0;
+  max-width: 62ch;
+  color: var(--ink);
+}
+
+.compare-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.compare-panel {
+  flex: 1 1 300px;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+  background: var(--card);
+}
+
+.compare-main {
+  flex: 999 1 560px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.compare-chart-card,
+.compare-rank-card,
+.compare-side-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.compare-chart-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 20px;
+}
+
+.compare-card-title {
+  margin: 0;
+  font-size: var(--fs-body);
+  font-weight: 600;
+}
+
+.compare-key,
+.compare-lines {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.compare-key li {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.compare-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+}
+
+.compare-swatch-pays {
+  background: var(--ink);
+}
+
+.compare-swatch-short {
+  background: var(--line-strong);
+}
+
+.compare-chart {
+  width: 100%;
+  min-width: 0;
+}
+
+.compare-lines li {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 2px 8px;
+}
+
+.compare-badge {
+  color: var(--ink-3);
+}
+
+.compare-table-wrap {
+  overflow-x: auto;
+}
+
+.compare-table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  font-size: var(--fs-label);
+}
+
+.compare-table thead th,
+.compare-table thead td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-3);
+  font-size: 12.5px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.compare-table th[scope='row'],
+.compare-table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid var(--track);
+  font-weight: 400;
+  text-align: left;
+}
+
+.compare-table .num-col {
+  text-align: right;
+}
+
+.compare-table tr > :first-child {
+  padding-left: 0;
+}
+
+.compare-table tr > :last-child {
+  padding-right: 0;
+}
+
+.compare-table th[scope='row'] {
+  font-weight: 500;
+}
+
+.compare-kind {
+  display: block;
+  color: var(--ink-3);
+  font-size: 12.5px;
+  font-weight: 400;
+}
+
+.compare-check {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--ink);
+}
+
+.compare-side thead th a {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.compare-side td {
+  text-align: right;
+}
+
+.compare-side thead th {
+  text-align: right;
+}
+
+.compare-unabatable {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.compare-unabatable h3,
+.compare-unabatable ul {
+  margin: 0;
+}
+
+.compare-unabatable ul {
+  padding-left: 18px;
+  color: var(--ink-2);
+  font-size: var(--fs-label);
+  line-height: 1.5;
+}
+
+@media (max-width: 720px) {
+  .compare-table {
+    min-width: 0;
+  }
+
+  .compare-table thead th,
+  .compare-table thead td,
+  .compare-table th[scope='row'],
+  .compare-table tbody td {
+    padding: 10px 6px;
+  }
+
+  /* The ranked list drops the credits column; the bar width and the side-by-side table carry it. */
+  .compare-rank-card .compare-table tr > :nth-child(5) {
+    display: none;
+  }
+
+  .compare-chart-card,
+  .compare-rank-card,
+  .compare-side-card {
+    padding: 18px 16px;
+  }
+
+  .compare-rank-card .pill {
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 12px;
+    white-space: normal;
+  }
+
+  .compare-check {
+    width: 18px;
+    height: 18px;
+  }
+
+  .compare-side {
+    font-size: 12.5px;
+  }
+
+  .compare-side th[scope='row'] {
+    width: 30%;
+    font-weight: 400;
+  }
+
+  .compare-side thead th {
+    word-break: break-word;
+  }
+
+  .compare-page {
+    padding-block: 24px 48px;
+  }
+
+  .compare-panel {
+    max-width: none;
+    flex-basis: 100%;
+  }
+}
