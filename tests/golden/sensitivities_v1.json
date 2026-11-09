@@ -1,0 +1,191 @@
+{
+ "flare_only": {
+  "breakeven": 11.327553,
+  "capex": 9239967.794825,
+  "npv_at_15": 4695464.719844,
+  "irr_at_15": 0.323685,
+  "er_total": 1794985.158364,
+  "er_year1": 379705.251687,
+  "payback_index": 3
+ },
+ "power_value_zero": {
+  "breakeven": 23.673596,
+  "capex": 24191049.962653,
+  "npv_at_15": -11240263.53155,
+  "irr_at_15": -0.126613,
+  "er_total": 1819513.160685,
+  "er_year1": 384780.501687,
+  "payback_index": null
+ },
+ "gwp_29_8": {
+  "breakeven": 7.785496,
+  "capex": 24191049.962653,
+  "npv_at_15": 10015893.023096,
+  "irr_at_15": 0.25726,
+  "er_total": 1949221.029565,
+  "er_year1": 412210.398838,
+  "payback_index": 3
+ },
+ "gwp_21": {
+  "breakeven": 11.438084,
+  "capex": 24191049.962653,
+  "npv_at_15": 3336279.889164,
+  "irr_at_15": 0.154348,
+  "er_total": 1315093.670594,
+  "er_year1": 278108.679438,
+  "payback_index": 4
+ },
+ "discount_8": {
+  "breakeven": 7.408408,
+  "capex": 24191049.962653,
+  "npv_at_15": 10372451.383511,
+  "irr_at_15": 0.236725,
+  "er_total": 1819513.160685,
+  "er_year1": 384780.501687,
+  "payback_index": 3
+ },
+ "discount_12": {
+  "breakeven": 9.259439,
+  "capex": 24191049.962653,
+  "npv_at_15": 7070325.559703,
+  "irr_at_15": 0.236725,
+  "er_total": 1819513.160685,
+  "er_year1": 384780.501687,
+  "payback_index": 3
+ },
+ "drained_mandated": {
+  "breakeven": 37.487389,
+  "capex": 24191049.962653,
+  "npv_at_15": -6344008.503915,
+  "irr_at_15": 0.002486,
+  "er_total": 472880.160685,
+  "er_year1": 48122.251688,
+  "payback_index": 10
+ },
+ "gmi_scale_78": {
+  "breakeven": 6.676189,
+  "capex": 79756992.9414,
+  "npv_at_15": 35259222.507539,
+  "irr_at_15": 0.288728,
+  "er_total": 5724748.860685,
+  "er_year1": 1361089.426687,
+  "payback_index": 3
+ },
+ "vam_0_1pct_not_abatable": {
+  "breakeven": 6.394227,
+  "capex": 22052303.767828,
+  "npv_at_15": 9905272.96277,
+  "irr_at_15": 0.266449,
+  "er_total": 1627024.153935,
+  "er_year1": 336658.25,
+  "payback_index": 3
+ },
+ "crediting_15": {
+  "breakeven": 8.126585,
+  "capex": 24191049.962653,
+  "npv_at_15": 9157374.180824,
+  "irr_at_15": 0.239138,
+  "er_total": 1948582.177585,
+  "er_year1": 384780.501687,
+  "payback_index": 3
+ },
+ "closure_2027": {
+  "breakeven": 35.62436,
+  "capex": 24191049.962653,
+  "npv_at_15": -11317760.19062,
+  "irr_at_15": -0.125604,
+  "er_total": 748451.78394,
+  "er_year1": 384780.501687,
+  "payback_index": null
+ },
+ "closure_2028": {
+  "breakeven": 19.856266,
+  "capex": 24191049.962653,
+  "npv_at_15": -3995190.349267,
+  "irr_at_15": 0.016849,
+  "er_total": 1107726.538672,
+  "er_year1": 384780.501687,
+  "payback_index": 8
+ },
+ "closure_2029": {
+  "breakeven": 12.53405,
+  "capex": 24191049.962653,
+  "npv_at_15": 2641052.277383,
+  "irr_at_15": 0.14902,
+  "er_total": 1464875.81449,
+  "er_year1": 384780.501687,
+  "payback_index": 3
+ },
+ "closure_2030": {
+  "breakeven": 8.325494,
+  "capex": 24191049.962653,
+  "npv_at_15": 8649608.518428,
+  "irr_at_15": 0.236725,
+  "er_total": 1819513.160685,
+  "er_year1": 384780.501687,
+  "payback_index": 3
+ },
+ "closure_2031": {
+  "breakeven": 5.607655,
+  "capex": 24191049.962653,
+  "npv_at_15": 14082662.452287,
+  "irr_at_15": 0.290728,
+  "er_total": 2171136.19133,
+  "er_year1": 384780.501687,
+  "payback_index": 3
+ },
+ "closure_2032": {
+  "breakeven": 3.719695,
+  "capex": 24191049.962653,
+  "npv_at_15": 18986028.043493,
+  "irr_at_15": 0.32427,
+  "er_total": 2519075.058526,
+  "er_year1": 384780.501687,
+  "payback_index": 3
+ },
+ "closure_2033": {
+  "breakeven": 2.342446,
+  "capex": 24191049.962653,
+  "npv_at_15": 23398915.190573,
+  "irr_at_15": 0.345585,
+  "er_total": 2862408.72141,
+  "er_year1": 384780.501687,
+  "payback_index": 3
+ },
+ "closure_2034": {
+  "breakeven": 1.30354,
+  "capex": 24191049.962653,
+  "npv_at_15": 27353136.2899,
+  "irr_at_15": 0.359417,
+  "er_total": 3199821.407322,
+  "er_year1": 384780.501687,
+  "payback_index": 3
+ },
+ "closure_2035": {
+  "breakeven": 0.502731,
+  "capex": 24191049.962653,
+  "npv_at_15": 30871223.425262,
+  "irr_at_15": 0.368525,
+  "er_total": 3529339.457272,
+  "er_year1": 384780.501687,
+  "payback_index": 3
+ },
+ "closure_2036": {
+  "breakeven": -1.296643,
+  "capex": 21549416.187496,
+  "npv_at_15": 36603795.186565,
+  "irr_at_15": 0.425975,
+  "er_total": 3847805.016875,
+  "er_year1": 384780.501687,
+  "payback_index": 3
+ },
+ "grant_30": {
+  "breakeven": 2.725356,
+  "capex": 16933734.973857,
+  "npv_at_15": 15906923.507224
+ },
+ "escalation_3pct": {
+  "breakeven_year1_price": 7.870405,
+  "npv_at_15": 9773612.676933
+ }
+}

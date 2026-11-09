@@ -1,0 +1,168 @@
+{
+ "moonidih_v1": {
+  "base": 8.325494,
+  "rows": [
+   {
+    "key": "closure",
+    "label": "Closure 2 years earlier / later",
+    "low_case": 19.856266,
+    "high_case": 3.719695,
+    "swing": 16.136571
+   },
+   {
+    "key": "power_price",
+    "label": "Power value $40 / $120 per MWh",
+    "low_case": 15.999545,
+    "high_case": 0.651442,
+    "swing": 15.348102
+   },
+   {
+    "key": "engine_capex",
+    "label": "Engine capex -30% / +30%",
+    "low_case": 4.609446,
+    "high_case": 12.041542,
+    "swing": 7.432096
+   },
+   {
+    "key": "contingency",
+    "label": "Contingency 0% / 40%",
+    "low_case": 5.836451,
+    "high_case": 12.473898,
+    "swing": 6.637447
+   },
+   {
+    "key": "gwp",
+    "label": "GWP 21 / 29.8",
+    "low_case": 11.438084,
+    "high_case": 7.785496,
+    "swing": 3.652588
+   },
+   {
+    "key": "drained",
+    "label": "Drained gas 10 / 30 Mm3 per year",
+    "low_case": 10.233455,
+    "high_case": 7.576683,
+    "swing": 2.656773
+   },
+   {
+    "key": "vam_conc",
+    "label": "Ventilation methane 0.2% / 0.6%",
+    "low_case": 9.636868,
+    "high_case": 7.014119,
+    "swing": 2.622749
+   },
+   {
+    "key": "discount",
+    "label": "Discount rate 8% / 12%",
+    "low_case": 7.408408,
+    "high_case": 9.259439,
+    "swing": 1.851031
+   },
+   {
+    "key": "rto_capex",
+    "label": "RTO capex -30% / +30%",
+    "low_case": 7.647847,
+    "high_case": 9.00314,
+    "swing": 1.355293
+   },
+   {
+    "key": "f_amm",
+    "label": "Gas after closure 15% / 45% of last year",
+    "low_case": 8.506277,
+    "high_case": 8.162888,
+    "swing": 0.343389
+   }
+  ],
+  "top6": [
+   "closure",
+   "power_price",
+   "engine_capex",
+   "contingency",
+   "gwp",
+   "drained"
+  ]
+ },
+ "moonidih_wb2034": {
+  "base": 1.30354,
+  "rows": [
+   {
+    "key": "power_price",
+    "label": "Power value $40 / $120 per MWh",
+    "low_case": 8.869727,
+    "high_case": -6.262646,
+    "swing": 15.132373
+   },
+   {
+    "key": "closure",
+    "label": "Closure 2 years earlier / later",
+    "low_case": 3.719695,
+    "high_case": -1.296643,
+    "swing": 5.016339
+   },
+   {
+    "key": "engine_capex",
+    "label": "Engine capex -30% / +30%",
+    "low_case": -1.107807,
+    "high_case": 3.714888,
+    "swing": 4.822695
+   },
+   {
+    "key": "contingency",
+    "label": "Contingency 0% / 40%",
+    "low_case": -0.311602,
+    "high_case": 3.995444,
+    "swing": 4.307047
+   },
+   {
+    "key": "drained",
+    "label": "Drained gas 10 / 30 Mm3 per year",
+    "low_case": 3.245871,
+    "high_case": 0.54295,
+    "swing": 2.702921
+   },
+   {
+    "key": "vam_conc",
+    "label": "Ventilation methane 0.2% / 0.6%",
+    "low_case": 2.235141,
+    "high_case": 0.37194,
+    "swing": 1.863201
+   },
+   {
+    "key": "discount",
+    "label": "Discount rate 8% / 12%",
+    "low_case": 0.414208,
+    "high_case": 2.222781,
+    "swing": 1.808573
+   },
+   {
+    "key": "f_amm",
+    "label": "Gas after closure 15% / 45% of last year",
+    "low_case": 0.8183,
+    "high_case": 1.777504,
+    "swing": 0.959204
+   },
+   {
+    "key": "rto_capex",
+    "label": "RTO capex -30% / +30%",
+    "low_case": 0.863815,
+    "high_case": 1.743266,
+    "swing": 0.879451
+   },
+   {
+    "key": "gwp",
+    "label": "GWP 21 / 29.8",
+    "low_case": 1.722779,
+    "high_case": 1.230807,
+    "swing": 0.491971
+   }
+  ],
+  "top6": [
+   "power_price",
+   "closure",
+   "engine_capex",
+   "contingency",
+   "drained",
+   "vam_conc"
+  ]
+ }
+}

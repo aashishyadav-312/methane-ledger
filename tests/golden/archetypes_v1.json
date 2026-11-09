@@ -1,0 +1,48 @@
+{
+ "Degree I underground": {
+  "abatable": false
+ },
+ "Degree II underground": {
+  "abatable": true,
+  "capex": 2595832.012092,
+  "er_year1": 37034.522188,
+  "er_total": 370345.221875,
+  "breakeven": 15.281889,
+  "npv_at_15": -60939.677006,
+  "irr_at_15": 0.094627,
+  "per_stream": {
+   "drained": -3.798017,
+   "vam": 19.487187
+  }
+ },
+ "Degree III underground": {
+  "abatable": true,
+  "capex": 5586168.717233,
+  "er_year1": 115430.217188,
+  "er_total": 1154302.171875,
+  "breakeven": 3.606834,
+  "npv_at_15": 7676775.32922,
+  "irr_at_15": 0.367704,
+  "per_stream": {
+   "drained": -3.798017,
+   "vam": 9.743593
+  }
+ },
+ "Degree III, closing in 4 yrs": {
+  "abatable": true,
+  "capex": 6431040.926772,
+  "er_year1": 115430.217188,
+  "er_total": 551398.210094,
+  "breakeven": 12.230911,
+  "npv_at_15": 1084053.872878,
+  "irr_at_15": 0.165155,
+  "per_stream": {
+   "drained": 5.451742,
+   "vam": 16.711237,
+   "amm": 4.636558
+  }
+ },
+ "Opencast": {
+  "abatable": false
+ }
+}
