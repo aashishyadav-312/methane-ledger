@@ -1,0 +1,468 @@
+{
+ "params_default": {
+  "usd_to_inr": 95.0,
+  "local_factor": 0.6,
+  "import_markup": 0.15,
+  "owners_cost": 0.1,
+  "grid_connection_usd": 800000,
+  "decommissioning": 0.05,
+  "insurance": 0.01,
+  "staff_cost_inr": 900000,
+  "headcount": {
+   "power": 12,
+   "flare": 2,
+   "rto": 4,
+   "drainage": 6,
+   "monitoring": 1
+  },
+  "split": {
+   "power": [
+    0.65,
+    0.1,
+    0.15,
+    0.1
+   ],
+   "flare": [
+    0.6,
+    0.15,
+    0.15,
+    0.1
+   ],
+   "rto": [
+    0.6,
+    0.15,
+    0.15,
+    0.1
+   ],
+   "drainage": [
+    0.3,
+    0.3,
+    0.25,
+    0.15
+   ]
+  },
+  "imported": {
+   "power": 1.0,
+   "flare": 0.5,
+   "rto": 1.0,
+   "drainage": 0.3
+  },
+  "nonlabour_om": {
+   "power_per_mwh": 9.0,
+   "flare_frac": 0.03,
+   "rto_frac": 0.035,
+   "drainage_frac": 0.025
+  },
+  "overhaul_usd_per_kw": 250.0,
+  "overhaul_hours": 60000.0
+ },
+ "params_neutral": {
+  "usd_to_inr": 95.0,
+  "local_factor": 1.0,
+  "import_markup": 0.0,
+  "owners_cost": 0.0,
+  "grid_connection_usd": 0.0,
+  "decommissioning": 0.0,
+  "insurance": 0.0,
+  "staff_cost_inr": 0.0,
+  "headcount": {
+   "power": 12,
+   "flare": 2,
+   "rto": 4,
+   "drainage": 6,
+   "monitoring": 1
+  },
+  "split": {
+   "power": [
+    0.65,
+    0.1,
+    0.15,
+    0.1
+   ],
+   "flare": [
+    0.6,
+    0.15,
+    0.15,
+    0.1
+   ],
+   "rto": [
+    0.6,
+    0.15,
+    0.15,
+    0.1
+   ],
+   "drainage": [
+    0.3,
+    0.3,
+    0.25,
+    0.15
+   ]
+  },
+  "imported": {
+   "power": 1.0,
+   "flare": 0.5,
+   "rto": 1.0,
+   "drainage": 0.3
+  },
+  "nonlabour_om": {
+   "power_per_mwh": 15.0,
+   "flare_frac": 0.05,
+   "rto_frac": 0.06,
+   "drainage_frac": 0.04
+  },
+  "overhaul_usd_per_kw": 0.0,
+  "overhaul_hours": 60000.0
+ },
+ "note": "NEUTRAL reproduces tests/golden/moonidih_v1.json exactly; DEFAULT is the v1.1 India build-up (all DUMMY)",
+ "moonidih_2030_default": {
+  "capex": 26390872.415414,
+  "capex_by_category": {
+   "equipment": 17055202.634969,
+   "materials": 4016146.536607,
+   "labour": 2749663.946303,
+   "civil": 2569859.297535
+  },
+  "capex_by_item": {
+   "power": 17613390.309249,
+   "drainage": 5398387.5,
+   "rto": 2329094.606164,
+   "grid_connection": 800000,
+   "monitoring": 250000
+  },
+  "opex_year1_by_type": {
+   "om": 843018.311216,
+   "overhaul": 294675.925926,
+   "staff": 217894.736842,
+   "insurance": 263908.724154,
+   "fan_power": 148782.343988,
+   "decommissioning": 0.0
+  },
+  "opex_year1": 1768280.042126,
+  "opex_total": 12729717.98344,
+  "breakeven": 11.544957,
+  "npv_at_15": 4477450.517822,
+  "irr_at_15": 0.171301,
+  "payback_index": 3,
+  "er_total": 1819513.160685,
+  "cash": [
+   -26390872.415414,
+   9165663.784361,
+   9245663.784361,
+   9245663.784361,
+   9245663.784361,
+   1219186.038965,
+   908724.210787,
+   686965.762088,
+   520646.925563,
+   391287.830489,
+   -1031743.066341
+  ]
+ },
+ "moonidih_2034_default": {
+  "capex": 26390872.415414,
+  "capex_by_category": {
+   "equipment": 17055202.634969,
+   "materials": 4016146.536607,
+   "labour": 2749663.946303,
+   "civil": 2569859.297535
+  },
+  "capex_by_item": {
+   "power": 17613390.309249,
+   "drainage": 5398387.5,
+   "rto": 2329094.606164,
+   "grid_connection": 800000,
+   "monitoring": 250000
+  },
+  "opex_year1_by_type": {
+   "om": 843018.311216,
+   "overhaul": 294675.925926,
+   "staff": 217894.736842,
+   "insurance": 263908.724154,
+   "fan_power": 148782.343988,
+   "decommissioning": 0.0
+  },
+  "opex_year1": 1768280.042126,
+  "opex_total": 16989229.38012,
+  "breakeven": 3.373114,
+  "npv_at_15": 23219999.48084,
+  "irr_at_15": 0.310212,
+  "payback_index": 3,
+  "er_total": 3199821.407322,
+  "cash": [
+   -26390872.415414,
+   9165663.784361,
+   9245663.784361,
+   9245663.784361,
+   9245663.784361,
+   9245663.784361,
+   9245663.784361,
+   9245663.784361,
+   9245663.784361,
+   1219186.038965,
+   -410819.409984
+  ]
+ },
+ "moonidih_2030_fx85": {
+  "capex": 26390872.415414,
+  "capex_by_category": {
+   "equipment": 17055202.634969,
+   "materials": 4016146.536607,
+   "labour": 2749663.946303,
+   "civil": 2569859.297535
+  },
+  "capex_by_item": {
+   "power": 17613390.309249,
+   "drainage": 5398387.5,
+   "rto": 2329094.606164,
+   "grid_connection": 800000,
+   "monitoring": 250000
+  },
+  "opex_year1_by_type": {
+   "om": 843018.311216,
+   "overhaul": 294675.925926,
+   "staff": 243529.411765,
+   "insurance": 263908.724154,
+   "fan_power": 148782.343988,
+   "decommissioning": 0.0
+  },
+  "opex_year1": 1793914.717048,
+  "opex_total": 12919191.667651,
+  "breakeven": 11.640919,
+  "npv_at_15": 4353091.107105,
+  "irr_at_15": 0.169525,
+  "payback_index": 3,
+  "er_total": 1819513.160685,
+  "cash": [
+   -26390872.415414,
+   9140029.109439,
+   9220029.109439,
+   9220029.109439,
+   9220029.109439,
+   1204696.874879,
+   894235.0467,
+   672476.598001,
+   506157.761477,
+   376798.666402,
+   -1046232.230428
+  ]
+ },
+ "moonidih_2030_local_factor_1": {
+  "capex": 29403887.911305,
+  "capex_by_category": {
+   "equipment": 17055202.634969,
+   "materials": 4016146.536607,
+   "labour": 4582773.243838,
+   "civil": 3749765.495892
+  },
+  "capex_by_item": {
+   "power": 19379143.72371,
+   "drainage": 6410387.5,
+   "rto": 2564356.687595,
+   "grid_connection": 800000,
+   "monitoring": 250000
+  },
+  "opex_year1_by_type": {
+   "om": 851252.484066,
+   "overhaul": 294675.925926,
+   "staff": 217894.736842,
+   "insurance": 294038.879113,
+   "fan_power": 148782.343988,
+   "decommissioning": 0.0
+  },
+  "opex_year1": 1806644.369935,
+  "opex_total": 13264012.036325,
+  "breakeven": 14.096686,
+  "npv_at_15": 1170620.439974,
+  "irr_at_15": 0.1173,
+  "payback_index": 4,
+  "er_total": 1819513.160685,
+  "cash": [
+   -29403887.911305,
+   9127299.456552,
+   9207299.456552,
+   9207299.456552,
+   9207299.456552,
+   1180821.711156,
+   870359.882978,
+   648601.434279,
+   482282.597754,
+   352923.50268,
+   -1220758.168945
+  ]
+ },
+ "moonidih_2030_no_import_markup": {
+  "capex": 24372139.463026,
+  "capex_by_category": {
+   "equipment": 15036469.682581,
+   "materials": 4016146.536607,
+   "labour": 2749663.946303,
+   "civil": 2569859.297535
+  },
+  "capex_by_item": {
+   "power": 15891780.73015,
+   "drainage": 5313000.0,
+   "rto": 2117358.732877,
+   "grid_connection": 800000,
+   "monitoring": 250000
+  },
+  "opex_year1_by_type": {
+   "om": 835607.555651,
+   "overhaul": 294675.925926,
+   "staff": 217894.736842,
+   "insurance": 243721.39463,
+   "fan_power": 148782.343988,
+   "decommissioning": 0.0
+  },
+  "opex_year1": 1740681.957037,
+  "opex_total": 12352800.484932,
+  "breakeven": 9.826308,
+  "npv_at_15": 6704677.203175,
+  "irr_at_15": 0.213037,
+  "payback_index": 3,
+  "er_total": 1819513.160685,
+  "cash": [
+   -24372139.463026,
+   9193261.86945,
+   9273261.86945,
+   9273261.86945,
+   9273261.86945,
+   1246784.124054,
+   936322.295876,
+   714563.847177,
+   548245.010652,
+   418885.915578,
+   -903208.333633
+  ]
+ },
+ "moonidih_2030_staff_x2": {
+  "capex": 26390872.415414,
+  "capex_by_category": {
+   "equipment": 17055202.634969,
+   "materials": 4016146.536607,
+   "labour": 2749663.946303,
+   "civil": 2569859.297535
+  },
+  "capex_by_item": {
+   "power": 17613390.309249,
+   "drainage": 5398387.5,
+   "rto": 2329094.606164,
+   "grid_connection": 800000,
+   "monitoring": 250000
+  },
+  "opex_year1_by_type": {
+   "om": 843018.311216,
+   "overhaul": 294675.925926,
+   "staff": 435789.473684,
+   "insurance": 263908.724154,
+   "fan_power": 148782.343988,
+   "decommissioning": 0.0
+  },
+  "opex_year1": 1986174.778968,
+  "opex_total": 14340244.29923,
+  "breakeven": 12.360638,
+  "npv_at_15": 3420395.526729,
+  "irr_at_15": 0.155913,
+  "payback_index": 3,
+  "er_total": 1819513.160685,
+  "cash": [
+   -26390872.415414,
+   8947769.047519,
+   9027769.047519,
+   9027769.047519,
+   9027769.047519,
+   1096028.144228,
+   785566.31605,
+   563807.867351,
+   397489.030826,
+   268129.935752,
+   -1154900.961078
+  ]
+ },
+ "moonidih_2030_flare_default": {
+  "capex": 9122201.959364,
+  "capex_by_category": {
+   "equipment": 4637512.587072,
+   "materials": 2432094.686146,
+   "labour": 1269506.811688,
+   "civil": 783087.874458
+  },
+  "capex_by_item": {
+   "flare": 1144719.8532,
+   "drainage": 5398387.5,
+   "rto": 2329094.606164,
+   "monitoring": 250000
+  },
+  "opex_year1_by_type": {
+   "om": 402811.531812,
+   "overhaul": 0.0,
+   "staff": 123157.894737,
+   "insurance": 91222.019594,
+   "fan_power": 148782.343988,
+   "decommissioning": 0.0
+  },
+  "opex_year1": 765973.79013,
+  "opex_total": 6654732.88271,
+  "breakeven": 10.894522,
+  "npv_at_15": 5249123.087291,
+  "irr_at_15": 0.345123,
+  "payback_index": 3,
+  "er_total": 1794985.158364,
+  "cash": [
+   -9122201.959364,
+   4438884.996079,
+   4518884.996079,
+   4518884.996079,
+   4518884.996079,
+   345224.22769,
+   192277.755736,
+   83030.275768,
+   1094.665792,
+   -62633.030855,
+   -569725.286142
+  ]
+ },
+ "moonidih_2030_default_grant30": {
+  "capex": 18473610.69079,
+  "capex_by_category": {
+   "equipment": 17055202.634969,
+   "materials": 4016146.536607,
+   "labour": 2749663.946303,
+   "civil": 2569859.297535
+  },
+  "capex_by_item": {
+   "power": 17613390.309249,
+   "drainage": 5398387.5,
+   "rto": 2329094.606164,
+   "grid_connection": 800000,
+   "monitoring": 250000
+  },
+  "opex_year1_by_type": {
+   "om": 843018.311216,
+   "overhaul": 294675.925926,
+   "staff": 217894.736842,
+   "insurance": 184736.106908,
+   "fan_power": 148782.343988,
+   "decommissioning": 0.0
+  },
+  "opex_year1": 1689107.42488,
+  "opex_total": 11542128.724747,
+  "breakeven": 4.942402,
+  "npv_at_15": 13033816.05848,
+  "irr_at_15": 0.372366,
+  "payback_index": 2,
+  "er_total": 1819513.160685,
+  "cash": [
+   -18473610.69079,
+   9244836.401608,
+   9324836.401608,
+   9324836.401608,
+   9324836.401608,
+   1298358.656212,
+   987896.828033,
+   766138.379334,
+   599819.54281,
+   470460.447735,
+   -556707.362864
+  ]
+ }
+}

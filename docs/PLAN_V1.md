@@ -29,6 +29,8 @@ Moonidih. Target: live by 10 January 2027, ahead of the Ranchi workshop on 22 Ja
 | 9 | Method, Assumptions and Sources pages | Sonnet 5.5 | medium | 3 (overnight) |
 | 10 | Compare (supply curve) and Data upload pages | Sonnet 5.5 | high | 3 (overnight) |
 | 11 | QA, accessibility, performance, release | Sonnet 5.5 | high | 4 (with you) |
+| 13a | Cost build-up in the model (run before 12) | Sonnet 5.5 | high | 4 (overnight) |
+| 13b | "All assumptions" panel and cost tables | Opus 5.5 | high | 4 (overnight) |
 | 12 | Real data from CMPDI and Coal India (when it arrives) | Opus 5.5 | high | later |
 | Review | Review any PR in a fresh session, diff only | Opus 5.5 | medium | any time |
 | Fix-up | Resolve merge conflicts or a failed CI run | Sonnet 5.5 | medium | any time |
@@ -40,6 +42,8 @@ Dependencies:
 - Wave 2 needs all of wave 1 merged: Step 5 uses 1 and 4; Step 6 uses 2, 3 and 4; Step 7 uses 2 and 3.
 - Wave 3 needs wave 2 merged.
 - Step 11 needs everything merged.
+- Wave 4 (Steps 13a and 13b, in parallel) runs after Step 11 and before Step 12, since it doesn't need real data.
+  13b codes against the Appendix G names, so both can run on the same night.
 
 Suggested calendar:
 
@@ -70,7 +74,7 @@ claude agents    # optional: watch them; any session that is waiting on you show
 ```
 
 Night 2 runs Steps 5 (opus), 6 (opus) and 7 (sonnet). Night 3 runs Steps 8 (opus), 9 (sonnet, effort medium) and 10
-(sonnet). Use the same pattern, with the model and effort from the table.
+(sonnet). Night 4 runs Steps 13a (sonnet) and 13b (opus). Use the same pattern, with the model and effort from the table.
 
 In the morning:
 
@@ -105,7 +109,8 @@ everything else. If a session stops on a question, answer it in the morning with
 6. Edit only the paths your step owns (listed in each step). If you need a change elsewhere, do not make it. Write it
    under "Needs from other steps" in the PR. The exception is new files inside your own folders.
 7. No new npm dependencies after Step 0. If one seems necessary, stop and ask.
-8. `src/model/types.ts` is the contract between steps. Only Step 2 may edit it, and only by adding optional fields.
+8. `src/model/types.ts` is the contract between steps. Only Steps 2 and 13a may edit it, and only by adding optional
+   fields.
 
 **Correctness**
 
@@ -575,8 +580,8 @@ Reads: Appendix B8 and F; the "Who could pay" block of `design/Moonidih.dc.html`
    - tornado: top six rows, low and high cases on either side of the base break-even, labels from `tornado()`
 3. **"Explain this number"**: a disclosure under the big number that renders `explain()` as a formula with this
    mine's values. Use plain HTML with `<sub>`, not a maths library.
-4. **Units**: a USD/INR toggle in the header of the result card (rate from settings, labelled "at ₹85 per $,
-   placeholder") and a tCO2e/tCH4 toggle for tonnes. Both live in the URL state.
+4. **Units**: a USD/INR toggle in the header of the result card (rate from settings, labelled "at ₹{usdToInr} per $";
+   the default is 95 and Step 13b makes it editable) and a tCO2e/tCH4 toggle for tonnes. Both live in the URL state.
 5. **Export**: "Download CSV" (the annual table: year, each stream's credits, credit revenue, power revenue, opex,
    MRV, cash, cumulative) and "Save chart as PNG" (serialise the chart SVG to a canvas at 2×; no new dependency).
 6. `e2e/mine-plus.spec.ts`:
@@ -693,19 +698,128 @@ Done when: the QA report in the PR lists every check with pass or fix.
 
 ---
 
+## Step 13a: cost build-up in the model (run before Step 12)
+
+**Model: Sonnet 5.5 · Effort: high · Wave 4 (overnight, in parallel with 13b)**
+Branch: `step/13a-costs-model`.
+Owns: `src/model/**` (add-only changes to `types.ts`, as in Appendix G), `src/data/**`, `data/costs.json`,
+`data/settings.default.json`, `tests/model/costs.test.ts`, `tests/datalayer/**`, and the `golden` script in
+`package.json`.
+Reads: Appendix G, `reference/ref_v1_1.py`, and the keys of `tests/golden/costs_v1_1.json` (use `jq 'keys'`).
+
+Goal: replace v1's all-in unit costs with a cost build-up that shows equipment, materials, installation labour, civil
+works and staff, and that responds to Indian cost factors and the rupee rate. With `costModel: "v1"` the model must
+still reproduce every v1 golden exactly.
+
+1. Add `src/model/costs.ts` implementing Appendix G:
+   - capex split by item and category, with the India factors, owner's costs, contingency, grid connection and
+     monitoring
+   - opex by type: non-labour O&M, engine overhauls, staff, insurance, fan power, decommissioning
+   Mirror `reference/ref_v1_1.py` `flows_buildup` line by line, including its two v1 quirks: flare and oxidiser O&M
+   are a share of the whole stream capex including drainage, and drainage O&M uses the base cost with no contingency.
+2. Route everything through one function: `projectFlows(mine, settings, tech, constants, costs)`. `evaluate`,
+   `financing`, `waterfall`, `tornado` and `explain` must all call it, so the cost basis flows through every result.
+   Add the waterfall parts from Appendix G.
+3. Add `data/costs.json` with `COST_DEFAULT` from Appendix G, every value with unit, source and quality `dummy`. Set
+   `usdToInr` to 95 and `costModel` to `"buildup"` in `data/settings.default.json`, and add the Zod schemas for both.
+4. Change the `golden` script to run `python3 reference/ref_v1.py && python3 reference/ref_v1_1.py`.
+5. Tests in `tests/model/costs.test.ts`:
+   - every case in `costs_v1_1.json`: break-even, capex, capex by category and by item, year-1 opex by type, NPV, IRR
+     and payback, with Step 2's tolerances
+   - neutral parameters give the same results as every v1 golden
+   - the capex categories sum to total capex, and the opex types sum to total opex, within $1
+   - a higher rupee rate lowers staff cost in USD; a higher local factor raises capex
+   All existing tests must still pass. They run with `costModel: "v1"`, so set that explicitly in their fixtures.
+
+Done when: all tests pass, `npm run golden:check` passes, and the PR lists the five largest cost lines for Moonidih at
+the defaults.
+
+---
+
+## Step 13b: "All assumptions" panel and cost tables on the mine page
+
+**Model: Opus 5.5 · Effort: high · Wave 4 (overnight, in parallel with 13a)**
+Branch: `step/13b-advanced-ui`.
+Owns: `src/pages/MinePage/**`, `src/components/advanced/**`, `src/data/registry.ts`, `src/state/url.ts`,
+`src/lib/format.ts` (add-only), `e2e/advanced.spec.ts`, and the expectations in `e2e/mine.spec.ts` and
+`e2e/mine-plus.spec.ts`.
+Reads: Appendix G (parameter names and the registry shape), `docs/DESIGN.md`. Code against the Appendix G names; Step
+13a builds the model side in parallel.
+
+1. **Variable registry** in `src/data/registry.ts`: one entry per adjustable variable. The shape is in Appendix G.
+   It covers:
+   - every setting
+   - every technology value
+   - every cost parameter, including each split share, imported share and headcount
+   - every input on the mine record (with its quality from `data/mines.json`)
+   - the financing parameters
+   - the price of each scenario
+   The registry is the only list. The panel and the Assumptions page both render from it. Leave a one-line note in
+   the PR for Step 9's page to switch over later.
+2. **"All assumptions" button** under the left panel's Reset button, labelled "All assumptions ({count})". It opens a
+   side sheet: from the right, 480px wide on desktop; a full-height bottom sheet on phones. It slides in from the
+   button's side with the 200ms DESIGN.md ease, closes on Esc or a click on the scrim, and returns focus to the
+   button.
+   - **Header:**
+     - a search box that filters by label
+     - group tabs: Market, Mine and gas, Technology, Costs, Finance, Accounting
+     - "N changed" and "Reset all"
+   - **Each row:**
+     - label and unit
+     - a number input with min, max and step from the registry (percentages entered as %)
+     - the default value shown faintly
+     - a quality tag and the source (in a tooltip)
+     - a reset button that appears once the value has changed
+     - a changed dot
+   - **Cost basis switch** at the top of the Costs group: "India build-up" (default) or "v1 all-in unit costs".
+   - **The rupee rate** sits in Market as "Rupees per US dollar" (default 95). The USD/INR toggle and every rupee
+     figure use it.
+   - **Validation:** out-of-range values show an inline message and are not applied. Changes apply live, debounced
+     150 ms.
+3. **URL state:** the existing short keys stay. Every other change is stored as `x=` (base64url of a JSON object of
+   path to value, holding only the values that differ from the defaults). Add `cm=v1` for the v1 cost basis. A copied
+   URL must reproduce the view, including every panel change.
+4. **"What it costs" card**, under the stream table:
+   - a capex table, with rows for engines, drainage, ventilation-air oxidiser, after-closure engines, grid
+     connection and monitoring, and columns for equipment, materials, installation labour, civil works and total
+   - the note "Includes owner's costs ({owners}%) and contingency ({contingency}%)"
+   - an opex table: each type for the first year and for the whole period, plus staff headcount × cost per person in
+     rupees
+   Both tables follow the currency toggle. Rupee totals over ₹1 crore show in crore (add `inrCr` to `format.ts`).
+   Add the new waterfall parts to the waterfall chart, and add the cost columns to the CSV export.
+5. **Tests:**
+   - Update the old expectations: in `e2e/mine.spec.ts` and `e2e/mine-plus.spec.ts`, the $8.33 and $2.73 checks now
+     run with `cm=v1`. Add default-basis checks from `costs_v1_1.json`: 2030 gives $11.54, 2034 gives $3.37, and 2030
+     with a 30% grant gives $4.94.
+   - `e2e/advanced.spec.ts`:
+     - The sheet opens and closes by keyboard.
+     - Changing the rupee rate to 85 at 2030 shows $11.64.
+     - Setting the local factor to 1.0 shows $14.10.
+     - Reset all restores the default.
+     - The URL round-trips with panel changes.
+     - The capex categories add up to the total shown.
+
+Screenshots (at most 4): the sheet at 1440 on the Costs group, the sheet at 390, the cost card at 1440, and the cost
+card in INR.
+Done when: the e2e specs pass. Merge 13a first, then rebase 13b and run `npm run check` once more.
+
+---
+
 ## Step 12: real data (when CMPDI or Coal India data arrives)
 
 **Model: Opus 5.5 · Effort: high · When the data arrives**
 Branch: `step/12-real-data`.
 
 1. Put the files I give you in `data/raw/cmpdi/` and write `data/raw/cmpdi/README.md` (what, from whom, date).
-2. Map them to mine records:
+2. Fill `data/costs.json` with any real costs (labour rates, quotes) at quality `measured`, and regenerate the
+   `costs_v1_1` goldens as `costs_real` (ask first).
+3. Map them to mine records:
    - Moonidih first, then any other Degree II or III underground mine closing by 2036. There are 14 underground mines
      in the 2031 and 2036 bands; list them in the PR.
    - Fields: quality `measured` or `estimated`, source = the file and sheet.
-3. Keep `tests/golden/*` as the "v1 dummy" regression set (fixtures stay). Add `tests/golden_real/` with the new
+4. Keep `tests/golden/*` as the "v1 dummy" regression set (fixtures stay). Add `tests/golden_real/` with the new
    expected values, generated by extending `reference/ref_v1.py` (ask me before changing anything in `reference/`).
-4. Make the newly modelled mines clickable on the map, with their own "Open the model" tooltip action.
+5. Make the newly modelled mines clickable on the map, with their own "Open the model" tooltip action.
 
 ---
 
@@ -926,7 +1040,7 @@ export interface Settings {
   verificationCostUsdPerYr: number; // 50000
   contingency: number;            // 0.15
   grantShare: number;             // 0
-  usdToInr: number;               // 85, placeholder
+  usdToInr: number;               // 95, editable (Step 13)
 }
 
 export interface MineInput {
@@ -1048,6 +1162,105 @@ The chips show the short form, for example "CCTS floor est. $11". The ruler tick
 - **Footnote:** "Inputs are illustrative, scaled from the Global Methane Initiative profile of Moonidih and published
   cost ranges, until measured gas data arrives from CMPDI (Central Mine Planning and Design Institute) and Coal
   India. Closure year: reserve run-out from the closure timeline workbook."
+
+## Appendix G: cost build-up (Step 13; reference `reference/ref_v1_1.py`, goldens `tests/golden/costs_v1_1.json`)
+
+**Why.** v1 uses all-in unit costs from US, Chinese and global projects ($1,300 per kW for engines, and so on). They
+include labour and materials but hide them, and they are not Indian. The build-up splits each item, applies Indian
+factors, and adds the costs v1 leaves out. Every default below is DUMMY until Coal India or CMPDI costs arrive.
+
+**Capex.** For each item, the base cost B is the v1 formula: engines kW × $/kW, flare Mm³ × $/Mm³, oxidiser m³/s ×
+$/m³/s, drainage Mm³ × $/Mm³.
+
+item = B × [ e × (m × (1 + importMarkup) + (1 − m)) + materials + (labour + civil) × localFactor ] × (1 + ownersCost) × (1 + contingency)
+
+Here e, materials, labour and civil are the item's split shares (they sum to 1), and m is the item's imported share.
+Then:
+
+- project capex = Σ items + grid connection (only if a stream makes power) + monitoring
+- the result is multiplied by (1 − grantShare)
+- the reported categories (equipment, materials, labour, civil) carry their items' owner's-cost and contingency
+  shares; grid connection counts as civil and monitoring as equipment
+
+**Opex**, in years when the stream runs (volume > 0):
+
+- **Engines:** MWh × non-labour O&M $/MWh, plus overhauls (overhaulUsdPerKw × MWh × 1000 / overhaulHours).
+- **Flare:** stream capex × flareFrac. **Oxidiser:** stream capex × rtoFrac, plus fan power (as v1).
+- **Drainage:** max volume × $250,000 × drainageFrac. This applies in every year, as in v1.
+- **Staff:** headcount[tech] (plus headcount.drainage when the stream has drainage) × staffCostInr / usdToInr in years
+  the stream runs, plus headcount.monitoring every year.
+- **Insurance:** insurance × project capex, every year.
+- **Decommissioning:** decommissioning × project capex, in the last year of the period.
+
+The break-even uses the B4 closed form with this opex. Waterfall parts: capex, O&M, overhauls, staff, insurance, fan
+power, decommissioning, MRV, fees, minus energy.
+
+**Parameters** (`data/costs.json`; TypeScript names in brackets):
+
+| Parameter | Default | Neutral (= v1) |
+|---|---|---|
+| Rupees per US dollar (`usdToInr`, in Settings) | 95 | any |
+| Local factor for Indian labour and civil works (`localFactor`) | 0.60 | 1.0 |
+| Import markup: duty, freight, insurance (`importMarkup`) | 0.15 | 0 |
+| Owner's costs: engineering, permits, PM (`ownersCost`) | 0.10 | 0 |
+| Grid connection (`gridConnectionUsd`) | $800,000 | 0 |
+| Decommissioning, share of capex (`decommissioning`) | 0.05 | 0 |
+| Insurance, share of capex a year (`insurance`) | 0.01 | 0 |
+| Staff cost per person-year (`staffCostInr`) | ₹900,000 (₹9 lakh) | 0 |
+| Headcount (`headcount`) | power 12, flare 2, RTO 4, drainage 6, monitoring 1 | any |
+| Split equipment/materials/labour/civil (`split`) | power 0.65/0.10/0.15/0.10; flare and RTO 0.60/0.15/0.15/0.10; drainage 0.30/0.30/0.25/0.15 | any |
+| Imported share of equipment (`imported`) | power 1.0, flare 0.5, RTO 1.0, drainage 0.3 | any |
+| Non-labour O&M (`nonlabourOm`) | engines $9/MWh, flare 3%, RTO 3.5%, drainage 2.5% | $15/MWh, 5%, 6%, 4% |
+| Engine overhaul (`overhaulUsdPerKw`, `overhaulHours`) | $250 per kW every 60,000 h | $0 |
+
+**Contract additions** (add-only, in `src/model/types.ts`):
+
+```ts
+export type CostModel = 'v1' | 'buildup';
+export type CostCategory = 'equipment' | 'materials' | 'labour' | 'civil';
+export type CostItem = 'power' | 'flare' | 'rto' | 'drainage' | 'grid_connection' | 'monitoring';
+export type OpexType = 'om' | 'overhaul' | 'staff' | 'insurance' | 'fan_power' | 'decommissioning';
+export interface CostParams {
+  localFactor: number; importMarkup: number; ownersCost: number; gridConnectionUsd: number;
+  decommissioning: number; insurance: number; staffCostInr: number;
+  headcount: Record<'power' | 'flare' | 'rto' | 'drainage' | 'monitoring', number>;
+  split: Record<'power' | 'flare' | 'rto' | 'drainage', [number, number, number, number]>;
+  imported: Record<'power' | 'flare' | 'rto' | 'drainage', number>;
+  nonlabourOm: { powerPerMwh: number; flareFrac: number; rtoFrac: number; drainageFrac: number };
+  overhaulUsdPerKw: number; overhaulHours: number;
+}
+// Settings gains: costModel?: CostModel  (missing = 'v1', so v1 fixtures keep working)
+// Result gains:
+//   costs?: { capexItems: { stream: StreamKind | 'site'; item: CostItem; category: CostCategory; usd: number }[];
+//             capexByCategory: Record<CostCategory, number>;
+//             opexByType: Record<OpexType, number[]> }
+```
+
+**Registry entry shape** (`src/data/registry.ts`, Step 13b):
+
+```ts
+{ path: 'costs.localFactor', label: 'Local factor for Indian labour and civil works', group: 'Costs',
+  unit: '×', kind: 'number', min: 0.2, max: 1.5, step: 0.05, format: 'factor', source: '...', quality: 'dummy' }
+```
+
+`format` is one of `usd`, `usdPerT`, `inr`, `pct`, `factor`, `int` or `year`. Paths start with `settings.`, `tech.`,
+`costs.`, `mine.`, `finance.` or `prices.`.
+
+**Golden results**, Moonidih at the defaults:
+
+| Case | Break-even | Capex | Opex in year 1 | NPV at $15 |
+|---|---|---|---|---|
+| Closure 2030 | $11.54 | $26.39M | $1.77M | $4.48M |
+| Closure 2034 | $3.37 | $26.39M | $1.77M | $23.22M |
+| 2030, ₹85 per $ | $11.64 | | | |
+| 2030, local factor 1.0 | $14.10 | | | |
+| 2030, no import markup | $9.83 | | | |
+| 2030, staff cost ×2 | $12.36 | | | |
+| 2030, flare instead of engines | $10.89 | | | |
+| 2030, 30% grant | $4.94 | | | |
+
+At 2030, capex by category is equipment $17.06M, materials $4.02M, labour $2.75M and civil $2.57M. Year-1 opex is
+O&M $843k, overhauls $295k, insurance $264k, staff $218k and fan power $149k.
 
 ## Backlog (after Ranchi)
 
