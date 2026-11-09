@@ -890,8 +890,8 @@
   white-space: normal;
 }
 
-.mine-cost-total th,
-.mine-cost-total td {
+.mine-table .mine-cost-total > th[scope='row'],
+.mine-table .mine-cost-total > td {
   border-bottom: 0;
   border-top: 1px solid var(--line);
   font-weight: 600;

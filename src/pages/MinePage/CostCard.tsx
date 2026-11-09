@@ -221,7 +221,7 @@ function CostTables({
           </tfoot>
         </table>
       </div>
-      <p className="control-note num" data-testid="staff-line">
+      <p className="control-note" data-testid="staff-line">
         Staff: {peopleFirst} {peopleFirst === 1 ? 'person' : 'people'} in the first year × {inrCr(costs.staffCostInr)} a
         person-year, {personYears} person-years over the period, at ₹{units.usdToInr} per $.
       </p>
