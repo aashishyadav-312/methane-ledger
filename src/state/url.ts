@@ -3,6 +3,8 @@
 // Writes go through `history.replaceState` (no history entry, no `hashchange`) and are debounced.
 // A copied link reproduces the view exactly.
 
+import type { CostModel } from '../model/types';
+
 export type DrainedUse = 'power' | 'flare';
 
 /** Everything the mine page controls set. Fractions are stored as fractions; the URL shows percentages. */
@@ -208,4 +210,82 @@ export function createQueryWriter(delayMs = URL_WRITE_DELAY_MS): QueryWriter {
     timer = setTimeout(flush, delayMs);
   };
   return { write, cancel, flush };
+}
+
+/* ---------- "All assumptions" panel (Step 13b) ---------- */
+
+export type PanelValue = number | boolean;
+/** Registry path to value, holding only the values that differ from the defaults. */
+export type PanelChanges = Readonly<Record<string, PanelValue>>;
+export type CostBasis = CostModel;
+
+/** What the "All assumptions" sheet sets beyond the short-key controls. */
+export interface PanelState {
+  costModel: CostBasis;
+  changes: PanelChanges;
+}
+
+export const PANEL_KEYS = { costModel: 'cm', changes: 'x' } as const;
+
+export interface PanelContext {
+  /** The cost basis in `data/settings.default.json`. A link writes `cm=` only when the view uses the other one. */
+  defaultCostModel: CostBasis;
+  /** True when `value` is a valid value for `path` (a known registry path, the right type, in range). */
+  accept: (path: string, value: unknown) => boolean;
+}
+
+function base64urlEncode(text: string): string {
+  const bytes = new TextEncoder().encode(text);
+  let binary = '';
+  bytes.forEach((b) => (binary += String.fromCharCode(b)));
+  return btoa(binary).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+function base64urlDecode(text: string): string | null {
+  try {
+    const b64 = text.replace(/-/g, '+').replace(/_/g, '/');
+    const binary = atob(b64 + '='.repeat((4 - (b64.length % 4)) % 4));
+    return new TextDecoder().decode(Uint8Array.from(binary, (c) => c.charCodeAt(0)));
+  } catch {
+    return null;
+  }
+}
+
+/** `x=`: base64url of a JSON object of path to value. Paths are sorted, so the same changes give the same link. */
+export function encodeChanges(changes: PanelChanges): string {
+  const sorted = Object.fromEntries(Object.entries(changes).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0)));
+  return base64urlEncode(JSON.stringify(sorted));
+}
+
+/** Reads `x=`. Unknown paths and bad values are dropped; a broken value gives no changes. */
+export function decodeChanges(text: string | null, accept: PanelContext['accept']): PanelChanges {
+  if (text === null || text === '') return {};
+  const json = base64urlDecode(text);
+  if (json === null) return {};
+  try {
+    const parsed: unknown = JSON.parse(json);
+    if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed)) return {};
+    const out: Record<string, PanelValue> = {};
+    for (const [path, value] of Object.entries(parsed)) {
+      if (accept(path, value)) out[path] = value as PanelValue;
+    }
+    return out;
+  } catch {
+    return {};
+  }
+}
+
+export function decodePanel(query: URLSearchParams, ctx: PanelContext): PanelState {
+  const cm = query.get(PANEL_KEYS.costModel);
+  return {
+    costModel: cm === 'v1' || cm === 'buildup' ? cm : ctx.defaultCostModel,
+    changes: decodeChanges(query.get(PANEL_KEYS.changes), ctx.accept),
+  };
+}
+
+/** Adds `cm=` (only when it differs from the default) and `x=` (only when something changed) to `query`. */
+export function encodePanel(panel: PanelState, defaultCostModel: CostBasis, query: URLSearchParams): URLSearchParams {
+  if (panel.costModel !== defaultCostModel) query.set(PANEL_KEYS.costModel, panel.costModel);
+  if (Object.keys(panel.changes).length > 0) query.set(PANEL_KEYS.changes, encodeChanges(panel.changes));
+  return query;
 }

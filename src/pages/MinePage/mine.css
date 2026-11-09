@@ -866,6 +866,37 @@
   padding-bottom: 80px;
 }
 
+/* What it costs (Step 13b) */
+.mine-costs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mine-costs-sub {
+  margin: 8px 0 0;
+}
+
+.mine-cost-table {
+  min-width: 640px;
+}
+
+.mine-cost-table td,
+.mine-cost-table th {
+  white-space: nowrap;
+}
+
+.mine-cost-table th[scope='row'] {
+  white-space: normal;
+}
+
+.mine-table .mine-cost-total > th[scope='row'],
+.mine-table .mine-cost-total > td {
+  border-bottom: 0;
+  border-top: 1px solid var(--line);
+  font-weight: 600;
+}
+
 /* Tablet and phone: the panel goes full width above the results. */
 @media (max-width: 1080px) {
   .mine-panel {
@@ -896,6 +927,10 @@
   .mine-table {
     min-width: 0;
     font-size: 13px;
+  }
+
+  .mine-cost-table {
+    min-width: 560px;
   }
 
   .mine-table th[scope='row'],

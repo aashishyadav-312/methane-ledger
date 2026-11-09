@@ -10,6 +10,8 @@ const tornado = read<Record<'moonidih_v1' | 'moonidih_wb2034', { top6: string[] 
 
 const usd = (x: number) => `$${x.toFixed(2)}`;
 const MINE = '#/mine/bccl-moonidih';
+// financing_v1 and tornado_v1 are v1's all-in unit costs: `cm=v1` (Step 13b).
+const MINE_V1 = `${MINE}?cm=v1`;
 
 function watchConsole(page: Page): string[] {
   const errors: string[] = [];
@@ -34,9 +36,9 @@ async function csvLines(page: Page): Promise<string[]> {
   return readFileSync(path, 'utf8').trim().split(/\r?\n/);
 }
 
-test('structure E at 2030 shows the golden break-even and turns the grant on', async ({ page }) => {
+test('v1 costs: structure E at 2030 shows the golden break-even and turns the grant on', async ({ page }) => {
   const errors = watchConsole(page);
-  await page.goto(MINE);
+  await page.goto(MINE_V1);
   await target2030(page);
   await structure(page, /A grant or gap funding/).click();
   await expect(structure(page, /A grant or gap funding/)).toHaveAttribute('aria-checked', 'true');
@@ -47,8 +49,8 @@ test('structure E at 2030 shows the golden break-even and turns the grant on', a
   expect(errors).toEqual([]);
 });
 
-test('structure B at $5 shows the developer-declines message', async ({ page }) => {
-  await page.goto(MINE);
+test('v1 costs: structure B at $5 shows the developer-declines message', async ({ page }) => {
+  await page.goto(MINE_V1);
   await target2030(page);
   await page.getByLabel(/Credit price in US dollars/).fill('5');
   await structure(page, /A developer builds and runs it/).click();
@@ -59,8 +61,8 @@ test('structure B at $5 shows the developer-declines message', async ({ page }) 
   await expect(breakeven(page)).toHaveText(y);
 });
 
-test('structure B at $15 by 2030: the developer goes ahead', async ({ page }) => {
-  await page.goto(MINE);
+test('v1 costs: structure B at $15 by 2030: the developer goes ahead', async ({ page }) => {
+  await page.goto(MINE_V1);
   await target2030(page);
   await structure(page, /A developer builds and runs it/).click();
   await expect(page.getByTestId('developer-declines')).toHaveCount(0);
@@ -80,8 +82,8 @@ test('the CSV has one row per crediting year', async ({ page }) => {
   expect(lines.length - 1).toBe(15);
 });
 
-test("the tornado's first row is tornado_v1 top6[0] for the current case", async ({ page }) => {
-  await page.goto(MINE);
+test("v1 costs: the tornado's first row is tornado_v1 top6[0] for the current case", async ({ page }) => {
+  await page.goto(MINE_V1);
   const first = page.getByTestId('tornado').locator('[data-key]').first();
   await expect(first).toHaveAttribute('data-key', tornado.moonidih_wb2034.top6[0]);
 
@@ -134,7 +136,11 @@ test('save chart as PNG gives a PNG twice the chart size', async ({ page }) => {
   const bytes = readFileSync(await download.path());
   expect(bytes.subarray(1, 4).toString('latin1')).toBe('PNG');
   const pngWidth = bytes.readUInt32BE(16);
-  const svgWidth = await page.getByTestId('chart-cash').locator('svg').first().evaluate((s) => s.clientWidth);
+  const svgWidth = await page
+    .getByTestId('chart-cash')
+    .locator('svg')
+    .first()
+    .evaluate((s) => s.clientWidth);
   expect(pngWidth).toBeGreaterThanOrEqual(svgWidth * 2);
 });
 

@@ -1,25 +1,36 @@
-import { useEffect, useLayoutEffect, useMemo, useState, useSyncExternalStore, type CSSProperties } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState, useSyncExternalStore, type CSSProperties } from 'react';
 import { useRouteLocation } from '../../app/router';
 import type { PriceChip } from '../../components/inputs/PriceControl';
 import type { RulerTick } from '../../components/charts/PriceRuler';
 import {
   getConstantsRecord,
+  getCostsRecord,
+  getDefaultSettings,
   getMapData,
   getMine,
-  getPrices,
   getSettingsRecord,
   getTechRecord,
   getTimeline,
 } from '../../data/load';
+import { acceptsValue, buildRegistry, valueAt, type RegistryEntry, type ViewKey } from '../../data/registry';
+import { AssumptionsSheet, type SheetRow } from '../../components/advanced/AssumptionsSheet';
 import type { MineRecord, PriceScenario } from '../../data/schemas';
 import { listDummyFields } from '../../data/unwrap';
 import {
+  closureRange,
   createQueryWriter,
   currentHashPath,
   currentQuery,
+  CUSTOM_BASIS,
   decodeMineView,
+  decodePanel,
+  encodePanel,
+  type CostBasis,
   type MineView,
   type MineViewContext,
+  type PanelContext,
+  type PanelState,
+  type PanelValue,
 } from '../../state/url';
 import { FIN_DEFAULTS } from '../../model/financing';
 import { downloadCsv, fileName } from '../../lib/export';
@@ -36,6 +47,7 @@ import {
   VAM_CONC_OPTIONS,
 } from './controls';
 import { BAND_CHIP, metaLine, usdPrice } from './copy';
+import { CostCard } from './CostCard';
 import { annualCsv } from './csv';
 import { decodePageView, encodePage, type PageView, type StructureKey } from './pageState';
 import { Charts, Metrics, MoreCharts, ResultCard, StreamTable, WhoPays } from './Results';
@@ -151,7 +163,7 @@ const CONTROLLED_MINE_PATHS: Partial<Record<keyof MineView, string>> = {
   closureYear: 'closureYear',
 };
 
-function hasIllustrativeInputs(record: MineRecord, view: MineView, defaults: MineView): boolean {
+function hasIllustrativeInputs(record: MineRecord, view: MineView, defaults: MineView, costModel: CostBasis): boolean {
   const replaced = new Set(
     Object.entries(CONTROLLED_MINE_PATHS)
       .filter(([k]) => view[k as keyof MineView] !== defaults[k as keyof MineView])
@@ -162,8 +174,83 @@ function hasIllustrativeInputs(record: MineRecord, view: MineView, defaults: Min
     mineDummies.length > 0 ||
     listDummyFields(getTechRecord()).length > 0 ||
     listDummyFields(getSettingsRecord()).length > 0 ||
-    listDummyFields(getConstantsRecord()).length > 0
+    listDummyFields(getConstantsRecord()).length > 0 ||
+    (costModel === 'buildup' && listDummyFields(getCostsRecord()).length > 0)
   );
+}
+
+/** The cost basis in `data/settings.default.json` ("buildup"): the mine page's default. */
+const DEFAULT_COST_MODEL: CostBasis = getDefaultSettings().costModel ?? 'v1';
+const DEFAULT_PANEL: PanelState = Object.freeze({ costModel: DEFAULT_COST_MODEL, changes: Object.freeze({}) });
+
+function panelContext(entries: RegistryEntry[]): PanelContext {
+  const byPath = new Map(entries.map((e) => [e.path, e]));
+  return {
+    defaultCostModel: DEFAULT_COST_MODEL,
+    accept: (path, value) => {
+      const e = byPath.get(path);
+      // Values with their own short key never ride in `x=`.
+      return e !== undefined && e.view === undefined && acceptsValue(e, value);
+    },
+  };
+}
+
+/** The value each registry path takes with no panel changes. */
+function defaultSources(base: MineBase): Record<string, unknown> {
+  return {
+    settings: base.settings,
+    tech: base.tech,
+    costs: base.costs,
+    mine: base.input,
+    finance: base.finance,
+    prices: Object.fromEntries(base.prices.map((s) => [s.id, s.priceUsdPerT?.value])),
+  };
+}
+
+function sheetRows(
+  entries: RegistryEntry[],
+  defaults: MineBase,
+  view: MineView,
+  panel: PanelState,
+  ctx: MineViewContext,
+): SheetRow[] {
+  const sources = defaultSources(defaults);
+  const options: Partial<Record<ViewKey, readonly number[]>> = {
+    vamConc: [...ctx.vamConcOptions].sort((a, b) => a - b),
+    grantShare: [...ctx.grantOptions].sort((a, b) => a - b),
+    discountRate: [...ctx.discountOptions].sort((a, b) => a - b),
+    gwp: [...ctx.gwpOptions].sort((a, b) => a - b),
+    creditingYears: CREDITING_OPTIONS,
+  };
+  const ranges: Partial<Record<ViewKey, { min: number; max: number }>> = {
+    priceUsdPerT: ctx.priceRangeUsdPerT,
+    drainedMm3PerYr: ctx.drainedRangeMm3PerYr,
+    closureYear: closureRange(ctx.startYear, view.creditingYears),
+  };
+  const rows: SheetRow[] = [];
+  for (const entry of entries) {
+    if (entry.view !== undefined) {
+      const value = view[entry.view];
+      const defaultValue = defaults.defaults[entry.view];
+      if (typeof value !== 'number' || typeof defaultValue !== 'number') continue;
+      rows.push({ entry, value, defaultValue, options: options[entry.view], range: ranges[entry.view] });
+      continue;
+    }
+    const defaultValue = valueAt(sources, entry.path);
+    if (typeof defaultValue !== 'number' && typeof defaultValue !== 'boolean') continue;
+    rows.push({ entry, value: panel.changes[entry.path] ?? defaultValue, defaultValue });
+  }
+  return rows;
+}
+
+/** The control change for a value with its own short key. */
+function viewPatch(key: ViewKey, value: number, bases: MineBase['bases']): Partial<MineView> {
+  if (key === 'closureYear') {
+    const basis = bases.find((b) => b.year === value);
+    return { closureBasis: basis?.id ?? CUSTOM_BASIS, closureYear: value };
+  }
+  if (key === 'creditingYears') return { creditingYears: value === 15 ? 15 : 10 };
+  return { [key]: value };
 }
 
 /** The grant control in the panel; structure E links to it. */
@@ -174,11 +261,16 @@ let moveStartMs: number | null = null;
 
 function MineScreen({ record }: { record: MineRecord }) {
   const overrides = useSyncExternalStore(subscribeOverrides, getOverrides, getOverrides);
-  const base = useMemo(() => mineBase(record, overrides), [record, overrides]);
+  const entries = useMemo(() => buildRegistry(record), [record]);
+  const panelCtx = useMemo(() => panelContext(entries), [entries]);
+  const [panel, setPanel] = useState<PanelState>(() => decodePanel(currentQuery(), panelCtx));
+  const base = useMemo(() => mineBase(record, overrides, panel), [record, overrides, panel]);
+  const defaultBase = useMemo(() => mineBase(record, overrides, DEFAULT_PANEL), [record, overrides]);
   const ctx = useMemo(() => viewContext(base), [base]);
   const [path] = useState(currentHashPath);
   const [view, setView] = useState<MineView>(() => decodeMineView(currentQuery(), ctx));
   const [page, setPage] = useState<PageView>(() => decodePageView(currentQuery()));
+  const [sheetOpen, setSheetOpen] = useState(false);
   const writer = useMemo(() => createQueryWriter(), []);
 
   // The user loads another link for this mine (paste, back or forward): read the controls again.
@@ -186,12 +278,15 @@ function MineScreen({ record }: { record: MineRecord }) {
     const onHash = () => {
       if (currentHashPath() !== path) return;
       writer.cancel();
-      setView(decodeMineView(currentQuery(), ctx));
-      setPage(decodePageView(currentQuery()));
+      const query = currentQuery();
+      const nextPanel = decodePanel(query, panelCtx);
+      setPanel(nextPanel);
+      setView(decodeMineView(query, viewContext(mineBase(record, overrides, nextPanel))));
+      setPage(decodePageView(query));
     };
     window.addEventListener('hashchange', onHash);
     return () => window.removeEventListener('hashchange', onHash);
-  }, [ctx, path, writer]);
+  }, [panelCtx, record, overrides, path, writer]);
 
   useEffect(() => () => writer.cancel(), [writer]);
 
@@ -204,11 +299,39 @@ function MineScreen({ record }: { record: MineRecord }) {
     moveStartMs = null;
   });
 
-  const commit = (next: MineView, nextPage: PageView = page) => {
+  // The latest state, for changes that arrive from timers (the sheet applies 150 ms after typing): two quick edits
+  // in different rows must both land.
+  const latest = useRef({ view, page, panel });
+  useEffect(() => {
+    latest.current = { view, page, panel };
+  });
+
+  const commit = (next: MineView, nextPage: PageView = page, nextPanel: PanelState = panel) => {
     if (import.meta.env.DEV) moveStartMs = performance.now();
+    latest.current = { view: next, page: nextPage, panel: nextPanel };
     setView(next);
     setPage(nextPage);
-    writer.write(path, encodePage(next, nextPage));
+    setPanel(nextPanel);
+    writer.write(path, encodePanel(nextPanel, DEFAULT_COST_MODEL, encodePage(next, nextPage)));
+  };
+
+  const rows = useMemo(
+    () => sheetRows(entries, defaultBase, view, panel, ctx),
+    [entries, defaultBase, view, panel, ctx],
+  );
+  const changeValue = (p: string, value: PanelValue) => {
+    const row = rows.find((r) => r.entry.path === p);
+    if (row === undefined) return;
+    const now = latest.current;
+    const key = row.entry.view;
+    if (key !== undefined) {
+      if (typeof value === 'number') commit({ ...now.view, ...viewPatch(key, value, base.bases) }, now.page, now.panel);
+      return;
+    }
+    const changes: Record<string, PanelValue> = { ...now.panel.changes };
+    if (value === row.defaultValue) delete changes[p];
+    else changes[p] = value;
+    commit(now.view, now.page, { ...now.panel, changes });
   };
 
   const units = useMemo(
@@ -235,7 +358,7 @@ function MineScreen({ record }: { record: MineRecord }) {
   const fileStem = ['methane-ledger', record.name];
   const saveCsv = () => downloadCsv(fileName([...fileStem, 'annual'], 'csv'), annualCsv(result));
 
-  const prices = getPrices();
+  const prices = base.prices;
   const chips = useMemo(() => priceChips(prices), [prices]);
   const ticks = useMemo(() => rulerTicks(prices), [prices]);
   const offScale = useMemo(() => offScaleNote(prices), [prices]);
@@ -243,7 +366,7 @@ function MineScreen({ record }: { record: MineRecord }) {
   const timelineEntry = getTimeline()[record.id];
   const mapEntry = getMapData().mines.find((m) => m.id === record.id);
   const band = mapEntry ? BAND_CHIP[mapEntry.band] : undefined;
-  const illustrative = hasIllustrativeInputs(record, view, base.defaults);
+  const illustrative = hasIllustrativeInputs(record, view, base.defaults, panel.costModel);
   const basis = base.bases.find((b) => b.id === view.closureBasis);
 
   return (
@@ -288,6 +411,19 @@ function MineScreen({ record }: { record: MineRecord }) {
           onChange={(patch) => commit({ ...view, ...patch })}
           onReset={() => commit(base.defaults)}
           onClearOverrides={resetOverrides}
+          allCount={rows.length}
+          allOpen={sheetOpen}
+          onOpenAll={() => setSheetOpen(true)}
+        />
+        <AssumptionsSheet
+          open={sheetOpen}
+          onClose={() => setSheetOpen(false)}
+          rows={rows}
+          costModel={panel.costModel}
+          defaultCostModel={DEFAULT_COST_MODEL}
+          onCostModel={(costModel) => commit(view, page, { ...panel, costModel })}
+          onChange={changeValue}
+          onResetAll={() => commit(defaultBase.defaults, page, DEFAULT_PANEL)}
         />
 
         <div className="mine-results">
@@ -359,6 +495,7 @@ function MineScreen({ record }: { record: MineRecord }) {
             </p>
           </div>
           <StreamTable result={result} units={units} />
+          <CostCard result={result} settings={model.settings} costs={base.costs} units={units} />
           {illustrative && record.kind === 'mine' ? (
             <p className="mine-footnote">
               Inputs are illustrative, scaled from the Global Methane Initiative profile of {record.name} and published
