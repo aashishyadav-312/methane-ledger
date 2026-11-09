@@ -79,12 +79,16 @@ export function NpvVsPrice({
             style={{ transform: `translate(${dotX}px, ${dotY}px)` }}
           />
         ) : null}
-        <text className="chart-tick num chart-y-label" x={2} y={PAD_PX + 4}>
-          {formatUsd(top)}
-        </text>
-        <text className="chart-tick num chart-y-label" x={2} y={plotBottom - 2}>
-          {formatUsd(bottom)}
-        </text>
+        {top > 0 ? (
+          <text className="chart-tick num chart-y-label" x={2} y={PAD_PX + 4}>
+            {formatUsd(top)}
+          </text>
+        ) : null}
+        {bottom < 0 ? (
+          <text className="chart-tick num chart-y-label" x={2} y={plotBottom - 2}>
+            {formatUsd(bottom)}
+          </text>
+        ) : null}
         {x.ticks(X_TICKS).map((t, i, all) => (
           <text
             key={t}

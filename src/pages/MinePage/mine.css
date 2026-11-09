@@ -569,7 +569,7 @@
 
 .mine-who-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 10px;
   margin: 0;
   padding: 0;
@@ -638,5 +638,19 @@
 
   .mine-panel-section {
     padding: 18px 20px;
+  }
+
+  .mine-table {
+    min-width: 0;
+    font-size: 13px;
+  }
+
+  .mine-table th[scope='row'],
+  .mine-table td {
+    padding: 10px 6px;
+  }
+
+  .mine-who-item {
+    min-height: 0;
   }
 }

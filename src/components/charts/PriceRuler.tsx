@@ -100,7 +100,7 @@ export function PriceRuler({
         {placed.map((t) => (
           <span
             key={t.id}
-            className="ruler-tick num"
+            className="ruler-tick"
             style={{ left: `${t.leftPct}%`, '--tick-row': t.row } as CSSProperties}
           >
             <span className="ruler-tick-dot" />
