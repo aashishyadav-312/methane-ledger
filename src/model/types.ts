@@ -62,6 +62,7 @@ export interface StreamInput {
   kind: StreamKind; label: string; concFraction: number; ch4Mm3ByYear: number[];
   tech: Tech | null; status: StreamStatus; captureEff: number;
   needsDrainageCapex: boolean; destructionMandated: boolean; warnings: Warning[];
+  airflowM3s?: number;             // VAM only: measured ventilation airflow; if given, the RTO is sized on it
 }
 
 export interface YearRow {
