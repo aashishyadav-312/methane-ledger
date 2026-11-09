@@ -85,14 +85,11 @@ export function getPrices(): PriceScenario[] {
 }
 
 /**
- * The default settings as plain numbers, on v1's all-in unit costs.
- *
- * TEMPORARY (Step 13a): the pages call `evaluate` without cost parameters, so this keeps `costModel` at "v1" and
- * the pages show the same numbers as before. The India build-up is in `getDefaultSettings()` and `getCosts()`.
- * When a page passes `getCosts()` to the model, it switches to `getDefaultSettings()`.
+ * The default settings as plain numbers. `costModel` is the file's cost basis ("buildup"), so a page that passes
+ * `getCosts()` to the model gets the India cost build-up. Set `costModel: 'v1'` to get v1's all-in unit costs.
  */
 export function getSettings(): Settings {
-  return { ...unwrap(DATA.settings), costModel: 'v1' };
+  return getDefaultSettings();
 }
 
 /** The default settings exactly as `data/settings.default.json` has them, including the cost basis ("buildup"). */

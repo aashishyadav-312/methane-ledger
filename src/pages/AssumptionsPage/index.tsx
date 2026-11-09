@@ -5,7 +5,7 @@ import { Button, Chip, Eyebrow, Tag } from '../../ui';
 import '../MethodPage/doc.css';
 import { num } from '../MethodPage/worked';
 import { EditableValue } from './EditableValue';
-import { constantsTable, settingsTable, techTables, type AssumptionRow, type AssumptionTable } from './rows';
+import { constantsTable, costsTables, settingsTable, techTables, type AssumptionRow, type AssumptionTable } from './rows';
 import './AssumptionsPage.css';
 
 function valueText(v: number | number[], unit = ''): string {
@@ -145,6 +145,7 @@ export function AssumptionsPage() {
   const changed = Object.keys(overrides).length;
   const settings = settingsTable();
   const tech = techTables();
+  const costs = costsTables();
   const constants = constantsTable();
 
   return (
@@ -195,6 +196,20 @@ export function AssumptionsPage() {
             Technology library
           </h2>
           {tech.map((table) => (
+            <AssumptionTableView key={table.id} table={table} overrides={overrides} editing={editing} />
+          ))}
+        </section>
+
+        <section className="doc-section" aria-labelledby="a-costs">
+          <h2 className="t-h2" id="a-costs">
+            Cost build-up
+          </h2>
+          <p className="doc-note">
+            The model splits each build cost into equipment, materials, labour and civil works, applies Indian factors,
+            and adds staff, insurance, overhauls and decommissioning. The Method page explains each one. Change them
+            under All assumptions on a mine page.
+          </p>
+          {costs.map((table) => (
             <AssumptionTableView key={table.id} table={table} overrides={overrides} editing={editing} />
           ))}
         </section>

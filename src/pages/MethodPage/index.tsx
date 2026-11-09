@@ -1,7 +1,8 @@
 import type { ExplainTerm } from '../../model/explain';
-import { pct, tonnes, usdM, usdPerT } from '../../lib/format';
+import { inr, pct, tonnes, usdM, usdPerT } from '../../lib/format';
 import { Eyebrow } from '../../ui';
 import { mineHref } from '../../app/router';
+import { COST_CATEGORIES } from '../../model';
 import { MINE_ID, num, shareText, usdWhole, workedCase } from './worked';
 import './doc.css';
 
@@ -13,9 +14,11 @@ function termValue(t: ExplainTerm): string {
   return usdM(t.value);
 }
 
+const CATEGORY_NAME = { equipment: 'equipment', materials: 'materials', labour: 'labour', civil: 'civil works' } as const;
+
 export function MethodPage() {
   const w = workedCase();
-  const { drained, thresholds: th, result, explanation } = w;
+  const { drained, thresholds: th, result, explanation, costs: c } = w;
   const moonidihHref = mineHref(MINE_ID);
   const closureYear = w.mine.closureYear;
 
@@ -146,6 +149,48 @@ export function MethodPage() {
               <span className="num">{usdWhole(w.validationCostUsd)}</span> once in the first year.
             </li>
           </ul>
+        </section>
+
+        <section className="doc-section" aria-labelledby="m-cost-buildup">
+          <h2 className="t-h2" id="m-cost-buildup">
+            What the costs include
+          </h2>
+          <p>
+            Costs are built up item by item. Moonidih&rsquo;s build cost of{' '}
+            <span className="num">{usdM(c.capexUsd)}</span> splits into{' '}
+            {COST_CATEGORIES.map((k, i) => (
+              <span key={k}>
+                {i > 0 ? (i === COST_CATEGORIES.length - 1 ? ' and ' : ', ') : ''}
+                {CATEGORY_NAME[k]} <span className="num">{usdM(c.capexByCategoryUsd[k])}</span>
+              </span>
+            ))}
+            .
+          </p>
+          <ul>
+            <li>
+              <strong>Indian factors.</strong> Labour and civil works cost {shareText(c.params.localFactor)} of the
+              source basis, imported equipment adds {shareText(c.params.importMarkup)} for duty and freight, and
+              owner&rsquo;s costs add {shareText(c.params.ownersCost)}.
+            </li>
+            <li>
+              <strong>Staff.</strong> <span className="num">{inr(c.params.staffCostInr / c.usdToInr, c.usdToInr)}</span>{' '}
+              a person a year, <span className="num">{usdWhole(c.year1OpexByTypeUsd.staff)}</span> in year 1.
+            </li>
+            <li>
+              <strong>Insurance.</strong> {shareText(c.params.insurance)} of capex a year,{' '}
+              <span className="num">{usdWhole(c.year1OpexByTypeUsd.insurance)}</span> in year 1.
+            </li>
+            <li>
+              <strong>Overhauls.</strong> <span className="num">{usdWhole(c.params.overhaulUsdPerKw)}</span> per kW
+              every <span className="num">{num(c.params.overhaulHours, 0)}</span> engine hours,{' '}
+              <span className="num">{usdWhole(c.year1OpexByTypeUsd.overhaul)}</span> in year 1.
+            </li>
+            <li>
+              <strong>Decommissioning.</strong> {shareText(c.params.decommissioning)} of capex in the last year,{' '}
+              <span className="num">{usdWhole(c.lastYearDecommissioningUsd)}</span>.
+            </li>
+          </ul>
+          <p className="doc-note">All of these are Dummy values on the Assumptions page until real costs arrive.</p>
         </section>
 
         <section className="doc-section" aria-labelledby="m-breakeven">

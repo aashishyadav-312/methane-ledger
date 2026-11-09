@@ -2,7 +2,8 @@
 // Only the names and the grouping are written here.
 
 import { z } from 'zod';
-import { getConstantsRecord, getSettingsRecord, getTechRecord } from '../../data/load';
+import { getConstantsRecord, getCosts, getSettingsRecord, getTechRecord, listMines } from '../../data/load';
+import { buildRegistry, valueAt } from '../../data/registry';
 import {
   ConstantsRecordSchema,
   SettingsRecordSchema,
@@ -139,6 +140,33 @@ export function techTables(): AssumptionTable[] {
       rows: Object.keys(labels).map((k) => row(`tech.${group}.${k}`, labels[k], fields[k], true)),
     };
   });
+}
+
+/**
+ * The cost build-up parameters, one table per registry section. Labels, units, sources and quality come from
+ * `src/data/registry.ts`; values come from `getCosts()`. Shares show as percentages. They are read-only here.
+ */
+export function costsTables(): AssumptionTable[] {
+  const costs = getCosts();
+  const entries = buildRegistry(listMines()[0]).filter((e) => e.path.startsWith('costs.'));
+  const tables = new Map<string, AssumptionRow[]>();
+  for (const e of entries) {
+    const raw = valueAt(costs, e.path.slice('costs.'.length));
+    if (typeof raw !== 'number') continue;
+    const section = e.section ?? 'Costs';
+    const rows = tables.get(section) ?? [];
+    rows.push({
+      path: e.path,
+      label: e.label,
+      value: e.format === 'pct' ? Number((raw * 100).toPrecision(12)) : raw,
+      unit: e.unit,
+      source: e.source,
+      quality: e.quality,
+      editable: false,
+    });
+    tables.set(section, rows);
+  }
+  return [...tables].map(([title, rows]) => ({ id: `costs-${title.toLowerCase().replace(/[^a-z]+/g, '-')}`, title, rows }));
 }
 
 export function constantsTable(): AssumptionTable {

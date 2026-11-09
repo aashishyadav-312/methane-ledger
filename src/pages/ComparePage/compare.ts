@@ -148,7 +148,7 @@ export function buildEntries(
     const base = mineBase(record, overrides);
     const view = entryView(base, focusView, record.id === FOCUS_MINE_ID);
     const input = entryInput(base, view, overrides);
-    const result = evaluate(input, entrySettings(base, view), base.tech, base.constants);
+    const result = evaluate(input, entrySettings(base, view), base.tech, base.constants, base.costs);
     const abatable = result.abatable && result.breakevenUsdPerT !== null;
     return {
       id: record.id,
