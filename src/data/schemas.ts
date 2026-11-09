@@ -305,5 +305,11 @@ export const TimelineEntrySchema = z.object({
 });
 export type TimelineEntry = z.infer<typeof TimelineEntrySchema>;
 
-export const ClosureTimelineSchema = z.record(text, TimelineEntrySchema);
+/** Mine entries keyed by ID. The Step 1 pipeline also writes a `_meta` block (sources, date), which is dropped. */
+export const ClosureTimelineSchema = z.preprocess((raw) => {
+  if (typeof raw !== 'object' || raw === null || Array.isArray(raw)) return raw;
+  const { _meta, ...entries } = raw as Record<string, unknown>;
+  void _meta;
+  return entries;
+}, z.record(text, TimelineEntrySchema));
 export type ClosureTimeline = z.infer<typeof ClosureTimelineSchema>;
