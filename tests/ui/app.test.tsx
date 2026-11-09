@@ -80,7 +80,27 @@ describe('Header', () => {
     goTo('#/sources');
     expect(current()).toEqual(['Sources']);
     goTo('#/compare');
+    expect(current()).toEqual(['Compare']);
+    goTo('#/data');
+    expect(current()).toEqual(['Data']);
+    goTo('#/assumptions');
+    expect(current()).toEqual(['Assumptions']);
+    goTo('#/ui');
     expect(current()).toEqual([]);
+  });
+
+  it('links to every content page', () => {
+    render(<App />);
+    const nav = screen.getByRole('navigation', { name: 'Main' });
+    const links = Array.from(nav.querySelectorAll('a')).map((a) => [a.textContent, a.getAttribute('href')]);
+    expect(links).toEqual([
+      ['Map', '#/'],
+      ['Compare', '#/compare'],
+      ['Data', '#/data'],
+      ['Method', '#/method'],
+      ['Assumptions', '#/assumptions'],
+      ['Sources', '#/sources'],
+    ]);
   });
 
   it('shows the research preview tag and the footer lines', () => {

@@ -31,7 +31,10 @@ const TITLES: Record<Route['name'], string> = {
 const NAV_FOR_ROUTE: Partial<Record<Route['name'], NavKey>> = {
   map: 'map',
   mine: 'map',
+  compare: 'compare',
+  data: 'data',
   method: 'method',
+  assumptions: 'assumptions',
   sources: 'sources',
 };
 

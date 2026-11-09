@@ -1,8 +1,11 @@
-export type NavKey = 'map' | 'method' | 'sources';
+export type NavKey = 'map' | 'compare' | 'data' | 'method' | 'assumptions' | 'sources';
 
 const NAV: readonly { key: NavKey; label: string; href: string }[] = [
   { key: 'map', label: 'Map', href: '#/' },
+  { key: 'compare', label: 'Compare', href: '#/compare' },
+  { key: 'data', label: 'Data', href: '#/data' },
   { key: 'method', label: 'Method', href: '#/method' },
+  { key: 'assumptions', label: 'Assumptions', href: '#/assumptions' },
   { key: 'sources', label: 'Sources', href: '#/sources' },
 ];
 
