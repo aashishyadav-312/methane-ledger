@@ -333,7 +333,7 @@ describe('technology library, constants and settings', () => {
       contingency: 0.15,
       grantShare: 0,
       usdToInr: 95,
-      costModel: 'v1', // temporary: pages do not pass cost parameters yet (see getSettings in src/data/load.ts)
+      costModel: 'buildup',
     });
   });
 

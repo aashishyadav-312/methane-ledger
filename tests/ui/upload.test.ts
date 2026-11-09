@@ -18,7 +18,10 @@ import {
   parseCell,
   type Assignment,
 } from '../../src/pages/DataPage/upload';
-import golden from '../golden/moonidih_wb2034.json';
+import costsGolden from '../golden/costs_v1_1.json';
+
+// The pages default to the cost build-up, so the matching case is the build-up one.
+const golden = costsGolden.moonidih_2034_default;
 
 const file = (name: string) => readFileSync(resolve(process.cwd(), 'public/templates', name), 'utf8');
 const INPUTS = file('mine_inputs_template.csv');
@@ -37,7 +40,7 @@ function asOverrides(assignments: Assignment[]): Overrides {
 function runMoonidih(overrides: Overrides): { input: MineInput; result: Result } {
   const base = mineBase(MOONIDIH, overrides);
   const input = entryInput(base, base.defaults, overrides);
-  return { input, result: evaluate(input, base.settings, base.tech, base.constants) };
+  return { input, result: evaluate(input, base.settings, base.tech, base.constants, base.costs) };
 }
 
 describe('templates', () => {

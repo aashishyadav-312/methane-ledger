@@ -25,30 +25,31 @@ test.describe('Compare', () => {
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('Which mines pay?');
     await expect(page.getByTestId('supply-curve').locator('svg')).toBeVisible();
     await expect(headline(page)).toHaveText(
-      /^At \$15 a tonne, 3 of 6 mines and archetypes break even, cutting \d+\.\d{2} MtCO2e over 10 years\.$/,
+      /^At \$15 a tonne, 2 of 6 mines and archetypes break even, cutting \d+\.\d{2} MtCO2e over 10 years\.$/,
     );
     expect(errors).toEqual([]);
   });
 
-  test('at $15 the paying set is Moonidih and the two Degree III cases; Degree II sits just above', async ({
+  // The pages default to the cost build-up (Step 13c), so these are build-up numbers.
+  test('at $15 the paying set is Moonidih and Degree III underground; Degree III closing sits just above', async ({
     page,
   }) => {
     await page.goto('#/compare');
-    for (const id of ['bccl-moonidih', 'archetype-degree-3-ug', 'archetype-degree-3-closing']) {
+    for (const id of ['bccl-moonidih', 'archetype-degree-3-ug']) {
       await expect(bar(page, id)).toHaveAttribute('data-pays', 'true');
     }
-    await expect(bar(page, 'archetype-degree-2-ug')).toHaveAttribute('data-pays', 'false');
-    await expect(page.getByTestId('rank-archetype-degree-2-ug')).toContainText('$15.28');
-    await expect(page.getByTestId('rank-archetype-degree-2-ug')).toContainText('Short by $0.28');
+    await expect(bar(page, 'archetype-degree-3-closing')).toHaveAttribute('data-pays', 'false');
+    await expect(page.getByTestId('rank-archetype-degree-3-closing')).toContainText('$18.55');
+    await expect(page.getByTestId('rank-archetype-degree-3-closing')).toContainText('Short by $3.55');
   });
 
   test('moving the price changes the headline count', async ({ page }) => {
     await page.goto('#/compare');
-    await priceBox(page).fill('16');
-    await expect(headline(page)).toContainText('At $16 a tonne, 4 of 6 mines and archetypes break even');
-    await expect(bar(page, 'archetype-degree-2-ug')).toHaveAttribute('data-pays', 'true');
+    await priceBox(page).fill('19');
+    await expect(headline(page)).toContainText('At $19 a tonne, 3 of 6 mines and archetypes break even');
+    await expect(bar(page, 'archetype-degree-3-closing')).toHaveAttribute('data-pays', 'true');
     await priceBox(page).fill('5');
-    await expect(headline(page)).toContainText('At $5 a tonne, 2 of 6 mines and archetypes break even');
+    await expect(headline(page)).toContainText('At $5 a tonne, 1 of 6 mines and archetypes break even');
     await priceBox(page).fill('0.5');
     await expect(headline(page)).toHaveText('At $0.50 a tonne, none of the 6 mines and archetypes break even.');
   });

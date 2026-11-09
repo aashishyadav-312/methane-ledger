@@ -1,7 +1,7 @@
 import { act, cleanup, render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
-import golden from '../golden/moonidih_wb2034.json';
+import costsGolden from '../golden/costs_v1_1.json';
 import { AssumptionsPage } from '../../src/pages/AssumptionsPage';
 import { MethodPage } from '../../src/pages/MethodPage';
 import { workedCase } from '../../src/pages/MethodPage/worked';
@@ -41,15 +41,18 @@ describe.each(PAGES)('$name page', ({ Page, h1 }) => {
   });
 });
 
+// The Method page defaults to the cost build-up, so the matching case is the build-up one.
+const golden = costsGolden.moonidih_2034_default;
+
 describe('Method page', () => {
-  it('stays under 900 words above the fold-out', () => {
+  it('stays under 1000 words above the fold-out', () => {
     const { container } = render(<MethodPage />);
     const clone = container.cloneNode(true) as HTMLElement;
     clone.querySelectorAll('details, .sr-only').forEach((n) => n.remove());
     const words = (clone.textContent ?? '').split(/\s+/).filter(Boolean).length;
     // The count is reported in the PR.
     console.info(`Method page words above the fold-out: ${words}`);
-    expect(words).toBeLessThan(900);
+    expect(words).toBeLessThan(1000); // was 900 before the "What the costs include" section (Step 13c)
   });
 
   it('keeps technical detail in one closed <details>', () => {

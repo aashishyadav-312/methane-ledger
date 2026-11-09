@@ -74,17 +74,17 @@ function withPrices(prices: PriceScenario[], changes: PanelChanges): PriceScenar
   });
 }
 
-/**
- * v1's all-in unit costs with no panel changes. The Compare page (and its tests) build mine bases with this
- * until they pass cost parameters to the model; the mine page passes its own panel state.
- */
-export const V1_PANEL: PanelState = Object.freeze({ costModel: 'v1', changes: Object.freeze({}) });
+/** The file's cost basis with no panel changes: what the Compare page and the Method page use. */
+export const DEFAULT_PANEL: PanelState = Object.freeze({
+  costModel: getDefaultSettings().costModel ?? 'v1',
+  changes: Object.freeze({}),
+});
 
 /**
  * The fixed inputs and the default view for a mine. Layers, last wins: the data files, the session overrides
  * (Assumptions and Data pages), then the "All assumptions" panel changes from the link (`x=`, `cm=`).
  */
-export function mineBase(record: MineRecord, overrides: Overrides, panel: PanelState = V1_PANEL): MineBase {
+export function mineBase(record: MineRecord, overrides: Overrides, panel: PanelState = DEFAULT_PANEL): MineBase {
   const layer = <T extends object>(target: T, sessionPrefix: string, panelPrefix = sessionPrefix): T =>
     applyOverrides(applyOverrides(target, overrides, sessionPrefix), panel.changes, panelPrefix);
   const settings: Settings = { ...layer(getDefaultSettings(), 'settings'), costModel: panel.costModel };

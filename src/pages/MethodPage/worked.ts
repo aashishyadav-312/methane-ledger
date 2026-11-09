@@ -1,8 +1,20 @@
 // The worked example on the Method page: Moonidih on the default inputs, run through `evaluate` once.
 // Every number in the page copy comes from here, from the data files, or from the model constants.
 
-import { getConstants, getMapData, getMineInput, getPrices, getSettings, getTech, getTimeline } from '../../data/load';
-import { evaluate, EXPLOSIVE_RANGE_CONC, THOUSAND_M3_PER_MM3, type MineInput, type Result, type StreamResult } from '../../model';
+import { getConstants, getCosts, getMapData, getMineInput, getPrices, getSettings, getTech, getTimeline } from '../../data/load';
+import {
+  COST_CATEGORIES,
+  evaluate,
+  EXPLOSIVE_RANGE_CONC,
+  OPEX_TYPES,
+  THOUSAND_M3_PER_MM3,
+  type CostCategory,
+  type CostParams,
+  type MineInput,
+  type OpexType,
+  type Result,
+  type StreamResult,
+} from '../../model';
 import { explain, type Explanation } from '../../model/explain';
 
 export const MINE_ID = 'bccl-moonidih';
@@ -73,6 +85,15 @@ export interface WorkedCase {
     yearAtTarget: number | null;
   };
   benchmarkLabels: string[];
+  /** The cost build-up for the example (Appendix G): parameters, capex by category and year-1 opex by type. */
+  costs: {
+    params: CostParams;
+    usdToInr: number;
+    capexUsd: number;
+    capexByCategoryUsd: Record<CostCategory, number>;
+    year1OpexByTypeUsd: Record<OpexType, number>;
+    lastYearDecommissioningUsd: number;
+  };
 }
 
 let cached: WorkedCase | null = null;
@@ -80,23 +101,25 @@ let cached: WorkedCase | null = null;
 export function workedCase(): WorkedCase {
   if (cached) return cached;
   const settings = getSettings();
+  const costParams = getCosts();
   const tech = getTech();
   const constants = getConstants();
   const mine = getMineInput(MINE_ID);
   if (!mine) throw new Error(`data/mines.json has no mine "${MINE_ID}"`);
 
-  const result = evaluate(mine, settings, tech, constants);
-  const explanation = explain(mine, settings, tech, constants);
+  const result = evaluate(mine, settings, tech, constants, costParams);
+  const explanation = explain(mine, settings, tech, constants, costParams);
 
   const target = getMineInput(MINE_ID, { closureYear: workbookTargetYear() ?? mine.closureYear });
   const targetYear = workbookTargetYear();
-  const targetResult = target && targetYear !== null ? evaluate(target, settings, tech, constants) : null;
+  const targetResult = target && targetYear !== null ? evaluate(target, settings, tech, constants, costParams) : null;
 
   const mandated = evaluate(
     { ...mine, destructionMandated: { ...mine.destructionMandated, drained: true } },
     settings,
     tech,
     constants,
+    costParams,
   );
 
   const drainedStream = result.streams.find((s) => s.kind === 'drained');
@@ -104,6 +127,13 @@ export function workedCase(): WorkedCase {
   const year1 = result.years[0].byStream.drained;
   const timeline = getTimeline()[MINE_ID];
   const map = getMapData();
+
+  const breakdown = result.costs;
+  if (!breakdown) throw new Error('The Moonidih example needs the cost build-up (settings.costModel "buildup")');
+  const year1OpexByTypeUsd = Object.fromEntries(OPEX_TYPES.map((t) => [t, breakdown.opexByType[t][0]])) as Record<
+    OpexType,
+    number
+  >;
 
   cached = {
     mine,
@@ -148,6 +178,17 @@ export function workedCase(): WorkedCase {
       runoutYear: timeline?.runoutYear ?? null,
       targetFy2627Mt: timeline?.targetFy2627Mt ?? null,
       yearAtTarget: timeline?.yearAtTarget ?? null,
+    },
+    costs: {
+      params: costParams,
+      usdToInr: settings.usdToInr,
+      capexUsd: result.capexUsd,
+      capexByCategoryUsd: Object.fromEntries(COST_CATEGORIES.map((c) => [c, breakdown.capexByCategory[c]])) as Record<
+        CostCategory,
+        number
+      >,
+      year1OpexByTypeUsd,
+      lastYearDecommissioningUsd: breakdown.opexByType.decommissioning[breakdown.opexByType.decommissioning.length - 1],
     },
     benchmarkLabels: getPrices()
       .filter((p) => p.badge?.kind === 'benchmark')

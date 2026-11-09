@@ -5,7 +5,6 @@ import type { RulerTick } from '../../components/charts/PriceRuler';
 import {
   getConstantsRecord,
   getCostsRecord,
-  getDefaultSettings,
   getMapData,
   getMine,
   getSettingsRecord,
@@ -53,7 +52,7 @@ import { decodePageView, encodePage, type PageView, type StructureKey } from './
 import { Charts, Metrics, MoreCharts, ResultCard, StreamTable, WhoPays } from './Results';
 import { structureView } from './structures';
 import { makeUnits } from './units';
-import { mineBase, useMineModel, type MineBase } from './useMineModel';
+import { DEFAULT_PANEL, mineBase, useMineModel, type MineBase } from './useMineModel';
 import './mine.css';
 
 export function MinePage() {
@@ -180,8 +179,7 @@ function hasIllustrativeInputs(record: MineRecord, view: MineView, defaults: Min
 }
 
 /** The cost basis in `data/settings.default.json` ("buildup"): the mine page's default. */
-const DEFAULT_COST_MODEL: CostBasis = getDefaultSettings().costModel ?? 'v1';
-const DEFAULT_PANEL: PanelState = Object.freeze({ costModel: DEFAULT_COST_MODEL, changes: Object.freeze({}) });
+const DEFAULT_COST_MODEL: CostBasis = DEFAULT_PANEL.costModel;
 
 function panelContext(entries: RegistryEntry[]): PanelContext {
   const byPath = new Map(entries.map((e) => [e.path, e]));
