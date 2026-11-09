@@ -6,6 +6,8 @@
   { "name": "ui-1440", "path": "#/ui", "w": 1440, "h": 900, "fullPage": true },
   { "name": "ui-390", "path": "#/ui", "w": 390, "h": 844, "fullPage": true },
   { "name": "method-1440", "path": "#/method", "w": 1440, "h": 900, "fullPage": false },
+  { "name": "method-390", "path": "#/method", "w": 390, "h": 844, "fullPage": false },
+  { "name": "assumptions-1440", "path": "#/assumptions", "w": 1440, "h": 900, "fullPage": false },
   { "name": "compare-1440", "path": "#/compare", "w": 1440, "h": 900, "fullPage": false },
   { "name": "data-1440", "path": "#/data", "w": 1440, "h": 900, "fullPage": false }
 ]

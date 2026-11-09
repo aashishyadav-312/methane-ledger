@@ -1,0 +1,181 @@
+/* Reading pages (Method, Assumptions, Sources). Tokens only. */
+
+.doc-page {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.doc-head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 760px;
+}
+
+.doc-head .t-lede {
+  margin: 0;
+}
+
+.doc-body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 760px;
+}
+
+.doc-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.doc-section h2 {
+  margin: 0;
+}
+
+.doc-section p,
+.doc-section ul,
+.doc-section ol {
+  margin: 0;
+  font-size: var(--fs-body);
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.doc-section ul,
+.doc-section ol {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 22px;
+}
+
+.doc-section a {
+  color: var(--ink);
+  text-decoration-color: var(--line-strong);
+  text-underline-offset: 3px;
+}
+
+.doc-section a:hover {
+  text-decoration-color: var(--ink);
+}
+
+.doc-note {
+  color: var(--ink-2);
+}
+
+/* A formula set apart from the text. */
+.doc-formula {
+  margin: 0;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-tile);
+  background: var(--card);
+  font-family: var(--font-mono);
+  font-size: var(--fs-label);
+  line-height: 1.6;
+  overflow-x: auto;
+}
+
+/* Tables: wide ones scroll inside their box on phones. */
+.doc-table-wrap {
+  overflow-x: auto;
+}
+
+.doc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-label);
+}
+
+.doc-table caption {
+  padding-bottom: 8px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.doc-table thead th {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-3);
+  font-size: var(--fs-caps);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.doc-table th[scope='row'],
+.doc-table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--track);
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+
+.doc-table th[scope='row'] {
+  font-weight: 600;
+}
+
+.doc-table tr > :first-child {
+  padding-left: 0;
+}
+
+.doc-table tr > :last-child {
+  padding-right: 0;
+}
+
+.doc-table .num-col {
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* The fold-out for technical detail. */
+.doc-details {
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+  background: var(--card);
+}
+
+.doc-details > summary {
+  display: flex;
+  align-items: center;
+  min-height: var(--hit);
+  padding: 8px var(--card-pad);
+  font-size: var(--fs-label);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.doc-details[open] > summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.doc-details-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: var(--card-pad);
+}
+
+.doc-details-body h3 {
+  margin: 0;
+  font-size: var(--fs-body);
+  font-weight: 600;
+}
+
+.doc-details-body p {
+  margin: 0;
+  font-size: var(--fs-body);
+  line-height: 1.5;
+}
+
+.doc-details-body > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

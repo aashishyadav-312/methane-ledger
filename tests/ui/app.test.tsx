@@ -25,7 +25,7 @@ describe('App routing', () => {
     goTo('#/mine/bccl-moonidih?p=15');
     expect(screen.getByRole('heading', { level: 1 }).textContent).toBe('Moonidih');
     goTo('#/method');
-    expect(screen.getByRole('heading', { level: 1 }).textContent).toBe('MethodPage');
+    expect(screen.getByRole('heading', { level: 1 }).textContent).toBe('How the model works');
     goTo('#/ui');
     expect(screen.getByRole('heading', { level: 1 }).textContent).toBe('Component gallery');
   });
