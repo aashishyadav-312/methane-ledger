@@ -1,5 +1,6 @@
-import type { Constants, MineInput, Settings, TechLibrary } from '../model/types';
+import type { Constants, CostParams, MineInput, Settings, TechLibrary } from '../model/types';
 import constantsJson from '../../data/constants.json';
+import costsJson from '../../data/costs.json';
 import minesJson from '../../data/mines.json';
 import pricesJson from '../../data/prices.json';
 import settingsJson from '../../data/settings.default.json';
@@ -9,16 +10,19 @@ import minesMapJson from '../generated/mines_map.json';
 import {
   ClosureTimelineSchema,
   ConstantsRecordSchema,
+  CostsRecordSchema,
   MapDataSchema,
   MineRecordsSchema,
   PriceScenariosSchema,
-  SettingsRecordSchema,
+  SettingsFileSchema,
   TechRecordSchema,
   type ClosureTimeline,
   type ConstantsRecord,
+  type CostsRecord,
   type MapData,
   type MineRecord,
   type PriceScenario,
+  type CostModelRecord,
   type SettingsRecord,
   type TechRecord,
 } from './schemas';
@@ -31,18 +35,23 @@ export interface DataBundle {
   prices: PriceScenario[];
   constants: ConstantsRecord;
   settings: SettingsRecord;
+  costModel: CostModelRecord;
+  costs: CostsRecord;
   timeline: ClosureTimeline;
   map: MapData;
 }
 
 /** Validates every data file. Throws a `DataValidationError` naming the first bad file. */
 export function loadAll(): DataBundle {
+  const { costModel, ...settings } = parseData('data/settings.default.json', SettingsFileSchema, settingsJson);
   return {
     mines: parseData('data/mines.json', MineRecordsSchema, minesJson),
     tech: parseData('data/technologies.json', TechRecordSchema, technologiesJson),
     prices: parseData('data/prices.json', PriceScenariosSchema, pricesJson),
     constants: parseData('data/constants.json', ConstantsRecordSchema, constantsJson),
-    settings: parseData('data/settings.default.json', SettingsRecordSchema, settingsJson),
+    settings,
+    costModel,
+    costs: parseData('data/costs.json', CostsRecordSchema, costsJson),
     timeline: parseData('src/generated/closure_timeline.json', ClosureTimelineSchema, closureTimelineJson),
     map: parseData('src/generated/mines_map.json', MapDataSchema, minesMapJson),
   };
@@ -75,13 +84,38 @@ export function getPrices(): PriceScenario[] {
   return DATA.prices;
 }
 
-/** The default settings as plain numbers, for `evaluate`. */
+/**
+ * The default settings as plain numbers, on v1's all-in unit costs.
+ *
+ * TEMPORARY (Step 13a): the pages call `evaluate` without cost parameters, so this keeps `costModel` at "v1" and
+ * the pages show the same numbers as before. The India build-up is in `getDefaultSettings()` and `getCosts()`.
+ * When a page passes `getCosts()` to the model, it switches to `getDefaultSettings()`.
+ */
 export function getSettings(): Settings {
-  return unwrap(DATA.settings);
+  return { ...unwrap(DATA.settings), costModel: 'v1' };
+}
+
+/** The default settings exactly as `data/settings.default.json` has them, including the cost basis ("buildup"). */
+export function getDefaultSettings(): Settings {
+  return { ...unwrap(DATA.settings), costModel: unwrap(DATA.costModel) };
+}
+
+export function getCostModelRecord(): CostModelRecord {
+  return DATA.costModel;
 }
 
 export function getSettingsRecord(): SettingsRecord {
   return DATA.settings;
+}
+
+/** The cost build-up parameters as plain numbers, for `evaluate` (pass them when `settings.costModel` is "buildup"). */
+export function getCosts(): CostParams {
+  return unwrap(DATA.costs);
+}
+
+/** The cost build-up parameters with unit, source and quality, for the Assumptions page. */
+export function getCostsRecord(): CostsRecord {
+  return DATA.costs;
 }
 
 export function getConstants(): Constants {

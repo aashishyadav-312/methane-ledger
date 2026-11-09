@@ -81,6 +81,59 @@ export const SettingsRecordSchema = z.strictObject({
 });
 export type SettingsRecord = z.infer<typeof SettingsRecordSchema>;
 
+/** The cost basis. Missing means "v1" in the model; `data/settings.default.json` sets it to "buildup". */
+export const CostModelRecordSchema = field(z.enum(['v1', 'buildup']));
+export type CostModelRecord = z.infer<typeof CostModelRecordSchema>;
+
+/** The whole of `settings.default.json`: the numeric settings plus the cost basis. */
+export const SettingsFileSchema = SettingsRecordSchema.extend({ costModel: CostModelRecordSchema });
+export type SettingsFile = z.infer<typeof SettingsFileSchema>;
+
+/* ---------- costs.json (PLAN_V1 Appendix G) ---------- */
+
+const headcount = z.number().int().min(0);
+const shares = z
+  .tuple([fraction, fraction, fraction, fraction])
+  .refine((s) => Math.abs(s.reduce((a, b) => a + b, 0) - 1) < 1e-9, 'expected four shares that sum to 1');
+
+export const CostsRecordSchema = z.strictObject({
+  localFactor: field(positive),
+  importMarkup: field(nonNegative),
+  ownersCost: field(nonNegative),
+  gridConnectionUsd: field(nonNegative),
+  decommissioning: field(nonNegative),
+  insurance: field(nonNegative),
+  staffCostInr: field(nonNegative),
+  headcount: z.strictObject({
+    power: field(headcount),
+    flare: field(headcount),
+    rto: field(headcount),
+    drainage: field(headcount),
+    monitoring: field(headcount),
+  }),
+  split: z.strictObject({
+    power: field(shares),
+    flare: field(shares),
+    rto: field(shares),
+    drainage: field(shares),
+  }),
+  imported: z.strictObject({
+    power: field(fraction),
+    flare: field(fraction),
+    rto: field(fraction),
+    drainage: field(fraction),
+  }),
+  nonlabourOm: z.strictObject({
+    powerPerMwh: field(nonNegative),
+    flareFrac: field(fraction),
+    rtoFrac: field(fraction),
+    drainageFrac: field(fraction),
+  }),
+  overhaulUsdPerKw: field(nonNegative),
+  overhaulHours: field(positive),
+});
+export type CostsRecord = z.infer<typeof CostsRecordSchema>;
+
 /* ---------- prices.json ---------- */
 
 export const PRICE_BADGE_KINDS = ['sellable_now', 'sellable_later', 'benchmark'] as const;

@@ -22,7 +22,8 @@ export const REFERENCE_SETTINGS: Settings = {
   verificationCostUsdPerYr: 50_000,
   contingency: 0.15,
   grantShare: 0,
-  usdToInr: 85, // placeholder, not used by the model
+  usdToInr: 85, // placeholder; only the cost build-up uses it
+  costModel: 'v1', // the goldens in tests/golden/*_v1.json use v1's all-in unit costs
 };
 
 /** Reference technology library. Source: reference/cmm_model.py `TECH` and `Settings.monitoring_capex` (DUMMY). */

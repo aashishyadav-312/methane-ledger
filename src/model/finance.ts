@@ -1,4 +1,4 @@
-import type { Settings } from './types';
+import type { CostBreakdown, Settings } from './types';
 import { IRR_SEARCH } from './constants';
 import type { StreamCashflow } from './cashflow';
 
@@ -63,6 +63,8 @@ export interface ProjectComponents {
   energyRevUsd: number[];
   opexUsd: number[];
   mrvUsd: number[];
+  /** Present on the cost build-up: capex by item and category, and opex by type. `opexUsd` is the sum of the types. */
+  costs?: CostBreakdown;
 }
 
 /** Price_t = P x (1 + escalation)^(t - 1). */

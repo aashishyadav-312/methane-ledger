@@ -1,0 +1,166 @@
+{
+  "localFactor": {
+    "value": 0.6,
+    "unit": "× (1 = same as the source-country basis of the v1 unit costs)",
+    "source": "DUMMY. Indian installation labour and civil works against the US, Chinese and global basis of the v1 unit costs; replace with Coal India or CMPDI costs (PLAN_V1 Appendix G)",
+    "quality": "dummy"
+  },
+  "importMarkup": {
+    "value": 0.15,
+    "unit": "fraction of imported equipment cost",
+    "source": "DUMMY. Customs duty, freight and insurance on imported equipment (PLAN_V1 Appendix G)",
+    "quality": "dummy"
+  },
+  "ownersCost": {
+    "value": 0.1,
+    "unit": "fraction of direct capex",
+    "source": "DUMMY. Engineering, permits and project management (PLAN_V1 Appendix G)",
+    "quality": "dummy"
+  },
+  "gridConnectionUsd": {
+    "value": 800000,
+    "unit": "USD, only if a stream makes power",
+    "source": "DUMMY. Transformer, line and connection charges (PLAN_V1 Appendix G)",
+    "quality": "dummy"
+  },
+  "decommissioning": {
+    "value": 0.05,
+    "unit": "fraction of project capex, paid in the last year",
+    "source": "DUMMY (PLAN_V1 Appendix G)",
+    "quality": "dummy"
+  },
+  "insurance": {
+    "value": 0.01,
+    "unit": "fraction of project capex per year",
+    "source": "DUMMY (PLAN_V1 Appendix G)",
+    "quality": "dummy"
+  },
+  "staffCostInr": {
+    "value": 900000,
+    "unit": "INR per person-year, fully loaded (9 lakh)",
+    "source": "DUMMY. Replace with Coal India payroll figures (PLAN_V1 Appendix G)",
+    "quality": "dummy"
+  },
+  "headcount": {
+    "power": {
+      "value": 12,
+      "unit": "people while the engines run",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "flare": {
+      "value": 2,
+      "unit": "people while the flare runs",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "rto": {
+      "value": 4,
+      "unit": "people while the oxidiser runs",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "drainage": {
+      "value": 6,
+      "unit": "people while a drainage stream runs",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "monitoring": {
+      "value": 1,
+      "unit": "people, every year",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    }
+  },
+  "split": {
+    "power": {
+      "value": [0.65, 0.1, 0.15, 0.1],
+      "unit": "shares of base cost: equipment, materials, installation labour, civil works (sum to 1)",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "flare": {
+      "value": [0.6, 0.15, 0.15, 0.1],
+      "unit": "shares of base cost: equipment, materials, installation labour, civil works (sum to 1)",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "rto": {
+      "value": [0.6, 0.15, 0.15, 0.1],
+      "unit": "shares of base cost: equipment, materials, installation labour, civil works (sum to 1)",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "drainage": {
+      "value": [0.3, 0.3, 0.25, 0.15],
+      "unit": "shares of base cost: equipment, materials, installation labour, civil works (sum to 1)",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    }
+  },
+  "imported": {
+    "power": {
+      "value": 1,
+      "unit": "fraction of equipment cost that is imported",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "flare": {
+      "value": 0.5,
+      "unit": "fraction of equipment cost that is imported",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "rto": {
+      "value": 1,
+      "unit": "fraction of equipment cost that is imported",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "drainage": {
+      "value": 0.3,
+      "unit": "fraction of equipment cost that is imported",
+      "source": "DUMMY (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    }
+  },
+  "nonlabourOm": {
+    "powerPerMwh": {
+      "value": 9,
+      "unit": "USD per MWh generated, without labour",
+      "source": "DUMMY. Replaces the $15 per MWh all-in figure of v1; labour is now in staff (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "flareFrac": {
+      "value": 0.03,
+      "unit": "fraction of stream capex per year, without labour",
+      "source": "DUMMY. Replaces the 5% all-in figure of v1 (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "rtoFrac": {
+      "value": 0.035,
+      "unit": "fraction of stream capex per year, without labour",
+      "source": "DUMMY. Replaces the 6% all-in figure of v1 (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    },
+    "drainageFrac": {
+      "value": 0.025,
+      "unit": "fraction of drainage base cost per year, without labour",
+      "source": "DUMMY. Replaces the 4% all-in figure of v1 (PLAN_V1 Appendix G)",
+      "quality": "dummy"
+    }
+  },
+  "overhaulUsdPerKw": {
+    "value": 250,
+    "unit": "USD per kW per overhaul",
+    "source": "DUMMY (PLAN_V1 Appendix G)",
+    "quality": "dummy"
+  },
+  "overhaulHours": {
+    "value": 60000,
+    "unit": "running hours between overhauls",
+    "source": "DUMMY (PLAN_V1 Appendix G)",
+    "quality": "dummy"
+  }
+}

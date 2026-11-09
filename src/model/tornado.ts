@@ -1,4 +1,4 @@
-import type { Constants, MineInput, Settings, TechLibrary } from './types';
+import type { Constants, CostParams, MineInput, Settings, TechLibrary } from './types';
 import { breakevenUsdPerT } from './finance';
 import { mineComponents } from './waterfall';
 
@@ -178,8 +178,10 @@ export function tornado(
   tech: TechLibrary,
   constants: Constants,
   params: TornadoParams = TORNADO_DEFAULTS,
+  costs?: CostParams,
 ): TornadoResult {
-  const breakeven = (s: Scenario) => breakevenUsdPerT(mineComponents(s.mine, s.settings, s.tech, constants), s.settings);
+  const breakeven = (s: Scenario) =>
+    breakevenUsdPerT(mineComponents(s.mine, s.settings, s.tech, constants, costs), s.settings);
   const start: Scenario = { mine, settings, tech };
   const rows = specs(mine, settings, params).map((spec): TornadoRow => {
     const lowCaseUsdPerT = breakeven(spec.apply(start, spec.range.low));

@@ -1,4 +1,4 @@
-import type { Constants, MineInput, Settings, TechLibrary } from './types';
+import type { Constants, CostParams, MineInput, Settings, TechLibrary } from './types';
 import { breakevenUsdPerT, irr, npv, priceByYear, pv, type ProjectComponents } from './finance';
 import { mineComponents } from './waterfall';
 
@@ -146,12 +146,15 @@ export function financing(
   tech: TechLibrary,
   constants: Constants,
   params: FinancingParams = FIN_DEFAULTS,
+  costs?: CostParams,
 ): FinancingResult {
   const r = settings.discountRate;
   const n = settings.creditingYears;
   const priceUsdPerT = settings.creditPriceUsdPerT;
-  const noGrant = mineComponents(mine, { ...settings, grantShare: 0 }, tech, constants);
-  const c: ProjectComponents = { ...noGrant, capexUsd: noGrant.capexUsd * (1 - settings.grantShare) };
+  // The grant changes capex, and on the cost build-up also insurance and decommissioning, so each grant share gets
+  // its own pass through `projectFlows` instead of scaling capex afterwards.
+  const noGrant = mineComponents(mine, { ...settings, grantShare: 0 }, tech, constants, costs);
+  const c: ProjectComponents = mineComponents(mine, settings, tech, constants, costs);
   const flows = flowsAt(c, settings, priceUsdPerT);
 
   // A. Coal India funds it.
@@ -241,7 +244,7 @@ export function financing(
 
   // E. A grant covers part of capex. The grant replaces any grant in the settings.
   const grossCapexUsd = noGrant.capexUsd;
-  const cE: ProjectComponents = { ...noGrant, capexUsd: grossCapexUsd * (1 - params.grantShare) };
+  const cE: ProjectComponents = mineComponents(mine, { ...settings, grantShare: params.grantShare }, tech, constants, costs);
   const E: StructureE = {
     structure: 'E',
     ...base(flowsAt(cE, settings, priceUsdPerT).cashUsd, r, breakevenUsdPerT(cE, settings)),
