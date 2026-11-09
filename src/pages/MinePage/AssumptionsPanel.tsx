@@ -26,6 +26,8 @@ export interface AssumptionsPanelProps {
   gwpOptions: readonly number[];
   chips: PriceChip[];
   overrideCount: number;
+  /** Id for the grant control, so the financing card can point to it. */
+  grantControlId?: string;
   onChange: (patch: Partial<MineView>) => void;
   onReset: () => void;
   onClearOverrides: () => void;
@@ -53,6 +55,7 @@ export function AssumptionsPanel({
   gwpOptions,
   chips,
   overrideCount,
+  grantControlId,
   onChange,
   onReset,
   onClearOverrides,
@@ -120,14 +123,16 @@ export function AssumptionsPanel({
           value={view.drainedUse}
           onChange={(drainedUse) => onChange({ drainedUse })}
         />
-        <Segmented
-          label="Grant toward the build cost"
-          options={numberSegments(withDefault(GRANT_OPTIONS, defaults.grantShare), (x) =>
-            x === 0 ? 'None' : pct(x, 0),
-          )}
-          value={String(view.grantShare)}
-          onChange={(v) => onChange({ grantShare: Number(v) })}
-        />
+        <div id={grantControlId} className="mine-grant">
+          <Segmented
+            label="Grant toward the build cost"
+            options={numberSegments(withDefault(GRANT_OPTIONS, defaults.grantShare), (x) =>
+              x === 0 ? 'None' : pct(x, 0),
+            )}
+            value={String(view.grantShare)}
+            onChange={(v) => onChange({ grantShare: Number(v) })}
+          />
+        </div>
       </div>
 
       <div className="mine-panel-section">

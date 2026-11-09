@@ -8,6 +8,10 @@ import {
   type Settings,
   type TechLibrary,
 } from '../../model';
+import { explain, type Explanation } from '../../model/explain';
+import { FIN_DEFAULTS, financing, type FinancingResult } from '../../model/financing';
+import { tornado, type TornadoResult } from '../../model/tornado';
+import { waterfall, type Waterfall } from '../../model/waterfall';
 import { getConstants, getSettings, getTech, getTimeline, unwrapMine } from '../../data/load';
 import type { MineRecord } from '../../data/schemas';
 import { applyOverrides, type Overrides } from '../../state/session';
@@ -80,6 +84,12 @@ export interface MineModel {
   result: Result;
   /** NPV at $0, $1, ... $40 (41 points). */
   npvCurve: NpvPoint[];
+  /** Structures A to E at your price. E's grant is the grant control. */
+  finance: FinancingResult;
+  /** The project break-even split into its parts; `null` when there are no reductions. */
+  waterfall: Waterfall | null;
+  tornado: TornadoResult;
+  explanation: Explanation;
 }
 
 const CURVE_PRICES_USD_PER_T = Array.from(
@@ -129,5 +139,21 @@ export function useMineModel(base: MineBase, view: MineView): MineModel {
     [input, settingsAtAnyPrice, base.tech, base.constants],
   );
 
-  return { input, settings, result, npvCurve };
+  // Structure E is a grant, so it takes the grant control's share (Step 8: "for E, links the grant control").
+  const finance = useMemo(
+    () => financing(input, settings, base.tech, base.constants, { ...FIN_DEFAULTS, grantShare }),
+    [input, settings, base.tech, base.constants, grantShare],
+  );
+
+  // The break-even does not depend on the price, so these stay put while the price moves.
+  const breakdown = useMemo(
+    () => ({
+      waterfall: waterfall(input, settingsAtAnyPrice, base.tech, base.constants),
+      tornado: tornado(input, settingsAtAnyPrice, base.tech, base.constants),
+      explanation: explain(input, settingsAtAnyPrice, base.tech, base.constants),
+    }),
+    [input, settingsAtAnyPrice, base.tech, base.constants],
+  );
+
+  return { input, settings, result, npvCurve, finance, ...breakdown };
 }

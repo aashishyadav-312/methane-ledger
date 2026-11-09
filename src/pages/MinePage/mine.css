@@ -196,6 +196,95 @@
   padding: 28px 32px 30px;
 }
 
+/* Unit toggles at the top of the result card */
+.mine-units {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px 12px;
+  margin-bottom: -10px;
+}
+
+.mine-units .field {
+  gap: 0;
+}
+
+.mine-units .segmented button {
+  min-width: 56px;
+  min-height: 32px;
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+.mine-fx {
+  font-size: 12px;
+}
+
+.mine-be-for {
+  color: var(--ink-3);
+  font-weight: 500;
+}
+
+/* Explain this number */
+.mine-explain {
+  border-top: 1px solid var(--line-soft);
+  padding-top: 14px;
+}
+
+.mine-explain-summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--hit);
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.mine-explain-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 6px;
+}
+
+.explain-formula {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.explain-symbol {
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.explain-terms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 6px 24px;
+  margin: 4px 0 0;
+}
+
+.explain-term {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 14px;
+}
+
+.explain-term dt {
+  flex: none;
+  min-width: 9em;
+}
+
+.explain-term dd {
+  margin: 0;
+  color: var(--ink-2);
+}
+
 .mine-result-head {
   display: flex;
   flex-wrap: wrap;
@@ -425,6 +514,33 @@
   font-weight: 600;
 }
 
+.mine-chart-tools {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+}
+
+.mine-png {
+  min-height: 32px;
+  font-size: 13px;
+}
+
+.mine-chart-wide {
+  flex-basis: 100%;
+}
+
+.mine-export {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+}
+
+.mine-export .control-note {
+  flex: 1 1 260px;
+}
+
 .mine-chart-unit {
   color: var(--ink-3);
   font-size: 12px;
@@ -433,12 +549,6 @@
 .chart-svg {
   display: block;
   overflow: visible;
-}
-
-.chart-bar {
-  transition:
-    y var(--dur-settle) var(--ease),
-    height var(--dur-settle) var(--ease);
 }
 
 .chart-axis {
@@ -490,6 +600,86 @@
   fill: var(--ink);
   stroke: var(--card);
   stroke-width: 3;
+}
+
+.chart-cash-pos {
+  fill: var(--stream-drained);
+}
+
+.chart-cash-neg {
+  fill: var(--short-fg);
+}
+
+.chart-cum-line {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+
+.chart-cum-dot {
+  fill: var(--ink);
+  stroke: var(--card);
+  stroke-width: 1.5;
+}
+
+.chart-key-cash {
+  background: var(--stream-drained);
+}
+
+.legend-key-line {
+  width: 16px;
+  height: 2px;
+  background: var(--ink);
+}
+
+.chart-row-label {
+  fill: var(--ink-2);
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+.chart-wf-up {
+  fill: var(--stream-drained);
+}
+
+.chart-wf-down {
+  fill: var(--range);
+}
+
+.chart-wf-total {
+  fill: var(--ink);
+}
+
+.chart-wf-total-text {
+  fill: var(--ink);
+  font-weight: 600;
+}
+
+.chart-wf-link {
+  stroke: var(--line-strong);
+  stroke-width: 1;
+  stroke-dasharray: 2 2;
+}
+
+.chart-tornado-low,
+.chart-key-low {
+  fill: var(--stream-vam);
+  background: var(--stream-vam);
+}
+
+.chart-tornado-high,
+.chart-key-high {
+  fill: var(--stream-drained);
+  background: var(--stream-drained);
+}
+
+.chart-bar {
+  transition:
+    x var(--dur-settle) var(--ease),
+    y var(--dur-settle) var(--ease),
+    width var(--dur-settle) var(--ease),
+    height var(--dur-settle) var(--ease);
 }
 
 /* Stream table */
@@ -560,7 +750,7 @@
   font-size: 13px;
 }
 
-/* Who could pay for it (filled in Step 8) */
+/* Who could pay for it (Step 8) */
 .mine-who {
   display: flex;
   flex-direction: column;
@@ -571,19 +761,40 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 10px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .mine-who-item {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 6px;
   min-height: 84px;
   padding: 14px;
   border: 1px solid var(--line);
   border-radius: 12px;
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    background-color var(--dur-settle) var(--ease),
+    border-color var(--dur-settle) var(--ease),
+    transform var(--dur-press) var(--ease);
+}
+
+.mine-who-item:hover {
+  border-color: var(--line-strong);
+}
+
+.mine-who-item:active {
+  transform: scale(0.98);
+}
+
+.mine-who-item[aria-checked='true'] {
+  border-color: var(--ink);
+  background: var(--paper);
+  box-shadow: inset 0 0 0 1px var(--ink);
 }
 
 .mine-who-key {
@@ -595,6 +806,48 @@
   font-size: 15px;
   font-weight: 600;
   line-height: 1.3;
+}
+
+.mine-who-text {
+  margin: 0;
+  max-width: 52em;
+  color: var(--ink-2);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.mine-who-link {
+  min-height: 0;
+  font-size: inherit;
+}
+
+.mine-who-alert {
+  margin: 0;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: var(--short-bg);
+  color: var(--short-fg);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.mine-who-note {
+  margin: 0;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: var(--ok-bg);
+  color: var(--ok-fg);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* As many columns as there are facts (one to three), so no cell is left empty. */
+.mine-who-facts .metric-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.mine-who-facts .metric-tile {
+  padding: 14px 16px;
 }
 
 .mine-footnote {
