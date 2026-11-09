@@ -19,7 +19,9 @@ afterEach(() => cleanup());
 describe('App routing', () => {
   it('renders the page for each route', () => {
     render(<App />);
-    expect(screen.getByRole('heading', { level: 1 }).textContent).toBe('MapPage');
+    expect(screen.getByRole('heading', { level: 1 }).textContent).toBe(
+      'Which closing mines can pay for their own methane?',
+    );
     goTo('#/mine/bccl-moonidih?p=15');
     expect(screen.getByRole('heading', { level: 1 }).textContent).toBe('Moonidih');
     goTo('#/method');
