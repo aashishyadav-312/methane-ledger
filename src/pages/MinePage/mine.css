@@ -221,6 +221,11 @@
   font-size: 12px;
 }
 
+.mine-fx-link {
+  min-height: 32px;
+  font-size: inherit;
+}
+
 .mine-be-for {
   color: var(--ink-3);
   font-weight: 500;

@@ -26,10 +26,13 @@ const sheet = (page: Page) => page.getByRole('dialog', { name: 'All assumptions'
 const tab = (page: Page, name: string) => sheet(page).getByRole('tab', { name: new RegExp(`^${name}`) });
 const numberBox = (page: Page, label: RegExp) => sheet(page).getByRole('spinbutton', { name: label });
 
+// toBeVisible() alone also passes for a sheet parked off screen, so every open checks it is in the viewport.
 async function openSheet(page: Page) {
   await openButton(page).click();
-  await expect(sheet(page)).toBeVisible();
+  await expect(sheet(page)).toBeInViewport({ ratio: 1 });
 }
+
+const GROUPS = ['Market', 'Mine and gas', 'Technology', 'Costs', 'Finance', 'Accounting'];
 
 /** The `x=` panel changes in a mine page URL: base64url of a JSON object of path to value. */
 function panelChanges(url: string): Record<string, unknown> {
@@ -40,6 +43,66 @@ function panelChanges(url: string): Record<string, unknown> {
 
 /** `$17.06M` to 17.06 (millions). */
 const millions = (text: string | null) => Number((text ?? '').replace(/[^0-9.]/g, ''));
+
+// These run against the production build: playwright.config.ts serves `vite preview` of dist/, as deployed.
+test('the button mounts the sheet: 85 rupees per dollar at 2030 is $11.64, Reset all gives back $11.54', async ({
+  page,
+}) => {
+  const errors = watchConsole(page);
+  await page.goto(MINE_2030);
+  await expect(breakeven(page)).toHaveText('$11.54');
+  await expect(page.getByText('Rupees per US dollar')).toHaveCount(0);
+  // Click the way a person does, after the page has settled. The live bug only showed then: a timer started at
+  // load fired before the click and unmounted the sheet straight after it opened. A click straight after load beat it.
+  await page.waitForLoadState('networkidle');
+
+  await openButton(page).click();
+  await expect(openButton(page)).toHaveAttribute('aria-expanded', 'true');
+  await expect(sheet(page)).toBeInViewport({ ratio: 1 });
+  for (const g of GROUPS) await expect(tab(page, g)).toBeVisible();
+  await expect(tab(page, 'Market')).toHaveAttribute('aria-selected', 'true');
+
+  await numberBox(page, /^Rupees per US dollar/).fill('85');
+  await expect(breakeven(page)).toHaveText('$11.64');
+  await expect(page.getByTestId('fx-rate')).toHaveText('at ₹85 per $');
+
+  // Reset all puts every value back, the 2030 closure basis included (the panel's default is current output).
+  await sheet(page).getByRole('button', { name: 'Reset all' }).click();
+  await expect(numberBox(page, /^Rupees per US dollar/)).toHaveValue('95');
+  await expect(page.getByTestId('fx-rate')).toHaveText('at ₹95 per $');
+  await sheet(page).getByRole('button', { name: 'Close' }).click();
+  await expect(sheet(page)).toBeHidden();
+  await page
+    .getByRole('complementary', { name: 'Assumptions' })
+    .getByRole('button', { name: /\(2030\)$/ })
+    .click();
+  await expect(breakeven(page)).toHaveText('$11.54');
+  expect(errors).toEqual([]);
+});
+
+test('the sheet shows even when the browser skips animation frames (a background tab)', async ({ page }) => {
+  // A string, as e2e/ has no DOM types: requestAnimationFrame callbacks never run.
+  await page.addInitScript('window.requestAnimationFrame = () => 0;');
+  await page.goto(MINE);
+  await page.waitForLoadState('networkidle');
+  await openSheet(page);
+  const box = numberBox(page, /^Rupees per US dollar/);
+  await box.scrollIntoViewIfNeeded();
+  await expect(box).toBeInViewport();
+});
+
+test('"Change" next to the rupee rate opens the sheet on Market', async ({ page }) => {
+  await page.goto(MINE);
+  await page.waitForLoadState('networkidle');
+  await expect(page.getByTestId('fx-rate')).toHaveText('at ₹95 per $');
+  const change = page.getByRole('button', { name: 'Change the rupee rate' });
+  await change.click();
+  await expect(sheet(page)).toBeInViewport({ ratio: 1 });
+  await expect(tab(page, 'Market')).toHaveAttribute('aria-selected', 'true');
+  await expect(numberBox(page, /^Rupees per US dollar/)).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(change).toBeFocused();
+});
 
 test('the sheet opens and closes by keyboard, and gives focus back', async ({ page }) => {
   const errors = watchConsole(page);
@@ -80,7 +143,7 @@ test('85 rupees per dollar at 2030 shows $11.64', async ({ page }) => {
   await expect(breakeven(page)).toHaveText('$11.64');
   // The 2030 closure year (cb=target) is one change from the default; the rupee rate is the second.
   await expect(page.getByTestId('adv-changed')).toHaveText('2 changed');
-  await expect(page.locator('.mine-fx')).toContainText('at ₹85 per $');
+  await expect(page.getByTestId('fx-rate')).toHaveText('at ₹85 per $');
 });
 
 test('a local factor of 1.0 at 2030 shows $14.10', async ({ page }) => {

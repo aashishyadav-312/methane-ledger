@@ -1,4 +1,5 @@
 import { useEffect, useId, useLayoutEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react';
+import { createPortal } from 'react-dom';
 import { REGISTRY_GROUPS, type RegistryEntry, type RegistryGroup } from '../../data/registry';
 import type { CostModel } from '../../model/types';
 import { Segmented, Tag } from '../../ui';
@@ -22,6 +23,8 @@ export interface SheetRow {
 
 export interface AssumptionsSheetProps {
   open: boolean;
+  /** The group tab selected when the sheet opens. */
+  initialGroup?: RegistryGroup;
   onClose: () => void;
   rows: SheetRow[];
   costModel: CostModel;
@@ -42,37 +45,30 @@ const isChanged = (r: SheetRow) => r.value !== r.defaultValue;
 
 /** The "All assumptions" side sheet: every registry value, grouped, searchable, each with its default and source. */
 export function AssumptionsSheet(props: AssumptionsSheetProps) {
-  const { open } = props;
-  const [mounted, setMounted] = useState(open);
-  const [shown, setShown] = useState(false);
-  const [wasOpen, setWasOpen] = useState(open);
+  const { open, onClose } = props;
+  // Mounted while open, and for CLOSE_MS after the sheet closes itself so it can slide out. Only event handlers and
+  // timers set this. An earlier version mounted it with a state update during render, and a no-op setMounted(false)
+  // from a timer started at page load could be replayed over it: aria-expanded went true and nothing mounted.
+  const [leaving, setLeaving] = useState(false);
+  const leaveTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  useEffect(() => () => clearTimeout(leaveTimer.current), []);
 
-  // Opening mounts the sheet in the same render (state adjusted while rendering, not in an effect).
-  if (open !== wasOpen) {
-    setWasOpen(open);
-    if (open) setMounted(true);
-  }
+  const close = () => {
+    clearTimeout(leaveTimer.current);
+    setLeaving(true);
+    leaveTimer.current = setTimeout(() => setLeaving(false), CLOSE_MS);
+    onClose();
+  };
 
-  // Slide in on the next frame; on close, slide out (the class follows `open`), then unmount.
-  useEffect(() => {
-    if (open) {
-      const frame = requestAnimationFrame(() => setShown(true));
-      return () => cancelAnimationFrame(frame);
-    }
-    const timer = setTimeout(() => {
-      setShown(false);
-      setMounted(false);
-    }, CLOSE_MS);
-    return () => clearTimeout(timer);
-  }, [open]);
-
-  if (!mounted) return null;
-  return <Sheet {...props} shown={shown} />;
+  if (!open && !leaving) return null;
+  // The slide-in is CSS only (`@starting-style`), so the sheet shows even when the browser skips animation frames.
+  // On document.body, so no transformed or clipped ancestor on the page can hide or trap the fixed sheet.
+  return createPortal(<Sheet {...props} onClose={close} />, document.body);
 }
 
 function Sheet({
   open,
-  shown,
+  initialGroup = 'Market',
   onClose,
   rows,
   costModel,
@@ -80,12 +76,12 @@ function Sheet({
   onCostModel,
   onChange,
   onResetAll,
-}: AssumptionsSheetProps & { shown: boolean }) {
+}: AssumptionsSheetProps) {
   const titleId = useId();
   const tabsId = useId();
   const dialog = useRef<HTMLDivElement>(null);
   const search = useRef<HTMLInputElement>(null);
-  const [group, setGroup] = useState<RegistryGroup>('Market');
+  const [group, setGroup] = useState<RegistryGroup>(initialGroup);
   const [query, setQuery] = useState('');
   const tabs = useRef<(HTMLButtonElement | null)[]>([]);
 
@@ -152,7 +148,7 @@ function Sheet({
   const sections = groupBySection(visible, q !== '');
 
   return (
-    <div className={`adv-root${shown && open ? ' is-open' : ''}`}>
+    <div className={`adv-root${open ? ' is-open' : ''}`}>
       <div className="adv-scrim" onClick={onClose} aria-hidden="true" data-testid="adv-scrim" />
       <div
         ref={dialog}
