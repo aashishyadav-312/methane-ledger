@@ -36,7 +36,9 @@
       "Bash(git push origin HEAD:main *)",
       "Bash(gh pr merge *)",
       "Bash(rm -rf *)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(npm install *)",
+      "Bash(npm i *)"
     ]
   }
 }

@@ -1,0 +1,20 @@
+{
+  "generatedAt": "1970-01-01T00:00:00Z",
+  "sources": ["Step 0 placeholder. Step 1 overwrites this file."],
+  "note": "Positions approximate; placed by coalfield. Closure year = reserve run-out at FY2025-26 output.",
+  "viewBox": [0, 0, 906, 1016],
+  "projection": { "lat0": 22, "k": 33, "lonMin": 68, "latMax": 37.2 },
+  "outline": "M0 0Z",
+  "coalStates": [],
+  "cities": [],
+  "lens": { "window": [548, 435.5, 26, 19], "box": [612, 596, 232] },
+  "bands": { "by2031": 0, "by2036": 0, "by2050": 0, "after2050": 0, "nodate": 0, "closed": 0 },
+  "mines": [
+    {
+      "id": "bccl-moonidih", "wbId": "111", "name": "Moonidih", "company": "BCCL", "state": "Jharkhand",
+      "type": "UG", "band": "by2036", "runoutYear": 2034, "runoutLabel": "2034", "status": "Producing",
+      "field": "jharia", "x": 561.0, "y": 444.3, "modelled": true
+    }
+  ],
+  "closed": []
+}
