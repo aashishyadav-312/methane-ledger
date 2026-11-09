@@ -1,0 +1,9 @@
+{
+  "bccl-moonidih": {
+    "wbId": "111", "reserve2024Mt": 4.21, "reserveLeft2026Mt": 3.33,
+    "outputMt": { "fy2324": 0.48, "fy2425": 0.49, "fy2526": 0.39 },
+    "targetFy2627Mt": 0.85, "rateUsedMtPerYr": 0.39, "yearsLeft": 8.54,
+    "runoutYear": 2034, "runoutLabel": "2034", "status": "Producing", "yearAtTarget": 2030,
+    "ecCapacityMtPerYr": null, "yearAtEc": null, "note": null
+  }
+}
