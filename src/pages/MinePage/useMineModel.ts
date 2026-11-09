@@ -13,7 +13,15 @@ import { explain, type Explanation } from '../../model/explain';
 import { FIN_DEFAULTS, financing, type FinancingParams, type FinancingResult } from '../../model/financing';
 import { TORNADO_DEFAULTS, tornado, type TornadoResult } from '../../model/tornado';
 import { waterfall, type Waterfall } from '../../model/waterfall';
-import { getConstants, getCosts, getDefaultSettings, getPrices, getTech, getTimeline, unwrapMine } from '../../data/load';
+import {
+  getConstants,
+  getCosts,
+  getDefaultSettings,
+  getPrices,
+  getTech,
+  getTimeline,
+  unwrapMine,
+} from '../../data/load';
 import type { MineRecord, PriceScenario } from '../../data/schemas';
 import { applyOverrides, type Overrides } from '../../state/session';
 import { applyUploadedSeries } from '../DataPage/upload';
@@ -60,7 +68,9 @@ function defaultUse(input: MineInput, tech: TechLibrary): DrainedUse {
 function withPrices(prices: PriceScenario[], changes: PanelChanges): PriceScenario[] {
   return prices.map((s) => {
     const p = changes[`prices.${s.id}`];
-    return typeof p === 'number' && s.priceUsdPerT !== null ? { ...s, priceUsdPerT: { ...s.priceUsdPerT, value: p } } : s;
+    return typeof p === 'number' && s.priceUsdPerT !== null
+      ? { ...s, priceUsdPerT: { ...s.priceUsdPerT, value: p } }
+      : s;
   });
 }
 

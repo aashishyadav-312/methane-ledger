@@ -163,12 +163,7 @@ const CONTROLLED_MINE_PATHS: Partial<Record<keyof MineView, string>> = {
   closureYear: 'closureYear',
 };
 
-function hasIllustrativeInputs(
-  record: MineRecord,
-  view: MineView,
-  defaults: MineView,
-  costModel: CostBasis,
-): boolean {
+function hasIllustrativeInputs(record: MineRecord, view: MineView, defaults: MineView, costModel: CostBasis): boolean {
   const replaced = new Set(
     Object.entries(CONTROLLED_MINE_PATHS)
       .filter(([k]) => view[k as keyof MineView] !== defaults[k as keyof MineView])

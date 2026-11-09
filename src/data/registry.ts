@@ -96,7 +96,15 @@ const SETTINGS: Record<keyof SettingsRecord, Spec & { group: RegistryGroup }> = 
     step: 0.01,
     format: 'usdPerT',
   },
-  usdToInr: { group: 'Market', label: 'Rupees per US dollar', unit: '₹ per $', min: 50, max: 150, step: 0.5, format: 'factor' },
+  usdToInr: {
+    group: 'Market',
+    label: 'Rupees per US dollar',
+    unit: '₹ per $',
+    min: 50,
+    max: 150,
+    step: 0.5,
+    format: 'factor',
+  },
   contingency: { group: 'Costs', label: 'Contingency on build cost', unit: '%', ...PCT, max: 0.5, format: 'pct' },
   validationCostUsd: {
     group: 'Costs',
@@ -124,7 +132,15 @@ const SETTINGS: Record<keyof SettingsRecord, Spec & { group: RegistryGroup }> = 
     format: 'pct',
     view: 'grantShare',
   },
-  startYear: { group: 'Accounting', label: 'First crediting year', unit: 'year', min: 2026, max: 2035, step: 1, format: 'year' },
+  startYear: {
+    group: 'Accounting',
+    label: 'First crediting year',
+    unit: 'year',
+    min: 2026,
+    max: 2035,
+    step: 1,
+    format: 'year',
+  },
   discountRate: {
     group: 'Accounting',
     label: 'Discount rate',
@@ -168,7 +184,14 @@ const TECH_SECTIONS: Record<keyof TechRecord, string> = {
 
 const MIN_CONC: Spec = { label: 'Lowest methane share it takes', unit: '%', ...PCT, step: 0.005, format: 'pct' };
 const DESTRUCTION: Spec = { label: 'Methane destroyed', unit: '%', ...PCT, step: 0.001, format: 'pct' };
-const OPEX_FRAC: Spec = { label: 'Running cost, share of build cost', unit: '% a year', ...PCT, max: 0.3, step: 0.005, format: 'pct' };
+const OPEX_FRAC: Spec = {
+  label: 'Running cost, share of build cost',
+  unit: '% a year',
+  ...PCT,
+  max: 0.3,
+  step: 0.005,
+  format: 'pct',
+};
 
 const TECH: { [G in keyof TechRecord]: Record<keyof TechRecord[G], Spec> } = {
   power: {
@@ -176,7 +199,14 @@ const TECH: { [G in keyof TechRecord]: Record<keyof TechRecord[G], Spec> } = {
     destructionEff: DESTRUCTION,
     electricalEff: { label: 'Electrical efficiency', unit: '%', ...PCT, max: 0.6, step: 0.005, format: 'pct' },
     capexUsdPerKw: { label: 'Build cost per kW', unit: '$ per kW', min: 100, max: 5000, step: 10, format: 'usd' },
-    opexUsdPerMwh: { label: 'Running cost per MWh (v1)', unit: '$ per MWh', min: 0, max: 100, step: 0.5, format: 'usd' },
+    opexUsdPerMwh: {
+      label: 'Running cost per MWh (v1)',
+      unit: '$ per MWh',
+      min: 0,
+      max: 100,
+      step: 0.5,
+      format: 'usd',
+    },
     availability: { label: 'Availability', unit: '%', ...PCT, format: 'pct' },
   },
   flare: {
@@ -250,32 +280,179 @@ const HEADCOUNT_LABELS: Record<keyof CostsRecord['headcount'], string> = {
 
 function costSpecs(): [string, Spec][] {
   const out: [string, Spec][] = [
-    ['localFactor', { label: 'Local factor for Indian labour and civil works', unit: '×', min: 0.2, max: 1.5, step: 0.05, format: 'factor', section: 'India factors' }],
-    ['importMarkup', { label: 'Import markup: duty, freight, insurance', unit: '%', ...PCT, format: 'pct', section: 'India factors' }],
-    ['ownersCost', { label: "Owner's costs: engineering, permits, project management", unit: '%', ...PCT, max: 0.5, format: 'pct', section: 'India factors' }],
-    ['gridConnectionUsd', { label: 'Grid connection', unit: '$', min: 0, max: 5_000_000, step: 10_000, format: 'usd', section: 'Site' }],
-    ['decommissioning', { label: 'Decommissioning, share of build cost', unit: '%', ...PCT, max: 0.3, step: 0.005, format: 'pct', section: 'Site' }],
-    ['insurance', { label: 'Insurance, share of build cost a year', unit: '% a year', ...PCT, max: 0.05, step: 0.001, format: 'pct', section: 'Site' }],
-    ['staffCostInr', { label: 'Staff cost per person-year', unit: '₹ a person-year', min: 0, max: 10_000_000, step: 10_000, format: 'inr', section: 'Staff' }],
+    [
+      'localFactor',
+      {
+        label: 'Local factor for Indian labour and civil works',
+        unit: '×',
+        min: 0.2,
+        max: 1.5,
+        step: 0.05,
+        format: 'factor',
+        section: 'India factors',
+      },
+    ],
+    [
+      'importMarkup',
+      { label: 'Import markup: duty, freight, insurance', unit: '%', ...PCT, format: 'pct', section: 'India factors' },
+    ],
+    [
+      'ownersCost',
+      {
+        label: "Owner's costs: engineering, permits, project management",
+        unit: '%',
+        ...PCT,
+        max: 0.5,
+        format: 'pct',
+        section: 'India factors',
+      },
+    ],
+    [
+      'gridConnectionUsd',
+      { label: 'Grid connection', unit: '$', min: 0, max: 5_000_000, step: 10_000, format: 'usd', section: 'Site' },
+    ],
+    [
+      'decommissioning',
+      {
+        label: 'Decommissioning, share of build cost',
+        unit: '%',
+        ...PCT,
+        max: 0.3,
+        step: 0.005,
+        format: 'pct',
+        section: 'Site',
+      },
+    ],
+    [
+      'insurance',
+      {
+        label: 'Insurance, share of build cost a year',
+        unit: '% a year',
+        ...PCT,
+        max: 0.05,
+        step: 0.001,
+        format: 'pct',
+        section: 'Site',
+      },
+    ],
+    [
+      'staffCostInr',
+      {
+        label: 'Staff cost per person-year',
+        unit: '₹ a person-year',
+        min: 0,
+        max: 10_000_000,
+        step: 10_000,
+        format: 'inr',
+        section: 'Staff',
+      },
+    ],
   ];
   for (const k of Object.keys(HEADCOUNT_LABELS) as (keyof CostsRecord['headcount'])[]) {
-    out.push([`headcount.${k}`, { label: HEADCOUNT_LABELS[k], unit: 'people', min: 0, max: 100, step: 1, format: 'int', section: 'Staff' }]);
+    out.push([
+      `headcount.${k}`,
+      { label: HEADCOUNT_LABELS[k], unit: 'people', min: 0, max: 100, step: 1, format: 'int', section: 'Staff' },
+    ]);
   }
   for (const k of SPLIT_KEYS) {
     SPLIT_PARTS.forEach((part, i) => {
-      out.push([`split.${k}.${i}`, { label: `${SPLIT_ITEM_LABELS[k]}: share for ${part}`, unit: '%', ...PCT, format: 'pct', section: 'How each build cost splits' }]);
+      out.push([
+        `split.${k}.${i}`,
+        {
+          label: `${SPLIT_ITEM_LABELS[k]}: share for ${part}`,
+          unit: '%',
+          ...PCT,
+          format: 'pct',
+          section: 'How each build cost splits',
+        },
+      ]);
     });
   }
   for (const k of SPLIT_KEYS) {
-    out.push([`imported.${k}`, { label: `${SPLIT_ITEM_LABELS[k]}: imported share of equipment`, unit: '%', ...PCT, format: 'pct', section: 'Imported equipment' }]);
+    out.push([
+      `imported.${k}`,
+      {
+        label: `${SPLIT_ITEM_LABELS[k]}: imported share of equipment`,
+        unit: '%',
+        ...PCT,
+        format: 'pct',
+        section: 'Imported equipment',
+      },
+    ]);
   }
   out.push(
-    ['nonlabourOm.powerPerMwh', { label: 'Engines: running cost without staff', unit: '$ per MWh', min: 0, max: 50, step: 0.5, format: 'usd', section: 'Running costs' }],
-    ['nonlabourOm.flareFrac', { label: 'Flare: running cost without staff', unit: '% of build cost a year', ...PCT, max: 0.2, step: 0.005, format: 'pct', section: 'Running costs' }],
-    ['nonlabourOm.rtoFrac', { label: 'Oxidiser: running cost without staff', unit: '% of build cost a year', ...PCT, max: 0.2, step: 0.005, format: 'pct', section: 'Running costs' }],
-    ['nonlabourOm.drainageFrac', { label: 'Drainage: running cost without staff', unit: '% of build cost a year', ...PCT, max: 0.2, step: 0.005, format: 'pct', section: 'Running costs' }],
-    ['overhaulUsdPerKw', { label: 'Engine overhaul cost', unit: '$ per kW', min: 0, max: 1000, step: 10, format: 'usd', section: 'Running costs' }],
-    ['overhaulHours', { label: 'Running hours between overhauls', unit: 'hours', min: 1000, max: 200_000, step: 1000, format: 'int', section: 'Running costs' }],
+    [
+      'nonlabourOm.powerPerMwh',
+      {
+        label: 'Engines: running cost without staff',
+        unit: '$ per MWh',
+        min: 0,
+        max: 50,
+        step: 0.5,
+        format: 'usd',
+        section: 'Running costs',
+      },
+    ],
+    [
+      'nonlabourOm.flareFrac',
+      {
+        label: 'Flare: running cost without staff',
+        unit: '% of build cost a year',
+        ...PCT,
+        max: 0.2,
+        step: 0.005,
+        format: 'pct',
+        section: 'Running costs',
+      },
+    ],
+    [
+      'nonlabourOm.rtoFrac',
+      {
+        label: 'Oxidiser: running cost without staff',
+        unit: '% of build cost a year',
+        ...PCT,
+        max: 0.2,
+        step: 0.005,
+        format: 'pct',
+        section: 'Running costs',
+      },
+    ],
+    [
+      'nonlabourOm.drainageFrac',
+      {
+        label: 'Drainage: running cost without staff',
+        unit: '% of build cost a year',
+        ...PCT,
+        max: 0.2,
+        step: 0.005,
+        format: 'pct',
+        section: 'Running costs',
+      },
+    ],
+    [
+      'overhaulUsdPerKw',
+      {
+        label: 'Engine overhaul cost',
+        unit: '$ per kW',
+        min: 0,
+        max: 1000,
+        step: 10,
+        format: 'usd',
+        section: 'Running costs',
+      },
+    ],
+    [
+      'overhaulHours',
+      {
+        label: 'Running hours between overhauls',
+        unit: 'hours',
+        min: 1000,
+        max: 200_000,
+        step: 1000,
+        format: 'int',
+        section: 'Running costs',
+      },
+    ],
   );
   return out;
 }
@@ -283,44 +460,233 @@ function costSpecs(): [string, Spec][] {
 /* ---------- finance ---------- */
 
 const FINANCE: Partial<Record<keyof FinancingParams, Spec>> = {
-  royaltyShare: { label: 'Royalty to Coal India, share of revenue', unit: '%', ...PCT, max: 0.5, format: 'pct', section: 'A developer builds and runs it' },
-  developerHurdleRate: { label: "Developer's required return", unit: '%', ...PCT, max: 0.4, step: 0.005, format: 'pct', section: 'A developer builds and runs it' },
-  forwardYears: { label: 'Years of credits sold in advance', unit: 'years', min: 1, max: 10, step: 1, format: 'int', section: 'A buyer pays in advance' },
-  forwardDiscount: { label: 'Discount for paying in advance', unit: '%', ...PCT, max: 0.8, format: 'pct', section: 'A buyer pays in advance' },
-  floorUsdPerT: { label: 'Guaranteed lowest price', unit: '$ per tCO2e', min: 0, max: 50, step: 0.5, format: 'usdPerT', section: 'A price floor' },
-  floorPremiumUsdPerT: { label: 'Cost of the floor, per credit covered', unit: '$ per tCO2e', min: 0, max: 5, step: 0.05, format: 'usdPerT', section: 'A price floor' },
-  floorYears: { label: 'Years the floor covers', unit: 'years', min: 1, max: 10, step: 1, format: 'int', section: 'A price floor' },
+  royaltyShare: {
+    label: 'Royalty to Coal India, share of revenue',
+    unit: '%',
+    ...PCT,
+    max: 0.5,
+    format: 'pct',
+    section: 'A developer builds and runs it',
+  },
+  developerHurdleRate: {
+    label: "Developer's required return",
+    unit: '%',
+    ...PCT,
+    max: 0.4,
+    step: 0.005,
+    format: 'pct',
+    section: 'A developer builds and runs it',
+  },
+  forwardYears: {
+    label: 'Years of credits sold in advance',
+    unit: 'years',
+    min: 1,
+    max: 10,
+    step: 1,
+    format: 'int',
+    section: 'A buyer pays in advance',
+  },
+  forwardDiscount: {
+    label: 'Discount for paying in advance',
+    unit: '%',
+    ...PCT,
+    max: 0.8,
+    format: 'pct',
+    section: 'A buyer pays in advance',
+  },
+  floorUsdPerT: {
+    label: 'Guaranteed lowest price',
+    unit: '$ per tCO2e',
+    min: 0,
+    max: 50,
+    step: 0.5,
+    format: 'usdPerT',
+    section: 'A price floor',
+  },
+  floorPremiumUsdPerT: {
+    label: 'Cost of the floor, per credit covered',
+    unit: '$ per tCO2e',
+    min: 0,
+    max: 5,
+    step: 0.05,
+    format: 'usdPerT',
+    section: 'A price floor',
+  },
+  floorYears: {
+    label: 'Years the floor covers',
+    unit: 'years',
+    min: 1,
+    max: 10,
+    step: 1,
+    format: 'int',
+    section: 'A price floor',
+  },
   // grantShare: structure E takes the grant control's share (Settings, "Grant toward the build cost").
 };
 
 /* ---------- mine record ---------- */
 
 const MINE: Record<string, Spec> = {
-  closureYear: { label: 'Last year of mining', unit: 'year', min: 2026, max: 2060, step: 1, format: 'year', view: 'closureYear' },
+  closureYear: {
+    label: 'Last year of mining',
+    unit: 'year',
+    min: 2026,
+    max: 2060,
+    step: 1,
+    format: 'year',
+    view: 'closureYear',
+  },
   productionMtPerYr: { label: 'Coal output', unit: 'Mt a year', min: 0, max: 50, step: 0.05, format: 'factor' },
-  specificEmissionM3PerT: { label: 'Methane per tonne of coal', unit: 'm³ per t', min: 0, max: 50, step: 0.25, format: 'factor' },
-  drainedMm3PerYr: { label: 'Drained gas', unit: 'Mm³ a year', min: 5, max: 80, step: 1, format: 'factor', view: 'drainedMm3PerYr' },
+  specificEmissionM3PerT: {
+    label: 'Methane per tonne of coal',
+    unit: 'm³ per t',
+    min: 0,
+    max: 50,
+    step: 0.25,
+    format: 'factor',
+  },
+  drainedMm3PerYr: {
+    label: 'Drained gas',
+    unit: 'Mm³ a year',
+    min: 5,
+    max: 80,
+    step: 1,
+    format: 'factor',
+    view: 'drainedMm3PerYr',
+  },
   drainedShare: { label: 'Share of methane drained', unit: '%', ...PCT, format: 'pct' },
   drainedConc: { label: 'Methane in drained gas', unit: '%', ...PCT, format: 'pct' },
-  vamMm3PerYr: { label: 'Methane in ventilation air, volume', unit: 'Mm³ a year', min: 0, max: 100, step: 0.05, format: 'factor' },
-  vamConc: { label: 'Methane in ventilation air', unit: '%', ...PCT, max: 0.02, step: 0.0005, format: 'pct', view: 'vamConc' },
+  vamMm3PerYr: {
+    label: 'Methane in ventilation air, volume',
+    unit: 'Mm³ a year',
+    min: 0,
+    max: 100,
+    step: 0.05,
+    format: 'factor',
+  },
+  vamConc: {
+    label: 'Methane in ventilation air',
+    unit: '%',
+    ...PCT,
+    max: 0.02,
+    step: 0.0005,
+    format: 'pct',
+    view: 'vamConc',
+  },
   vamAirflowM3s: { label: 'Ventilation airflow', unit: 'm³ a second', min: 1, max: 2000, step: 1, format: 'int' },
-  hasDrainageSystem: { kind: 'boolean', label: 'Drainage system already in place', unit: 'yes or no', ...BOOL, format: 'int' },
+  hasDrainageSystem: {
+    kind: 'boolean',
+    label: 'Drainage system already in place',
+    unit: 'yes or no',
+    ...BOOL,
+    format: 'int',
+  },
   powerOfftake: { kind: 'boolean', label: 'Power can be sold', unit: 'yes or no', ...BOOL, format: 'int' },
-  'captureEff.drained': { label: 'Drained gas collected', unit: '%', ...PCT, format: 'pct', section: 'How much is collected' },
-  'captureEff.vam': { label: 'Ventilation-air methane collected', unit: '%', ...PCT, format: 'pct', section: 'How much is collected' },
-  'captureEff.amm': { label: 'Gas after closure collected', unit: '%', ...PCT, format: 'pct', section: 'How much is collected' },
-  'amm.fAmm': { label: 'Gas after closure, share of the last year', unit: '%', ...PCT, format: 'pct', section: 'Gas after closure' },
-  'amm.declineD': { label: 'Yearly decline rate', unit: 'per year', min: 0.01, max: 2, step: 0.01, format: 'factor', section: 'Gas after closure' },
-  'amm.hyperbolicB': { label: 'Decline curve shape (b)', unit: '', min: 0.01, max: 2, step: 0.05, format: 'factor', section: 'Gas after closure' },
+  'captureEff.drained': {
+    label: 'Drained gas collected',
+    unit: '%',
+    ...PCT,
+    format: 'pct',
+    section: 'How much is collected',
+  },
+  'captureEff.vam': {
+    label: 'Ventilation-air methane collected',
+    unit: '%',
+    ...PCT,
+    format: 'pct',
+    section: 'How much is collected',
+  },
+  'captureEff.amm': {
+    label: 'Gas after closure collected',
+    unit: '%',
+    ...PCT,
+    format: 'pct',
+    section: 'How much is collected',
+  },
+  'amm.fAmm': {
+    label: 'Gas after closure, share of the last year',
+    unit: '%',
+    ...PCT,
+    format: 'pct',
+    section: 'Gas after closure',
+  },
+  'amm.declineD': {
+    label: 'Yearly decline rate',
+    unit: 'per year',
+    min: 0.01,
+    max: 2,
+    step: 0.01,
+    format: 'factor',
+    section: 'Gas after closure',
+  },
+  'amm.hyperbolicB': {
+    label: 'Decline curve shape (b)',
+    unit: '',
+    min: 0.01,
+    max: 2,
+    step: 0.05,
+    format: 'factor',
+    section: 'Gas after closure',
+  },
   'amm.conc': { label: 'Methane in gas after closure', unit: '%', ...PCT, format: 'pct', section: 'Gas after closure' },
-  'amm.floodingYear': { label: 'Year the mine floods', unit: 'year', min: 2026, max: 2080, step: 1, format: 'year', section: 'Gas after closure' },
-  'amm.floodingFactor': { label: 'Gas left once flooded', unit: '%', ...PCT, format: 'pct', section: 'Gas after closure' },
-  'amm.q0Mm3': { label: 'Gas in the first year after closure', unit: 'Mm³', min: 0, max: 100, step: 0.1, format: 'factor', section: 'Gas after closure' },
-  'amm.yearsSinceClosure': { label: 'Years since closure', unit: 'years', min: 0, max: 50, step: 1, format: 'int', section: 'Gas after closure' },
-  'destructionMandated.drained': { kind: 'boolean', label: 'Law already requires destroying drained gas', unit: 'yes or no', ...BOOL, format: 'int', section: 'What the law already requires' },
-  'destructionMandated.vam': { kind: 'boolean', label: 'Law already requires destroying ventilation-air methane', unit: 'yes or no', ...BOOL, format: 'int', section: 'What the law already requires' },
-  'destructionMandated.amm': { kind: 'boolean', label: 'Law already requires destroying gas after closure', unit: 'yes or no', ...BOOL, format: 'int', section: 'What the law already requires' },
+  'amm.floodingYear': {
+    label: 'Year the mine floods',
+    unit: 'year',
+    min: 2026,
+    max: 2080,
+    step: 1,
+    format: 'year',
+    section: 'Gas after closure',
+  },
+  'amm.floodingFactor': {
+    label: 'Gas left once flooded',
+    unit: '%',
+    ...PCT,
+    format: 'pct',
+    section: 'Gas after closure',
+  },
+  'amm.q0Mm3': {
+    label: 'Gas in the first year after closure',
+    unit: 'Mm³',
+    min: 0,
+    max: 100,
+    step: 0.1,
+    format: 'factor',
+    section: 'Gas after closure',
+  },
+  'amm.yearsSinceClosure': {
+    label: 'Years since closure',
+    unit: 'years',
+    min: 0,
+    max: 50,
+    step: 1,
+    format: 'int',
+    section: 'Gas after closure',
+  },
+  'destructionMandated.drained': {
+    kind: 'boolean',
+    label: 'Law already requires destroying drained gas',
+    unit: 'yes or no',
+    ...BOOL,
+    format: 'int',
+    section: 'What the law already requires',
+  },
+  'destructionMandated.vam': {
+    kind: 'boolean',
+    label: 'Law already requires destroying ventilation-air methane',
+    unit: 'yes or no',
+    ...BOOL,
+    format: 'int',
+    section: 'What the law already requires',
+  },
+  'destructionMandated.amm': {
+    kind: 'boolean',
+    label: 'Law already requires destroying gas after closure',
+    unit: 'yes or no',
+    ...BOOL,
+    format: 'int',
+    section: 'What the law already requires',
+  },
 };
 
 /* ---------- lookups ---------- */

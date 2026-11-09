@@ -136,7 +136,11 @@ test('save chart as PNG gives a PNG twice the chart size', async ({ page }) => {
   const bytes = readFileSync(await download.path());
   expect(bytes.subarray(1, 4).toString('latin1')).toBe('PNG');
   const pngWidth = bytes.readUInt32BE(16);
-  const svgWidth = await page.getByTestId('chart-cash').locator('svg').first().evaluate((s) => s.clientWidth);
+  const svgWidth = await page
+    .getByTestId('chart-cash')
+    .locator('svg')
+    .first()
+    .evaluate((s) => s.clientWidth);
   expect(pngWidth).toBeGreaterThanOrEqual(svgWidth * 2);
 });
 

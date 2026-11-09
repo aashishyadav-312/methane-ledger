@@ -45,16 +45,24 @@ export function AssumptionsSheet(props: AssumptionsSheetProps) {
   const { open } = props;
   const [mounted, setMounted] = useState(open);
   const [shown, setShown] = useState(false);
+  const [wasOpen, setWasOpen] = useState(open);
 
-  // Mount, then slide in on the next frame; slide out, then unmount.
+  // Opening mounts the sheet in the same render (state adjusted while rendering, not in an effect).
+  if (open !== wasOpen) {
+    setWasOpen(open);
+    if (open) setMounted(true);
+  }
+
+  // Slide in on the next frame; on close, slide out (the class follows `open`), then unmount.
   useEffect(() => {
     if (open) {
-      setMounted(true);
       const frame = requestAnimationFrame(() => setShown(true));
       return () => cancelAnimationFrame(frame);
     }
-    setShown(false);
-    const timer = setTimeout(() => setMounted(false), CLOSE_MS);
+    const timer = setTimeout(() => {
+      setShown(false);
+      setMounted(false);
+    }, CLOSE_MS);
     return () => clearTimeout(timer);
   }, [open]);
 
@@ -101,7 +109,10 @@ function Sheet({
   const changed = rows.filter(isChanged).length + (costModel !== defaultCostModel ? 1 : 0);
   const q = query.trim().toLowerCase();
   const visible = useMemo(
-    () => (q === '' ? rows.filter((r) => r.entry.group === group) : rows.filter((r) => r.entry.label.toLowerCase().includes(q))),
+    () =>
+      q === ''
+        ? rows.filter((r) => r.entry.group === group)
+        : rows.filter((r) => r.entry.label.toLowerCase().includes(q)),
     [rows, group, q],
   );
 
@@ -158,7 +169,16 @@ function Sheet({
               All assumptions
             </h2>
             <button type="button" className="adv-close" aria-label="Close" onClick={onClose}>
-              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+              <svg
+                aria-hidden="true"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+              >
                 <path d="M3.5 3.5l9 9M12.5 3.5l-9 9" />
               </svg>
             </button>

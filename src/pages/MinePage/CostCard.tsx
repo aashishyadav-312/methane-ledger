@@ -95,7 +95,14 @@ export function CostCard({ result, settings, costs, units }: CostCardProps) {
           works. Switch the cost basis to the India build-up under All assumptions, Costs, to see the split.
         </p>
       ) : (
-        <CostTables breakdown={breakdown} result={result} settings={settings} costs={costs} units={units} money={money} />
+        <CostTables
+          breakdown={breakdown}
+          result={result}
+          settings={settings}
+          costs={costs}
+          units={units}
+          money={money}
+        />
       )}
     </section>
   );
@@ -215,8 +222,8 @@ function CostTables({
         </table>
       </div>
       <p className="control-note num" data-testid="staff-line">
-        Staff: {peopleFirst} {peopleFirst === 1 ? 'person' : 'people'} in the first year × {inrCr(costs.staffCostInr)}{' '}
-        a person-year, {personYears} person-years over the period, at ₹{units.usdToInr} per $.
+        Staff: {peopleFirst} {peopleFirst === 1 ? 'person' : 'people'} in the first year × {inrCr(costs.staffCostInr)} a
+        person-year, {personYears} person-years over the period, at ₹{units.usdToInr} per $.
       </p>
     </>
   );
