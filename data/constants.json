@@ -1,0 +1,30 @@
+{
+  "rhoTPerThousandM3": {
+    "value": 0.67,
+    "unit": "t CH4 per 1,000 m3",
+    "source": "Methane density at 20 C and 1 atm, ACM0008 convention (reference/cmm_model.py RHO)",
+    "quality": "literature"
+  },
+  "lhvGjPerT": {
+    "value": 50,
+    "unit": "GJ per t CH4",
+    "source": "Lower heating value of methane (reference/cmm_model.py LHV; SPEC_V1 section 5)",
+    "quality": "literature"
+  },
+  "co2PerCh4": {
+    "value": 2.75,
+    "unit": "t CO2 per t CH4 burned",
+    "source": "Stoichiometry, 44/16 (reference/cmm_model.py CO2_PER_CH4)",
+    "quality": "literature"
+  },
+  "gwpOptions": {
+    "value": [
+      21,
+      28,
+      29.8
+    ],
+    "unit": "tCO2e per t CH4, 100-year",
+    "source": "21 legacy CDM, 28 AR5, 29.8 AR6 fossil methane (reference/cmm_model.py Settings.gwp)",
+    "quality": "literature"
+  }
+}

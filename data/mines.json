@@ -1,0 +1,645 @@
+[
+  {
+    "id": "bccl-moonidih",
+    "kind": "mine",
+    "name": "Moonidih",
+    "subsidiary": "BCCL",
+    "coalfield": "Jharia",
+    "state": "Jharkhand",
+    "mineType": "UG",
+    "dgmsDegree": 3,
+    "status": "active",
+    "closureYear": {
+      "from": "timeline",
+      "unit": "year",
+      "source": "CIL_Mine_Closure_Timeline_v5.xlsx, FY2025-26 output basis",
+      "quality": "estimated"
+    },
+    "closureAlternatives": [
+      {
+        "id": "target",
+        "label": "At 2026-27 target",
+        "value": 2030,
+        "unit": "year",
+        "source": "CIL_Mine_Closure_Timeline_v5.xlsx, FY2026-27 target output basis",
+        "quality": "estimated"
+      }
+    ],
+    "productionMtPerYr": {
+      "value": 0.6,
+      "unit": "Mt per year",
+      "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1)",
+      "quality": "dummy"
+    },
+    "drainedMm3PerYr": {
+      "value": 20,
+      "unit": "Mm3 CH4 per year",
+      "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1); a quarter of GMI's 78 Mm3 a year plateau",
+      "quality": "dummy"
+    },
+    "drainedConc": {
+      "value": 0.5,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1)",
+      "quality": "dummy"
+    },
+    "vamMm3PerYr": {
+      "value": 3.45,
+      "unit": "Mm3 CH4 per year",
+      "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1); 0.6 Mt x 5.75 m3/t, the GMI ventilation ratio",
+      "quality": "dummy"
+    },
+    "vamConc": {
+      "value": 0.003,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1)",
+      "quality": "dummy"
+    },
+    "hasDrainageSystem": {
+      "value": false,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1); a new drainage system is needed",
+      "quality": "dummy"
+    },
+    "powerOfftake": {
+      "value": true,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1)",
+      "quality": "dummy"
+    },
+    "captureEff": {
+      "drained": {
+        "value": 1.0,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1)",
+        "quality": "dummy"
+      },
+      "vam": {
+        "value": 0.85,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1)",
+        "quality": "dummy"
+      },
+      "amm": {
+        "value": 0.7,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1)",
+        "quality": "dummy"
+      }
+    },
+    "amm": {
+      "fAmm": {
+        "value": 0.3,
+        "unit": "fraction of last-year gas",
+        "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1); q0 = 30% of last-year liberation",
+        "quality": "dummy"
+      },
+      "declineD": {
+        "value": 0.25,
+        "unit": "per year",
+        "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1)",
+        "quality": "dummy"
+      },
+      "hyperbolicB": {
+        "value": 1,
+        "unit": "dimensionless",
+        "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1)",
+        "quality": "dummy"
+      },
+      "conc": {
+        "value": 0.6,
+        "unit": "fraction CH4",
+        "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1)",
+        "quality": "dummy"
+      },
+      "floodingFactor": {
+        "value": 0.5,
+        "unit": "multiplier from the flooding year on",
+        "source": "DUMMY (SPEC_V1 Moonidih dummy inputs, golden case moonidih_v1); no flooding year set",
+        "quality": "dummy"
+      }
+    },
+    "destructionMandated": {
+      "value": {
+        "drained": false,
+        "vam": false,
+        "amm": false
+      },
+      "unit": "yes or no per stream",
+      "source": "Default: nothing mandated; regulatory surplus is not yet confirmed (SPEC_V1 data model)",
+      "quality": "estimated"
+    },
+    "notes": [
+      "Underground, Degree III gassy, longwall with caving, 67 sealed-off goaf areas (GMI).",
+      "Gas inputs are illustrative until measured data arrives from CMPDI and Coal India.",
+      "Closure year defaults to the reserve run-out in the closure workbook; the FY2026-27 target year is offered as an alternative."
+    ],
+    "sources": [
+      {
+        "label": "GMI, Moonidih CMM project profile",
+        "url": "https://development.globalmethane.org/expo-docs/posters/CoalMines/CM_IN_Project_Moonidih-from-ARI_FINAL.pdf"
+      },
+      {
+        "label": "Prusty, Patra and Harpalani, sealed off areas at Moonidih (GMI)",
+        "url": "https://development.globalmethane.org/expo-docs/canada13/coal_24_Prusty_Presentation.pdf"
+      }
+    ]
+  },
+  {
+    "id": "archetype-degree-1-ug",
+    "kind": "archetype",
+    "name": "Degree I underground",
+    "subsidiary": "Archetype",
+    "coalfield": "n/a",
+    "state": "n/a",
+    "mineType": "UG",
+    "dgmsDegree": 1,
+    "status": "active",
+    "closureYear": {
+      "value": 2036,
+      "unit": "year",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "productionMtPerYr": {
+      "value": 0.5,
+      "unit": "Mt per year",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "specificEmissionM3PerT": {
+      "value": 0.8,
+      "unit": "m3 CH4 per t",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "drainedShare": {
+      "value": 0,
+      "unit": "fraction of liberated gas",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "drainedConc": {
+      "value": 0,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "vamConc": {
+      "value": 0.0005,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "hasDrainageSystem": {
+      "value": false,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6); no existing system",
+      "quality": "dummy"
+    },
+    "powerOfftake": {
+      "value": true,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "captureEff": {
+      "drained": {
+        "value": 1.0,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "vam": {
+        "value": 0.85,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "amm": {
+        "value": 0.7,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      }
+    },
+    "destructionMandated": {
+      "value": {
+        "drained": false,
+        "vam": false,
+        "amm": false
+      },
+      "unit": "yes or no per stream",
+      "source": "Default: nothing mandated (SPEC_V1 data model)",
+      "quality": "estimated"
+    },
+    "notes": [
+      "Illustrative archetype. Ventilation air is below 0.2% CH4, so v1 cannot abate it."
+    ],
+    "sources": []
+  },
+  {
+    "id": "archetype-degree-2-ug",
+    "kind": "archetype",
+    "name": "Degree II underground",
+    "subsidiary": "Archetype",
+    "coalfield": "n/a",
+    "state": "n/a",
+    "mineType": "UG",
+    "dgmsDegree": 2,
+    "status": "active",
+    "closureYear": {
+      "value": 2036,
+      "unit": "year",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "productionMtPerYr": {
+      "value": 0.5,
+      "unit": "Mt per year",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "specificEmissionM3PerT": {
+      "value": 5,
+      "unit": "m3 CH4 per t",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "drainedShare": {
+      "value": 0.3,
+      "unit": "fraction of liberated gas",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "drainedConc": {
+      "value": 0.35,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "vamConc": {
+      "value": 0.002,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "hasDrainageSystem": {
+      "value": false,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6); no existing system",
+      "quality": "dummy"
+    },
+    "powerOfftake": {
+      "value": true,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "captureEff": {
+      "drained": {
+        "value": 1.0,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "vam": {
+        "value": 0.85,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "amm": {
+        "value": 0.7,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      }
+    },
+    "destructionMandated": {
+      "value": {
+        "drained": false,
+        "vam": false,
+        "amm": false
+      },
+      "unit": "yes or no per stream",
+      "source": "Default: nothing mandated (SPEC_V1 data model)",
+      "quality": "estimated"
+    },
+    "notes": [
+      "Illustrative archetype. Sits close to break-even at $15 a tonne."
+    ],
+    "sources": []
+  },
+  {
+    "id": "archetype-degree-3-ug",
+    "kind": "archetype",
+    "name": "Degree III underground",
+    "subsidiary": "Archetype",
+    "coalfield": "n/a",
+    "state": "n/a",
+    "mineType": "UG",
+    "dgmsDegree": 3,
+    "status": "active",
+    "closureYear": {
+      "value": 2036,
+      "unit": "year",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "productionMtPerYr": {
+      "value": 0.5,
+      "unit": "Mt per year",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "specificEmissionM3PerT": {
+      "value": 15,
+      "unit": "m3 CH4 per t",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "drainedShare": {
+      "value": 0.5,
+      "unit": "fraction of liberated gas",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "drainedConc": {
+      "value": 0.5,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "vamConc": {
+      "value": 0.004,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "hasDrainageSystem": {
+      "value": false,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6); no existing system",
+      "quality": "dummy"
+    },
+    "powerOfftake": {
+      "value": true,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "captureEff": {
+      "drained": {
+        "value": 1.0,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "vam": {
+        "value": 0.85,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "amm": {
+        "value": 0.7,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      }
+    },
+    "destructionMandated": {
+      "value": {
+        "drained": false,
+        "vam": false,
+        "amm": false
+      },
+      "unit": "yes or no per stream",
+      "source": "Default: nothing mandated (SPEC_V1 data model)",
+      "quality": "estimated"
+    },
+    "notes": [
+      "Illustrative archetype with ten years of mining left."
+    ],
+    "sources": []
+  },
+  {
+    "id": "archetype-degree-3-closing",
+    "kind": "archetype",
+    "name": "Degree III, closing in 4 years",
+    "subsidiary": "Archetype",
+    "coalfield": "n/a",
+    "state": "n/a",
+    "mineType": "UG",
+    "dgmsDegree": 3,
+    "status": "closing",
+    "closureYear": {
+      "value": 2030,
+      "unit": "year",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "productionMtPerYr": {
+      "value": 0.5,
+      "unit": "Mt per year",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "specificEmissionM3PerT": {
+      "value": 15,
+      "unit": "m3 CH4 per t",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "drainedShare": {
+      "value": 0.5,
+      "unit": "fraction of liberated gas",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "drainedConc": {
+      "value": 0.5,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "vamConc": {
+      "value": 0.004,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "hasDrainageSystem": {
+      "value": false,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6); no existing system",
+      "quality": "dummy"
+    },
+    "powerOfftake": {
+      "value": true,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "captureEff": {
+      "drained": {
+        "value": 1.0,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "vam": {
+        "value": 0.85,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "amm": {
+        "value": 0.7,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      }
+    },
+    "destructionMandated": {
+      "value": {
+        "drained": false,
+        "vam": false,
+        "amm": false
+      },
+      "unit": "yes or no per stream",
+      "source": "Default: nothing mandated (SPEC_V1 data model)",
+      "quality": "estimated"
+    },
+    "notes": [
+      "Illustrative archetype. Same gas as Degree III, but mining stops after four years and abandoned mine methane follows."
+    ],
+    "sources": [],
+    "amm": {
+      "fAmm": {
+        "value": 0.3,
+        "unit": "fraction of last-year gas",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "declineD": {
+        "value": 0.25,
+        "unit": "per year",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "hyperbolicB": {
+        "value": 1,
+        "unit": "dimensionless",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "conc": {
+        "value": 0.6,
+        "unit": "fraction CH4",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "floodingFactor": {
+        "value": 0.5,
+        "unit": "multiplier from the flooding year on",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6); no flooding year set",
+        "quality": "dummy"
+      }
+    }
+  },
+  {
+    "id": "archetype-opencast",
+    "kind": "archetype",
+    "name": "Opencast",
+    "subsidiary": "Archetype",
+    "coalfield": "n/a",
+    "state": "n/a",
+    "mineType": "OC",
+    "dgmsDegree": null,
+    "status": "active",
+    "closureYear": {
+      "value": 2036,
+      "unit": "year",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "productionMtPerYr": {
+      "value": 5.0,
+      "unit": "Mt per year",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "specificEmissionM3PerT": {
+      "value": 0.3,
+      "unit": "m3 CH4 per t",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "drainedShare": {
+      "value": 0,
+      "unit": "fraction of liberated gas",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "drainedConc": {
+      "value": 0,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "vamConc": {
+      "value": 0,
+      "unit": "fraction CH4",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "hasDrainageSystem": {
+      "value": false,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6); no existing system",
+      "quality": "dummy"
+    },
+    "powerOfftake": {
+      "value": true,
+      "unit": "yes or no",
+      "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+      "quality": "dummy"
+    },
+    "captureEff": {
+      "drained": {
+        "value": 1.0,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "vam": {
+        "value": 0.85,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      },
+      "amm": {
+        "value": 0.7,
+        "unit": "fraction of liberated CH4 collected",
+        "source": "DUMMY (SPEC_V1 Mine archetypes, PLAN_V1 B6)",
+        "quality": "dummy"
+      }
+    },
+    "destructionMandated": {
+      "value": {
+        "drained": false,
+        "vam": false,
+        "amm": false
+      },
+      "unit": "yes or no per stream",
+      "source": "Default: nothing mandated (SPEC_V1 data model)",
+      "quality": "estimated"
+    },
+    "notes": [
+      "Illustrative archetype. Opencast methane is diffuse; v1 has no technology for it."
+    ],
+    "sources": []
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "vcm_low",
+    "label": "Voluntary average",
+    "shortLabel": "Voluntary avg",
+    "priceUsdPerT": {
+      "value": 7,
+      "unit": "USD per tCO2e",
+      "source": "Research doc, Aug to Oct 2026 (SPEC_V1 Price scenarios)",
+      "quality": "literature"
+    },
+    "badge": {
+      "kind": "sellable_now",
+      "label": "Sellable now (Verra)"
+    },
+    "chip": true,
+    "ruler": true,
+    "default": false,
+    "note": "All credit types, Q3 2026",
+    "asOf": "Q3 2026"
+  },
+  {
+    "id": "ccts_floor",
+    "label": "CCTS floor (our estimate)",
+    "shortLabel": "CCTS floor est.",
+    "priceUsdPerT": {
+      "value": 11,
+      "unit": "USD per tCO2e",
+      "source": "Research doc, Aug to Oct 2026 (SPEC_V1 Price scenarios)",
+      "quality": "estimated"
+    },
+    "badge": {
+      "kind": "sellable_later",
+      "label": "Sellable later (CCTS)"
+    },
+    "chip": true,
+    "ruler": true,
+    "default": false,
+    "note": "Mid-point of $10 to 12",
+    "asOf": "Aug to Oct 2026"
+  },
+  {
+    "id": "ccp_premium",
+    "label": "High-integrity CMM credit (our estimate)",
+    "shortLabel": "High-integrity est.",
+    "priceUsdPerT": {
+      "value": 15,
+      "unit": "USD per tCO2e",
+      "source": "Research doc, Aug to Oct 2026 (SPEC_V1 Price scenarios)",
+      "quality": "estimated"
+    },
+    "badge": {
+      "kind": "sellable_now",
+      "label": "Sellable now (Verra)"
+    },
+    "chip": true,
+    "ruler": false,
+    "default": true,
+    "note": "Between the voluntary average and California offsets",
+    "asOf": "Aug to Oct 2026"
+  },
+  {
+    "id": "ca_offset",
+    "label": "California offset, out-of-state",
+    "shortLabel": "California offset",
+    "priceUsdPerT": {
+      "value": 18.25,
+      "unit": "USD per tCO2e",
+      "source": "Research doc, Aug to Oct 2026 (SPEC_V1 Price scenarios)",
+      "quality": "literature"
+    },
+    "badge": {
+      "kind": "benchmark",
+      "label": "Benchmark only"
+    },
+    "chip": true,
+    "ruler": true,
+    "default": false,
+    "note": "US projects only",
+    "asOf": "Aug to Oct 2026"
+  },
+  {
+    "id": "ccts_ceiling",
+    "label": "CCTS ceiling (our estimate)",
+    "shortLabel": "CCTS ceiling est.",
+    "priceUsdPerT": {
+      "value": 30,
+      "unit": "USD per tCO2e",
+      "source": "Research doc, Aug to Oct 2026 (SPEC_V1 Price scenarios)",
+      "quality": "estimated"
+    },
+    "badge": {
+      "kind": "sellable_later",
+      "label": "Sellable later (CCTS)"
+    },
+    "chip": true,
+    "ruler": true,
+    "default": false,
+    "note": "Mid-point of $25 to 35",
+    "asOf": "Aug to Oct 2026"
+  },
+  {
+    "id": "ca_allowance",
+    "label": "California allowance",
+    "shortLabel": "California allowance",
+    "priceUsdPerT": {
+      "value": 33.4,
+      "unit": "USD per tCO2e",
+      "source": "Research doc, Aug to Oct 2026 (SPEC_V1 Price scenarios)",
+      "quality": "literature"
+    },
+    "badge": {
+      "kind": "benchmark",
+      "label": "Benchmark only"
+    },
+    "chip": false,
+    "ruler": true,
+    "default": false,
+    "note": "Compliance price, not an offset",
+    "asOf": "Aug to Oct 2026"
+  },
+  {
+    "id": "eu_ets",
+    "label": "EU allowance (via CBAM)",
+    "shortLabel": "EU allowance",
+    "priceUsdPerT": {
+      "value": 95,
+      "unit": "USD per tCO2e",
+      "source": "Research doc, Aug to Oct 2026 (SPEC_V1 Price scenarios)",
+      "quality": "literature"
+    },
+    "badge": {
+      "kind": "benchmark",
+      "label": "Benchmark only"
+    },
+    "chip": false,
+    "ruler": false,
+    "default": false,
+    "note": "EUR 82.32 at 1.15; off the ruler, noted as text",
+    "asOf": "Aug to Oct 2026"
+  },
+  {
+    "id": "custom",
+    "label": "Custom",
+    "shortLabel": "Custom",
+    "priceUsdPerT": null,
+    "badge": null,
+    "chip": false,
+    "ruler": false,
+    "default": false,
+    "note": "Slider and number input",
+    "asOf": null
+  }
+]

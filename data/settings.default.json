@@ -1,0 +1,86 @@
+{
+  "startYear": {
+    "value": 2027,
+    "unit": "year",
+    "source": "Model convention: first crediting year, build in 2026 (PLAN_V1 B1)",
+    "quality": "estimated"
+  },
+  "creditingYears": {
+    "value": 10,
+    "unit": "years",
+    "source": "SPEC_V1 section 11; the UI offers 10 or 15",
+    "quality": "estimated"
+  },
+  "creditPriceUsdPerT": {
+    "value": 15,
+    "unit": "USD per tCO2e",
+    "source": "SPEC_V1 section 11; scenario ccp_premium, DUMMY",
+    "quality": "dummy"
+  },
+  "priceEscalation": {
+    "value": 0,
+    "unit": "fraction per year",
+    "source": "Default off, flat real price (SPEC_V1 section 11)",
+    "quality": "estimated"
+  },
+  "discountRate": {
+    "value": 0.1,
+    "unit": "real, per year",
+    "source": "SPEC_V1 section 11, DUMMY",
+    "quality": "dummy"
+  },
+  "gwp": {
+    "value": 28,
+    "unit": "tCO2e per t CH4, 100-year",
+    "source": "AR5 GWP100 (SPEC_V1 section 11)",
+    "quality": "literature"
+  },
+  "brokerShare": {
+    "value": 0.05,
+    "unit": "fraction of credit revenue",
+    "source": "Broker and marketing share, DUMMY (reference/cmm_model.py)",
+    "quality": "dummy"
+  },
+  "issuanceFeeUsdPerT": {
+    "value": 0.2,
+    "unit": "USD per credit issued",
+    "source": "DUMMY (reference/cmm_model.py)",
+    "quality": "dummy"
+  },
+  "powerPriceUsdPerMwh": {
+    "value": 80,
+    "unit": "USD per MWh",
+    "source": "Avoided purchase or sale price, DUMMY (SPEC_V1 section 11)",
+    "quality": "dummy"
+  },
+  "validationCostUsd": {
+    "value": 80000,
+    "unit": "USD, year 1",
+    "source": "One-off validation, DUMMY (reference/cmm_model.py)",
+    "quality": "dummy"
+  },
+  "verificationCostUsdPerYr": {
+    "value": 50000,
+    "unit": "USD per year",
+    "source": "Annual verification, DUMMY (reference/cmm_model.py)",
+    "quality": "dummy"
+  },
+  "contingency": {
+    "value": 0.15,
+    "unit": "fraction of capex",
+    "source": "DUMMY (SPEC_V1 section 11)",
+    "quality": "dummy"
+  },
+  "grantShare": {
+    "value": 0,
+    "unit": "fraction of capex",
+    "source": "Default none (SPEC_V1 section 11 plus PLAN_V1 Step 3)",
+    "quality": "estimated"
+  },
+  "usdToInr": {
+    "value": 85,
+    "unit": "INR per USD",
+    "source": "Placeholder, DUMMY; update at build (SPEC_V1 section 11)",
+    "quality": "dummy"
+  }
+}
