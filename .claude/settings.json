@@ -24,6 +24,7 @@
       "Bash(git branch *)",
       "Bash(git rebase origin/main)",
       "Bash(git push -u origin step/*)",
+      "Bash(git push -u origin claude/*)",
       "Bash(git push origin step/*)",
       "Bash(gh pr create *)",
       "Bash(gh pr view *)",
