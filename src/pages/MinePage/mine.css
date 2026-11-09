@@ -1,0 +1,642 @@
+/* Mine page, after design/Moonidih.dc.html. Tokens only. */
+
+.mine-page {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 24px;
+  padding-bottom: 80px;
+}
+
+/* Title block */
+.mine-title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.mine-back {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: var(--hit);
+  color: var(--ink-2);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.mine-back:hover {
+  color: var(--ink);
+}
+
+.mine-title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.mine-title-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.mine-meta {
+  margin: 0;
+  color: var(--ink-2);
+}
+
+.mine-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.mine-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill);
+  background: var(--card);
+  color: var(--ink-2);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.mine-chip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--dot);
+}
+
+/* Two columns: assumptions panel and results */
+.mine-layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.mine-panel {
+  flex: 1 1 320px;
+  max-width: 360px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+  background: var(--card);
+}
+
+.mine-panel-section {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 20px 22px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.mine-panel-section:last-child {
+  border-bottom: 0;
+}
+
+.mine-panel-heading {
+  margin: 0;
+}
+
+.field-label-strong {
+  font-weight: 600;
+}
+
+.mine-panel .segmented button {
+  padding: 4px 8px;
+  line-height: 1.25;
+}
+
+.mine-reset {
+  align-self: flex-start;
+}
+
+.mine-clear {
+  min-height: 0;
+  font-size: inherit;
+}
+
+.control-note {
+  margin: 0;
+  color: var(--ink-3);
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+/* Price control */
+.price-control {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.price-entry {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.price-entry-input {
+  width: 7ch;
+  min-height: 36px;
+  padding: 0 6px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-seg);
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  text-align: right;
+}
+
+.price-entry-input:hover {
+  border-color: var(--ink-3);
+}
+
+.price-chosen {
+  margin: 0;
+  color: var(--ink-2);
+  font-size: 12.5px;
+}
+
+.closure-control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Results column */
+.mine-results {
+  flex: 999 1 640px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mine-result {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 28px 32px 30px;
+}
+
+.mine-result-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.mine-be {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mine-be-label {
+  margin: 0;
+  color: var(--ink-2);
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+
+.mine-be-value {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.mine-be-unit {
+  color: var(--ink-2);
+}
+
+.mine-result .pill {
+  min-height: 36px;
+  padding: 0 16px;
+  font-size: 15px;
+}
+
+.pill-none {
+  background: var(--est-bg);
+  color: var(--est-fg);
+}
+
+.mine-sentence {
+  margin: 0;
+  max-width: 40em;
+  font-size: var(--fs-lede);
+  line-height: 1.55;
+}
+
+/* Price ruler */
+.ruler {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+}
+
+.ruler-track-area {
+  position: relative;
+  height: calc(52px + var(--ruler-rows, 2) * 16px);
+  margin: 0 8px;
+}
+
+.ruler-track,
+.ruler-covered {
+  position: absolute;
+  top: 30px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.ruler-track {
+  right: 0;
+  left: 0;
+  background: var(--line-soft);
+}
+
+.ruler-covered {
+  right: 0;
+  background: var(--range);
+  transition: left var(--dur-settle) var(--ease);
+}
+
+.ruler-tick {
+  position: absolute;
+  top: 28px;
+  width: 0;
+  color: var(--ink-3);
+  font-size: 11.5px;
+  white-space: nowrap;
+}
+
+.ruler-tick-dot {
+  position: absolute;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--band-closed);
+  box-shadow: 0 0 0 2px var(--card);
+}
+
+.ruler-tick-label {
+  position: absolute;
+  top: calc(14px + var(--tick-row, 0) * 16px);
+  left: 0;
+}
+
+.ruler-price {
+  position: absolute;
+  top: 0;
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: left var(--dur-settle) var(--ease);
+}
+
+.ruler-price-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.ruler-price-line {
+  position: absolute;
+  top: 18px;
+  left: -1px;
+  width: 2px;
+  height: 18px;
+  background: var(--ink);
+}
+
+.ruler-be {
+  position: absolute;
+  top: 25px;
+  width: 14px;
+  height: 14px;
+  margin-left: -7px;
+  box-sizing: border-box;
+  border: 3px solid var(--range);
+  border-radius: 50%;
+  background: var(--card);
+  transition: left var(--dur-settle) var(--ease);
+}
+
+/* Shared chart parts */
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--ink-2);
+  font-size: 13px;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-key {
+  display: inline-block;
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+.legend-key-range {
+  width: 18px;
+  height: 4px;
+  background: var(--range);
+}
+
+.legend-key-price {
+  width: 2px;
+  height: 12px;
+  border-radius: 0;
+  background: var(--ink);
+}
+
+.legend-key-tick {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--band-closed);
+}
+
+.mine-metrics .metric-tile {
+  padding: 18px 20px;
+}
+
+.mine-charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.mine-chart {
+  flex: 1 1 340px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mine-chart-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.mine-card-title {
+  margin: 0;
+  font-size: var(--fs-body);
+  font-weight: 600;
+}
+
+.mine-chart-unit {
+  color: var(--ink-3);
+  font-size: 12px;
+}
+
+.chart-svg {
+  display: block;
+  overflow: visible;
+}
+
+.chart-bar {
+  transition:
+    y var(--dur-settle) var(--ease),
+    height var(--dur-settle) var(--ease);
+}
+
+.chart-axis {
+  stroke: var(--ink);
+  stroke-width: 1;
+}
+
+.chart-close-line {
+  stroke: var(--ink);
+  stroke-width: 1;
+  stroke-dasharray: 4 3;
+}
+
+.chart-mark {
+  transition: transform var(--dur-settle) var(--ease);
+}
+
+.chart-note {
+  fill: var(--ink-2);
+  font-size: 11.5px;
+  font-weight: 500;
+}
+
+.chart-tick {
+  fill: var(--ink-3);
+  font-size: 11px;
+}
+
+.chart-y-label {
+  paint-order: stroke;
+  stroke: var(--card);
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+
+.chart-npv-area {
+  fill: var(--range);
+  fill-opacity: 0.1;
+}
+
+.chart-npv-line {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+
+.chart-dot {
+  fill: var(--ink);
+  stroke: var(--card);
+  stroke-width: 3;
+}
+
+/* Stream table */
+.mine-streams {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mine-table-wrap {
+  overflow-x: auto;
+}
+
+.mine-table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  font-size: var(--fs-label);
+}
+
+.mine-table thead th {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-3);
+  font-size: 12.5px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.mine-table th[scope='row'],
+.mine-table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--track);
+  font-weight: 400;
+  text-align: left;
+}
+
+.mine-table tr > :first-child {
+  padding-left: 0;
+}
+
+.mine-table tr > :last-child {
+  padding-right: 0;
+}
+
+.mine-table .num-col {
+  text-align: right;
+}
+
+.mine-stream-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.mine-stream-tech {
+  color: var(--ink-2);
+}
+
+.mine-stream-be {
+  font-weight: 500;
+}
+
+.mine-safety td {
+  padding-left: 0;
+  color: var(--short-fg);
+  font-size: 13px;
+}
+
+/* Who could pay for it (filled in Step 8) */
+.mine-who {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mine-who-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mine-who-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 84px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.mine-who-key {
+  color: var(--ink-3);
+  font-size: 12px;
+}
+
+.mine-who-title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.mine-footnote {
+  margin: 0;
+  max-width: 60em;
+  color: var(--ink-3);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.mine-missing {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 24px;
+  padding-bottom: 80px;
+}
+
+/* Tablet and phone: the panel goes full width above the results. */
+@media (max-width: 1080px) {
+  .mine-panel {
+    max-width: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .mine-page {
+    gap: 24px;
+    padding-top: 12px;
+  }
+
+  .mine-layout,
+  .mine-results {
+    gap: 16px;
+  }
+
+  .mine-result {
+    gap: 20px;
+    padding: 22px 20px 24px;
+  }
+
+  .mine-panel-section {
+    padding: 18px 20px;
+  }
+}
