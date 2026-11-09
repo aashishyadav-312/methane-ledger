@@ -21,7 +21,7 @@ export const RESEARCH_SOURCES: ResearchSource[] = [
     url: null,
   },
   {
-    label: 'Our research document: Carbon Markets for Methane Abatement at Coal India’s Mines (prices, buyers, CCTS and Verra rules)',
+    label: 'Our research document: Carbon Markets for Methane Abatement at Coal India’s Mines (prices, buyers, and the rules of Verra and of India’s Carbon Credit Trading Scheme, CCTS)',
     url: null,
   },
   {

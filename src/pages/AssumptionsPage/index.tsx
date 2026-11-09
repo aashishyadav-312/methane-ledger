@@ -211,8 +211,8 @@ export function AssumptionsPage() {
             Price scenarios
           </h2>
           <p className="doc-note">
-            No public price exists yet for coal mine methane credits. These are benchmarks. Only the ones marked
-            sellable can be sold by Coal India. Prices are fixed in v1; set any price on the mine page.
+            No public price exists yet for coal mine methane credits. These are benchmarks and our estimates. CCTS
+            is India&rsquo;s Carbon Credit Trading Scheme. Only the ones marked sellable can be sold by Coal India. Prices are fixed in v1; set any price on the mine page.
           </p>
           <PriceTable />
         </section>

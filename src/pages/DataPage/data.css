@@ -63,7 +63,7 @@
 
 .data-uploads {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 24px;
 }
 
@@ -81,6 +81,7 @@
 
 .data-file {
   max-width: 100%;
+  min-height: 32px; /* a target of at least 24px, WCAG 2.2 */
   font: inherit;
   font-size: var(--fs-label);
 }

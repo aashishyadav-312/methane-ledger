@@ -1,10 +1,11 @@
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { renderHook } from '@testing-library/react';
 import { afterEach, describe, expect, it } from 'vitest';
 import { evaluate, type MineInput, type Result } from '../../src/model';
 import { getMine } from '../../src/data/load';
 import { getOverrides, reset, type Overrides } from '../../src/state/session';
-import { mineBase } from '../../src/pages/MinePage/useMineModel';
+import { mineBase, useMineModel } from '../../src/pages/MinePage/useMineModel';
 import { entryInput } from '../../src/pages/ComparePage/compare';
 import { INPUT_COLUMNS, SERIES_HEADER } from '../../src/pages/DataPage/columns';
 import { inputsTemplateCsv, seriesTemplateCsv } from '../../src/pages/DataPage/templates';
@@ -132,6 +133,28 @@ describe('merging changed values', () => {
     expect(runMoonidih(getOverrides()).result.erTotalTco2e).toBeLessThan(runMoonidih(NO_OVERRIDES).result.erTotalTco2e);
     clearUploaded();
     expect(getOverrides()).toEqual({});
+  });
+});
+
+describe('the mine page uses an uploaded series', () => {
+  const edited = SERIES.replace('2028,0.6,20,3.45', '2028,0.6,10,3.45');
+
+  it('leaves the mine page numbers alone when nothing was uploaded', () => {
+    const base = mineBase(MOONIDIH, NO_OVERRIDES);
+    expect(base.hasUploadedSeries).toBe(false);
+    const { result } = renderHook(() => useMineModel(base, base.defaults));
+    expect(result.current.result.breakevenUsdPerT).toBeCloseTo(golden.breakeven, 6);
+  });
+
+  it('feeds the series into the model, so it matches the Compare page entry', () => {
+    applyReport(checkSeriesCsv(edited, NO_OVERRIDES));
+    const overrides = getOverrides();
+    const base = mineBase(MOONIDIH, overrides);
+    expect(base.hasUploadedSeries).toBe(true);
+    const { result } = renderHook(() => useMineModel(base, base.defaults));
+    expect(result.current.input.drainedMm3PerYr).toEqual([20, 10, 20, 20, 20, 20, 20, 20]);
+    expect(result.current.result.erTotalTco2e).toBeLessThan(runMoonidih(NO_OVERRIDES).result.erTotalTco2e);
+    expect(result.current.result.erTotalTco2e).toBe(runMoonidih(overrides).result.erTotalTco2e);
   });
 });
 

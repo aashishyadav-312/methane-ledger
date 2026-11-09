@@ -505,7 +505,9 @@
 
 .site-nav {
   display: flex;
-  gap: 28px;
+  flex-wrap: wrap;
+  column-gap: 28px;
+  row-gap: 0;
   font-size: 15px;
   font-weight: 500;
 }
@@ -737,6 +739,6 @@
   }
 
   .site-nav {
-    gap: 20px;
+    column-gap: 18px;
   }
 }

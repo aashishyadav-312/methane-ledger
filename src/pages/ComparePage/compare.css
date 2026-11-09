@@ -168,8 +168,8 @@
 }
 
 .compare-check {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   accent-color: var(--ink);
 }
 
@@ -232,11 +232,6 @@
     padding: 3px 8px;
     font-size: 12px;
     white-space: normal;
-  }
-
-  .compare-check {
-    width: 18px;
-    height: 18px;
   }
 
   .compare-side {

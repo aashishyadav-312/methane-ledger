@@ -304,6 +304,12 @@ function MineScreen({ record }: { record: MineRecord }) {
             onUnits={(patch) => commit(view, { ...page, ...patch })}
             explanation={model.explanation}
           />
+          {base.hasUploadedSeries ? (
+            <p className="control-note" data-testid="uploaded-series-note">
+              Yearly series you uploaded on the Data page are used for this mine in this browser session, in place of
+              the defaults they replace.
+            </p>
+          ) : null}
           {result.warnings.includes('closure_outside_window') ? (
             <p className="control-note">
               The last year of mining, {view.closureYear}, is outside the crediting period from {result.years[0]?.year}{' '}
