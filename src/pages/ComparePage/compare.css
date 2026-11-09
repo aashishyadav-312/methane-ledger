@@ -205,6 +205,53 @@
 }
 
 @media (max-width: 720px) {
+  .compare-table {
+    min-width: 0;
+  }
+
+  .compare-table thead th,
+  .compare-table thead td,
+  .compare-table th[scope='row'],
+  .compare-table tbody td {
+    padding: 10px 6px;
+  }
+
+  /* The ranked list drops the credits column; the bar width and the side-by-side table carry it. */
+  .compare-rank-card .compare-table tr > :nth-child(5) {
+    display: none;
+  }
+
+  .compare-chart-card,
+  .compare-rank-card,
+  .compare-side-card {
+    padding: 18px 16px;
+  }
+
+  .compare-rank-card .pill {
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 12px;
+    white-space: normal;
+  }
+
+  .compare-check {
+    width: 18px;
+    height: 18px;
+  }
+
+  .compare-side {
+    font-size: 12.5px;
+  }
+
+  .compare-side th[scope='row'] {
+    width: 30%;
+    font-weight: 400;
+  }
+
+  .compare-side thead th {
+    word-break: break-word;
+  }
+
   .compare-page {
     padding-block: 24px 48px;
   }

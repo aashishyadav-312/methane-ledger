@@ -44,6 +44,9 @@ export interface SupplyCurveProps {
 const PHONE_MAX_WIDTH_PX = 520;
 const HEIGHT_PX = { wide: 340, phone: 280 } as const;
 const MARGIN_PX = { left: 40, right: 8, top: 14, bottom: 34 } as const;
+// Line labels sit in a margin to the right of the plot, so they never cover a bar. On a phone they show the price only.
+const LABEL_MARGIN_PX = { phone: 40, maxWide: 200 } as const;
+const LABEL_MARGIN_PAD_PX = 14;
 const BAR_GAP_PX = 1;
 const MIN_BAR_PX = 2;
 const Y_TICKS = 5;
@@ -55,7 +58,7 @@ const LABEL_GAP_PX = 13;
 const TOP_HEADROOM = 1.2;
 
 const font: CSSProperties = { fontFamily: 'var(--font-mono)', fontSize: 11 };
-const halo: CSSProperties = { paintOrder: 'stroke', stroke: 'var(--paper)', strokeWidth: 3, strokeLinejoin: 'round' };
+const halo: CSSProperties = { paintOrder: 'stroke', stroke: 'var(--card)', strokeWidth: 3, strokeLinejoin: 'round' };
 
 /** A chart top that clears the tallest bar and your price, rounded to a tick. */
 export function supplyDomain(bars: readonly SupplyBarDatum[], priceUsdPerT: number): [number, number] {
@@ -112,7 +115,13 @@ export function SupplyCurve({
   const phone = width < PHONE_MAX_WIDTH_PX;
   const height = phone ? HEIGHT_PX.phone : HEIGHT_PX.wide;
   const plotLeft = MARGIN_PX.left;
-  const plotRight = Math.max(plotLeft + 1, width - MARGIN_PX.right);
+  const lineText = (text: string) => (phone ? text.slice(text.lastIndexOf(' ') + 1) : text);
+  const { drawn } = splitLines(lines, domainUsdPerT);
+  const labelTexts = [priceLabel, ...drawn.map((l) => l.label)].map(lineText);
+  const labelMarginPx = phone
+    ? LABEL_MARGIN_PX.phone
+    : Math.min(LABEL_MARGIN_PX.maxWide, Math.max(...labelTexts.map((t) => t.length)) * CHAR_PX + LABEL_MARGIN_PAD_PX);
+  const plotRight = Math.max(plotLeft + 1, width - MARGIN_PX.right - labelMarginPx);
   const plotTop = MARGIN_PX.top;
   const plotBottom = height - MARGIN_PX.bottom;
   const totalTco2e = bars.reduce((sum, b) => sum + b.erTco2e, 0);
@@ -122,12 +131,11 @@ export function SupplyCurve({
     .range([plotLeft, plotRight]);
   const y = scaleLinear().domain(domainUsdPerT).range([plotBottom, plotTop]);
   const zeroY = y(Math.max(domainUsdPerT[0], Math.min(0, domainUsdPerT[1])));
-  const { drawn } = splitLines(lines, domainUsdPerT);
-  const labelRight = plotRight - 4;
+  const labelLeft = plotRight + 6;
 
   const labels = spreadLabels([
-    ...drawn.map((l) => ({ id: l.id, text: l.label, y: y(l.priceUsdPerT) - 4, isPrice: false })),
-    { id: 'price', text: priceLabel, y: y(priceUsdPerT) - 4, isPrice: true },
+    ...drawn.map((l) => ({ id: l.id, text: lineText(l.label), y: y(l.priceUsdPerT) + 4, isPrice: false })),
+    { id: 'price', text: lineText(priceLabel), y: y(priceUsdPerT) + 4, isPrice: true },
   ]);
 
   return (
@@ -215,12 +223,11 @@ export function SupplyCurve({
         {labels.map((l) => (
           <text
             key={l.id}
-            x={labelRight}
+            x={labelLeft}
             y={l.y}
-            textAnchor="end"
+            textAnchor="start"
             style={{
               ...font,
-              ...halo,
               fill: l.isPrice ? 'var(--eyebrow)' : 'var(--ink-3)',
               fontWeight: l.isPrice ? 600 : 400,
             }}

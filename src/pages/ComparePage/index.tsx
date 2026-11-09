@@ -155,18 +155,6 @@ export function ComparePage() {
             chips={chips}
             note="No public price exists yet for coal mine methane credits. The chips are benchmarks and our estimates. CCTS is India's Carbon Credit Trading Scheme."
           />
-          {focusEntry ? (
-            <p className="control-note" data-testid="focus-note">
-              {focusEntry.name} uses the settings in this link: last year of mining {focusEntry.closureYear},
-              ventilation air at {pct(view.vamConc, 1)} methane. Every other entry keeps its own closure year and gas,
-              and shares the price, discount rate of {pct(view.discountRate, 0)}, GWP (global warming potential) of{' '}
-              {view.gwp}, grant of {pct(view.grantShare, 0)} and {view.creditingYears} year crediting period.{' '}
-              <a href={mineHref(FOCUS_MINE_ID, Object.fromEntries(encodeMineView(view)))}>
-                Change them on the mine page
-              </a>
-              .
-            </p>
-          ) : null}
         </aside>
 
         <div className="compare-main">
@@ -205,15 +193,26 @@ export function ComparePage() {
             <ul className="compare-lines" aria-label="Price scenario lines">
               {drawn.map((l) => (
                 <li key={l.id}>
-                  <span className="num">{l.label}</span>
+                  <span>{l.label}</span>
                   <span className="compare-badge">{badgeFor(prices, l.id)}</span>
                 </li>
               ))}
             </ul>
+            {focusEntry ? (
+              <p className="control-note" data-testid="focus-note">
+                {focusEntry.name} uses the settings in this link: last year of mining {focusEntry.closureYear},
+                ventilation air at {pct(view.vamConc, 1)} methane. Every other entry keeps its own closure year and gas,
+                and shares the price, discount rate of {pct(view.discountRate, 0)}, GWP (global warming potential) of{' '}
+                {view.gwp}, grant of {pct(view.grantShare, 0)} and {view.creditingYears} year crediting period.{' '}
+                <a href={mineHref(FOCUS_MINE_ID, Object.fromEntries(encodeMineView(view)))}>
+                  Change them on the mine page
+                </a>
+                .
+              </p>
+            ) : null}
             {offScale.length > 0 ? (
               <p className="control-note">
-                Above this chart:{' '}
-                {offScale.map((l) => `${l.label} (${badgeFor(prices, l.id).toLowerCase()})`).join('; ')}.
+                Above this chart: {offScale.map((l) => `${l.label}, ${lowerFirst(badgeFor(prices, l.id))}`).join('; ')}.
               </p>
             ) : null}
           </Card>
@@ -297,6 +296,10 @@ export function ComparePage() {
       </div>
     </div>
   );
+}
+
+function lowerFirst(text: string): string {
+  return text.charAt(0).toLowerCase() + text.slice(1);
 }
 
 function badgeFor(prices: readonly PriceScenario[], id: string): string {
