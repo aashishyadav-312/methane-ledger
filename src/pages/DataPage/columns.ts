@@ -25,7 +25,8 @@ const col = (
   inputPath: string,
   wrapper: readonly string[] = inputPath.split('.'),
   inner?: string,
-): InputColumn => (inner === undefined ? { name, unit, kind, wrapper, inputPath } : { name, unit, kind, wrapper, inner, inputPath });
+): InputColumn =>
+  inner === undefined ? { name, unit, kind, wrapper, inputPath } : { name, unit, kind, wrapper, inner, inputPath };
 
 const FRACTION = 'fraction';
 
@@ -47,7 +48,14 @@ export const INPUT_COLUMNS: readonly InputColumn[] = [
   col('capture_eff_drained', FRACTION, 'number', 'captureEff.drained'),
   col('capture_eff_vam', FRACTION, 'number', 'captureEff.vam'),
   col('capture_eff_amm', FRACTION, 'number', 'captureEff.amm'),
-  col('destruction_mandated_drained', 'yes or no', 'yesno', 'destructionMandated.drained', ['destructionMandated'], 'drained'),
+  col(
+    'destruction_mandated_drained',
+    'yes or no',
+    'yesno',
+    'destructionMandated.drained',
+    ['destructionMandated'],
+    'drained',
+  ),
   col('destruction_mandated_vam', 'yes or no', 'yesno', 'destructionMandated.vam', ['destructionMandated'], 'vam'),
   col('destruction_mandated_amm', 'yes or no', 'yesno', 'destructionMandated.amm', ['destructionMandated'], 'amm'),
   col('amm_f_amm', 'fraction of last-year gas', 'number', 'amm.fAmm'),
@@ -79,4 +87,8 @@ export const SERIES_COLUMNS: readonly SeriesColumn[] = [
 ];
 
 /** Header of `mine_series_template.csv`. */
-export const SERIES_HEADER: readonly string[] = [MINE_ID_COLUMN, SERIES_YEAR_COLUMN, ...SERIES_COLUMNS.map((c) => c.name)];
+export const SERIES_HEADER: readonly string[] = [
+  MINE_ID_COLUMN,
+  SERIES_YEAR_COLUMN,
+  ...SERIES_COLUMNS.map((c) => c.name),
+];

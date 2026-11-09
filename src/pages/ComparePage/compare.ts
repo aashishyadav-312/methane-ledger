@@ -1,10 +1,10 @@
 // The numbers behind the Compare page: one `evaluate` run per mine record, then the supply curve and the headline.
 // Pure functions only, so the page and its tests share them.
-import { evaluate, type MineInput, type Result, type Settings } from '../../model';
+import { evaluate, type MineInput, type Result, type Settings, type StreamKind, type TechLibrary } from '../../model';
+import { pct } from '../../lib/format';
 import { listMines } from '../../data/load';
 import type { MineRecord, PriceScenario } from '../../data/schemas';
 import { applyUploadedSeries } from '../DataPage/upload';
-import { notAbatableReason } from '../MinePage/copy';
 import {
   CREDITING_OPTIONS,
   DISCOUNT_OPTIONS,
@@ -113,6 +113,30 @@ export function entrySettings(base: MineBase, view: MineView): Settings {
   };
 }
 
+const CONC_DIGITS = 2;
+
+function streamConc(kind: StreamKind, input: MineInput): number {
+  if (kind === 'drained') return input.drainedConc;
+  if (kind === 'vam') return input.vamConc;
+  return input.amm?.conc ?? 0;
+}
+
+/** Why no stream of an entry can be abated, in words, with the concentrations from its inputs. */
+export function notAbatableReason(result: Result, input: MineInput, tech: TechLibrary): string {
+  const minConc = Math.min(tech.power.minConc, tech.flare.minConc, tech.rto.minConc);
+  const dilute = result.streams.filter((s) => s.status === 'needs_enrichment');
+  if (dilute.length === 0) return 'There is no gas to destroy in the crediting period.';
+  return dilute
+    .map((s) => {
+      const conc = streamConc(s.kind, input);
+      const label = s.label.charAt(0).toUpperCase() + s.label.slice(1);
+      return conc > 0
+        ? `${label} is ${pct(conc, CONC_DIGITS)} methane, below the ${pct(minConc, CONC_DIGITS)} the leanest technology needs.`
+        : `${label} has no methane concentration to capture.`;
+    })
+    .join(' ');
+}
+
 /** One entry per mine record: real mines first in file order, then archetypes. */
 export function buildEntries(
   records: readonly MineRecord[],
@@ -138,7 +162,7 @@ export function buildEntries(
       npvUsd: result.npvUsd,
       capexUsd: result.capexUsd,
       illustrative: isIllustrative(record),
-      reason: abatable ? null : notAbatableReason(result.streams),
+      reason: abatable ? null : notAbatableReason(result, input, base.tech),
     };
   });
 }
@@ -246,4 +270,17 @@ export function defaultSelection(entries: readonly CompareEntry[]): string[] {
   return rankEntries(entries)
     .slice(0, MIN_COMPARED)
     .map((e) => e.id);
+}
+
+const CUT_DIGITS = 2;
+
+/** "At $15 a tonne, 3 of 6 mines and archetypes break even, cutting 4.91 MtCO2e over 10 years." */
+export function headlineText(h: Headline, priceText: string): string {
+  const head = `At ${priceText} a tonne,`;
+  if (h.paying === 0) return `${head} none of the ${h.total} mines and archetypes break even.`;
+  const cut = h.cutMtco2e.toLocaleString('en-US', {
+    minimumFractionDigits: CUT_DIGITS,
+    maximumFractionDigits: CUT_DIGITS,
+  });
+  return `${head} ${h.paying} of ${h.total} mines and archetypes break even, cutting ${cut} MtCO2e over ${h.creditingYears} years.`;
 }

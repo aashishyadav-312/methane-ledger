@@ -10,13 +10,7 @@ import type { ZodIssue } from 'zod';
 import { activeSeries, buildTimeline, type MineInput } from '../../model';
 import { getSettings, getTimeline, listMines, unwrapMine } from '../../data/load';
 import { MineRecordSchema, type MineRecord } from '../../data/schemas';
-import {
-  applyOverrides,
-  getOverrides,
-  setOverride,
-  type OverrideValue,
-  type Overrides,
-} from '../../state/session';
+import { applyOverrides, getOverrides, setOverride, type OverrideValue, type Overrides } from '../../state/session';
 import {
   INPUT_COLUMNS,
   MINE_ID_COLUMN,
@@ -70,7 +64,7 @@ function emptyReport(kind: UploadReport['kind']): UploadReport {
 type Cells = string[];
 
 function readCsv(text: string): Cells[] {
-  const parsed = Papa.parse<Cells>(text.replace(/^﻿/, ''), { skipEmptyLines: false });
+  const parsed = Papa.parse<Cells>(text.replace(/^\uFEFF/, ''), { skipEmptyLines: false });
   return parsed.data;
 }
 
@@ -110,7 +104,7 @@ function plainIssue(issue: ZodIssue, found: string): string {
   return issue.message + tail;
 }
 
-function pathStartsWith(path: readonly PropertyKey[], prefix: readonly string[]): boolean {
+function pathStartsWith(path: readonly PropertyKey[], prefix: readonly PropertyKey[]): boolean {
   return prefix.length <= path.length && prefix.every((k, n) => path[n] === k);
 }
 
@@ -165,7 +159,10 @@ function getPath(input: unknown, dotted: string): unknown {
 function columnForIssue(path: readonly PropertyKey[], columns: readonly InputColumn[]): InputColumn | undefined {
   const fullPath = (c: InputColumn) => (c.inner === undefined ? c.wrapper : [...c.wrapper, 'value', c.inner]);
   return columns
-    .filter((c) => pathStartsWith(path, fullPath(c)) || (path.length < fullPath(c).length && pathStartsWith(fullPath(c), path)))
+    .filter(
+      (c) =>
+        pathStartsWith(path, fullPath(c)) || (path.length < fullPath(c).length && pathStartsWith(fullPath(c), path)),
+    )
     .sort((a, b) => fullPath(b).length - fullPath(a).length)[0];
 }
 
@@ -331,7 +328,12 @@ export function checkSeriesCsv(text: string, overrides: Overrides = getOverrides
         const parsed = parseCell('number', cell);
         if ('problem' in parsed) return fail(column.name, parsed.problem);
         const wrapper = candidate[column.field] as Wrapper;
-        candidate[column.field] = { ...wrapper, value: parsed.value, source: `Uploaded file, line ${row}`, quality: UPLOAD_QUALITY };
+        candidate[column.field] = {
+          ...wrapper,
+          value: parsed.value,
+          source: `Uploaded file, line ${row}`,
+          quality: UPLOAD_QUALITY,
+        };
         shown.set(column.field, cell);
         values[column.field] = Number(parsed.value);
       });

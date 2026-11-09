@@ -1,0 +1,145 @@
+/* Data page. Tokens only (docs/DESIGN.md). */
+.data-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 920px;
+  padding-block: 40px 72px;
+}
+
+.data-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.data-lede {
+  margin: 0;
+  max-width: 62ch;
+}
+
+.data-session {
+  margin: 0;
+  padding: 6px 12px;
+  border-radius: var(--r-seg);
+  background: var(--est-bg);
+  color: var(--est-fg);
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+
+.data-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.data-card-title {
+  margin: 0;
+  font-size: var(--fs-body);
+  font-weight: 600;
+}
+
+.data-downloads,
+.data-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+}
+
+.data-notes {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--ink-2);
+  font-size: var(--fs-label);
+  line-height: 1.6;
+}
+
+.data-notes code {
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+.data-uploads {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.data-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 0;
+}
+
+.data-upload-label {
+  font-weight: 600;
+}
+
+.data-file {
+  max-width: 100%;
+  font: inherit;
+  font-size: var(--fs-label);
+}
+
+.data-result {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+  width: 100%;
+}
+
+.data-summary {
+  margin: 0;
+  font-size: var(--fs-label);
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.data-errors {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.data-errors-title {
+  margin: 0;
+  color: var(--short-fg);
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+
+.data-table-wrap {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--track);
+  text-align: left;
+  vertical-align: top;
+}
+
+.data-table thead th {
+  color: var(--ink-3);
+  font-size: 12.5px;
+  font-weight: 500;
+  border-bottom-color: var(--line);
+}
+
+@media (max-width: 720px) {
+  .data-page {
+    padding-block: 24px 48px;
+  }
+}

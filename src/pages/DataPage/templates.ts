@@ -4,13 +4,7 @@ import Papa from 'papaparse';
 import { buildTimeline, activeSeries } from '../../model';
 import { getSettings, getTimeline, listMines, unwrapMine } from '../../data/load';
 import type { MineInput } from '../../model';
-import {
-  INPUT_COLUMNS,
-  MINE_ID_COLUMN,
-  SERIES_COLUMNS,
-  SERIES_HEADER,
-  UNITS_MARKER,
-} from './columns';
+import { INPUT_COLUMNS, MINE_ID_COLUMN, SERIES_COLUMNS, SERIES_HEADER, UNITS_MARKER } from './columns';
 
 export const TEMPLATE_MINE_ID = 'bccl-moonidih';
 export const INPUTS_TEMPLATE_FILE = 'mine_inputs_template.csv';
