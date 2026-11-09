@@ -34,7 +34,9 @@ export function StartPin({ data, mine }: { data: Pick<MapData, 'viewBox'>; mine:
         <span className="eyebrow start-pin-eyebrow">Start here</span>
         <span className="pin-card-name">{mine.name}</span>
         <span className="pin-card-meta start-pin-meta">
-          <abbr title={subsidiaryName(mine.company)}>{mine.company}</abbr> · {typeLabel(mine.type)} · open the model
+          <span>
+            <abbr title={subsidiaryName(mine.company)}>{mine.company}</abbr> · {typeLabel(mine.type)} · open the model
+          </span>
           <Arrow />
         </span>
       </span>
