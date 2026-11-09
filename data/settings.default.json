@@ -78,9 +78,15 @@
     "quality": "estimated"
   },
   "usdToInr": {
-    "value": 85,
+    "value": 95,
     "unit": "INR per USD",
-    "source": "Placeholder, DUMMY; update at build (SPEC_V1 section 11)",
+    "source": "Stated by the project lead, November 2026; DUMMY until checked against the RBI reference rate (PLAN_V1 Appendix G)",
     "quality": "dummy"
+  },
+  "costModel": {
+    "value": "buildup",
+    "unit": "cost basis: buildup or v1",
+    "source": "India cost build-up is the default from v1.1; v1 keeps the all-in unit costs (PLAN_V1 Appendix G)",
+    "quality": "estimated"
   }
 }

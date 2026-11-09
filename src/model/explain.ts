@@ -1,4 +1,4 @@
-import type { Constants, MineInput, Settings, TechLibrary } from './types';
+import type { Constants, CostParams, MineInput, Settings, TechLibrary } from './types';
 import { priceByYear, pv, type ProjectComponents } from './finance';
 import { mineComponents } from './waterfall';
 
@@ -68,6 +68,12 @@ export function explainComponents(c: ProjectComponents, settings: Settings): Exp
 }
 
 /** Explain the break-even of one mine. */
-export function explain(mine: MineInput, settings: Settings, tech: TechLibrary, constants: Constants): Explanation {
-  return explainComponents(mineComponents(mine, settings, tech, constants), settings);
+export function explain(
+  mine: MineInput,
+  settings: Settings,
+  tech: TechLibrary,
+  constants: Constants,
+  costs?: CostParams,
+): Explanation {
+  return explainComponents(mineComponents(mine, settings, tech, constants, costs), settings);
 }

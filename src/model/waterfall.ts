@@ -1,4 +1,4 @@
-import type { Constants, MineInput, Settings, TechLibrary } from './types';
+import type { Constants, CostParams, MineInput, OpexType, Settings, TechLibrary } from './types';
 import { projectFlows } from './evaluate';
 import { pv, priceByYear, type ProjectComponents } from './finance';
 import { buildStreams } from './streams';
@@ -13,16 +13,19 @@ export function mineComponents(
   settings: Settings,
   tech: TechLibrary,
   constants: Constants,
+  costs?: CostParams,
 ): ProjectComponents {
   const timeline = buildTimeline(mine, settings);
   const streams = buildStreams(mine, settings, tech, timeline);
-  return projectFlows(streams, settings, tech, constants).components;
+  return projectFlows(streams, settings, tech, constants, costs).components;
 }
 
 /** The break-even credit price split into its parts, in USD per tCO2e. The parts sum to `totalUsdPerT` (P*). */
 export interface Waterfall {
   capexUsdPerT: number;
   opexUsdPerT: number;
+  /** On the cost build-up: `opexUsdPerT` split by type (O&M, overhauls, staff, insurance, fan power, decommissioning). */
+  opexPartsUsdPerT?: Record<OpexType, number>;
   mrvUsdPerT: number;
   feesUsdPerT: number;
   /** Negative: power sold offsets cost. */
@@ -42,12 +45,18 @@ export function waterfallFromComponents(c: ProjectComponents, settings: Settings
   if (denTco2e === 0) return null;
   const capexUsdPerT = c.capexUsd / denTco2e;
   const opexUsdPerT = pv(c.opexUsd, r) / denTco2e;
+  const opexPartsUsdPerT = c.costs
+    ? (Object.fromEntries(
+        Object.entries(c.costs.opexByType).map(([type, flows]) => [type, pv(flows, r) / denTco2e]),
+      ) as Record<OpexType, number>)
+    : undefined;
   const mrvUsdPerT = pv(c.mrvUsd, r) / denTco2e;
   const feesUsdPerT = (settings.issuanceFeeUsdPerT * pv(c.erTco2e, r)) / denTco2e;
   const energyUsdPerT = -pv(c.energyRevUsd, r) / denTco2e;
   return {
     capexUsdPerT,
     opexUsdPerT,
+    ...(opexPartsUsdPerT ? { opexPartsUsdPerT } : {}),
     mrvUsdPerT,
     feesUsdPerT,
     energyUsdPerT,
@@ -61,6 +70,7 @@ export function waterfall(
   settings: Settings,
   tech: TechLibrary,
   constants: Constants,
+  costs?: CostParams,
 ): Waterfall | null {
-  return waterfallFromComponents(mineComponents(mine, settings, tech, constants), settings);
+  return waterfallFromComponents(mineComponents(mine, settings, tech, constants, costs), settings);
 }

@@ -2,8 +2,8 @@
  * Compile-time check that the validated data matches the contract in `src/model/types.ts`.
  * Nothing imports this file; `npm run typecheck` fails if the schemas and the contract drift apart.
  */
-import type { Constants, Field, MineInput, Quality, Settings, TechLibrary } from '../model/types';
-import type { ConstantsRecord, MineRecord, SettingsRecord, TechRecord } from './schemas';
+import type { Constants, CostParams, Field, MineInput, Quality, Settings, TechLibrary } from '../model/types';
+import type { ConstantsRecord, CostsRecord, MineRecord, SettingsRecord, TechRecord } from './schemas';
 import { QualitySchema } from './schemas';
 import type { Unwrap } from './unwrap';
 import type { z } from 'zod';
@@ -19,6 +19,7 @@ export interface ContractInputs {
   constants: Unwrap<ConstantsRecord>;
   tech: Unwrap<TechRecord>;
   settings: Unwrap<SettingsRecord>;
+  costs: Unwrap<CostsRecord>;
   mine: MineInput;
   wrappedYear: Extract<MineRecord['closureYear'], { value: number }>;
   wrappedProduction: MineRecord['productionMtPerYr'];
@@ -30,6 +31,7 @@ export function contractChecks(x: ContractInputs) {
     constants: x.constants satisfies Constants,
     tech: x.tech satisfies TechLibrary,
     settings: x.settings satisfies Settings,
+    costs: x.costs satisfies CostParams,
     mine: x.mine satisfies MineInput,
     wrappedYear: x.wrappedYear satisfies Field,
     wrappedProduction: x.wrappedProduction satisfies Field<number | number[]>,

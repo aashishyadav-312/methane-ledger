@@ -1,6 +1,9 @@
 import { describe, expect, test } from 'vitest';
 import {
   getConstants,
+  getCosts,
+  getCostsRecord,
+  getDefaultSettings,
   getMapData,
   getMine,
   getMineInput,
@@ -15,16 +18,18 @@ import {
 import {
   ClosureTimelineSchema,
   ConstantsRecordSchema,
+  CostsRecordSchema,
   MapDataSchema,
   MineRecordsSchema,
   PriceScenariosSchema,
   QUALITY_VALUES,
-  SettingsRecordSchema,
+  SettingsFileSchema,
   TechRecordSchema,
 } from '../../src/data/schemas';
 import { collectFields, listDummyFields } from '../../src/data/unwrap';
 import { DataValidationError, parseData } from '../../src/data/validate';
 import constantsJson from '../../data/constants.json';
+import costsJson from '../../data/costs.json';
 import minesJson from '../../data/mines.json';
 import pricesJson from '../../data/prices.json';
 import settingsJson from '../../data/settings.default.json';
@@ -40,7 +45,8 @@ describe('every data file validates', () => {
     ['data/technologies.json', TechRecordSchema, technologiesJson],
     ['data/prices.json', PriceScenariosSchema, pricesJson],
     ['data/constants.json', ConstantsRecordSchema, constantsJson],
-    ['data/settings.default.json', SettingsRecordSchema, settingsJson],
+    ['data/settings.default.json', SettingsFileSchema, settingsJson],
+    ['data/costs.json', CostsRecordSchema, costsJson],
     ['src/generated/closure_timeline.json', ClosureTimelineSchema, closureTimelineJson],
     ['src/generated/mines_map.json', MapDataSchema, minesMapJson],
   ] as const)('%s', (file, schema, raw) => {
@@ -80,7 +86,7 @@ describe('malformed data fails with a readable message', () => {
   test('an unknown key is rejected, so typos do not pass silently', () => {
     const bad = clone(settingsJson) as unknown as Record<string, unknown>;
     bad.discountrate = bad.discountRate;
-    expect(() => parseData('data/settings.default.json', SettingsRecordSchema, bad)).toThrow(/discountrate/);
+    expect(() => parseData('data/settings.default.json', SettingsFileSchema, bad)).toThrow(/discountrate/);
   });
 
   test('a fraction above 1 is rejected', () => {
@@ -126,7 +132,25 @@ describe('malformed data fails with a readable message', () => {
   test('crediting years other than 10 or 15 are rejected', () => {
     const bad = clone(settingsJson) as unknown as { creditingYears: { value: number } };
     bad.creditingYears.value = 12;
-    expect(() => parseData('data/settings.default.json', SettingsRecordSchema, bad)).toThrow(/creditingYears\.value/);
+    expect(() => parseData('data/settings.default.json', SettingsFileSchema, bad)).toThrow(/creditingYears\.value/);
+  });
+
+  test('an unknown cost basis is rejected', () => {
+    const bad = clone(settingsJson) as unknown as { costModel: { value: string } };
+    bad.costModel.value = 'cheap';
+    expect(() => parseData('data/settings.default.json', SettingsFileSchema, bad)).toThrow(/costModel\.value/);
+  });
+
+  test('cost shares that do not sum to 1 are rejected', () => {
+    const bad = clone(costsJson) as unknown as { split: { power: { value: number[] } } };
+    bad.split.power.value = [0.65, 0.1, 0.15, 0.2];
+    expect(() => parseData('data/costs.json', CostsRecordSchema, bad)).toThrow(/split\.power\.value/);
+  });
+
+  test('a fractional headcount is rejected', () => {
+    const bad = clone(costsJson) as unknown as { headcount: { power: { value: number } } };
+    bad.headcount.power.value = 12.5;
+    expect(() => parseData('data/costs.json', CostsRecordSchema, bad)).toThrow(/headcount\.power\.value/);
   });
 });
 
@@ -308,8 +332,27 @@ describe('technology library, constants and settings', () => {
       verificationCostUsdPerYr: 50000,
       contingency: 0.15,
       grantShare: 0,
-      usdToInr: 85,
+      usdToInr: 95,
+      costModel: 'v1', // temporary: pages do not pass cost parameters yet (see getSettings in src/data/load.ts)
     });
+  });
+
+  test('the file default is the India build-up, at 95 rupees per dollar', () => {
+    expect(getDefaultSettings().costModel).toBe('buildup');
+    expect(getDefaultSettings().usdToInr).toBe(95);
+  });
+
+  test('cost parameters are the Appendix G defaults', () => {
+    const c = getCosts();
+    expect(c.localFactor).toBe(0.6);
+    expect(c.staffCostInr).toBe(900_000);
+    expect(c.headcount).toEqual({ power: 12, flare: 2, rto: 4, drainage: 6, monitoring: 1 });
+    expect(c.split.drainage).toEqual([0.3, 0.3, 0.25, 0.15]);
+    expect(c.nonlabourOm).toEqual({ powerPerMwh: 9, flareFrac: 0.03, rtoFrac: 0.035, drainageFrac: 0.025 });
+  });
+
+  test('every cost parameter is marked dummy until real costs arrive', () => {
+    expect(listDummyFields(getCostsRecord()).length).toBe(collectFields(getCostsRecord()).length);
   });
 
   test('the default GWP is one of the GWP options', () => {

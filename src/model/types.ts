@@ -35,7 +35,36 @@ export interface Settings {
   verificationCostUsdPerYr: number; // 50000
   contingency: number;            // 0.15
   grantShare: number;             // 0
-  usdToInr: number;               // 85, placeholder
+  usdToInr: number;               // 95 (rupees per US dollar); converts the staff cost in the cost build-up
+  /** Cost basis. Missing means 'v1' (all-in unit costs), so v1 fixtures keep working. 'buildup' needs `CostParams`. */
+  costModel?: CostModel;
+}
+
+/* ---------- cost build-up (PLAN_V1 Appendix G) ---------- */
+
+export type CostModel = 'v1' | 'buildup';
+export type CostCategory = 'equipment' | 'materials' | 'labour' | 'civil';
+export type CostItem = 'power' | 'flare' | 'rto' | 'drainage' | 'grid_connection' | 'monitoring';
+export type OpexType = 'om' | 'overhaul' | 'staff' | 'insurance' | 'fan_power' | 'decommissioning';
+
+export interface CostParams {
+  localFactor: number; importMarkup: number; ownersCost: number; gridConnectionUsd: number;
+  decommissioning: number; insurance: number; staffCostInr: number;
+  headcount: Record<'power' | 'flare' | 'rto' | 'drainage' | 'monitoring', number>;
+  split: Record<'power' | 'flare' | 'rto' | 'drainage', [number, number, number, number]>;
+  imported: Record<'power' | 'flare' | 'rto' | 'drainage', number>;
+  nonlabourOm: { powerPerMwh: number; flareFrac: number; rtoFrac: number; drainageFrac: number };
+  overhaulUsdPerKw: number; overhaulHours: number;
+}
+
+/**
+ * What the build-up costs, before any grant: `capexItems` sum to `capexUsd / (1 - grantShare)`.
+ * `opexByType[type][i]` is the cost in crediting year i + 1.
+ */
+export interface CostBreakdown {
+  capexItems: { stream: StreamKind | 'site'; item: CostItem; category: CostCategory; usd: number }[];
+  capexByCategory: Record<CostCategory, number>;
+  opexByType: Record<OpexType, number[]>;
 }
 
 export interface MineInput {
@@ -83,4 +112,6 @@ export interface Result {
   breakevenUsdPerT: number | null; npvUsd: number; irr: number | null;
   paybackIndex: number | null; paybackYear: number | null;
   streams: StreamResult[]; warnings: Warning[];
+  /** Present only with `settings.costModel === 'buildup'`. */
+  costs?: CostBreakdown;
 }

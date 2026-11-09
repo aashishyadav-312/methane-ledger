@@ -1,5 +1,6 @@
 import type {
   Constants,
+  CostParams,
   MineInput,
   Result,
   Settings,
@@ -20,6 +21,7 @@ import {
   streamBreakevenUsdPerT,
   type ProjectComponents,
 } from './finance';
+import { buildupFlows } from './costs';
 import { buildStreams } from './streams';
 import { buildTimeline, type Timeline } from './timeline';
 
@@ -28,13 +30,24 @@ export interface ProjectFlows {
   cashflows: StreamCashflow[];
 }
 
-/** Sum the stream rows into project components; capex = (stream capex + monitoring) x (1 - grant). */
+/**
+ * The one place project flows are built; `evaluate`, `financing`, `waterfall`, `tornado` and `explain` all come here.
+ * With `settings.costModel === 'buildup'` the cost build-up applies (needs `costs`); otherwise v1's all-in unit
+ * costs: capex = (stream capex + monitoring) x (1 - grant).
+ */
 export function projectFlows(
   streams: StreamInput[],
   settings: Settings,
   tech: TechLibrary,
   constants: Constants,
+  costs?: CostParams,
 ): ProjectFlows {
+  if (settings.costModel === 'buildup') {
+    if (costs === undefined) {
+      throw new Error('settings.costModel is "buildup" but no cost parameters were given (data/costs.json)');
+    }
+    return buildupFlows(streams, settings, tech, constants, costs);
+  }
   const n = settings.creditingYears;
   const cashflows = streams.map((s) => streamCashflow(s, settings, tech, constants));
   const erTco2e = new Array<number>(n).fill(0);
@@ -69,9 +82,10 @@ export function evaluateStreams(
   tech: TechLibrary,
   constants: Constants,
   timeline: Timeline,
+  costs?: CostParams,
 ): Result {
   const n = settings.creditingYears;
-  const { components: c, cashflows } = projectFlows(streams, settings, tech, constants);
+  const { components: c, cashflows } = projectFlows(streams, settings, tech, constants, costs);
   const price = priceByYear(settings.creditPriceUsdPerT, settings.priceEscalation, n);
   const netCreditUsdPerT = price.map((p) => p * (1 - settings.brokerShare) - settings.issuanceFeeUsdPerT);
 
@@ -137,12 +151,22 @@ export function evaluateStreams(
     paybackYear: payback === null ? null : settings.startYear - 1 + payback,
     streams: streamResults,
     warnings,
+    ...(c.costs ? { costs: c.costs } : {}),
   };
 }
 
-/** Evaluate one mine: timeline, gas, technology, cash flows and finance (Appendix B1 to B5). */
-export function evaluate(mine: MineInput, settings: Settings, tech: TechLibrary, constants: Constants): Result {
+/**
+ * Evaluate one mine: timeline, gas, technology, cash flows and finance (Appendix B1 to B5, Appendix G).
+ * `costs` is required when `settings.costModel` is "buildup".
+ */
+export function evaluate(
+  mine: MineInput,
+  settings: Settings,
+  tech: TechLibrary,
+  constants: Constants,
+  costs?: CostParams,
+): Result {
   const timeline = buildTimeline(mine, settings);
   const streams = buildStreams(mine, settings, tech, timeline);
-  return evaluateStreams(streams, settings, tech, constants, timeline);
+  return evaluateStreams(streams, settings, tech, constants, timeline, costs);
 }
