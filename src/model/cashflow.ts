@@ -45,7 +45,7 @@ export function streamCashflow(
     const ch4CapturedT = massTFromMm3(capturedMm3, constants);
     const erTco2e = stream.destructionMandated ? 0 : ch4CapturedT * destructionEff * erPerT;
     let energyRevUsd = 0;
-    let opexUsd = 0;
+    let opexUsd: number;
     if (stream.tech === 'power') {
       const mwh = powerMwhFromT(ch4CapturedT, lib, constants);
       energyRevUsd = mwh * settings.powerPriceUsdPerMwh;

@@ -1,5 +1,4 @@
 import { describe, expect, test } from 'vitest';
-import { readFileSync } from 'node:fs';
 import {
   CONSTANTS,
   erTco2ePerTDestroyed,
@@ -12,9 +11,21 @@ import {
 import { ARCHETYPES, MOONIDIH_V1, MOONIDIH_WB2034, REFERENCE_SETTINGS } from '../../src/model/fixtures';
 import { expectGolden, run, type Unit } from './helpers';
 
+import moonidihV1 from '../golden/moonidih_v1.json';
+import moonidihWb2034 from '../golden/moonidih_wb2034.json';
+import sensitivitiesV1 from '../golden/sensitivities_v1.json';
+import archetypesV1 from '../golden/archetypes_v1.json';
+import physicsV1 from '../golden/physics_v1.json';
+
 type Json = Record<string, unknown>;
-const load = (name: string): Json =>
-  JSON.parse(readFileSync(new URL(`../golden/${name}.json`, import.meta.url), 'utf8')) as Json;
+const GOLDENS: Record<string, unknown> = {
+  moonidih_v1: moonidihV1,
+  moonidih_wb2034: moonidihWb2034,
+  sensitivities_v1: sensitivitiesV1,
+  archetypes_v1: archetypesV1,
+  physics_v1: physicsV1,
+};
+const load = (name: string): Json => GOLDENS[name] as Json;
 
 /** Unit of each scalar key the goldens use. An unknown key fails the test, so no number goes unchecked. */
 const UNIT: Record<string, Unit> = {

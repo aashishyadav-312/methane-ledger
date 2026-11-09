@@ -9,10 +9,14 @@ export function pv(values: number[], rate: number): number {
   return total;
 }
 
-/** NPV = sum of Cash_i / (1 + r)^i for i = 0..N (cash[0] is the build year). */
+/**
+ * NPV = sum of Cash_i / (1 + r)^i for i = 0..N (cash[0] is the build year).
+ * Evaluated by Horner's rule in x = 1 / (1 + r): the IRR scan calls this about 1,200 times per evaluation.
+ */
 export function npv(cashUsd: number[], rate: number): number {
+  const x = 1 / (1 + rate);
   let total = 0;
-  for (let i = 0; i < cashUsd.length; i++) total += cashUsd[i] / (1 + rate) ** i;
+  for (let i = cashUsd.length - 1; i >= 0; i--) total = total * x + cashUsd[i];
   return total;
 }
 
