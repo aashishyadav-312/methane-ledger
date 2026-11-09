@@ -11,7 +11,14 @@ import {
   getTechRecord,
   getTimeline,
 } from '../../data/load';
-import { acceptsValue, buildRegistry, valueAt, type RegistryEntry, type ViewKey } from '../../data/registry';
+import {
+  acceptsValue,
+  buildRegistry,
+  valueAt,
+  type RegistryEntry,
+  type RegistryGroup,
+  type ViewKey,
+} from '../../data/registry';
 import { AssumptionsSheet, type SheetRow } from '../../components/advanced/AssumptionsSheet';
 import type { MineRecord, PriceScenario } from '../../data/schemas';
 import { listDummyFields } from '../../data/unwrap';
@@ -269,6 +276,11 @@ function MineScreen({ record }: { record: MineRecord }) {
   const [view, setView] = useState<MineView>(() => decodeMineView(currentQuery(), ctx));
   const [page, setPage] = useState<PageView>(() => decodePageView(currentQuery()));
   const [sheetOpen, setSheetOpen] = useState(false);
+  const [sheetGroup, setSheetGroup] = useState<RegistryGroup>('Market');
+  const openSheet = (group: RegistryGroup) => {
+    setSheetGroup(group);
+    setSheetOpen(true);
+  };
   const writer = useMemo(() => createQueryWriter(), []);
 
   // The user loads another link for this mine (paste, back or forward): read the controls again.
@@ -411,10 +423,11 @@ function MineScreen({ record }: { record: MineRecord }) {
           onClearOverrides={resetOverrides}
           allCount={rows.length}
           allOpen={sheetOpen}
-          onOpenAll={() => setSheetOpen(true)}
+          onOpenAll={() => openSheet('Market')}
         />
         <AssumptionsSheet
           open={sheetOpen}
+          initialGroup={sheetGroup}
           onClose={() => setSheetOpen(false)}
           rows={rows}
           costModel={panel.costModel}
@@ -436,6 +449,7 @@ function MineScreen({ record }: { record: MineRecord }) {
             offScaleNote={offScale}
             units={units}
             onUnits={(patch) => commit(view, { ...page, ...patch })}
+            onEditRate={() => openSheet('Market')}
             explanation={model.explanation}
           />
           {base.hasUploadedSeries ? (

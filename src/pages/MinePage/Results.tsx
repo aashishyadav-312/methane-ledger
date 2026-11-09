@@ -56,6 +56,8 @@ export interface ResultCardProps {
   offScaleNote: string | null;
   units: Units;
   onUnits: (patch: { currency?: Currency; tonnes?: TonneUnit }) => void;
+  /** Opens the "All assumptions" sheet on the Market group, where the rupee rate is set. */
+  onEditRate: () => void;
   explanation: Explanation;
 }
 
@@ -70,6 +72,7 @@ export function ResultCard({
   offScaleNote,
   units,
   onUnits,
+  onEditRate,
   explanation,
 }: ResultCardProps) {
   const [rulerRef, rulerWidth] = useElementWidth(FALLBACK_WIDTH_PX);
@@ -94,7 +97,20 @@ export function ResultCard({
           value={units.currency}
           onChange={(currency) => onUnits({ currency })}
         />
-        <span className="control-note num mine-fx">at ₹{units.usdToInr} per $, placeholder</span>
+        <span className="control-note mine-fx">
+          <span className="num" data-testid="fx-rate">
+            at ₹{units.usdToInr} per $
+          </span>{' '}
+          <button
+            type="button"
+            className="btn btn-link mine-fx-link"
+            aria-haspopup="dialog"
+            aria-label="Change the rupee rate"
+            onClick={onEditRate}
+          >
+            Change
+          </button>
+        </span>
         <Segmented<TonneUnit>
           label="Tonnes"
           hideLabel

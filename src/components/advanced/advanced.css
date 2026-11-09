@@ -41,6 +41,8 @@
   transform: none;
 }
 
+/* The slide-in starts from these styles on the sheet's first frame, with no script waiting on an animation frame.
+   Browsers without @starting-style show the sheet at once. */
 @media (prefers-reduced-motion: no-preference) {
   .adv-scrim {
     transition: opacity var(--dur-settle) var(--ease);
@@ -48,6 +50,16 @@
 
   .adv-sheet {
     transition: transform var(--dur-settle) var(--ease);
+  }
+
+  @starting-style {
+    .adv-root.is-open .adv-scrim {
+      opacity: 0;
+    }
+
+    .adv-root.is-open .adv-sheet {
+      transform: translateX(100%);
+    }
   }
 }
 
@@ -329,6 +341,12 @@
     width: 100%;
     border-left: 0;
     transform: translateY(100%);
+  }
+
+  @starting-style {
+    .adv-root.is-open .adv-sheet {
+      transform: translateY(100%);
+    }
   }
 
   .adv-head {
