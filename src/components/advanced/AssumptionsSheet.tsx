@@ -92,7 +92,9 @@ function Sheet({
     document.body.style.overflow = 'hidden';
     return () => {
       document.body.style.overflow = overflow;
-      opener.current?.focus();
+      // After the key event that closed the sheet has finished, so its default action cannot take focus back.
+      const target = opener.current;
+      setTimeout(() => target?.focus(), 0);
     };
   }, [open]);
 
@@ -105,6 +107,8 @@ function Sheet({
 
   const onKeyDown = (e: KeyboardEvent<HTMLDivElement>) => {
     if (e.key === 'Escape') {
+      // Without this, Escape's default action in the search box takes focus back from the opener.
+      e.preventDefault();
       e.stopPropagation();
       onClose();
       return;
@@ -358,6 +362,11 @@ function NumberInput({ id, row, value, errorId, onError, onApply }: NumberInputP
   const [invalid, setInvalid] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const applied = useRef(value);
+  // The timer calls the latest callback, not the one from the keystroke that started it.
+  const apply = useRef(onApply);
+  useEffect(() => {
+    apply.current = onApply;
+  });
 
   // A change from outside (a reset, another link) replaces the text.
   useEffect(() => {
@@ -367,9 +376,16 @@ function NumberInput({ id, row, value, errorId, onError, onApply }: NumberInputP
     setInvalid(false);
   }, [value, entry]);
 
-  useEffect(() => () => {
-    if (timer.current !== null) clearTimeout(timer.current);
-  }, []);
+  // Leaving the row (another tab, a search, closing the sheet) applies a pending value instead of dropping it.
+  const pending = useRef<number | null>(null);
+  useEffect(
+    () => () => {
+      if (timer.current === null) return;
+      clearTimeout(timer.current);
+      if (pending.current !== null) apply.current(pending.current);
+    },
+    [],
+  );
 
   const onInput = (next: string) => {
     setText(next);
@@ -383,10 +399,12 @@ function NumberInput({ id, row, value, errorId, onError, onApply }: NumberInputP
     }
     setInvalid(false);
     onError(null);
+    pending.current = stored;
     timer.current = setTimeout(() => {
       timer.current = null;
+      pending.current = null;
       applied.current = stored;
-      onApply(stored);
+      apply.current(stored);
     }, APPLY_DELAY_MS);
   };
 

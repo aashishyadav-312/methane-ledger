@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useMemo, useState, useSyncExternalStore, type CSSProperties } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState, useSyncExternalStore, type CSSProperties } from 'react';
 import { useRouteLocation } from '../../app/router';
 import type { PriceChip } from '../../components/inputs/PriceControl';
 import type { RulerTick } from '../../components/charts/PriceRuler';
@@ -304,8 +304,16 @@ function MineScreen({ record }: { record: MineRecord }) {
     moveStartMs = null;
   });
 
+  // The latest state, for changes that arrive from timers (the sheet applies 150 ms after typing): two quick edits
+  // in different rows must both land.
+  const latest = useRef({ view, page, panel });
+  useEffect(() => {
+    latest.current = { view, page, panel };
+  });
+
   const commit = (next: MineView, nextPage: PageView = page, nextPanel: PanelState = panel) => {
     if (import.meta.env.DEV) moveStartMs = performance.now();
+    latest.current = { view: next, page: nextPage, panel: nextPanel };
     setView(next);
     setPage(nextPage);
     setPanel(nextPanel);
@@ -319,15 +327,16 @@ function MineScreen({ record }: { record: MineRecord }) {
   const changeValue = (p: string, value: PanelValue) => {
     const row = rows.find((r) => r.entry.path === p);
     if (row === undefined) return;
+    const now = latest.current;
     const key = row.entry.view;
     if (key !== undefined) {
-      if (typeof value === 'number') commit({ ...view, ...viewPatch(key, value, base.bases) });
+      if (typeof value === 'number') commit({ ...now.view, ...viewPatch(key, value, base.bases) }, now.page, now.panel);
       return;
     }
-    const changes: Record<string, PanelValue> = { ...panel.changes };
+    const changes: Record<string, PanelValue> = { ...now.panel.changes };
     if (value === row.defaultValue) delete changes[p];
     else changes[p] = value;
-    commit(view, page, { ...panel, changes });
+    commit(now.view, now.page, { ...now.panel, changes });
   };
 
   const units = useMemo(

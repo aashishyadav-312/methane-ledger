@@ -1,11 +1,14 @@
 import { expect, test, type Page } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 
-const golden = JSON.parse(readFileSync(new URL('../tests/golden/moonidih_wb2034.json', import.meta.url), 'utf8')) as {
-  breakeven: number;
-};
+const read = <T>(name: string) =>
+  JSON.parse(readFileSync(new URL(`../tests/golden/${name}`, import.meta.url), 'utf8')) as T;
+const golden = read<{ breakeven: number }>('moonidih_wb2034.json');
+// The mine page defaults to the India cost build-up (Step 13b); v1's all-in unit costs are `cm=v1`.
+const costs = read<Record<string, { breakeven: number }>>('costs_v1_1.json');
 const usd = (x: number) => `$${x.toFixed(2)}`;
 const MINE = '#/mine/bccl-moonidih';
+const MINE_V1 = `${MINE}?cm=v1`;
 
 function watchConsole(page: Page): string[] {
   const errors: string[] = [];
@@ -21,17 +24,33 @@ const breakeven = (page: Page) => page.getByTestId('breakeven');
 const npvTile = (page: Page) =>
   page.getByTestId('metrics').locator('.metric-tile', { hasText: 'Net present value' }).locator('.metric-value');
 
-test('default view shows the golden break-even', async ({ page }) => {
+test('default view shows the golden break-even on the cost build-up', async ({ page }) => {
   const errors = watchConsole(page);
   await page.goto(MINE);
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Moonidih');
-  await expect(breakeven(page)).toHaveText(usd(golden.breakeven));
+  await expect(breakeven(page)).toHaveText(usd(costs.moonidih_2034_default.breakeven));
+  await expect(breakeven(page)).toHaveText('$3.37');
   await expect(page.getByText('Illustrative inputs')).toBeVisible();
   expect(errors).toEqual([]);
 });
 
-test('"At 2026-27 target" shows $8.33', async ({ page }) => {
+test('cost build-up: 2030 shows $11.54, and $4.94 with a 30% grant', async ({ page }) => {
   await page.goto(MINE);
+  await page.getByRole('button', { name: /At 2026-27 target/ }).click();
+  await expect(breakeven(page)).toHaveText(usd(costs.moonidih_2030_default.breakeven));
+  await expect(breakeven(page)).toHaveText('$11.54');
+  await page.getByRole('button', { name: '30%' }).click();
+  await expect(breakeven(page)).toHaveText(usd(costs.moonidih_2030_default_grant30.breakeven));
+  await expect(breakeven(page)).toHaveText('$4.94');
+});
+
+test('v1 costs (cm=v1): the default view shows the v1 golden break-even', async ({ page }) => {
+  await page.goto(MINE_V1);
+  await expect(breakeven(page)).toHaveText(usd(golden.breakeven));
+});
+
+test('v1 costs (cm=v1): "At 2026-27 target" shows $8.33', async ({ page }) => {
+  await page.goto(MINE_V1);
   await page.getByRole('button', { name: /At 2026-27 target/ }).click();
   await expect(breakeven(page)).toHaveText('$8.33');
   await expect(page.getByRole('button', { name: /At 2026-27 target/ })).toHaveAttribute('aria-pressed', 'true');

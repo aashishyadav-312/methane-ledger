@@ -4,12 +4,12 @@ import { NpvVsPrice } from '../../components/charts/NpvVsPrice';
 import { PriceRuler, type RulerTick } from '../../components/charts/PriceRuler';
 import { ReductionsByYear } from '../../components/charts/ReductionsByYear';
 import { Tornado } from '../../components/charts/Tornado';
-import { Waterfall } from '../../components/charts/Waterfall';
+import { Waterfall, type WaterfallStep } from '../../components/charts/Waterfall';
 import { STREAM_LABELS } from '../../model/constants';
 import type { Explanation } from '../../model/explain';
 import type { FinancingResult } from '../../model/financing';
 import type { TornadoResult } from '../../model/tornado';
-import type { Result, StreamKind } from '../../model/types';
+import type { OpexType, Result, StreamKind } from '../../model/types';
 import type { Waterfall as WaterfallParts } from '../../model/waterfall';
 import { DASH, pct, tonnes as tonnesCo2e, usdPerT } from '../../lib/format';
 import { downloadBlob, fileName, svgToPng } from '../../lib/export';
@@ -516,17 +516,13 @@ export function MoreCharts({ result, structure, structureKey, waterfall, tornado
                       <div ref={wfRef}>
               <Waterfall
                 width={wfWidth}
-                steps={[
-                  { key: 'capex', label: 'Build cost', valueUsdPerT: waterfall.capexUsdPerT },
-                  { key: 'opex', label: 'Running cost', valueUsdPerT: waterfall.opexUsdPerT },
-                  { key: 'mrv', label: 'Monitoring', valueUsdPerT: waterfall.mrvUsdPerT },
-                  { key: 'fees', label: 'Issuance fees', valueUsdPerT: waterfall.feesUsdPerT },
-                  { key: 'energy', label: 'Power sold', valueUsdPerT: waterfall.energyUsdPerT },
-                ]}
+                steps={waterfallSteps(waterfall)}
                 totalLabel="Break-even"
                 totalUsdPerT={waterfall.totalUsdPerT}
                 formatPrice={units.perT}
-                ariaLabel="The project break-even split into build cost, running cost, monitoring, fees and power sold, per tonne CO2e"
+                ariaLabel={`The project break-even split into ${waterfallSteps(waterfall)
+                  .map((st) => st.label.toLowerCase())
+                  .join(', ')}, per tonne CO2e`}
               />
             </div>
         </ChartCard>
@@ -571,6 +567,33 @@ export function MoreCharts({ result, structure, structureKey, waterfall, tornado
       ) : null}
     </div>
   );
+}
+
+/** Running-cost parts on the cost build-up, in the order of Appendix G. */
+const OPEX_PART_LABELS: Record<OpexType, string> = {
+  om: 'Operation and maintenance',
+  overhaul: 'Engine overhauls',
+  staff: 'Staff',
+  insurance: 'Insurance',
+  fan_power: 'Fan power',
+  decommissioning: 'Decommissioning',
+};
+
+/** The waterfall rows: one running-cost row on v1, its parts on the cost build-up (parts that are zero drop out). */
+export function waterfallSteps(w: WaterfallParts): WaterfallStep[] {
+  const parts = w.opexPartsUsdPerT;
+  const opex: WaterfallStep[] = parts
+    ? (Object.keys(OPEX_PART_LABELS) as OpexType[])
+        .filter((t) => parts[t] !== 0)
+        .map((t) => ({ key: `opex-${t}`, label: OPEX_PART_LABELS[t], valueUsdPerT: parts[t] }))
+    : [{ key: 'opex', label: 'Running cost', valueUsdPerT: w.opexUsdPerT }];
+  return [
+    { key: 'capex', label: 'Build cost', valueUsdPerT: w.capexUsdPerT },
+    ...opex,
+    { key: 'mrv', label: 'Monitoring', valueUsdPerT: w.mrvUsdPerT },
+    { key: 'fees', label: 'Issuance fees', valueUsdPerT: w.feesUsdPerT },
+    { key: 'energy', label: 'Power sold', valueUsdPerT: w.energyUsdPerT },
+  ];
 }
 
 export function StreamTable({ result, units }: { result: Result; units: Units }) {
