@@ -1,0 +1,481 @@
+/* Map, start pin, tooltip and the "Browse all mines" table. Values from DESIGN.md › Map and design/Main.dc.html. */
+
+.map-frame {
+  position: relative;
+  width: 100%;
+  max-width: 780px;
+  margin-inline: auto;
+}
+
+.map-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.map-land {
+  fill: var(--land);
+}
+
+.map-coal {
+  fill: var(--land-coal);
+  stroke: var(--paper);
+  stroke-width: 1.2;
+  stroke-linejoin: round;
+}
+
+.map-edge {
+  fill: none;
+  stroke: var(--land-edge);
+  stroke-width: 0.9;
+  stroke-linejoin: round;
+}
+
+.map-city {
+  fill: var(--ink-3);
+}
+
+.map-city-label {
+  font: 500 11.5px var(--font-sans);
+  letter-spacing: 0.02em;
+  fill: var(--ink-3);
+}
+
+.map-city-label-end {
+  text-anchor: end;
+}
+
+.map-dot {
+  stroke: var(--paper);
+  stroke-width: 0.8;
+}
+
+.map-dot-by2031 {
+  fill: var(--band-2031);
+}
+
+.map-dot-by2036 {
+  fill: var(--band-2036);
+}
+
+.map-dot-by2050 {
+  fill: var(--band-2050);
+}
+
+.map-dot-after2050 {
+  fill: var(--band-after);
+}
+
+.map-dot-nodate {
+  fill: var(--paper);
+  stroke: var(--band-nodate);
+  stroke-width: 1;
+}
+
+.map-dot-closed {
+  fill: var(--band-closed);
+  opacity: 0.55;
+}
+
+.map-lens-window {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 0.9;
+}
+
+.map-lens-leader {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 0.6;
+  opacity: 0.45;
+}
+
+.map-lens-box {
+  fill: var(--lens);
+  stroke: var(--ink);
+  stroke-width: 0.9;
+}
+
+.map-start-ring {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.6;
+}
+
+.map-lens-label {
+  font: 500 11px var(--font-sans);
+  letter-spacing: 0.02em;
+  fill: var(--ink-2);
+}
+
+.map-start-label {
+  font: italic 500 15px var(--font-display);
+  fill: var(--ink);
+}
+
+/* Start pin: a 44px target over the dot, with the card to its right. */
+.start-pin {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transform: translate(calc(var(--hit) / -2), -50%);
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.start-pin:focus-visible {
+  outline: none;
+}
+
+.start-pin:focus-visible .start-pin-card {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+.start-pin-target {
+  position: relative;
+  flex: none;
+  width: var(--hit);
+  height: var(--hit);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-pin-dot {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow:
+    0 0 0 2px var(--card),
+    0 0 0 3.5px var(--ink);
+}
+
+.start-pin-card {
+  white-space: nowrap;
+  color: var(--ink);
+  transition:
+    transform var(--dur-settle) var(--ease),
+    box-shadow var(--dur-settle) var(--ease);
+}
+
+.start-pin:hover .start-pin-card {
+  transform: translateX(2px);
+  box-shadow: var(--shadow-pin-hover);
+}
+
+.start-pin-eyebrow {
+  font-size: 11px;
+}
+
+.start-pin-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.start-pin-meta abbr {
+  text-decoration: none;
+}
+
+/* On phones the card sits below the map; the pin keeps its name for screen readers. */
+@media (max-width: 720px) {
+  .start-pin {
+    transform: translate(-50%, -50%);
+  }
+
+  .start-pin-card {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    border: 0;
+  }
+}
+
+/* Tooltip and hover ring. Both sit at the frame's top-left and move with transform. */
+.map-tip,
+.map-hover-ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.map-hover-ring {
+  width: 0;
+  height: 0;
+}
+
+.map-hover-ring::before {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  margin: -7px 0 0 -7px;
+  border: 1.5px solid var(--ink);
+  border-radius: 50%;
+}
+
+.map-tip {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 240px;
+  padding: 10px 12px 11px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-tile);
+  background: var(--card);
+  box-shadow: var(--shadow-pin);
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--ink-2);
+}
+
+.map-tip-name {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.map-tip-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  color: var(--ink);
+}
+
+.map-tip-swatch {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.map-tip-swatch-hollow,
+.band-dot-hollow {
+  border: 1px solid var(--band-nodate);
+  background: var(--paper);
+}
+
+.map-tip-note {
+  color: var(--ink-3);
+}
+
+.map-tip-foot {
+  margin-top: 4px;
+  padding-top: 6px;
+  border-top: 1px solid var(--line-soft);
+  font-size: var(--fs-caps);
+  color: var(--ink-3);
+}
+
+/* Browse all mines */
+.browse {
+  padding-bottom: 72px;
+}
+
+.browse-title {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.browse-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: var(--h-primary);
+  padding: 0 20px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-pill);
+  background: transparent;
+  color: var(--ink);
+  font: 600 var(--fs-body) var(--font-sans);
+  cursor: pointer;
+  transition: transform var(--dur-press) var(--ease);
+}
+
+.browse-toggle:hover {
+  border-color: var(--ink);
+}
+
+.browse-toggle:active {
+  transform: scale(0.97);
+}
+
+.browse-count {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--ink-3);
+}
+
+.browse-chevron {
+  transition: transform var(--dur-settle) var(--ease);
+}
+
+.browse-toggle[aria-expanded='true'] .browse-chevron {
+  transform: rotate(180deg);
+}
+
+.browse-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.browse-body[hidden] {
+  display: none;
+}
+
+.browse-chips .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.browse-chip-count {
+  font-size: var(--fs-caps);
+  color: var(--ink-3);
+}
+
+.band-dot {
+  display: inline-block;
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.browse-status {
+  margin: 0;
+  font-size: var(--fs-label);
+  color: var(--ink-2);
+}
+
+.browse-scroll {
+  /* Positioned, so screen-reader-only text in the cells is clipped here instead of widening the page. */
+  position: relative;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--r-tile);
+  background: var(--card);
+}
+
+.browse-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-label);
+}
+
+.browse-table th,
+.browse-table td {
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--line-soft);
+  text-align: left;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.browse-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.browse-table thead th {
+  padding-block: 10px;
+  border-bottom-color: var(--line);
+  font-size: var(--fs-caps);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.browse-table tbody th {
+  font-weight: 500;
+}
+
+.browse-table abbr {
+  text-decoration: none;
+}
+
+.th-sort {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+}
+
+.th-sort:hover,
+th[aria-sort='ascending'] .th-sort,
+th[aria-sort='descending'] .th-sort {
+  color: var(--ink);
+}
+
+.th-sort-mark {
+  font-family: var(--font-mono);
+}
+
+.mine-locate {
+  padding: 4px 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.mine-locate:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.mine-link {
+  font-weight: 600;
+  text-underline-offset: 3px;
+}
+
+.browse-year {
+  font-size: 13px;
+}
+
+.browse-band {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width: 720px) {
+  .browse {
+    padding-top: 32px;
+    padding-bottom: 0;
+  }
+
+  .browse-toggle {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .browse-count {
+    margin-left: auto;
+  }
+}
