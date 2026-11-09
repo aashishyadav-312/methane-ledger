@@ -18,10 +18,11 @@ import {
   currentHashPath,
   currentQuery,
   decodeMineView,
-  encodeMineView,
   type MineView,
   type MineViewContext,
 } from '../../state/url';
+import { FIN_DEFAULTS } from '../../model/financing';
+import { downloadCsv, fileName } from '../../lib/export';
 import { getOverrides, reset as resetOverrides, subscribe as subscribeOverrides } from '../../state/session';
 import { Tag } from '../../ui';
 import { AssumptionsPanel } from './AssumptionsPanel';
@@ -35,7 +36,11 @@ import {
   VAM_CONC_OPTIONS,
 } from './controls';
 import { BAND_CHIP, metaLine, usdPrice } from './copy';
-import { Charts, Metrics, ResultCard, StreamTable, WhoPays } from './Results';
+import { annualCsv } from './csv';
+import { decodePageView, encodePage, type PageView, type StructureKey } from './pageState';
+import { Charts, Metrics, MoreCharts, ResultCard, StreamTable, WhoPays } from './Results';
+import { structureView } from './structures';
+import { makeUnits } from './units';
 import { mineBase, useMineModel, type MineBase } from './useMineModel';
 import './mine.css';
 
@@ -161,6 +166,9 @@ function hasIllustrativeInputs(record: MineRecord, view: MineView, defaults: Min
   );
 }
 
+/** The grant control in the panel; structure E links to it. */
+const GRANT_CONTROL_ID = 'mine-grant';
+
 // Dev-only timing of one control move: from the input event to the committed DOM.
 let moveStartMs: number | null = null;
 
@@ -170,6 +178,7 @@ function MineScreen({ record }: { record: MineRecord }) {
   const ctx = useMemo(() => viewContext(base), [base]);
   const [path] = useState(currentHashPath);
   const [view, setView] = useState<MineView>(() => decodeMineView(currentQuery(), ctx));
+  const [page, setPage] = useState<PageView>(() => decodePageView(currentQuery()));
   const writer = useMemo(() => createQueryWriter(), []);
 
   // The user loads another link for this mine (paste, back or forward): read the controls again.
@@ -178,6 +187,7 @@ function MineScreen({ record }: { record: MineRecord }) {
       if (currentHashPath() !== path) return;
       writer.cancel();
       setView(decodeMineView(currentQuery(), ctx));
+      setPage(decodePageView(currentQuery()));
     };
     window.addEventListener('hashchange', onHash);
     return () => window.removeEventListener('hashchange', onHash);
@@ -194,11 +204,36 @@ function MineScreen({ record }: { record: MineRecord }) {
     moveStartMs = null;
   });
 
-  const commit = (next: MineView) => {
+  const commit = (next: MineView, nextPage: PageView = page) => {
     if (import.meta.env.DEV) moveStartMs = performance.now();
     setView(next);
-    writer.write(path, encodeMineView(next));
+    setPage(nextPage);
+    writer.write(path, encodePage(next, nextPage));
   };
+
+  const units = useMemo(
+    () => makeUnits(page.currency, page.tonnes, base.settings.usdToInr, view.gwp, base.constants),
+    [page.currency, page.tonnes, base.settings.usdToInr, view.gwp, base.constants],
+  );
+  const structure = useMemo(() => structureView(model.finance, page.structure), [model.finance, page.structure]);
+  const structurePaybackYear =
+    structure.paybackIndex === null ? null : base.settings.startYear - 1 + structure.paybackIndex;
+
+  // Structure E is public money toward the build cost, so choosing it turns the grant control on if it is off.
+  const pickStructure = (key: StructureKey) => {
+    const grantOn =
+      key === 'E' && view.grantShare === 0 && ctx.grantOptions.includes(FIN_DEFAULTS.grantShare)
+        ? { grantShare: FIN_DEFAULTS.grantShare }
+        : {};
+    commit({ ...view, ...grantOn }, { ...page, structure: key });
+  };
+  const showGrant = () => {
+    const group = document.getElementById(GRANT_CONTROL_ID);
+    group?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    group?.querySelector<HTMLButtonElement>('button[aria-pressed="true"]')?.focus({ preventScroll: true });
+  };
+  const fileStem = ['methane-ledger', record.name];
+  const saveCsv = () => downloadCsv(fileName([...fileStem, 'annual'], 'csv'), annualCsv(result));
 
   const prices = getPrices();
   const chips = useMemo(() => priceChips(prices), [prices]);
@@ -249,6 +284,7 @@ function MineScreen({ record }: { record: MineRecord }) {
           gwpOptions={base.constants.gwpOptions}
           chips={chips}
           overrideCount={Object.keys(overrides).length}
+          grantControlId={GRANT_CONTROL_ID}
           onChange={(patch) => commit({ ...view, ...patch })}
           onReset={() => commit(base.defaults)}
           onClearOverrides={resetOverrides}
@@ -257,10 +293,16 @@ function MineScreen({ record }: { record: MineRecord }) {
         <div className="mine-results">
           <ResultCard
             result={result}
+            structure={structure}
+            structureKey={page.structure}
+            paybackYear={structurePaybackYear}
             priceUsdPerT={view.priceUsdPerT}
             creditingYears={view.creditingYears}
             ticks={ticks}
             offScaleNote={offScale}
+            units={units}
+            onUnits={(patch) => commit(view, { ...page, ...patch })}
+            explanation={model.explanation}
           />
           {result.warnings.includes('closure_outside_window') ? (
             <p className="control-note">
@@ -268,15 +310,49 @@ function MineScreen({ record }: { record: MineRecord }) {
               to {result.years[result.years.length - 1]?.year}.
             </p>
           ) : null}
-          <Metrics result={result} grantShare={view.grantShare} />
+          <Metrics
+            result={result}
+            structure={structure}
+            structureKey={page.structure}
+            paybackYear={structurePaybackYear}
+            grantShare={view.grantShare}
+            units={units}
+          />
+          <WhoPays
+            fin={model.finance}
+            structureKey={page.structure}
+            priceUsdPerT={view.priceUsdPerT}
+            units={units}
+            onPick={pickStructure}
+            onShowGrant={showGrant}
+          />
           <Charts
             result={result}
             npvCurve={model.npvCurve}
             priceUsdPerT={view.priceUsdPerT}
             discountRate={view.discountRate}
+            units={units}
+            fileStem={fileStem}
           />
-          <StreamTable result={result} />
-          <WhoPays />
+          <MoreCharts
+            result={result}
+            structure={structure}
+            structureKey={page.structure}
+            waterfall={model.waterfall}
+            tornado={model.tornado}
+            units={units}
+            fileStem={fileStem}
+          />
+          <div className="mine-export">
+            <button type="button" className="btn btn-secondary" onClick={saveCsv}>
+              Download CSV
+            </button>
+            <p className="control-note">
+              The year-by-year table, {result.years[0]?.year} to {result.years[result.years.length - 1]?.year}: credits
+              by gas stream, revenue, costs and cash, in US$ and tonnes CO2e.
+            </p>
+          </div>
+          <StreamTable result={result} units={units} />
           {illustrative && record.kind === 'mine' ? (
             <p className="mine-footnote">
               Inputs are illustrative, scaled from the Global Methane Initiative profile of {record.name} and published
