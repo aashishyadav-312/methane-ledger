@@ -1,0 +1,6 @@
+# Keep line endings identical on every OS; tests compare file contents byte for byte.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.xlsx binary
+*.woff2 binary
