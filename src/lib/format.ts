@@ -66,3 +66,20 @@ export function inr(usd: number, fx: number): string {
   }
   return withSign(usd * fx, digitsText(rupees, 0, 'en-IN'), '₹');
 }
+
+/** An amount in US dollars in millions to `digits` places: `usdMillions(17_055_203, 2)` is `$17.06M`. */
+export function usdMillions(x: number, digits: number): string {
+  if (!Number.isFinite(x)) return DASH;
+  return withSign(x, digitsText(Math.abs(x) / MILLION, digits), '$', 'M');
+}
+
+/**
+ * An amount in rupees (not dollars): `₹9,00,000`, `₹25.07 crore`. Indian digit grouping, and from one crore
+ * (10 million rupees) up, crore to two places.
+ */
+export function inrCr(rupees: number): string {
+  if (!Number.isFinite(rupees)) return DASH;
+  const abs = Math.abs(rupees);
+  if (Math.round(abs) >= CRORE) return withSign(rupees, digitsText(abs / CRORE, 2), '₹', ' crore');
+  return withSign(rupees, digitsText(abs, 0, 'en-IN'), '₹');
+}

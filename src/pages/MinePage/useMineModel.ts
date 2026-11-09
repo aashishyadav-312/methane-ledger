@@ -3,20 +3,21 @@ import {
   evaluate,
   selectTech,
   type Constants,
+  type CostParams,
   type MineInput,
   type Result,
   type Settings,
   type TechLibrary,
 } from '../../model';
 import { explain, type Explanation } from '../../model/explain';
-import { FIN_DEFAULTS, financing, type FinancingResult } from '../../model/financing';
-import { tornado, type TornadoResult } from '../../model/tornado';
+import { FIN_DEFAULTS, financing, type FinancingParams, type FinancingResult } from '../../model/financing';
+import { TORNADO_DEFAULTS, tornado, type TornadoResult } from '../../model/tornado';
 import { waterfall, type Waterfall } from '../../model/waterfall';
-import { getConstants, getSettings, getTech, getTimeline, unwrapMine } from '../../data/load';
-import type { MineRecord } from '../../data/schemas';
+import { getConstants, getCosts, getDefaultSettings, getPrices, getTech, getTimeline, unwrapMine } from '../../data/load';
+import type { MineRecord, PriceScenario } from '../../data/schemas';
 import { applyOverrides, type Overrides } from '../../state/session';
 import { applyUploadedSeries } from '../DataPage/upload';
-import { CUSTOM_BASIS, type DrainedUse, type MineView } from '../../state/url';
+import { CUSTOM_BASIS, type DrainedUse, type MineView, type PanelChanges, type PanelState } from '../../state/url';
 import { NPV_CURVE_STEP_USD_PER_T, PRICE_SLIDER_USD_PER_T } from './controls';
 
 export interface ClosureBasis {
@@ -34,9 +35,18 @@ export interface MineBase {
   hasUploadedSeries: boolean;
   /** The session overrides this base was built from. */
   overrides: Overrides;
+  /** Settings with the cost basis from the panel (`cm=`); the short-key controls are applied later. */
   settings: Settings;
   tech: TechLibrary;
   constants: Constants;
+  /** The cost build-up parameters (used when `settings.costModel` is "buildup"). */
+  costs: CostParams;
+  /** Financing structure parameters; E's grant is replaced by the grant control. */
+  finance: FinancingParams;
+  /** Price scenarios with any panel changes to their prices. */
+  prices: PriceScenario[];
+  /** The panel state this base was built from. */
+  panel: PanelState;
   /** `now` first, then the record's closure alternatives. Empty when the record has none. */
   bases: ClosureBasis[];
   defaults: MineView;
@@ -47,12 +57,33 @@ function defaultUse(input: MineInput, tech: TechLibrary): DrainedUse {
   return choice.tech === 'flare' ? 'flare' : 'power';
 }
 
-/** The fixed inputs and the default view for a mine. */
-export function mineBase(record: MineRecord, overrides: Overrides): MineBase {
-  const settings = applyOverrides(getSettings(), overrides, 'settings');
-  const tech = applyOverrides(getTech(), overrides, 'tech');
+function withPrices(prices: PriceScenario[], changes: PanelChanges): PriceScenario[] {
+  return prices.map((s) => {
+    const p = changes[`prices.${s.id}`];
+    return typeof p === 'number' && s.priceUsdPerT !== null ? { ...s, priceUsdPerT: { ...s.priceUsdPerT, value: p } } : s;
+  });
+}
+
+/**
+ * v1's all-in unit costs with no panel changes. The Compare page (and its tests) build mine bases with this
+ * until they pass cost parameters to the model; the mine page passes its own panel state.
+ */
+export const V1_PANEL: PanelState = Object.freeze({ costModel: 'v1', changes: Object.freeze({}) });
+
+/**
+ * The fixed inputs and the default view for a mine. Layers, last wins: the data files, the session overrides
+ * (Assumptions and Data pages), then the "All assumptions" panel changes from the link (`x=`, `cm=`).
+ */
+export function mineBase(record: MineRecord, overrides: Overrides, panel: PanelState = V1_PANEL): MineBase {
+  const layer = <T extends object>(target: T, sessionPrefix: string, panelPrefix = sessionPrefix): T =>
+    applyOverrides(applyOverrides(target, overrides, sessionPrefix), panel.changes, panelPrefix);
+  const settings: Settings = { ...layer(getDefaultSettings(), 'settings'), costModel: panel.costModel };
+  const tech = layer(getTech(), 'tech');
+  const costs = layer(getCosts(), 'costs');
   const constants = applyOverrides(getConstants(), overrides, 'constants');
-  const plain = applyOverrides(unwrapMine(record, getTimeline()), overrides, `mine.${record.id}`);
+  const finance = applyOverrides(FIN_DEFAULTS, panel.changes, 'finance');
+  const prices = withPrices(getPrices(), panel.changes);
+  const plain = layer(unwrapMine(record, getTimeline()), `mine.${record.id}`, 'mine');
   const input = applyUploadedSeries(plain, overrides);
 
   const alternatives = record.closureAlternatives ?? [];
@@ -76,7 +107,21 @@ export function mineBase(record: MineRecord, overrides: Overrides): MineBase {
     gwp: settings.gwp,
     creditingYears: settings.creditingYears,
   };
-  return { record, input, hasUploadedSeries: input !== plain, overrides, settings, tech, constants, bases, defaults };
+  return {
+    record,
+    input,
+    hasUploadedSeries: input !== plain,
+    overrides,
+    settings,
+    tech,
+    constants,
+    costs,
+    finance,
+    prices,
+    panel,
+    bases,
+    defaults,
+  };
 }
 
 export interface NpvPoint {
@@ -132,34 +177,35 @@ export function useMineModel(base: MineBase, view: MineView): MineModel {
     [settingsAtAnyPrice, view.priceUsdPerT],
   );
 
+  const { tech, constants, costs } = base;
   const result = useMemo(
-    () => evaluate(input, settings, base.tech, base.constants),
-    [input, settings, base.tech, base.constants],
+    () => evaluate(input, settings, tech, constants, costs),
+    [input, settings, tech, constants, costs],
   );
 
   const npvCurve = useMemo(
     () =>
       CURVE_PRICES_USD_PER_T.map((p) => ({
         priceUsdPerT: p,
-        npvUsd: evaluate(input, { ...settingsAtAnyPrice, creditPriceUsdPerT: p }, base.tech, base.constants).npvUsd,
+        npvUsd: evaluate(input, { ...settingsAtAnyPrice, creditPriceUsdPerT: p }, tech, constants, costs).npvUsd,
       })),
-    [input, settingsAtAnyPrice, base.tech, base.constants],
+    [input, settingsAtAnyPrice, tech, constants, costs],
   );
 
   // Structure E is a grant, so it takes the grant control's share (Step 8: "for E, links the grant control").
   const finance = useMemo(
-    () => financing(input, settings, base.tech, base.constants, { ...FIN_DEFAULTS, grantShare }),
-    [input, settings, base.tech, base.constants, grantShare],
+    () => financing(input, settings, tech, constants, { ...base.finance, grantShare }, costs),
+    [input, settings, tech, constants, base.finance, grantShare, costs],
   );
 
   // The break-even does not depend on the price, so these stay put while the price moves.
   const breakdown = useMemo(
     () => ({
-      waterfall: waterfall(input, settingsAtAnyPrice, base.tech, base.constants),
-      tornado: tornado(input, settingsAtAnyPrice, base.tech, base.constants),
-      explanation: explain(input, settingsAtAnyPrice, base.tech, base.constants),
+      waterfall: waterfall(input, settingsAtAnyPrice, tech, constants, costs),
+      tornado: tornado(input, settingsAtAnyPrice, tech, constants, TORNADO_DEFAULTS, costs),
+      explanation: explain(input, settingsAtAnyPrice, tech, constants, costs),
     }),
-    [input, settingsAtAnyPrice, base.tech, base.constants],
+    [input, settingsAtAnyPrice, tech, constants, costs],
   );
 
   return { input, settings, result, npvCurve, finance, ...breakdown };

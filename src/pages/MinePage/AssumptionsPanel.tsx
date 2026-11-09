@@ -31,6 +31,10 @@ export interface AssumptionsPanelProps {
   onChange: (patch: Partial<MineView>) => void;
   onReset: () => void;
   onClearOverrides: () => void;
+  /** Number of values in the "All assumptions" sheet. */
+  allCount: number;
+  allOpen: boolean;
+  onOpenAll: () => void;
 }
 
 /** The option list, plus the default when the data uses a value the list does not offer. */
@@ -59,6 +63,9 @@ export function AssumptionsPanel({
   onChange,
   onReset,
   onClearOverrides,
+  allCount,
+  allOpen,
+  onOpenAll,
 }: AssumptionsPanelProps) {
   const closureOptions: ClosureOption[] =
     bases.length === 0
@@ -159,6 +166,16 @@ export function AssumptionsPanel({
         />
         <button type="button" className="btn btn-secondary mine-reset" onClick={onReset}>
           Reset to {mineName} defaults
+        </button>
+        <button
+          type="button"
+          className="btn btn-secondary mine-reset"
+          aria-haspopup="dialog"
+          aria-expanded={allOpen}
+          onClick={onOpenAll}
+          data-testid="all-assumptions"
+        >
+          All assumptions ({allCount})
         </button>
         {overrideCount > 0 ? (
           <p className="control-note">
