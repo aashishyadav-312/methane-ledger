@@ -713,7 +713,7 @@ export function WhoPays({ fin, structureKey, priceUsdPerT, units, onPick, onShow
       {structureKey === 'D' && fin.D.floorCoversAtZero ? <p className="mine-who-note">{FLOOR_COVERS_TEXT}</p> : null}
       {facts.length > 0 ? (
         <div className="mine-who-facts">
-          <MetricGrid columns={facts.length === 3 ? 3 : 2}>
+          <MetricGrid>
             {facts.map((f) => (
               <MetricTile key={f.label} label={f.label} value={f.value} note={f.note} />
             ))}

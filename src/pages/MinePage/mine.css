@@ -841,6 +841,11 @@
   line-height: 1.5;
 }
 
+/* As many columns as there are facts (one to three), so no cell is left empty. */
+.mine-who-facts .metric-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
 .mine-who-facts .metric-tile {
   padding: 14px 16px;
 }
