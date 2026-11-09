@@ -1,0 +1,120 @@
+/* Assumptions page. Tokens only. */
+
+.assume-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 16px;
+}
+
+.assume-hint {
+  font-size: var(--fs-label);
+  color: var(--ink-3);
+}
+
+.assume-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  padding: 14px var(--card-pad);
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+  background: var(--tag-bg);
+  color: var(--tag-fg);
+}
+
+.assume-banner p {
+  margin: 0;
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+
+.assume-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.assume-sections .doc-section {
+  max-width: none;
+}
+
+.assume-sections .doc-note {
+  max-width: 760px;
+}
+
+.assume-table {
+  min-width: 720px;
+}
+
+.assume-table caption {
+  font-family: var(--font-display);
+  font-size: var(--fs-body);
+}
+
+.assume-table tr[data-changed='true'] > * {
+  background: var(--tag-bg);
+}
+
+.assume-value {
+  white-space: nowrap;
+}
+
+.assume-source {
+  color: var(--ink-2);
+  min-width: 220px;
+}
+
+.assume-was {
+  display: block;
+  font-size: var(--fs-caps);
+  font-weight: 400;
+  color: var(--ink-3);
+}
+
+.assume-edit {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.assume-input {
+  width: 120px;
+  min-height: var(--h-chip);
+  padding: 4px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-seg);
+  background: var(--card);
+  color: var(--ink);
+  font-size: var(--fs-label);
+}
+
+.assume-input[aria-invalid='true'] {
+  border-color: var(--short-fg);
+}
+
+.assume-problem {
+  font-size: var(--fs-caps);
+  color: var(--short-fg);
+  white-space: normal;
+}
+
+.assume-reset {
+  margin-left: 8px;
+  min-height: var(--hit);
+  padding: 0 4px;
+  border: 0;
+  background: none;
+  color: var(--ink-2);
+  font: inherit;
+  font-size: var(--fs-caps);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.assume-reset:hover {
+  color: var(--ink);
+}
