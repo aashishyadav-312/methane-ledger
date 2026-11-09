@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--ink);
+}
+
+a:hover {
+  color: var(--ink-2);
+}
+
+/* Focus ring: 2px ink, 2px offset. */
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* Headings and the main region take focus from script on route change; they are not controls. */
+h1[tabindex='-1']:focus,
+main[tabindex='-1']:focus {
+  outline: none;
+}
+
+/* Figures: monospaced, tabular, lining. */
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.page-width {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding-inline: var(--gutter);
+}
+
+/* Type roles */
+.t-h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 450;
+  font-size: var(--fs-h1);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+}
+
+.t-mine-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 450;
+  font-size: var(--fs-mine-title);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.t-h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 450;
+  font-size: var(--fs-h2);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.t-headline {
+  font-family: var(--font-display);
+  font-weight: 420;
+  font-size: var(--fs-headline);
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.t-lede {
+  font-size: var(--fs-lede);
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+
+.t-body {
+  font-size: var(--fs-body);
+  line-height: 1.5;
+}
+
+.t-label {
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+
+.t-caps {
+  font-size: var(--fs-caps);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+/* Reduced motion: no transitions or animation anywhere. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}

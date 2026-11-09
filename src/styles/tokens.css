@@ -1,0 +1,110 @@
+/* Design tokens. Source: docs/DESIGN.md. Components use these and never raw hex values. */
+:root {
+  color-scheme: light;
+
+  /* Colour */
+  --paper: #f4f1e9;
+  --card: #fbfaf6;
+  --ink: #1a1916;
+  --ink-2: #4f4b44;
+  --ink-3: #6b665d;
+  --eyebrow: #9a3322;
+  --line: #ddd7ca;
+  --line-soft: #e7e2d6;
+  --track: #ede8dc;
+  --line-strong: #cfc7b4;
+
+  /* Map */
+  --land: #e8e3d6;
+  --land-coal: #dfd7c4;
+  --land-edge: #c9c0ab;
+  --lens: #e2daca;
+
+  /* Closure bands */
+  --band-2031: #c0412b;
+  --band-2036: #dc8a32;
+  --band-2050: #d7b23e;
+  --band-after: #2f6b46;
+  --band-closed: #a29d91;
+  --band-nodate: #8d877b;
+  --closed-opacity: 0.55;
+
+  /* Gas streams (charts only) */
+  --stream-drained: #22405f;
+  --stream-vam: #86a5c2;
+  --stream-amm: #b98e52;
+
+  /* Verdicts and tags */
+  --ok-bg: #e3eee5;
+  --ok-fg: #24563a;
+  --short-bg: #f6e0da;
+  --short-fg: #9a3322;
+  --tag-bg: #f6e7c4;
+  --tag-fg: #8a5a00;
+  --est-bg: #ede8dc;
+  --est-fg: #4f4b44;
+  --lit-bg: #e3eaf2;
+  --lit-fg: #22405f;
+  /* "Measured" has no colour in DESIGN.md, so it reuses the verdict green. */
+  --measured-bg: var(--ok-bg);
+  --measured-fg: var(--ok-fg);
+  --range: #2f6b46;
+
+  /* Type families */
+  --font-display: 'Newsreader', Georgia, serif;
+  --font-sans: 'Instrument Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  /* Type sizes (phone overrides below) */
+  --fs-h1: 58px;
+  --fs-mine-title: 64px;
+  --fs-h2: 36px;
+  --fs-headline: 96px;
+  --fs-lede: 18px;
+  --fs-body: 16px;
+  --fs-label: 14px;
+  --fs-caps: 12px;
+  --fs-tile: 24px;
+
+  /* Shape */
+  --r-card: 16px;
+  --r-tile: 14px;
+  --r-track: 10px;
+  --r-seg: 8px;
+  --r-pill: 999px;
+
+  /* Depth */
+  --shadow-pin: 0 6px 20px rgba(26, 25, 22, 0.12);
+  --shadow-pin-hover: 0 6px 20px rgba(26, 25, 22, 0.16);
+  --shadow-seg: 0 1px 2px rgba(26, 25, 22, 0.14);
+  --shadow-thumb: 0 1px 3px rgba(26, 25, 22, 0.2);
+
+  /* Layout */
+  --page-max: 1320px;
+  --gutter: 40px;
+  --card-pad: 24px;
+
+  /* Targets */
+  --hit: 44px;
+  --h-primary: 48px;
+  --h-secondary: 40px;
+  --h-chip: 32px;
+  --h-segment: 38px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.23, 1, 0.32, 1);
+  --dur-press: 160ms;
+  --dur-settle: 200ms;
+  --dur-pulse: 2.4s;
+}
+
+@media (max-width: 720px) {
+  :root {
+    --fs-h1: 40px;
+    --fs-mine-title: 44px;
+    --fs-h2: 28px;
+    --fs-headline: 72px;
+    --gutter: 20px;
+    --card-pad: 20px;
+  }
+}
