@@ -1,0 +1,120 @@
+{
+  "power": {
+    "minConc": {
+      "value": 0.3,
+      "unit": "fraction CH4",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH); minimum gas strength for engines, PLAN_V1 B2",
+      "quality": "dummy"
+    },
+    "destructionEff": {
+      "value": 0.995,
+      "unit": "fraction of captured CH4 destroyed",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH)",
+      "quality": "dummy"
+    },
+    "electricalEff": {
+      "value": 0.38,
+      "unit": "fraction of fuel energy to electricity",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH)",
+      "quality": "dummy"
+    },
+    "capexUsdPerKw": {
+      "value": 1300,
+      "unit": "USD per kW installed",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH)",
+      "quality": "dummy"
+    },
+    "opexUsdPerMwh": {
+      "value": 15,
+      "unit": "USD per MWh generated",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH)",
+      "quality": "dummy"
+    },
+    "availability": {
+      "value": 0.9,
+      "unit": "fraction of hours available",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH)",
+      "quality": "dummy"
+    }
+  },
+  "flare": {
+    "minConc": {
+      "value": 0.25,
+      "unit": "fraction CH4",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH); minimum gas strength for a flare, PLAN_V1 B2",
+      "quality": "dummy"
+    },
+    "destructionEff": {
+      "value": 0.98,
+      "unit": "fraction of captured CH4 destroyed",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH); the CDM conservative default is 0.90",
+      "quality": "dummy"
+    },
+    "capexUsdPerMm3Yr": {
+      "value": 40000,
+      "unit": "USD per Mm3 a year of capacity",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH)",
+      "quality": "dummy"
+    },
+    "opexFracOfCapex": {
+      "value": 0.05,
+      "unit": "fraction of capex per year",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH)",
+      "quality": "dummy"
+    }
+  },
+  "rto": {
+    "minConc": {
+      "value": 0.002,
+      "unit": "fraction CH4",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH); minimum 0.2% CH4 in ventilation air",
+      "quality": "dummy"
+    },
+    "destructionEff": {
+      "value": 0.97,
+      "unit": "fraction of captured CH4 destroyed",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH)",
+      "quality": "dummy"
+    },
+    "capexUsdPerM3s": {
+      "value": 60000,
+      "unit": "USD per m3/s of ventilation air treated",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH)",
+      "quality": "dummy"
+    },
+    "opexFracOfCapex": {
+      "value": 0.06,
+      "unit": "fraction of capex per year",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH)",
+      "quality": "dummy"
+    },
+    "fanKwhPerM3sYr": {
+      "value": 60000,
+      "unit": "kWh per m3/s per year",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH); 60 MWh per m3/s per year",
+      "quality": "dummy"
+    }
+  },
+  "drainage": {
+    "capexUsdPerMm3Yr": {
+      "value": 250000,
+      "unit": "USD per Mm3 a year of drained capacity",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH); only if the mine has no drainage today",
+      "quality": "dummy"
+    },
+    "opexFracOfCapex": {
+      "value": 0.04,
+      "unit": "fraction of capex per year",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH)",
+      "quality": "dummy"
+    }
+  },
+  "monitoring": {
+    "capexUsd": {
+      "value": 250000,
+      "unit": "USD per project",
+      "source": "DUMMY, to be replaced with vendor quotes (SPEC_V1 section 5, reference/cmm_model.py TECH); flow meters and CH4 analysers, no contingency",
+      "quality": "dummy"
+    }
+  }
+}
