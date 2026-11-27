@@ -7,7 +7,7 @@
  */
 import { expect, test, type Page } from '@playwright/test';
 import react from '@vitejs/plugin-react';
-import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { createServer } from 'node:net';
 import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
@@ -40,6 +40,16 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const HARNESS = 'src/v2/map/harness/index.html';
 const MOONIDIH = 'bccl-moonidih';
 const PANEL_W = 460;
+
+/** A mine whose position really is coalfield-approximate, picked from the data (Moonidih is GEM-positioned). */
+const COALFIELD_MINE = (() => {
+  const data = JSON.parse(readFileSync(resolve(ROOT, 'src/generated/v2/mines_v2.json'), 'utf8')) as {
+    mines: { id: string; name: string; positionQuality: string }[];
+  };
+  const m = data.mines.find((x) => x.positionQuality === 'coalfield');
+  if (!m) throw new Error('mines_v2.json has no coalfield-positioned mine');
+  return m;
+})();
 
 test.describe.configure({ mode: 'default' });
 
@@ -250,7 +260,7 @@ test.describe('map engine', () => {
     await expect(page.locator('.mmv2-label')).toHaveCount(1);
   });
 
-  test('hover shows the tooltip with "Approximate position"; a click selects the mine', async ({ page }) => {
+  test('hover shows the tooltip; "Approximate position" only on coalfield-positioned mines; a click selects', async ({ page }) => {
     const errors = await open(page, `fly=${MOONIDIH}&offsetRight=${PANEL_W}`);
     await expect.poll(() => zoomLevel(page)).toBeCloseTo(6, 3);
     await page.evaluate(() => window.__map!.select(null));
@@ -260,11 +270,25 @@ test.describe('map engine', () => {
     await expect(tip).toContainText('Moonidih');
     await expect(tip).toContainText('BCCL, underground');
     await expect(tip).toContainText('Runs out 2034');
-    await expect(tip).toContainText('Approximate position');
+    // Moonidih has a GEM position, so no approximation note.
+    await expect(tip).not.toContainText('Approximate position');
     await expect(page.locator(`.mmv2-dot[data-id="${MOONIDIH}"]`)).toHaveClass(/is-hover/);
     await page.mouse.click(p.x, p.y);
     expect(await page.evaluate(() => window.__map!.selected())).toBe(MOONIDIH);
     await page.keyboard.press('Escape');
+    expect(errors).toEqual([]);
+  });
+
+  test('a coalfield-positioned mine shows "Approximate position" in its tooltip', async ({ page }) => {
+    const id = COALFIELD_MINE.id;
+    const errors = await open(page, `fly=${id}&offsetRight=${PANEL_W}`);
+    await expect.poll(() => zoomLevel(page)).toBeCloseTo(6, 3);
+    await page.evaluate(() => window.__map!.select(null));
+    const p = (await page.evaluate((mid) => window.__map!.api!.getScreenPoint(mid), id))!;
+    await page.mouse.move(p.x, p.y);
+    const tip = page.getByRole('tooltip');
+    await expect(tip).toContainText(COALFIELD_MINE.name);
+    await expect(tip).toContainText('Approximate position');
     expect(errors).toEqual([]);
   });
 

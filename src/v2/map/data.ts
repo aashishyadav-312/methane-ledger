@@ -1,10 +1,11 @@
 /*
  * The v2 map data, through one adapter.
  *
- * It reads `src/generated/v2/mines_v2.json` (Step 1) when that file exists. Until then it reads the v1
- * `mines_map.json` and fills the v2 fields: lat and lon null, positionQuality "coalfield", gemMethaneMm3 null, and
- * a searchKey normalised as in PLAN_V2 Appendix G. `import.meta.glob` makes the v2 file optional at build time, so
- * nothing changes here when Step 1 merges.
+ * It reads `src/generated/v2/mines_v2.json` (Step 1: keys mines, closedMines, outline, coalStates, cities, viewBox,
+ * coalfieldNames; each mine carries lat, lon, positionQuality and gemMethaneMm3). If the file is missing or does not
+ * match, it falls back to the v1 `mines_map.json` and fills the v2 fields (lat and lon null, positionQuality
+ * "coalfield", gemMethaneMm3 null, searchKey normalised as in PLAN_V2 Appendix G). `import.meta.glob` keeps the v2
+ * file optional at build time.
  *
  * Mine size (for the "largest mines in view" labels) is the latest coal output in `closure_timeline.json`.
  */
