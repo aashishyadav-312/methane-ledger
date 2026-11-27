@@ -211,6 +211,11 @@
   transform: translateX(100%);
 }
 
+/* Opened from a link: the panel is simply there (DESIGN_V2: only the map animates on load). It still slides out. */
+.v2-home-panel[data-instant='true']:not([data-closing='true']) {
+  transition: none;
+}
+
 /* Reduced motion: the panel crossfades in place. A frozen clock shows it open. */
 .v2-home[data-still='true'] .v2-home-panel {
   transform: none;

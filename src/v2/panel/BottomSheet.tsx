@@ -20,6 +20,8 @@ export interface BottomSheetProps {
   onSnap: (snap: SheetSnap) => void;
   /** No travel: the sheet jumps between snap points. */
   still: boolean;
+  /** Start at the snap point instead of sliding in (a mine opened from a link: only the map animates on load). */
+  instant?: boolean;
   labelledBy: string;
   /** The panel content; it receives the grabber to place above its heading. */
   children: (handle: ReactNode) => ReactNode;
@@ -38,10 +40,19 @@ interface Drag {
  * projection and rubber-banding (apple-design). Every move starts from the on-screen height, so a drag catches a
  * sheet that is still settling.
  */
-export function BottomSheet({ stageHeight, open, snap, onSnap, still, labelledBy, children }: BottomSheetProps) {
+export function BottomSheet({
+  stageHeight,
+  open,
+  snap,
+  onSnap,
+  still,
+  instant = false,
+  labelledBy,
+  children,
+}: BottomSheetProps) {
   const heights = snapHeights(stageHeight);
   const target = open ? heights[snap] : 0;
-  const h = useMotionValue(still ? target : 0);
+  const h = useMotionValue(still || instant ? target : 0);
   const y = useTransform(h, (v) => heights.full - v);
   const anim = useRef<AnimationPlaybackControls | null>(null);
   const drag = useRef<Drag | null>(null);

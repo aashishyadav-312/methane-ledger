@@ -226,6 +226,7 @@ export function MineSession({
             snap={snap}
             onSnap={setSnap}
             still={still}
+            instant={initialRan}
             labelledBy={headingId}
           >
             {(handle) => content(handle)}
@@ -236,6 +237,7 @@ export function MineSession({
           className="v2-home-panel"
           aria-labelledby={headingId}
           data-closing={closing ? 'true' : undefined}
+          data-instant={initialRan ? 'true' : undefined}
           data-testid="v2-panel"
         >
           {content()}
