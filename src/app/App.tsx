@@ -5,11 +5,11 @@ import '../styles/components.css';
 import { AssumptionsPage } from '../pages/AssumptionsPage';
 import { ComparePage } from '../pages/ComparePage';
 import { DataPage } from '../pages/DataPage';
-import { MapPage } from '../pages/MapPage';
 import { MethodPage } from '../pages/MethodPage';
-import { MinePage } from '../pages/MinePage';
 import { SourcesPage } from '../pages/SourcesPage';
-import { PageLayout, type NavKey } from '../ui';
+import { sectionForRoute } from '../v2/shell/sections';
+import { ShellV2 } from '../v2/shell/ShellV2';
+import { HomeV2, MINE_LAYOUT, MineView } from '../v2/shell/slots';
 import { NotFound } from './NotFound';
 import { UiGallery } from './UiGallery';
 import { useRouteLocation, type Route } from './router';
@@ -28,22 +28,12 @@ const TITLES: Record<Route['name'], string> = {
   notFound: `Page not found · ${SITE}`,
 };
 
-const NAV_FOR_ROUTE: Partial<Record<Route['name'], NavKey>> = {
-  map: 'map',
-  mine: 'map',
-  compare: 'compare',
-  data: 'data',
-  method: 'method',
-  assumptions: 'assumptions',
-  sources: 'sources',
-};
-
 function RouteView({ route }: { route: Route }) {
   switch (route.name) {
     case 'map':
-      return <MapPage />;
+      return <HomeV2 />;
     case 'mine':
-      return <MinePage />;
+      return <MineView />;
     case 'compare':
       return <ComparePage />;
     case 'method':
@@ -59,6 +49,13 @@ function RouteView({ route }: { route: Route }) {
     case 'notFound':
       return <NotFound />;
   }
+}
+
+/** The home is a full-screen view under a floating header; every other page is a header bar, the page and a footer. */
+function layoutFor(route: Route): 'map' | 'page' {
+  if (route.name === 'map') return 'map';
+  if (route.name === 'mine') return MINE_LAYOUT;
+  return 'page';
 }
 
 function focusHeading() {
@@ -83,8 +80,8 @@ export function App() {
   }, [route, path]);
 
   return (
-    <PageLayout current={NAV_FOR_ROUTE[route.name]}>
+    <ShellV2 section={sectionForRoute(route)} routeKey={path} layout={layoutFor(route)}>
       <RouteView route={route} />
-    </PageLayout>
+    </ShellV2>
   );
 }
