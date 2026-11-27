@@ -1,0 +1,241 @@
+/* Mine search (DESIGN_V2 "Search"; mockup V2-Home.dc.html). Colours and layers come from tokens.css. */
+
+.v2-search {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  max-width: 100%;
+}
+
+.v2-search-field {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 56px;
+  padding: 0 18px;
+  background: var(--card);
+  border: 1px solid var(--line-strong);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(26, 25, 22, 0.1);
+  color: var(--ink-2);
+  transition:
+    border-color var(--dur-settle) var(--ease-out),
+    box-shadow var(--dur-settle) var(--ease-out);
+}
+
+.v2-search-field[data-focused],
+.v2-search-field[data-open] {
+  border-color: var(--ink);
+}
+
+/* The 2px ink border is the focus indicator. */
+.v2-search-field[data-focused] {
+  box-shadow:
+    0 0 0 1px var(--ink),
+    0 10px 30px rgba(26, 25, 22, 0.1);
+}
+
+.v2-search-field[data-open] {
+  border-radius: 16px 16px 0 0;
+}
+
+.v2-search-field svg {
+  flex: none;
+}
+
+.v2-search-field input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 17px;
+  color: var(--ink);
+  outline: none;
+}
+
+.v2-search-field input::placeholder {
+  color: var(--ink-3);
+}
+
+/* The field shows its own focus state (see below), so the global ring on the input would be a second ring. */
+.v2-search-field input:focus-visible {
+  outline: none;
+}
+
+.v2-search-count {
+  flex: none;
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.v2-search-key {
+  flex: none;
+  min-width: 22px;
+  padding: 1px 6px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--ink-3);
+}
+
+/* No keyboard shortcut hint on touch screens. */
+@media (hover: none) {
+  .v2-search-key {
+    display: none;
+  }
+}
+
+.v2-search-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: var(--z-menu);
+  padding: 6px;
+  background: var(--card);
+  border: 1px solid var(--ink);
+  border-top-color: var(--line-soft);
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 18px 40px rgba(26, 25, 22, 0.14);
+  animation: v2-search-in 150ms var(--ease-out);
+}
+
+.v2-search-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2-search-list[hidden] {
+  display: none;
+}
+
+.v2-search-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 52px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+.v2-search-row[aria-selected='true'] {
+  background: var(--track);
+}
+
+.v2-search-text {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.v2-search-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.v2-search-hit {
+  font-weight: 600;
+}
+
+.v2-search-detail {
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.v2-search-runout {
+  flex: none;
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+
+.v2-search-empty {
+  margin: 0;
+  padding: 14px 12px;
+  font-size: 14px;
+  color: var(--ink-2);
+}
+
+/* Band dots. A mine with no date is a hollow ring, as on the map. */
+.v2-dot {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.v2-dot--by2031 {
+  background: var(--band-2031);
+}
+
+.v2-dot--by2036 {
+  background: var(--band-2036);
+}
+
+.v2-dot--by2050 {
+  background: var(--band-2050);
+}
+
+.v2-dot--after2050 {
+  background: var(--band-after);
+}
+
+.v2-dot--nodate {
+  width: 8px;
+  height: 8px;
+  margin: 0 1px;
+  border: 1px solid var(--band-nodate);
+}
+
+@keyframes v2-search-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .v2-search-panel {
+    animation: none;
+  }
+
+  .v2-search-field {
+    transition: none;
+  }
+}
+
+/* Phones: a 50px box, as in the phone mockup. */
+@media (max-width: 720px) {
+  .v2-search {
+    width: 100%;
+  }
+
+  .v2-search-field {
+    height: 50px;
+    padding: 0 14px;
+    gap: 10px;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(26, 25, 22, 0.08);
+  }
+
+  .v2-search-field[data-open] {
+    border-radius: 14px 14px 0 0;
+  }
+
+  .v2-search-field input {
+    font-size: 16px; /* 16px stops iOS zooming the page on focus */
+  }
+}
