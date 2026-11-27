@@ -115,3 +115,106 @@ export interface Result {
   /** Present only with `settings.costModel === 'buildup'`. */
   costs?: CostBreakdown;
 }
+
+/* ---------- estimated inputs for every mine (PLAN_V2 Appendix B) and the closure-year curve (Appendix C) ---------- */
+
+/** DGMS gassiness grade (degree): I, II or III. */
+export type GassinessDegree = 1 | 2 | 3;
+
+/** Gas parameters of one gassiness grade. Every value is ESTIMATED until a mine-wise DGMS list replaces it. */
+export interface DegreeParams {
+  /** m3 of CH4 per tonne of coal mined. */
+  specificEmissionM3PerT: number;
+  /** Share of the liberated gas that is drained (0 to 1). */
+  drainedShare: number;
+  /** CH4 fraction of the drained gas. */
+  drainedConc: number;
+  /** CH4 fraction of the ventilation air. */
+  vamConc: number;
+}
+
+/** The Appendix B parameters, as plain numbers (`data/estimation.json` holds them with unit, source and quality). */
+export interface EstimationParams {
+  /** Gassiness grade by coalfield key (the `field` of a mine). */
+  degreeByField: Record<string, GassinessDegree>;
+  /** Grade of every coalfield not in `degreeByField`. */
+  defaultDegree: GassinessDegree;
+  byDegree: Record<'1' | '2' | '3', DegreeParams>;
+  /** Opencast mines: m3 of CH4 per tonne. There is no drained gas and no ventilation air stream. */
+  opencastSpecificEmissionM3PerT: number;
+  /** Share of a mixed mine's output assumed to come from underground workings (0 to 1). */
+  mixedUndergroundShare: number;
+  /** Abandoned mine methane after closure: first-year flow as a share of the last active year's gas, and its CH4 fraction. */
+  afterClosure: { fAmm: number; conc: number };
+  /** Capture efficiency by stream (share of the liberated gas collected). */
+  captureEff: { drained: number; vam: number; amm: number };
+  /** Lowest ventilation-air CH4 fraction an oxidiser accepts. Equals `rto.minConc` in `data/technologies.json` (a test checks). */
+  oxidiserMinVamConc: number;
+}
+
+export type EstimateStatus = 'ok' | 'not_abatable' | 'no_output';
+export type EstimateWarning = 'closure_uncertain';
+
+/** The part of a mine's map record the estimate needs. */
+export interface EstimateMine {
+  id: string;
+  name: string;
+  type: 'UG' | 'OC' | 'Mixed';
+  /** Coalfield key, for example `jharia`. */
+  field: string;
+}
+
+/** The part of a mine's closure timeline entry the estimate needs. */
+export interface EstimateTimeline {
+  /** FY2025-26 output used for the run-out, Mt a year; null when unknown. */
+  rateUsedMtPerYr: number | null;
+  /** Last year of mining; null for "After 2225". */
+  runoutYear: number | null;
+  /** `Producing`, `Not producing` or `Past reported reserve`. */
+  status: string;
+}
+
+/** Values the inputs panel can change before the estimate is built. Each one replaces the estimated value. */
+export interface EstimateOverrides {
+  /** Applies to any mine type; on an opencast mine the whole output is then treated as underground. */
+  degree?: GassinessDegree;
+  /** Coal output, Mt a year. */
+  outputMtPerYr?: number;
+  /** Total CH4 liberated, Mm3 a year; split into drained gas and ventilation air by the grade's drained share. */
+  totalMm3?: number;
+  /** Last year of mining. */
+  closureYear?: number;
+}
+
+export interface EstimateResult {
+  /** The model input; null unless `status` is `ok`. */
+  input: MineInput | null;
+  status: EstimateStatus;
+  /** Why the mine cannot be modelled. Present unless `status` is `ok`. */
+  reason?: string;
+  /** Gassiness grade used; null for an opencast mine. */
+  degree: GassinessDegree | null;
+  /** m3 of CH4 per tonne of underground coal. */
+  specificEmission: number;
+  /** Total CH4 liberated, Mm3 a year. 0 when there is no output. */
+  totalMm3: number;
+  warnings: EstimateWarning[];
+  /** Coal output used, Mt a year. */
+  productionMtPerYr: number;
+  /** Last year of mining used (after any clamp to the first model year). */
+  closureYear: number;
+  /** Years of the crediting window in which the mine still produces. */
+  activeYears: number;
+  drainedMm3: number;
+  vamMm3: number;
+}
+
+/** Break-even price (USD per tCO2e) for each closure year of the crediting window, drained and after-closure gas to power or to a flare. */
+export interface ClosureCurve {
+  years: number[];
+  /** `null` where no break-even exists. */
+  power: (number | null)[];
+  flare: (number | null)[];
+  /** First year where power is at or below flare; null if there is none. */
+  crossoverYear: number | null;
+}
