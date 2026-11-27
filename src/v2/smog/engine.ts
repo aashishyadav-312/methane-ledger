@@ -46,7 +46,7 @@ import {
   SMOG_WIND_PX_PER_S,
 } from '../motion/tokens';
 import { createSimplex2, curl2, type Noise2 } from './noise';
-import { fitViewBox, IDENTITY_TRANSFORM, projectionFor, type Projection, type ViewBox } from './projection';
+import { fitViewBox, projectionFor, type Projection, type ViewBox } from './projection';
 import { exp1, mulberry32, uniform, type Rng } from './rng';
 import { smogSprite, type SpriteCanvas } from './sprite';
 import type { SmogEmitter } from './strength';
@@ -71,7 +71,7 @@ export interface SmogEngineOptions {
   now?: () => number;
   requestFrame?: (cb: FrameRequestCallback) => number;
   cancelFrame?: (handle: number) => void;
-  /** Wall clock used only to measure frame cost for the throttle. */
+  /** Wall clock used only to measure each frame's own cost (simulate and draw) for the throttle. */
   perfNow?: () => number;
 }
 
@@ -90,7 +90,8 @@ export interface SmogStats {
 
 export interface SmogEngine extends SmogApi {
   setEmitters(emitters: readonly SmogEmitter[]): void;
-  setTransform(t: MapTransform): void;
+  /** The map's transform (`MapApi.getTransform()`, CSS px of the map surface); null: India fitted to the canvas. */
+  setTransform(t: MapTransform | null): void;
   setViewport(v: SmogViewport): void;
   /** CSS scale applied to the canvas from outside (the docked card); docked particles compensate for it. */
   setDisplayScale(scale: number): void;
@@ -195,7 +196,7 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
   let live = 0;
   let simS = 0;
 
-  let transform: MapTransform = IDENTITY_TRANSFORM;
+  let transform: MapTransform | null = null;
   let viewport: SmogViewport = { widthPx: canvas?.clientWidth ?? 0, heightPx: canvas?.clientHeight ?? 0, dpr: 1 };
   let proj: Projection | null = null;
   let displayScale = 1;
@@ -207,7 +208,6 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
   let running = false;
   let frameHandle: number | null = null;
   let lastClockMs: number | null = null;
-  let lastPerfMs: number | null = null;
   let framesRequested = 0;
   let framesDrawn = 0;
   let destroyed = false;
@@ -480,12 +480,13 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
     frameHandle = null;
     if (!running || destroyed) return;
     const nowMs = clock();
+    // The throttle measures this frame's own work, not the time between frames: the interval is about 16.7 ms on a
+    // 60 Hz display (never under the 12 ms recovery limit) and 33 ms on a 30 Hz one (always over the 20 ms limit).
+    const workStartMs = perfNow();
     if (lastClockMs !== null) step(Math.min(Math.max((nowMs - lastClockMs) / 1000, 0), SMOG_MAX_DT_S));
     lastClockMs = nowMs;
     draw();
-    const perf = perfNow();
-    if (lastPerfMs !== null) recordFrameMs(perf - lastPerfMs);
-    lastPerfMs = perf;
+    recordFrameMs(perfNow() - workStartMs);
     schedule();
   };
 
@@ -499,7 +500,6 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
     if (running || destroyed) return;
     running = true;
     lastClockMs = null;
-    lastPerfMs = null;
     schedule();
   }
 

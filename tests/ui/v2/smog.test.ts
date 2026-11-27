@@ -21,6 +21,8 @@ import { createSimplex2 } from '../../../src/v2/smog/noise';
 import { mulberry32 } from '../../../src/v2/smog/rng';
 import { SmogLayer } from '../../../src/v2/smog/SmogLayer';
 import { emittersFromSources, type SmogEmitter } from '../../../src/v2/smog/strength';
+import { projectionFor } from '../../../src/v2/smog/projection';
+import { fitTransform, toScreen } from '../../../src/v2/map/geometry';
 
 const VIEWBOX = [0, 0, 906, 1016] as const;
 
@@ -198,6 +200,38 @@ describe('smog engine', () => {
     frames.splice(0).forEach((cb) => cb(nowMs));
     expect(e.stats().simTimeS).toBe(at);
     expect(e.stats().running).toBe(false);
+    e.destroy();
+  });
+});
+
+describe('smog and the map share one transform', () => {
+  it("puts a mine where <MineMapV2> draws its dot, at the fit view and zoomed in", () => {
+    const size = { width: 1440, height: 900 };
+    const fit = fitTransform(VIEWBOX, size, { top: 72, right: 0, bottom: 0, left: 0 });
+    for (const t of [fit, { k: fit.k * 6, x: -2400, y: -1900 }]) {
+      const pr = projectionFor(VIEWBOX, size.width, size.height, t);
+      const dot = toScreen(t, 561.4, 444.2);
+      expect(pr.originX + pr.scalePx * 561.4).toBeCloseTo(dot.x, 6);
+      expect(pr.originY + pr.scalePx * 444.2).toBeCloseTo(dot.y, 6);
+    }
+  });
+
+  it('throttles on the frame\'s own cost, not on the time between frames', () => {
+    const frames: FrameRequestCallback[] = [];
+    let nowMs = 0;
+    const e = engineFor(belt(30), {
+      now: () => nowMs,
+      requestFrame: (cb) => frames.push(cb),
+      cancelFrame: () => {},
+      perfNow: () => nowMs,
+    });
+    e.start();
+    // A 30 Hz display: 33 ms between frames, but each frame's work is instant.
+    for (let i = 0; i < 30; i++) {
+      nowMs += 1000 / 30;
+      frames.shift()?.(nowMs);
+    }
+    expect(e.stats().throttled).toBe(false);
     e.destroy();
   });
 });

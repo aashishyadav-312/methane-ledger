@@ -22,18 +22,23 @@ interface HarnessWindow {
   };
 }
 
-function makeMap(initial: MapTransform) {
+/**
+ * A stand-in for <MineMapV2>'s MapApi. The harness SVGs use a viewBox, so their zoom group's transform `t` is in
+ * viewBox units; the API reports it as the real map does, in CSS px of the surface (k includes the fit).
+ */
+function makeMap(initial: MapTransform, toSurface: (t: MapTransform) => MapTransform) {
   let t = initial;
   const subs = new Set<(t: MapTransform) => void>();
-  const api: Pick<MapApi, 'getTransform' | 'onTransform'> & { set(t: MapTransform): void } = {
-    getTransform: () => t,
+  const api: Pick<MapApi, 'getTransform' | 'onTransform'> & { set(t: MapTransform): void; get(): MapTransform } = {
+    getTransform: () => toSurface(t),
+    get: () => t,
     onTransform(cb) {
       subs.add(cb);
       return () => subs.delete(cb);
     },
     set(next) {
       t = next;
-      subs.forEach((cb) => cb(t));
+      subs.forEach((cb) => cb(toSurface(t)));
     },
   };
   return api;
@@ -60,7 +65,12 @@ function Harness() {
     // The harness reads its query once.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-  const map = useMemo(() => makeMap(initial), [initial]);
+  const map = useMemo(
+    () => makeMap(initial, (v) => ({ k: fit * v.k, x: offsetX + fit * v.x, y: offsetY + fit * v.y })),
+    // The harness reads its size once, like its query.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [initial],
+  );
   const [t, setT] = useState(initial);
   const handle = useRef<SmogLayerHandle>(null);
 
@@ -73,7 +83,7 @@ function Harness() {
       },
       toScreen: (p) => {
         const cur = map.getTransform();
-        return { x: offsetX + fit * (cur.k * p.x + cur.x), y: offsetY + fit * (cur.k * p.y + cur.y) };
+        return { x: cur.x + cur.k * p.x, y: cur.y + cur.k * p.y };
       },
       probes: demoProbePoints(),
     };

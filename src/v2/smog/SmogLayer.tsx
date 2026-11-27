@@ -13,7 +13,7 @@ import {
   useReducedMotion,
 } from '../motion/tokens';
 import { createSmogEngine, type SmogEngine, type SmogStats } from './engine';
-import { IDENTITY_TRANSFORM, type ViewBox } from './projection';
+import type { ViewBox } from './projection';
 import type { SmogEmitter } from './strength';
 
 export interface SmogLayerHandle extends SmogApi {
@@ -25,7 +25,10 @@ export interface SmogLayerProps {
   /** The map's viewBox, in map units. */
   viewBox: ViewBox;
   mode: SmogMode;
-  /** The map, for its transform. Without it the smog assumes the identity transform. */
+  /**
+   * The map (<MineMapV2>'s `MapApi`), for its transform in CSS px of the map surface. Without it the smog assumes
+   * India fitted and centred in the slot.
+   */
   map?: Pick<MapApi, 'getTransform' | 'onTransform'> | null;
   /** The map's smogSlot element. Without it the canvas renders in place (fills its positioned parent). */
   slot?: HTMLElement | null;
@@ -102,7 +105,7 @@ export function SmogLayer({ emitters, viewBox, mode, map, slot, seed, displaySca
     };
 
     measure();
-    engine.setTransform(map?.getTransform() ?? IDENTITY_TRANSFORM);
+    engine.setTransform(map?.getTransform() ?? null);
     engine.setMode(modeRef.current);
     if (stillS !== null) engine.renderStill(stillS);
     sync();
