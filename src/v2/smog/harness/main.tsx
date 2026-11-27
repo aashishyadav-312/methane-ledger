@@ -1,6 +1,6 @@
 // Smog test harness: the v1 map land with the smog layer between land and dots, for e2e and stills.
 // Not part of the app build (vite only builds index.html); e2e/v2/smog.spec.ts builds it on its own.
-// Query: ?mode=overview|focus|docked&id=<mine id>&freeze=<s>
+// Query: ?mode=overview|focus|docked&id=<mine id>&freeze=<s>&dots=0
 import { StrictMode, useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import '../../../styles/tokens.css';
@@ -43,6 +43,7 @@ function Harness() {
   const params = new URLSearchParams(location.search);
   const kind = params.get('mode') ?? 'overview';
   const id = params.get('id') ?? 'bccl-moonidih';
+  const showDots = params.get('dots') !== '0';
   const mode: SmogMode = kind === 'focus' || kind === 'docked' ? { kind, id } : { kind: 'overview' };
   const emitters = useMemo(() => demoEmitters(), []);
   const W = window.innerWidth;
@@ -123,20 +124,22 @@ function Harness() {
         <div style={layer} data-testid="smog-slot">
           <SmogLayer ref={handle} emitters={emitters} viewBox={demoViewBox} mode={mode} map={map} />
         </div>
-        <svg viewBox={demoViewBox.join(' ')} style={layer} aria-hidden="true">
-          <g transform={g}>
-            {demoMap.mines.map((m) => (
-              <circle
-                key={m.id}
-                cx={m.x}
-                cy={m.y}
-                r={2.4 / Math.sqrt(t.k)}
-                fill={m.id === id && mode.kind !== 'overview' ? 'var(--ink)' : 'var(--band-after)'}
-                opacity={mode.kind !== 'overview' && m.id !== id ? 0.45 : 0.9}
-              />
-            ))}
-          </g>
-        </svg>
+        {showDots && (
+          <svg viewBox={demoViewBox.join(' ')} style={layer} aria-hidden="true">
+            <g transform={g}>
+              {demoMap.mines.map((m) => (
+                <circle
+                  key={m.id}
+                  cx={m.x}
+                  cy={m.y}
+                  r={2.4 / Math.sqrt(t.k)}
+                  fill={m.id === id && mode.kind !== 'overview' ? 'var(--ink)' : 'var(--band-after)'}
+                  opacity={mode.kind !== 'overview' && m.id !== id ? 0.45 : 0.9}
+                />
+              ))}
+            </g>
+          </svg>
+        )}
       </div>
     </div>
   );

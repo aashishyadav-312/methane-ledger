@@ -35,9 +35,9 @@ export function smogSprite(rgb: readonly [number, number, number], px: number = 
   // A soft, slightly flat-topped falloff (gaussian-like), so overlapping discs read as haze, not as dots.
   const stops: Array<[number, number]> = [
     [0, 1],
-    [0.25, 0.86],
-    [0.5, 0.5],
-    [0.75, 0.16],
+    [0.35, 0.9],
+    [0.65, 0.55],
+    [0.85, 0.2],
     [1, 0],
   ];
   for (const [at, a] of stops) g.addColorStop(at, `rgba(${red}, ${green}, ${blue}, ${a})`);

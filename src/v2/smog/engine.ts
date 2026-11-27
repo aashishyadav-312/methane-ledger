@@ -29,6 +29,7 @@ import {
   SMOG_MODE_MS,
   SMOG_NOISE_FREQ_PER_UNIT,
   SMOG_NOISE_SPEED_PER_S,
+  SMOG_PARTICLE_PHASE_SPREAD,
   SMOG_RATE_PER_STRENGTH,
   SMOG_RGB,
   SMOG_RISE_MAX_PX_PER_S,
@@ -118,6 +119,8 @@ interface Particle {
   risePxPerS: number;
   /** Sim time this particle started fading out (culled by a mode change), or -1. */
   fadeAtS: number;
+  /** Per-particle seed in [0, 1): its phase in the noise field, so a plume billows instead of moving as one. */
+  seed: number;
 }
 
 const FILL_S = SMOG_FILL_MS / 1000;
@@ -310,7 +313,7 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
   function spawn(e: number, fill: boolean) {
     let p = pool[live];
     if (!p) {
-      p = { e: 0, ox: 0, oy: 0, ageS: 0, lifeS: 1, risePxPerS: 0, fadeAtS: -1 };
+      p = { e: 0, ox: 0, oy: 0, ageS: 0, lifeS: 1, risePxPerS: 0, fadeAtS: -1, seed: 0 };
       pool[live] = p;
     }
     live++;
@@ -323,6 +326,7 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
       ? Math.max(SMOG_STILL_DT_S, sampleFillDeathS(rng) - simS)
       : uniform(rng, SMOG_LIFE_MIN_S, SMOG_LIFE_MAX_S);
     p.risePxPerS = uniform(rng, SMOG_RISE_MIN_PX_PER_S, SMOG_RISE_MAX_PX_PER_S);
+    p.seed = rng();
   }
 
   function removeAt(r: number) {
@@ -345,7 +349,9 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
     const u = clamp01((simS - modeStartS) / MODE_S);
     const k = easeOut(u);
     for (let i = 0; i < emitters.length; i++) {
-      rate[i] = lerp(rateFrom[i], rateTo[i], k);
+      // Rising rates ease in. Falling rates drop at once: setMode already thinned the existing particles to the new
+      // level and fades the rest out over the change, so easing the births down as well would overshoot.
+      rate[i] = rateTo[i] < rateFrom[i] ? rateTo[i] : lerp(rateFrom[i], rateTo[i], k);
       alphaMul[i] = lerp(alphaFrom[i], alphaTo[i], k);
     }
     look = lerp(lookFrom, lookTo, k);
@@ -391,7 +397,7 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
       const em = emitters[p.e];
       const nu = (em.x + p.ox / basePx) * SMOG_NOISE_FREQ_PER_UNIT;
       const nv = (em.y + p.oy / basePx) * SMOG_NOISE_FREQ_PER_UNIT;
-      curl2(noise, nu, nv, tau, curlOut);
+      curl2(noise, nu, nv, tau + p.seed * SMOG_PARTICLE_PHASE_SPREAD, curlOut);
       let vx = windX + curlOut[0] * SMOG_CURL_PX_PER_S;
       let vy = windY - p.risePxPerS + curlOut[1] * SMOG_CURL_PX_PER_S;
       const speed = Math.hypot(vx, vy);

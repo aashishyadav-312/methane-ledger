@@ -1,12 +1,10 @@
-// Test-harness emitters only (not shipped; the home page passes real estimates from Step 2).
-// Uses the v1 map positions and the v2 golden gassiness table, at one nominal output for every mine,
-// so the harness shows the right shape of haze (thicker over Jharia and Raniganj) before Step 2 lands.
+// Test-harness emitters only (not shipped; the home page passes Step 2's estimates).
+// Uses the v1 map positions and FY2025-26 output with the v2 golden gassiness table: total methane =
+// output × underground share × SE (PLAN_V2 Appendix B), so the harness haze has the real shape before Step 2 lands.
 import golden from '../../../../tests/golden/estimation_v2.json';
+import closure from '../../../generated/closure_timeline.json';
 import mapData from '../../../generated/mines_map.json';
 import { emittersFromSources, type EmitterSource, type SmogEmitter } from '../strength';
-
-/** One nominal output for every mine, Mt a year. Harness only. */
-export const DEMO_OUTPUT_MT_PER_YR = 1;
 
 interface V1Mine {
   id: string;
@@ -32,7 +30,9 @@ export function demoEmitters(): SmogEmitter[] {
   const sources: EmitterSource[] = (mapData.mines as V1Mine[]).map((m) => {
     const degree = degreeByField[m.field] ?? p.DEFAULT_DEGREE;
     const ugShare = m.type === 'UG' ? 1 : m.type === 'Mixed' ? p.MIXED_UG_SHARE : 0;
-    const methane = DEMO_OUTPUT_MT_PER_YR * ugShare * byDegree[String(degree)].se;
+    const row = (closure as unknown as Record<string, { rateUsedMtPerYr?: number | null }>)[m.id];
+    const outputMtPerYr = row?.rateUsedMtPerYr ?? 0;
+    const methane = outputMtPerYr * ugShare * byDegree[String(degree)].se;
     return { id: m.id, x: m.x, y: m.y, methaneMm3PerYr: methane, floor: ugShare === 0 || degree === 1 };
   });
   (mapData.closed as V1Closed[]).forEach((c, i) =>

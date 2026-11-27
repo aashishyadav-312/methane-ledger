@@ -119,8 +119,8 @@ export const SMOG_RGB = [110, 101, 86] as const;
 /** Highest alpha of any single particle (`--smog-max-alpha`). */
 export const SMOG_MAX_ALPHA = 0.1;
 /** maxAlpha = base + span × strength. */
-export const SMOG_ALPHA_BASE = 0.04;
-export const SMOG_ALPHA_SPAN = 0.06;
+export const SMOG_ALPHA_BASE = 0.05;
+export const SMOG_ALPHA_SPAN = 0.04;
 /** The selected plume keeps this much more alpha in focus and docked modes. */
 export const SMOG_FOCUS_ALPHA_MULT = 1.3;
 
@@ -130,8 +130,8 @@ export const SMOG_STRENGTH_FLOOR = 0.08;
 export const SMOG_STRENGTH_CLOSED = 0.05;
 
 /** Overview spawn rate λ = this × strength, particles a second. */
-export const SMOG_RATE_PER_STRENGTH = 0.6;
-export const SMOG_FOCUS_SELECTED_MULT = 5;
+export const SMOG_RATE_PER_STRENGTH = 1.0;
+export const SMOG_FOCUS_SELECTED_MULT = 8;
 export const SMOG_FOCUS_OTHER_MULT = 0.3;
 /** Docked: only the selected mine, at this absolute rate (particles a second). */
 export const SMOG_DOCKED_RATE_PER_S = 1.2;
@@ -148,6 +148,11 @@ export const SMOG_RISE_MAX_PX_PER_S = 14;
 export const SMOG_NOISE_FREQ_PER_UNIT = 0.004;
 export const SMOG_NOISE_SPEED_PER_S = 0.15;
 export const SMOG_CURL_PX_PER_S = 6;
+/**
+ * Each particle samples the noise field at its own time phase, seed × this (noise time units), so the particles of
+ * one plume drift a little apart and billow. Tuned on stills (Step 4 design pass); 0 makes every plume a rigid line.
+ */
+export const SMOG_PARTICLE_PHASE_SPREAD = 0.5;
 export const SMOG_MAX_SPEED_PX_PER_S = 20;
 
 /** size(a) = from + grow × easeOut(a / L), in CSS px (diameter). */
