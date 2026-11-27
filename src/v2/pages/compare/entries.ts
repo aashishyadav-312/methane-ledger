@@ -222,6 +222,8 @@ export interface SupplyBarV2 {
   pays: boolean;
   /** One of the cheapest `LABELLED_BARS`: the chart writes its name on or beside the bar. */
   labelled: boolean;
+  /** A real mine, so a click opens it on the map. An archetype has no place on the map, so its bar is not a link. */
+  opens: boolean;
 }
 
 export function supplyBarsV2(rows: readonly CompareRow[], priceUsdPerT: number): SupplyBarV2[] {
@@ -236,6 +238,7 @@ export function supplyBarsV2(rows: readonly CompareRow[], priceUsdPerT: number):
       startTco2e: start,
       pays: paysAt(r, priceUsdPerT),
       labelled: i < LABELLED_BARS,
+      opens: r.source !== 'archetype',
     };
     start += r.erTotalTco2e;
     return bar;

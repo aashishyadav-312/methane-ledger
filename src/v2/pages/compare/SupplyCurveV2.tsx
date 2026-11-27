@@ -1,5 +1,5 @@
 import { scaleLinear } from 'd3-scale';
-import { useState, type CSSProperties, type MouseEvent } from 'react';
+import { useState, type CSSProperties, type MouseEvent, type ReactNode } from 'react';
 import { splitLines, type SupplyLineDatum } from '../../../components/charts/SupplyCurve';
 import { mineHref } from '../../../app/router';
 import type { SupplyBarV2 } from './entries';
@@ -51,6 +51,30 @@ const halo: CSSProperties = { paintOrder: 'stroke', stroke: 'var(--card)', strok
 
 /** A mine name on one line: the data has names that break across lines. */
 export const oneLine = (name: string): string => name.replace(/\s+/g, ' ').trim();
+
+interface BarProps {
+  href?: string;
+  'data-testid': string;
+  'data-pays': 'true' | 'false';
+  'data-labelled': 'true' | 'false';
+  onMouseEnter: (e: MouseEvent<Element>) => void;
+  onMouseMove: (e: MouseEvent<Element>) => void;
+  onMouseLeave: () => void;
+  children: ReactNode;
+}
+
+/**
+ * One bar: a link to its mine when it has one (out of the tab order; the ranked list holds the same links), else a
+ * plain group, so an archetype bar does not open an empty mine view.
+ */
+function Bar({ href, children, ...rest }: BarProps) {
+  if (href === undefined) return <g {...rest}>{children}</g>;
+  return (
+    <a href={href} tabIndex={-1} style={{ cursor: 'pointer' }} {...rest}>
+      {children}
+    </a>
+  );
+}
 
 function shorten(name: string, maxChars: number): string {
   const text = oneLine(name);
@@ -188,17 +212,15 @@ export function SupplyCurveV2({
           const clipped = b.breakevenUsdPerT > topUsdPerT;
           const marked = markedIds.includes(b.id);
           return (
-            <a
+            <Bar
               key={b.id}
-              href={mineHref(b.id)}
-              tabIndex={-1}
+              href={b.opens ? mineHref(b.id) : undefined}
               data-testid={`supply-bar-${b.id}`}
               data-pays={b.pays ? 'true' : 'false'}
               data-labelled={b.labelled ? 'true' : 'false'}
               onMouseEnter={showTip(b)}
               onMouseMove={showTip(b)}
               onMouseLeave={() => setHover(null)}
-              style={{ cursor: 'pointer' }}
             >
               <rect
                 x={left}
@@ -239,7 +261,7 @@ export function SupplyCurveV2({
                   {text}
                 </text>
               ) : null}
-            </a>
+            </Bar>
           );
         })}
 
@@ -312,7 +334,9 @@ export function SupplyCurveV2({
           <span className="num">
             {formatPrice(hovered.breakevenUsdPerT)} a tonne to break even, {formatCredits(hovered.erTco2e)} of credits
           </span>
-          <span>{hovered.pays ? 'Pays at your price' : 'Needs a higher price'}. Click to open.</span>
+          <span>
+            {hovered.pays ? 'Pays at your price' : 'Needs a higher price'}.{hovered.opens ? ' Click to open.' : ''}
+          </span>
         </div>
       ) : null}
 

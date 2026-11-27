@@ -92,6 +92,14 @@ describe('panel base', () => {
     expect(panelBase(NO_OUTPUT, { ...NO_CHOICES, outputMtPerYr: 1, degree: 3 }, {})!.base).not.toBeNull();
   });
 
+  it('takes the values uploaded on the Data page for an estimated mine, under the panel’s own choices', () => {
+    const uploaded = { [`estimate.${OPENCAST}.degree`]: 3, [`estimate.${AMP}.outputMtPerYr`]: 0.5 };
+    expect(panelBase(OPENCAST, NO_CHOICES, uploaded)!.base).not.toBeNull();
+    expect(panelBase(OPENCAST, NO_CHOICES, uploaded)!.picked.degree).toBe(3);
+    expect(panelBase(AMP, NO_CHOICES, uploaded)!.base!.input.productionMtPerYr).toBe(0.5);
+    expect(panelBase(AMP, { ...NO_CHOICES, outputMtPerYr: 2 }, uploaded)!.base!.input.productionMtPerYr).toBe(2);
+  });
+
   it('scales a record to the total methane the panel sets', () => {
     const plain = panelBase(MOONIDIH, NO_CHOICES, {})!.base!;
     const scaled = panelBase(MOONIDIH, { ...NO_CHOICES, totalMm3: 11.92 }, {})!.base!;

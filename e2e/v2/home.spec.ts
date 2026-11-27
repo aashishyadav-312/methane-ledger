@@ -59,6 +59,11 @@ test.describe('v2 home', () => {
     await panel(page).getByRole('button', { name: 'Run the model' }).click();
     await expect(page.getByTestId('v2-breakeven')).toHaveText(new RegExp(`^\\${money(MOONIDIH_BE)}`));
     await expect(page.getByTestId('v2-cue')).toBeVisible();
+    // The results section is Step 7's dashboard, with the same break-even as the panel (it counts up once seen).
+    await expect(page.getByTestId('results-v2')).toBeAttached();
+    await scrollToResults(page);
+    await expect(page.getByTestId('results-breakeven')).toHaveText(money(MOONIDIH_BE));
+    await page.evaluate(() => window.scrollTo(0, 0));
     // The link keeps every input, plus the mine.
     await expect(page).toHaveURL(/[?&]p=\d/);
     await expect(page).toHaveURL(new RegExp(`[?&]m=${MOONIDIH}`));
