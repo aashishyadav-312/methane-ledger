@@ -3,7 +3,7 @@ import tseslint from 'typescript-eslint';
 import reactHooks from 'eslint-plugin-react-hooks';
 
 export default tseslint.config(
-  { ignores: ['dist', 'node_modules', '.venv', 'shots', 'playwright-report', 'test-results', 'reference', 'design'] },
+  { ignores: ['dist', 'node_modules', '.venv', 'shots', 'playwright-report', 'test-results', 'reference', 'design', '.agents', '.claude'] },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
