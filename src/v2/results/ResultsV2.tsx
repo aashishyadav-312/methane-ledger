@@ -237,7 +237,7 @@ export function ResultsV2({ mine, input, result, source, priceUsdPerT, onEditInp
               )}
             </RevealCard>
 
-            <div className="v2r-grid">
+            <div className="v2r-cards">
               <RevealCard
                 id="chart-credits"
                 title="Credits each year"

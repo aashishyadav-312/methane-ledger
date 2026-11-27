@@ -10,7 +10,7 @@ import {
   usdPrice,
 } from '../copy';
 import { lineProgress, useMorph } from '../motion';
-import { DataTable, textWidthPx } from './frame';
+import { DataTable, Legend, textWidthPx } from './frame';
 
 /** PLAN_V2 Appendix C: the y axis is capped at $30 a tonne; higher values are noted as off the scale. */
 export const CLOSURE_Y_CAP_USD_PER_T = 30;
@@ -114,11 +114,10 @@ export function ClosureChart({
   const crossover = curve.crossoverYear;
   const zoneEnd = crossover === null ? right : x(crossover - 0.5);
   const crossX = crossover === null ? null : x(crossover);
-  const zoneText = zoneLabel ?? '';
   const crossText = crossover === null ? '' : crossoverLabel(crossover);
-  // Side by side when both fit, else the crossover label goes on a second line.
-  const sideBySide =
-    crossX === null || textWidthPx(zoneText, LABEL_FONT_PX) + 2 * TEXT_GAP_PX <= zoneEnd - left;
+  // The zone's own label only where it fits inside the zone (the lede says the same in words).
+  const zoneFits = zoneLabel !== null && textWidthPx(zoneLabel, LABEL_FONT_PX) + 2 * TEXT_GAP_PX <= zoneEnd - left;
+  // Right of the dashed line, or else at the top right, where both lines have fallen away.
   const crossLabelRight = crossX !== null && crossX + TEXT_GAP_PX + textWidthPx(crossText, LABEL_FONT_PX) <= right;
 
   // The ringed point: the mine's closure year, clamped to the window, at its own break-even.
@@ -138,8 +137,9 @@ export function ClosureChart({
     if (Number.isNaN(v)) return null;
     return { x: xs[Math.min(Math.max(i, 0), n - 1)] + TEXT_GAP_PX, y: Math.max(top + 12, capY(v) - 12) };
   };
-  const powerLabel = labelAt(power, 1);
-  const flareLabel = labelAt(flare, n - 2);
+  // Direct labels on wide charts; narrow ones have no room beside the lines, so they get a legend instead.
+  const powerLabel = wide ? labelAt(power, 1) : null;
+  const flareLabel = wide ? labelAt(flare, n - 2) : null;
 
   const off = [
     ...curve.power.flatMap((v, i) => (v !== null && v > yTop ? [{ series: SERIES.power, year: curve.years[i], usdPerT: v }] : [])),
@@ -164,7 +164,7 @@ export function ClosureChart({
           </g>
         ))}
         {curve.years.map((yr, i) =>
-          i % labelEvery === 0 || i === n - 1 ? (
+          i % labelEvery === 0 ? (
             <text key={yr} className="v2r-tick" x={xs[i]} y={bottom + 26} textAnchor="middle">
               {yr}
             </text>
@@ -186,11 +186,14 @@ export function ClosureChart({
           ) : null,
         )}
         {zoneLabel !== null && zoneEnd > left ? (
-          <g data-testid="closure-flare-zone">
+          <g data-testid="closure-flare-zone" aria-label={zoneLabel}>
             <rect className="v2r-zone" x={left} y={top} width={zoneEnd - left} height={bottom - top} />
-            <text className="v2r-zone-label" x={left + 12} y={top + 20}>
-              {zoneLabel}
-            </text>
+            {/* At the foot of the zone, where neither line runs (both are far above $0 in the early years). */}
+            {zoneFits ? (
+              <text className="v2r-zone-label" x={left + 12} y={bottom - 12}>
+                {zoneLabel}
+              </text>
+            ) : null}
           </g>
         ) : null}
         {crossX !== null ? (
@@ -199,8 +202,8 @@ export function ClosureChart({
             <text
               className="v2r-cross-label"
               data-testid="closure-crossover"
-              x={crossLabelRight ? crossX + TEXT_GAP_PX : crossX - TEXT_GAP_PX}
-              y={sideBySide ? top + 20 : top + 40}
+              x={crossLabelRight ? crossX + TEXT_GAP_PX : right}
+              y={top + 20}
               textAnchor={crossLabelRight ? 'start' : 'end'}
             >
               {crossText}
@@ -243,6 +246,15 @@ export function ClosureChart({
           ) : null}
         </g>
       </svg>
+      {wide ? null : (
+        <Legend
+          label="Lines"
+          items={[
+            { key: 'power', label: SERIES.power, colour: 'var(--stream-drained)' },
+            { key: 'flare', label: SERIES.flare, colour: 'var(--stream-amm)' },
+          ]}
+        />
+      )}
       {offText ? (
         <p className="v2r-note" data-testid="closure-offscale">
           {offText}

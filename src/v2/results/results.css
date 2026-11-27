@@ -56,6 +56,8 @@
 }
 
 .v2r-chips {
+  flex: 1 1 auto;
+  min-width: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
@@ -175,6 +177,11 @@
   overflow: visible;
 }
 
+/* SVG text never takes a stroke from the page around it (stroke is an inherited property). */
+.v2r-svg text {
+  stroke: none;
+}
+
 /* ---------- tiles ---------- */
 
 .v2r-tiles {
@@ -207,7 +214,7 @@
 
 /* ---------- chart cards ---------- */
 
-.v2r-grid {
+.v2r-cards {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
@@ -500,7 +507,7 @@
 
 /* Below 900px the dashboard is one column (Step 7, item 1). */
 @media (max-width: 899.98px) {
-  .v2r-grid {
+  .v2r-cards {
     grid-template-columns: minmax(0, 1fr);
   }
 

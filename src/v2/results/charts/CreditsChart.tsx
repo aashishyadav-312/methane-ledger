@@ -6,7 +6,9 @@ import { barProgress, useMorph } from '../motion';
 import { DataTable, growY } from './frame';
 
 const HEIGHT_PX = 260;
-const PAD_TOP_PX = 10;
+const PAD_TOP_PX = 24;
+/** The "Mine closes" label sits above the plot, clear of the bars. */
+const CLOSE_LABEL_Y_PX = 12;
 const PAD_BOTTOM_PX = 30;
 const PAD_LEFT_PX = 44;
 const PAD_RIGHT_PX = 4;
@@ -93,11 +95,11 @@ export function CreditsChart({ width, result, elapsedMs }: CreditsChartProps) {
         )}
         {closeX !== null ? (
           <g>
-            <line className="v2r-cross" x1={closeX} x2={closeX} y1={PAD_TOP_PX} y2={bottom} />
+            <line className="v2r-cross" x1={closeX} x2={closeX} y1={CLOSE_LABEL_Y_PX + 4} y2={bottom} />
             <text
               className="v2r-ref-label"
               x={closeX + (closeX + 90 > right ? -6 : 6)}
-              y={PAD_TOP_PX + 12}
+              y={CLOSE_LABEL_Y_PX}
               textAnchor={closeX + 90 > right ? 'end' : 'start'}
             >
               Mine closes

@@ -84,7 +84,7 @@ describe('bindings at the defaults (Moonidih record)', () => {
     renderMoonidih();
     expect(model.curve.crossoverYear).toBe(golden.closure_curve.moonidih_record.crossover_year);
     expect(screen.getByTestId('closure-crossover').textContent).toBe(crossoverLabel(2031));
-    expect(screen.getByTestId('closure-flare-zone').textContent).toBe('Closing by 2030: a flare is cheaper');
+    expect(screen.getByTestId('closure-flare-zone').getAttribute('aria-label')).toBe('Closing by 2030: a flare is cheaper');
     expect(screen.getByTestId('closure-mine-point').textContent).toBe('Moonidih, 2034: $3.37');
     expect(screen.getByTestId('closure-offscale').textContent).toBe('Off the scale: $43.31 in 2027.');
     expect(screen.getByText(/Voluntary average \$7/)).toBeTruthy();

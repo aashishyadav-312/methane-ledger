@@ -9,7 +9,14 @@ import { getConstants, getCosts, getDefaultSettings, getTech } from '../../data/
 import { pickMineInput } from '../../data/estimation';
 import { evaluate } from '../../model/evaluate';
 import { getMineV2 } from '../map/data';
-import { DOCK_MARGIN_RIGHT_PX, DOCK_MARGIN_TOP_PX, MINI_W_PX } from '../motion';
+import {
+  DOCK_MARGIN_RIGHT_PX,
+  DOCK_MARGIN_TOP_PX,
+  DOCK_PHONE_MARGIN_PX,
+  MINI_W_PHONE_PX,
+  MINI_W_PX,
+  PHONE_MAX_W_PX,
+} from '../motion';
 import { settingsAtPrice } from './model';
 import { ResultsV2 } from './ResultsV2';
 
@@ -68,6 +75,8 @@ export function ResultsTestRoute() {
     window.__results = { setPrice: setPriceOverride, editCount: () => editPresses };
   }, []);
 
+  const phone = typeof window !== 'undefined' && window.innerWidth < PHONE_MAX_W_PX;
+
   if (!mine || !picked || !picked.input || !result) {
     return (
       <p className="v2r-test-missing" data-testid="results-missing">
@@ -94,9 +103,9 @@ export function ResultsTestRoute() {
           data-testid="mini-standin"
           style={{
             position: 'fixed',
-            top: DOCK_MARGIN_TOP_PX,
-            right: DOCK_MARGIN_RIGHT_PX,
-            width: MINI_W_PX,
+            top: phone ? DOCK_PHONE_MARGIN_PX : DOCK_MARGIN_TOP_PX,
+            right: phone ? DOCK_PHONE_MARGIN_PX : DOCK_MARGIN_RIGHT_PX,
+            width: phone ? MINI_W_PHONE_PX : MINI_W_PX,
             aspectRatio: '906 / 1016',
             boxSizing: 'border-box',
             border: '1px dashed var(--line-strong)',
