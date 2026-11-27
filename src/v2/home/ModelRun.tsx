@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type CSSProperties } from 'react';
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import { createPortal } from 'react-dom';
 import { usdPerT } from '../../lib/format';
 import { usdPrice } from '../../pages/MinePage/units';
@@ -7,8 +7,8 @@ import type { MineView } from '../../state/url';
 import { VerdictPill } from '../../ui';
 import type { MineV2 } from '../contracts';
 import { RUN_PROGRESS_UNDERLINE_PX } from '../motion/tokens';
+import { ResultsV2, type ResultsData } from '../results';
 import { RECOMPUTE_DEBOUNCE_MS } from './layout';
-import { ResultsSlot } from './ResultsSlot';
 
 export interface ModelRunProps {
   mine: MineV2;
@@ -41,6 +41,12 @@ export function ModelRun({ mine, base, view, source, ran, onRun, resultsSlot, on
 
   const model = useMineModel(base, modelView);
   const { result } = model;
+  // The dashboard's own charts (structures, waterfall, tornado, closure curve) run on the same data and settings as
+  // the panel's result, so the sheet's changes and the cost basis reach them too.
+  const resultsData = useMemo<ResultsData>(
+    () => ({ tech: base.tech, constants: base.constants, costs: base.costs, finance: base.finance, prices: base.prices }),
+    [base.tech, base.constants, base.costs, base.finance, base.prices],
+  );
 
   // DESIGN_V2 "Run the model": the underline shows for the real compute time. The compute happens in the render
   // after this frame, and the underline goes with the frame after that.
@@ -94,13 +100,15 @@ export function ModelRun({ mine, base, view, source, ran, onRun, resultsSlot, on
       </button>
       {ran && resultsSlot
         ? createPortal(
-            <ResultsSlot
+            <ResultsV2
               mine={mine}
               input={model.input}
               result={result}
               source={source}
               priceUsdPerT={price}
               onEditInputs={onEditInputs}
+              settings={model.settings}
+              data={resultsData}
             />,
             resultsSlot,
           )

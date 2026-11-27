@@ -100,4 +100,12 @@ describe('archetypes', () => {
     expect(rows.length).toBeGreaterThanOrEqual(3);
     expect(rows.every((r) => r.source === 'archetype')).toBe(true);
   });
+
+  it('gives archetype bars no link: they have no place on the map', () => {
+    const rows = archetypeRows(view(15), NONE);
+    const bars = supplyBarsV2([...set.rows, ...rows], 15);
+    const archetypeIds = new Set(rows.map((r) => r.id));
+    expect(bars.filter((b) => archetypeIds.has(b.id)).every((b) => !b.opens)).toBe(true);
+    expect(bars.filter((b) => !archetypeIds.has(b.id)).every((b) => b.opens)).toBe(true);
+  });
 });

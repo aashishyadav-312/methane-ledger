@@ -32,6 +32,7 @@ import {
   type PanelState,
 } from '../../state/url';
 import type { MineId } from '../contracts';
+import { estimateOverridesFor } from '../pages/estimateOverrides';
 
 /* ---------- the panel's estimate choices ---------- */
 
@@ -157,7 +158,9 @@ export function panelBase(
   overrides: Overrides,
   panel: PanelState = DEFAULT_PANEL,
 ): PanelBase | undefined {
+  // Values uploaded on the Data page replace the estimate first; the panel's own choices go on top.
   const est = {
+    ...estimateOverridesFor(id, overrides),
     ...(choices.outputMtPerYr === null ? {} : { outputMtPerYr: choices.outputMtPerYr }),
     ...(choices.degree === null ? {} : { degree: choices.degree }),
     ...(choices.totalMm3 === null ? {} : { totalMm3: choices.totalMm3 }),
