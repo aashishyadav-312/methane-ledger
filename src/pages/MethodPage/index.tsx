@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import type { ExplainTerm } from '../../model/explain';
 import { inr, pct, tonnes, usdM, usdPerT } from '../../lib/format';
 import { Eyebrow } from '../../ui';
@@ -16,7 +17,15 @@ function termValue(t: ExplainTerm): string {
 
 const CATEGORY_NAME = { equipment: 'equipment', materials: 'materials', labour: 'labour', civil: 'civil works' } as const;
 
-export function MethodPage() {
+export interface MethodPageProps {
+  /**
+   * v2 replaces the closing "Positions on the map are approximate" section with its own sections (how every mine
+   * gets inputs, and where the map positions come from).
+   */
+  positionsSection?: ReactNode;
+}
+
+export function MethodPage({ positionsSection }: MethodPageProps = {}) {
   const w = workedCase();
   const { drained, thresholds: th, result, explanation, costs: c } = w;
   const moonidihHref = mineHref(MINE_ID);
@@ -320,15 +329,17 @@ export function MethodPage() {
           </ol>
         </section>
 
-        <section className="doc-section" aria-labelledby="m-positions">
-          <h2 className="t-h2" id="m-positions">
-            Positions on the map are approximate
-          </h2>
-          <p>
-            No source gives mine coordinates. The map places each of the {w.operatingMines} operating mines near the
-            centre of its coalfield, with a small offset. A dot shows the coalfield, not the shaft.
-          </p>
-        </section>
+        {positionsSection ?? (
+          <section className="doc-section" aria-labelledby="m-positions">
+            <h2 className="t-h2" id="m-positions">
+              Positions on the map are approximate
+            </h2>
+            <p>
+              No source gives mine coordinates. The map places each of the {w.operatingMines} operating mines near the
+              centre of its coalfield, with a small offset. A dot shows the coalfield, not the shaft.
+            </p>
+          </section>
+        )}
       </div>
 
       <details className="doc-details">
