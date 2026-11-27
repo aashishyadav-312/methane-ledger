@@ -68,6 +68,7 @@ describe('App routing', () => {
 });
 
 describe('Header', () => {
+  // The v2 nav is Map, Data and the About menu; tests/ui/v2/nav.test.tsx covers the menu itself.
   it('marks the current page in the nav', () => {
     render(<App />);
     const nav = screen.getByRole('navigation', { name: 'Main' });
@@ -75,37 +76,31 @@ describe('Header', () => {
     expect(current()).toEqual(['Map']);
     goTo('#/mine/bccl-moonidih');
     expect(current()).toEqual(['Map']);
-    goTo('#/method');
-    expect(current()).toEqual(['Method']);
-    goTo('#/sources');
-    expect(current()).toEqual(['Sources']);
-    goTo('#/compare');
-    expect(current()).toEqual(['Compare']);
     goTo('#/data');
     expect(current()).toEqual(['Data']);
-    goTo('#/assumptions');
-    expect(current()).toEqual(['Assumptions']);
+    for (const hash of ['#/method', '#/sources', '#/compare', '#/assumptions']) {
+      goTo(hash);
+      expect(current()).toEqual(['About']);
+    }
     goTo('#/ui');
     expect(current()).toEqual([]);
   });
 
-  it('links to every content page', () => {
+  it('links to Map and Data, and opens the About menu', () => {
     render(<App />);
     const nav = screen.getByRole('navigation', { name: 'Main' });
-    const links = Array.from(nav.querySelectorAll('a')).map((a) => [a.textContent, a.getAttribute('href')]);
+    const links = Array.from(nav.querySelectorAll(':scope > a')).map((a) => [a.textContent, a.getAttribute('href')]);
     expect(links).toEqual([
       ['Map', '#/'],
-      ['Compare', '#/compare'],
       ['Data', '#/data'],
-      ['Method', '#/method'],
-      ['Assumptions', '#/assumptions'],
-      ['Sources', '#/sources'],
     ]);
+    expect(nav.querySelector('button')?.textContent).toBe('About');
   });
 
   it('shows the research preview tag and the footer lines', () => {
     render(<App />);
     expect(screen.getByText('Research preview')).toBeTruthy();
+    goTo('#/method');
     expect(screen.getByText(/Nicholas Institute, Duke University/)).toBeTruthy();
     expect(screen.getByText('Indicative, pre-feasibility results. Not investment advice.')).toBeTruthy();
   });

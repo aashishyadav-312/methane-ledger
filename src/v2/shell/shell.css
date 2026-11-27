@@ -1,0 +1,326 @@
+/* v2 shell: header, nav and the About menu (DESIGN_V2; mockups V2-Home and V2-Nav-About). */
+
+.v2-shell {
+  --v2-menu-ms: 150ms; /* the About menu scales in over 150 ms */
+  --v2-header-h: 72px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.v2-shell main {
+  flex: 1;
+}
+
+/* ---------- header ---------- */
+
+.v2-header {
+  position: relative;
+  z-index: var(--z-menu);
+}
+
+/* Over a full-screen map the bar itself lets clicks through to the map; only its controls take them. */
+.v2-header--overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.v2-header--overlay .v2-header-inner > * {
+  pointer-events: auto;
+}
+
+.v2-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: var(--v2-header-h);
+}
+
+.v2-header--overlay .v2-header-inner {
+  padding-inline: 48px;
+}
+
+.v2-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.v2-wordmark {
+  font-family: var(--font-display);
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: var(--ink);
+}
+
+.v2-pill {
+  padding: 2px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-pill);
+  font-size: 12.5px;
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--ink-2);
+}
+
+/* ---------- nav ---------- */
+
+.v2-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.v2-nav > a,
+.v2-nav-button,
+.v2-nav-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: var(--hit);
+  padding: 0 14px;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: transparent;
+  font: inherit;
+  font-weight: 500;
+  color: var(--ink-2);
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    color var(--dur-settle) var(--ease-out),
+    background-color var(--dur-settle) var(--ease-out),
+    transform var(--dur-press) var(--ease-out);
+}
+
+.v2-nav > a:hover,
+.v2-nav-button:hover,
+.v2-nav-icon:hover {
+  color: var(--ink);
+}
+
+.v2-nav > a:active,
+.v2-nav-button:active,
+.v2-nav-icon:active {
+  transform: scale(0.97);
+}
+
+.v2-nav > a[aria-current='page'],
+.v2-nav-button[aria-current='page'],
+.v2-nav-button[aria-expanded='true'] {
+  background: var(--land);
+  color: var(--ink);
+}
+
+.v2-nav-icon {
+  width: var(--hit);
+  padding: 0;
+  justify-content: center;
+  border-radius: 12px;
+  color: var(--ink);
+}
+
+.v2-chevron {
+  transition: transform var(--v2-menu-ms) var(--ease-out);
+}
+
+.v2-nav-button[aria-expanded='true'] .v2-chevron {
+  transform: rotate(180deg);
+}
+
+/* ---------- the About menu ---------- */
+
+.v2-menu-wrap {
+  position: relative;
+}
+
+.v2-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: var(--z-menu);
+  display: flex;
+  flex-direction: column;
+  width: min(340px, calc(100vw - 24px));
+  padding: 6px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 18px 44px rgba(26, 25, 22, 0.14);
+  font-size: 15px;
+  transform-origin: top right;
+  animation: v2-menu-in var(--v2-menu-ms) var(--ease-out);
+}
+
+@keyframes v2-menu-in {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+}
+
+@keyframes v2-menu-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+.v2-menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  color: var(--ink);
+  text-decoration: none;
+  transition: background-color var(--v2-menu-ms) ease;
+}
+
+.v2-menu-item--plain {
+  justify-content: center;
+  min-height: var(--hit);
+  padding-block: 10px;
+}
+
+.v2-menu-item:hover,
+.v2-menu-item:focus-visible {
+  background: var(--track);
+  color: var(--ink);
+}
+
+.v2-menu-item:focus-visible {
+  outline-offset: -2px;
+}
+
+.v2-menu-item[aria-current='page'] {
+  background: var(--land);
+}
+
+.v2-menu-label {
+  font-weight: 600;
+}
+
+.v2-menu-desc {
+  font-size: 13.5px;
+  font-weight: 400;
+  color: var(--ink-2);
+}
+
+.v2-menu-rule {
+  margin: 6px 8px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.v2-menu-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 6px 8px 4px;
+  padding-top: 6px;
+  border-top: 1px solid var(--line-soft);
+  font-size: 13px;
+  color: var(--ink-3);
+}
+
+.v2-menu-foot .v2-menu-item {
+  flex-direction: row;
+  flex: none;
+  min-height: 0;
+  padding: 8px 10px;
+  margin-right: -10px;
+  color: var(--ink-2);
+}
+
+.v2-menu-foot .v2-menu-label {
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .v2-menu {
+    animation-name: v2-menu-fade;
+  }
+
+  .v2-chevron,
+  .v2-nav > a,
+  .v2-nav-button,
+  .v2-nav-icon {
+    transition-property: color, background-color;
+  }
+
+  .v2-nav > a:active,
+  .v2-nav-button:active,
+  .v2-nav-icon:active {
+    transform: none;
+  }
+}
+
+/* ---------- home slot (until the home flow replaces it) ---------- */
+
+.v2-home-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+  max-width: 560px;
+  padding: calc(var(--v2-header-h) + 56px) 48px 64px;
+}
+
+.v2-home-slot .t-h1 {
+  font-size: 52px;
+  font-weight: 450;
+  line-height: 1.03;
+  letter-spacing: -0.028em;
+}
+
+.v2-home-slot .t-lede {
+  margin: 0;
+}
+
+/* ---------- phones ---------- */
+
+@media (max-width: 720px) {
+  .v2-shell {
+    --v2-header-h: 60px;
+  }
+
+  .v2-header--overlay .v2-header-inner {
+    padding-inline: 20px 12px;
+  }
+
+  .v2-header-inner {
+    gap: 12px;
+  }
+
+  .v2-wordmark {
+    font-size: 21px;
+  }
+
+  .v2-home-slot {
+    padding: calc(var(--v2-header-h) + 4px) 16px 32px;
+  }
+
+  .v2-home-slot .t-h1 {
+    font-size: 29px;
+    line-height: 1.08;
+  }
+}
+
+/* Below this the wordmark and the menu button need the whole row. */
+@media (max-width: 359px) {
+  .v2-pill {
+    display: none;
+  }
+}
