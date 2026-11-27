@@ -134,7 +134,7 @@ export const SMOG_RATE_PER_STRENGTH = 1.0;
 export const SMOG_FOCUS_SELECTED_MULT = 8;
 export const SMOG_FOCUS_OTHER_MULT = 0.3;
 /** Docked: only the selected mine, at this absolute rate (particles a second). */
-export const SMOG_DOCKED_RATE_PER_S = 1.2;
+export const SMOG_DOCKED_RATE_PER_S = 2.5;
 /** Mode changes ease the multipliers over this time, with easeOut. */
 export const SMOG_MODE_MS = 600;
 
@@ -162,6 +162,12 @@ export const SMOG_DOCKED_SIZE_FROM_PX = 2;
 export const SMOG_DOCKED_SIZE_GROW_PX = 6;
 /** Pre-rendered soft disc, drawn once. */
 export const SMOG_SPRITE_PX = 64;
+
+/**
+ * The viewport the smog's px numbers are tuned for (the 1440 × 900 desktop artboard). Smaller maps scale particle
+ * sizes and speeds down with the map, so a phone shows the same haze, not plumes twice as large as the coal belt.
+ */
+export const SMOG_REFERENCE_VIEWPORT_PX = [1440, 900] as const;
 
 export const SMOG_BUDGET_DESKTOP = 700;
 export const SMOG_BUDGET_PHONE = 220;

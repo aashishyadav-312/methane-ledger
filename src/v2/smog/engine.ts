@@ -31,6 +31,7 @@ import {
   SMOG_NOISE_SPEED_PER_S,
   SMOG_PARTICLE_PHASE_SPREAD,
   SMOG_RATE_PER_STRENGTH,
+  SMOG_REFERENCE_VIEWPORT_PX,
   SMOG_RGB,
   SMOG_RISE_MAX_PX_PER_S,
   SMOG_RISE_MIN_PX_PER_S,
@@ -45,7 +46,7 @@ import {
   SMOG_WIND_PX_PER_S,
 } from '../motion/tokens';
 import { createSimplex2, curl2, type Noise2 } from './noise';
-import { IDENTITY_TRANSFORM, projectionFor, type Projection, type ViewBox } from './projection';
+import { fitViewBox, IDENTITY_TRANSFORM, projectionFor, type Projection, type ViewBox } from './projection';
 import { exp1, mulberry32, uniform, type Rng } from './rng';
 import { smogSprite, type SpriteCanvas } from './sprite';
 import type { SmogEmitter } from './strength';
@@ -341,6 +342,16 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
     return proj;
   }
 
+  /**
+   * The px numbers (sizes, speeds) were set for the desktop artboard. On a smaller map (a phone at k = 1 is about half
+   * the desktop scale) they shrink with it, so a plume covers the same stretch of country; they never grow past 1.
+   */
+  const referenceFit = fitViewBox(viewBox, SMOG_REFERENCE_VIEWPORT_PX[0], SMOG_REFERENCE_VIEWPORT_PX[1]).fit;
+  function smallMapScale() {
+    const base = currentProjection().basePx;
+    return base > 0 && referenceFit > 0 ? Math.min(1, base / referenceFit) : 1;
+  }
+
   function step(dtS: number) {
     if (dtS <= 0 || destroyed) return;
     simS += dtS;
@@ -385,6 +396,7 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
 
     // 3. Move and age.
     const basePx = currentProjection().basePx || 1;
+    const pxScale = smallMapScale();
     const tau = simS * SMOG_NOISE_SPEED_PER_S;
     const [windX, windY] = SMOG_WIND_PX_PER_S;
     for (let r = live - 1; r >= 0; r--) {
@@ -405,8 +417,8 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
         vx *= SMOG_MAX_SPEED_PX_PER_S / speed;
         vy *= SMOG_MAX_SPEED_PX_PER_S / speed;
       }
-      p.ox += vx * dtS;
-      p.oy += vy * dtS;
+      p.ox += vx * dtS * pxScale;
+      p.oy += vy * dtS * pxScale;
     }
   }
 
@@ -425,8 +437,9 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
     const pr = currentProjection();
     const w = viewport.widthPx;
     const h = viewport.heightPx;
-    const sizeFrom = lerp(SMOG_SIZE_FROM_PX, SMOG_DOCKED_SIZE_FROM_PX / displayScale, look);
-    const sizeGrow = lerp(SMOG_SIZE_GROW_PX, SMOG_DOCKED_SIZE_GROW_PX / displayScale, look);
+    const pxScale = smallMapScale();
+    const sizeFrom = lerp(SMOG_SIZE_FROM_PX * pxScale, SMOG_DOCKED_SIZE_FROM_PX / displayScale, look);
+    const sizeGrow = lerp(SMOG_SIZE_GROW_PX * pxScale, SMOG_DOCKED_SIZE_GROW_PX / displayScale, look);
     for (let r = 0; r < live; r++) {
       const p = pool[r];
       const em = emitters[p.e];
