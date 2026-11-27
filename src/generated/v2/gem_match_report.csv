@@ -1,0 +1,312 @@
+mine_id,mine_name,company,state,field,output_mt_per_year,matched,gem_id,gem_name,gem_status,gem_state,gem_matched_by,score,distance_to_centroid_km,state_check,rule,note
+ecl-madhaipur-ug-madhaipur-oc-patch,Madhaipur UG / Madhaipur OC Patch,ECL,West Bengal,raniganj,0.13,yes,M2850,Madhaipur Coal Mine,Operating,West Bengal,1,100.0,24.9,pass,name+state+60km,
+ecl-pandaveswar-ug,Pandaveswar UG,ECL,West Bengal,raniganj,0.08,yes,M4458,Pandaveswar Dalurband Coal Mine,Operating,West Bengal,2,100.0,15.6,pass,name+state+60km,
+ecl-mandarboni-south-samla,Mandarboni + South Samla,ECL,West Bengal,raniganj,0.07,yes,M2692,Manoerboni & South Samlaamalgateo Coal Mine,Operating,West Bengal,1,95.5,21.7,pass,name+state+60km,
+ecl-khottadih-ug,Khottadih UG,ECL,West Bengal,raniganj,0.89,yes,M2500,Khottadih UG & OC Mine,Operating,West Bengal,2,100.0,15.6,pass,name+state+60km,
+ecl-khottadih-ocp,Khottadih OCP,ECL,West Bengal,raniganj,0.71,yes,M2500,Khottadih UG & OC Mine,Operating,West Bengal,2,100.0,15.6,pass,name+state+60km,
+ecl-dalurband-oc,Dalurband OC,ECL,West Bengal,raniganj,0.43,yes,M4458,Pandaveswar Dalurband Coal Mine,Operating,West Bengal,2,100.0,15.6,pass,name+state+60km,
+ecl-khandra-colliery,Khandra Colliery,ECL,West Bengal,raniganj,0.1,yes,M2671,Khandra Coal Mine,Operating,West Bengal,1,100.0,10.5,pass,name+state+60km,
+ecl-bankola-colliery,Bankola Colliery,ECL,West Bengal,raniganj,0.12,yes,M1650,Bankola Coal Mine,Operating,West Bengal,1,100.0,12.3,pass,name+state+60km,
+ecl-shyam-sundarpur-colliery,Shyam Sundarpur Colliery,ECL,West Bengal,raniganj,0.56,yes,M2915,Shyamsundarpur Coal Mine,Operating,West Bengal,1,96.6,14.2,pass,name+state+60km,
+ecl-kumardihi-a-colliery,Kumardihi-A Colliery,ECL,West Bengal,raniganj,0.08,yes,M2698,Kumardihi A Coal Mine,Operating,West Bengal,1,100.0,16.9,pass,name+state+60km,
+ecl-nakrakonda-kumardihi-b-ug,Nakrakonda -Kumardihi 'B' UG,ECL,West Bengal,raniganj,2.19,yes,M2771,Nakrakonda Coal Mine,Operating,West Bengal,1,100.0,17.9,pass,name+state+60km,
+ecl-tilaboni-colliery,Tilaboni Colliery,ECL,West Bengal,raniganj,0.89,yes,M2746,Tilaboni Coal Mine,Operating,West Bengal,1,100.0,16.2,pass,name+state+60km,
+ecl-sankarpur-colliery,Sankarpur Colliery,ECL,West Bengal,raniganj,0.11,yes,M2909,Bonbahal Coal Mine,Mothballed,West Bengal,2,94.7,9.4,pass,name+state+60km,2 tied
+ecl-jhanjra-project-colliery,Jhanjra Project Colliery,ECL,West Bengal,raniganj,3.26,yes,M0543,Jhanjra Coal Mine,Operating,West Bengal,1,100.0,20.1,pass,name+state+60km,
+ecl-madhusudanpur-7-pit-incline,Madhusudanpur 7 Pit & Incline,ECL,West Bengal,raniganj,0.0,yes,M2635,Maohusudanpur 7 Pit & Incline Coal Mine,Operating,West Bengal,1,100.0,8.5,pass,name+state+60km,
+ecl-nabakajora-colliery,Nabakajora Colliery,ECL,West Bengal,raniganj,0.0,yes,M4454,Naba Jambad Project,Operating,West Bengal,3,100.0,6.5,pass,name+state+60km,
+ecl-porascol-east-colliery,Porascol East Colliery,ECL,West Bengal,raniganj,0.07,no,,,,West Bengal,,75.0,7.0,pass,none,closest M2764 Parascole East & West Coal Mine: name score 75 < 88
+ecl-porascol-west-colliery,Porascol West Colliery,ECL,West Bengal,raniganj,0.06,no,,,,Chhattisgarh,,100.0,497.8,fail,none,closest M1753 Vijay Coal Mine: state Chhattisgarh; 498 km from centroid
+ecl-jambad-ug-colliery,Jambad UG Colliery,ECL,West Bengal,raniganj,0.11,yes,M4454,Naba Jambad Project,Operating,West Bengal,3,100.0,6.5,pass,name+state+60km,2 tied
+ecl-khas-kajora-colliery,Khas Kajora Colliery,ECL,West Bengal,raniganj,0.08,yes,M2766,Khas Kajora Coal Mine,Operating,West Bengal,1,100.0,7.6,pass,name+state+60km,
+ecl-central-kajora-colliery,Central Kajora Colliery,ECL,West Bengal,raniganj,0.06,yes,M2668,Central Kajora Coal Mine,Operating,West Bengal,1,100.0,7.6,pass,name+state+60km,
+ecl-jambad-ocp,Jambad OCP,ECL,West Bengal,raniganj,0.05,yes,M4454,Naba Jambad Project,Operating,West Bengal,3,100.0,6.5,pass,name+state+60km,2 tied
+ecl-madhabpur-ug-madhabpur-oc,Madhabpur UG & Madhabpur OC,ECL,West Bengal,raniganj,0.01,yes,M2851,Madhabpur Coal Mine,Operating,West Bengal,1,100.0,5.7,pass,name+state+60km,
+ecl-sonepur-bazari-project-ocm,Sonepur Bazari Project OCM,ECL,West Bengal,raniganj,12.48,yes,M0634,Sonepur Bazari Coal Mine,Operating,West Bengal,1,100.0,12.4,pass,name+state+60km,
+ecl-new-kenda-colliery,New Kenda Colliery,ECL,West Bengal,raniganj,0.77,yes,M2749,New Kenda Coal Mine,Operating,West Bengal,1,100.0,5.9,pass,name+state+60km,
+ecl-bahula-colliery,Bahula Colliery,ECL,West Bengal,raniganj,0.06,yes,M2670,Lower Kenda Coal Mine,Operating,West Bengal,2,100.0,6.9,pass,name+state+60km,3 tied
+ecl-lower-kenda-colliery,Lower Kenda Colliery,ECL,West Bengal,raniganj,0.03,yes,M2670,Lower Kenda Coal Mine,Operating,West Bengal,2,100.0,6.9,pass,name+state+60km,
+ecl-chora-7-9-pits-colliery,Chora 7&9 Pits Colliery,ECL,West Bengal,raniganj,0.06,yes,M2739,Chora UG Coal Mine,Operating,West Bengal,2,100.0,9.7,pass,name+state+60km,
+ecl-chora-10-pit-colliery,Chora 10 Pit Colliery,ECL,West Bengal,raniganj,0.05,yes,M2739,Chora UG Coal Mine,Operating,West Bengal,2,100.0,9.7,pass,name+state+60km,
+ecl-chora-block-incline-ug-shankarpur-oc-banbahal-oc,Chora Block Incline UG & Shankarpur OC & Banbahal OC,ECL,West Bengal,raniganj,0.03,yes,M2909,Bonbahal Coal Mine,Mothballed,West Bengal,2,100.0,9.4,pass,name+state+60km,3 tied
+ecl-siduli-colliery,Siduli Colliery,ECL,West Bengal,raniganj,0.06,yes,M2701,Siduli Coal Mine,Operating,West Bengal,1,100.0,9.3,pass,name+state+60km,
+ecl-c-l-jambad-colliery,C L Jambad Colliery,ECL,West Bengal,raniganj,0.24,yes,M2644,CL Jambad Coal Mine,Operating,West Bengal,1,94.7,8.4,pass,name+state+60km,
+ecl-amritnagar-colliery,Amritnagar Colliery,ECL,West Bengal,raniganj,0.03,yes,M1641,Amritnaga Coal Mine,Operating,West Bengal,1,100.0,5.4,pass,name+state+60km,
+ecl-kunustoria-colliery,Kunustoria Colliery,ECL,West Bengal,raniganj,0.06,yes,M2719,Kunustoria Coal Mine,Operating,West Bengal,1,100.0,2.4,pass,name+state+60km,
+ecl-belbaid-colliery,Belbaid Colliery,ECL,West Bengal,raniganj,0.05,yes,M4459,Parasea Belbaid Coal Mine,Operating,West Bengal,2,100.0,2.9,pass,name+state+60km,
+ecl-parasea-colliery,Parasea Colliery,ECL,West Bengal,raniganj,0.12,yes,M4459,Parasea Belbaid Coal Mine,Operating,West Bengal,2,100.0,2.9,pass,name+state+60km,
+ecl-bansra-colliery,Bansra Colliery,ECL,West Bengal,raniganj,0.07,yes,M1652,Bansra Coal Mine,Operating,West Bengal,1,100.0,2.4,pass,name+state+60km,
+ecl-north-searsole-oc-colliery,North Searsole OC Colliery,ECL,West Bengal,raniganj,0.69,yes,M2902,North Searsole (East) Coal Mine,Operating,West Bengal,1,100.0,3.6,pass,name+state+60km,
+ecl-nimcha-colliery-nimcha-oc-amkola-nimcha-highwall,"Nimcha Colliery , Nimcha OC (Amkola) & Nimcha Highwall",ECL,West Bengal,raniganj,0.57,yes,M2844,Nimcha Coal Mine,Operating,West Bengal,1,100.0,5.4,pass,name+state+60km,
+ecl-j-k-nagar-colliery,J. K. Nagar Colliery,ECL,West Bengal,raniganj,0.14,yes,M2728,JK Nagar Coal Mine,Operating,West Bengal,1,94.1,5.4,pass,name+state+60km,
+ecl-pure-searsole-colliery,Pure Searsole Colliery,ECL,West Bengal,raniganj,0.03,no,,,,West Bengal,,76.2,3.6,pass,none,closest M2902 North Searsole (East) Coal Mine: name score 76 < 88
+ecl-satgram-project,Satgram Project,ECL,West Bengal,raniganj,0.02,yes,M2669,Satgram Coal Mine,Operating,West Bengal,2,100.0,7.7,pass,name+state+60km,
+ecl-satgram-incline,Satgram Incline,ECL,West Bengal,raniganj,0.02,yes,M2669,Satgram Coal Mine,Operating,West Bengal,2,100.0,7.7,pass,name+state+60km,
+ecl-chapuikhas-colliery,Chapuikhas Colliery,ECL,West Bengal,raniganj,0.02,yes,M2625,Chapuikhas Colliery,Operating,West Bengal,1,100.0,8.1,pass,name+state+60km,
+ecl-kalidaspur-project,Kalidaspur Project,ECL,West Bengal,raniganj,0.07,yes,M2699,Kalidaspur Coal Mine,Operating,West Bengal,1,100.0,5.4,pass,name+state+60km,
+ecl-ningah-colliery,Ningah Colliery,ECL,West Bengal,raniganj,0.03,yes,M2601,Ningah Coal Mine,Operating,West Bengal,2,100.0,10.1,pass,name+state+60km,2 tied
+ecl-ningha-ssi-oc,Ningha (SSI) OC,ECL,West Bengal,raniganj,0.0,yes,M2601,Ningah Coal Mine,Operating,West Bengal,2,100.0,10.1,pass,name+state+60km,
+ecl-bhanora-west-block-colliery-bhanora-oc-patch-h,Bhanora West Block colliery & Bhanora OC patch (H),ECL,West Bengal,raniganj,0.48,yes,M6680,Bhanora West UG Coal Mine,Operating,West Bengal,1,100.0,17.0,pass,name+state+60km,
+ecl-bonjemehari-oc-extn,Bonjemehari OC (Extn),ECL,West Bengal,raniganj,0.01,yes,M2859,Bonjemehari Coal Mine,Operating,West Bengal,1,100.0,29.2,pass,name+state+60km,
+ecl-dabor-ph-ii-iii-oc,Dabor Ph-II & III OC,ECL,West Bengal,raniganj,0.37,yes,M0508,Dabor Coal Mine,Operating,West Bengal,1,100.0,27.4,pass,name+state+60km,
+ecl-mohanpur-expn,Mohanpur (Expn),ECL,West Bengal,raniganj,0.41,yes,M0579,Mohanpur Coal Mine,Operating,West Bengal,1,100.0,24.5,pass,name+state+60km,
+ecl-gourangdih-extn-oc,Gourangdih Extn OC,ECL,West Bengal,raniganj,1.71,yes,M2706,Gouranoih Expansion Mine,Operating,West Bengal,1,100.0,24.2,pass,name+state+60km,
+ecl-gourandi-begunia,Gourandi Begunia,ECL,West Bengal,raniganj,1.3,yes,M2966,Gourandih Begunia Coal Mine,Operating,West Bengal,1,97.0,21.7,pass,name+state+60km,
+ecl-itapara-oc-patch,Itapara OC Patch,ECL,West Bengal,raniganj,1.26,yes,M0536,Itapara Coal Mine,Operating,West Bengal,1,100.0,22.7,pass,name+state+60km,
+ecl-parbelia-colliery,Parbelia Colliery,ECL,West Bengal,raniganj,0.04,yes,M2658,Parbelia Coal Mine,Operating,West Bengal,1,100.0,30.3,pass,name+state+60km,
+ecl-chinakuri-mine-iii,Chinakuri Mine III,ECL,West Bengal,raniganj,0.05,yes,M2655,Chinakuri III Coal Mine,Operating,West Bengal,1,100.0,27.2,pass,name+state+60km,
+ecl-bejdih-colliery,Bejdih Colliery,ECL,West Bengal,raniganj,0.05,yes,M2624,Bejdih Coal Mine,Operating,West Bengal,1,100.0,25.9,pass,name+state+60km,
+ecl-methani-colliery,Methani Colliery,ECL,West Bengal,raniganj,0.05,yes,M2636,Methani Coal Mine,Operating,West Bengal,1,100.0,24.5,pass,name+state+60km,
+ecl-patmohana-colliery,Patmohana Colliery,ECL,West Bengal,raniganj,0.04,yes,M2626,Patmohana Coal Mine,Operating,West Bengal,1,100.0,24.2,pass,name+state+60km,
+ecl-dhemomain-incl-colliery,Dhemomain Incl Colliery,ECL,West Bengal,raniganj,0.02,yes,M2643,Dhemonmain Coal Mine,Operating,West Bengal,2,100.0,23.1,pass,name+state+60km,
+ecl-dhemomain-pit-colliery,Dhemomain Pit Colliery,ECL,West Bengal,raniganj,0.02,yes,M2643,Dhemonmain Coal Mine,Operating,West Bengal,2,100.0,23.1,pass,name+state+60km,
+ecl-narsamuda-colliery,Narsamuda Colliery,ECL,West Bengal,raniganj,0.05,yes,M2656,Narsamunda Coal Mine,Operating,West Bengal,1,100.0,21.9,pass,name+state+60km,
+ecl-dubeswari-colliery,Dubeswari Colliery,ECL,West Bengal,raniganj,0.0,yes,M2653,Dubeshwari OC Coal Mine,Mothballed,West Bengal,1,100.0,30.6,pass,name+state+60km,
+ecl-badjna-colliery,Badjna Colliery,ECL,Jharkhand,mugma,0.07,yes,M1644,Badjna Coal Mine,Operating,Jharkhand,1,100.0,2.5,pass,name+state+60km,
+ecl-hariajam,Hariajam,ECL,Jharkhand,mugma,0.04,yes,M2654,Hariajam Coal Mine,Operating,Jharkhand,1,100.0,3.1,pass,name+state+60km,
+ecl-khoodia,Khoodia,ECL,Jharkhand,mugma,0.03,yes,M2634,Khoodia Coal Mine,Operating,Jharkhand,1,100.0,3.1,pass,name+state+60km,
+ecl-lakhimata,Lakhimata,ECL,Jharkhand,mugma,0.05,yes,M4426,Amalgamated LSMK UG & OC Mine,Operating,Jharkhand,3,100.0,3.3,pass,name+state+60km,
+ecl-shampur-b,Shampur B,ECL,Jharkhand,mugma,0.05,yes,M4426,Amalgamated LSMK UG & OC Mine,Operating,Jharkhand,3,100.0,3.3,pass,name+state+60km,
+ecl-kumardhubi-colliery,Kumardhubi Colliery,ECL,Jharkhand,mugma,0.02,yes,M2623,Kumardhubi Coal Mine,Operating,Jharkhand,1,100.0,2.8,pass,name+state+60km,
+ecl-nirsha,Nirsha,ECL,Jharkhand,mugma,0.07,yes,M2777,Nirsha OC Patch Coal Mine,Operating,Jharkhand,1,100.0,1.7,pass,name+state+60km,
+ecl-kapasara,Kapasara,ECL,Jharkhand,mugma,0.0,yes,M4426,Amalgamated LSMK UG & OC Mine,Operating,Jharkhand,3,100.0,3.3,pass,name+state+60km,2 tied
+ecl-rajpura,Rajpura,ECL,Jharkhand,mugma,0.07,yes,M2791,Rajpura Coal Mine,Operating,Jharkhand,1,100.0,7.1,pass,name+state+60km,
+ecl-barmuri,Barmuri,ECL,Jharkhand,mugma,0.18,yes,M1654,Barmuri Coal Mine,Operating,Jharkhand,1,100.0,1.9,pass,name+state+60km,
+ecl-gopinathpur,Gopinathpur,ECL,Jharkhand,mugma,0.11,yes,M6713,Gopinathpur–Shampur A UG & OC Mine,Operating,Jharkhand,1,100.0,6.1,pass,name+state+60km,
+ecl-chapapur-ii-chappapur-10-quarry-oc,Chapapur-II & Chappapur 10 Quarry (OC),ECL,Jharkhand,mugma,1.12,yes,M2770,Chapapur II Coal Mine,Operating,Jharkhand,1,100.0,4.6,pass,name+state+60km,
+ecl-chitra-east-ocp,Chitra East OCP,ECL,Jharkhand,chitra,1.29,yes,M0495,Chitra East Coal Mine,Operating,Jharkhand,1,100.0,8.7,pass,name+state+60km,
+ecl-rajmahal-ocp,Rajmahal OCP,ECL,Jharkhand,rajmahal,14.01,yes,M0617,Rajmahal Coal Mine,Operating,Jharkhand,1,100.0,8.0,pass,name+state+60km,
+ecl-hurra-c,Hurra'C',ECL,Jharkhand,rajmahal,2.99,yes,M2987,Hura C Coal Mine,Operating,Jharkhand,1,100.0,46.5,pass,name+state+60km,
+bccl-damoda,Damoda,BCCL,Jharkhand,jharia,0.37,yes,M4431,Damoda Coal Mine,Operating,Jharkhand,1,100.0,25.3,pass,name+state+60km,
+bccl-amp-colliery,AMP Colliery,BCCL,Jharkhand,jharia,3.16,yes,M0607,Muraidi Phularitand Coal Mine,Operating,Jharkhand,1,100.0,15.7,pass,name+state+60km,
+bccl-amalgamated-bocp,Amalgamated BOCP,BCCL,Jharkhand,jharia,5.23,no,,,,Jharkhand,,81.5,3.3,pass,none,closest M4427 ASP Coal Mine: name score 81 < 88
+bccl-kharkharee,Kharkharee,BCCL,Jharkhand,jharia,0.0,yes,M2618,Kharkharee Colliery,Operating,Jharkhand,1,100.0,14.5,pass,name+state+60km,
+bccl-maheshpur,Maheshpur,BCCL,Jharkhand,jharia,0.08,yes,M2616,Maheshpur Coal Mine,Operating,Jharkhand,1,100.0,13.0,pass,name+state+60km,
+bccl-jogidih,Jogidih,BCCL,Jharkhand,jharia,0.0,yes,M2637,Jogidih Coal Mine,Operating,Jharkhand,1,100.0,13.6,pass,name+state+60km,
+bccl-abgc,ABGC,BCCL,Jharkhand,jharia,0.33,yes,M1637,Amaglmated Block IV-Kooridih-Govindpur Coal Mine,Operating,Jharkhand,1,100.0,11.4,pass,name+state+60km,
+bccl-nakc,NAKC,BCCL,Jharkhand,jharia,0.79,no,,,,Jharkhand,,66.7,7.9,pass,none,closest M0468 Amalgamated Keshalpur-West Mudidih (AKWMC) Coal Mine: name score 67 < 88
+bccl-akwmc,AKWMC,BCCL,Jharkhand,jharia,1.38,yes,M0468,Amalgamated Keshalpur-West Mudidih (AKWMC) Coal Mine,Operating,Jharkhand,1,100.0,7.9,pass,name+state+60km,
+bccl-agkcc,AGKCC,BCCL,Jharkhand,jharia,0.03,yes,M3014,Amalgated Gaslitand Katars Chaitudih Coal Mine,Mothballed,Jharkhand,1,100.0,10.5,pass,name+state+60km,
+bccl-mudidih,Mudidih,BCCL,Jharkhand,jharia,0.75,yes,M2598,Mudidih Coal Mine,Operating,Jharkhand,1,100.0,3.4,pass,name+state+60km,2 tied
+bccl-kankanee,Kankanee,BCCL,Jharkhand,jharia,0.11,yes,M2852,Kankanee Coal Mine,Operating,Jharkhand,1,100.0,6.4,pass,name+state+60km,
+bccl-sendra-bansjora,Sendra Bansjora,BCCL,Jharkhand,jharia,1.48,yes,M0631,Sendra Bansjora Coal Mine,Operating,Jharkhand,1,100.0,4.8,pass,name+state+60km,
+bccl-nichitpur,Nichitpur,BCCL,Jharkhand,jharia,1.36,yes,M2896,Nichitpur Coal Mine,Operating,Jharkhand,1,100.0,5.1,pass,name+state+60km,
+bccl-tetulmari,Tetulmari,BCCL,Jharkhand,jharia,0.0,yes,M2904,Tetulmari Coal Mine,Operating,Jharkhand,1,100.0,6.7,pass,name+state+60km,
+bccl-basdeopur,Basdeopur,BCCL,Jharkhand,jharia,0.08,yes,M1651,Bansdeopur Coal Mine,Operating,Jharkhand,1,94.7,7.1,pass,name+state+60km,
+bccl-e-basuria,E.Basuria,BCCL,Jharkhand,jharia,0.17,no,,,,Jharkhand,,78.3,4.6,pass,none,closest M2883 East Bassuriya Coal Mine: name score 78 < 88
+bccl-gondudih-khas-kusunda,Gondudih/Khas Kusunda,BCCL,Jharkhand,jharia,1.09,yes,M2807,Gondudih Khas Kusunda Coal Mine,Operating,Jharkhand,1,100.0,4.9,pass,name+state+60km,
+bccl-new-godhur-kusunda-alkusa,New Godhur-Kusunda-Alkusa,BCCL,Jharkhand,jharia,0.86,yes,M2965,New Godhur Kusunda Alkusa Colliery,Mothballed,Jharkhand,1,100.0,3.0,pass,name+state+60km,
+bccl-amagamated-dhansar-industry,Amagamated Dhansar-Industry,BCCL,Jharkhand,jharia,0.83,yes,M2916,Dhansar Coal Mine,Operating,Jharkhand,1,100.0,2.5,pass,name+state+60km,
+bccl-ena,Ena,BCCL,Jharkhand,jharia,1.85,yes,M0518,Ena Coal Mine,Operating,Jharkhand,1,100.0,3.0,pass,name+state+60km,
+bccl-gopalichuck,Gopalichuck,BCCL,Jharkhand,jharia,0.51,yes,M2602,Gopalichak Coal Mine,Operating,Jharkhand,1,95.2,4.3,pass,name+state+60km,
+bccl-bastacolla,Bastacolla,BCCL,Jharkhand,jharia,2.01,yes,M1657,Bastacola Coal Mine,Operating,Jharkhand,1,100.0,3.7,pass,name+state+60km,
+bccl-kuya,Kuya,BCCL,Jharkhand,jharia,0.39,yes,M0559,Kuya Coal Mine,Operating,Jharkhand,1,100.0,7.6,pass,name+state+60km,
+bccl-rocp-s-jharia,ROCP/S. Jharia,BCCL,Jharkhand,jharia,0.32,yes,M2513,Rajapur-South Jharia Coal Mine,Operating,Jharkhand,1,100.0,4.4,pass,name+state+60km,
+bccl-ntst-jeenagora-kujama,NTST-Jeenagora + Kujama,BCCL,Jharkhand,jharia,8.21,yes,M7202,Kujama Coal Mine,Operating,Jharkhand,1,100.0,5.5,pass,name+state+60km,
+bccl-joyrampur,Joyrampur,BCCL,Jharkhand,jharia,0.81,yes,M6712,Amalgamated Joyrampur Colliery,Operating,Jharkhand,1,100.0,7.9,pass,name+state+60km,
+bccl-bhowra-s,Bhowra(S),BCCL,Jharkhand,jharia,2.15,no,,,,Jharkhand,,76.2,8.9,pass,none,closest M2835 Bhowrah (South) Coal Mine: name score 76 < 88
+bccl-amalgameted-sudamdih-patherdih,Amalgameted Sudamdih-Patherdih,BCCL,Jharkhand,jharia,0.19,no,,,,Jharkhand,,86.6,3.3,pass,none,closest M4427 ASP Coal Mine: name score 87 < 88
+bccl-basantimata-dahibari,Basantimata -Dahibari,BCCL,Jharkhand,jharia,0.5,yes,M1656,Basantimata Coal Mine,Operating,Jharkhand,1,100.0,38.4,pass,name+state+60km,
+bccl-moonidih,Moonidih,BCCL,Jharkhand,jharia,0.39,yes,M2881,Moonidih Coal Mine,Operating,Jharkhand,1,100.0,3.5,pass,name+state+60km,
+ccl-bhurkunda,Bhurkunda,CCL,Jharkhand,s_karanpura,0.0,yes,M1664,Bhurkunda Coal Mine,Operating,Jharkhand,2,100.0,3.6,pass,name+state+60km,
+ccl-bhurkunda-sangum,Bhurkunda (Sangum),CCL,Jharkhand,s_karanpura,0.7,yes,M1664,Bhurkunda Coal Mine,Operating,Jharkhand,2,100.0,3.6,pass,name+state+60km,
+ccl-central-saunda,Central Saunda,CCL,Jharkhand,s_karanpura,0.0,no,,,,Chhattisgarh,,100.0,320.2,fail,none,closest M1753 Vijay Coal Mine: state Chhattisgarh; 320 km from centroid
+ccl-saunda-ncdc,Saunda (Ncdc),CCL,Jharkhand,s_karanpura,0.0,no,,,,Jharkhand,,85.7,0.8,pass,none,closest M2588 Saunda-D Coal Mine: name score 86 < 88
+ccl-sayal-d,Sayal `D',CCL,Jharkhand,s_karanpura,1.2,no,,,,Jharkhand,,83.3,0.8,pass,none,closest M2588 Saunda-D Coal Mine: name score 83 < 88
+ccl-urimari-ug,Urimari,CCL,Jharkhand,s_karanpura,0.0,yes,M2599,Urimari Underground Coal Mine,Mothballed,Jharkhand,2,100.0,4.9,pass,name+state+60km,3 tied
+ccl-urimari-oc,Urimari,CCL,Jharkhand,s_karanpura,1.78,yes,M2599,Urimari Underground Coal Mine,Mothballed,Jharkhand,2,100.0,4.9,pass,name+state+60km,3 tied
+ccl-north-urimari-birsa-oc,North Urimari/Birsa-OC,CCL,Jharkhand,s_karanpura,5.06,yes,M0595,North Urimari Birsa Coal Mine,Operating,Jharkhand,1,100.0,5.9,pass,name+state+60km,
+ccl-gidi-a,Gidi `A',CCL,Jharkhand,s_karanpura,0.45,yes,M2717,Gidi - A Open Cast Coal Mine,Operating,Jharkhand,1,100.0,4.6,pass,name+state+60km,
+ccl-gidi-c,Gidi `C',CCL,Jharkhand,s_karanpura,0.6,yes,M2862,Gidi - C Open Cast Coal Mine,Mothballed,Jharkhand,1,100.0,4.7,pass,name+state+60km,
+ccl-religara,Religara,CCL,Jharkhand,s_karanpura,0.4,yes,M0622,Religara Coal Mine,Operating,Jharkhand,1,100.0,32.2,pass,name+state+60km,
+ccl-sirka,Sirka,CCL,Jharkhand,s_karanpura,0.81,yes,M2543,Sirka Coal Mine,Operating,Jharkhand,1,100.0,4.3,pass,name+state+60km,
+ccl-manki-churi,Manki/Churi,CCL,Jharkhand,n_karanpura,0.61,yes,M2873,Churi Coal Mine,Operating,Jharkhand,1,100.0,22.2,pass,name+state+60km,
+ccl-dakra-bukbuka,Dakra Bukbuka,CCL,Jharkhand,n_karanpura,0.45,yes,M2877,Dakra Bukbuka Coal Mine,Operating,Jharkhand,1,100.0,23.0,pass,name+state+60km,
+ccl-k-dewarkhand,K. Dewarkhand,CCL,Jharkhand,n_karanpura,0.9,yes,M2890,K. D. H. Coal Mine,Operating,Jharkhand,1,90.9,23.0,pass,name+state+60km,
+ccl-purnadih,Purnadih,CCL,Jharkhand,n_karanpura,0.15,yes,M0611,Purnadih Coal Mine,Operating,Jharkhand,1,100.0,18.0,pass,name+state+60km,
+ccl-rohini,Rohini,CCL,Jharkhand,n_karanpura,0.29,yes,M0623,Rohini Coal Mine,Operating,Jharkhand,1,100.0,20.6,pass,name+state+60km,2 tied
+ccl-rajhara,Rajhara,CCL,Jharkhand,daltonganj,0.01,yes,M2597,Rajhara Coal Mine,Mothballed,Jharkhand,1,100.0,15.9,pass,name+state+60km,
+ccl-tetaria-khar,Tetaria Khar,CCL,Jharkhand,n_karanpura,1.1,yes,M0642,Tetariakhar Coal Mine,Operating,Jharkhand,1,100.0,17.9,pass,name+state+60km,
+ccl-ashoka,Ashoka,CCL,Jharkhand,n_karanpura,7.57,yes,M0477,Ashoka Coal Mine,Operating,Jharkhand,1,100.0,17.2,pass,name+state+60km,
+ccl-magadh-ocp,Magadh OCP,CCL,Jharkhand,n_karanpura,20.0,yes,M0475,Amrapali Coal Mine,Operating,Jharkhand,2,100.0,3.1,pass,name+state+60km,3 tied
+ccl-amrapali-ocp,Amrapali OCP,CCL,Jharkhand,n_karanpura,16.46,yes,M0475,Amrapali Coal Mine,Operating,Jharkhand,2,100.0,3.1,pass,name+state+60km,3 tied
+ccl-rajrappa-project,Rajrappa Project,CCL,Jharkhand,ramgarh,1.2,yes,M1722,Rajrappa Coal Mine,Operating,Jharkhand,1,100.0,10.4,pass,name+state+60km,
+ccl-sarubera,Sarubera,CCL,Jharkhand,ramgarh,0.0,yes,M2600,Sarubera Coal Mine,Mothballed,Jharkhand,2,100.0,10.4,pass,name+state+60km,
+ccl-chainpur-sarubera-colly,Chainpur(Sarubera) Colly.,CCL,Jharkhand,ramgarh,0.19,yes,M2600,Sarubera Coal Mine,Mothballed,Jharkhand,2,100.0,10.4,pass,name+state+60km,
+ccl-ara-reorganisation,ARA Reorganisation,CCL,Jharkhand,ramgarh,0.0,no,,,,Madhya Pradesh,,58.8,375.3,fail,none,closest M1662 Bhadra Coal Mine: name score 59 < 88; state Madhya Pradesh; 375 km from centroid
+ccl-kuju-colliery,Kuju Colliery,CCL,Jharkhand,ramgarh,0.0,yes,M2874,Karma Coal Mine,Operating,Jharkhand,2,100.0,3.7,pass,name+state+60km,5 tied
+ccl-topa-marginal-scheme,Topa Marginal Scheme,CCL,Jharkhand,ramgarh,1.0,yes,M1367,Topa Coal Mine,Operating,Jharkhand,1,100.0,16.3,pass,name+state+60km,
+ccl-pindra-colliery,Pindra Colliery,CCL,Jharkhand,ramgarh,0.0,no,,,,Chhattisgarh,,62.5,292.3,fail,none,closest M1718 Pandavpara Coal Mine: name score 62 < 88; state Chhattisgarh; 292 km from centroid
+ccl-pundi,Pundi,CCL,Jharkhand,w_bokaro,0.0,yes,M2622,Pundi Coal Mine,Mothballed,Jharkhand,1,100.0,2.6,pass,name+state+60km,
+ccl-karma,Karma,CCL,Jharkhand,w_bokaro,0.82,yes,M2874,Karma Coal Mine,Operating,Jharkhand,2,100.0,17.3,pass,name+state+60km,
+ccl-parej-east-ocp,Parej East OCP,CCL,Jharkhand,w_bokaro,0.3,yes,M2888,Parej East Coal Mine,Operating,Jharkhand,1,100.0,6.7,pass,name+state+60km,
+ccl-kedla-ug,Kedla UG,CCL,Jharkhand,w_bokaro,0.0,yes,M1545,Kedla Coal Mine,Mothballed,Jharkhand,2,100.0,40.0,pass,name+state+60km,
+ccl-kedla-oc,Kedla (OC),CCL,Jharkhand,w_bokaro,0.07,yes,M1545,Kedla Coal Mine,Mothballed,Jharkhand,2,100.0,40.0,pass,name+state+60km,
+ccl-tapin-north,Tapin North,CCL,Jharkhand,w_bokaro,1.5,yes,M2875,Tapin Coal Mine,Operating,Jharkhand,1,100.0,6.7,pass,name+state+60km,
+ccl-tapin-south,Tapin South,CCL,Jharkhand,w_bokaro,0.27,yes,M2834,Tapin South Coal Mine,Operating,Jharkhand,1,100.0,6.0,pass,name+state+60km,2 tied
+ccl-jharkhand-ocp,Jharkhand OCP,CCL,Jharkhand,w_bokaro,0.24,yes,M2962,Jharkhand Coal Mine,Operating,Jharkhand,1,100.0,6.7,pass,name+state+60km,
+ccl-laiyo-ugp,Laiyo UGP,CCL,Jharkhand,w_bokaro,0.0,no,,,,Jharkhand,,50.0,10.5,pass,none,closest M2600 Sarubera Coal Mine: name score 50 < 88
+ccl-bokaro-oc-bermo,Bokaro OC (Bermo),CCL,Jharkhand,e_bokaro,0.08,yes,M2792,Bokaro Opencast Coal Mine,Operating,Jharkhand,2,100.0,2.7,pass,name+state+60km,
+ccl-kargali-oc,Kargali OC,CCL,Jharkhand,e_bokaro,0.0,yes,M2792,Bokaro Opencast Coal Mine,Operating,Jharkhand,2,100.0,2.7,pass,name+state+60km,4 tied
+ccl-karo-i-oc,Karo-I OC,CCL,Jharkhand,e_bokaro,3.17,yes,M0555,Karo Coal Mine,Operating,Jharkhand,2,100.0,2.4,pass,name+state+60km,
+ccl-akk-ocp,AKK OCP,CCL,Jharkhand,e_bokaro,5.11,yes,M0466,AKK Coal Mine,Operating,Jharkhand,1,100.0,3.1,pass,name+state+60km,
+ccl-karo-spl-ug,KARO SPL.UG,CCL,Jharkhand,e_bokaro,0.0,yes,M0555,Karo Coal Mine,Operating,Jharkhand,2,100.0,2.4,pass,name+state+60km,
+ccl-kabribad-oc,Kabribad OC,CCL,Jharkhand,giridih,0.6,yes,M2550,Kabribad Coal Mine,Operating,Jharkhand,1,100.0,3.6,pass,name+state+60km,2 tied
+ccl-giridih-oc,Giridih OC,CCL,Jharkhand,giridih,0.0,yes,M2729,Giridih Coal Mine,Mothballed,Jharkhand,1,100.0,5.0,pass,name+state+60km,
+ccl-aadocm,Aadocm,CCL,Jharkhand,e_bokaro,2.97,yes,M2505,Amalgamated Amlo Dhori Open Cast Mine,Operating,Jharkhand,1,100.0,4.5,pass,name+state+60km,
+ccl-sd-oc-mine,SD OC Mine,CCL,Jharkhand,e_bokaro,1.53,no,,,,West Bengal,,50.0,129.1,fail,none,closest M2701 Siduli Coal Mine: name score 50 < 88; state West Bengal; 129 km from centroid
+ccl-tarmi,Tarmi,CCL,Jharkhand,e_bokaro,0.0,no,,,,Jharkhand,,66.7,78.2,pass,none,closest M1654 Barmuri Coal Mine: name score 67 < 88; 78 km from centroid
+ccl-dhori-khas-ug,Dhori Khas(UG),CCL,Jharkhand,e_bokaro,0.11,yes,M2707,Dhori- Khas Coal Mine,Operating,Jharkhand,1,100.0,6.5,pass,name+state+60km,
+ccl-kathara-colly,Kathara Colly.,CCL,Jharkhand,ramgarh,1.15,yes,M1365,Govindpur Coal Mine,Operating,Jharkhand,3,100.0,35.6,pass,name+state+60km,3 tied
+ccl-jarangdih-oc,Jarangdih OC.,CCL,Jharkhand,e_bokaro,0.8,yes,M2919,Jarangdih Coal Mine,Operating,Jharkhand,1,100.0,4.2,pass,name+state+60km,
+ccl-govindpur-ph-ii-ocp,Govindpur Ph-II OCP,CCL,Jharkhand,e_bokaro,0.8,yes,M1365,Govindpur Coal Mine,Operating,Jharkhand,3,100.0,8.6,pass,name+state+60km,
+ccl-govindpur,Govindpur,CCL,Jharkhand,e_bokaro,0.0,yes,M1365,Govindpur Coal Mine,Operating,Jharkhand,3,100.0,8.6,pass,name+state+60km,2 tied
+ncl-amlohri,Amlohri,NCL,Madhya Pradesh,singrauli,15.0,yes,M0474,Amlohri Coal Mine,Operating,Madhya Pradesh,1,100.0,2.8,pass,name+state+60km,
+ncl-bina-extn,Bina Extn,NCL,Uttar Pradesh,singrauli,10.5,no,,,,Madhya Pradesh,,100.0,13.0,fail,none,closest M0488 Bina Coal Mine: state Madhya Pradesh
+ncl-dudhichua-project,Dudhichua Project,NCL,Uttar Pradesh,singrauli,25.0,yes,M0514,Dudhichua Coal Mine,Operating,Uttar Pradesh,1,100.0,6.0,pass,name+state+60km,
+ncl-jayant-project,Jayant Project,NCL,Madhya Pradesh,singrauli,30.0,yes,M0542,Jayant Coal Mine,Operating,Madhya Pradesh,1,100.0,4.1,pass,name+state+60km,
+ncl-jhingurda-project,Jhingurda Project,NCL,Madhya Pradesh,singrauli,4.0,yes,M0545,Jhingurda Coal Mine,Operating,Madhya Pradesh,1,100.0,11.3,pass,name+state+60km,
+ncl-kakri-project,Kakri Project,NCL,Uttar Pradesh,singrauli,1.0,yes,M6764,Bina-Kakri Amalgamation OCP,Proposed,Uttar Pradesh,1,100.0,4.7,pass,name+state+60km,2 tied
+ncl-khadia-project,Khadia Project,NCL,Uttar Pradesh,singrauli,15.0,yes,M0556,Khadia Coal Mine,Operating,Uttar Pradesh,1,100.0,9.6,pass,name+state+60km,
+ncl-nigahi-project,Nigahi Project,NCL,Madhya Pradesh,singrauli,25.0,yes,M0591,Nigahi Coal Mine,Operating,Madhya Pradesh,1,100.0,2.2,pass,name+state+60km,
+ncl-krishnshila-ocp,Krishnshila OCP,NCL,Uttar Pradesh,singrauli,7.5,yes,M0562,Krishnashila Coal Mine,Operating,Uttar Pradesh,1,95.7,12.6,pass,name+state+60km,
+ncl-block-b-project,Block-B Project,NCL,Madhya Pradesh,singrauli,7.5,yes,M0490,Block-B Coal Mine,Operating,Madhya Pradesh,1,100.0,7.2,pass,name+state+60km,
+wcl-hindustan-lalpeth-colliery-no-1,Hindustan Lalpeth Colliery No.1,WCL,Maharashtra,chandrapur,0.0,no,,,,Odisha,,51.3,605.7,fail,none,closest M0533 Hingula-II Coal Mine: name score 51 < 88; state Odisha; 606 km from centroid
+wcl-manna-incline,Manna Incline,WCL,Maharashtra,chandrapur,0.0,yes,M2708,Ballarpur UG Coal Mine,Operating,Maharashtra,3,88.9,15.0,pass,name+state+60km,
+wcl-nandgaon-incline,Nandgaon Incline,WCL,Maharashtra,chandrapur,0.06,yes,M2690,Nandgaon Incline Coal Mine,Mothballed,Maharashtra,1,100.0,7.2,pass,name+state+60km,2 tied
+wcl-durgapur-rayatwari-colly,Durgapur Rayatwari Colly,WCL,Maharashtra,chandrapur,0.07,yes,M2752,D. Rayatwari Coal Mine,Operating,Maharashtra,2,100.0,1.6,pass,name+state+60km,2 tied
+wcl-mahakali-colliery,Mahakali Colliery,WCL,Maharashtra,chandrapur,0.0,no,,,,Jharkhand,,62.5,731.8,fail,none,closest M0475 Amrapali Coal Mine: name score 62 < 88; state Jharkhand; 732 km from centroid
+wcl-hindustan-lalpeth-oc,Hindustan Lalpeth OC,WCL,Maharashtra,chandrapur,1.0,no,,,,Jharkhand,,50.0,905.5,fail,none,closest M0495 Chitra East Coal Mine: name score 50 < 88; state Jharkhand; 905 km from centroid
+wcl-durgapur-open-cast,Durgapur Open Cast,WCL,Maharashtra,chandrapur,0.57,yes,M0517,Durgapur Coal Mine,Operating,Maharashtra,1,100.0,4.2,pass,name+state+60km,
+wcl-bhatadi-oc-mine,Bhatadi OC Mine,WCL,Maharashtra,chandrapur,1.25,yes,M0485,Bhatadi Coal Mine,Operating,Maharashtra,1,100.0,10.3,pass,name+state+60km,
+wcl-chanda-rayatwari-colliery,Chanda Rayatwari Colliery,WCL,Maharashtra,chandrapur,0.0,yes,M2752,D. Rayatwari Coal Mine,Operating,Maharashtra,2,90.0,1.6,pass,name+state+60km,
+wcl-ballarpur-3-4-pits,Ballarpur 3 & 4 Pits,WCL,Maharashtra,ballarpur,0.07,yes,M2708,Ballarpur UG Coal Mine,Operating,Maharashtra,3,100.0,5.6,pass,name+state+60km,2 tied
+wcl-dhoptala-oc-sasti-colliery,Dhoptala OC (Sasti Colliery),WCL,Maharashtra,ballarpur,1.74,yes,M4432,Dhuptala Coal Mine,Operating,Maharashtra,1,100.0,6.4,pass,name+state+60km,3 tied
+wcl-ballarpur-ocm,Ballarpur OCM,WCL,Maharashtra,ballarpur,0.62,yes,M2708,Ballarpur UG Coal Mine,Operating,Maharashtra,3,100.0,5.6,pass,name+state+60km,2 tied
+wcl-sasti-expn-ocm,Sasti Expn. OCM,WCL,Maharashtra,ballarpur,1.95,yes,M2718,Sasti UG Coal Mine,Mothballed,Maharashtra,1,100.0,6.8,pass,name+state+60km,2 tied
+wcl-gouri-pauni-a-ocm-paoni-ii-ocm,Gouri -Pauni(A) OCM + Paoni II OCM,WCL,Maharashtra,ballarpur,4.37,yes,M2918,Paoni Coal Mine,Mothballed,Maharashtra,1,100.0,13.7,pass,name+state+60km,
+wcl-gouri-deep,Gouri Deep,WCL,Maharashtra,ballarpur,0.6,yes,M2892,Gouri Deep Coal Mine,Operating,Maharashtra,1,100.0,13.1,pass,name+state+60km,
+wcl-new-majri-ug-to-oc-expn,New Majri UG to OC Expn.,WCL,Maharashtra,wani,3.25,yes,M0585,New Majri Coal Mine,Operating,Maharashtra,1,100.0,9.6,pass,name+state+60km,2 tied
+wcl-new-majri-i-a-ii-extn-a-oc,New Majri - I(A) & II Extn. (A) OC,WCL,Maharashtra,wani,0.0,yes,M1717,New Majri II A Coal Mine,Operating,Maharashtra,1,100.0,9.6,pass,name+state+60km,3 tied
+wcl-amalgamated-yekona-i-ii,Amalgamated Yekona I & II,WCL,Maharashtra,wani,3.85,yes,M0469,Amalgamated Yekona I and II Coal Mines,Operating,Maharashtra,1,100.0,16.9,pass,name+state+60km,
+wcl-naigaon-ocm,Naigaon OCM,WCL,Maharashtra,wani,1.25,yes,M1661,Bellora-Naigaon Coal Mine,Operating,Maharashtra,1,100.0,18.5,pass,name+state+60km,
+wcl-neelijay-ocm,Neelijay OCM,WCL,Maharashtra,wani,4.5,no,,,,Chhattisgarh,,61.5,465.6,fail,none,closest M1753 Vijay Coal Mine: name score 62 < 88; state Chhattisgarh; 466 km from centroid
+wcl-mungoli-ocm,Mungoli OCM,WCL,Maharashtra,wani,5.25,yes,M0581,Mungoli Nirguda Coal Mine,Operating,Maharashtra,1,100.0,27.0,pass,name+state+60km,
+wcl-kolgaon-oc,Kolgaon OC,WCL,Maharashtra,wani,0.6,no,,,,Maharashtra,,100.0,144.6,pass,none,closest M2589 Kolgaon Coal Mine: 145 km from centroid
+wcl-penganga-oc,Penganga OC,WCL,Maharashtra,wani,1.71,yes,M0606,Penganga Coal Mine,Operating,Maharashtra,1,100.0,31.3,pass,name+state+60km,
+wcl-rajur-ug,Rajur UG,WCL,Maharashtra,wani,0.04,yes,M2793,Rajur-Bhandewada Coal Mine,Operating,Maharashtra,1,100.0,6.8,pass,name+state+60km,
+wcl-ukni-oc,Ukni OC,WCL,Maharashtra,wani,3.11,yes,M0645,Ukni Deep Coal Mine,Operating,Maharashtra,1,100.0,14.0,pass,name+state+60km,
+wcl-pimpalgaon,Pimpalgaon,WCL,Maharashtra,wani,0.0,no,,,,Chhattisgarh,,70.6,447.1,fail,none,closest M1640 Amgaon Coal Mine: name score 71 < 88; state Chhattisgarh; 447 km from centroid
+wcl-kolarpimpri,Kolarpimpri,WCL,Maharashtra,wani,1.5,yes,M2912,Kolarpimpri Coal Mine,Operating,Maharashtra,1,100.0,8.7,pass,name+state+60km,
+wcl-junad,Junad,WCL,Maharashtra,wani,0.27,yes,M1690,Junad Coal Mine,Operating,Maharashtra,1,100.0,11.0,pass,name+state+60km,
+wcl-ghonsa,Ghonsa,WCL,Maharashtra,wani,0.6,yes,M2893,Ghonsa Coal Mine,Operating,Maharashtra,1,100.0,17.7,pass,name+state+60km,
+wcl-silewara-colliery,Silewara Colliery,WCL,Maharashtra,nagpur,0.07,yes,M2723,Silewara Colliery,Operating,Maharashtra,1,100.0,10.7,pass,name+state+60km,
+wcl-patansaongi-colliery,Patansaongi Colliery,WCL,Maharashtra,nagpur,0.05,yes,M2667,Patansaongi Coal Mine,Operating,Maharashtra,1,100.0,3.6,pass,name+state+60km,
+wcl-saoner-mine-i,Saoner Mine-I,WCL,Maharashtra,nagpur,0.17,yes,M1731,Saoner Coal Mine,Operating,Maharashtra,3,100.0,11.3,pass,name+state+60km,
+wcl-saoner-mine-ii,Saoner Mine - II,WCL,Maharashtra,nagpur,0.16,yes,M1731,Saoner Coal Mine,Operating,Maharashtra,3,100.0,11.3,pass,name+state+60km,
+wcl-saoner-mine-iii,Saoner Mine - III,WCL,Maharashtra,nagpur,0.09,yes,M1731,Saoner Coal Mine,Operating,Maharashtra,3,100.0,11.3,pass,name+state+60km,
+wcl-adasa-ug-to-oc,Adasa (UG to OC),WCL,Maharashtra,nagpur,1.85,yes,M0464,Adasa Coal Mine,Operating,Maharashtra,1,100.0,8.6,pass,name+state+60km,
+wcl-amalgamated-inder-kamptee-ocm,Amalgamated Inder Kamptee OCM,WCL,Maharashtra,nagpur,3.42,yes,M4425,Amalgamated Inder Kamptee Coal Mine,Operating,Maharashtra,1,100.0,22.7,pass,name+state+60km,
+wcl-amalgamated-gondegaon-ghatrohana,Amalgamated Gondegaon Ghatrohana,WCL,Maharashtra,nagpur,3.5,yes,M0529,Gondegaon-Ghatrohana Coal Mine,Operating,Maharashtra,1,100.0,18.3,pass,name+state+60km,
+wcl-bhanegaon-ocm,Bhanegaon OCM,WCL,Maharashtra,nagpur,1.15,yes,M2910,Bhanegaon Coal Mine,Operating,Maharashtra,1,100.0,14.7,pass,name+state+60km,
+wcl-singori-oc,Singori OC,WCL,Maharashtra,nagpur,1.2,yes,M0633,Singhori Coal Mine,Operating,Maharashtra,1,100.0,11.4,pass,name+state+60km,
+wcl-makardhokra-iii-oc-mine,Makardhokra-III OC MINE,WCL,Maharashtra,umrer,4.5,yes,M0571,Dinesh (Makardhokra-III) Coal Mine,Operating,Maharashtra,1,100.0,11.4,pass,name+state+60km,
+wcl-umrer-oc-mine,Umrer OC Mine,WCL,Maharashtra,umrer,0.0,yes,M0647,Umrer Coal Mine,Operating,Maharashtra,1,100.0,6.1,pass,name+state+60km,2 tied
+wcl-makardhokra-i-oc-expansion-mine,Makardhokra-I OC Expansion Mine,WCL,Maharashtra,umrer,4.2,yes,M1708,Makardhokra I Coal Mine,Operating,Maharashtra,1,100.0,4.9,pass,name+state+60km,
+wcl-gokul-oc-mine-gokul-extn,Gokul OC Mine + Gokul Extn.,WCL,Maharashtra,umrer,1.88,yes,M0528,Gokul Coal Mine,Operating,Maharashtra,1,100.0,20.3,pass,name+state+60km,
+wcl-murpar-ug,Murpar UG,WCL,Maharashtra,umrer,0.0,no,,,,Maharashtra,,57.1,93.7,pass,none,closest M0517 Durgapur Coal Mine: name score 57 < 88; 94 km from centroid
+wcl-tawa-mine,Tawa Mine,WCL,Madhya Pradesh,pathakhera,0.24,yes,M1747,Tawa Coal Mine,Operating,Madhya Pradesh,2,100.0,22.8,pass,name+state+60km,
+wcl-tawa-ii,Tawa-II,WCL,Madhya Pradesh,pathakhera,0.32,yes,M1747,Tawa Coal Mine,Operating,Madhya Pradesh,2,100.0,22.8,pass,name+state+60km,
+wcl-chhatarpur-1,Chhatarpur 1,WCL,Madhya Pradesh,pathakhera,0.49,yes,M2849,Chhatarpur-I Coal Mine,Operating,Madhya Pradesh,1,91.7,15.8,pass,name+state+60km,
+wcl-chhatarpur-ii,Chhatarpur -II,WCL,Madhya Pradesh,pathakhera,0.0,yes,M2689,Chhatarpur-II Coal Mine,Mothballed,Madhya Pradesh,1,100.0,15.6,pass,name+state+60km,
+wcl-mahadeopuri,Mahadeopuri,WCL,Madhya Pradesh,pench,0.05,yes,M2709,Mahadevpuri Coal Mine,Operating,Madhya Pradesh,1,100.0,3.3,pass,name+state+60km,
+wcl-nehariya,Nehariya,WCL,Madhya Pradesh,pench,0.2,yes,M2842,Naheriya Coal Mine,Operating,Madhya Pradesh,1,100.0,23.1,pass,name+state+60km,
+wcl-vishnupuri-ii,Vishnupuri-II,WCL,Madhya Pradesh,pench,0.07,yes,M2705,Vishnupuri Coal Mine,Proposed,Madhya Pradesh,1,100.0,7.2,pass,name+state+60km,
+wcl-mathani,Mathani,WCL,Madhya Pradesh,pench,0.0,no,,,,West Bengal,,85.7,845.5,fail,none,closest M2636 Methani Coal Mine: name score 86 < 88; state West Bengal; 846 km from centroid
+wcl-dhankasa-jamunia,Dhankasa & Jamunia,WCL,Madhya Pradesh,pench,0.12,yes,M2992,Dhankasa Coal Mine,Operating,Madhya Pradesh,1,100.0,23.5,pass,name+state+60km,
+wcl-new-sethia,New Sethia,WCL,Madhya Pradesh,pench,0.0,yes,M2856,New Sethia Coal Mine,Mothballed,Madhya Pradesh,1,100.0,6.7,pass,name+state+60km,
+wcl-chhinda,Chhinda,WCL,Madhya Pradesh,pench,0.25,yes,M1670,Chhinda Coal Mine,Operating,Madhya Pradesh,1,100.0,6.7,pass,name+state+60km,
+wcl-urdhan,Urdhan,WCL,Madhya Pradesh,pench,0.7,yes,M2544,Urdhan Coal Mine,Mothballed,Madhya Pradesh,1,100.0,20.2,pass,name+state+60km,
+wcl-mohan-mohan-oc,Mohan (Mohan OC),WCL,Madhya Pradesh,pench,0.0,yes,M2868,Mohan Coal Mine,Mothballed,Madhya Pradesh,2,100.0,12.6,pass,name+state+60km,
+wcl-mohan-mohan-ug,Mohan (Mohan UG),WCL,Madhya Pradesh,pench,0.0,yes,M2868,Mohan Coal Mine,Mothballed,Madhya Pradesh,2,100.0,12.6,pass,name+state+60km,
+wcl-tandsi,Tandsi,WCL,Madhya Pradesh,pench,0.0,yes,M2773,Tandsi Coal Mine,Operating,Madhya Pradesh,1,100.0,49.2,pass,name+state+60km,
+wcl-sharda-ug,Sharda UG,WCL,Madhya Pradesh,pench,0.16,no,,,,Madhya Pradesh,,100.0,308.6,pass,none,closest M1734 Sharda Coal Mine: 309 km from centroid
+secl-bangwar,Bangwar,SECL,Madhya Pradesh,sohagpur,0.65,yes,M1649,Bangwar Coal Mine,Operating,Madhya Pradesh,1,100.0,8.9,pass,name+state+60km,
+secl-rajendra,Rajendra,SECL,Madhya Pradesh,sohagpur,0.26,yes,M1698,Karkati Coal Mine,Mothballed,Madhya Pradesh,1,100.0,14.3,pass,name+state+60km,
+secl-sharda-highwall,Sharda Highwall,SECL,Madhya Pradesh,sohagpur,0.34,yes,M1734,Sharda Coal Mine,Operating,Madhya Pradesh,1,100.0,4.4,pass,name+state+60km,
+secl-dhanpuri,Dhanpuri,SECL,Madhya Pradesh,sohagpur,0.15,no,,,,Jharkhand,,75.0,405.4,fail,none,closest M2600 Sarubera Coal Mine: name score 75 < 88; state Jharkhand; 405 km from centroid
+secl-amlai-oc,Amlai OC,SECL,Madhya Pradesh,sohagpur,0.91,yes,M0472,Amlai Coal Mine,Operating,Madhya Pradesh,1,100.0,2.8,pass,name+state+60km,
+secl-damini,Damini,SECL,Madhya Pradesh,sohagpur,0.18,yes,M1673,Damini Coal Mine,Operating,Madhya Pradesh,1,100.0,15.9,pass,name+state+60km,
+secl-khairaha,Khairaha,SECL,Madhya Pradesh,sohagpur,1.07,yes,M1703,Khairaha Coal Mine,Operating,Madhya Pradesh,1,100.0,16.4,pass,name+state+60km,
+secl-rampur-batura,Rampur Batura,SECL,Madhya Pradesh,sohagpur,2.0,yes,M0482,Batura Coal Mine,Operating,Madhya Pradesh,1,100.0,3.9,pass,name+state+60km,
+secl-nowrozabad-w,Nowrozabad (W),SECL,Madhya Pradesh,johilla,0.04,yes,M1715,Nawrozabad Coal Mine,Operating,Madhya Pradesh,1,100.0,12.9,pass,name+state+60km,
+secl-pali,Pali,SECL,Madhya Pradesh,johilla,0.04,yes,M2731,Pali Coal Mine,Operating,Madhya Pradesh,1,100.0,21.5,pass,name+state+60km,
+secl-umaria,Umaria,SECL,Madhya Pradesh,johilla,0.09,yes,M1750,Umaria Coal Mine,Operating,Madhya Pradesh,1,100.0,9.0,pass,name+state+60km,
+secl-piparia,Piparia,SECL,Madhya Pradesh,johilla,0.07,yes,M2666,Piparia Coal Mine,Operating,Madhya Pradesh,1,100.0,7.3,pass,name+state+60km,
+secl-vindhya,Vindhya,SECL,Madhya Pradesh,johilla,0.05,yes,M1754,Vindhya Coal Mine,Operating,Madhya Pradesh,1,100.0,12.7,pass,name+state+60km,
+secl-kanchan-oc,Kanchan OC,SECL,Madhya Pradesh,sohagpur,1.4,no,,,,Madhya Pradesh,,100.0,78.7,pass,none,closest M1697 Kanchan Coal Mine: 79 km from centroid
+secl-jamuna-9-10,Jamuna 9 & 10,SECL,Madhya Pradesh,sohagpur,0.1,yes,M1684,Jamuna UG Coal Mine,Mothballed,Madhya Pradesh,1,100.0,33.0,pass,name+state+60km,
+secl-meera,Meera,SECL,Madhya Pradesh,sohagpur,0.01,yes,M1711,Meera Coal Mine,Operating,Madhya Pradesh,1,100.0,37.5,pass,name+state+60km,
+secl-bhadra,Bhadra,SECL,Madhya Pradesh,sohagpur,0.06,yes,M1662,Bhadra Coal Mine,Operating,Madhya Pradesh,1,100.0,31.9,pass,name+state+60km,
+secl-bartarai,Bartarai,SECL,Madhya Pradesh,sohagpur,0.1,yes,M1655,Bartarai Coal Mine,Operating,Madhya Pradesh,1,100.0,45.8,pass,name+state+60km,
+secl-amadand,Amadand,SECL,Madhya Pradesh,sohagpur,4.0,yes,M0467,Amadand Coal Mine,Operating,Madhya Pradesh,1,100.0,45.2,pass,name+state+60km,2 tied
+secl-west-jhagrakhand,West Jhagrakhand,SECL,Chhattisgarh,chirimiri,0.02,yes,M1755,West Jhagrakhand Coal Mine,Operating,Chhattisgarh,1,100.0,20.3,pass,name+state+60km,2 tied
+secl-haldibari,Haldibari,SECL,Chhattisgarh,chirimiri,0.61,yes,M1680,Haldibari Coal Mine,Operating,Chhattisgarh,1,100.0,21.7,pass,name+state+60km,
+secl-rajnagar-ro,Rajnagar RO,SECL,Madhya Pradesh,sohagpur,0.12,yes,M1721,Rajnagar Coal Mine,Operating,Madhya Pradesh,2,100.0,51.6,pass,name+state+60km,
+secl-jhiria,Jhiria,SECL,Madhya Pradesh,sohagpur,0.16,yes,M1688,Jhiria West Coal Mine,Proposed,Madhya Pradesh,1,100.0,49.2,pass,name+state+60km,
+secl-bijuri,Bijuri,SECL,Madhya Pradesh,sohagpur,0.05,yes,M1666,Bijuri Coal Mine,Operating,Madhya Pradesh,1,100.0,52.1,pass,name+state+60km,
+secl-behraband,Behraband,SECL,Madhya Pradesh,sohagpur,0.6,yes,M1659,Behraband Coal Mine,Operating,Madhya Pradesh,1,100.0,49.7,pass,name+state+60km,
+secl-kurja-sheetaldhara,Kurja/Sheetaldhara,SECL,Madhya Pradesh,sohagpur,0.8,yes,M1735,Sheetaldhara-Kurja and Kapidhara Coal Mines,Operating,Madhya Pradesh,1,100.0,50.7,pass,name+state+60km,
+secl-rajnagar,Rajnagar,SECL,Madhya Pradesh,sohagpur,0.55,yes,M1721,Rajnagar Coal Mine,Operating,Madhya Pradesh,2,100.0,51.6,pass,name+state+60km,
+secl-n-c-p-h-colliery-new,N.C.P.H. Colliery (NEW),SECL,Chhattisgarh,chirimiri,0.19,no,,,,Madhya Pradesh,,50.0,78.2,fail,none,closest M0472 Amlai Coal Mine: name score 50 < 88; state Madhya Pradesh; 78 km from centroid
+secl-raniatari,Raniatari,SECL,Chhattisgarh,hasdeo,0.44,yes,M1725,Rani Atari Coal Mine,Operating,Chhattisgarh,1,100.0,33.0,pass,name+state+60km,
+secl-kurasia-ug,Kurasia UG,SECL,Chhattisgarh,chirimiri,0.18,yes,M1705,Kurasia Coal Mine,Operating,Chhattisgarh,1,100.0,2.5,pass,name+state+60km,
+secl-chirimiri,Chirimiri,SECL,Chhattisgarh,chirimiri,1.19,yes,M0494,Chirimiri Coal Mine,Operating,Chhattisgarh,1,100.0,3.0,pass,name+state+60km,
+secl-vijay-west,Vijay West,SECL,Chhattisgarh,hasdeo,0.65,yes,M1753,Vijay Coal Mine,Operating,Chhattisgarh,1,100.0,32.0,pass,name+state+60km,
+secl-churcha-ro,Churcha RO,SECL,Chhattisgarh,hasdeo,1.42,yes,M1672,Churcha RO Coal Mine,Operating,Chhattisgarh,1,100.0,31.9,pass,name+state+60km,
+secl-katkona-1-2,Katkona 1 & 2,SECL,Chhattisgarh,hasdeo,0.23,yes,M1701,Katkona Coal Mine,Operating,Chhattisgarh,1,100.0,37.0,pass,name+state+60km,
+secl-pandavpara-colliery,Pandavpara Colliery,SECL,Chhattisgarh,hasdeo,0.45,yes,M1718,Pandavpara Coal Mine,Operating,Chhattisgarh,1,100.0,38.1,pass,name+state+60km,
+secl-jhilimili-colliery,Jhilimili Colliery,SECL,Chhattisgarh,hasdeo,0.47,yes,M1687,Jhilmili Coal Mine,Operating,Chhattisgarh,1,100.0,38.1,pass,name+state+60km,
+secl-kumda-7-8,Kumda 7 & 8,SECL,Chhattisgarh,bisrampur,0.0,yes,M2687,Kumda 7&8 Coal Mine,Operating,Chhattisgarh,1,100.0,11.6,pass,name+state+60km,
+secl-balrampur,Balrampur,SECL,Chhattisgarh,bisrampur,0.02,yes,M1648,Balrampur Coal Mine,Operating,Chhattisgarh,1,100.0,12.8,pass,name+state+60km,
+secl-rehar,Rehar,SECL,Chhattisgarh,bisrampur,0.06,yes,M1730,Rehar Coal Mine,Operating,Chhattisgarh,1,100.0,18.4,pass,name+state+60km,
+secl-gayatri,Gayatri,SECL,Chhattisgarh,bisrampur,0.69,yes,M2812,Gayatri Coal Mine,Operating,Chhattisgarh,1,100.0,20.4,pass,name+state+60km,
+secl-amera,Amera,SECL,Chhattisgarh,bisrampur,0.4,yes,M1639,Amera Coal Mine,Operating,Chhattisgarh,1,100.0,10.7,pass,name+state+60km,
+secl-amgaon,Amgaon,SECL,Chhattisgarh,bisrampur,1.0,no,,,,Chhattisgarh,,100.0,144.1,pass,none,closest M1640 Amgaon Coal Mine: 144 km from centroid
+secl-ketki,Ketki,SECL,Chhattisgarh,bisrampur,0.4,yes,M1702,Ketki Coal Mine,Operating,Chhattisgarh,1,100.0,22.2,pass,name+state+60km,
+secl-bhatgaon,Bhatgaon,SECL,Chhattisgarh,bisrampur,0.11,yes,M1663,Bhatgaon Coal Mine,Operating,Chhattisgarh,1,100.0,26.9,pass,name+state+60km,
+secl-shivani,Shivani,SECL,Chhattisgarh,bisrampur,0.16,yes,M2833,Shiwani Coal Mine,Operating,Chhattisgarh,1,100.0,22.4,pass,name+state+60km,
+secl-navapara,Navapara,SECL,Chhattisgarh,bisrampur,0.0,yes,M1714,Nawapara Coal Mine,Operating,Chhattisgarh,1,100.0,24.1,pass,name+state+60km,
+secl-jaganathpur,Jaganathpur,SECL,Chhattisgarh,bisrampur,4.24,yes,M2697,Jagannathpur Coal Mine,Operating,Chhattisgarh,1,95.7,27.2,pass,name+state+60km,
+secl-manikpur,Manikpur,SECL,Chhattisgarh,korba,5.25,yes,M0574,Manikpur Coal Mine,Operating,Chhattisgarh,1,100.0,10.5,pass,name+state+60km,
+secl-dhelwadih-colliery,Dhelwadih Colliery,SECL,Chhattisgarh,korba,0.1,yes,M1674,Dhelwadih Coal Mine,Operating,Chhattisgarh,1,100.0,13.7,pass,name+state+60km,
+secl-singhali-colliery,Singhali Colliery,SECL,Chhattisgarh,korba,0.08,yes,M1739,Singhali Coal Mine,Operating,Chhattisgarh,1,100.0,11.4,pass,name+state+60km,
+secl-bagdeva,Bagdeva,SECL,Chhattisgarh,korba,0.13,yes,M1645,Bagdeva Coal Mine,Operating,Chhattisgarh,1,100.0,15.8,pass,name+state+60km,
+secl-saraipali,Saraipali,SECL,Chhattisgarh,korba,1.83,yes,M1732,Saraipali Coal Mine,Operating,Chhattisgarh,1,100.0,33.3,pass,name+state+60km,
+secl-gevra,Gevra,SECL,Chhattisgarh,korba,55.8,yes,M0527,Gevra Coal Mine,Operating,Chhattisgarh,1,100.0,7.8,pass,name+state+60km,
+secl-dipka,Dipka,SECL,Chhattisgarh,korba,37.5,yes,M0513,Dipka Coal Mine,Operating,Chhattisgarh,1,100.0,7.8,pass,name+state+60km,
+secl-kusmunda-project,Kusmunda Project,SECL,Chhattisgarh,korba,32.7,yes,M0564,Kusmunda Coal Mine,Operating,Chhattisgarh,1,100.0,5.2,pass,name+state+60km,
+secl-baroud-oc,Baroud OC,SECL,Chhattisgarh,mand,4.9,yes,M0479,Baroud Coal Mine,Operating,Chhattisgarh,1,100.0,24.3,pass,name+state+60km,
+secl-chhal-oc,Chhal OC,SECL,Chhattisgarh,mand,6.0,yes,M0493,Chhal Coal Mine,Operating,Chhattisgarh,1,100.0,25.3,pass,name+state+60km,
+secl-jampali,Jampali,SECL,Chhattisgarh,mand,3.0,yes,M0540,Jampali Coal Mine,Operating,Chhattisgarh,1,100.0,25.6,pass,name+state+60km,
+secl-bijari-oc,Bijari OC,SECL,Chhattisgarh,mand,2.25,yes,M0487,Bijari Coal Mine,Operating,Chhattisgarh,1,100.0,22.2,pass,name+state+60km,
+secl-gare-palma-iv-2-3,Gare Palma IV/2&3,SECL,Chhattisgarh,mand,0.0,yes,M4435,Gare Palma IV 2 & 3 OC Mine,Operating,Chhattisgarh,1,100.0,19.7,pass,name+state+60km,
+mcl-jagannath-re-org-ocp,Jagannath Re-org OCP,MCL,Odisha,talcher,5.14,yes,M0537,Jagannath Coal Mine,Operating,Odisha,1,100.0,3.2,pass,name+state+60km,
+mcl-ananta-ocp,Ananta OCP,MCL,Odisha,talcher,24.0,yes,M0476,Ananta Coal Mine,Operating,Odisha,1,100.0,3.0,pass,name+state+60km,
+mcl-bhubaneswari-ocp,Bhubaneswari OCP,MCL,Odisha,talcher,26.48,yes,M0486,Bhubaneswari Coal Mine,Operating,Odisha,1,100.0,1.4,pass,name+state+60km,
+mcl-bharatpur-ocp,Bharatpur OCP,MCL,Odisha,talcher,12.14,yes,M0484,Bharatpur Coal Mine,Operating,Odisha,1,100.0,4.5,pass,name+state+60km,
+mcl-lingaraj-ocp,Lingaraj OCP,MCL,Odisha,talcher,19.07,yes,M0567,Lingaraj Coal Mine,Operating,Odisha,1,100.0,3.4,pass,name+state+60km,
+mcl-kaniha-ocp,Kaniha OCP,MCL,Odisha,talcher,10.02,yes,M0552,Gopalji Kaniha Coal Mine,Operating,Odisha,1,100.0,16.9,pass,name+state+60km,
+mcl-balram-ocp,Balram OCP,MCL,Odisha,talcher,3.92,yes,M0478,Balaram Coal Mine,Operating,Odisha,1,100.0,1.2,pass,name+state+60km,
+mcl-hingula-ocp,Hingula OCP,MCL,Odisha,talcher,14.87,yes,M0533,Hingula-II Coal Mine,Operating,Odisha,1,100.0,16.0,pass,name+state+60km,
+mcl-nandira-colliery,Nandira Colliery,MCL,Odisha,talcher,0.01,yes,M2695,Nandira Coal Mine,Operating,Odisha,1,100.0,6.7,pass,name+state+60km,
+mcl-lajkura-ocp,Lajkura OCP,MCL,Odisha,ib_valley,4.5,yes,M0565,Lajkura Coal Mine,Operating,Odisha,1,100.0,12.1,pass,name+state+60km,
+mcl-samleswari-ocp,Samleswari OCP,MCL,Odisha,ib_valley,13.96,yes,M0626,Samleswari Coal Mine,Operating,Odisha,1,100.0,13.0,pass,name+state+60km,
+mcl-int-lakhanpur-belpahar-lilari-ocp,Int. Lakhanpur-Belpahar-Lilari OCP,MCL,Odisha,ib_valley,28.54,yes,M0535,"Integrated Belpahar, Lakhanpur, Lilari Coal Mine",Operating,Odisha,1,92.6,18.3,pass,name+state+60km,
+mcl-basundhara-west-ocp,Basundhara (West) OCP,MCL,Odisha,ib_valley,0.0,yes,M7240,Basundhara (West) Extension OCP,Proposed,Odisha,1,100.0,16.9,pass,name+state+60km,2 tied
+mcl-siarmal-ocp,Siarmal OCP,MCL,Odisha,ib_valley,22.36,yes,M0632,Siarmal Coal Mine,Operating,Odisha,1,100.0,24.5,pass,name+state+60km,
+mcl-kulda-ocp-balinga,Kulda OCP Balinga,MCL,Odisha,ib_valley,14.78,yes,M0563,Kulda Coal Mine,Operating,Odisha,1,100.0,23.8,pass,name+state+60km,
+mcl-garjanbahal-ocp,Garjanbahal OCP,MCL,Odisha,ib_valley,18.2,yes,M0524,Garjanbahal Coal Mine,Operating,Odisha,1,100.0,23.1,pass,name+state+60km,
+mcl-hirakhand-bundia-mine,Hirakhand Bundia Mine,MCL,Odisha,ib_valley,0.17,yes,M2854,Hirakhand Bundia Incline Mine,Operating,Odisha,1,100.0,15.4,pass,name+state+60km,
+mcl-orient-mine-no-1-2,Orient Mine No. 1 & 2,MCL,Odisha,ib_valley,0.13,yes,M3010,Orient Mine 1 & 2,Operating,Odisha,1,100.0,9.6,pass,name+state+60km,
+nec-tikak-colliery,Tikak Colliery,NEC,Assam,makum,0.2,yes,M2665,Tikak Colliery,Operating,Assam,1,100.0,2.3,pass,name+state+60km,
