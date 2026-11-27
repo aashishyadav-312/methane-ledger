@@ -1,0 +1,461 @@
+/* The v2 inputs panel (V2-Mine-Open) and the phone bottom sheet (V2-Phone). */
+
+.v2-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
+.v2-panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 24px 28px 10px;
+}
+
+.v2-panel-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.v2-panel-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 450;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  outline: none;
+}
+
+.v2-panel-facts {
+  margin: 0;
+  font-size: 14.5px;
+  color: var(--ink-2);
+}
+
+.v2-panel-close {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--track);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.v2-panel-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 0 28px 18px;
+  border-bottom: 1px solid var(--line-soft);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-2);
+}
+
+.v2-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 10px;
+  border-radius: var(--r-pill);
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.v2-chip--tag {
+  background: var(--tag-bg);
+  border-color: transparent;
+  color: var(--tag-fg);
+  font-weight: 600;
+}
+
+.v2-panel-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 20px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.v2-panel-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.v2-panel-h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.v2-panel-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.v2-panel-note,
+.v2-panel-fact,
+.v2-panel-hint {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--ink-2);
+}
+
+.v2-panel-gem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--paper);
+  font-size: 13.5px;
+  color: var(--ink-2);
+}
+
+.v2-panel-gem p {
+  margin: 0;
+}
+
+.v2-panel-link {
+  flex: none;
+  min-height: 32px;
+  padding: 0 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-pill);
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.v2-panel-link[aria-pressed='true'] {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--card);
+}
+
+.v2-panel-pricehead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.v2-panel-price {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.v2-panel-pricechips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.v2-pchip {
+  min-height: 32px;
+  padding: 0 11px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-pill);
+  background: transparent;
+  color: var(--ink-2);
+  font: inherit;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+.v2-pchip[aria-pressed='true'] {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--card);
+}
+
+.v2-panel-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 14.5px;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+}
+
+.v2-panel-all-note {
+  font-size: 13px;
+  color: var(--ink-3);
+}
+
+.v2-panel-reason {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.v2-panel-verdict {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+.v2-panel-why {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* Number fields (V2-Mine-Open: 44px boxes, the number in mono, the unit after it). */
+.v2-numfield {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  font-size: 13.5px;
+  color: var(--ink-2);
+}
+
+.v2-numfield-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.v2-numfield-box:focus-within {
+  box-shadow: 0 0 0 2px var(--ink);
+}
+
+.v2-numfield-box[data-invalid='true'] {
+  border-color: var(--short-fg);
+}
+
+.v2-numfield-box input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  outline: none;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.v2-numfield-box input::-webkit-outer-spin-button,
+.v2-numfield-box input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+.v2-numfield-unit {
+  flex: none;
+  font-size: 13px;
+  color: var(--ink-3);
+}
+
+.v2-numfield-note {
+  font-size: 12.5px;
+  color: var(--ink-3);
+}
+
+/* Footer: the result peek and the Run button. */
+.v2-panel-foot {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 28px 24px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.v2-panel-foot:empty {
+  display: none;
+}
+
+.v2-peek {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: var(--paper);
+}
+
+.v2-peek-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.v2-peek-label {
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.v2-peek-num {
+  font-family: var(--font-display);
+  font-size: 34px;
+  font-weight: 420;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.v2-peek-unit {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  letter-spacing: 0;
+  color: var(--ink-2);
+}
+
+.v2-run {
+  position: relative;
+  height: 52px;
+  border: 0;
+  border-radius: 14px;
+  background: var(--ink);
+  color: var(--card);
+  font: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* DESIGN_V2 "Run the model": a 2px progress underline while the model computes. */
+.v2-run::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--v2-run-line);
+  background: var(--card);
+  opacity: 0;
+}
+
+.v2-run[data-running='true']::after {
+  opacity: 1;
+}
+
+/* ---------- the phone bottom sheet ---------- */
+
+.v2-sheet {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  background: var(--card);
+  border-radius: 22px 22px 0 0;
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -16px 40px rgba(26, 25, 22, 0.12);
+  pointer-events: auto;
+  will-change: transform;
+}
+
+.v2-sheet .v2-panel {
+  height: var(--v2-sheet-visible, 100%);
+}
+
+.v2-sheet-grabber {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 22px;
+  margin-top: 4px;
+  border: 0;
+  background: transparent;
+  cursor: grab;
+  touch-action: none;
+}
+
+.v2-sheet-grabber span {
+  width: 40px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--line-strong);
+}
+
+.v2-panel--sheet .v2-panel-head,
+.v2-panel--sheet .v2-panel-foot {
+  touch-action: none;
+}
+
+.v2-panel--sheet .v2-panel-head {
+  padding: 4px 20px 8px;
+}
+
+.v2-panel--sheet .v2-panel-title {
+  font-size: 26px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.v2-panel--sheet .v2-panel-facts {
+  font-size: 13.5px;
+}
+
+.v2-panel--sheet .v2-panel-foot {
+  padding: 0 20px 14px;
+  border-top: 0;
+}
+
+.v2-panel--sheet .v2-peek {
+  padding: 8px 12px;
+}
+
+.v2-panel--sheet .v2-peek-num {
+  font-size: 26px;
+}
+
+.v2-panel--sheet .v2-run {
+  height: 50px;
+}
+
+.v2-panel--sheet .v2-panel-chips {
+  padding: 8px 20px 14px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.v2-panel--sheet .v2-panel-body {
+  padding: 16px 20px 24px;
+  touch-action: pan-y;
+}
+
+@media (max-width: 767.98px) {
+  .v2-panel-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
