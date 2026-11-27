@@ -182,7 +182,8 @@ export function pickLabels(opts: {
     const p = toScreen(transform, c.x, c.y);
     const fontPx = isSelected ? LABELS.selectedFontPx : LABELS.fontPx;
     const w = measure(c.name, isSelected);
-    const gap = dotRadiusPx(c.id) + LABELS.gapPx;
+    const r = dotRadiusPx(c.id);
+    const gap = r + LABELS.gapPx;
     const half = (fontPx * LABELS.lineHeightEm) / 2;
     const right: Box = { x0: p.x + gap, y0: p.y - half, x1: p.x + gap + w, y1: p.y + half };
     const left: Box = { x0: p.x - gap - w, y0: p.y - half, x1: p.x - gap, y1: p.y + half };
@@ -202,10 +203,18 @@ export function pickLabels(opts: {
     }
     if (!box) return;
     boxes.push(box);
+    // A labelled dot is an obstacle too, so no later label covers it.
+    if (!isSelected) boxes.push({ x0: p.x - r, y0: p.y - r, x1: p.x + r, y1: p.y + r });
     placed.push({ id: c.id, name: c.name, x: c.x, y: c.y, anchor, selected: isSelected, gapPx: gap });
   };
 
-  if (selected) tryPlace(selected, true, true);
+  if (selected) {
+    // The selected mine's ring is an obstacle for every other label.
+    const p = toScreen(transform, selected.x, selected.y);
+    const r = dotRadiusPx(selected.id);
+    boxes.push({ x0: p.x - r, y0: p.y - r, x1: p.x + r, y1: p.y + r });
+    tryPlace(selected, true, true);
+  }
   if (zoom < LABELS.minZoom) return placed;
 
   const inView = candidates.filter((c) => {

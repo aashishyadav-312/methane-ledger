@@ -77,6 +77,8 @@ export const DOT_SIZES = {
   selectedRatio: 1.34 / 0.96,
   ringRatio: 2.24 / 0.96,
   hollowRatio: 0.5,
+  /** On phones the dots are drawn larger, as in V2-Phone (r 3.9 against 3.0 in V2-Home). */
+  phoneScale: 3.9 / 3.0,
 } as const;
 
 /** v1 MineMap HIT_PX: a pointer within 9px of a dot hovers it. */

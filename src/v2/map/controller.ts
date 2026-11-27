@@ -19,7 +19,7 @@ import {
   type Size,
   type ViewBox,
 } from './geometry';
-import { DBLCLICK_ZOOM_MS, FLY, HOLLOW_MIN_ZOOM, REDUCED_CROSSFADE_MS, ZOOM_EXTENT } from './motion';
+import { DBLCLICK_ZOOM_MS, DOCK, DOT_SIZES, FLY, HOLLOW_MIN_ZOOM, REDUCED_CROSSFADE_MS, ZOOM_EXTENT } from './motion';
 
 export type WheelMode = 'zoom' | 'modifier';
 
@@ -106,16 +106,21 @@ export class MapController {
   private write(t: MapTransform) {
     const attr = `translate(${t.x},${t.y}) scale(${t.k})`;
     for (const g of this.opts.layers) g.setAttribute('transform', attr);
-    const z = t.k / this.fit.k;
-    this.opts.dots.style.setProperty('--dot-scale', String(dotScale(z)));
+    this.opts.dots.style.setProperty('--dot-scale', String(this.dotScaleAt(t.k)));
     const invK = String(1 / t.k);
     for (const g of this.opts.textLayers) g.style.setProperty('--inv-k', invK);
-    const deep = z >= HOLLOW_MIN_ZOOM;
+    const deep = t.k / this.fit.k >= HOLLOW_MIN_ZOOM;
     if (deep !== this.deep) {
       this.deep = deep;
       this.opts.overlay.classList.toggle('is-deep', deep);
     }
     for (const cb of this.listeners) cb(t);
+  }
+
+  /** Map-unit dot scale at absolute scale k: 1 / sqrt(zoom), larger on a phone-width map. */
+  dotScaleAt(k: number): number {
+    const phone = this.size.width < DOCK.phoneMaxWidthPx ? DOT_SIZES.phoneScale : 1;
+    return dotScale(k / this.fit.k) * phone;
   }
 
   setWheelMode(mode: WheelMode) {

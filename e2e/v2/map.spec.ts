@@ -454,13 +454,17 @@ test.describe('geometry (pure)', () => {
 });
 
 test.describe('screenshots', () => {
-  test.skip(!process.env.V2_MAP_SHOTS, 'Set V2_MAP_SHOTS=1 to write the Step 3 screenshots.');
+  // V2_MAP_SHOTS=1 writes all four; a comma list (v2-home-390,v2-flyto-frames) re-shoots only those.
+  const SHOTS = process.env.V2_MAP_SHOTS ?? '';
+  test.skip(!SHOTS, 'Set V2_MAP_SHOTS=1 to write the Step 3 screenshots.');
   const OUT = resolve(ROOT, 'shots/step-v2-3');
+  const wanted = (name: string) => SHOTS === '1' || SHOTS.split(',').includes(name);
 
   test('screenshots', async ({ browser }) => {
     test.setTimeout(120_000);
     mkdirSync(OUT, { recursive: true });
     const shot = async (name: string, w: number, h: number, query: string) => {
+      if (!wanted(name)) return;
       const ctx = await browser.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 1 });
       const page = await ctx.newPage();
       await open(page, query, { fonts: true });
@@ -469,13 +473,13 @@ test.describe('screenshots', () => {
       await page.waitForTimeout(1200);
       await page.screenshot({ path: `${OUT}/${name}.png` });
       await ctx.close();
-      return page;
     };
     await shot('v2-home-1440', 1440, 900, 'layout=home');
     await shot('v2-jharia-1440', 1440, 900, `layout=home&fly=${MOONIDIH}&offsetRight=${PANEL_W}&panel=1`);
     await shot('v2-home-390', 390, 844, '');
 
     // Contact sheet of the fly-to at frozen times: one image.
+    if (!wanted('v2-flyto-frames')) return;
     const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 });
     const page = await ctx.newPage();
     const secs = [0, 0.3, 0.6, 0.9];

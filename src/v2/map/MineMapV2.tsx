@@ -20,7 +20,17 @@ import { MapController, type WheelMode } from './controller';
 import { loadMapV2, type MapDataV2 } from './data';
 import { Dock } from './dock';
 import { NO_INSETS, pickLabels, toScreen, type Insets, type LabelCandidate, type PlacedLabel } from './geometry';
-import { BaseLayer, CitiesLayer, DotsLayer, dotRadius, LabelsLayer, SelectedLayer } from './layers';
+import {
+  BaseLayer,
+  CitiesLayer,
+  DotsLayer,
+  dotRadius,
+  HOLLOW_BANDS,
+  HollowDefs,
+  hollowId,
+  LabelsLayer,
+  SelectedLayer,
+} from './layers';
 import { createHoverStore, MapTooltipV2, type HoverTarget } from './MapTooltipV2';
 import {
   DOT_SIZES,
@@ -120,7 +130,7 @@ function measureLabel(text: string, selected: boolean): number {
 }
 
 /** Timings and sizes for map.css, from motion.ts. */
-const CSS_VARS = {
+const CSS_VARS: Record<string, string> = {
   '--mmv2-hover-ms': `${HOVER.ms}ms`,
   '--mmv2-hover-scale': String(HOVER.scale),
   '--mmv2-tip-ms': `${HOVER.tooltipFadeMs}ms`,
@@ -132,7 +142,7 @@ const CSS_VARS = {
   '--mmv2-label-px': `${LABELS.fontPx}px`,
   '--mmv2-sel-label-px': `${LABELS.selectedFontPx}px`,
   '--mmv2-halo-em': `${LABELS.haloEm}em`,
-} as CSSProperties;
+};
 
 const resolveInsets =(i: Partial<Insets> | undefined): Insets => ({ ...NO_INSETS, ...i });
 
@@ -179,6 +189,12 @@ export function MineMapV2({
   const [labels, setLabels] = useState<readonly PlacedLabel[]>([]);
   const [docked, setDocked] = useState(false);
   const descId = useId();
+  const uid = `mmv2${useId().replace(/[^a-zA-Z0-9]/g, '')}`;
+  const rootStyle = useMemo(() => {
+    const vars: Record<string, string> = { ...CSS_VARS };
+    for (const band of HOLLOW_BANDS) vars[`--mmv2-hollow-${band}`] = `url(#${hollowId(uid, band)})`;
+    return vars as CSSProperties;
+  }, [uid]);
 
   const selected = selectedId ? (data.byId.get(selectedId) ?? null) : null;
 
@@ -200,7 +216,7 @@ export function MineMapV2({
     const zoom = ctl.zoomLevel();
     const k = t.k;
     const sel = live.current.selected;
-    const scale = 1 / Math.sqrt(zoom);
+    const scale = ctl.dotScaleAt(k);
     const next = pickLabels({
       candidates: live.current.candidates,
       selected: sel ? { id: sel.id, name: sel.name, x: sel.x, y: sel.y, size: 0 } : null,
@@ -394,9 +410,8 @@ export function MineMapV2({
       let els: Element[] = [];
       if (root && target) {
         if (target.kind === 'mine') {
-          const id = CSS.escape(target.mine.id);
           key = `m:${target.mine.id}`;
-          els = [...root.querySelectorAll(`[data-id="${id}"], [data-hole="${id}"]`)];
+          els = [...root.querySelectorAll(`[data-id="${CSS.escape(target.mine.id)}"]`)];
         } else {
           const i = data.closed.indexOf(target.mine);
           key = `c:${i}`;
@@ -491,7 +506,7 @@ export function MineMapV2({
   const rootClass = ['mmv2', reduced ? 'is-reduced' : '', className ?? ''].filter(Boolean).join(' ');
 
   return (
-    <div ref={anchorRef} className={rootClass} style={CSS_VARS} data-docked={docked ? 'true' : undefined}>
+    <div ref={anchorRef} className={rootClass} style={rootStyle} data-docked={docked ? 'true' : undefined}>
       <div ref={dockRef} className="mmv2-dock">
         <div ref={chromeRef} className="mmv2-chrome" aria-hidden="true" />
         <div ref={clipRef} className="mmv2-clip">
@@ -517,6 +532,7 @@ export function MineMapV2({
               {smog}
             </div>
             <svg className="mmv2-svg mmv2-over" aria-hidden="true">
+              <HollowDefs uid={uid} />
               <g ref={overGRef} className={selected ? 'mmv2-over-g has-sel' : 'mmv2-over-g'}>
                 <g ref={dotsGRef} className="mmv2-dots">
                   <g className="mmv2-dimmable">

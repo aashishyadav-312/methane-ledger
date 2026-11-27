@@ -176,7 +176,12 @@ export function loadMapV2(): MapDataV2 {
   if (cache) return cache;
   const v1 = V1Schema.parse(minesMapJson);
   const v2Raw = Object.values(v2Files)[0];
-  const v2 = v2Raw === undefined ? null : V2Schema.parse(v2Raw);
+  const parsed = v2Raw === undefined ? null : V2Schema.safeParse(v2Raw);
+  if (parsed && !parsed.success) {
+    // A shape this adapter does not know yet: keep the map working on v1 data and say so.
+    console.warn('mines_v2.json did not match the map adapter; using mines_map.json.', parsed.error.issues.slice(0, 3));
+  }
+  const v2 = parsed?.success ? parsed.data : null;
   const mines = (v2?.mines ?? v1.mines).map(toMineV2);
   const timeline = timelineJson as Record<string, unknown>;
   cache = {

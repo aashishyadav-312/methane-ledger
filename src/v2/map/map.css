@@ -155,27 +155,21 @@
   stroke-width: 1px;
 }
 
-/* Hollow centres for coalfield-placed dots, past zoom 4 only. */
-.mmv2-hole {
-  fill: var(--paper);
+/* Hollow centres for coalfield-placed dots, past zoom 4 only (gradients in HollowDefs, ids set on the root). */
+.is-deep .mmv2-fill.is-approx.mmv2-band-by2031 {
+  fill: var(--mmv2-hollow-by2031);
 }
 
-.mmv2-holes,
-.mmv2-sel-layer .mmv2-hole {
-  display: none;
+.is-deep .mmv2-fill.is-approx.mmv2-band-by2036 {
+  fill: var(--mmv2-hollow-by2036);
 }
 
-.is-deep .mmv2-holes,
-.is-deep .mmv2-sel-layer .mmv2-hole {
-  display: inline;
+.is-deep .mmv2-fill.is-approx.mmv2-band-by2050 {
+  fill: var(--mmv2-hollow-by2050);
 }
 
-.mmv2-hole.is-hot {
-  transition: scale var(--mmv2-hover-ms) var(--mmv2-ease-out);
-}
-
-.mmv2-hole.is-hover {
-  scale: var(--mmv2-hover-scale);
+.is-deep .mmv2-fill.is-approx.mmv2-band-after2050 {
+  fill: var(--mmv2-hollow-after2050);
 }
 
 .mmv2-closed {

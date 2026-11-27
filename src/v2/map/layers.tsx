@@ -48,14 +48,41 @@ export const CitiesLayer = memo(function CitiesLayer({ data }: { data: MapDataV2
   );
 });
 
-/** A coalfield-placed dot gets a hollow centre when zoomed in (nodate dots are hollow already). */
-const hasHole = (m: MineV2) => m.positionQuality === 'coalfield' && m.band !== 'nodate';
+/** Bands whose dots can show a hollow centre (nodate dots are hollow already). */
+export const HOLLOW_BANDS = ['by2031', 'by2036', 'by2050', 'after2050'] as const;
+const BAND_TOKEN_VAR: Record<(typeof HOLLOW_BANDS)[number], string> = {
+  by2031: 'var(--band-2031)',
+  by2036: 'var(--band-2036)',
+  by2050: 'var(--band-2050)',
+  after2050: 'var(--band-after)',
+};
 
-/*
- * Each ordinary mine is one circle, and the hollow centres sit in one group that is display: none until zoom 4, so
- * a zoom frame restyles as few elements as possible.
+/** The paint server id for a band's hollow fill, unique to one map. */
+export const hollowId = (uid: string, band: string) => `${uid}-hollow-${band}`;
+
+/**
+ * Hollow centres for coalfield-placed dots: a radial gradient with hard stops (paper inside, band colour outside),
+ * so the dot stays a single element. CSS swaps it in past zoom 4.
  */
+export const HollowDefs = memo(function HollowDefs({ uid }: { uid: string }) {
+  return (
+    <defs>
+      {HOLLOW_BANDS.map((band) => (
+        <radialGradient key={band} id={hollowId(uid, band)}>
+          <stop offset="0" style={{ stopColor: 'var(--paper)' }} />
+          <stop offset={DOT_SIZES.hollowRatio} style={{ stopColor: 'var(--paper)' }} />
+          <stop offset={DOT_SIZES.hollowRatio} style={{ stopColor: BAND_TOKEN_VAR[band] }} />
+          <stop offset="1" style={{ stopColor: BAND_TOKEN_VAR[band] }} />
+        </radialGradient>
+      ))}
+    </defs>
+  );
+});
 
+const fillClass = (m: MineV2) =>
+  `mmv2-fill mmv2-band-${m.band}${m.positionQuality === 'coalfield' ? ' is-approx' : ''}`;
+
+/* Each ordinary mine is one circle, so a zoom frame restyles as few elements as possible. */
 export const DotsLayer = memo(function DotsLayer({
   data,
   selectedId,
@@ -84,25 +111,13 @@ export const DotsLayer = memo(function DotsLayer({
       {ordered.map((m) => (
         <circle
           key={m.id}
-          className={`mmv2-dot mmv2-fill mmv2-scaled mmv2-band-${m.band}`}
+          className={`mmv2-dot mmv2-scaled ${fillClass(m)}`}
           cx={m.x}
           cy={m.y}
           r={dotRadius(m)}
           data-id={m.id}
         />
       ))}
-      <g className="mmv2-holes">
-        {ordered.filter(hasHole).map((m) => (
-          <circle
-            key={m.id}
-            className="mmv2-hole mmv2-scaled"
-            cx={m.x}
-            cy={m.y}
-            r={dotRadius(m) * DOT_SIZES.hollowRatio}
-            data-hole={m.id}
-          />
-        ))}
-      </g>
     </>
   );
 });
@@ -110,15 +125,11 @@ export const DotsLayer = memo(function DotsLayer({
 /** The selected mine with its ink ring, drawn last in its own layer so the dimming of the others never reaches it. */
 export function SelectedLayer({ mine }: { mine: MineV2 | null }) {
   if (!mine) return <g className="mmv2-sel-layer" />;
-  const r = dotRadius(mine) * DOT_SIZES.selectedRatio;
   return (
     <g className="mmv2-sel-layer">
       <g key={mine.id} className="mmv2-dot mmv2-scaled is-sel" data-id={mine.id}>
         <circle className="mmv2-ring" cx={mine.x} cy={mine.y} r={DOT_SIZES.operating * DOT_SIZES.ringRatio} />
-        <circle className={`mmv2-fill mmv2-band-${mine.band}`} cx={mine.x} cy={mine.y} r={r} />
-        {hasHole(mine) ? (
-          <circle className="mmv2-hole" cx={mine.x} cy={mine.y} r={r * DOT_SIZES.hollowRatio} />
-        ) : null}
+        <circle className={fillClass(mine)} cx={mine.x} cy={mine.y} r={dotRadius(mine) * DOT_SIZES.selectedRatio} />
       </g>
     </g>
   );
