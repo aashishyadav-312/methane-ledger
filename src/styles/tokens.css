@@ -108,3 +108,33 @@
     --card-pad: 20px;
   }
 }
+
+/* v2 tokens. Source: docs/DESIGN_V2.md "New tokens". Add-only: nothing above this line changes. */
+:root {
+  --boundary: #1a1916;
+  --state-line: #cfc7b4;
+  /* RGB triplet of the smog particles, used as rgba(var(--smog), a). Never blue or purple. */
+  --smog: 110, 101, 86;
+  --smog-max-alpha: 0.1;
+  --glass: rgba(251, 250, 246, 0.84);
+  --panel-w: 460px;
+  --mini-w: 184px;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+
+  /* Layers */
+  --z-map: 0;
+  --z-smog: 1;
+  --z-ui: 10;
+  --z-panel: 20;
+  --z-sheet: 30;
+  --z-mini: 40;
+  --z-menu: 50;
+}
+
+/* Reduced transparency: floating controls become solid. */
+@media (prefers-reduced-transparency: reduce) {
+  :root {
+    --glass: var(--card);
+  }
+}
