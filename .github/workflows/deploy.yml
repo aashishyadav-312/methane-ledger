@@ -1,7 +1,8 @@
 name: Deploy
 on:
   push:
-    branches: [main]
+    branches: [main, v2]
+  workflow_dispatch:
 permissions:
   contents: read
   pages: write
@@ -14,15 +15,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main, path: v1 }
       - uses: actions/setup-node@v4
-        with:
-          node-version-file: .nvmrc
-          cache: npm
-      - run: npm ci
-      - run: npm run build
+        with: { node-version-file: v1/.nvmrc }
+      - run: npm ci && npm run build
+        working-directory: v1
+      - id: hasv2
+        working-directory: v1
+        run: |
+          if git ls-remote --exit-code --heads origin v2 >/dev/null; then echo "yes=true" >> "$GITHUB_OUTPUT"; else echo "yes=false" >> "$GITHUB_OUTPUT"; fi
+      - if: steps.hasv2.outputs.yes == 'true'
+        uses: actions/checkout@v4
+        with: { ref: v2, path: v2 }
+      - if: steps.hasv2.outputs.yes == 'true'
+        run: npm ci && npm run build
+        working-directory: v2
+        env: { BASE_PATH: /methane-ledger/v2/ }
+      - run: |
+          mkdir -p site && cp -r v1/dist/. site/
+          if [ -d v2/dist ]; then mkdir -p site/v2 && cp -r v2/dist/. site/v2/; fi
       - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
+        with: { path: site }
   deploy:
     needs: build
     runs-on: ubuntu-latest

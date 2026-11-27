@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:v2": "node scripts/v2/build-v2.mjs",
     "preview": "vite preview",
     "typecheck": "tsc -b --noEmit",
     "lint": "eslint .",
@@ -14,7 +15,7 @@
     "check": "npm run typecheck && npm run lint && npm run test && npm run build",
     "py:setup": "python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt",
     "data": ".venv/bin/python scripts/data/build_data.py",
-    "golden": "python3 reference/ref_v1.py && python3 reference/ref_v1_1.py",
+    "golden": "python3 reference/ref_v1.py && python3 reference/ref_v1_1.py && python3 reference/ref_v2.py",
     "golden:check": "npm run golden && git diff --exit-code tests/golden",
     "shots": "node scripts/shots.mjs"
   },

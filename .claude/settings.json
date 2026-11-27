@@ -28,7 +28,20 @@
       "Bash(git push origin step/*)",
       "Bash(gh pr create *)",
       "Bash(gh pr view *)",
-      "Bash(gh pr list *)"
+      "Bash(gh pr list *)",
+      "Bash(bash scripts/v2/merge-step.sh *)",
+      "Bash(git push -u origin v2/*)",
+      "Bash(git push origin v2/*)",
+      "Bash(git push origin v2)",
+      "Bash(git rebase origin/v2)",
+      "Bash(git switch v2)",
+      "Bash(git pull *)",
+      "Bash(gh pr checks *)",
+      "Bash(gh run list *)",
+      "Bash(gh pr edit *)",
+      "Bash(python3 reference/ref_v2.py)",
+      "Bash(npm run build:v2)",
+      "Bash(curl -sI https://aashishyadav-312.github.io/*)"
     ],
     "deny": [
       "Bash(git push --force *)",

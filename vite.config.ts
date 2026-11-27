@@ -2,7 +2,7 @@ import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/methane-ledger/',
+  base: process.env.BASE_PATH ?? '/methane-ledger/',
   plugins: [react()],
   test: {
     projects: [

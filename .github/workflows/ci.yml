@@ -16,5 +16,11 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npx playwright install --with-deps chromium
-      - run: npm run e2e
+      - name: e2e
+        run: |
+          if [ "${{ github.base_ref }}" = "v2" ]; then
+            npx playwright test e2e/v2
+          else
+            npm run e2e
+          fi
       - run: npm run golden:check
