@@ -1,0 +1,479 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.696994,
+              50.241833
+            ],
+            [
+              18.744855,
+              50.218606
+            ],
+            [
+              18.751068,
+              50.236407
+            ],
+            [
+              18.751362,
+              50.244025
+            ],
+            [
+              18.746064,
+              50.249042
+            ],
+            [
+              18.751808,
+              50.251286
+            ],
+            [
+              18.759117,
+              50.252449
+            ],
+            [
+              18.753487,
+              50.258373
+            ],
+            [
+              18.755116,
+              50.268216
+            ],
+            [
+              18.749972,
+              50.281334
+            ],
+            [
+              18.764941,
+              50.286975
+            ],
+            [
+              18.759869,
+              50.291895
+            ],
+            [
+              18.727866,
+              50.297061
+            ],
+            [
+              18.712934,
+              50.295675
+            ],
+            [
+              18.713637,
+              50.289946
+            ],
+            [
+              18.707606,
+              50.278899
+            ],
+            [
+              18.703269,
+              50.268762
+            ],
+            [
+              18.688551,
+              50.260554
+            ],
+            [
+              18.654578,
+              50.257169
+            ],
+            [
+              18.685842,
+              50.232612
+            ],
+            [
+              18.696994,
+              50.241833
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1471.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "The boundary was extracted from the mining area for the mine, shown in the PGG S.A. MINES MAP at Polska Grupa G\u00f3rnicza SA geoportal: https://web.archive.org/web/20241219034735/https://korporacja.pgg.pl/likwidacja-szkod-gorniczych/mapa/index.html, updated on March 10 2025. The area of the boundary is approximately 32 sq km.",
+        "description": "KWK So\u015bnica Coal Mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.711714,
+          50.274005
+        ]
+      },
+      "properties": {
+        "id": "M1471.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "The location was extracted from Fig. 6 Map of the location of the PGG and SRK mine shafts \u2013 GZW W part , on page 12 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery. Note there does not appear to be named shafts I-II.",
+        "description": "Shaft III",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.710695,
+          50.273828
+        ]
+      },
+      "properties": {
+        "id": "M1471.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "The location was extracted from Fig. 6 Map of the location of the PGG and SRK mine shafts \u2013 GZW W part , on page 12 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery.",
+        "description": "Shaft IV",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.721965,
+          50.256644
+        ]
+      },
+      "properties": {
+        "id": "M1471.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "The location was extracted from Fig. 6 Map of the location of the PGG and SRK mine shafts \u2013 GZW W part , on page 12 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery.",
+        "description": "Shaft V",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.696653,
+          50.256297
+        ]
+      },
+      "properties": {
+        "id": "M1471.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "The location was extracted from Fig. 6 Map of the location of the PGG and SRK mine shafts \u2013 GZW W part , on page 12 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery.",
+        "description": "Shaft VI",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.713307,
+          50.275977
+        ]
+      },
+      "properties": {
+        "id": "M1471.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "The location was extracted from Fig. 6 Map of the location of the PGG and SRK mine shafts \u2013 GZW W part , on page 12 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery.",
+        "description": "Shaft VII",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.696106,
+          50.257564
+        ]
+      },
+      "properties": {
+        "id": "M1471.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "The location was extracted from Fig. 6 Map of the location of the PGG and SRK mine shafts \u2013 GZW W part , on page 12 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery. News article https://web.archive.org/web/20250806175230/https://iknurow.pl/gliwice-szyb-bojkow-jest-juz-likwidowany/, March 1 2024, describes Shaft Bojk\u00f3w as being decommissioned.",
+        "description": "Shaft Bojk\u00f3w",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.69538,
+          50.257742
+        ]
+      },
+      "properties": {
+        "id": "M1471.P7",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "The location was extracted from Fig. 6 Map of the location of the PGG and SRK mine shafts \u2013 GZW W part , on page 12 of Hybrid energy storage system using post-mining infrastructure (HESS),  https://web.archive.org/web/20250522223147/https://itpe.pl/wp-content/uploads/2024/11/D.2.1_HESS_Guidelines-on-the-adaptation-and-use-of-inactive-shafts-possible-to-energy-storage.pdf. The location was confirmed visually with Google Earth Pro satellite imagery. News article https://web.archive.org/web/20250806175230/https://iknurow.pl/gliwice-szyb-bojkow-jest-juz-likwidowany/, March 1 2024, describes Shaft Podsadzkowy as being decommissioned.",
+        "description": "Shaft Podsadzkowy",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.708594,
+          50.272544
+        ]
+      },
+      "properties": {
+        "id": "M1471.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "combined heat and power plant",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery, and confirmed with ground-level photo from PGG webpage at https://web.archive.org/web/20250711184038/https://ec.pgg.pl/nasze-elektrocieplownie/ec-sosnica. According to this webpage, 2 x 2 MW units were installed in 2021.",
+        "description": "Cogeneration units",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.713328,
+          50.274867
+        ]
+      },
+      "properties": {
+        "id": "M1471.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "combined heat and power plant",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery, and based on ground-level photo from PGG news article at https://web.archive.org/web/20250806182531/https://www.pgg.pl/strefa-korporacyjna/aktualnosci/1845/W-Sosnicy-coraz-wiecej-pradu-i-ciepla-z-metanu. According to this webapge, unknown infrastructure was installed between 2009 and 2011 and a fourth cogen unit was installed in late 2024.",
+        "description": "Possible cogeneration units",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.711105,
+          50.272518
+        ]
+      },
+      "properties": {
+        "id": "M1471.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery, and based on ground-level video at https://web.archive.org/web/20250806231725/https://www.youtube.com/watch?v=X2SvxfNhFTU. A methane drainage station and associated combustion unit is referenced in https://web.archive.org/web/20250806175122/https://nettg.pl/gornictwo/197809/w-ub-r-w-gliwickiej-kopalni-z-uwagi-na-bardzo-metanowe-poklady-ujeto-powyzej-25-mln-m-szesc-gazu, July 8, 2023.",
+        "description": "Methane drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.71048,
+          50.272614
+        ]
+      },
+      "properties": {
+        "id": "M1471.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "combined heat and power plant",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery, and based on ground-level video at https://web.archive.org/web/20250806231725/https://www.youtube.com/watch?v=X2SvxfNhFTU. A methane drainage station and associated combustion unit is referenced in https://web.archive.org/web/20250806175122/https://nettg.pl/gornictwo/197809/w-ub-r-w-gliwickiej-kopalni-z-uwagi-na-bardzo-metanowe-poklady-ujeto-powyzej-25-mln-m-szesc-gazu, July 8, 2023.",
+        "description": "Methane combustion unit",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.714816,
+          50.273832
+        ]
+      },
+      "properties": {
+        "id": "M1471.P12",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2024-05-02 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Coal processing plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1471",
+        "Owners": "KWK So\u015bnica Branch [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Polska Grupa G\u00f3rnicza (PGG)",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/So\u015bnica_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "KWK So\u015bnica Coal Mine",
+        "Country / Area": "Poland",
+        "Last researched": "Aug 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

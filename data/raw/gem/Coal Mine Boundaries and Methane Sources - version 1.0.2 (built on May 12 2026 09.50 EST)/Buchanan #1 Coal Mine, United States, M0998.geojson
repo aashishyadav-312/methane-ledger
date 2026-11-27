@@ -1,0 +1,1819 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.029721,
+              37.142655
+            ],
+            [
+              -82.032648,
+              37.141886
+            ],
+            [
+              -82.034621,
+              37.139999
+            ],
+            [
+              -82.03987,
+              37.137061
+            ],
+            [
+              -82.032367,
+              37.128402
+            ],
+            [
+              -82.023804,
+              37.128833
+            ],
+            [
+              -82.021676,
+              37.127536
+            ],
+            [
+              -82.014776,
+              37.131047
+            ],
+            [
+              -82.010883,
+              37.129574
+            ],
+            [
+              -82.00594,
+              37.128482
+            ],
+            [
+              -82.002958,
+              37.124476
+            ],
+            [
+              -82.000884,
+              37.117659
+            ],
+            [
+              -81.996021,
+              37.123304
+            ],
+            [
+              -81.988188,
+              37.125973
+            ],
+            [
+              -81.986334,
+              37.128138
+            ],
+            [
+              -81.985014,
+              37.125432
+            ],
+            [
+              -81.981603,
+              37.124704
+            ],
+            [
+              -81.978643,
+              37.122196
+            ],
+            [
+              -81.972432,
+              37.122796
+            ],
+            [
+              -81.968921,
+              37.12366
+            ],
+            [
+              -81.96874,
+              37.128902
+            ],
+            [
+              -81.951486,
+              37.128444
+            ],
+            [
+              -81.948451,
+              37.130147
+            ],
+            [
+              -81.944462,
+              37.130265
+            ],
+            [
+              -81.938805,
+              37.12749
+            ],
+            [
+              -81.93193,
+              37.127814
+            ],
+            [
+              -81.93186,
+              37.132028
+            ],
+            [
+              -81.926124,
+              37.133652
+            ],
+            [
+              -81.92422,
+              37.131322
+            ],
+            [
+              -81.918614,
+              37.134069
+            ],
+            [
+              -81.915527,
+              37.130903
+            ],
+            [
+              -81.915207,
+              37.133901
+            ],
+            [
+              -81.91179,
+              37.132703
+            ],
+            [
+              -81.904787,
+              37.136768
+            ],
+            [
+              -81.900561,
+              37.136792
+            ],
+            [
+              -81.896996,
+              37.13241
+            ],
+            [
+              -81.885517,
+              37.134907
+            ],
+            [
+              -81.877965,
+              37.130454
+            ],
+            [
+              -81.877457,
+              37.126151
+            ],
+            [
+              -81.872725,
+              37.121592
+            ],
+            [
+              -81.872983,
+              37.11944
+            ],
+            [
+              -81.850983,
+              37.12573
+            ],
+            [
+              -81.849202,
+              37.123493
+            ],
+            [
+              -81.84706,
+              37.120136
+            ],
+            [
+              -81.848537,
+              37.114891
+            ],
+            [
+              -81.845447,
+              37.110325
+            ],
+            [
+              -81.841085,
+              37.107636
+            ],
+            [
+              -81.839067,
+              37.102503
+            ],
+            [
+              -81.822462,
+              37.107635
+            ],
+            [
+              -81.813476,
+              37.099174
+            ],
+            [
+              -81.803385,
+              37.105082
+            ],
+            [
+              -81.791196,
+              37.105888
+            ],
+            [
+              -81.783747,
+              37.112372
+            ],
+            [
+              -81.784635,
+              37.12013
+            ],
+            [
+              -81.781144,
+              37.123513
+            ],
+            [
+              -81.767894,
+              37.12885
+            ],
+            [
+              -81.769003,
+              37.135755
+            ],
+            [
+              -81.766437,
+              37.137448
+            ],
+            [
+              -81.766249,
+              37.143521
+            ],
+            [
+              -81.769551,
+              37.145842
+            ],
+            [
+              -81.770164,
+              37.14911
+            ],
+            [
+              -81.767728,
+              37.152579
+            ],
+            [
+              -81.771415,
+              37.15892
+            ],
+            [
+              -81.769465,
+              37.164447
+            ],
+            [
+              -81.770108,
+              37.171461
+            ],
+            [
+              -81.756302,
+              37.174878
+            ],
+            [
+              -81.75702,
+              37.176649
+            ],
+            [
+              -81.751879,
+              37.179381
+            ],
+            [
+              -81.749518,
+              37.177523
+            ],
+            [
+              -81.746603,
+              37.179871
+            ],
+            [
+              -81.747474,
+              37.186689
+            ],
+            [
+              -81.751818,
+              37.186857
+            ],
+            [
+              -81.752893,
+              37.189377
+            ],
+            [
+              -81.764618,
+              37.187829
+            ],
+            [
+              -81.764664,
+              37.193439
+            ],
+            [
+              -81.757506,
+              37.193938
+            ],
+            [
+              -81.746615,
+              37.200041
+            ],
+            [
+              -81.750026,
+              37.201333
+            ],
+            [
+              -81.752634,
+              37.204871
+            ],
+            [
+              -81.750651,
+              37.206468
+            ],
+            [
+              -81.751026,
+              37.209549
+            ],
+            [
+              -81.756343,
+              37.214104
+            ],
+            [
+              -81.762057,
+              37.209313
+            ],
+            [
+              -81.766752,
+              37.209199
+            ],
+            [
+              -81.768999,
+              37.211244
+            ],
+            [
+              -81.761396,
+              37.214736
+            ],
+            [
+              -81.764922,
+              37.215281
+            ],
+            [
+              -81.765409,
+              37.217428
+            ],
+            [
+              -81.762521,
+              37.220565
+            ],
+            [
+              -81.771226,
+              37.223047
+            ],
+            [
+              -81.766113,
+              37.229609
+            ],
+            [
+              -81.760461,
+              37.227392
+            ],
+            [
+              -81.743182,
+              37.240829
+            ],
+            [
+              -81.74311,
+              37.247374
+            ],
+            [
+              -81.747002,
+              37.249508
+            ],
+            [
+              -81.748437,
+              37.253056
+            ],
+            [
+              -81.759653,
+              37.255558
+            ],
+            [
+              -81.765039,
+              37.253387
+            ],
+            [
+              -81.768708,
+              37.25776
+            ],
+            [
+              -81.769923,
+              37.263639
+            ],
+            [
+              -81.76456,
+              37.269456
+            ],
+            [
+              -81.759407,
+              37.271721
+            ],
+            [
+              -81.776109,
+              37.274544
+            ],
+            [
+              -81.786522,
+              37.284314
+            ],
+            [
+              -81.805221,
+              37.285349
+            ],
+            [
+              -81.811706,
+              37.28298
+            ],
+            [
+              -81.816262,
+              37.27903
+            ],
+            [
+              -81.824836,
+              37.278428
+            ],
+            [
+              -81.833197,
+              37.280724
+            ],
+            [
+              -81.831007,
+              37.286252
+            ],
+            [
+              -81.842553,
+              37.289375
+            ],
+            [
+              -81.842395,
+              37.284512
+            ],
+            [
+              -81.847912,
+              37.283642
+            ],
+            [
+              -81.851228,
+              37.286524
+            ],
+            [
+              -81.857214,
+              37.285465
+            ],
+            [
+              -81.858332,
+              37.292195
+            ],
+            [
+              -81.853153,
+              37.291567
+            ],
+            [
+              -81.852124,
+              37.294941
+            ],
+            [
+              -81.855433,
+              37.296796
+            ],
+            [
+              -81.853248,
+              37.302424
+            ],
+            [
+              -81.870198,
+              37.294472
+            ],
+            [
+              -81.888779,
+              37.294652
+            ],
+            [
+              -81.887384,
+              37.296532
+            ],
+            [
+              -81.894937,
+              37.299486
+            ],
+            [
+              -81.897372,
+              37.295635
+            ],
+            [
+              -81.900766,
+              37.293744
+            ],
+            [
+              -81.906258,
+              37.290064
+            ],
+            [
+              -81.908115,
+              37.287528
+            ],
+            [
+              -81.911907,
+              37.290594
+            ],
+            [
+              -81.907247,
+              37.295206
+            ],
+            [
+              -81.903829,
+              37.294382
+            ],
+            [
+              -81.902331,
+              37.29776
+            ],
+            [
+              -81.910682,
+              37.297807
+            ],
+            [
+              -81.914001,
+              37.30041
+            ],
+            [
+              -81.914874,
+              37.293384
+            ],
+            [
+              -81.916305,
+              37.295435
+            ],
+            [
+              -81.919358,
+              37.29495
+            ],
+            [
+              -81.920471,
+              37.300373
+            ],
+            [
+              -81.923611,
+              37.296798
+            ],
+            [
+              -81.921933,
+              37.293719
+            ],
+            [
+              -81.928838,
+              37.290404
+            ],
+            [
+              -81.935881,
+              37.278109
+            ],
+            [
+              -81.935207,
+              37.264925
+            ],
+            [
+              -81.918629,
+              37.265394
+            ],
+            [
+              -81.918247,
+              37.2624
+            ],
+            [
+              -81.911185,
+              37.26169
+            ],
+            [
+              -81.905293,
+              37.260225
+            ],
+            [
+              -81.904858,
+              37.25143
+            ],
+            [
+              -81.906488,
+              37.249831
+            ],
+            [
+              -81.905956,
+              37.243193
+            ],
+            [
+              -81.908653,
+              37.24271
+            ],
+            [
+              -81.908789,
+              37.244673
+            ],
+            [
+              -81.932901,
+              37.244422
+            ],
+            [
+              -81.932761,
+              37.241798
+            ],
+            [
+              -81.936171,
+              37.241684
+            ],
+            [
+              -81.936182,
+              37.229037
+            ],
+            [
+              -81.930187,
+              37.228978
+            ],
+            [
+              -81.930162,
+              37.225889
+            ],
+            [
+              -81.933215,
+              37.225683
+            ],
+            [
+              -81.932921,
+              37.218572
+            ],
+            [
+              -81.936077,
+              37.216682
+            ],
+            [
+              -81.936146,
+              37.208261
+            ],
+            [
+              -81.93935,
+              37.208179
+            ],
+            [
+              -81.939476,
+              37.211293
+            ],
+            [
+              -81.963513,
+              37.211034
+            ],
+            [
+              -81.963426,
+              37.20959
+            ],
+            [
+              -81.983084,
+              37.209469
+            ],
+            [
+              -81.983054,
+              37.206861
+            ],
+            [
+              -81.989167,
+              37.206576
+            ],
+            [
+              -81.990506,
+              37.199511
+            ],
+            [
+              -81.987212,
+              37.197967
+            ],
+            [
+              -81.988034,
+              37.190607
+            ],
+            [
+              -81.99147,
+              37.184157
+            ],
+            [
+              -81.9964,
+              37.180751
+            ],
+            [
+              -81.996107,
+              37.143028
+            ],
+            [
+              -82.029721,
+              37.142655
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0998.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2023-12-31 00:00:00",
+        "notes": "The boundary is of the Coronado Buchanan Mine Complex Property shown on page 77 in Figure 4 Coronado Buchanan Mine Complex Property Location Map, of the 2023 10-k https://web.archive.org/web/20250401125056/https://www.sec.gov/Archives/edgar/data/1770561/000156276224000028/c561202310K.htm. The mining boundary contains the Buchanan No. 1 mine. The 10-k reports 'The property mineral rights are composed of approximately 33,578 total hectares', and the area of the boundary is 33,609 hectares.",
+        "description": "Buchanan No.1 mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.961165,
+          37.175302
+        ]
+      },
+      "properties": {
+        "id": "M0998.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "The creation of this power station is described in https://web.archive.org/web/20250924170210/https://www.power-eng.com/coal/consol-energy-places-88-mw-generating-facility-into-commercial-service, and pictured in https://web.archive.org/web/2/https://decarbmystate.com/virginia/power-plant/buchanan-units-1-2, and visually identified from Google Earth Pro satellite imagery from 11/15/2023",
+        "description": "Coal bed methane to electric generation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.873265,
+          37.248122
+        ]
+      },
+      "properties": {
+        "id": "M0998.P2",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.877223,
+          37.246736
+        ]
+      },
+      "properties": {
+        "id": "M0998.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.869946,
+          37.247911
+        ]
+      },
+      "properties": {
+        "id": "M0998.P4",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.91415,
+          37.189795
+        ]
+      },
+      "properties": {
+        "id": "M0998.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.881349,
+          37.180587
+        ]
+      },
+      "properties": {
+        "id": "M0998.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.860274,
+          37.179689
+        ]
+      },
+      "properties": {
+        "id": "M0998.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.816043,
+          37.174114
+        ]
+      },
+      "properties": {
+        "id": "M0998.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure. Note that this may be connected to East Tennessee Gas Pipeline owned by Enbridge.",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.84498,
+          37.173527
+        ]
+      },
+      "properties": {
+        "id": "M0998.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.975024,
+          37.171385
+        ]
+      },
+      "properties": {
+        "id": "M0998.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.906008,
+          37.162398
+        ]
+      },
+      "properties": {
+        "id": "M0998.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.954411,
+          37.156594
+        ]
+      },
+      "properties": {
+        "id": "M0998.P12",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.920618,
+          37.145252
+        ]
+      },
+      "properties": {
+        "id": "M0998.P13",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.801247,
+          37.152425
+        ]
+      },
+      "properties": {
+        "id": "M0998.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.854559,
+          37.145532
+        ]
+      },
+      "properties": {
+        "id": "M0998.P15",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.882074,
+          37.139255
+        ]
+      },
+      "properties": {
+        "id": "M0998.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.850348,
+          37.133673
+        ]
+      },
+      "properties": {
+        "id": "M0998.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.910954,
+          37.136783
+        ]
+      },
+      "properties": {
+        "id": "M0998.P18",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.989508,
+          37.134933
+        ]
+      },
+      "properties": {
+        "id": "M0998.P19",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.881124,
+          37.198982
+        ]
+      },
+      "properties": {
+        "id": "M0998.P20",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85259,
+          37.204073
+        ]
+      },
+      "properties": {
+        "id": "M0998.P21",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.83378,
+          37.219146
+        ]
+      },
+      "properties": {
+        "id": "M0998.P22",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.862271,
+          37.189448
+        ]
+      },
+      "properties": {
+        "id": "M0998.P23",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.86771,
+          37.201885
+        ]
+      },
+      "properties": {
+        "id": "M0998.P24",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.887604,
+          37.223897
+        ]
+      },
+      "properties": {
+        "id": "M0998.P25",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.898507,
+          37.250191
+        ]
+      },
+      "properties": {
+        "id": "M0998.P26",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.877729,
+          37.209906
+        ]
+      },
+      "properties": {
+        "id": "M0998.P27",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85472,
+          37.209882
+        ]
+      },
+      "properties": {
+        "id": "M0998.P28",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.927072,
+          37.175289
+        ]
+      },
+      "properties": {
+        "id": "M0998.P29",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.879377,
+          37.174326
+        ]
+      },
+      "properties": {
+        "id": "M0998.P30",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.798743,
+          37.170239
+        ]
+      },
+      "properties": {
+        "id": "M0998.P31",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.955565,
+          37.17245
+        ]
+      },
+      "properties": {
+        "id": "M0998.P32",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.926018,
+          37.144569
+        ]
+      },
+      "properties": {
+        "id": "M0998.P34",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-11-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.850963,
+          37.233832
+        ]
+      },
+      "properties": {
+        "id": "M0998.P35",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.850309,
+          37.233884
+        ]
+      },
+      "properties": {
+        "id": "M0998.P36",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "regenerative thermal oxidizer (RTO)",
+        "data source date": "2025-04-01 00:00:00",
+        "notes": "Coordinates provided by Biothermica directly on 4/15//2025",
+        "description": "Biothermica's 2022 VOMOX regenerative thermal oxider (RTO) system",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.924685,
+          37.145319
+        ]
+      },
+      "properties": {
+        "id": "M0998.P37",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "regenerative thermal oxidizer (RTO)",
+        "data source date": "2025-04-01 00:00:00",
+        "notes": "Coordinates provided by Biothermica directly on 4/15//2025",
+        "description": "Biothermica's 2024 VOMOX regenerative thermal oxider (RTO) system",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0998",
+        "Owners": "Buchanan Minerals LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coronado Global Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Buchanan_Mine_1",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Buchanan #1 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              63.765372,
+              67.495867
+            ],
+            [
+              63.759478,
+              67.490869
+            ],
+            [
+              63.759025,
+              67.487689
+            ],
+            [
+              63.754789,
+              67.483225
+            ],
+            [
+              63.737008,
+              67.471772
+            ],
+            [
+              63.737525,
+              67.469631
+            ],
+            [
+              63.7337,
+              67.466914
+            ],
+            [
+              63.730881,
+              67.462622
+            ],
+            [
+              63.733964,
+              67.456422
+            ],
+            [
+              63.741958,
+              67.450556
+            ],
+            [
+              63.730417,
+              67.447469
+            ],
+            [
+              63.721056,
+              67.443031
+            ],
+            [
+              63.718683,
+              67.434072
+            ],
+            [
+              63.72055,
+              67.434064
+            ],
+            [
+              63.721403,
+              67.427517
+            ],
+            [
+              63.724581,
+              67.420686
+            ],
+            [
+              63.732033,
+              67.424061
+            ],
+            [
+              63.735764,
+              67.427719
+            ],
+            [
+              63.756614,
+              67.4339
+            ],
+            [
+              63.768367,
+              67.436489
+            ],
+            [
+              63.789864,
+              67.4406
+            ],
+            [
+              63.815533,
+              67.450336
+            ],
+            [
+              63.828075,
+              67.451664
+            ],
+            [
+              63.831581,
+              67.458372
+            ],
+            [
+              63.859642,
+              67.462169
+            ],
+            [
+              63.866558,
+              67.462669
+            ],
+            [
+              63.883753,
+              67.466297
+            ],
+            [
+              63.879942,
+              67.467531
+            ],
+            [
+              63.896703,
+              67.474969
+            ],
+            [
+              63.895547,
+              67.475336
+            ],
+            [
+              63.897089,
+              67.475908
+            ],
+            [
+              63.898017,
+              67.475681
+            ],
+            [
+              63.913578,
+              67.48205
+            ],
+            [
+              63.913597,
+              67.482542
+            ],
+            [
+              63.911397,
+              67.483136
+            ],
+            [
+              63.892589,
+              67.483736
+            ],
+            [
+              63.852669,
+              67.482742
+            ],
+            [
+              63.866147,
+              67.494381
+            ],
+            [
+              63.839325,
+              67.499058
+            ],
+            [
+              63.819878,
+              67.497794
+            ],
+            [
+              63.810189,
+              67.490311
+            ],
+            [
+              63.790242,
+              67.493478
+            ],
+            [
+              63.792581,
+              67.496281
+            ],
+            [
+              63.792269,
+              67.498147
+            ],
+            [
+              63.79095,
+              67.499283
+            ],
+            [
+              63.787553,
+              67.501328
+            ],
+            [
+              63.775442,
+              67.499628
+            ],
+            [
+              63.765372,
+              67.495867
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2338.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-11-24 00:00:00",
+        "notes": "The subsoil land-use license relevant to the Zapolyarnaya Coal Mine was identified through the Unified State Register of Legal Entities (\u0415\u0434\u0438\u043d\u044b\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0440\u0435\u0435\u0441\u0442\u0440 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0446, \u0415\u0413\u0420\u042e\u041b),using the company\u2019s INN (Taxpayer Identification Number, \u0418\u041d\u041d), page 14.\nThis mine polygon operates under subsoil land-use license \u0421\u042b\u041a02562\u0422\u042d. The subsoil land-use license was issued on July 20, 2015 and is valid until December 30, 2032, https://web.archive.org/details/ul-1111103001327-20251125014237.\nThe license boundary with geographic coordinates was extracted directly from the NedraExpert portal for license \u0421\u042b\u041a02562\u0422\u042d, https://web.archive.org/web/20251126131717/https://www.nedraexpert.ru/license/145711?ysclid=mig125k1hk990693138.\nThe approximate area of this boundary polygon is 33 square km.",
+        "description": "Zapolyarnaya mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2338",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zapolyarnaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Zapolyarnaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.783504,
+          67.465842
+        ]
+      },
+      "properties": {
+        "id": "M2338.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. ",
+        "description": "Ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2338",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zapolyarnaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Zapolyarnaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.767311,
+          67.462141
+        ]
+      },
+      "properties": {
+        "id": "M2338.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. ",
+        "description": "Ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2338",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zapolyarnaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Zapolyarnaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.776683,
+          67.487761
+        ]
+      },
+      "properties": {
+        "id": "M2338.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2338",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zapolyarnaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Zapolyarnaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.833984,
+          67.469936
+        ]
+      },
+      "properties": {
+        "id": "M2338.P4",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2338",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zapolyarnaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Zapolyarnaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.829766,
+          67.469563
+        ]
+      },
+      "properties": {
+        "id": "M2338.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2338",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zapolyarnaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Zapolyarnaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.763553,
+          67.484492
+        ]
+      },
+      "properties": {
+        "id": "M2338.P6",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2338",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zapolyarnaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Zapolyarnaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.758443,
+          67.484016
+        ]
+      },
+      "properties": {
+        "id": "M2338.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible vents",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2338",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zapolyarnaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Zapolyarnaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

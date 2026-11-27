@@ -1,0 +1,437 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              63.852183,
+              67.482328
+            ],
+            [
+              63.86885,
+              67.482883
+            ],
+            [
+              63.890794,
+              67.483161
+            ],
+            [
+              63.896628,
+              67.483161
+            ],
+            [
+              63.908575,
+              67.482883
+            ],
+            [
+              63.920797,
+              67.481772
+            ],
+            [
+              63.924964,
+              67.483161
+            ],
+            [
+              63.927742,
+              67.482883
+            ],
+            [
+              63.957186,
+              67.489828
+            ],
+            [
+              63.962464,
+              67.495383
+            ],
+            [
+              63.984131,
+              67.505664
+            ],
+            [
+              63.990797,
+              67.504275
+            ],
+            [
+              63.996908,
+              67.508719
+            ],
+            [
+              64.008019,
+              67.517331
+            ],
+            [
+              64.014408,
+              67.523164
+            ],
+            [
+              64.024686,
+              67.529831
+            ],
+            [
+              64.033297,
+              67.534553
+            ],
+            [
+              64.031353,
+              67.534831
+            ],
+            [
+              64.041353,
+              67.536775
+            ],
+            [
+              64.044964,
+              67.537053
+            ],
+            [
+              64.042186,
+              67.538442
+            ],
+            [
+              64.055519,
+              67.543997
+            ],
+            [
+              64.065519,
+              67.547331
+            ],
+            [
+              64.069686,
+              67.547886
+            ],
+            [
+              64.075797,
+              67.548442
+            ],
+            [
+              64.066908,
+              67.548997
+            ],
+            [
+              64.054964,
+              67.547886
+            ],
+            [
+              64.025517,
+              67.548719
+            ],
+            [
+              64.020794,
+              67.547331
+            ],
+            [
+              64.010794,
+              67.542886
+            ],
+            [
+              63.994406,
+              67.540108
+            ],
+            [
+              63.983017,
+              67.538164
+            ],
+            [
+              63.987183,
+              67.536497
+            ],
+            [
+              63.959128,
+              67.535942
+            ],
+            [
+              63.947181,
+              67.535386
+            ],
+            [
+              63.935514,
+              67.535108
+            ],
+            [
+              63.918847,
+              67.535942
+            ],
+            [
+              63.918847,
+              67.531497
+            ],
+            [
+              63.918569,
+              67.522606
+            ],
+            [
+              63.918572,
+              67.517328
+            ],
+            [
+              63.911347,
+              67.51705
+            ],
+            [
+              63.882458,
+              67.515939
+            ],
+            [
+              63.882181,
+              67.518439
+            ],
+            [
+              63.880236,
+              67.512883
+            ],
+            [
+              63.875792,
+              67.504828
+            ],
+            [
+              63.872736,
+              67.500106
+            ],
+            [
+              63.856072,
+              67.488439
+            ],
+            [
+              63.852183,
+              67.482328
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0868.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-11-25 00:00:00",
+        "notes": "The subsoil land-use license relevant to the Vorkutinskaya Coal Mine was identified through the Unified State Register of Legal Entities (\u0415\u0434\u0438\u043d\u044b\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0440\u0435\u0435\u0441\u0442\u0440 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0446, \u0415\u0413\u0420\u042e\u041b), using the company\u2019s INN (Taxpayer Identification Number, \u0418\u041d\u041d), page 15, https://web.archive.org/details/ul-1021100807452-20251125171514\nThis mine polygon operates under subsoil land-use license \u0421\u042b\u041a02558\u0422\u042d. The license was issued on July 20, 2015, and is valid until December 31, 2032.\nThe license boundary with geographic coordinates was extracted directly from the NedraExpert portal for license \u0421\u042b\u041a02558\u0422\u042d, https://web.archive.org/web/20251125154656/https://www.nedraexpert.ru/subsurface/1144751628/1#about.The northwestern edge of the Vorkutinskaya boundary overlaps with the southeastern edge of the Komsomolskaya Coal Mine boundary.\nThe approximate area of this boundary polygon is 29 square km.",
+        "description": "Vorkutinskaya coal mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0868",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Vorkutinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Vorkutinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 28, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.956345,
+          67.502124
+        ]
+      },
+      "properties": {
+        "id": "M0868.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-07-17 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0868",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Vorkutinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Vorkutinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 28, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.958233,
+          67.496527
+        ]
+      },
+      "properties": {
+        "id": "M0868.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2002-06-22 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.The structures are clearly visible as active shafts in June 2002, fully demolished by June 2005, and consistent with decommissioning by 2009.",
+        "description": "Decommissioned ventilation shafts",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0868",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Vorkutinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Vorkutinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 28, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.914244,
+          67.505222
+        ]
+      },
+      "properties": {
+        "id": "M0868.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0868",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Vorkutinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Vorkutinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 28, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.917718,
+          67.505232
+        ]
+      },
+      "properties": {
+        "id": "M0868.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0868",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Vorkutinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Vorkutinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 28, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.92199,
+          67.512766
+        ]
+      },
+      "properties": {
+        "id": "M0868.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2002-06-22 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. The structures are clearly visible in June 2002 imagery and fully removed by June 2005, indicating that the object was demolished and subsequently decommissioned during this period.",
+        "description": "Decommissioned ventilation shafts",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0868",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Vorkutinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Vorkutinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 28, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.020967,
+          67.526171
+        ]
+      },
+      "properties": {
+        "id": "M0868.P6",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2022-10-04 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible slope access or production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0868",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Vorkutinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Vorkutinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 28, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.021005,
+          67.525353
+        ]
+      },
+      "properties": {
+        "id": "M0868.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-07-17 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0868",
+        "Owners": "Vorkutaugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Russkaya Energiya LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Vorkutinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Vorkutinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 28, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

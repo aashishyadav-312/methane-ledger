@@ -1,0 +1,1267 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.284439,
+              -21.998448
+            ],
+            [
+              148.284439,
+              -21.998104
+            ],
+            [
+              148.284439,
+              -21.998104
+            ],
+            [
+              148.284437,
+              -21.985614
+            ],
+            [
+              148.284437,
+              -21.984961
+            ],
+            [
+              148.284434,
+              -21.945218
+            ],
+            [
+              148.278808,
+              -21.946376
+            ],
+            [
+              148.278177,
+              -21.946506
+            ],
+            [
+              148.259528,
+              -21.950345
+            ],
+            [
+              148.25645,
+              -21.950318
+            ],
+            [
+              148.25693,
+              -21.950111
+            ],
+            [
+              148.259294,
+              -21.949468
+            ],
+            [
+              148.26317,
+              -21.948668
+            ],
+            [
+              148.243564,
+              -21.929552
+            ],
+            [
+              148.24219,
+              -21.930213
+            ],
+            [
+              148.238315,
+              -21.932067
+            ],
+            [
+              148.237517,
+              -21.932532
+            ],
+            [
+              148.232869,
+              -21.935776
+            ],
+            [
+              148.232731,
+              -21.935899
+            ],
+            [
+              148.23273,
+              -21.935793
+            ],
+            [
+              148.230633,
+              -21.937258
+            ],
+            [
+              148.229822,
+              -21.937781
+            ],
+            [
+              148.228965,
+              -21.938257
+            ],
+            [
+              148.228118,
+              -21.938674
+            ],
+            [
+              148.227203,
+              -21.939049
+            ],
+            [
+              148.226286,
+              -21.939368
+            ],
+            [
+              148.225357,
+              -21.939627
+            ],
+            [
+              148.22439,
+              -21.939839
+            ],
+            [
+              148.222492,
+              -21.940187
+            ],
+            [
+              148.221445,
+              -21.940405
+            ],
+            [
+              148.220569,
+              -21.940538
+            ],
+            [
+              148.219632,
+              -21.940712
+            ],
+            [
+              148.218703,
+              -21.940886
+            ],
+            [
+              148.217757,
+              -21.941048
+            ],
+            [
+              148.208175,
+              -21.942977
+            ],
+            [
+              148.205351,
+              -21.94198
+            ],
+            [
+              148.204447,
+              -21.941656
+            ],
+            [
+              148.194001,
+              -21.937896
+            ],
+            [
+              148.193994,
+              -21.937947
+            ],
+            [
+              148.193966,
+              -21.938161
+            ],
+            [
+              148.190676,
+              -21.96318
+            ],
+            [
+              148.214258,
+              -21.965959
+            ],
+            [
+              148.214701,
+              -21.966717
+            ],
+            [
+              148.215496,
+              -21.969023
+            ],
+            [
+              148.214574,
+              -21.976065
+            ],
+            [
+              148.214348,
+              -21.977884
+            ],
+            [
+              148.214042,
+              -21.978771
+            ],
+            [
+              148.21357,
+              -21.982555
+            ],
+            [
+              148.212574,
+              -21.989916
+            ],
+            [
+              148.235511,
+              -21.992531
+            ],
+            [
+              148.236364,
+              -21.992628
+            ],
+            [
+              148.24684,
+              -21.993821
+            ],
+            [
+              148.246409,
+              -21.997853
+            ],
+            [
+              148.249073,
+              -21.998109
+            ],
+            [
+              148.250195,
+              -21.997796
+            ],
+            [
+              148.251274,
+              -21.998603
+            ],
+            [
+              148.251582,
+              -21.998592
+            ],
+            [
+              148.254323,
+              -21.99686
+            ],
+            [
+              148.254817,
+              -21.996826
+            ],
+            [
+              148.256147,
+              -21.997599
+            ],
+            [
+              148.256265,
+              -21.997973
+            ],
+            [
+              148.257039,
+              -21.998444
+            ],
+            [
+              148.264692,
+              -21.998446
+            ],
+            [
+              148.267765,
+              -21.998446
+            ],
+            [
+              148.284439,
+              -21.998448
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0022.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2024-12-01 00:00:00",
+        "notes": "The coal mining lease boundaries of the Carborough Downs mine were downloaded from the Queensland Spatial Catalogue,  https://web.archive.org/save/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/5041f29f-7001-467c-803f-963c59da76c1 , 2024 version, and the relevant leases were confirmed in an Environmental Assessment Report of the Carborough Downs South Extension Project, https://web.archive.org/save/https://minedocs.com/23/Carborough_Downs-Environmental_Assessment-2021.pdf. The mining leases were then merged to extract a polygon for the main mine's total boundary. The approximate area of the boundary is 50 square km.",
+        "description": "Carborough Downs mining lease boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.267765,
+              -21.998446
+            ],
+            [
+              148.267764,
+              -22.001313
+            ],
+            [
+              148.282558,
+              -22.015121
+            ],
+            [
+              148.284429,
+              -22.015121
+            ],
+            [
+              148.284428,
+              -22.016866
+            ],
+            [
+              148.292224,
+              -22.02414
+            ],
+            [
+              148.295944,
+              -22.023764
+            ],
+            [
+              148.30437,
+              -22.014099
+            ],
+            [
+              148.301988,
+              -22.009894
+            ],
+            [
+              148.300795,
+              -22.007937
+            ],
+            [
+              148.300583,
+              -22.005249
+            ],
+            [
+              148.29843,
+              -22.003273
+            ],
+            [
+              148.293298,
+              -21.996462
+            ],
+            [
+              148.293596,
+              -21.991103
+            ],
+            [
+              148.287189,
+              -21.99078
+            ],
+            [
+              148.284438,
+              -21.990096
+            ],
+            [
+              148.284439,
+              -21.998448
+            ],
+            [
+              148.267765,
+              -21.998446
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0022.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2024-12-01 00:00:00",
+        "notes": "The coal mining lease boundary of a proposed expansion project, (\"Carborough Downs South Extension\") of the Carborough Downs mine was downloaded from the Queensland Spatial Catalogue, https://web.archive.org/save/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/5041f29f-7001-467c-803f-963c59da76c1 , 2024 version.",
+        "description": "Proposed mine expansion boundary (Carborough Downs South Extension)",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.260351,
+          -21.993986
+        ]
+      },
+      "properties": {
+        "id": "M0022.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "The two ventilation shafts were identified in a 2022 Fitzroy Resources report, https://web.archive.org/save/https://www.publications.qld.gov.au/ckan-publications-attachments-prod/resources/0f3a2e0a-3627-4433-bec2-5122877f6388/2022-level-1-mine-emergency-exercise-report.pdf?ETag=dafc04400fb55775c8201cfb9cee021e. The map in Figure 2 CDCM Mine plan, of the report was coroborated with Google Earth imagery, and the exact coordinates of Shaft #1 was extracted manually from satellite imagery.",
+        "description": "Ventilation shaft 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.249019,
+          -21.972554
+        ]
+      },
+      "properties": {
+        "id": "M0022.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "The two ventilation shafts were identified in a 2022 Fitzroy Resources report, https://web.archive.org/save/https://www.publications.qld.gov.au/ckan-publications-attachments-prod/resources/0f3a2e0a-3627-4433-bec2-5122877f6388/2022-level-1-mine-emergency-exercise-report.pdf?ETag=dafc04400fb55775c8201cfb9cee021e. The map in Figure 2 CDCM Mine plan, of the report was coroborated with Google Earth imagery, and the exact coordinates of Shaft #2 was extracted manually from satellite imagery.",
+        "description": "Ventilation shaft 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.243439,
+          -21.992098
+        ]
+      },
+      "properties": {
+        "id": "M0022.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "adit or drift",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "This mine access drift/portal was identified via visual analysis of Google Earth satellite imagery from 2015-2023, and its location was confirmed in figure 2 of the Environmental Assessment Report of the Carborough Downs extension project, https://web.archive.org/save/https://minedocs.com/23/Carborough_Downs-Environmental_Assessment-2021.pdf.",
+        "description": "Underground mine access drift/portal",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.233208,
+          -21.991527
+        ]
+      },
+      "properties": {
+        "id": "M0022.P4",
+        "mine feature category": "other",
+        "mine feature subcategory": "adit or drift",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "This conveyor adit was identified via visual analysis of Google Earth satellite imagery from 2023.",
+        "description": "Conveyor adit",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.209625,
+          -21.950054
+        ]
+      },
+      "properties": {
+        "id": "M0022.P5",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "This coal handling and preparation plant (CHPP) was identified via visual analysis of Google Earth satellite imagery from 2023.",
+        "description": "Coal handling and preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.23632,
+          -21.964888
+        ]
+      },
+      "properties": {
+        "id": "M0022.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.246361,
+          -21.941528
+        ]
+      },
+      "properties": {
+        "id": "M0022.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.239301,
+          -21.946355
+        ]
+      },
+      "properties": {
+        "id": "M0022.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.242838,
+          -21.952382
+        ]
+      },
+      "properties": {
+        "id": "M0022.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.238967,
+          -21.950479
+        ]
+      },
+      "properties": {
+        "id": "M0022.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.238617,
+          -21.951847
+        ]
+      },
+      "properties": {
+        "id": "M0022.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.237235,
+          -21.950199
+        ]
+      },
+      "properties": {
+        "id": "M0022.P12",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.233618,
+          -21.951648
+        ]
+      },
+      "properties": {
+        "id": "M0022.P13",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.232782,
+          -21.952901
+        ]
+      },
+      "properties": {
+        "id": "M0022.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.224894,
+          -21.955594
+        ]
+      },
+      "properties": {
+        "id": "M0022.P15",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possibe gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.231533,
+          -21.954215
+        ]
+      },
+      "properties": {
+        "id": "M0022.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.233349,
+          -21.953956
+        ]
+      },
+      "properties": {
+        "id": "M0022.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.244432,
+          -21.954932
+        ]
+      },
+      "properties": {
+        "id": "M0022.P18",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.24089,
+          -21.958104
+        ]
+      },
+      "properties": {
+        "id": "M0022.P19",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.23981,
+          -21.959268
+        ]
+      },
+      "properties": {
+        "id": "M0022.P20",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.225306,
+          -21.956473
+        ]
+      },
+      "properties": {
+        "id": "M0022.P21",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.234249,
+          -21.96064
+        ]
+      },
+      "properties": {
+        "id": "M0022.P22",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.239976,
+          -21.96462
+        ]
+      },
+      "properties": {
+        "id": "M0022.P23",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.241018,
+          -21.944318
+        ]
+      },
+      "properties": {
+        "id": "M0022.P24",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.247546,
+          -21.973262
+        ]
+      },
+      "properties": {
+        "id": "M0022.P25",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.237985,
+          -21.980551
+        ]
+      },
+      "properties": {
+        "id": "M0022.P26",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.233666,
+          -21.988303
+        ]
+      },
+      "properties": {
+        "id": "M0022.P27",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.266007,
+          -21.994998
+        ]
+      },
+      "properties": {
+        "id": "M0022.P28",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.277917,
+          -22.001102
+        ]
+      },
+      "properties": {
+        "id": "M0022.P29",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0022",
+        "Owners": "Fitzroy Australia Resources Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "AMC [50%]I; Riverstone Holdings [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Carborough_Downs_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Carborough Downs Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

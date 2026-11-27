@@ -1,0 +1,713 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.629734,
+              37.529076
+            ],
+            [
+              -81.629965,
+              37.529224
+            ],
+            [
+              -81.631176,
+              37.527977
+            ],
+            [
+              -81.627701,
+              37.525576
+            ],
+            [
+              -81.627754,
+              37.525304
+            ],
+            [
+              -81.628158,
+              37.525321
+            ],
+            [
+              -81.628199,
+              37.524831
+            ],
+            [
+              -81.628399,
+              37.524839
+            ],
+            [
+              -81.628422,
+              37.524458
+            ],
+            [
+              -81.627792,
+              37.524431
+            ],
+            [
+              -81.627807,
+              37.524256
+            ],
+            [
+              -81.628849,
+              37.524295
+            ],
+            [
+              -81.629056,
+              37.523979
+            ],
+            [
+              -81.62928,
+              37.523983
+            ],
+            [
+              -81.629325,
+              37.52344
+            ],
+            [
+              -81.627872,
+              37.523384
+            ],
+            [
+              -81.627398,
+              37.523299
+            ],
+            [
+              -81.627406,
+              37.523173
+            ],
+            [
+              -81.631917,
+              37.523366
+            ],
+            [
+              -81.632132,
+              37.523763
+            ],
+            [
+              -81.636472,
+              37.523947
+            ],
+            [
+              -81.636459,
+              37.524139
+            ],
+            [
+              -81.639593,
+              37.524272
+            ],
+            [
+              -81.639579,
+              37.524465
+            ],
+            [
+              -81.641096,
+              37.524529
+            ],
+            [
+              -81.641108,
+              37.524338
+            ],
+            [
+              -81.641345,
+              37.524409
+            ],
+            [
+              -81.641387,
+              37.523769
+            ],
+            [
+              -81.641808,
+              37.523592
+            ],
+            [
+              -81.641973,
+              37.521232
+            ],
+            [
+              -81.641762,
+              37.521223
+            ],
+            [
+              -81.641589,
+              37.52083
+            ],
+            [
+              -81.641346,
+              37.52082
+            ],
+            [
+              -81.641358,
+              37.520631
+            ],
+            [
+              -81.640876,
+              37.520612
+            ],
+            [
+              -81.640888,
+              37.52042
+            ],
+            [
+              -81.640406,
+              37.5204
+            ],
+            [
+              -81.640418,
+              37.520208
+            ],
+            [
+              -81.639947,
+              37.520192
+            ],
+            [
+              -81.639717,
+              37.519787
+            ],
+            [
+              -81.636758,
+              37.519674
+            ],
+            [
+              -81.636746,
+              37.519866
+            ],
+            [
+              -81.636505,
+              37.519856
+            ],
+            [
+              -81.636492,
+              37.520048
+            ],
+            [
+              -81.636251,
+              37.520039
+            ],
+            [
+              -81.636239,
+              37.520231
+            ],
+            [
+              -81.635821,
+              37.520406
+            ],
+            [
+              -81.635193,
+              37.520365
+            ],
+            [
+              -81.635244,
+              37.519555
+            ],
+            [
+              -81.625913,
+              37.519222
+            ],
+            [
+              -81.62574,
+              37.521701
+            ],
+            [
+              -81.625327,
+              37.521876
+            ],
+            [
+              -81.625572,
+              37.518096
+            ],
+            [
+              -81.625752,
+              37.518099
+            ],
+            [
+              -81.625742,
+              37.518292
+            ],
+            [
+              -81.62766,
+              37.518371
+            ],
+            [
+              -81.627648,
+              37.518562
+            ],
+            [
+              -81.638361,
+              37.519002
+            ],
+            [
+              -81.638647,
+              37.518811
+            ],
+            [
+              -81.639187,
+              37.518843
+            ],
+            [
+              -81.639371,
+              37.517104
+            ],
+            [
+              -81.640227,
+              37.517153
+            ],
+            [
+              -81.640157,
+              37.518464
+            ],
+            [
+              -81.640638,
+              37.518928
+            ],
+            [
+              -81.640522,
+              37.519026
+            ],
+            [
+              -81.642494,
+              37.520477
+            ],
+            [
+              -81.643356,
+              37.519749
+            ],
+            [
+              -81.641434,
+              37.518251
+            ],
+            [
+              -81.64144,
+              37.518164
+            ],
+            [
+              -81.641974,
+              37.518184
+            ],
+            [
+              -81.64198,
+              37.517224
+            ],
+            [
+              -81.642217,
+              37.517234
+            ],
+            [
+              -81.642238,
+              37.5168
+            ],
+            [
+              -81.641768,
+              37.516638
+            ],
+            [
+              -81.64178,
+              37.516402
+            ],
+            [
+              -81.641549,
+              37.51639
+            ],
+            [
+              -81.641557,
+              37.516155
+            ],
+            [
+              -81.641242,
+              37.51595
+            ],
+            [
+              -81.639496,
+              37.515924
+            ],
+            [
+              -81.639565,
+              37.514201
+            ],
+            [
+              -81.638994,
+              37.514164
+            ],
+            [
+              -81.638918,
+              37.512658
+            ],
+            [
+              -81.637945,
+              37.511791
+            ],
+            [
+              -81.637258,
+              37.511894
+            ],
+            [
+              -81.637215,
+              37.512578
+            ],
+            [
+              -81.636184,
+              37.512549
+            ],
+            [
+              -81.636013,
+              37.512682
+            ],
+            [
+              -81.635982,
+              37.512948
+            ],
+            [
+              -81.635254,
+              37.513465
+            ],
+            [
+              -81.635007,
+              37.514394
+            ],
+            [
+              -81.632065,
+              37.514268
+            ],
+            [
+              -81.632087,
+              37.513886
+            ],
+            [
+              -81.631815,
+              37.513874
+            ],
+            [
+              -81.63183,
+              37.513549
+            ],
+            [
+              -81.627564,
+              37.51332
+            ],
+            [
+              -81.627576,
+              37.513128
+            ],
+            [
+              -81.62631,
+              37.513076
+            ],
+            [
+              -81.62606,
+              37.516909
+            ],
+            [
+              -81.625641,
+              37.517075
+            ],
+            [
+              -81.625882,
+              37.513239
+            ],
+            [
+              -81.62564,
+              37.51323
+            ],
+            [
+              -81.625634,
+              37.512454
+            ],
+            [
+              -81.625862,
+              37.508745
+            ],
+            [
+              -81.624687,
+              37.507826
+            ],
+            [
+              -81.624651,
+              37.508198
+            ],
+            [
+              -81.624421,
+              37.50817
+            ],
+            [
+              -81.624382,
+              37.508768
+            ],
+            [
+              -81.62413,
+              37.508752
+            ],
+            [
+              -81.624108,
+              37.508933
+            ],
+            [
+              -81.624028,
+              37.510522
+            ],
+            [
+              -81.624277,
+              37.510536
+            ],
+            [
+              -81.624156,
+              37.512396
+            ],
+            [
+              -81.623906,
+              37.512382
+            ],
+            [
+              -81.623777,
+              37.514112
+            ],
+            [
+              -81.623705,
+              37.515513
+            ],
+            [
+              -81.623949,
+              37.515516
+            ],
+            [
+              -81.62395,
+              37.51566
+            ],
+            [
+              -81.623758,
+              37.518544
+            ],
+            [
+              -81.621372,
+              37.518488
+            ],
+            [
+              -81.621337,
+              37.519693
+            ],
+            [
+              -81.621769,
+              37.519888
+            ],
+            [
+              -81.621546,
+              37.523287
+            ],
+            [
+              -81.621777,
+              37.52328
+            ],
+            [
+              -81.621787,
+              37.523538
+            ],
+            [
+              -81.623061,
+              37.523466
+            ],
+            [
+              -81.623274,
+              37.519947
+            ],
+            [
+              -81.623327,
+              37.519725
+            ],
+            [
+              -81.62368,
+              37.519741
+            ],
+            [
+              -81.623422,
+              37.523785
+            ],
+            [
+              -81.625197,
+              37.523861
+            ],
+            [
+              -81.625271,
+              37.522876
+            ],
+            [
+              -81.625661,
+              37.522911
+            ],
+            [
+              -81.625651,
+              37.523164
+            ],
+            [
+              -81.625894,
+              37.5231
+            ],
+            [
+              -81.625678,
+              37.523295
+            ],
+            [
+              -81.625883,
+              37.523436
+            ],
+            [
+              -81.625649,
+              37.523315
+            ],
+            [
+              -81.625609,
+              37.523872
+            ],
+            [
+              -81.625851,
+              37.523878
+            ],
+            [
+              -81.625856,
+              37.524065
+            ],
+            [
+              -81.625803,
+              37.52468
+            ],
+            [
+              -81.625565,
+              37.524671
+            ],
+            [
+              -81.625469,
+              37.526162
+            ],
+            [
+              -81.625916,
+              37.526172
+            ],
+            [
+              -81.625813,
+              37.526366
+            ],
+            [
+              -81.629734,
+              37.529076
+            ]
+          ],
+          [
+            [
+              -81.632235,
+              37.5153
+            ],
+            [
+              -81.638265,
+              37.515522
+            ],
+            [
+              -81.638252,
+              37.515717
+            ],
+            [
+              -81.63907,
+              37.515751
+            ],
+            [
+              -81.63906,
+              37.515901
+            ],
+            [
+              -81.627919,
+              37.515449
+            ],
+            [
+              -81.627935,
+              37.515116
+            ],
+            [
+              -81.632235,
+              37.5153
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2694.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "Unclear - according to https://web.archive.org/web/2/https://www.wvgs.wvnet.edu/www/coal/cbmp/coalims.html, \"Updates to the data set occur as new data becomes available.\"",
+        "notes": "This boundary was extracted from the West Virginia Geological and Economic Survey (WVGES) resource at https://web.archive.org/web/2/https://atlas.wvgs.wvnet.edu/arcgis/rest/services/Coal_Web_Mercator/All_Mining_WM/MapServer, which was filtered for mine_name ''RAW SEWELL MINE B''. The resulting polygon adjacent to the mine location was simplified using distance-based simplification with a tolerance of 15m. The area of this boundary is 2 sq km. The mine mines the Sewell seam.\n\nImportant note: the following mine boundaries overlap the mine boundary and care should be taken when attempting methane source attribution: Unknown Mine C (Sewell seam), LITTLE DARRELL NO 1 (Iaeger seam)",
+        "description": "Sewell Mine B mine detailed underground mining area boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2694",
+        "Owners": "Raw Coal Mining Co Inc [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "natural persons [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Sewell_Mine_B_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "-",
+        "Mine Name": "Sewell Mine B Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Sep 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.622652,
+          37.506151
+        ]
+      },
+      "properties": {
+        "id": "M2694.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2020-11-08 00:00:00",
+        "notes": "Visually identified using Google Earth Pro satellite imagery.",
+        "description": "ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2694",
+        "Owners": "Raw Coal Mining Co Inc [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "natural persons [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Sewell_Mine_B_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "-",
+        "Mine Name": "Sewell Mine B Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Sep 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.622789,
+          37.505878
+        ]
+      },
+      "properties": {
+        "id": "M2694.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2020-11-08 00:00:00",
+        "notes": "Visually identified using Google Earth Pro satellite imagery.",
+        "description": "mine production portal",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2694",
+        "Owners": "Raw Coal Mining Co Inc [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "natural persons [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Sewell_Mine_B_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "-",
+        "Mine Name": "Sewell Mine B Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Sep 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

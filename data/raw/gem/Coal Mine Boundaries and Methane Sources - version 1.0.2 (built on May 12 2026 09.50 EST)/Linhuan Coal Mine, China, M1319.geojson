@@ -1,0 +1,373 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.573484,
+              33.620584
+            ],
+            [
+              116.578242,
+              33.617219
+            ],
+            [
+              116.580555,
+              33.617903
+            ],
+            [
+              116.582336,
+              33.617323
+            ],
+            [
+              116.596895,
+              33.614982
+            ],
+            [
+              116.603745,
+              33.613291
+            ],
+            [
+              116.623686,
+              33.612137
+            ],
+            [
+              116.629658,
+              33.614093
+            ],
+            [
+              116.641223,
+              33.613496
+            ],
+            [
+              116.649956,
+              33.617596
+            ],
+            [
+              116.659956,
+              33.622971
+            ],
+            [
+              116.665221,
+              33.627268
+            ],
+            [
+              116.675162,
+              33.631847
+            ],
+            [
+              116.671004,
+              33.64234
+            ],
+            [
+              116.680725,
+              33.646035
+            ],
+            [
+              116.684591,
+              33.649813
+            ],
+            [
+              116.694226,
+              33.653669
+            ],
+            [
+              116.701269,
+              33.659123
+            ],
+            [
+              116.719079,
+              33.669191
+            ],
+            [
+              116.726625,
+              33.669884
+            ],
+            [
+              116.717372,
+              33.680186
+            ],
+            [
+              116.701741,
+              33.678481
+            ],
+            [
+              116.675023,
+              33.68019
+            ],
+            [
+              116.663317,
+              33.673225
+            ],
+            [
+              116.64018,
+              33.662016
+            ],
+            [
+              116.633097,
+              33.661752
+            ],
+            [
+              116.625852,
+              33.659161
+            ],
+            [
+              116.62036,
+              33.657882
+            ],
+            [
+              116.610837,
+              33.653615
+            ],
+            [
+              116.587647,
+              33.633524
+            ],
+            [
+              116.579121,
+              33.62915
+            ],
+            [
+              116.573484,
+              33.620584
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1319.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2018-01-12 00:00:00",
+        "notes": "The coal mine boundary was found in Table 4 Coordinate table of inflection points in the mining area, in Evaluation Report on the Mining Rights of Linhuan Coal Mine, Huaibei Mining Co., Ltd. (\u6dee\u5317\u77ff\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e34\u6da3\u7164\u77ff\u91c7\u77ff\u6743\u8bc4\u4f30\u62a5\u544a\u4e66),  https://web.archive.org/web/20250730224218/https://q.stock.sohu.com/cn,gg,600985,2668672771.shtml",
+        "description": "Linhuan coal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1319",
+        "Owners": "Huaibei Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaibei Mining Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Linhuan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8C%97%E7%9F%BF%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%B4%E6%B6%A3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Linhuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.682072,
+          33.632713
+        ]
+      },
+      "properties": {
+        "id": "M1319.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-02-19 00:00:00",
+        "notes": "The drainage station was mentioned on page 19 \"\u74e6\u65af\u62bd\u91c7\u7ad9\u201c in the document Geological Environmental Protection and Land Reclamation Plan for the Linhuan Coal Mine, Huaibei Mining Co., Ltd. ( \u6dee\u5317\u77ff\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e34\u6da3\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250730224352/https://www.doc88.com/p-28647539835890.html, and identified visually from Google Earth Pro satellite imagery. ",
+        "description": "gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1319",
+        "Owners": "Huaibei Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaibei Mining Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Linhuan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8C%97%E7%9F%BF%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%B4%E6%B6%A3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Linhuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.633506,
+          33.632489
+        ]
+      },
+      "properties": {
+        "id": "M1319.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2021-11-21 00:00:00",
+        "notes": "The shaft was mentioned in Table 1.3-1 summary of shafts' details, on page 18 of Geological Environmental Protection and Land Reclamation Plan for the Linhuan Coal Mine, Huaibei Mining Co., Ltd. ( \u6dee\u5317\u77ff\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e34\u6da3\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250730224352/https://www.doc88.com/p-28647539835890.html, and identified visually from Google Earth Pro satellite imagery. \n",
+        "description": "main slope",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1319",
+        "Owners": "Huaibei Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaibei Mining Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Linhuan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8C%97%E7%9F%BF%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%B4%E6%B6%A3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Linhuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.634687,
+          33.632929
+        ]
+      },
+      "properties": {
+        "id": "M1319.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2021-11-21 00:00:00",
+        "notes": "The shaft was mentioned in Table 1.3-1 summary of shafts' details, on page 18 of Geological Environmental Protection and Land Reclamation Plan for the Linhuan Coal Mine, Huaibei Mining Co., Ltd. ( \u6dee\u5317\u77ff\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e34\u6da3\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250730224352/https://www.doc88.com/p-28647539835890.html, and identified visually from Google Earth Pro satellite imagery. \n",
+        "description": "auxiliary slope",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1319",
+        "Owners": "Huaibei Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaibei Mining Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Linhuan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8C%97%E7%9F%BF%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%B4%E6%B6%A3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Linhuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.683421,
+          33.63233
+        ]
+      },
+      "properties": {
+        "id": "M1319.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-02-19 00:00:00",
+        "notes": "The shaft was mentioned in Table 1.3-1 summary of shafts' details, on page 18 of Geological Environmental Protection and Land Reclamation Plan for the Linhuan Coal Mine, Huaibei Mining Co., Ltd. ( \u6dee\u5317\u77ff\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e34\u6da3\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250730224352/https://www.doc88.com/p-28647539835890.html, and identified visually from Google Earth Pro satellite imagery. \n",
+        "description": "East Side return air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1319",
+        "Owners": "Huaibei Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaibei Mining Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Linhuan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8C%97%E7%9F%BF%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%B4%E6%B6%A3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Linhuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.682856,
+          33.632543
+        ]
+      },
+      "properties": {
+        "id": "M1319.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-02-19 00:00:00",
+        "notes": "The shaft was mentioned in Table 1.3-1 summary of shafts' details, on page 18 of Geological Environmental Protection and Land Reclamation Plan for the Linhuan Coal Mine, Huaibei Mining Co., Ltd. ( \u6dee\u5317\u77ff\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e34\u6da3\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250730224352/https://www.doc88.com/p-28647539835890.html, and identified visually from Google Earth Pro satellite imagery. \n",
+        "description": "East Side intake air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1319",
+        "Owners": "Huaibei Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaibei Mining Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Linhuan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8C%97%E7%9F%BF%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%B4%E6%B6%A3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Linhuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.631659,
+          33.634602
+        ]
+      },
+      "properties": {
+        "id": "M1319.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2021-11-21 00:00:00",
+        "notes": "The shaft was mentioned in Table 1.3-1 summary of shafts' details, on page 18 of Geological Environmental Protection and Land Reclamation Plan for the Linhuan Coal Mine, Huaibei Mining Co., Ltd. ( \u6dee\u5317\u77ff\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e34\u6da3\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250730224352/https://www.doc88.com/p-28647539835890.html, and identified visually from Google Earth Pro satellite imagery. \n",
+        "description": "West return air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1319",
+        "Owners": "Huaibei Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaibei Mining Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Linhuan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8C%97%E7%9F%BF%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%B4%E6%B6%A3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Linhuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.632001,
+          33.634701
+        ]
+      },
+      "properties": {
+        "id": "M1319.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2021-11-21 00:00:00",
+        "notes": "The shaft was mentioned in Table 1.3-1 summary of shafts' details, on page 18 of Geological Environmental Protection and Land Reclamation Plan for the Linhuan Coal Mine, Huaibei Mining Co., Ltd. ( \u6dee\u5317\u77ff\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e34\u6da3\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250730224352/https://www.doc88.com/p-28647539835890.html, and identified visually from Google Earth Pro satellite imagery. \n",
+        "description": "East intake air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1319",
+        "Owners": "Huaibei Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaibei Mining Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Linhuan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8C%97%E7%9F%BF%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%B4%E6%B6%A3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Linhuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

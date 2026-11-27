@@ -1,0 +1,1657 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.035052,
+              -32.658837
+            ],
+            [
+              151.032925,
+              -32.700096
+            ],
+            [
+              151.049497,
+              -32.702152
+            ],
+            [
+              151.055956,
+              -32.709659
+            ],
+            [
+              151.058306,
+              -32.709667
+            ],
+            [
+              151.059411,
+              -32.710317
+            ],
+            [
+              151.061993,
+              -32.710315
+            ],
+            [
+              151.066711,
+              -32.714085
+            ],
+            [
+              151.073425,
+              -32.733175
+            ],
+            [
+              151.087048,
+              -32.724731
+            ],
+            [
+              151.090177,
+              -32.72703
+            ],
+            [
+              151.10206,
+              -32.727311
+            ],
+            [
+              151.107843,
+              -32.739739
+            ],
+            [
+              151.11165,
+              -32.740738
+            ],
+            [
+              151.113692,
+              -32.744983
+            ],
+            [
+              151.118443,
+              -32.744933
+            ],
+            [
+              151.1235,
+              -32.744459
+            ],
+            [
+              151.128178,
+              -32.742906
+            ],
+            [
+              151.115928,
+              -32.717969
+            ],
+            [
+              151.116346,
+              -32.709939
+            ],
+            [
+              151.117266,
+              -32.702006
+            ],
+            [
+              151.121739,
+              -32.702383
+            ],
+            [
+              151.124601,
+              -32.686696
+            ],
+            [
+              151.13675,
+              -32.688303
+            ],
+            [
+              151.13879,
+              -32.671735
+            ],
+            [
+              151.140024,
+              -32.669724
+            ],
+            [
+              151.137985,
+              -32.668683
+            ],
+            [
+              151.136894,
+              -32.666622
+            ],
+            [
+              151.136578,
+              -32.663405
+            ],
+            [
+              151.135465,
+              -32.660919
+            ],
+            [
+              151.133125,
+              -32.66059
+            ],
+            [
+              151.133218,
+              -32.659039
+            ],
+            [
+              151.132289,
+              -32.656965
+            ],
+            [
+              151.142356,
+              -32.659096
+            ],
+            [
+              151.143178,
+              -32.655262
+            ],
+            [
+              151.138201,
+              -32.648266
+            ],
+            [
+              151.133565,
+              -32.641664
+            ],
+            [
+              151.130452,
+              -32.639239
+            ],
+            [
+              151.124884,
+              -32.634356
+            ],
+            [
+              151.123184,
+              -32.637119
+            ],
+            [
+              151.12064,
+              -32.636228
+            ],
+            [
+              151.12048,
+              -32.639778
+            ],
+            [
+              151.115955,
+              -32.649294
+            ],
+            [
+              151.113288,
+              -32.652505
+            ],
+            [
+              151.112692,
+              -32.657181
+            ],
+            [
+              151.105056,
+              -32.657343
+            ],
+            [
+              151.103101,
+              -32.654884
+            ],
+            [
+              151.101652,
+              -32.655787
+            ],
+            [
+              151.098643,
+              -32.655483
+            ],
+            [
+              151.098415,
+              -32.657464
+            ],
+            [
+              151.034953,
+              -32.657664
+            ],
+            [
+              151.035052,
+              -32.658837
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0017.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground and surface",
+        "data source date": "2024-03-24 00:00:00",
+        "notes": "The boundary is based on FIGURE 2.1 - Bulga Coal Locality and Licences 2023 on page 6 in the 2023 annual report https://web.archive.org/web/20250327165741/https://www.glencore.com.au/.rest/api/v1/documents/ac07f9eb1350aa9915191c8721f24cf6/Annual+Review+2023+-+pending+DPHI+approval.pdf. The boundary is the Mining Lease shown in this figure. The area of the boundary is 68 square kilometers.",
+        "description": "Bulga mining lease and exploration license areas boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.059956,
+              -32.662722
+            ],
+            [
+              151.043898,
+              -32.671573
+            ],
+            [
+              151.038685,
+              -32.686821
+            ],
+            [
+              151.041712,
+              -32.697067
+            ],
+            [
+              151.048536,
+              -32.700809
+            ],
+            [
+              151.053137,
+              -32.705818
+            ],
+            [
+              151.056548,
+              -32.708689
+            ],
+            [
+              151.063451,
+              -32.71076
+            ],
+            [
+              151.067417,
+              -32.714299
+            ],
+            [
+              151.07188,
+              -32.728554
+            ],
+            [
+              151.078523,
+              -32.730054
+            ],
+            [
+              151.087014,
+              -32.724714
+            ],
+            [
+              151.090188,
+              -32.72705
+            ],
+            [
+              151.102011,
+              -32.727383
+            ],
+            [
+              151.107803,
+              -32.734213
+            ],
+            [
+              151.11193,
+              -32.741791
+            ],
+            [
+              151.125748,
+              -32.737796
+            ],
+            [
+              151.102719,
+              -32.687262
+            ],
+            [
+              151.094667,
+              -32.686138
+            ],
+            [
+              151.087074,
+              -32.683947
+            ],
+            [
+              151.077312,
+              -32.678195
+            ],
+            [
+              151.07048,
+              -32.669156
+            ],
+            [
+              151.059956,
+              -32.662722
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0017.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Figure 1 Regional Locality on page 5 of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf, shows the underground mine workings of the Bulga Underground Operations. A estimated boundary was extracted by drawing an approximate perimeter around the underground workings. The area of the boundary is 34 sq km.",
+        "description": "Bulga approximate underground mining area",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.09116,
+          -32.713227
+        ]
+      },
+      "properties": {
+        "id": "M0017.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Bypass vent",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.10626,
+          -32.697902
+        ]
+      },
+      "properties": {
+        "id": "M0017.P2",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Service borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.077941,
+          -32.719829
+        ]
+      },
+      "properties": {
+        "id": "M0017.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "dewatering station",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Dewatering and service borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.091965,
+          -32.712559
+        ]
+      },
+      "properties": {
+        "id": "M0017.P4",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf plant flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.105229,
+          -32.701866
+        ]
+      },
+      "properties": {
+        "id": "M0017.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf plant flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.051352,
+          -32.671317
+        ]
+      },
+      "properties": {
+        "id": "M0017.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.050497,
+          -32.692843
+        ]
+      },
+      "properties": {
+        "id": "M0017.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.051932,
+          -32.701088
+        ]
+      },
+      "properties": {
+        "id": "M0017.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.052165,
+          -32.701213
+        ]
+      },
+      "properties": {
+        "id": "M0017.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.051706,
+          -32.701109
+        ]
+      },
+      "properties": {
+        "id": "M0017.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.052473,
+          -32.701214
+        ]
+      },
+      "properties": {
+        "id": "M0017.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.051705,
+          -32.70193
+        ]
+      },
+      "properties": {
+        "id": "M0017.P12",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.077497,
+          -32.686082
+        ]
+      },
+      "properties": {
+        "id": "M0017.P13",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.081824,
+          -32.68651
+        ]
+      },
+      "properties": {
+        "id": "M0017.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.086063,
+          -32.690602
+        ]
+      },
+      "properties": {
+        "id": "M0017.P15",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.090164,
+          -32.693563
+        ]
+      },
+      "properties": {
+        "id": "M0017.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.084865,
+          -32.698697
+        ]
+      },
+      "properties": {
+        "id": "M0017.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.057138,
+          -32.700772
+        ]
+      },
+      "properties": {
+        "id": "M0017.P18",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.058107,
+          -32.702064
+        ]
+      },
+      "properties": {
+        "id": "M0017.P19",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.059546,
+          -32.702949
+        ]
+      },
+      "properties": {
+        "id": "M0017.P20",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.058822,
+          -32.705278
+        ]
+      },
+      "properties": {
+        "id": "M0017.P21",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.056616,
+          -32.706901
+        ]
+      },
+      "properties": {
+        "id": "M0017.P22",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.063756,
+          -32.706434
+        ]
+      },
+      "properties": {
+        "id": "M0017.P23",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.06814,
+          -32.706566
+        ]
+      },
+      "properties": {
+        "id": "M0017.P24",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.062076,
+          -32.708573
+        ]
+      },
+      "properties": {
+        "id": "M0017.P25",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.060507,
+          -32.706813
+        ]
+      },
+      "properties": {
+        "id": "M0017.P26",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.103351,
+          -32.716753
+        ]
+      },
+      "properties": {
+        "id": "M0017.P27",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.101837,
+          -32.71788
+        ]
+      },
+      "properties": {
+        "id": "M0017.P28",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.115824,
+          -32.731425
+        ]
+      },
+      "properties": {
+        "id": "M0017.P29",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.112639,
+          -32.731756
+        ]
+      },
+      "properties": {
+        "id": "M0017.P30",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.113434,
+          -32.733233
+        ]
+      },
+      "properties": {
+        "id": "M0017.P31",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Goaf and seam drainage borehole",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              151.052534,
+              -32.70249
+            ],
+            [
+              151.061641,
+              -32.703542
+            ],
+            [
+              151.062367,
+              -32.704161
+            ],
+            [
+              151.062322,
+              -32.705446
+            ],
+            [
+              151.057558,
+              -32.707193
+            ]
+          ],
+          [
+            [
+              151.062329,
+              -32.705449
+            ],
+            [
+              151.065177,
+              -32.7076
+            ],
+            [
+              151.068133,
+              -32.706785
+            ]
+          ],
+          [
+            [
+              151.061985,
+              -32.709897
+            ],
+            [
+              151.0646,
+              -32.708679
+            ],
+            [
+              151.065173,
+              -32.707608
+            ]
+          ],
+          [
+            [
+              151.062371,
+              -32.704164
+            ],
+            [
+              151.069701,
+              -32.699268
+            ],
+            [
+              151.072685,
+              -32.701387
+            ],
+            [
+              151.076413,
+              -32.700193
+            ],
+            [
+              151.07834,
+              -32.702627
+            ],
+            [
+              151.080066,
+              -32.703356
+            ],
+            [
+              151.084832,
+              -32.705199
+            ],
+            [
+              151.089638,
+              -32.710401
+            ],
+            [
+              151.090673,
+              -32.711524
+            ],
+            [
+              151.091522,
+              -32.712239
+            ],
+            [
+              151.09072,
+              -32.713372
+            ],
+            [
+              151.090853,
+              -32.714672
+            ],
+            [
+              151.09315,
+              -32.71652
+            ],
+            [
+              151.093679,
+              -32.718312
+            ],
+            [
+              151.094752,
+              -32.718528
+            ],
+            [
+              151.097935,
+              -32.722516
+            ],
+            [
+              151.098481,
+              -32.725327
+            ],
+            [
+              151.099444,
+              -32.725951
+            ],
+            [
+              151.102045,
+              -32.725529
+            ],
+            [
+              151.104922,
+              -32.726648
+            ],
+            [
+              151.107103,
+              -32.727008
+            ],
+            [
+              151.108016,
+              -32.728784
+            ],
+            [
+              151.108956,
+              -32.730092
+            ],
+            [
+              151.110907,
+              -32.73115
+            ],
+            [
+              151.112529,
+              -32.731602
+            ],
+            [
+              151.113555,
+              -32.732382
+            ],
+            [
+              151.114856,
+              -32.732286
+            ],
+            [
+              151.115881,
+              -32.731299
+            ]
+          ],
+          [
+            [
+              151.113483,
+              -32.734943
+            ],
+            [
+              151.113963,
+              -32.734058
+            ],
+            [
+              151.113436,
+              -32.732618
+            ],
+            [
+              151.113541,
+              -32.732392
+            ]
+          ],
+          [
+            [
+              151.089722,
+              -32.710435
+            ],
+            [
+              151.089684,
+              -32.708774
+            ],
+            [
+              151.092173,
+              -32.707446
+            ],
+            [
+              151.09431,
+              -32.706806
+            ],
+            [
+              151.094945,
+              -32.699388
+            ],
+            [
+              151.093975,
+              -32.698968
+            ],
+            [
+              151.094259,
+              -32.698209
+            ],
+            [
+              151.090193,
+              -32.694114
+            ]
+          ],
+          [
+            [
+              151.090242,
+              -32.711064
+            ],
+            [
+              151.096819,
+              -32.709781
+            ],
+            [
+              151.100103,
+              -32.707156
+            ],
+            [
+              151.103319,
+              -32.70692
+            ],
+            [
+              151.103909,
+              -32.702349
+            ],
+            [
+              151.103383,
+              -32.700981
+            ]
+          ],
+          [
+            [
+              151.094767,
+              -32.718535
+            ],
+            [
+              151.102694,
+              -32.716149
+            ],
+            [
+              151.105117,
+              -32.716677
+            ],
+            [
+              151.108384,
+              -32.718063
+            ]
+          ],
+          [
+            [
+              151.105255,
+              -32.716776
+            ],
+            [
+              151.103942,
+              -32.71774
+            ],
+            [
+              151.102286,
+              -32.717807
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0017.P32",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage pipeline",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Drainage pipeline",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.091381,
+          -32.713436
+        ]
+      },
+      "properties": {
+        "id": "M0017.P33",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Bypass vent",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.052603,
+          -32.705067
+        ]
+      },
+      "properties": {
+        "id": "M0017.P34",
+        "mine feature category": "other",
+        "mine feature subcategory": "dewatering station",
+        "data source date": "2021-07-28 00:00:00",
+        "notes": "Extracted from information found in Figure 2 Site Layout on page 6 of of the Bulga Coal Gas Drainage Management Plan published in July 28 2021, https://web.archive.org/web/20250327165856/https://www.glencore.com.au/.rest/api/v1/documents/e14a3cf2ee853e4cb0e48d239c61e92b/Gas+Drainage+Management+Plan_V2.pdf",
+        "description": "Dewatering station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0017",
+        "Owners": "Bulga Coal Management (BCM) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [87.5%]; Nippon Steel [12.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bulga_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bulga Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "May 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

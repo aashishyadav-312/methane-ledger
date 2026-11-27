@@ -1,0 +1,923 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.304597,
+              53.423383
+            ],
+            [
+              87.312931,
+              53.422272
+            ],
+            [
+              87.320431,
+              53.42255
+            ],
+            [
+              87.326819,
+              53.421994
+            ],
+            [
+              87.329878,
+              53.422272
+            ],
+            [
+              87.348489,
+              53.422272
+            ],
+            [
+              87.353211,
+              53.421994
+            ],
+            [
+              87.360433,
+              53.421439
+            ],
+            [
+              87.371267,
+              53.419217
+            ],
+            [
+              87.379044,
+              53.420606
+            ],
+            [
+              87.384878,
+              53.422272
+            ],
+            [
+              87.388767,
+              53.424494
+            ],
+            [
+              87.3921,
+              53.426161
+            ],
+            [
+              87.395711,
+              53.428661
+            ],
+            [
+              87.397656,
+              53.430883
+            ],
+            [
+              87.400433,
+              53.432828
+            ],
+            [
+              87.405433,
+              53.43755
+            ],
+            [
+              87.406544,
+              53.436717
+            ],
+            [
+              87.4096,
+              53.435883
+            ],
+            [
+              87.414603,
+              53.432828
+            ],
+            [
+              87.415158,
+              53.43255
+            ],
+            [
+              87.417381,
+              53.434772
+            ],
+            [
+              87.418492,
+              53.436439
+            ],
+            [
+              87.420436,
+              53.438383
+            ],
+            [
+              87.422103,
+              53.440606
+            ],
+            [
+              87.423769,
+              53.445606
+            ],
+            [
+              87.424325,
+              53.44755
+            ],
+            [
+              87.425158,
+              53.450328
+            ],
+            [
+              87.425992,
+              53.454772
+            ],
+            [
+              87.422936,
+              53.45505
+            ],
+            [
+              87.390156,
+              53.456994
+            ],
+            [
+              87.381822,
+              53.444494
+            ],
+            [
+              87.372933,
+              53.44005
+            ],
+            [
+              87.370711,
+              53.439217
+            ],
+            [
+              87.361544,
+              53.43755
+            ],
+            [
+              87.364878,
+              53.435328
+            ],
+            [
+              87.358489,
+              53.434217
+            ],
+            [
+              87.352656,
+              53.434494
+            ],
+            [
+              87.350156,
+              53.43505
+            ],
+            [
+              87.346544,
+              53.435328
+            ],
+            [
+              87.342656,
+              53.435606
+            ],
+            [
+              87.330986,
+              53.434217
+            ],
+            [
+              87.326819,
+              53.434217
+            ],
+            [
+              87.320986,
+              53.434772
+            ],
+            [
+              87.319042,
+              53.433383
+            ],
+            [
+              87.316819,
+              53.430328
+            ],
+            [
+              87.304597,
+              53.423383
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0767.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-11-21 00:00:00",
+        "notes": "The subsoil land-use license relevant to the Alardinskaya Coal Mine was identified through the Quarterly Issuer Report \u2014 Public Joint-Stock Company \u201cRaspadskaya\u201d \u2014 Q2 2021 (\u041e\u0442\u0447\u0451\u0442 \u044d\u043c\u0438\u0442\u0435\u043d\u0442\u0430 \u2014 \u041f\u0410\u041e \u00ab\u0420\u0430\u0441\u043f\u0430\u0434\u0441\u043a\u0430\u044f\u00bb \u2014 2 \u043a\u0432\u0430\u0440\u0442\u0430\u043b 2021 \u0433\u043e\u0434\u0430),https://web.archive.org/details/o-ue-ss-2-tmc.-2021-aetmae-a, page 90.This mine boundary operates under subsoil land-use license \u041a\u0415\u041c 01666 \u0422\u042d. The subsoil land-use license was issued on August 1 2012 and is valid until October 31 2029. The boundary with geographic coordinates was extracted directly from the NedraExpert portal for license \u041a\u0415\u041c 01666 \u0422\u042d, www.nedraexpert.ru/subsurface/1144753706/1.The approximate area of this boundary polygon is 15 square km.",
+        "description": "Alardinskaya mine boundary, \u041a\u0415\u041c 01666 \u0422\u042d",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.3846,
+              53.416161
+            ],
+            [
+              87.386544,
+              53.416717
+            ],
+            [
+              87.391267,
+              53.41755
+            ],
+            [
+              87.391544,
+              53.416717
+            ],
+            [
+              87.391544,
+              53.416439
+            ],
+            [
+              87.3921,
+              53.415883
+            ],
+            [
+              87.398211,
+              53.418661
+            ],
+            [
+              87.404322,
+              53.424217
+            ],
+            [
+              87.410714,
+              53.429217
+            ],
+            [
+              87.413214,
+              53.431717
+            ],
+            [
+              87.420714,
+              53.43005
+            ],
+            [
+              87.421547,
+              53.431439
+            ],
+            [
+              87.415158,
+              53.43255
+            ],
+            [
+              87.4096,
+              53.435883
+            ],
+            [
+              87.406544,
+              53.436717
+            ],
+            [
+              87.401267,
+              53.432272
+            ],
+            [
+              87.3971,
+              53.427828
+            ],
+            [
+              87.390711,
+              53.42255
+            ],
+            [
+              87.387378,
+              53.421717
+            ],
+            [
+              87.384878,
+              53.420606
+            ],
+            [
+              87.383767,
+              53.418939
+            ],
+            [
+              87.3846,
+              53.416161
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0767.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-11-21 00:00:00",
+        "notes": "The subsoil land-use license relevant to the Alardinskaya Coal Mine was identified through the Quarterly Issuer Report \u2014 Public Joint-Stock Company \u201cRaspadskaya\u201d \u2014 Q2 2021 (\u041e\u0442\u0447\u0451\u0442 \u044d\u043c\u0438\u0442\u0435\u043d\u0442\u0430 \u2014 \u041f\u0410\u041e \u00ab\u0420\u0430\u0441\u043f\u0430\u0434\u0441\u043a\u0430\u044f\u00bb \u2014 2 \u043a\u0432\u0430\u0440\u0442\u0430\u043b 2021 \u0433\u043e\u0434\u0430),https://web.archive.org/details/o-ue-ss-2-tmc.-2021-aetmae-a, page 92.This mine boundary operates under subsoil land-use license \u041a\u0415\u041c 01747 \u0422\u042d. The subsoil land-use license was issued on August 12 2013 and is valid until April 20 2032.\nThe license boundary with geographic coordinates was extracted directly from the NedraExpert portal for license \u041a\u0415\u041c 01747 \u0422\u042d, https://web.archive.org/web/20251125231434/https://www.nedraexpert.ru/license/134955?ysclid=mif6yacyd5558435872.The approximate area of this boundary polygon is 2 square km.",
+        "description": "Alardinskaya mine boundary, \u041a\u0415\u041c 01747 \u0422\u042d",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.320724,
+              53.437522
+            ],
+            [
+              87.313309,
+              53.429821
+            ],
+            [
+              87.305571,
+              53.425842
+            ],
+            [
+              87.279888,
+              53.411397
+            ],
+            [
+              87.275589,
+              53.409856
+            ],
+            [
+              87.273332,
+              53.408444
+            ],
+            [
+              87.3031,
+              53.400416
+            ],
+            [
+              87.36344,
+              53.393837
+            ],
+            [
+              87.379627,
+              53.393853
+            ],
+            [
+              87.39888,
+              53.396019
+            ],
+            [
+              87.419627,
+              53.399391
+            ],
+            [
+              87.42818,
+              53.405749
+            ],
+            [
+              87.437261,
+              53.422041
+            ],
+            [
+              87.438631,
+              53.426429
+            ],
+            [
+              87.437892,
+              53.429847
+            ],
+            [
+              87.437059,
+              53.431724
+            ],
+            [
+              87.43182,
+              53.431724
+            ],
+            [
+              87.424647,
+              53.431949
+            ],
+            [
+              87.421504,
+              53.431404
+            ],
+            [
+              87.415083,
+              53.432501
+            ],
+            [
+              87.409636,
+              53.43579
+            ],
+            [
+              87.406439,
+              53.436712
+            ],
+            [
+              87.399588,
+              53.440297
+            ],
+            [
+              87.392229,
+              53.434408
+            ],
+            [
+              87.386872,
+              53.430008
+            ],
+            [
+              87.382567,
+              53.427581
+            ],
+            [
+              87.379766,
+              53.426274
+            ],
+            [
+              87.378208,
+              53.425584
+            ],
+            [
+              87.361034,
+              53.437495
+            ],
+            [
+              87.35328,
+              53.436698
+            ],
+            [
+              87.342597,
+              53.437689
+            ],
+            [
+              87.328466,
+              53.436714
+            ],
+            [
+              87.320724,
+              53.437522
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0767.B3",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2023-04-01 00:00:00",
+        "notes": "The subsoil land-use license relevant to the Alardinskaya Coal Mine was identified through the Quarterly Issuer Report \u2014 Public Joint-Stock Company \u201cRaspadskaya\u201d \u2014 Q2 2021 (\u041e\u0442\u0447\u0451\u0442 \u044d\u043c\u0438\u0442\u0435\u043d\u0442\u0430 \u2014 \u041f\u0410\u041e \u00ab\u0420\u0430\u0441\u043f\u0430\u0434\u0441\u043a\u0430\u044f\u00bb \u2014 2 \u043a\u0432\u0430\u0440\u0442\u0430\u043b 2021 \u0433\u043e\u0434\u0430),https://web.archive.org/details/o-ue-ss-2-tmc.-2021-aetmae-a, page 89. This mine boundary operates under subsoil land-use license \u041a\u0415\u041c 01664 \u0422\u042d. The subsoil land-use license was issued on August 1 2012 and was valid until April 1 2023. Upon fulfillment of the licensing conditions, the license will be extended in accordance with the procedure established by the applicable legislation. The license boundary with geographic coordinates was georeferenced and then extracted from the NedraExpert portal for license \u041a\u0415\u041c 01664 \u0422\u042d,https://web.archive.org/web/20251125232530/https://www.nedraexpert.ru/license/137127?ysclid=mif7c73st0562439286. The approximate area of this boundary polygon is 38 square km.",
+        "description": "Alardinskaya mine boundary, \u041a\u0415\u041c 01664 \u0422\u042d",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.324688,
+          53.412208
+        ]
+      },
+      "properties": {
+        "id": "M0767.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.324186,
+          53.415004
+        ]
+      },
+      "properties": {
+        "id": "M0767.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.345806,
+          53.414538
+        ]
+      },
+      "properties": {
+        "id": "M0767.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-08-28 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.358106,
+          53.411164
+        ]
+      },
+      "properties": {
+        "id": "M0767.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-07-10 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.358956,
+          53.412315
+        ]
+      },
+      "properties": {
+        "id": "M0767.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2021-05-30 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.396285,
+          53.413341
+        ]
+      },
+      "properties": {
+        "id": "M0767.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-07-10 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.408346,
+          53.435348
+        ]
+      },
+      "properties": {
+        "id": "M0767.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-07-10 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.409813,
+          53.434553
+        ]
+      },
+      "properties": {
+        "id": "M0767.P8",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2022-07-10 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible mine entrance or exit",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.411147,
+          53.433904
+        ]
+      },
+      "properties": {
+        "id": "M0767.P9",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2019-08-28 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.414504,
+          53.432151
+        ]
+      },
+      "properties": {
+        "id": "M0767.P10",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-07-10 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.414425,
+          53.432622
+        ]
+      },
+      "properties": {
+        "id": "M0767.P11",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2022-07-10 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.392847,
+          53.412813
+        ]
+      },
+      "properties": {
+        "id": "M0767.P12",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2022-07-10 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.390607,
+          53.431506
+        ]
+      },
+      "properties": {
+        "id": "M0767.P13",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-07-10 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.395492,
+          53.412642
+        ]
+      },
+      "properties": {
+        "id": "M0767.P14",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-07-10 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0767",
+        "Owners": "Shakhta Alardinskaya LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Alardinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Alardinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

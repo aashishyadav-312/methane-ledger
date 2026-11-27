@@ -1,0 +1,535 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.733893,
+              37.676428
+            ],
+            [
+              -81.733386,
+              37.67619
+            ],
+            [
+              -81.733074,
+              37.676541
+            ],
+            [
+              -81.732612,
+              37.676542
+            ],
+            [
+              -81.732028,
+              37.676288
+            ],
+            [
+              -81.732177,
+              37.676585
+            ],
+            [
+              -81.731865,
+              37.676428
+            ],
+            [
+              -81.731408,
+              37.677192
+            ],
+            [
+              -81.730766,
+              37.676946
+            ],
+            [
+              -81.732707,
+              37.678094
+            ],
+            [
+              -81.731643,
+              37.679063
+            ],
+            [
+              -81.731952,
+              37.679586
+            ],
+            [
+              -81.73173,
+              37.679707
+            ],
+            [
+              -81.732916,
+              37.679681
+            ],
+            [
+              -81.733454,
+              37.678973
+            ],
+            [
+              -81.734202,
+              37.678899
+            ],
+            [
+              -81.739039,
+              37.680633
+            ],
+            [
+              -81.74119,
+              37.684694
+            ],
+            [
+              -81.741162,
+              37.685467
+            ],
+            [
+              -81.741448,
+              37.685371
+            ],
+            [
+              -81.744624,
+              37.690783
+            ],
+            [
+              -81.744157,
+              37.692171
+            ],
+            [
+              -81.745894,
+              37.692713
+            ],
+            [
+              -81.747687,
+              37.692584
+            ],
+            [
+              -81.748034,
+              37.691749
+            ],
+            [
+              -81.746406,
+              37.691365
+            ],
+            [
+              -81.744626,
+              37.687616
+            ],
+            [
+              -81.751177,
+              37.685411
+            ],
+            [
+              -81.750523,
+              37.684384
+            ],
+            [
+              -81.750036,
+              37.684548
+            ],
+            [
+              -81.749887,
+              37.684253
+            ],
+            [
+              -81.749844,
+              37.682854
+            ],
+            [
+              -81.749423,
+              37.682176
+            ],
+            [
+              -81.749738,
+              37.682069
+            ],
+            [
+              -81.749342,
+              37.681339
+            ],
+            [
+              -81.748584,
+              37.681184
+            ],
+            [
+              -81.748224,
+              37.680506
+            ],
+            [
+              -81.747475,
+              37.680368
+            ],
+            [
+              -81.746961,
+              37.679652
+            ],
+            [
+              -81.746729,
+              37.67754
+            ],
+            [
+              -81.747029,
+              37.677455
+            ],
+            [
+              -81.746825,
+              37.676944
+            ],
+            [
+              -81.747099,
+              37.676821
+            ],
+            [
+              -81.745691,
+              37.674867
+            ],
+            [
+              -81.745423,
+              37.674928
+            ],
+            [
+              -81.745034,
+              37.673919
+            ],
+            [
+              -81.74532,
+              37.673847
+            ],
+            [
+              -81.746003,
+              37.668111
+            ],
+            [
+              -81.745235,
+              37.663148
+            ],
+            [
+              -81.747109,
+              37.661741
+            ],
+            [
+              -81.747038,
+              37.661354
+            ],
+            [
+              -81.74473,
+              37.6616
+            ],
+            [
+              -81.743568,
+              37.6622
+            ],
+            [
+              -81.743564,
+              37.663463
+            ],
+            [
+              -81.743014,
+              37.663505
+            ],
+            [
+              -81.743077,
+              37.663751
+            ],
+            [
+              -81.743587,
+              37.663695
+            ],
+            [
+              -81.744404,
+              37.667936
+            ],
+            [
+              -81.743829,
+              37.672361
+            ],
+            [
+              -81.743414,
+              37.672558
+            ],
+            [
+              -81.743312,
+              37.67382
+            ],
+            [
+              -81.743028,
+              37.673861
+            ],
+            [
+              -81.742835,
+              37.673381
+            ],
+            [
+              -81.743837,
+              37.670935
+            ],
+            [
+              -81.743613,
+              37.670879
+            ],
+            [
+              -81.74393,
+              37.670179
+            ],
+            [
+              -81.743825,
+              37.668802
+            ],
+            [
+              -81.744068,
+              37.668794
+            ],
+            [
+              -81.743956,
+              37.667
+            ],
+            [
+              -81.743732,
+              37.667028
+            ],
+            [
+              -81.743676,
+              37.665767
+            ],
+            [
+              -81.742659,
+              37.664953
+            ],
+            [
+              -81.742689,
+              37.667059
+            ],
+            [
+              -81.742369,
+              37.667069
+            ],
+            [
+              -81.742243,
+              37.667822
+            ],
+            [
+              -81.741911,
+              37.667772
+            ],
+            [
+              -81.742333,
+              37.669594
+            ],
+            [
+              -81.741087,
+              37.672358
+            ],
+            [
+              -81.740548,
+              37.672483
+            ],
+            [
+              -81.740811,
+              37.672561
+            ],
+            [
+              -81.740738,
+              37.673339
+            ],
+            [
+              -81.742378,
+              37.677643
+            ],
+            [
+              -81.742079,
+              37.677727
+            ],
+            [
+              -81.741844,
+              37.677348
+            ],
+            [
+              -81.740255,
+              37.672491
+            ],
+            [
+              -81.737531,
+              37.671027
+            ],
+            [
+              -81.737135,
+              37.670992
+            ],
+            [
+              -81.736182,
+              37.671648
+            ],
+            [
+              -81.736379,
+              37.671997
+            ],
+            [
+              -81.736084,
+              37.671859
+            ],
+            [
+              -81.737261,
+              37.672716
+            ],
+            [
+              -81.737,
+              37.672876
+            ],
+            [
+              -81.738205,
+              37.67349
+            ],
+            [
+              -81.738857,
+              37.674509
+            ],
+            [
+              -81.739295,
+              37.676382
+            ],
+            [
+              -81.739992,
+              37.676795
+            ],
+            [
+              -81.740294,
+              37.677429
+            ],
+            [
+              -81.73915,
+              37.677687
+            ],
+            [
+              -81.739444,
+              37.678625
+            ],
+            [
+              -81.740277,
+              37.678471
+            ],
+            [
+              -81.740693,
+              37.678782
+            ],
+            [
+              -81.741154,
+              37.68003
+            ],
+            [
+              -81.740679,
+              37.680212
+            ],
+            [
+              -81.74011,
+              37.678724
+            ],
+            [
+              -81.73904,
+              37.678865
+            ],
+            [
+              -81.737132,
+              37.677772
+            ],
+            [
+              -81.737002,
+              37.677991
+            ],
+            [
+              -81.735329,
+              37.677434
+            ],
+            [
+              -81.73379,
+              37.676607
+            ],
+            [
+              -81.733893,
+              37.676428
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1608.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "Unclear - according to https://web.archive.org/web/2/https://www.wvgs.wvnet.edu/www/coal/cbmp/coalims.html, \"Updates to the data set occur as new data becomes available.\"'",
+        "notes": "This boundary was extracted from the West Virginia Geological and Economic Survey (WVGES) resource at https://web.archive.org/web/2/https://atlas.wvgs.wvnet.edu/arcgis/rest/services/Coal_Web_Mercator/All_Mining_WM/MapServer. This resource was filtered for mine_name = EAGLE SEAM DEEP MINE, and the resulting polygon was simplified using distance-based simplification with a tolerance of 25m.  The area of this boundary is 1.7 sq km. Satellite imagery for the area including this boundary was scanned for PPSEs - no additional ones were found.",
+        "description": "Eagle Seam Deep Mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1608",
+        "Owners": "Ramaco Resources LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Ramaco Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Eagle_Seam_Deep_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Eagle Seam Deep Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.747825,
+          37.692249
+        ]
+      },
+      "properties": {
+        "id": "M1608.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible ventilation shaft or entrance",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1608",
+        "Owners": "Ramaco Resources LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Ramaco Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Eagle_Seam_Deep_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Eagle Seam Deep Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.747959,
+          37.692283
+        ]
+      },
+      "properties": {
+        "id": "M1608.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible coal mine production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1608",
+        "Owners": "Ramaco Resources LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Ramaco Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Eagle_Seam_Deep_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Eagle Seam Deep Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.90129,
+              37.699571
+            ],
+            [
+              110.84906,
+              37.733753
+            ],
+            [
+              110.849027,
+              37.749971
+            ],
+            [
+              110.824063,
+              37.749936
+            ],
+            [
+              110.788034,
+              37.691313
+            ],
+            [
+              110.781133,
+              37.686943
+            ],
+            [
+              110.782668,
+              37.686241
+            ],
+            [
+              110.786458,
+              37.683418
+            ],
+            [
+              110.789054,
+              37.681485
+            ],
+            [
+              110.794306,
+              37.677263
+            ],
+            [
+              110.796929,
+              37.672979
+            ],
+            [
+              110.827604,
+              37.673396
+            ],
+            [
+              110.830643,
+              37.66844
+            ],
+            [
+              110.830179,
+              37.665715
+            ],
+            [
+              110.821931,
+              37.660626
+            ],
+            [
+              110.817362,
+              37.65569
+            ],
+            [
+              110.809478,
+              37.650824
+            ],
+            [
+              110.806906,
+              37.647157
+            ],
+            [
+              110.795696,
+              37.63886
+            ],
+            [
+              110.796574,
+              37.636368
+            ],
+            [
+              110.837927,
+              37.636432
+            ],
+            [
+              110.90129,
+              37.699571
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0330.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2019-09-01 00:00:00",
+        "notes": "The coordinates are listed in the Table 1-1-2 coordinates of No. 4 coal seam mining area in the current mining license, on page 4 from the document Coal Resource Development and Utilization, Geological Environmental Protection, and Land Reclamation Plan of Linxian Jinyuan Coal Mine Co., Ltd (\u4e34\u53bf\u9526\u6e90\u7164\u77ff\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250603022841/https://www.doc88.com/p-66616557801634.html ",
+        "description": "Shanxi Jinyuan coal mine, seam 4 ",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.90129,
+              37.699571
+            ],
+            [
+              110.84906,
+              37.733753
+            ],
+            [
+              110.786458,
+              37.683418
+            ],
+            [
+              110.789054,
+              37.681485
+            ],
+            [
+              110.794306,
+              37.677263
+            ],
+            [
+              110.796929,
+              37.672979
+            ],
+            [
+              110.827604,
+              37.673396
+            ],
+            [
+              110.830643,
+              37.66844
+            ],
+            [
+              110.830179,
+              37.665715
+            ],
+            [
+              110.821931,
+              37.660626
+            ],
+            [
+              110.817362,
+              37.65569
+            ],
+            [
+              110.809478,
+              37.650824
+            ],
+            [
+              110.806906,
+              37.647157
+            ],
+            [
+              110.795696,
+              37.63886
+            ],
+            [
+              110.795563,
+              37.638762
+            ],
+            [
+              110.796574,
+              37.636368
+            ],
+            [
+              110.837927,
+              37.636432
+            ],
+            [
+              110.90129,
+              37.699571
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0330.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2019-09-01 00:00:00",
+        "notes": "The coordinates are listed in the Table 1-1-3 coordinates of coal seam mining areas No. 5, 8, and 9 in the current mining license, on page 5 from The coordinates are listed in the Table 3-1-10 on page 97 fromthe document Coal Resource Development and Utilization, Geological Environmental Protection, and Land Reclamation Plan of Linxian Jinyuan Coal Mine Co., Ltd (\u4e34\u53bf\u9526\u6e90\u7164\u77ff\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250603022841/https://www.doc88.com/p-66616557801634.html ",
+        "description": "Shanxi Jinyuan coal mine, seams 5, 8 and 9 ",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.849082,
+          37.674215
+        ]
+      },
+      "properties": {
+        "id": "M0330.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-09-01 00:00:00",
+        "notes": "The coordinates are listed in the Table 3-1-10 shaft characteristics of the mine, on page 97 in Coal Resource Development and Utilization, Geological Environmental Protection, and Land Reclamation Plan of Linxian Jinyuan Coal Mine Co., Ltd (\u4e34\u53bf\u9526\u6e90\u7164\u77ff\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250603022841/https://www.doc88.com/p-66616557801634.html ",
+        "description": "ventilation shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.847889,
+          37.678557
+        ]
+      },
+      "properties": {
+        "id": "M0330.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2019-09-01 00:00:00",
+        "notes": "The coordinates are listed in the Table 3-1-10 shaft characteristics of the mine, on page 97 in Coal Resource Development and Utilization, Geological Environmental Protection, and Land Reclamation Plan of Linxian Jinyuan Coal Mine Co., Ltd (\u4e34\u53bf\u9526\u6e90\u7164\u77ff\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250603022841/https://www.doc88.com/p-66616557801634.html ",
+        "description": "main slope",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.849632,
+          37.678153
+        ]
+      },
+      "properties": {
+        "id": "M0330.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2019-09-01 00:00:00",
+        "notes": "The coordinates are listed in the Table 3-1-10 shaft characteristics of the mine, on page 97 in Coal Resource Development and Utilization, Geological Environmental Protection, and Land Reclamation Plan of Linxian Jinyuan Coal Mine Co., Ltd (\u4e34\u53bf\u9526\u6e90\u7164\u77ff\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250603022841/https://www.doc88.com/p-66616557801634.html ",
+        "description": "auxiliary slope",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.850425,
+          37.677464
+        ]
+      },
+      "properties": {
+        "id": "M0330.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-09-01 00:00:00",
+        "notes": "The coordinates are listed in the Table 3-1-10 shaft characteristics of the mine, on page 97 in Coal Resource Development and Utilization, Geological Environmental Protection, and Land Reclamation Plan of Linxian Jinyuan Coal Mine Co., Ltd (\u4e34\u53bf\u9526\u6e90\u7164\u77ff\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250603022841/https://www.doc88.com/p-66616557801634.html ",
+        "description": "air intake slope",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.847562,
+          37.677843
+        ]
+      },
+      "properties": {
+        "id": "M0330.P5",
+        "mine feature category": "other",
+        "mine feature subcategory": "coal storage",
+        "data source date": "2024-11-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "coal storage silo",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.833291,
+          37.653757
+        ]
+      },
+      "properties": {
+        "id": "M0330.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-09-01 00:00:00",
+        "notes": "The shaft was shown in Figure 1-2-1 on page 10 from the document Coal Resource Development and Utilization, Geological Environmental Protection, and Land Reclamation Plan of Linxian Jinyuan Coal Mine Co., Ltd (\u4e34\u53bf\u9526\u6e90\u7164\u77ff\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250603022841/https://www.doc88.com/p-66616557801634.html ",
+        "description": "Fanjiagou ventilation shaft 3",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.814145,
+          37.681755
+        ]
+      },
+      "properties": {
+        "id": "M0330.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-09-01 00:00:00",
+        "notes": "The shaft was shown in Figure 1-2-1 on page 10 from the document Coal Resource Development and Utilization, Geological Environmental Protection, and Land Reclamation Plan of Linxian Jinyuan Coal Mine Co., Ltd (\u4e34\u53bf\u9526\u6e90\u7164\u77ff\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250603022841/https://www.doc88.com/p-66616557801634.html ",
+        "description": "Majialing ventilation shaft 4",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.833059,
+          37.698642
+        ]
+      },
+      "properties": {
+        "id": "M0330.P8",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-09-01 00:00:00",
+        "notes": "The shaft was shown in Figure 1-2-1 on page 10 from the document Coal Resource Development and Utilization, Geological Environmental Protection, and Land Reclamation Plan of Linxian Jinyuan Coal Mine Co., Ltd (\u4e34\u53bf\u9526\u6e90\u7164\u77ff\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250603022841/https://www.doc88.com/p-66616557801634.html ",
+        "description": "Gaogetai ventilation shaft 5",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.852898,
+          37.723891
+        ]
+      },
+      "properties": {
+        "id": "M0330.P9",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-09-01 00:00:00",
+        "notes": "The shaft was shown in Figure 1-2-1 on page 10 from the document Coal Resource Development and Utilization, Geological Environmental Protection, and Land Reclamation Plan of Linxian Jinyuan Coal Mine Co., Ltd (\u4e34\u53bf\u9526\u6e90\u7164\u77ff\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250603022841/https://www.doc88.com/p-66616557801634.html ",
+        "description": "Wangjiayan ventilation shaft 6",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.847455,
+          37.673295
+        ]
+      },
+      "properties": {
+        "id": "M0330.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-11-03 00:00:00",
+        "notes": "The drainage station is discuss in numerous places in Coal Resource Development and Utilization, Geological Environmental Protection, and Land Reclamation Plan of Linxian Jinyuan Coal Mine Co., Ltd (\u4e34\u53bf\u9526\u6e90\u7164\u77ff\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250603022841/https://www.doc88.com/p-66616557801634.html, and the location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.850131,
+          37.678035
+        ]
+      },
+      "properties": {
+        "id": "M0330.P11",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-11-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0330",
+        "Owners": "Shanxi Linxian Jinyuan Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Meijin Energy Group [51%]; Shandong Energy [38%]; China Cinda Asset Management Company [10%]; Others [1%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Shanxi_Jinyuan_mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%B4%E5%8E%BF%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%94%A6%E6%BA%90%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Shanxi Jinyuan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

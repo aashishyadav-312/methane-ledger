@@ -1,0 +1,379 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.800142,
+              36.05062
+            ],
+            [
+              112.80018,
+              35.921215
+            ],
+            [
+              112.88784,
+              35.921413
+            ],
+            [
+              112.887883,
+              35.950501
+            ],
+            [
+              112.904007,
+              35.950762
+            ],
+            [
+              112.904329,
+              35.997931
+            ],
+            [
+              112.894818,
+              36.000856
+            ],
+            [
+              112.887592,
+              36.000967
+            ],
+            [
+              112.887669,
+              36.017278
+            ],
+            [
+              112.887621,
+              36.050726
+            ],
+            [
+              112.800142,
+              36.05062
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0430.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2024-11-01 00:00:00",
+        "notes": "The boundary coordinates were found in Table 2.2-1 on page 22 and include both Zhaozhuang coal mine main site and the No.2 Well from the document Zhaozhuang Mine Capacity Expansion Project of Shanxi Jincheng Anthracite Mining Group Co., Ltd (\u5c71\u897f\u664b\u57ce\u65e0\u70df\u7164\u77ff\u4e1a\u96c6\u56e2\u6709\u9650\u8d23\u4efb\u516c\u53f8\u8d75\u5e84\u77ff\u4e95\u6269\u80fd\u5de5\u7a0b)\nhttps://web.archive.org/web/20250704064246/https://www.doc88.com/p-44959000572479.html. The Zhaozhuang coal mine and No.2 Well were separated according to Figure 3.1-1 on page 57 Sanyuan Coal Mine Adjacent Relationship Map in the document Shanxi Sanyuan Coal Mine Environmental Assessment Report (\u5c71\u897f\u4e09\u5143\u7164\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e0b\u970d\u7164\u77ff2305\u5de5\u4f5c\u9762\u79bb\u5c42\u533a\u5145\u586b\u5f00\u91c7\uff08\u8bd5\u9a8c\uff09\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66)https://web.archive.org/web/20250716071739/http://www.zhangzi.gov.cn/zzxxgk/zfxxgk/bmxxgk/SCZ/zzhbj/hbgknr/HB/hjbhlyxzxk/202411/P020241112361033027090.pdf",
+        "description": "Zhaozhuang coal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0430",
+        "Owners": "Shanxi Jinmei Group [100%]; Zhaozhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%85%A4%E9%9B%86%E5%9B%A2%E8%B5%B5%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%B5%B5%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Zhaozhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.892467,
+          35.991389
+        ]
+      },
+      "properties": {
+        "id": "M0430.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2018-01-01 00:00:00",
+        "notes": "Information was found in the Shanxi Jincheng Anthracite Mining Group Zhaozhuang Coal Co., Ltd. Mine Geological Environmental Protection and Land Reclamation Plan (\u5c71\u897f\u664b\u7164\u96c6\u56e2\u8d75\u5e84\u7164\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) page 19 \"methane degasification system\", \nhttps://web.archive.org/web/20250716075052/https://www.doc88.com/p-79939421803144.html . Location was visually from identified using Google Earth Pro satellite imagery.",
+        "description": "gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0430",
+        "Owners": "Shanxi Jinmei Group [100%]; Zhaozhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%85%A4%E9%9B%86%E5%9B%A2%E8%B5%B5%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%B5%B5%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Zhaozhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.892081,
+          35.994808
+        ]
+      },
+      "properties": {
+        "id": "M0430.P2",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2018-01-01 00:00:00",
+        "notes": "Information was found in the Shanxi Jincheng Anthracite Mining Group Zhaozhuang Coal Co., Ltd. Mine Geological Environmental Protection and Land Reclamation Plan (\u5c71\u897f\u664b\u7164\u96c6\u56e2\u8d75\u5e84\u7164\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) page 19 \"methane degasification system\", \nhttps://web.archive.org/web/20250716075052/https://www.doc88.com/p-79939421803144.html . Location was visually from identified using Google Earth Pro satellite imagery.",
+        "description": "610 pre-mining gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0430",
+        "Owners": "Shanxi Jinmei Group [100%]; Zhaozhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%85%A4%E9%9B%86%E5%9B%A2%E8%B5%B5%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%B5%B5%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Zhaozhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.830831,
+          36.011508
+        ]
+      },
+      "properties": {
+        "id": "M0430.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2017-04-24 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. The source is from the document Submission Materials for Construction Land Project: 'One Report and Two Plans' (\u5efa\u8bbe\u7528\u5730\u9879\u76ee\u5448\u62a5\u6750\u6599\u201c\u4e00\u4e66\u4e24\u65b9\u6848) https://web.archive.org/web/20250716072752/http://www.zhangzi.gov.cn/zzxxgk/zfxxgk/zfxxgkml/hgfghfghf/ZDGCXX/ZSTD/202211/P020221108602703468162.pdf",
+        "description": "Nansu gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0430",
+        "Owners": "Shanxi Jinmei Group [100%]; Zhaozhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%85%A4%E9%9B%86%E5%9B%A2%E8%B5%B5%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%B5%B5%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Zhaozhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.830795,
+          36.012237
+        ]
+      },
+      "properties": {
+        "id": "M0430.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2017-04-24 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. The source is from the document Submission Materials for Construction Land Project: 'One Report and Two Plans' (\u5efa\u8bbe\u7528\u5730\u9879\u76ee\u5448\u62a5\u6750\u6599\u201c\u4e00\u4e66\u4e24\u65b9\u6848) https://web.archive.org/web/20250716072752/http://www.zhangzi.gov.cn/zzxxgk/zfxxgk/zfxxgkml/hgfghfghf/ZDGCXX/ZSTD/202211/P020221108602703468162.pdf",
+        "description": "Nansu intake air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0430",
+        "Owners": "Shanxi Jinmei Group [100%]; Zhaozhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%85%A4%E9%9B%86%E5%9B%A2%E8%B5%B5%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%B5%B5%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Zhaozhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.831939,
+          36.011196
+        ]
+      },
+      "properties": {
+        "id": "M0430.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2017-04-24 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. The source is from the document Submission Materials for Construction Land Project: 'One Report and Two Plans' (\u5efa\u8bbe\u7528\u5730\u9879\u76ee\u5448\u62a5\u6750\u6599\u201c\u4e00\u4e66\u4e24\u65b9\u6848) https://web.archive.org/web/20250716072752/http://www.zhangzi.gov.cn/zzxxgk/zfxxgk/zfxxgkml/hgfghfghf/ZDGCXX/ZSTD/202211/P020221108602703468162.pdf",
+        "description": "Nansu return air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0430",
+        "Owners": "Shanxi Jinmei Group [100%]; Zhaozhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%85%A4%E9%9B%86%E5%9B%A2%E8%B5%B5%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%B5%B5%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Zhaozhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.88493,
+          35.981806
+        ]
+      },
+      "properties": {
+        "id": "M0430.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2018-01-01 00:00:00",
+        "notes": "Information was found in the Shanxi Jincheng Anthracite Mining Group Zhaozhuang Coal Co., Ltd. Mine Geological Environmental Protection and Land Reclamation Plan (\u5c71\u897f\u664b\u7164\u96c6\u56e2\u8d75\u5e84\u7164\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) page 19 \"methane degasification system\", \nhttps://web.archive.org/web/20250716075052/https://www.doc88.com/p-79939421803144.html . Location was visually from identified using Google Earth Pro satellite imagery.",
+        "description": "#1 return air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0430",
+        "Owners": "Shanxi Jinmei Group [100%]; Zhaozhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%85%A4%E9%9B%86%E5%9B%A2%E8%B5%B5%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%B5%B5%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Zhaozhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.88378,
+          35.98144
+        ]
+      },
+      "properties": {
+        "id": "M0430.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2018-01-01 00:00:00",
+        "notes": "Information was found in the Shanxi Jincheng Anthracite Mining Group Zhaozhuang Coal Co., Ltd. Mine Geological Environmental Protection and Land Reclamation Plan (\u5c71\u897f\u664b\u7164\u96c6\u56e2\u8d75\u5e84\u7164\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) page 19 \"methane degasification system\", \nhttps://web.archive.org/web/20250716075052/https://www.doc88.com/p-79939421803144.html . Location was visually from identified using Google Earth Pro satellite imagery.",
+        "description": "#2 return air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0430",
+        "Owners": "Shanxi Jinmei Group [100%]; Zhaozhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%85%A4%E9%9B%86%E5%9B%A2%E8%B5%B5%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%B5%B5%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Zhaozhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.885299,
+          35.994444
+        ]
+      },
+      "properties": {
+        "id": "M0430.P8",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2018-01-01 00:00:00",
+        "notes": "Information was found in the Shanxi Jincheng Anthracite Mining Group Zhaozhuang Coal Co., Ltd. Mine Geological Environmental Protection and Land Reclamation Plan (\u5c71\u897f\u664b\u7164\u96c6\u56e2\u8d75\u5e84\u7164\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) page 19 \"methane degasification system\", \nhttps://web.archive.org/web/20250716075052/https://www.doc88.com/p-79939421803144.html . Location was visually from identified using Google Earth Pro satellite imagery.",
+        "description": "Auxiliary shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0430",
+        "Owners": "Shanxi Jinmei Group [100%]; Zhaozhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%85%A4%E9%9B%86%E5%9B%A2%E8%B5%B5%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%B5%B5%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Zhaozhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.889962,
+          35.991986
+        ]
+      },
+      "properties": {
+        "id": "M0430.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2018-01-01 00:00:00",
+        "notes": "Information was found in the Shanxi Jincheng Anthracite Mining Group Zhaozhuang Coal Co., Ltd. Mine Geological Environmental Protection and Land Reclamation Plan (\u5c71\u897f\u664b\u7164\u96c6\u56e2\u8d75\u5e84\u7164\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) page 19 \"methane degasification system\", \nhttps://web.archive.org/web/20250716075052/https://www.doc88.com/p-79939421803144.html . Location was visually from identified using Google Earth Pro satellite imagery.",
+        "description": "gas to electric station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0430",
+        "Owners": "Shanxi Jinmei Group [100%]; Zhaozhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%85%A4%E9%9B%86%E5%9B%A2%E8%B5%B5%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%B5%B5%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Zhaozhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.865227,
+          35.986206
+        ]
+      },
+      "properties": {
+        "id": "M0430.P10",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2017-04-24 00:00:00",
+        "notes": "Information was found in the Submission Materials for Construction Land Project: 'One Report and Two Plans' (\u5efa\u8bbe\u7528\u5730\u9879\u76ee\u5448\u62a5\u6750\u6599\u201c\u4e00\u4e66\u4e24\u65b9\u6848) \nhttps://web.archive.org/web/20250716072752/http://www.zhangzi.gov.cn/zzxxgk/zfxxgk/zfxxgkml/hgfghfghf/ZDGCXX/ZSTD/202211/P020221108602703468162.pdf. The location was visually identified using Google Earth Pro satellite imagery. ",
+        "description": "Xifan intake air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0430",
+        "Owners": "Shanxi Jinmei Group [100%]; Zhaozhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%99%8B%E7%85%A4%E9%9B%86%E5%9B%A2%E8%B5%B5%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%B5%B5%E5%BA%84%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Zhaozhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

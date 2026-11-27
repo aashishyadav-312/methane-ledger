@@ -1,0 +1,719 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.572142,
+              37.577218
+            ],
+            [
+              -81.571681,
+              37.577522
+            ],
+            [
+              -81.571908,
+              37.577682
+            ],
+            [
+              -81.580389,
+              37.569731
+            ],
+            [
+              -81.580707,
+              37.569602
+            ],
+            [
+              -81.581217,
+              37.57019
+            ],
+            [
+              -81.583183,
+              37.569155
+            ],
+            [
+              -81.584737,
+              37.570904
+            ],
+            [
+              -81.58521,
+              37.570651
+            ],
+            [
+              -81.585164,
+              37.570374
+            ],
+            [
+              -81.585375,
+              37.570585
+            ],
+            [
+              -81.585792,
+              37.570312
+            ],
+            [
+              -81.585751,
+              37.570031
+            ],
+            [
+              -81.593325,
+              37.565898
+            ],
+            [
+              -81.593976,
+              37.566028
+            ],
+            [
+              -81.593331,
+              37.567154
+            ],
+            [
+              -81.59331,
+              37.567927
+            ],
+            [
+              -81.597722,
+              37.568958
+            ],
+            [
+              -81.597777,
+              37.568766
+            ],
+            [
+              -81.598562,
+              37.56886
+            ],
+            [
+              -81.598785,
+              37.569207
+            ],
+            [
+              -81.600904,
+              37.569702
+            ],
+            [
+              -81.601582,
+              37.569291
+            ],
+            [
+              -81.601569,
+              37.568237
+            ],
+            [
+              -81.595716,
+              37.566855
+            ],
+            [
+              -81.595876,
+              37.566469
+            ],
+            [
+              -81.596289,
+              37.566556
+            ],
+            [
+              -81.609525,
+              37.569733
+            ],
+            [
+              -81.609248,
+              37.57128
+            ],
+            [
+              -81.61015,
+              37.571489
+            ],
+            [
+              -81.610213,
+              37.571799
+            ],
+            [
+              -81.610742,
+              37.571802
+            ],
+            [
+              -81.611104,
+              37.570284
+            ],
+            [
+              -81.611665,
+              37.570429
+            ],
+            [
+              -81.612165,
+              37.569764
+            ],
+            [
+              -81.612452,
+              37.569844
+            ],
+            [
+              -81.612749,
+              37.569075
+            ],
+            [
+              -81.612461,
+              37.569006
+            ],
+            [
+              -81.612433,
+              37.568479
+            ],
+            [
+              -81.61342,
+              37.565944
+            ],
+            [
+              -81.613768,
+              37.565735
+            ],
+            [
+              -81.617133,
+              37.55616
+            ],
+            [
+              -81.617953,
+              37.555614
+            ],
+            [
+              -81.618239,
+              37.554935
+            ],
+            [
+              -81.618458,
+              37.554318
+            ],
+            [
+              -81.618151,
+              37.55415
+            ],
+            [
+              -81.618715,
+              37.55264
+            ],
+            [
+              -81.616733,
+              37.551881
+            ],
+            [
+              -81.616281,
+              37.553155
+            ],
+            [
+              -81.615571,
+              37.553301
+            ],
+            [
+              -81.603395,
+              37.550292
+            ],
+            [
+              -81.603208,
+              37.550664
+            ],
+            [
+              -81.59801,
+              37.549334
+            ],
+            [
+              -81.598989,
+              37.546622
+            ],
+            [
+              -81.597848,
+              37.546205
+            ],
+            [
+              -81.597199,
+              37.54661
+            ],
+            [
+              -81.596805,
+              37.546395
+            ],
+            [
+              -81.59631,
+              37.547742
+            ],
+            [
+              -81.595495,
+              37.547796
+            ],
+            [
+              -81.594818,
+              37.549604
+            ],
+            [
+              -81.595223,
+              37.550003
+            ],
+            [
+              -81.594682,
+              37.551403
+            ],
+            [
+              -81.593284,
+              37.551067
+            ],
+            [
+              -81.593002,
+              37.550685
+            ],
+            [
+              -81.5929,
+              37.550968
+            ],
+            [
+              -81.591549,
+              37.550647
+            ],
+            [
+              -81.592364,
+              37.549194
+            ],
+            [
+              -81.591946,
+              37.549121
+            ],
+            [
+              -81.592042,
+              37.548821
+            ],
+            [
+              -81.591611,
+              37.548767
+            ],
+            [
+              -81.591385,
+              37.548306
+            ],
+            [
+              -81.590377,
+              37.548416
+            ],
+            [
+              -81.589688,
+              37.550205
+            ],
+            [
+              -81.589404,
+              37.550145
+            ],
+            [
+              -81.590999,
+              37.545216
+            ],
+            [
+              -81.591468,
+              37.54529
+            ],
+            [
+              -81.591925,
+              37.544088
+            ],
+            [
+              -81.592048,
+              37.544345
+            ],
+            [
+              -81.59324,
+              37.544631
+            ],
+            [
+              -81.593339,
+              37.544428
+            ],
+            [
+              -81.593997,
+              37.54457
+            ],
+            [
+              -81.5953,
+              37.541204
+            ],
+            [
+              -81.594613,
+              37.541043
+            ],
+            [
+              -81.594776,
+              37.540449
+            ],
+            [
+              -81.594963,
+              37.540019
+            ],
+            [
+              -81.595715,
+              37.539925
+            ],
+            [
+              -81.596099,
+              37.538925
+            ],
+            [
+              -81.595872,
+              37.538883
+            ],
+            [
+              -81.596085,
+              37.538433
+            ],
+            [
+              -81.593917,
+              37.538216
+            ],
+            [
+              -81.594285,
+              37.537197
+            ],
+            [
+              -81.593866,
+              37.537106
+            ],
+            [
+              -81.593936,
+              37.53689
+            ],
+            [
+              -81.592759,
+              37.536622
+            ],
+            [
+              -81.591996,
+              37.536883
+            ],
+            [
+              -81.591326,
+              37.536714
+            ],
+            [
+              -81.59165,
+              37.535836
+            ],
+            [
+              -81.591388,
+              37.535814
+            ],
+            [
+              -81.591386,
+              37.535181
+            ],
+            [
+              -81.591004,
+              37.535067
+            ],
+            [
+              -81.589196,
+              37.53486
+            ],
+            [
+              -81.588512,
+              37.536193
+            ],
+            [
+              -81.587105,
+              37.536048
+            ],
+            [
+              -81.586824,
+              37.537567
+            ],
+            [
+              -81.589334,
+              37.53802
+            ],
+            [
+              -81.589721,
+              37.537775
+            ],
+            [
+              -81.590117,
+              37.537871
+            ],
+            [
+              -81.590138,
+              37.538174
+            ],
+            [
+              -81.589467,
+              37.538946
+            ],
+            [
+              -81.587146,
+              37.539059
+            ],
+            [
+              -81.58689,
+              37.539661
+            ],
+            [
+              -81.586804,
+              37.540004
+            ],
+            [
+              -81.587351,
+              37.540545
+            ],
+            [
+              -81.588822,
+              37.540722
+            ],
+            [
+              -81.588231,
+              37.542287
+            ],
+            [
+              -81.587728,
+              37.542197
+            ],
+            [
+              -81.587165,
+              37.54384
+            ],
+            [
+              -81.588738,
+              37.54419
+            ],
+            [
+              -81.588662,
+              37.544448
+            ],
+            [
+              -81.587505,
+              37.544367
+            ],
+            [
+              -81.587377,
+              37.544811
+            ],
+            [
+              -81.587908,
+              37.544933
+            ],
+            [
+              -81.587747,
+              37.545254
+            ],
+            [
+              -81.588262,
+              37.545615
+            ],
+            [
+              -81.588044,
+              37.546093
+            ],
+            [
+              -81.588818,
+              37.546277
+            ],
+            [
+              -81.587537,
+              37.549682
+            ],
+            [
+              -81.587233,
+              37.549625
+            ],
+            [
+              -81.587918,
+              37.547765
+            ],
+            [
+              -81.586743,
+              37.547514
+            ],
+            [
+              -81.586081,
+              37.547924
+            ],
+            [
+              -81.585633,
+              37.547823
+            ],
+            [
+              -81.584856,
+              37.550657
+            ],
+            [
+              -81.589597,
+              37.55218
+            ],
+            [
+              -81.594255,
+              37.553121
+            ],
+            [
+              -81.590638,
+              37.562794
+            ],
+            [
+              -81.590399,
+              37.562749
+            ],
+            [
+              -81.590459,
+              37.563263
+            ],
+            [
+              -81.579445,
+              37.568859
+            ],
+            [
+              -81.579609,
+              37.570364
+            ],
+            [
+              -81.572142,
+              37.577218
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M3608.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "Unclear - according to https://web.archive.org/web/2/https://www.wvgs.wvnet.edu/www/coal/cbmp/coalims.html, \"Updates to the data set occur as new data becomes available.\"",
+        "notes": "The boundary is the complex underground mining area polygon extracted from the West Virginia Geological and Economic Survey (WVGES) resource at https://web.archive.org/web/2/https://atlas.wvgs.wvnet.edu/arcgis/rest/services/Coal_Web_Mercator/All_Mining_WM/MapServer. This resource was filtered for mine_name = ROADFORK NO 52, and the resulting polygon was simplified using distance-based simplification with a tolerance of 25m.  The area of this boundary is 5.5 sq km. The mine mines the Pocahontas_3 seam.\n\nImportant note: the following mine boundaries overlap the mine boundary and care should be taken when attempting methane source attribution: NATIONAL POCAHONTAS (Pocahontas_3 seam), NO. 1 MINE (Sewell seam), SARAH K NO 2 (Sewell seam), WYOMING & MARIANNA MINES (Sewell seam), UNKNOWN (Sewell seam), ISLAND CREEK (Sewell seam), UNKNOWN (Sewell seam), UNKNOWN (Sewell seam), MIRACLE NO 2 (Sewell seam), MIRACLE NO 1 (Sewell seam)",
+        "description": "Road Fork 52 detailed underground mining boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3608",
+        "Owners": "Spartan Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Alpha Metallurgical Resources",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Road_Fork_52_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Road Fork 52 Mine",
+        "Country / Area": "United States",
+        "Last researched": "Oct 13, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.580949,
+          37.569695
+        ]
+      },
+      "properties": {
+        "id": "M3608.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2020-10-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3608",
+        "Owners": "Spartan Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Alpha Metallurgical Resources",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Road_Fork_52_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Road Fork 52 Mine",
+        "Country / Area": "United States",
+        "Last researched": "Oct 13, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.572057,
+          37.577375
+        ]
+      },
+      "properties": {
+        "id": "M3608.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2020-10-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3608",
+        "Owners": "Spartan Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Alpha Metallurgical Resources",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Road_Fork_52_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Road Fork 52 Mine",
+        "Country / Area": "United States",
+        "Last researched": "Oct 13, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.570051,
+          37.577111
+        ]
+      },
+      "properties": {
+        "id": "M3608.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2020-10-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "coal handling and preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3608",
+        "Owners": "Spartan Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Alpha Metallurgical Resources",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Road_Fork_52_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Road Fork 52 Mine",
+        "Country / Area": "United States",
+        "Last researched": "Oct 13, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.610501,
+          37.571785
+        ]
+      },
+      "properties": {
+        "id": "M3608.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2015-10-18 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible ventilation vent shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3608",
+        "Owners": "Spartan Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Alpha Metallurgical Resources",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Road_Fork_52_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Road Fork 52 Mine",
+        "Country / Area": "United States",
+        "Last researched": "Oct 13, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

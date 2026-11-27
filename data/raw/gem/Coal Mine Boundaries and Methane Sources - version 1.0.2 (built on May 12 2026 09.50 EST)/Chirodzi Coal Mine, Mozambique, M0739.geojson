@@ -1,0 +1,285 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.061217,
+              -15.931813
+            ],
+            [
+              33.061264,
+              -15.883601
+            ],
+            [
+              33.028354,
+              -15.88314
+            ],
+            [
+              33.028471,
+              -15.875424
+            ],
+            [
+              33.015661,
+              -15.875611
+            ],
+            [
+              33.015683,
+              -15.870255
+            ],
+            [
+              33.012211,
+              -15.870238
+            ],
+            [
+              33.012214,
+              -15.868315
+            ],
+            [
+              32.999135,
+              -15.868448
+            ],
+            [
+              32.999135,
+              -15.864177
+            ],
+            [
+              32.979925,
+              -15.864369
+            ],
+            [
+              32.979722,
+              -15.829455
+            ],
+            [
+              33.061127,
+              -15.829341
+            ],
+            [
+              33.061133,
+              -15.821304
+            ],
+            [
+              33.00277,
+              -15.821225
+            ],
+            [
+              33.002709,
+              -15.805236
+            ],
+            [
+              32.965038,
+              -15.8048
+            ],
+            [
+              32.964983,
+              -15.787813
+            ],
+            [
+              32.916386,
+              -15.787771
+            ],
+            [
+              32.916693,
+              -15.932186
+            ],
+            [
+              33.061217,
+              -15.931813
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0739.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2025-02-01 00:00:00",
+        "notes": "The boundary is the concession area for Chirodzi Coal Mine extracted from map on page 4 in Jindal Africa's \"Presentation on\nMozambique Operation and Project,\" February 2025,: https://web.archive.org/web/20250721212134/https://miningindaba.com/getmedia/38dfc9c9-07bf-4e9b-b9c6-5a28c6e73bbf/8-Jindal-Africa-2025_Presentation.pdf. The are of the boundary is approximately 173 sq km.",
+        "description": "Boundary of mining concession area at Chirodzi Coal Mine",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0739",
+        "Owners": "JSPL Mozambique Minerais Ltda [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jindal Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Chirodzi_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Chirodzi Coal Mine",
+        "Country / Area": "Mozambique",
+        "Last researched": "Jul 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.020705,
+              -15.932472
+            ],
+            [
+              33.020584,
+              -15.929738
+            ],
+            [
+              33.013873,
+              -15.921575
+            ],
+            [
+              33.015535,
+              -15.917226
+            ],
+            [
+              33.011408,
+              -15.906971
+            ],
+            [
+              33.009994,
+              -15.895513
+            ],
+            [
+              33.008313,
+              -15.892909
+            ],
+            [
+              32.998267,
+              -15.887881
+            ],
+            [
+              32.988197,
+              -15.879614
+            ],
+            [
+              32.963619,
+              -15.867646
+            ],
+            [
+              32.935238,
+              -15.840945
+            ],
+            [
+              32.920902,
+              -15.855145
+            ],
+            [
+              32.949142,
+              -15.8819
+            ],
+            [
+              32.967937,
+              -15.89082
+            ],
+            [
+              32.987503,
+              -15.902008
+            ],
+            [
+              32.992338,
+              -15.913848
+            ],
+            [
+              32.990778,
+              -15.922303
+            ],
+            [
+              32.997124,
+              -15.932457
+            ],
+            [
+              33.020705,
+              -15.932472
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0739.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2025-02-01 00:00:00",
+        "notes": "The boundary of the coal-bearing area within concession area of Chirodzi Coal Mine extracted from the drawing on page 3 in Jindal Africa's \"Presentation on\nMozambique Operation and Project,\" February 2025, https://web.archive.org/web/20250721212134/https://miningindaba.com/getmedia/38dfc9c9-07bf-4e9b-b9c6-5a28c6e73bbf/8-Jindal-Africa-2025_Presentation.pdf. The area of the boundary is approximately 30 sq km.",
+        "description": "Boundary of coal-bearing area at Chirodzi Coal Mine",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0739",
+        "Owners": "JSPL Mozambique Minerais Ltda [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jindal Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Chirodzi_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Chirodzi Coal Mine",
+        "Country / Area": "Mozambique",
+        "Last researched": "Jul 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.01766,
+          -15.888842
+        ]
+      },
+      "properties": {
+        "id": "M0739.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2023-09-15 00:00:00",
+        "notes": "Coal washing plant identified visually from Google Earth Pro satellite imagery, confirmed with photograph from Africa Outlook August 2024 issue, pp. 4-5: https://web.archive.org/web/20250723165827/https://issuu.com/outlookpublishing/docs/jindal-africa",
+        "description": "Coal washing plant at Chirodzi Coal Mine",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0739",
+        "Owners": "JSPL Mozambique Minerais Ltda [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jindal Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Chirodzi_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Chirodzi Coal Mine",
+        "Country / Area": "Mozambique",
+        "Last researched": "Jul 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.016226,
+          -15.893262
+        ]
+      },
+      "properties": {
+        "id": "M0739.P2",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "combined heat and power plant",
+        "data source date": "2023-09-15 00:00:00",
+        "notes": "Possible power plant identified visually from Google Earth Pro satellite imagery. Information on 8 MW coal power plant found in proposal from April 2022, pg. 3: https://web.archive.org/web/20250723171620/https://www.scribd.com/document/627882324/TECHNICAL-AND-FINACIAL-PROPOSAL-FOR-LINCENSING-OF-8MW-TERMAL-POWER-PLANT-IN-CHIRODZI-120422. An article from October 2024 confirms 8 MW power plant was built: https://web.archive.org/web/20250723171525/https://theenergyyear.com/articles/jindal-forges-ahead-in-mozambique/",
+        "description": "Possible power plant at Chirodzi Coal Mine",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0739",
+        "Owners": "JSPL Mozambique Minerais Ltda [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jindal Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Chirodzi_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Chirodzi Coal Mine",
+        "Country / Area": "Mozambique",
+        "Last researched": "Jul 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

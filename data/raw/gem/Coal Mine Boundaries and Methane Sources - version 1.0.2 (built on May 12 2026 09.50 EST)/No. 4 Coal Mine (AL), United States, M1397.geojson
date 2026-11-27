@@ -1,0 +1,897 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.430095,
+              33.42487
+            ],
+            [
+              -87.401195,
+              33.405488
+            ],
+            [
+              -87.399077,
+              33.391385
+            ],
+            [
+              -87.380767,
+              33.352016
+            ],
+            [
+              -87.392733,
+              33.347602
+            ],
+            [
+              -87.380418,
+              33.330267
+            ],
+            [
+              -87.387103,
+              33.326736
+            ],
+            [
+              -87.372684,
+              33.308516
+            ],
+            [
+              -87.351226,
+              33.314403
+            ],
+            [
+              -87.345601,
+              33.309994
+            ],
+            [
+              -87.299888,
+              33.311458
+            ],
+            [
+              -87.307263,
+              33.322336
+            ],
+            [
+              -87.306892,
+              33.349079
+            ],
+            [
+              -87.301608,
+              33.360536
+            ],
+            [
+              -87.315674,
+              33.365535
+            ],
+            [
+              -87.298778,
+              33.380806
+            ],
+            [
+              -87.315301,
+              33.403139
+            ],
+            [
+              -87.312133,
+              33.405781
+            ],
+            [
+              -87.323036,
+              33.420179
+            ],
+            [
+              -87.316347,
+              33.422821
+            ],
+            [
+              -87.323385,
+              33.429874
+            ],
+            [
+              -87.361061,
+              33.456617
+            ],
+            [
+              -87.386796,
+              33.484244
+            ],
+            [
+              -87.407942,
+              33.478952
+            ],
+            [
+              -87.43683,
+              33.459547
+            ],
+            [
+              -87.441417,
+              33.461603
+            ],
+            [
+              -87.449171,
+              33.458366
+            ],
+            [
+              -87.430095,
+              33.42487
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1397.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Figure 1.1: Warrior Met Mine No. 7 Complex Property Location Map on page 8 of the 10-k ammendment https://web.archive.org/web/20250401205511/https://content.edgar-online.com/ExternalLink/EDGAR/0001193125-23-148198.html?hash=f70b22a3780a7fb34e137d3bee07d24a47918f40323506ca674ad745c038f313&dest=d503495dex961_htm#d503495dex961_htm, dated May 18 2023, shows that No. 4 mine is close to mines numbers 3, 5, Shoal Creek and Oak Grove.  Figure 3-1:Warrior Met Mine No. 7 Complex Property Location Map, page 21, and Figure 7-1:Drill Hole Location Map on page 37, show underground mining areas for these mines. The southern boundary of No. 4 mine was estimated by overlaying permit P3260 for No.4 mine extracted from geospatial permit mining data found at  https://web.archive.org/web/20250401200820/https://surface-mining.alabama.gov/ filtered for this mine. The estimated boundary includes the 'north projections' areas shown in the above figures. The extracted estimated boundary covers approx 146 sq km.",
+        "description": "No. 4 Coal Mine approximate mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.333647,
+          33.327414
+        ]
+      },
+      "properties": {
+        "id": "M1397.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.330165,
+          33.329319
+        ]
+      },
+      "properties": {
+        "id": "M1397.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.340088,
+          33.36163
+        ]
+      },
+      "properties": {
+        "id": "M1397.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.341505,
+          33.406369
+        ]
+      },
+      "properties": {
+        "id": "M1397.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. Most visible using Jan 2022 imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.416072,
+          33.428184
+        ]
+      },
+      "properties": {
+        "id": "M1397.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.30719,
+          33.371019
+        ]
+      },
+      "properties": {
+        "id": "M1397.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.375221,
+          33.38155
+        ]
+      },
+      "properties": {
+        "id": "M1397.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.335065,
+          33.366343
+        ]
+      },
+      "properties": {
+        "id": "M1397.P8",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.336679,
+          33.407913
+        ]
+      },
+      "properties": {
+        "id": "M1397.P9",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.390333,
+          33.437157
+        ]
+      },
+      "properties": {
+        "id": "M1397.P10",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.399546,
+          33.426367
+        ]
+      },
+      "properties": {
+        "id": "M1397.P11",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.33417,
+          33.318141
+        ]
+      },
+      "properties": {
+        "id": "M1397.P12",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft (possibly abandoned)",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.334401,
+          33.318184
+        ]
+      },
+      "properties": {
+        "id": "M1397.P13",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft (possibly abandoned)",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.337572,
+          33.36178
+        ]
+      },
+      "properties": {
+        "id": "M1397.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.358687,
+          33.385201
+        ]
+      },
+      "properties": {
+        "id": "M1397.P15",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.378567,
+          33.385807
+        ]
+      },
+      "properties": {
+        "id": "M1397.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.334318,
+          33.363848
+        ]
+      },
+      "properties": {
+        "id": "M1397.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.380195,
+          33.400317
+        ]
+      },
+      "properties": {
+        "id": "M1397.P18",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.345298,
+          33.393228
+        ]
+      },
+      "properties": {
+        "id": "M1397.P19",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.319639,
+          33.37636
+        ]
+      },
+      "properties": {
+        "id": "M1397.P20",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.335217,
+          33.359153
+        ]
+      },
+      "properties": {
+        "id": "M1397.P21",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.398747,
+          33.427767
+        ]
+      },
+      "properties": {
+        "id": "M1397.P22",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible mine shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.332242,
+          33.338926
+        ]
+      },
+      "properties": {
+        "id": "M1397.P23",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.376119,
+          33.384643
+        ]
+      },
+      "properties": {
+        "id": "M1397.P24",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.314074,
+          33.376395
+        ]
+      },
+      "properties": {
+        "id": "M1397.P25",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1397",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._4_Coal_Mine_%28AL%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 4 Coal Mine (AL)",
+        "Country / Area": "United States",
+        "Last researched": "Apr 07, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

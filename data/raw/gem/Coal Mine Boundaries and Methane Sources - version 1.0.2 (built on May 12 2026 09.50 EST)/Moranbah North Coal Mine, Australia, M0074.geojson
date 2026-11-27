@@ -1,0 +1,4143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.034424,
+              -21.928911
+            ],
+            [
+              148.034426,
+              -21.915092
+            ],
+            [
+              148.039857,
+              -21.915093
+            ],
+            [
+              148.041309,
+              -21.915093
+            ],
+            [
+              148.0479,
+              -21.915095
+            ],
+            [
+              148.048108,
+              -21.915095
+            ],
+            [
+              148.0541,
+              -21.915095
+            ],
+            [
+              148.066545,
+              -21.915113
+            ],
+            [
+              148.066918,
+              -21.915113
+            ],
+            [
+              148.067758,
+              -21.915114
+            ],
+            [
+              148.067758,
+              -21.870854
+            ],
+            [
+              148.067759,
+              -21.831781
+            ],
+            [
+              148.039199,
+              -21.831766
+            ],
+            [
+              148.037748,
+              -21.831764
+            ],
+            [
+              148.03445,
+              -21.831759
+            ],
+            [
+              148.016512,
+              -21.831773
+            ],
+            [
+              148.006881,
+              -21.852544
+            ],
+            [
+              148.003945,
+              -21.863472
+            ],
+            [
+              148.002728,
+              -21.868007
+            ],
+            [
+              148.002534,
+              -21.868736
+            ],
+            [
+              148.00051,
+              -21.868751
+            ],
+            [
+              147.986815,
+              -21.86879
+            ],
+            [
+              147.98642,
+              -21.868791
+            ],
+            [
+              147.974572,
+              -21.868824
+            ],
+            [
+              147.968859,
+              -21.868829
+            ],
+            [
+              147.969274,
+              -21.867576
+            ],
+            [
+              147.970105,
+              -21.865106
+            ],
+            [
+              147.967851,
+              -21.865107
+            ],
+            [
+              147.966347,
+              -21.865108
+            ],
+            [
+              147.961977,
+              -21.86511
+            ],
+            [
+              147.961444,
+              -21.865109
+            ],
+            [
+              147.952263,
+              -21.86511
+            ],
+            [
+              147.94128,
+              -21.865111
+            ],
+            [
+              147.941296,
+              -21.882284
+            ],
+            [
+              147.941503,
+              -21.882862
+            ],
+            [
+              147.945245,
+              -21.892312
+            ],
+            [
+              147.946979,
+              -21.896326
+            ],
+            [
+              147.947001,
+              -21.896377
+            ],
+            [
+              147.94711,
+              -21.89663
+            ],
+            [
+              147.947887,
+              -21.898434
+            ],
+            [
+              147.964331,
+              -21.898441
+            ],
+            [
+              147.964557,
+              -21.929059
+            ],
+            [
+              147.965034,
+              -21.929058
+            ],
+            [
+              147.965391,
+              -21.929058
+            ],
+            [
+              147.984006,
+              -21.929023
+            ],
+            [
+              147.984327,
+              -21.929023
+            ],
+            [
+              147.988956,
+              -21.929014
+            ],
+            [
+              148.01557,
+              -21.928961
+            ],
+            [
+              148.016549,
+              -21.92896
+            ],
+            [
+              148.022247,
+              -21.928948
+            ],
+            [
+              148.023239,
+              -21.928935
+            ],
+            [
+              148.034424,
+              -21.928911
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0074.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-01-15 00:00:00",
+        "notes": "The project overview section of the introduction on page 1 of Anglo American Moranbah North Extension UWIR (underground water impact report) Update 2025, published Jan 15 2025, https://web.archive.org/web/2/https://australia.angloamerican.com/~/media/Files/A/Anglo-American-Group-v5/Australia/sustainability/2025_Moranbah%20North%20Mine_%203%20year%20update_Underground%20Water%20Impact%20Report.pdf, describes the two mining leases that comprise the mine, ML 70108 and ML 700042. The boundary was derived from these mining leases as extracted from the Queensland Mining Leases dataset https://web.archive.org/web/20250327173139/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27. The boundary does not include mineral development licenses MDL 274 and 166, or coal exploration permit EPC 552.",
+        "description": "Moranbah North coal mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.985557,
+          -21.973304
+        ]
+      },
+      "properties": {
+        "id": "M0074.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "ammonia processing plant",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. According to Mine Details article about this plant, \nhttps://web.archive.org/web/20250404093836/https://www.mininglink.com.au/mine-details/moranbah-ammonium-nitrate-plant#:~:text=The%20main%20material%20used%20in,sold%20on%2015%20year, the plant uses coal seam methane. It's assumed that due to the adjacency to the Moranbah North mine, that the mine is the source of this coal seam methane.",
+        "description": "Dyno Nobel Moranbah ammonia processing plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.022802,
+          -21.832423
+        ]
+      },
+      "properties": {
+        "id": "M0074.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.028901,
+          -21.923111
+        ]
+      },
+      "properties": {
+        "id": "M0074.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.000765,
+          -21.887179
+        ]
+      },
+      "properties": {
+        "id": "M0074.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.024223,
+          -21.864646
+        ]
+      },
+      "properties": {
+        "id": "M0074.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.950459,
+          -21.89671
+        ]
+      },
+      "properties": {
+        "id": "M0074.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas to electric station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.000311,
+          -21.888278
+        ]
+      },
+      "properties": {
+        "id": "M0074.P13",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.058448,
+          -21.913257
+        ]
+      },
+      "properties": {
+        "id": "M0074.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.04702,
+          -21.915555
+        ]
+      },
+      "properties": {
+        "id": "M0074.P15",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.046926,
+          -21.915903
+        ]
+      },
+      "properties": {
+        "id": "M0074.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.022993,
+          -21.922857
+        ]
+      },
+      "properties": {
+        "id": "M0074.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.023703,
+          -21.922861
+        ]
+      },
+      "properties": {
+        "id": "M0074.P18",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.023333,
+          -21.923092
+        ]
+      },
+      "properties": {
+        "id": "M0074.P19",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.025057,
+          -21.9215
+        ]
+      },
+      "properties": {
+        "id": "M0074.P20",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.025342,
+          -21.920994
+        ]
+      },
+      "properties": {
+        "id": "M0074.P21",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.02638,
+          -21.920845
+        ]
+      },
+      "properties": {
+        "id": "M0074.P22",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.027318,
+          -21.920688
+        ]
+      },
+      "properties": {
+        "id": "M0074.P23",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.02837,
+          -21.921342
+        ]
+      },
+      "properties": {
+        "id": "M0074.P24",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.029413,
+          -21.921159
+        ]
+      },
+      "properties": {
+        "id": "M0074.P25",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.021778,
+          -21.92477
+        ]
+      },
+      "properties": {
+        "id": "M0074.P26",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.018462,
+          -21.925462
+        ]
+      },
+      "properties": {
+        "id": "M0074.P27",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.016087,
+          -21.928907
+        ]
+      },
+      "properties": {
+        "id": "M0074.P28",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.021997,
+          -21.867165
+        ]
+      },
+      "properties": {
+        "id": "M0074.P29",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.047364,
+          -21.891974
+        ]
+      },
+      "properties": {
+        "id": "M0074.P30",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.059716,
+          -21.899787
+        ]
+      },
+      "properties": {
+        "id": "M0074.P31",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.020467,
+          -21.895655
+        ]
+      },
+      "properties": {
+        "id": "M0074.P32",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.035153,
+          -21.896758
+        ]
+      },
+      "properties": {
+        "id": "M0074.P33",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.035388,
+          -21.896885
+        ]
+      },
+      "properties": {
+        "id": "M0074.P34",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.046717,
+          -21.898546
+        ]
+      },
+      "properties": {
+        "id": "M0074.P35",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.050471,
+          -21.900322
+        ]
+      },
+      "properties": {
+        "id": "M0074.P36",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.021497,
+          -21.901885
+        ]
+      },
+      "properties": {
+        "id": "M0074.P37",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.020845,
+          -21.905901
+        ]
+      },
+      "properties": {
+        "id": "M0074.P38",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.023448,
+          -21.905812
+        ]
+      },
+      "properties": {
+        "id": "M0074.P39",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.059314,
+          -21.907302
+        ]
+      },
+      "properties": {
+        "id": "M0074.P40",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.049096,
+          -21.907087
+        ]
+      },
+      "properties": {
+        "id": "M0074.P41",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.04745,
+          -21.907166
+        ]
+      },
+      "properties": {
+        "id": "M0074.P42",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.036519,
+          -21.906975
+        ]
+      },
+      "properties": {
+        "id": "M0074.P43",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.026797,
+          -21.906644
+        ]
+      },
+      "properties": {
+        "id": "M0074.P44",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.025545,
+          -21.906972
+        ]
+      },
+      "properties": {
+        "id": "M0074.P45",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.024393,
+          -21.90763
+        ]
+      },
+      "properties": {
+        "id": "M0074.P46",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.022623,
+          -21.907019
+        ]
+      },
+      "properties": {
+        "id": "M0074.P47",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.030276,
+          -21.832802
+        ]
+      },
+      "properties": {
+        "id": "M0074.P48",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.031205,
+          -21.832918
+        ]
+      },
+      "properties": {
+        "id": "M0074.P49",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.033841,
+          -21.835197
+        ]
+      },
+      "properties": {
+        "id": "M0074.P50",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.03289,
+          -21.835071
+        ]
+      },
+      "properties": {
+        "id": "M0074.P51",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.032304,
+          -21.834922
+        ]
+      },
+      "properties": {
+        "id": "M0074.P52",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.031664,
+          -21.834824
+        ]
+      },
+      "properties": {
+        "id": "M0074.P53",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.029441,
+          -21.835325
+        ]
+      },
+      "properties": {
+        "id": "M0074.P54",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.028347,
+          -21.835114
+        ]
+      },
+      "properties": {
+        "id": "M0074.P55",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.027849,
+          -21.83468
+        ]
+      },
+      "properties": {
+        "id": "M0074.P56",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.026522,
+          -21.836927
+        ]
+      },
+      "properties": {
+        "id": "M0074.P57",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.032685,
+          -21.839861
+        ]
+      },
+      "properties": {
+        "id": "M0074.P58",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.034141,
+          -21.839501
+        ]
+      },
+      "properties": {
+        "id": "M0074.P59",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.029736,
+          -21.842117
+        ]
+      },
+      "properties": {
+        "id": "M0074.P60",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.025197,
+          -21.845702
+        ]
+      },
+      "properties": {
+        "id": "M0074.P61",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.029092,
+          -21.846382
+        ]
+      },
+      "properties": {
+        "id": "M0074.P62",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.033793,
+          -21.847171
+        ]
+      },
+      "properties": {
+        "id": "M0074.P63",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.034354,
+          -21.847863
+        ]
+      },
+      "properties": {
+        "id": "M0074.P64",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.035993,
+          -21.846615
+        ]
+      },
+      "properties": {
+        "id": "M0074.P65",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.036265,
+          -21.846545
+        ]
+      },
+      "properties": {
+        "id": "M0074.P66",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.037195,
+          -21.846395
+        ]
+      },
+      "properties": {
+        "id": "M0074.P67",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.037616,
+          -21.846396
+        ]
+      },
+      "properties": {
+        "id": "M0074.P68",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.037683,
+          -21.846714
+        ]
+      },
+      "properties": {
+        "id": "M0074.P69",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.03803,
+          -21.846348
+        ]
+      },
+      "properties": {
+        "id": "M0074.P70",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.038585,
+          -21.84622
+        ]
+      },
+      "properties": {
+        "id": "M0074.P71",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.033116,
+          -21.848908
+        ]
+      },
+      "properties": {
+        "id": "M0074.P72",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.03352,
+          -21.848967
+        ]
+      },
+      "properties": {
+        "id": "M0074.P73",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.033906,
+          -21.848993
+        ]
+      },
+      "properties": {
+        "id": "M0074.P74",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.034173,
+          -21.849035
+        ]
+      },
+      "properties": {
+        "id": "M0074.P75",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.01324,
+          -21.852484
+        ]
+      },
+      "properties": {
+        "id": "M0074.P76",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.019861,
+          -21.853537
+        ]
+      },
+      "properties": {
+        "id": "M0074.P77",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.02002,
+          -21.854217
+        ]
+      },
+      "properties": {
+        "id": "M0074.P78",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.019979,
+          -21.854691
+        ]
+      },
+      "properties": {
+        "id": "M0074.P79",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.019916,
+          -21.855117
+        ]
+      },
+      "properties": {
+        "id": "M0074.P80",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.019841,
+          -21.85555
+        ]
+      },
+      "properties": {
+        "id": "M0074.P81",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.022669,
+          -21.854186
+        ]
+      },
+      "properties": {
+        "id": "M0074.P82",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.031716,
+          -21.852745
+        ]
+      },
+      "properties": {
+        "id": "M0074.P83",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.032336,
+          -21.853193
+        ]
+      },
+      "properties": {
+        "id": "M0074.P84",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.027165,
+          -21.859218
+        ]
+      },
+      "properties": {
+        "id": "M0074.P85",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.022786,
+          -21.855954
+        ]
+      },
+      "properties": {
+        "id": "M0074.P86",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.023308,
+          -21.858401
+        ]
+      },
+      "properties": {
+        "id": "M0074.P87",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.019778,
+          -21.856016
+        ]
+      },
+      "properties": {
+        "id": "M0074.P88",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.019726,
+          -21.856471
+        ]
+      },
+      "properties": {
+        "id": "M0074.P89",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.019658,
+          -21.856919
+        ]
+      },
+      "properties": {
+        "id": "M0074.P90",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.019593,
+          -21.857371
+        ]
+      },
+      "properties": {
+        "id": "M0074.P91",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.019509,
+          -21.857818
+        ]
+      },
+      "properties": {
+        "id": "M0074.P92",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.015426,
+          -21.861611
+        ]
+      },
+      "properties": {
+        "id": "M0074.P93",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.018162,
+          -21.860452
+        ]
+      },
+      "properties": {
+        "id": "M0074.P94",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.026514,
+          -21.863614
+        ]
+      },
+      "properties": {
+        "id": "M0074.P95",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.021655,
+          -21.86346
+        ]
+      },
+      "properties": {
+        "id": "M0074.P96",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.047064,
+          -21.85517
+        ]
+      },
+      "properties": {
+        "id": "M0074.P97",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.043622,
+          -21.857718
+        ]
+      },
+      "properties": {
+        "id": "M0074.P98",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.04412,
+          -21.856145
+        ]
+      },
+      "properties": {
+        "id": "M0074.P99",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.043342,
+          -21.859702
+        ]
+      },
+      "properties": {
+        "id": "M0074.P100",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.047213,
+          -21.862443
+        ]
+      },
+      "properties": {
+        "id": "M0074.P101",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.058923,
+          -21.862389
+        ]
+      },
+      "properties": {
+        "id": "M0074.P102",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.047198,
+          -21.869833
+        ]
+      },
+      "properties": {
+        "id": "M0074.P103",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.049505,
+          -21.869841
+        ]
+      },
+      "properties": {
+        "id": "M0074.P104",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.049922,
+          -21.869965
+        ]
+      },
+      "properties": {
+        "id": "M0074.P105",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.021388,
+          -21.871342
+        ]
+      },
+      "properties": {
+        "id": "M0074.P106",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.02522,
+          -21.872125
+        ]
+      },
+      "properties": {
+        "id": "M0074.P107",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.059095,
+          -21.870037
+        ]
+      },
+      "properties": {
+        "id": "M0074.P108",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.034064,
+          -21.875964
+        ]
+      },
+      "properties": {
+        "id": "M0074.P109",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.024691,
+          -21.875996
+        ]
+      },
+      "properties": {
+        "id": "M0074.P110",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.026368,
+          -21.87891
+        ]
+      },
+      "properties": {
+        "id": "M0074.P111",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.047216,
+          -21.877295
+        ]
+      },
+      "properties": {
+        "id": "M0074.P112",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.017961,
+          -21.882019
+        ]
+      },
+      "properties": {
+        "id": "M0074.P113",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.010895,
+          -21.884661
+        ]
+      },
+      "properties": {
+        "id": "M0074.P114",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.01902,
+          -21.888005
+        ]
+      },
+      "properties": {
+        "id": "M0074.P115",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.047325,
+          -21.833252
+        ]
+      },
+      "properties": {
+        "id": "M0074.P116",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.046032,
+          -21.834035
+        ]
+      },
+      "properties": {
+        "id": "M0074.P117",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.057225,
+          -21.837154
+        ]
+      },
+      "properties": {
+        "id": "M0074.P118",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.046993,
+          -21.836089
+        ]
+      },
+      "properties": {
+        "id": "M0074.P119",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.043213,
+          -21.835559
+        ]
+      },
+      "properties": {
+        "id": "M0074.P120",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.055162,
+          -21.84254
+        ]
+      },
+      "properties": {
+        "id": "M0074.P121",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.046963,
+          -21.84249
+        ]
+      },
+      "properties": {
+        "id": "M0074.P122",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.040042,
+          -21.846002
+        ]
+      },
+      "properties": {
+        "id": "M0074.P123",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.041477,
+          -21.845717
+        ]
+      },
+      "properties": {
+        "id": "M0074.P124",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.045011,
+          -21.848066
+        ]
+      },
+      "properties": {
+        "id": "M0074.P125",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.04707,
+          -21.848776
+        ]
+      },
+      "properties": {
+        "id": "M0074.P126",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.024867,
+          -21.921909
+        ]
+      },
+      "properties": {
+        "id": "M0074.P127",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.995126,
+          -21.887982
+        ]
+      },
+      "properties": {
+        "id": "M0074.P128",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.999591,
+          -21.889441
+        ]
+      },
+      "properties": {
+        "id": "M0074.P129",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.026618,
+          -21.833517
+        ]
+      },
+      "properties": {
+        "id": "M0074.P130",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.018218,
+          -21.836329
+        ]
+      },
+      "properties": {
+        "id": "M0074.P131",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.010084,
+          -21.87071
+        ]
+      },
+      "properties": {
+        "id": "M0074.P132",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.014002,
+          -21.880181
+        ]
+      },
+      "properties": {
+        "id": "M0074.P133",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.021709,
+          -21.877757
+        ]
+      },
+      "properties": {
+        "id": "M0074.P134",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.973632,
+          -21.884698
+        ]
+      },
+      "properties": {
+        "id": "M0074.P135",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.021766,
+          -21.928749
+        ]
+      },
+      "properties": {
+        "id": "M0074.P136",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. Note that this is just inside of the mine boundary and extremely close to the Grosvenor boundary to the south so use caution when attributing.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0074",
+        "Owners": "Moranbah North [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [88%]; Nippon Steel [6.15%]; Mitsui Holdings [4.75%]; Shinsho Corporation [0.5%]; JFE Mineral Company Limited [0.5%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Moranbah_North_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Moranbah North Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 23, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

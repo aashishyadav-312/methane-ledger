@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.778852,
+              35.960196
+            ],
+            [
+              110.728602,
+              35.905297
+            ],
+            [
+              110.704854,
+              35.886585
+            ],
+            [
+              110.66066,
+              35.861683
+            ],
+            [
+              110.625938,
+              35.852567
+            ],
+            [
+              110.588788,
+              35.843433
+            ],
+            [
+              110.628533,
+              35.818328
+            ],
+            [
+              110.631177,
+              35.821967
+            ],
+            [
+              110.67166,
+              35.82206
+            ],
+            [
+              110.671701,
+              35.812147
+            ],
+            [
+              110.684979,
+              35.812177
+            ],
+            [
+              110.68494,
+              35.822091
+            ],
+            [
+              110.700445,
+              35.822122
+            ],
+            [
+              110.700418,
+              35.829479
+            ],
+            [
+              110.783321,
+              35.866654
+            ],
+            [
+              110.795535,
+              35.853202
+            ],
+            [
+              110.799395,
+              35.856584
+            ],
+            [
+              110.796764,
+              35.859283
+            ],
+            [
+              110.792745,
+              35.859277
+            ],
+            [
+              110.792741,
+              35.863426
+            ],
+            [
+              110.77775,
+              35.878811
+            ],
+            [
+              110.833057,
+              35.908913
+            ],
+            [
+              110.778852,
+              35.960196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0366.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2017-09-15 00:00:00",
+        "notes": "The coordinates are found on page 10, Section Four (\u56db\u3001\u8bc4\u4f30\u5bf9\u8c61\u548c\u8303\u56f4) \nMining Right Assessment Report for the Wangjialing Mine of Shanxi China Coal Huajin Energy Co., Ltd. (\u5c71\u897f\u4e2d\u7164\u534e\u664b\u80fd\u6e90\u6709\u9650\u8d23\u4efb\u516c\u53f8\u738b\u5bb6\u5cad\u77ff (\u7164\u77ff) \u91c7\u77ff\u6743\u8bc4\u4f30\u62a5\u544a) https://web.archive.org/web/20250530191341/https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2017/2017-9/2017-09-28/3781390.PDF",
+        "description": "Wangjialing coal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0366",
+        "Owners": "Shanxi Zhongmei Huajin Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal [29%]; HKSCC Nominees Limited [15%]; Shanxi Coking Coal Group [25%]; Others [31%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangjialing_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%AD%E7%85%A4%E5%8D%8E%E6%99%8B%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E7%8E%8B%E5%AE%B6%E5%B2%AD%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Wangjialing Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.68192,
+          35.816864
+        ]
+      },
+      "properties": {
+        "id": "M0366.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-11-21 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0366",
+        "Owners": "Shanxi Zhongmei Huajin Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal [29%]; HKSCC Nominees Limited [15%]; Shanxi Coking Coal Group [25%]; Others [31%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangjialing_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%AD%E7%85%A4%E5%8D%8E%E6%99%8B%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E7%8E%8B%E5%AE%B6%E5%B2%AD%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Wangjialing Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.677816,
+          35.816114
+        ]
+      },
+      "properties": {
+        "id": "M0366.P2",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-11-21 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0366",
+        "Owners": "Shanxi Zhongmei Huajin Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal [29%]; HKSCC Nominees Limited [15%]; Shanxi Coking Coal Group [25%]; Others [31%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangjialing_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%AD%E7%85%A4%E5%8D%8E%E6%99%8B%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E7%8E%8B%E5%AE%B6%E5%B2%AD%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Wangjialing Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.754981,
+          35.886533
+        ]
+      },
+      "properties": {
+        "id": "M0366.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-11-21 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0366",
+        "Owners": "Shanxi Zhongmei Huajin Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal [29%]; HKSCC Nominees Limited [15%]; Shanxi Coking Coal Group [25%]; Others [31%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangjialing_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E4%B8%AD%E7%85%A4%E5%8D%8E%E6%99%8B%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E7%8E%8B%E5%AE%B6%E5%B2%AD%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Wangjialing Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

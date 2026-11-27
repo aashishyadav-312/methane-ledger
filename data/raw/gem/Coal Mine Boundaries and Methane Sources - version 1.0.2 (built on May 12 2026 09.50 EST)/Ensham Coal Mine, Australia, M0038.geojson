@@ -1,0 +1,585 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.501301,
+              -23.401634
+            ],
+            [
+              148.493783,
+              -23.403707
+            ],
+            [
+              148.485141,
+              -23.406079
+            ],
+            [
+              148.472429,
+              -23.421983
+            ],
+            [
+              148.453058,
+              -23.406327
+            ],
+            [
+              148.448521,
+              -23.412121
+            ],
+            [
+              148.448161,
+              -23.412581
+            ],
+            [
+              148.439419,
+              -23.423742
+            ],
+            [
+              148.438956,
+              -23.424332
+            ],
+            [
+              148.430131,
+              -23.435597
+            ],
+            [
+              148.405026,
+              -23.467641
+            ],
+            [
+              148.420377,
+              -23.477628
+            ],
+            [
+              148.420696,
+              -23.477836
+            ],
+            [
+              148.42079,
+              -23.477898
+            ],
+            [
+              148.425214,
+              -23.4808
+            ],
+            [
+              148.444023,
+              -23.493077
+            ],
+            [
+              148.447473,
+              -23.493571
+            ],
+            [
+              148.450707,
+              -23.495807
+            ],
+            [
+              148.459852,
+              -23.502127
+            ],
+            [
+              148.459354,
+              -23.50246
+            ],
+            [
+              148.432791,
+              -23.545621
+            ],
+            [
+              148.461194,
+              -23.552186
+            ],
+            [
+              148.460439,
+              -23.558008
+            ],
+            [
+              148.460748,
+              -23.558037
+            ],
+            [
+              148.472948,
+              -23.538736
+            ],
+            [
+              148.473103,
+              -23.538491
+            ],
+            [
+              148.473154,
+              -23.53815
+            ],
+            [
+              148.492838,
+              -23.525134
+            ],
+            [
+              148.501111,
+              -23.520834
+            ],
+            [
+              148.504903,
+              -23.509417
+            ],
+            [
+              148.50548,
+              -23.507678
+            ],
+            [
+              148.507625,
+              -23.501218
+            ],
+            [
+              148.517741,
+              -23.490858
+            ],
+            [
+              148.54318,
+              -23.468927
+            ],
+            [
+              148.543206,
+              -23.465825
+            ],
+            [
+              148.543179,
+              -23.463333
+            ],
+            [
+              148.543177,
+              -23.454746
+            ],
+            [
+              148.543177,
+              -23.447883
+            ],
+            [
+              148.535841,
+              -23.442677
+            ],
+            [
+              148.535504,
+              -23.44113
+            ],
+            [
+              148.534267,
+              -23.439753
+            ],
+            [
+              148.532866,
+              -23.438824
+            ],
+            [
+              148.531542,
+              -23.440289
+            ],
+            [
+              148.52846,
+              -23.438987
+            ],
+            [
+              148.524817,
+              -23.404232
+            ],
+            [
+              148.524467,
+              -23.371554
+            ],
+            [
+              148.535364,
+              -23.370822
+            ],
+            [
+              148.546403,
+              -23.355574
+            ],
+            [
+              148.548541,
+              -23.35362
+            ],
+            [
+              148.552656,
+              -23.350838
+            ],
+            [
+              148.556834,
+              -23.348014
+            ],
+            [
+              148.558038,
+              -23.34466
+            ],
+            [
+              148.559147,
+              -23.342898
+            ],
+            [
+              148.562114,
+              -23.339904
+            ],
+            [
+              148.56268,
+              -23.339332
+            ],
+            [
+              148.562857,
+              -23.339154
+            ],
+            [
+              148.564042,
+              -23.338122
+            ],
+            [
+              148.568235,
+              -23.335179
+            ],
+            [
+              148.571435,
+              -23.335734
+            ],
+            [
+              148.572969,
+              -23.334502
+            ],
+            [
+              148.569571,
+              -23.330889
+            ],
+            [
+              148.567513,
+              -23.332541
+            ],
+            [
+              148.567645,
+              -23.334461
+            ],
+            [
+              148.562852,
+              -23.337829
+            ],
+            [
+              148.56129,
+              -23.339404
+            ],
+            [
+              148.560723,
+              -23.339976
+            ],
+            [
+              148.557535,
+              -23.34319
+            ],
+            [
+              148.556381,
+              -23.346417
+            ],
+            [
+              148.554949,
+              -23.348177
+            ],
+            [
+              148.546412,
+              -23.353946
+            ],
+            [
+              148.537534,
+              -23.36616
+            ],
+            [
+              148.530821,
+              -23.370227
+            ],
+            [
+              148.524458,
+              -23.370651
+            ],
+            [
+              148.524407,
+              -23.365877
+            ],
+            [
+              148.521717,
+              -23.365902
+            ],
+            [
+              148.521687,
+              -23.363193
+            ],
+            [
+              148.524377,
+              -23.363168
+            ],
+            [
+              148.524248,
+              -23.351163
+            ],
+            [
+              148.501099,
+              -23.340665
+            ],
+            [
+              148.50024,
+              -23.340296
+            ],
+            [
+              148.498885,
+              -23.345978
+            ],
+            [
+              148.499829,
+              -23.353954
+            ],
+            [
+              148.500046,
+              -23.389352
+            ],
+            [
+              148.504108,
+              -23.401944
+            ],
+            [
+              148.501301,
+              -23.401634
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0038.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground and surface",
+        "data source date": "2024-12-23 00:00:00",
+        "notes": "Figure 1 Proposed project area (from EIS Figure 4-1 Underground mine plan) on page 14 of the Environmental Impact Statement (EIS) assessment report under the Environmental Protection Act 1994 Ensham Life of Mine Extension Proposed by Ensham Joint Venture November 2021, https://web.archive.org/web/2/https://www.qld.gov.au/__data/assets/pdf_file/0025/220948/ensham-life-of-mine-extension-project-assessment-report.pdf, shows the mining leases and proposed extension area.\n\nMining leases were found in the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27) that very closely match Figure 4-1 and are presumed to be more recent than in the 2021 EIS report. The extracted boundary includes mining leases ML 700061, 70049, 70326, 70365, 70366, 70367, 7459 and 7460.\n\nUnderground operations are shown in Figure 4 on page 41 and predominantly located in ML 700061 and 70365, west of the central and southern pits.\n\nThe area of the boundary is 148 sq km.",
+        "description": "Ensham mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0038",
+        "Owners": "Sungela [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Thungela Resources Australia [85%]; LX International [15%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ensham_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Ensham Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.483824,
+          -23.45969
+        ]
+      },
+      "properties": {
+        "id": "M0038.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-04-13 00:00:00",
+        "notes": "Visually identified with Google Earth Pro satellite imagery.",
+        "description": "ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0038",
+        "Owners": "Sungela [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Thungela Resources Australia [85%]; LX International [15%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ensham_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Ensham Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.490874,
+          -23.475786
+        ]
+      },
+      "properties": {
+        "id": "M0038.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-04-13 00:00:00",
+        "notes": "Visually identified with Google Earth Pro satellite imagery.",
+        "description": "ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0038",
+        "Owners": "Sungela [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Thungela Resources Australia [85%]; LX International [15%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ensham_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Ensham Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.470291,
+          -23.461321
+        ]
+      },
+      "properties": {
+        "id": "M0038.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-04-13 00:00:00",
+        "notes": "Visually identified with Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0038",
+        "Owners": "Sungela [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Thungela Resources Australia [85%]; LX International [15%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ensham_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Ensham Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.456828,
+          -23.47778
+        ]
+      },
+      "properties": {
+        "id": "M0038.P4",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-04-13 00:00:00",
+        "notes": "Visually identified with Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0038",
+        "Owners": "Sungela [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Thungela Resources Australia [85%]; LX International [15%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ensham_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Ensham Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.476551,
+          -23.447056
+        ]
+      },
+      "properties": {
+        "id": "M0038.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-04-13 00:00:00",
+        "notes": "Visually identified with Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0038",
+        "Owners": "Sungela [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Thungela Resources Australia [85%]; LX International [15%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ensham_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Ensham Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.492214,
+          -23.474093
+        ]
+      },
+      "properties": {
+        "id": "M0038.P6",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2023-04-13 00:00:00",
+        "notes": "Visually identified with Google Earth Pro satellite imagery.",
+        "description": "possible mine entrance/exit",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0038",
+        "Owners": "Sungela [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Thungela Resources Australia [85%]; LX International [15%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ensham_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Ensham Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.492058,
+          -23.473906
+        ]
+      },
+      "properties": {
+        "id": "M0038.P7",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2023-04-13 00:00:00",
+        "notes": "Visually identified with Google Earth Pro satellite imagery.",
+        "description": "possible mine production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0038",
+        "Owners": "Sungela [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Thungela Resources Australia [85%]; LX International [15%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ensham_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Ensham Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.174994,
+              23.775003
+            ],
+            [
+              86.225212,
+              23.775302
+            ],
+            [
+              86.225134,
+              23.791986
+            ],
+            [
+              86.175075,
+              23.791839
+            ],
+            [
+              86.174994,
+              23.775003
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0489.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground and surface",
+        "data source date": "Unclear since the information is not given in the resource which the boundary is based on.",
+        "notes": "The boundary is based on the rectangular Block II area described in the Location section of the website https://web.archive.org/web/20240723002954/https://www.bcclweb.in/?page_id=6261&lang=en. The area of this boundary is 951 hectares, which is close to the area listed in the Details of Leasehold section of the same website of 906.63 hectares. More precise information on the exact boundary was not found.",
+        "description": "Block II (BOCP) Coal Mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0489",
+        "Owners": "Bharat Coking Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coal India",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Block_II_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Block II (BOCP) Coal Mine",
+        "Country / Area": "India",
+        "Last researched": "Apr 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.194049,
+          23.780063
+        ]
+      },
+      "properties": {
+        "id": "M0489.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2019-02-01 00:00:00",
+        "notes": "Based on GEP satellite imagery from 2/2019, there appears to be a large flame above this infrastructure suggesting it might be a flare.",
+        "description": "possible flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0489",
+        "Owners": "Bharat Coking Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coal India",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Block_II_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Block II (BOCP) Coal Mine",
+        "Country / Area": "India",
+        "Last researched": "Apr 30, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

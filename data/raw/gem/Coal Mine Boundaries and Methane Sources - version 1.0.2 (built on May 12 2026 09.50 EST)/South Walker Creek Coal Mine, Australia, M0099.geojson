@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.289287,
+              -21.532725
+            ],
+            [
+              148.325251,
+              -21.601868
+            ],
+            [
+              148.331046,
+              -21.601913
+            ],
+            [
+              148.335265,
+              -21.614862
+            ],
+            [
+              148.318472,
+              -21.633511
+            ],
+            [
+              148.314168,
+              -21.678585
+            ],
+            [
+              148.371837,
+              -21.743025
+            ],
+            [
+              148.431246,
+              -21.771387
+            ],
+            [
+              148.431203,
+              -21.827386
+            ],
+            [
+              148.484402,
+              -21.827411
+            ],
+            [
+              148.496288,
+              -21.80791
+            ],
+            [
+              148.455102,
+              -21.746407
+            ],
+            [
+              148.414217,
+              -21.732517
+            ],
+            [
+              148.359708,
+              -21.689832
+            ],
+            [
+              148.347047,
+              -21.672944
+            ],
+            [
+              148.347044,
+              -21.663911
+            ],
+            [
+              148.337381,
+              -21.648274
+            ],
+            [
+              148.337377,
+              -21.612141
+            ],
+            [
+              148.328901,
+              -21.586232
+            ],
+            [
+              148.300646,
+              -21.531233
+            ],
+            [
+              148.289287,
+              -21.532725
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0099.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-03-01 00:00:00",
+        "notes": "The Introduction section on page 3 of the Compliance Report\nEPBC 2017/7957 South Walker Creek Mine MRA2c, https://web.archive.org/web/20250316141119/https://stanmore.au/wp-content/uploads/2024/03/2024-Annual-Compliance-Report-EPBC2017-7957-MRA2c-Stage-1.pdf, March 2024, describes the mining lease for the mine, 'Mining activities at SWC are conducted on Mining Lease (ML) 4750 across five active pits.'.  The mine lease boundary was extracted from the Queensland Spatial Catalogue's (QSpatial) Mining Leases boundary data,  https://web.archive.org/web/20250603154047/https://qldspatial.information.qld.gov.au/catalogue/custom/index.page. The area of the boundary is 114 sq km.",
+        "description": "Mine lease area boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0099",
+        "Owners": "Stanmore SMC Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stanmore Resources Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/South_Walker_Creek_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "South Walker Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.76138,
+              32.90848
+            ],
+            [
+              116.74986,
+              32.87367
+            ],
+            [
+              116.76358,
+              32.86629
+            ],
+            [
+              116.78244,
+              32.86499
+            ],
+            [
+              116.78773,
+              32.86608
+            ],
+            [
+              116.79138,
+              32.86875
+            ],
+            [
+              116.83638,
+              32.84959
+            ],
+            [
+              116.84444,
+              32.84773
+            ],
+            [
+              116.8515,
+              32.84444
+            ],
+            [
+              116.85777,
+              32.84181
+            ],
+            [
+              116.85801,
+              32.83764
+            ],
+            [
+              116.87027,
+              32.83764
+            ],
+            [
+              116.87027,
+              32.84181
+            ],
+            [
+              116.87444,
+              32.84181
+            ],
+            [
+              116.87444,
+              32.84598
+            ],
+            [
+              116.87861,
+              32.84598
+            ],
+            [
+              116.87861,
+              32.85014
+            ],
+            [
+              116.88277,
+              32.85014
+            ],
+            [
+              116.88277,
+              32.85431
+            ],
+            [
+              116.88694,
+              32.85431
+            ],
+            [
+              116.88431,
+              32.85847
+            ],
+            [
+              116.89111,
+              32.85848
+            ],
+            [
+              116.89111,
+              32.86264
+            ],
+            [
+              116.89527,
+              32.86264
+            ],
+            [
+              116.89527,
+              32.86681
+            ],
+            [
+              116.89111,
+              32.86681
+            ],
+            [
+              116.87273,
+              32.87096
+            ],
+            [
+              116.87861,
+              32.87098
+            ],
+            [
+              116.86739,
+              32.87514
+            ],
+            [
+              116.84238,
+              32.88348
+            ],
+            [
+              116.80343,
+              32.88348
+            ],
+            [
+              116.7661,
+              32.90431
+            ],
+            [
+              116.76138,
+              32.90848
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1254.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2022-04-28 00:00:00",
+        "notes": "The coordinates can be found  on page 4 from the document Evaluation Report on the Mining Right of Zhujidong Coal Mine, Huainan Mining (Group) Co., Ltd. (\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6731\u96c6\u4e1c\u7164\u77ff\u91c7\u77ff\u6743\u8bc4\u4f30\u62a5\u544a) https://web.archive.org/web/20250730053330/https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2022-06-22/600575_20220622_27_CN2WFiR0.pdf ",
+        "description": "Zhujidong Coal Mine Boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1254",
+        "Owners": "Huainan Mining Group [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaihe Energy [82.90%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhujidong_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%9C%B1%E9%9B%86%E4%B8%9C%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Zhujidong Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.822005,
+          32.861978
+        ]
+      },
+      "properties": {
+        "id": "M1254.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible Auxiliary Shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1254",
+        "Owners": "Huainan Mining Group [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaihe Energy [82.90%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhujidong_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%9C%B1%E9%9B%86%E4%B8%9C%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Zhujidong Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.823829,
+          32.862085
+        ]
+      },
+      "properties": {
+        "id": "M1254.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Main shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1254",
+        "Owners": "Huainan Mining Group [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaihe Energy [82.90%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhujidong_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%9C%B1%E9%9B%86%E4%B8%9C%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Zhujidong Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.820528,
+          32.863176
+        ]
+      },
+      "properties": {
+        "id": "M1254.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Vent",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1254",
+        "Owners": "Huainan Mining Group [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaihe Energy [82.90%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhujidong_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%9C%B1%E9%9B%86%E4%B8%9C%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Zhujidong Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.821282,
+          32.865014
+        ]
+      },
+      "properties": {
+        "id": "M1254.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas to Electric Station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1254",
+        "Owners": "Huainan Mining Group [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaihe Energy [82.90%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhujidong_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%9C%B1%E9%9B%86%E4%B8%9C%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Zhujidong Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.82058,
+          32.864544
+        ]
+      },
+      "properties": {
+        "id": "M1254.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Drainage Station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1254",
+        "Owners": "Huainan Mining Group [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Huaihe Energy [82.90%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Zhujidong_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%9C%B1%E9%9B%86%E4%B8%9C%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Zhujidong Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

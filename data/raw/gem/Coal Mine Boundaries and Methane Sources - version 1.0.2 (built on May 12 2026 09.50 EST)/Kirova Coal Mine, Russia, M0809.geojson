@@ -1,0 +1,1271 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.1312,
+              54.5917
+            ],
+            [
+              86.2708,
+              54.5936
+            ],
+            [
+              86.2679,
+              54.5959
+            ],
+            [
+              86.2588,
+              54.6017
+            ],
+            [
+              86.2598,
+              54.6038
+            ],
+            [
+              86.2623,
+              54.6061
+            ],
+            [
+              86.2631,
+              54.6065
+            ],
+            [
+              86.2634,
+              54.6067
+            ],
+            [
+              86.2584,
+              54.6108
+            ],
+            [
+              86.2542,
+              54.6136
+            ],
+            [
+              86.2537,
+              54.6136
+            ],
+            [
+              86.2531,
+              54.6138
+            ],
+            [
+              86.2512,
+              54.6133
+            ],
+            [
+              86.2354,
+              54.6134
+            ],
+            [
+              86.229,
+              54.6162
+            ],
+            [
+              86.224,
+              54.619
+            ],
+            [
+              86.2137,
+              54.6192
+            ],
+            [
+              86.2023,
+              54.6197
+            ],
+            [
+              86.1726,
+              54.6353
+            ],
+            [
+              86.1737,
+              54.6354
+            ],
+            [
+              86.174,
+              54.6348
+            ],
+            [
+              86.1779,
+              54.6353
+            ],
+            [
+              86.1788,
+              54.6362
+            ],
+            [
+              86.179,
+              54.6363
+            ],
+            [
+              86.1751,
+              54.6377
+            ],
+            [
+              86.1714,
+              54.6384
+            ],
+            [
+              86.1704,
+              54.6385
+            ],
+            [
+              86.1676,
+              54.6386
+            ],
+            [
+              86.1637,
+              54.6395
+            ],
+            [
+              86.164,
+              54.64
+            ],
+            [
+              86.1654,
+              54.6404
+            ],
+            [
+              86.1703,
+              54.6447
+            ],
+            [
+              86.1809,
+              54.6487
+            ],
+            [
+              86.1869,
+              54.6534
+            ],
+            [
+              86.1882,
+              54.6542
+            ],
+            [
+              86.1593,
+              54.671
+            ],
+            [
+              86.1501,
+              54.6718
+            ],
+            [
+              86.1381,
+              54.6731
+            ],
+            [
+              86.1295,
+              54.6768
+            ],
+            [
+              86.1206,
+              54.6784
+            ],
+            [
+              86.1059,
+              54.6784
+            ],
+            [
+              86.0668,
+              54.6823
+            ],
+            [
+              86.0339,
+              54.6581
+            ],
+            [
+              86.0187,
+              54.6489
+            ],
+            [
+              86.0267,
+              54.6414
+            ],
+            [
+              86.0237,
+              54.6351
+            ],
+            [
+              86.0318,
+              54.6339
+            ],
+            [
+              86.0415,
+              54.619
+            ],
+            [
+              86.0584,
+              54.6192
+            ],
+            [
+              86.0734,
+              54.6069
+            ],
+            [
+              86.0865,
+              54.6009
+            ],
+            [
+              86.1043,
+              54.5948
+            ],
+            [
+              86.112,
+              54.5909
+            ],
+            [
+              86.1312,
+              54.5917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0809.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2017-12-31 00:00:00",
+        "notes": "Boundary coordinates were extracted from the NedraExpert portal for the exploration and production license KEM 01359 TE https://web.archive.org/web/20251106144329/https://www.nedraexpert.ru/subsurface/1144747920/1?ysclid=mhlhi35wr7946674233. The boundary was validated using slide 3 of Stages of development of degassing operations in coal mines, SUEK JSC AO \u201cSUEK-Kuzbass\u201d, ia600407.us.archive.org/31/items/4-2-3-degazaciya-dobycha-i-utilizaciya-metana-ugolnyh-mestorozhdeniy-o/4_2_3_Degazaciya_dobycha_i_utilizaciya_metana_ugolnyh_mestorozhdeniyO.pdf, Oct 31, 2018 (not archivable), which shows the same operational area. The approximate area of the total boundary polygon is 93 sq km.",
+        "description": "Kirova Coal Mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.148969,
+          54.651197
+        ]
+      },
+      "properties": {
+        "id": "M0809.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Coal handling and preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.152036,
+          54.649525
+        ]
+      },
+      "properties": {
+        "id": "M0809.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Slope access or production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.192081,
+          54.622433
+        ]
+      },
+      "properties": {
+        "id": "M0809.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible power plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.1162,
+          54.60888
+        ]
+      },
+      "properties": {
+        "id": "M0809.P4",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.117475,
+          54.607728
+        ]
+      },
+      "properties": {
+        "id": "M0809.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-10-03 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.246897,
+          54.598219
+        ]
+      },
+      "properties": {
+        "id": "M0809.P6",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Mine production shaft\n\n",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.121472,
+          54.610261
+        ]
+      },
+      "properties": {
+        "id": "M0809.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.164425,
+          54.617978
+        ]
+      },
+      "properties": {
+        "id": "M0809.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.196581,
+          54.620778
+        ]
+      },
+      "properties": {
+        "id": "M0809.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.172589,
+          54.632172
+        ]
+      },
+      "properties": {
+        "id": "M0809.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.176558,
+          54.631147
+        ]
+      },
+      "properties": {
+        "id": "M0809.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.169653,
+          54.594106
+        ]
+      },
+      "properties": {
+        "id": "M0809.P12",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.182472,
+          54.616794
+        ]
+      },
+      "properties": {
+        "id": "M0809.P13",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.179089,
+          54.612608
+        ]
+      },
+      "properties": {
+        "id": "M0809.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.184869,
+          54.604961
+        ]
+      },
+      "properties": {
+        "id": "M0809.P15",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.173989,
+          54.607742
+        ]
+      },
+      "properties": {
+        "id": "M0809.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.124746,
+          54.610413
+        ]
+      },
+      "properties": {
+        "id": "M0809.P17",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.172539,
+          54.593625
+        ]
+      },
+      "properties": {
+        "id": "M0809.P18",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.185861,
+          54.616206
+        ]
+      },
+      "properties": {
+        "id": "M0809.P20",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.181439,
+          54.630236
+        ]
+      },
+      "properties": {
+        "id": "M0809.P21",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.171122,
+          54.600256
+        ]
+      },
+      "properties": {
+        "id": "M0809.P22",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.149525,
+          54.611928
+        ]
+      },
+      "properties": {
+        "id": "M0809.P23",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-04-18 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station with possible flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.162225,
+          54.616117
+        ]
+      },
+      "properties": {
+        "id": "M0809.P24",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.186867,
+          54.594967
+        ]
+      },
+      "properties": {
+        "id": "M0809.P25",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2021-09-05 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible gas to electric station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.160864,
+          54.605686
+        ]
+      },
+      "properties": {
+        "id": "M0809.P26",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-04-18 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station with possible flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.083642,
+          54.667186
+        ]
+      },
+      "properties": {
+        "id": "M0809.P27",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.174536,
+          54.628706
+        ]
+      },
+      "properties": {
+        "id": "M0809.P28",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.161835,
+          54.630282
+        ]
+      },
+      "properties": {
+        "id": "M0809.P29",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.143347,
+          54.638767
+        ]
+      },
+      "properties": {
+        "id": "M0809.P30",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.169276,
+          54.596015
+        ]
+      },
+      "properties": {
+        "id": "M0809.P31",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.183925,
+          54.630768
+        ]
+      },
+      "properties": {
+        "id": "M0809.P32",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.186546,
+          54.629719
+        ]
+      },
+      "properties": {
+        "id": "M0809.P33",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station with possible flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.185715,
+          54.628582
+        ]
+      },
+      "properties": {
+        "id": "M0809.P34",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.16242,
+          54.591216
+        ]
+      },
+      "properties": {
+        "id": "M0809.P35",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-12 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0809",
+        "Owners": "SUEK-Kuzbass JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Siberian Coal Energy Company JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kirova_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kirova Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

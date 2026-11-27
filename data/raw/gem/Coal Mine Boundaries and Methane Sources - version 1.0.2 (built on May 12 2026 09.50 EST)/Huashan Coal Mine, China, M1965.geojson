@@ -1,0 +1,595 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.593505,
+              26.593778
+            ],
+            [
+              101.593402,
+              26.595684
+            ],
+            [
+              101.593091,
+              26.59757
+            ],
+            [
+              101.592575,
+              26.599421
+            ],
+            [
+              101.591861,
+              26.601217
+            ],
+            [
+              101.590954,
+              26.602941
+            ],
+            [
+              101.589863,
+              26.604578
+            ],
+            [
+              101.5886,
+              26.60611
+            ],
+            [
+              101.587175,
+              26.607523
+            ],
+            [
+              101.585603,
+              26.608804
+            ],
+            [
+              101.583898,
+              26.609941
+            ],
+            [
+              101.582078,
+              26.610922
+            ],
+            [
+              101.58016,
+              26.611737
+            ],
+            [
+              101.578162,
+              26.61238
+            ],
+            [
+              101.576104,
+              26.612844
+            ],
+            [
+              101.574005,
+              26.613123
+            ],
+            [
+              101.571885,
+              26.613217
+            ],
+            [
+              101.569765,
+              26.613123
+            ],
+            [
+              101.567666,
+              26.612844
+            ],
+            [
+              101.565608,
+              26.61238
+            ],
+            [
+              101.56361,
+              26.611737
+            ],
+            [
+              101.561692,
+              26.610922
+            ],
+            [
+              101.559872,
+              26.609941
+            ],
+            [
+              101.558167,
+              26.608804
+            ],
+            [
+              101.556595,
+              26.607523
+            ],
+            [
+              101.55517,
+              26.60611
+            ],
+            [
+              101.553907,
+              26.604578
+            ],
+            [
+              101.552816,
+              26.602941
+            ],
+            [
+              101.551909,
+              26.601217
+            ],
+            [
+              101.551195,
+              26.599421
+            ],
+            [
+              101.550679,
+              26.59757
+            ],
+            [
+              101.550368,
+              26.595684
+            ],
+            [
+              101.550265,
+              26.593778
+            ],
+            [
+              101.550369,
+              26.591873
+            ],
+            [
+              101.550681,
+              26.589986
+            ],
+            [
+              101.551197,
+              26.588136
+            ],
+            [
+              101.551912,
+              26.58634
+            ],
+            [
+              101.552819,
+              26.584616
+            ],
+            [
+              101.55391,
+              26.58298
+            ],
+            [
+              101.555174,
+              26.581448
+            ],
+            [
+              101.556599,
+              26.580035
+            ],
+            [
+              101.558171,
+              26.578754
+            ],
+            [
+              101.559875,
+              26.577618
+            ],
+            [
+              101.561695,
+              26.576638
+            ],
+            [
+              101.563613,
+              26.575822
+            ],
+            [
+              101.56561,
+              26.57518
+            ],
+            [
+              101.567668,
+              26.574716
+            ],
+            [
+              101.569766,
+              26.574436
+            ],
+            [
+              101.571885,
+              26.574343
+            ],
+            [
+              101.574004,
+              26.574436
+            ],
+            [
+              101.576102,
+              26.574716
+            ],
+            [
+              101.57816,
+              26.57518
+            ],
+            [
+              101.580157,
+              26.575822
+            ],
+            [
+              101.582075,
+              26.576638
+            ],
+            [
+              101.583895,
+              26.577618
+            ],
+            [
+              101.585599,
+              26.578754
+            ],
+            [
+              101.587171,
+              26.580035
+            ],
+            [
+              101.588596,
+              26.581448
+            ],
+            [
+              101.58986,
+              26.58298
+            ],
+            [
+              101.590951,
+              26.584616
+            ],
+            [
+              101.591858,
+              26.58634
+            ],
+            [
+              101.592573,
+              26.588136
+            ],
+            [
+              101.593089,
+              26.589986
+            ],
+            [
+              101.593401,
+              26.591873
+            ],
+            [
+              101.593505,
+              26.593778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1965.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "An accurate mine boundary could not be found. There is a good correlation between the area of Chinese underground mine boundaries and the 'Mine Size (Km2)' area found in the GEM Global Coal Mine Tracker May 2025 (GCMT) database (R-squared=0.68). A circular boundary with the area from the GCMT for this mine was created as an estimated boundary.",
+        "description": "Huashan mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1965",
+        "Owners": "Panzhihua Coal Industry Group Huashan Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sichuan Coal Industry Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huashan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%94%80%E6%9E%9D%E8%8A%B1%E7%85%A4%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%8A%B1%E5%B1%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Huashan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.57202,
+          26.593847
+        ]
+      },
+      "properties": {
+        "id": "M1965.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2022-03-03 00:00:00",
+        "notes": "Referred to in Table 1.3.1 on page 13 in the document Huashan Coal Mine Geological Environmental Protection and Land Reclamation Plan of Panzhihua Coal Industry (Group) Co., Ltd (\u6500\u679d\u82b1\u7164\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u82b1\u5c71\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),\nhttps://web.archive.org/web/20250818183525/https://www.doc88.com/p-67347513576102.html, and identified visually from Google Earth Pro satellite imagery.",
+        "description": "main drift",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1965",
+        "Owners": "Panzhihua Coal Industry Group Huashan Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sichuan Coal Industry Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huashan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%94%80%E6%9E%9D%E8%8A%B1%E7%85%A4%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%8A%B1%E5%B1%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Huashan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.572159,
+          26.593205
+        ]
+      },
+      "properties": {
+        "id": "M1965.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2022-03-03 00:00:00",
+        "notes": "Referred to in Table 1.3.1 on page 13 in the document Huashan Coal Mine Geological Environmental Protection and Land Reclamation Plan of Panzhihua Coal Industry (Group) Co., Ltd (\u6500\u679d\u82b1\u7164\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u82b1\u5c71\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),\nhttps://web.archive.org/web/20250818183525/https://www.doc88.com/p-67347513576102.html, and identified visually from Google Earth Pro satellite imagery.",
+        "description": "auxiliary drift",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1965",
+        "Owners": "Panzhihua Coal Industry Group Huashan Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sichuan Coal Industry Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huashan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%94%80%E6%9E%9D%E8%8A%B1%E7%85%A4%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%8A%B1%E5%B1%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Huashan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.566782,
+          26.599904
+        ]
+      },
+      "properties": {
+        "id": "M1965.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2022-03-03 00:00:00",
+        "notes": "Referred to in Table 1.3.1 on page 13 in the document Huashan Coal Mine Geological Environmental Protection and Land Reclamation Plan of Panzhihua Coal Industry (Group) Co., Ltd (\u6500\u679d\u82b1\u7164\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u82b1\u5c71\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),\nhttps://web.archive.org/web/20250818183525/https://www.doc88.com/p-67347513576102.html, and identified visually from Google Earth Pro satellite imagery.",
+        "description": "Mosuohe Main Slope",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1965",
+        "Owners": "Panzhihua Coal Industry Group Huashan Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sichuan Coal Industry Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huashan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%94%80%E6%9E%9D%E8%8A%B1%E7%85%A4%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%8A%B1%E5%B1%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Huashan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.569988,
+          26.599316
+        ]
+      },
+      "properties": {
+        "id": "M1965.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-03-03 00:00:00",
+        "notes": "Referred to in Table 1.3.1 on page 13 in the document Huashan Coal Mine Geological Environmental Protection and Land Reclamation Plan of Panzhihua Coal Industry (Group) Co., Ltd (\u6500\u679d\u82b1\u7164\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u82b1\u5c71\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),\nhttps://web.archive.org/web/20250818183525/https://www.doc88.com/p-67347513576102.html, and identified visually from Google Earth Pro satellite imagery.",
+        "description": "Mosuohe Return Air Drift",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1965",
+        "Owners": "Panzhihua Coal Industry Group Huashan Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sichuan Coal Industry Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huashan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%94%80%E6%9E%9D%E8%8A%B1%E7%85%A4%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%8A%B1%E5%B1%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Huashan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.580039,
+          26.60991
+        ]
+      },
+      "properties": {
+        "id": "M1965.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-03-03 00:00:00",
+        "notes": "Referred to in Table 1.3.1 on page 13 in the document Huashan Coal Mine Geological Environmental Protection and Land Reclamation Plan of Panzhihua Coal Industry (Group) Co., Ltd (\u6500\u679d\u82b1\u7164\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u82b1\u5c71\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),\nhttps://web.archive.org/web/20250818183525/https://www.doc88.com/p-67347513576102.html, and identified visually from Google Earth Pro satellite imagery.",
+        "description": "Seam 2 Return Air Drift",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1965",
+        "Owners": "Panzhihua Coal Industry Group Huashan Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sichuan Coal Industry Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huashan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%94%80%E6%9E%9D%E8%8A%B1%E7%85%A4%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%8A%B1%E5%B1%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Huashan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.579484,
+          26.608432
+        ]
+      },
+      "properties": {
+        "id": "M1965.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-03-03 00:00:00",
+        "notes": "Referred to in Table 1.3.1 on page 13 in the document Huashan Coal Mine Geological Environmental Protection and Land Reclamation Plan of Panzhihua Coal Industry (Group) Co., Ltd (\u6500\u679d\u82b1\u7164\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u82b1\u5c71\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),\nhttps://web.archive.org/web/20250818183525/https://www.doc88.com/p-67347513576102.html, and identified visually from Google Earth Pro satellite imagery.",
+        "description": "Seam 2 Return Air Slope",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1965",
+        "Owners": "Panzhihua Coal Industry Group Huashan Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sichuan Coal Industry Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huashan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%94%80%E6%9E%9D%E8%8A%B1%E7%85%A4%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%8A%B1%E5%B1%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Huashan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.585975,
+          26.601075
+        ]
+      },
+      "properties": {
+        "id": "M1965.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-03-03 00:00:00",
+        "notes": "Referred to in Table 1.3.1 on page 13 in the document Huashan Coal Mine Geological Environmental Protection and Land Reclamation Plan of Panzhihua Coal Industry (Group) Co., Ltd (\u6500\u679d\u82b1\u7164\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u82b1\u5c71\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),\nhttps://web.archive.org/web/20250818183525/https://www.doc88.com/p-67347513576102.html, and identified visually from Google Earth Pro satellite imagery.",
+        "description": "Seam 4 Return Air Slope",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1965",
+        "Owners": "Panzhihua Coal Industry Group Huashan Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sichuan Coal Industry Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huashan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%94%80%E6%9E%9D%E8%8A%B1%E7%85%A4%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%8A%B1%E5%B1%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Huashan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.55848,
+          26.611156
+        ]
+      },
+      "properties": {
+        "id": "M1965.P8",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-01-19 00:00:00",
+        "notes": "Referred to in Table 1.3.1 on page 13 in the document Huashan Coal Mine Geological Environmental Protection and Land Reclamation Plan of Panzhihua Coal Industry (Group) Co., Ltd (\u6500\u679d\u82b1\u7164\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u82b1\u5c71\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),\nhttps://web.archive.org/web/20250818183525/https://www.doc88.com/p-67347513576102.html, and identified visually from Google Earth Pro satellite imagery.",
+        "description": "Main Intake Air Slope 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1965",
+        "Owners": "Panzhihua Coal Industry Group Huashan Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sichuan Coal Industry Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huashan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%94%80%E6%9E%9D%E8%8A%B1%E7%85%A4%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%8A%B1%E5%B1%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Huashan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.557583,
+          26.611107
+        ]
+      },
+      "properties": {
+        "id": "M1965.P9",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-01-19 00:00:00",
+        "notes": "Referred to in Table 1.3.1 on page 13 in the document Huashan Coal Mine Geological Environmental Protection and Land Reclamation Plan of Panzhihua Coal Industry (Group) Co., Ltd (\u6500\u679d\u82b1\u7164\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u82b1\u5c71\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),\nhttps://web.archive.org/web/20250818183525/https://www.doc88.com/p-67347513576102.html, and identified visually from Google Earth Pro satellite imagery.",
+        "description": "Main Intake Air Slope 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1965",
+        "Owners": "Panzhihua Coal Industry Group Huashan Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sichuan Coal Industry Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huashan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%94%80%E6%9E%9D%E8%8A%B1%E7%85%A4%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%8A%B1%E5%B1%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Huashan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.559405,
+          26.585452
+        ]
+      },
+      "properties": {
+        "id": "M1965.P10",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2021-12-24 00:00:00",
+        "notes": "Referred to in Table 1.3.1 on page 13 in the document Huashan Coal Mine Geological Environmental Protection and Land Reclamation Plan of Panzhihua Coal Industry (Group) Co., Ltd (\u6500\u679d\u82b1\u7164\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u82b1\u5c71\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),\nhttps://web.archive.org/web/20250818183525/https://www.doc88.com/p-67347513576102.html, and identified visually from Google Earth Pro satellite imagery.",
+        "description": "Seam 6 Return Air Slope",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1965",
+        "Owners": "Panzhihua Coal Industry Group Huashan Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sichuan Coal Industry Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Huashan_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%94%80%E6%9E%9D%E8%8A%B1%E7%85%A4%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E8%8A%B1%E5%B1%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Huashan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.148789,
+              53.770061
+            ],
+            [
+              88.147142,
+              53.769081
+            ],
+            [
+              88.1324,
+              53.780339
+            ],
+            [
+              88.116011,
+              53.774783
+            ],
+            [
+              88.109622,
+              53.771728
+            ],
+            [
+              88.106289,
+              53.773672
+            ],
+            [
+              88.089344,
+              53.768117
+            ],
+            [
+              88.106159,
+              53.734759
+            ],
+            [
+              88.0974,
+              53.730894
+            ],
+            [
+              88.091567,
+              53.730339
+            ],
+            [
+              88.089622,
+              53.731728
+            ],
+            [
+              88.086844,
+              53.732006
+            ],
+            [
+              88.081844,
+              53.728672
+            ],
+            [
+              88.082678,
+              53.728117
+            ],
+            [
+              88.106011,
+              53.728394
+            ],
+            [
+              88.114622,
+              53.72645
+            ],
+            [
+              88.123511,
+              53.717006
+            ],
+            [
+              88.125733,
+              53.717561
+            ],
+            [
+              88.1274,
+              53.719783
+            ],
+            [
+              88.129067,
+              53.720617
+            ],
+            [
+              88.1324,
+              53.72395
+            ],
+            [
+              88.133789,
+              53.726728
+            ],
+            [
+              88.143514,
+              53.730061
+            ],
+            [
+              88.145458,
+              53.732006
+            ],
+            [
+              88.147125,
+              53.732283
+            ],
+            [
+              88.150736,
+              53.735061
+            ],
+            [
+              88.153792,
+              53.735617
+            ],
+            [
+              88.157958,
+              53.738672
+            ],
+            [
+              88.155181,
+              53.740617
+            ],
+            [
+              88.157681,
+              53.742006
+            ],
+            [
+              88.1474,
+              53.749783
+            ],
+            [
+              88.166292,
+              53.758672
+            ],
+            [
+              88.165181,
+              53.759228
+            ],
+            [
+              88.160458,
+              53.760617
+            ],
+            [
+              88.161847,
+              53.76145
+            ],
+            [
+              88.148789,
+              53.770061
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0837.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-12-08 00:00:00",
+        "notes": "This mine operates under two subsoil land-use licenses \u041a\u0415\u041c15030\u0422\u042d and \u041a\u0415\u041c11578\u0422\u042d,as identified through the official Kuzbassgiproschaft (\u041a\u0443\u0437\u0431\u0430\u0441\u0441\u0433\u0438\u043f\u0440\u043e\u0448\u0430\u0445\u0442) website,https://web.archive.org/web/20251208180730/https://kgsh.ru/mediacenter/1144/.The boundary is the outer perimeter of these two licenses,with internal gaps removed. The license \u041a\u0415\u041c15030\u0422\u042d was issued on November 1, 2010, and is valid until July 1, 2053. The western portion of the Raspadskaya-Koksovaya boundary overlaps with the eastern edge of the V.I. Lenin Underground Coal Mine boundary. The license \u041a\u0415\u041c11578\u0422\u042d was issued on June 17, 2003, and is valid until July 1, 2057. The boundary for license \u041a\u0415\u041c15030\u0422\u042d was extracted from the NedraExpert portal at https://web.archive.org/web/20251208163515/https://www.nedraexpert.ru/subsurface/1144754536/1. The boundary for license \u041a\u0415\u041c11578\u0422\u042d was extracted from the NedraExpert portal at https://web.archive.org/web/20251208153507/https://www.nedraexpert.ru/subsurface/1144750445/1. The approximate area of the resulting boundary is 20 square km.",
+        "description": "Raspadskaya Koksovaya mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0837",
+        "Owners": "Raspadskaya Koksovaya JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Raspadskaya-Koksovaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Raspadskaya Koksovaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.115672,
+          53.745831
+        ]
+      },
+      "properties": {
+        "id": "M0837.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-24 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.Also verified through the website of the \u201cModular Degasification Units Plant\u201d (\u041d\u041f\u041f \u00ab\u0417\u0430\u0432\u043e\u0434 \u043c\u043e\u0434\u0443\u043b\u044c\u043d\u044b\u0445 \u0434\u0435\u0433\u0430\u0437\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043e\u043a\u00bb), confirming the construction of a surface gas drainage station, zavodmdu.ru/ru/project_Chahta_AO_Raspadskaya_Koksovaya.html(this site cannot be archived).",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0837",
+        "Owners": "Raspadskaya Koksovaya JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Raspadskaya-Koksovaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Raspadskaya Koksovaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.117223,
+          53.746724
+        ]
+      },
+      "properties": {
+        "id": "M0837.P2",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-06-09 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.The site appears partially dismantled.",
+        "description": "Possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0837",
+        "Owners": "Raspadskaya Koksovaya JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Raspadskaya-Koksovaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Raspadskaya Koksovaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.108628,
+          53.746073
+        ]
+      },
+      "properties": {
+        "id": "M0837.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-24 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0837",
+        "Owners": "Raspadskaya Koksovaya JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Raspadskaya-Koksovaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Raspadskaya Koksovaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.083854,
+          53.730248
+        ]
+      },
+      "properties": {
+        "id": "M0837.P4",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2025-04-24 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0837",
+        "Owners": "Raspadskaya Koksovaya JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Raspadskaya PJSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Raspadskaya-Koksovaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Raspadskaya Koksovaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 12, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

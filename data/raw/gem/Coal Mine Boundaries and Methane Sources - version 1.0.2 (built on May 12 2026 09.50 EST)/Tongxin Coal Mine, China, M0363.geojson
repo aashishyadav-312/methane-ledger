@@ -1,0 +1,375 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.974829,
+              40.031266
+            ],
+            [
+              113.001457,
+              40.002452
+            ],
+            [
+              113.067582,
+              40.002146
+            ],
+            [
+              113.12064,
+              40.001862
+            ],
+            [
+              113.135605,
+              40.024424
+            ],
+            [
+              113.136167,
+              40.064927
+            ],
+            [
+              113.140059,
+              40.075462
+            ],
+            [
+              113.142736,
+              40.079321
+            ],
+            [
+              113.141426,
+              40.082038
+            ],
+            [
+              113.128926,
+              40.090976
+            ],
+            [
+              113.112948,
+              40.095213
+            ],
+            [
+              113.108828,
+              40.092415
+            ],
+            [
+              113.111796,
+              40.076918
+            ],
+            [
+              113.100294,
+              40.061954
+            ],
+            [
+              113.088717,
+              40.060092
+            ],
+            [
+              113.063052,
+              40.065145
+            ],
+            [
+              113.015016,
+              40.048584
+            ],
+            [
+              113.004561,
+              40.046892
+            ],
+            [
+              112.993923,
+              40.041709
+            ],
+            [
+              112.974829,
+              40.031266
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0363.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2016-10-01 00:00:00",
+        "notes": "The coordinates can be found in the Table 1-1 Coordinates of turning points in the mining area according to the document No. 021 of the Ministry of Land and Resources and Mining Planning [2006], on page 9 of Mine Geological Environmental Protection and Restoration Plan for the Tongxin Coal Mine (Datong Coal Mine Group and Guodian Co-operation) (\u540c\u7164\u56fd\u7535\u540c\u5ffb\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6062\u590d\u6cbb\u7406\u65b9\u6848),  https://web.archive.org/web/20250611040107/https://www.doc88.com/p-97839427627965.html ",
+        "description": "Tongxin coal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0363",
+        "Owners": "Jinneng Holding Group Tongxin Coal Mine Shanxi Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group [45.62%]; China Energy [30%]; China Cinda Asset Management Company [21.08%]; Others[3.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tongxin_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%90%8C%E7%85%A4%E5%9B%BD%E7%94%B5%E5%90%8C%E5%BF%BB%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Tongxin Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.083259,
+              40.002063
+            ],
+            [
+              113.098195,
+              39.975508
+            ],
+            [
+              113.100334,
+              39.976181
+            ],
+            [
+              113.085647,
+              40.002047
+            ],
+            [
+              113.083259,
+              40.002063
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0363.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2016-10-01 00:00:00",
+        "notes": "The expansion coordinates can be found in the Table 1-2 Coordinates of turning points in the mining area according to the document No. 007 of the Ministry of Land and Resources and Mining Planning [2007], on page 9 of Mine Geological Environmental Protection and Restoration Plan for the Tongxin Coal Mine (Datong Coal Mine Group and Guodian Co-operation) (\u540c\u7164\u56fd\u7535\u540c\u5ffb\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6062\u590d\u6cbb\u7406\u65b9\u6848), \nhttps://web.archive.org/web/20250611040107/https://www.doc88.com/p-97839427627965.html ",
+        "description": "Tongxin coal mine expansion boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0363",
+        "Owners": "Jinneng Holding Group Tongxin Coal Mine Shanxi Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group [45.62%]; China Energy [30%]; China Cinda Asset Management Company [21.08%]; Others[3.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tongxin_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%90%8C%E7%85%A4%E5%9B%BD%E7%94%B5%E5%90%8C%E5%BF%BB%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Tongxin Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.01621,
+          40.040295
+        ]
+      },
+      "properties": {
+        "id": "M0363.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0363",
+        "Owners": "Jinneng Holding Group Tongxin Coal Mine Shanxi Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group [45.62%]; China Energy [30%]; China Cinda Asset Management Company [21.08%]; Others[3.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tongxin_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%90%8C%E7%85%A4%E5%9B%BD%E7%94%B5%E5%90%8C%E5%BF%BB%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Tongxin Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.105337,
+          40.017797
+        ]
+      },
+      "properties": {
+        "id": "M0363.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0363",
+        "Owners": "Jinneng Holding Group Tongxin Coal Mine Shanxi Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group [45.62%]; China Energy [30%]; China Cinda Asset Management Company [21.08%]; Others[3.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tongxin_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%90%8C%E7%85%A4%E5%9B%BD%E7%94%B5%E5%90%8C%E5%BF%BB%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Tongxin Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.105017,
+          40.018362
+        ]
+      },
+      "properties": {
+        "id": "M0363.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft 3",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0363",
+        "Owners": "Jinneng Holding Group Tongxin Coal Mine Shanxi Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group [45.62%]; China Energy [30%]; China Cinda Asset Management Company [21.08%]; Others[3.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tongxin_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%90%8C%E7%85%A4%E5%9B%BD%E7%94%B5%E5%90%8C%E5%BF%BB%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Tongxin Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.079627,
+          40.022304
+        ]
+      },
+      "properties": {
+        "id": "M0363.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft 4",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0363",
+        "Owners": "Jinneng Holding Group Tongxin Coal Mine Shanxi Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group [45.62%]; China Energy [30%]; China Cinda Asset Management Company [21.08%]; Others[3.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tongxin_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%90%8C%E7%85%A4%E5%9B%BD%E7%94%B5%E5%90%8C%E5%BF%BB%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Tongxin Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.104028,
+          40.01257
+        ]
+      },
+      "properties": {
+        "id": "M0363.P5",
+        "mine feature category": "other",
+        "mine feature subcategory": "coal storage",
+        "data source date": "2025-08-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "coal storage silo",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0363",
+        "Owners": "Jinneng Holding Group Tongxin Coal Mine Shanxi Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group [45.62%]; China Energy [30%]; China Cinda Asset Management Company [21.08%]; Others[3.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tongxin_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%90%8C%E7%85%A4%E5%9B%BD%E7%94%B5%E5%90%8C%E5%BF%BB%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Tongxin Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.10323,
+          40.013314
+        ]
+      },
+      "properties": {
+        "id": "M0363.P6",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2025-08-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "coal production slope",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0363",
+        "Owners": "Jinneng Holding Group Tongxin Coal Mine Shanxi Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group [45.62%]; China Energy [30%]; China Cinda Asset Management Company [21.08%]; Others[3.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tongxin_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%90%8C%E7%85%A4%E5%9B%BD%E7%94%B5%E5%90%8C%E5%BF%BB%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Tongxin Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.043159,
+          40.016541
+        ]
+      },
+      "properties": {
+        "id": "M0363.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft 5",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0363",
+        "Owners": "Jinneng Holding Group Tongxin Coal Mine Shanxi Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Jinneng Group [45.62%]; China Energy [30%]; China Cinda Asset Management Company [21.08%]; Others[3.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tongxin_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%90%8C%E7%85%A4%E5%9B%BD%E7%94%B5%E5%90%8C%E5%BF%BB%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Tongxin Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jun 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

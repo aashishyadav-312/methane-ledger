@@ -1,0 +1,2119 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.524097,
+              -22.985124
+            ],
+            [
+              148.517036,
+              -22.994031
+            ],
+            [
+              148.515831,
+              -23.004264
+            ],
+            [
+              148.509003,
+              -23.014934
+            ],
+            [
+              148.542603,
+              -23.015289
+            ],
+            [
+              148.547497,
+              -23.026297
+            ],
+            [
+              148.575244,
+              -23.015305
+            ],
+            [
+              148.651197,
+              -23.015431
+            ],
+            [
+              148.651197,
+              -22.998485
+            ],
+            [
+              148.63458,
+              -22.998375
+            ],
+            [
+              148.634581,
+              -22.969653
+            ],
+            [
+              148.637808,
+              -22.965472
+            ],
+            [
+              148.651076,
+              -22.965253
+            ],
+            [
+              148.684215,
+              -22.998536
+            ],
+            [
+              148.701429,
+              -22.998642
+            ],
+            [
+              148.718172,
+              -23.01514
+            ],
+            [
+              148.717749,
+              -23.048345
+            ],
+            [
+              148.734372,
+              -23.048557
+            ],
+            [
+              148.734387,
+              -23.072986
+            ],
+            [
+              148.73953,
+              -23.072872
+            ],
+            [
+              148.764171,
+              -23.074397
+            ],
+            [
+              148.773387,
+              -23.079893
+            ],
+            [
+              148.775779,
+              -23.079341
+            ],
+            [
+              148.781507,
+              -23.066461
+            ],
+            [
+              148.782455,
+              -23.058537
+            ],
+            [
+              148.778622,
+              -23.053368
+            ],
+            [
+              148.775866,
+              -23.048088
+            ],
+            [
+              148.778237,
+              -23.025522
+            ],
+            [
+              148.774286,
+              -23.021343
+            ],
+            [
+              148.757546,
+              -23.019485
+            ],
+            [
+              148.734494,
+              -22.992808
+            ],
+            [
+              148.734379,
+              -22.998641
+            ],
+            [
+              148.7235,
+              -22.998426
+            ],
+            [
+              148.724571,
+              -22.989071
+            ],
+            [
+              148.705796,
+              -22.969713
+            ],
+            [
+              148.656956,
+              -22.946071
+            ],
+            [
+              148.663289,
+              -22.934826
+            ],
+            [
+              148.662922,
+              -22.882226
+            ],
+            [
+              148.652531,
+              -22.881787
+            ],
+            [
+              148.641305,
+              -22.894111
+            ],
+            [
+              148.634496,
+              -22.89345
+            ],
+            [
+              148.634533,
+              -22.84976
+            ],
+            [
+              148.626817,
+              -22.84521
+            ],
+            [
+              148.617506,
+              -22.822275
+            ],
+            [
+              148.617647,
+              -22.815163
+            ],
+            [
+              148.517037,
+              -22.815163
+            ],
+            [
+              148.514762,
+              -22.816436
+            ],
+            [
+              148.507944,
+              -22.81643
+            ],
+            [
+              148.525433,
+              -22.860069
+            ],
+            [
+              148.536897,
+              -22.864086
+            ],
+            [
+              148.548355,
+              -22.877119
+            ],
+            [
+              148.55734,
+              -22.895069
+            ],
+            [
+              148.557535,
+              -22.900717
+            ],
+            [
+              148.550316,
+              -22.901259
+            ],
+            [
+              148.536168,
+              -22.910363
+            ],
+            [
+              148.536657,
+              -22.917561
+            ],
+            [
+              148.529825,
+              -22.927211
+            ],
+            [
+              148.530714,
+              -22.928943
+            ],
+            [
+              148.539709,
+              -22.934778
+            ],
+            [
+              148.546531,
+              -22.937333
+            ],
+            [
+              148.537816,
+              -22.951992
+            ],
+            [
+              148.535738,
+              -22.952629
+            ],
+            [
+              148.534653,
+              -22.949713
+            ],
+            [
+              148.535247,
+              -22.948803
+            ],
+            [
+              148.531984,
+              -22.946796
+            ],
+            [
+              148.532185,
+              -22.943062
+            ],
+            [
+              148.528726,
+              -22.940145
+            ],
+            [
+              148.531697,
+              -22.935319
+            ],
+            [
+              148.526952,
+              -22.93231
+            ],
+            [
+              148.525869,
+              -22.926662
+            ],
+            [
+              148.527848,
+              -22.925388
+            ],
+            [
+              148.52597,
+              -22.924385
+            ],
+            [
+              148.526862,
+              -22.922108
+            ],
+            [
+              148.529336,
+              -22.920561
+            ],
+            [
+              148.527359,
+              -22.920013
+            ],
+            [
+              148.525481,
+              -22.917917
+            ],
+            [
+              148.526472,
+              -22.915276
+            ],
+            [
+              148.525682,
+              -22.914911
+            ],
+            [
+              148.524098,
+              -22.916549
+            ],
+            [
+              148.523208,
+              -22.916457
+            ],
+            [
+              148.522221,
+              -22.913906
+            ],
+            [
+              148.517573,
+              -22.913628
+            ],
+            [
+              148.515398,
+              -22.912716
+            ],
+            [
+              148.512231,
+              -22.914808
+            ],
+            [
+              148.515688,
+              -22.91973
+            ],
+            [
+              148.506387,
+              -22.923366
+            ],
+            [
+              148.507472,
+              -22.926555
+            ],
+            [
+              148.516079,
+              -22.924923
+            ],
+            [
+              148.520928,
+              -22.922377
+            ],
+            [
+              148.517955,
+              -22.929297
+            ],
+            [
+              148.517852,
+              -22.933943
+            ],
+            [
+              148.513198,
+              -22.93822
+            ],
+            [
+              148.519627,
+              -22.938954
+            ],
+            [
+              148.522297,
+              -22.940049
+            ],
+            [
+              148.520317,
+              -22.942142
+            ],
+            [
+              148.521402,
+              -22.945604
+            ],
+            [
+              148.514575,
+              -22.946874
+            ],
+            [
+              148.522183,
+              -22.956445
+            ],
+            [
+              148.522476,
+              -22.96018
+            ],
+            [
+              148.52475,
+              -22.961366
+            ],
+            [
+              148.524097,
+              -22.985124
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0021.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground and surface",
+        "data source date": "2021-03-01 00:00:00",
+        "notes": "The CapCoal Mining Complex contains a number of leases and mines shown in figure 2 on the 221st page of 2020 EPBC 2018/8171 Independent Compliance Audit - Grasstree Mine EPBC Audit 2018:8171, https://web.archive.org/web/20250327203347/https://australia.angloamerican.com/~/media/Files/A/Anglo-American-Group-v5/Australia/sustainability/environment/EPBC2018_8171_2020_Ind_Audit.pdf, and includes the following: \nML1831 (German Creek), granted  July 1979, expiring July 2040;\nML1998 (German Creek East) , granted Nov 1986, expiring Nov 2037;\nML70047 (German Creek South), granted July 1993, expiring July 2040;\nML70311 (Oak Park), granted Sep 2003 , expiring Sep 2033;\nML70336 (Lake Lindsay), granted April 2006, expiring April 2036. \nMining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27). \nThe boundary includes these leases and has an area of 333 square kilometers.",
+        "description": "CapCoal Mine Complex boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.607325,
+              -23.013968
+            ],
+            [
+              148.610547,
+              -23.000644
+            ],
+            [
+              148.603358,
+              -22.975655
+            ],
+            [
+              148.595826,
+              -22.979181
+            ],
+            [
+              148.588537,
+              -22.952515
+            ],
+            [
+              148.569525,
+              -22.957041
+            ],
+            [
+              148.575431,
+              -22.978431
+            ],
+            [
+              148.56884,
+              -22.97995
+            ],
+            [
+              148.571396,
+              -22.989965
+            ],
+            [
+              148.560731,
+              -22.99449
+            ],
+            [
+              148.558755,
+              -22.994825
+            ],
+            [
+              148.560791,
+              -22.997855
+            ],
+            [
+              148.548586,
+              -23.003305
+            ],
+            [
+              148.547986,
+              -23.014207
+            ],
+            [
+              148.607325,
+              -23.013968
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0021.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2021-03-01 00:00:00",
+        "notes": "The Aquila mine is a part of the Capcoal complex which comprises Capcoal open cut mine, Grasstree mine, Aquila mine, the Coal Handling and Preparation Plant and ancillary infrastructure. The Aquila long wall mine replaces Grasstree mine as of 2022, as described in  https://web.archive.org/web/20240710230944/https://www.nsenergybusiness.com/projects/aquila-metallurgical-coal-mine-australia.\n\nThe Aquila long wall mine resides within the southern section of the mining lease ML 1831 (German Creek). The mine area overlaps the retired Aquila bord and pillar mine and the old Grasstree mine.\n\nThe mine boundary is the Aquila Longwall Mining Area shown in figure 2 on the 221st page of 2020 EPBC 2018/8171 Independent Compliance Audit - Grasstree Mine EPBC Audit 2018:8171, https://web.archive.org/web/20250327203347/https://australia.angloamerican.com/~/media/Files/A/Anglo-American-Group-v5/Australia/sustainability/environment/EPBC2018_8171_2020_Ind_Audit.pdf\n\nThe area of the extracted mine boundary is 25 square kilometers.",
+        "description": "Aquila Longwall Mining Area",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.615323,
+          -22.971535
+        ]
+      },
+      "properties": {
+        "id": "M0021.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2024-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.616565,
+          -22.973214
+        ]
+      },
+      "properties": {
+        "id": "M0021.P2",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.614517,
+          -22.975561
+        ]
+      },
+      "properties": {
+        "id": "M0021.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.614623,
+          -22.975909
+        ]
+      },
+      "properties": {
+        "id": "M0021.P4",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.614687,
+          -22.976253
+        ]
+      },
+      "properties": {
+        "id": "M0021.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.587526,
+          -22.918153
+        ]
+      },
+      "properties": {
+        "id": "M0021.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. The Central Colliery area is based on figure 2 on the 221st page of 2020 EPBC 2018/8171 Independent Compliance Audit - Grasstree Mine EPBC Audit 2018:8171, https://web.archive.org/web/20250327203347/https://australia.angloamerican.com/~/media/Files/A/Anglo-American-Group-v5/Australia/sustainability/environment/EPBC2018_8171_2020_Ind_Audit.pdf",
+        "description": "possible Central Colliery ventillation infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.616568,
+          -22.983373
+        ]
+      },
+      "properties": {
+        "id": "M0021.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.619329,
+          -22.996158
+        ]
+      },
+      "properties": {
+        "id": "M0021.P8",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure or ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.622319,
+          -22.993247
+        ]
+      },
+      "properties": {
+        "id": "M0021.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas wells",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.610767,
+          -22.974064
+        ]
+      },
+      "properties": {
+        "id": "M0021.P10",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.582548,
+          -22.989811
+        ]
+      },
+      "properties": {
+        "id": "M0021.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.583415,
+          -22.98965
+        ]
+      },
+      "properties": {
+        "id": "M0021.P12",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.589551,
+          -23.006399
+        ]
+      },
+      "properties": {
+        "id": "M0021.P13",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.576231,
+          -22.962907
+        ]
+      },
+      "properties": {
+        "id": "M0021.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2024-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.582587,
+          -22.987631
+        ]
+      },
+      "properties": {
+        "id": "M0021.P15",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.581631,
+          -22.987785
+        ]
+      },
+      "properties": {
+        "id": "M0021.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas to electricity generation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.577051,
+          -22.964143
+        ]
+      },
+      "properties": {
+        "id": "M0021.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.577539,
+          -22.965853
+        ]
+      },
+      "properties": {
+        "id": "M0021.P18",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.578087,
+          -22.967622
+        ]
+      },
+      "properties": {
+        "id": "M0021.P19",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.578358,
+          -22.968492
+        ]
+      },
+      "properties": {
+        "id": "M0021.P20",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.579067,
+          -22.9711
+        ]
+      },
+      "properties": {
+        "id": "M0021.P21",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.59108,
+          -22.97309
+        ]
+      },
+      "properties": {
+        "id": "M0021.P22",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.579542,
+          -22.972817
+        ]
+      },
+      "properties": {
+        "id": "M0021.P23",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.575401,
+          -22.972729
+        ]
+      },
+      "properties": {
+        "id": "M0021.P24",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.575663,
+          -22.973668
+        ]
+      },
+      "properties": {
+        "id": "M0021.P25",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.591254,
+          -22.973548
+        ]
+      },
+      "properties": {
+        "id": "M0021.P26",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.591467,
+          -22.974485
+        ]
+      },
+      "properties": {
+        "id": "M0021.P27",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.591326,
+          -22.973994
+        ]
+      },
+      "properties": {
+        "id": "M0021.P28",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.575885,
+          -22.974556
+        ]
+      },
+      "properties": {
+        "id": "M0021.P29",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.576135,
+          -22.975446
+        ]
+      },
+      "properties": {
+        "id": "M0021.P30",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.576312,
+          -22.976254
+        ]
+      },
+      "properties": {
+        "id": "M0021.P31",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.57657,
+          -22.977174
+        ]
+      },
+      "properties": {
+        "id": "M0021.P32",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.576865,
+          -22.978023
+        ]
+      },
+      "properties": {
+        "id": "M0021.P33",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.577137,
+          -22.978915
+        ]
+      },
+      "properties": {
+        "id": "M0021.P34",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.577382,
+          -22.979797
+        ]
+      },
+      "properties": {
+        "id": "M0021.P35",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.577583,
+          -22.980752
+        ]
+      },
+      "properties": {
+        "id": "M0021.P36",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.577858,
+          -22.98158
+        ]
+      },
+      "properties": {
+        "id": "M0021.P37",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.59929,
+          -22.980564
+        ]
+      },
+      "properties": {
+        "id": "M0021.P38",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.595925,
+          -22.98208
+        ]
+      },
+      "properties": {
+        "id": "M0021.P39",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.578083,
+          -22.982449
+        ]
+      },
+      "properties": {
+        "id": "M0021.P40",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.587035,
+          -22.984886
+        ]
+      },
+      "properties": {
+        "id": "M0021.P41",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.589497,
+          -22.985289
+        ]
+      },
+      "properties": {
+        "id": "M0021.P42",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.587106,
+          -22.990217
+        ]
+      },
+      "properties": {
+        "id": "M0021.P43",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.587249,
+          -22.990849
+        ]
+      },
+      "properties": {
+        "id": "M0021.P44",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.587501,
+          -22.9917
+        ]
+      },
+      "properties": {
+        "id": "M0021.P45",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.590272,
+          -23.008189
+        ]
+      },
+      "properties": {
+        "id": "M0021.P46",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.575873,
+          -22.989941
+        ]
+      },
+      "properties": {
+        "id": "M0021.P47",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.566537,
+          -22.997358
+        ]
+      },
+      "properties": {
+        "id": "M0021.P48",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: possible gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.570936,
+          -23.010962
+        ]
+      },
+      "properties": {
+        "id": "M0021.P49",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: possible shaft or vent",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.580855,
+          -22.988097
+        ]
+      },
+      "properties": {
+        "id": "M0021.P50",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.595731,
+          -22.980219
+        ]
+      },
+      "properties": {
+        "id": "M0021.P51",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.579856,
+          -22.98669
+        ]
+      },
+      "properties": {
+        "id": "M0021.P52",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.559685,
+          -22.994344
+        ]
+      },
+      "properties": {
+        "id": "M0021.P53",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Aquila coal mine: ventilation station and possible drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0021",
+        "Owners": "Capcoal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Anglo American [70%]; Mitsui Holdings [30%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Capcoal_Mining_Complex",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "CapCoal Mine Complex",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

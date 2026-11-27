@@ -1,0 +1,301 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              124.581608,
+              56.728444
+            ],
+            [
+              124.577442,
+              56.729833
+            ],
+            [
+              124.576053,
+              56.731222
+            ],
+            [
+              124.570497,
+              56.731222
+            ],
+            [
+              124.567719,
+              56.731222
+            ],
+            [
+              124.564942,
+              56.729833
+            ],
+            [
+              124.563553,
+              56.728444
+            ],
+            [
+              124.562164,
+              56.725667
+            ],
+            [
+              124.562164,
+              56.724278
+            ],
+            [
+              124.563553,
+              56.722889
+            ],
+            [
+              124.562164,
+              56.722889
+            ],
+            [
+              124.564942,
+              56.722889
+            ],
+            [
+              124.562164,
+              56.718722
+            ],
+            [
+              124.567719,
+              56.714556
+            ],
+            [
+              124.562164,
+              56.710389
+            ],
+            [
+              124.562164,
+              56.707611
+            ],
+            [
+              124.560775,
+              56.704833
+            ],
+            [
+              124.562164,
+              56.700667
+            ],
+            [
+              124.564942,
+              56.700667
+            ],
+            [
+              124.564942,
+              56.6965
+            ],
+            [
+              124.573275,
+              56.689556
+            ],
+            [
+              124.576053,
+              56.688167
+            ],
+            [
+              124.577442,
+              56.689556
+            ],
+            [
+              124.578831,
+              56.689556
+            ],
+            [
+              124.582997,
+              56.688167
+            ],
+            [
+              124.588553,
+              56.685389
+            ],
+            [
+              124.589942,
+              56.684
+            ],
+            [
+              124.592719,
+              56.681222
+            ],
+            [
+              124.596886,
+              56.681222
+            ],
+            [
+              124.599664,
+              56.682611
+            ],
+            [
+              124.603831,
+              56.682611
+            ],
+            [
+              124.606608,
+              56.682611
+            ],
+            [
+              124.612164,
+              56.682611
+            ],
+            [
+              124.616331,
+              56.684
+            ],
+            [
+              124.621886,
+              56.685389
+            ],
+            [
+              124.623275,
+              56.686778
+            ],
+            [
+              124.623275,
+              56.689556
+            ],
+            [
+              124.620497,
+              56.692333
+            ],
+            [
+              124.623275,
+              56.692333
+            ],
+            [
+              124.623275,
+              56.695111
+            ],
+            [
+              124.623275,
+              56.6965
+            ],
+            [
+              124.623275,
+              56.699278
+            ],
+            [
+              124.626053,
+              56.702056
+            ],
+            [
+              124.626056,
+              56.707611
+            ],
+            [
+              124.624667,
+              56.709
+            ],
+            [
+              124.623278,
+              56.710389
+            ],
+            [
+              124.620497,
+              56.711778
+            ],
+            [
+              124.616331,
+              56.711778
+            ],
+            [
+              124.614942,
+              56.711778
+            ],
+            [
+              124.613553,
+              56.714556
+            ],
+            [
+              124.612164,
+              56.717333
+            ],
+            [
+              124.602442,
+              56.7215
+            ],
+            [
+              124.596886,
+              56.722889
+            ],
+            [
+              124.595497,
+              56.724278
+            ],
+            [
+              124.591331,
+              56.724278
+            ],
+            [
+              124.588553,
+              56.725667
+            ],
+            [
+              124.585775,
+              56.727056
+            ],
+            [
+              124.581608,
+              56.728444
+            ],
+            [
+              124.581608,
+              56.728444
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0822.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-12-31 00:00:00",
+        "notes": "This mine operates under subsoil land-use license \u042f\u041a\u0423 12336 \u0422\u042d, as identified through the Yakutugol Preliminary Environmental Impact Assessment (\u041f\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u041e\u0412\u041e\u0421 \u0410\u041e \u0425\u041a \u00ab\u042f\u043a\u0443\u0442\u0443\u0433\u043e\u043b\u044c\u00bb), page 26, https://www.archive.org/details/ovos_12336, 2023. The license was issued on April 28, 2004, and is valid until December 31, 2024. The boundary was extracted from the NedraExpert portal at https://web.archive.org/web/20251212212119/https://www.nedraexpert.ru/license/143685?ysclid=mj3b569cbj332287841. The approximate area of the resulting boundary is  square 15 km.",
+        "description": "Neryungrinsky \u0441oal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0822",
+        "Owners": "Yakutugol Holding Company JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Mechel JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Neryungrinsky_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Neryungrinsky Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.632958,
+          56.684321
+        ]
+      },
+      "properties": {
+        "id": "M0822.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2024-07-05 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Coal handling and preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0822",
+        "Owners": "Yakutugol Holding Company JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Mechel JSC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Neryungrinsky_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Neryungrinsky Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

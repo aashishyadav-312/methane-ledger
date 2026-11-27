@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Methane Ledger v2: About menu</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&amp;family=Instrument+Sans:wght@400..600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1A1916}a:hover{color:#4F4B44}
+.item{transition:background-color 150ms ease}
+.item:hover{background:#F1ECE0}
+</style>
+</helmet>
+<div style="position: relative; width: 640px; height: 380px; box-sizing: border-box; background: #F4F1E9; color: #1A1916; font-family: 'Instrument Sans', system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+<nav aria-label="Main" style="position: absolute; top: 14px; right: 24px; display: flex; align-items: center; gap: 4px; font-size: 15px; font-weight: 500">
+<a href="V2-Home.dc.html" style="padding: 10px 14px; color: #4F4B44; text-decoration: none">Map</a>
+<a href="#" style="padding: 10px 14px; color: #4F4B44; text-decoration: none">Compare</a>
+<a href="#" style="padding: 10px 14px; color: #4F4B44; text-decoration: none">Data</a>
+<button type="button" aria-expanded="true" aria-haspopup="menu" style="display: inline-flex; align-items: center; gap: 6px; padding: 10px 14px; border: 0; border-radius: 999px; background: #E8E3D6; font: inherit; font-weight: 500; color: #1A1916">About
+<svg aria-hidden="true" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5l3-3 3 3"></path></svg>
+</button>
+</nav>
+<div role="menu" aria-label="About" style="position: absolute; top: 66px; right: 24px; width: 340px; padding: 6px; background: #FBFAF6; border: 1px solid #DDD7CA; border-radius: 16px; box-shadow: 0 18px 44px rgba(26,25,22,0.14); display: flex; flex-direction: column">
+<a class="item" role="menuitem" href="#" style="display: flex; flex-direction: column; gap: 2px; padding: 12px 14px; border-radius: 10px; text-decoration: none; color: #1A1916"><span style="font-weight: 600">Method</span><span style="font-size: 13.5px; color: #4F4B44">How gas becomes credits, and the break-even formula</span></a>
+<a class="item" role="menuitem" href="#" style="display: flex; flex-direction: column; gap: 2px; padding: 12px 14px; border-radius: 10px; text-decoration: none; color: #1A1916"><span style="font-weight: 600">Assumptions</span><span style="font-size: 13.5px; color: #4F4B44">All 103 inputs, with their source and how far to trust them</span></a>
+<a class="item" role="menuitem" href="#" style="display: flex; flex-direction: column; gap: 2px; padding: 12px 14px; border-radius: 10px; text-decoration: none; color: #1A1916"><span style="font-weight: 600">Sources</span><span style="font-size: 13.5px; color: #4F4B44">Where the mine, price and cost data come from</span></a>
+<div style="margin: 6px 8px 4px; padding-top: 10px; border-top: 1px solid #E7E2D6; display: flex; justify-content: space-between; font-size: 13px; color: #6B665D"><span>Nicholas Institute, Duke University</span><a href="#" style="color: #4F4B44">Version 1 site</a></div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":640,"height":380}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,383 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.740776,
+              40.80645
+            ],
+            [
+              -78.742746,
+              40.806432
+            ],
+            [
+              -78.744956,
+              40.806048
+            ],
+            [
+              -78.748273,
+              40.805407
+            ],
+            [
+              -78.750287,
+              40.805005
+            ],
+            [
+              -78.752596,
+              40.804589
+            ],
+            [
+              -78.753789,
+              40.804171
+            ],
+            [
+              -78.756267,
+              40.803242
+            ],
+            [
+              -78.758599,
+              40.802385
+            ],
+            [
+              -78.759873,
+              40.801942
+            ],
+            [
+              -78.760546,
+              40.800781
+            ],
+            [
+              -78.761232,
+              40.799518
+            ],
+            [
+              -78.761601,
+              40.798881
+            ],
+            [
+              -78.761799,
+              40.798586
+            ],
+            [
+              -78.763102,
+              40.79701
+            ],
+            [
+              -78.764218,
+              40.795661
+            ],
+            [
+              -78.764719,
+              40.795114
+            ],
+            [
+              -78.764775,
+              40.792639
+            ],
+            [
+              -78.764798,
+              40.790366
+            ],
+            [
+              -78.764819,
+              40.788935
+            ],
+            [
+              -78.765268,
+              40.786989
+            ],
+            [
+              -78.766017,
+              40.783814
+            ],
+            [
+              -78.766258,
+              40.782767
+            ],
+            [
+              -78.766608,
+              40.781376
+            ],
+            [
+              -78.765497,
+              40.780432
+            ],
+            [
+              -78.76341,
+              40.778783
+            ],
+            [
+              -78.761021,
+              40.776817
+            ],
+            [
+              -78.758959,
+              40.775243
+            ],
+            [
+              -78.755699,
+              40.772913
+            ],
+            [
+              -78.753159,
+              40.771201
+            ],
+            [
+              -78.752562,
+              40.769324
+            ],
+            [
+              -78.751298,
+              40.766028
+            ],
+            [
+              -78.74998,
+              40.762793
+            ],
+            [
+              -78.749786,
+              40.762192
+            ],
+            [
+              -78.748062,
+              40.762749
+            ],
+            [
+              -78.74533,
+              40.763584
+            ],
+            [
+              -78.742308,
+              40.764529
+            ],
+            [
+              -78.739267,
+              40.765515
+            ],
+            [
+              -78.737812,
+              40.76605
+            ],
+            [
+              -78.73573,
+              40.766653
+            ],
+            [
+              -78.733748,
+              40.767205
+            ],
+            [
+              -78.731805,
+              40.767662
+            ],
+            [
+              -78.730401,
+              40.768001
+            ],
+            [
+              -78.73018,
+              40.768186
+            ],
+            [
+              -78.730088,
+              40.769589
+            ],
+            [
+              -78.729002,
+              40.770036
+            ],
+            [
+              -78.726931,
+              40.770823
+            ],
+            [
+              -78.725305,
+              40.771408
+            ],
+            [
+              -78.724159,
+              40.771745
+            ],
+            [
+              -78.722762,
+              40.772159
+            ],
+            [
+              -78.722348,
+              40.772259
+            ],
+            [
+              -78.721629,
+              40.772666
+            ],
+            [
+              -78.720402,
+              40.773306
+            ],
+            [
+              -78.719608,
+              40.77382
+            ],
+            [
+              -78.718522,
+              40.774504
+            ],
+            [
+              -78.717108,
+              40.775406
+            ],
+            [
+              -78.716723,
+              40.775607
+            ],
+            [
+              -78.713001,
+              40.775534
+            ],
+            [
+              -78.71191,
+              40.776806
+            ],
+            [
+              -78.709978,
+              40.777943
+            ],
+            [
+              -78.708472,
+              40.778818
+            ],
+            [
+              -78.706528,
+              40.779983
+            ],
+            [
+              -78.704864,
+              40.780963
+            ],
+            [
+              -78.70477,
+              40.781269
+            ],
+            [
+              -78.706745,
+              40.782674
+            ],
+            [
+              -78.70782,
+              40.783457
+            ],
+            [
+              -78.706193,
+              40.784447
+            ],
+            [
+              -78.708835,
+              40.792949
+            ],
+            [
+              -78.72739,
+              40.803484
+            ],
+            [
+              -78.730616,
+              40.806501
+            ],
+            [
+              -78.738399,
+              40.806434
+            ],
+            [
+              -78.740776,
+              40.80645
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2785.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "First published July 8, 2016 and last updated May 8, 2025",
+        "notes": "The boundary is for permit 17071301 boundary extracted from the PA Department of Environmental Protection GIS, https://web.archive.org/web/20250326164532/https://pa-geo-data-pennmap.hub.arcgis.com/datasets/PADEP-1::bituminous-mining-permits-section-active-underground-mine-permit-boundaries/explore?location=40.504664%2C-79.539200%2C8.79 first published July 2016 and updated May 2025 - Bituminous_Mining_Permits_Section_-_Active_Underground_Mine_Permit_Boundaries shapefile, filtered with \"MINE\" = 'Harmony'. The approximate area of the boundary is 17 sq km.",
+        "description": "Harmony Coal Mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2785",
+        "Owners": "Rosebud Mining Co [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "natural persons [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Harmony_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "-",
+        "Mine Name": "Harmony Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 05, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.711593,
+          40.77895
+        ]
+      },
+      "properties": {
+        "id": "M2785.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-03-11 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation fan at Harmony Coal Mine",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2785",
+        "Owners": "Rosebud Mining Co [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "natural persons [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Harmony_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "-",
+        "Mine Name": "Harmony Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 05, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.711492,
+          40.778998
+        ]
+      },
+      "properties": {
+        "id": "M2785.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2024-03-11 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Coal conveyor exit at Harmony Coal Mine",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2785",
+        "Owners": "Rosebud Mining Co [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "natural persons [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Harmony_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "-",
+        "Mine Name": "Harmony Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 05, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              131.152465,
+              45.325443
+            ],
+            [
+              131.152262,
+              45.328387
+            ],
+            [
+              131.151652,
+              45.331302
+            ],
+            [
+              131.150638,
+              45.334161
+            ],
+            [
+              131.149233,
+              45.336937
+            ],
+            [
+              131.147448,
+              45.339601
+            ],
+            [
+              131.145301,
+              45.34213
+            ],
+            [
+              131.142813,
+              45.344498
+            ],
+            [
+              131.140007,
+              45.346682
+            ],
+            [
+              131.136912,
+              45.348662
+            ],
+            [
+              131.133555,
+              45.350419
+            ],
+            [
+              131.129971,
+              45.351934
+            ],
+            [
+              131.126193,
+              45.353195
+            ],
+            [
+              131.122257,
+              45.354188
+            ],
+            [
+              131.118203,
+              45.354905
+            ],
+            [
+              131.114068,
+              45.355338
+            ],
+            [
+              131.109893,
+              45.355482
+            ],
+            [
+              131.105718,
+              45.355338
+            ],
+            [
+              131.101583,
+              45.354905
+            ],
+            [
+              131.097529,
+              45.354188
+            ],
+            [
+              131.093593,
+              45.353195
+            ],
+            [
+              131.089815,
+              45.351934
+            ],
+            [
+              131.086231,
+              45.350419
+            ],
+            [
+              131.082874,
+              45.348662
+            ],
+            [
+              131.079779,
+              45.346682
+            ],
+            [
+              131.076973,
+              45.344498
+            ],
+            [
+              131.074485,
+              45.34213
+            ],
+            [
+              131.072338,
+              45.339601
+            ],
+            [
+              131.070553,
+              45.336937
+            ],
+            [
+              131.069148,
+              45.334161
+            ],
+            [
+              131.068134,
+              45.331302
+            ],
+            [
+              131.067524,
+              45.328387
+            ],
+            [
+              131.067321,
+              45.325443
+            ],
+            [
+              131.067528,
+              45.3225
+            ],
+            [
+              131.068143,
+              45.319585
+            ],
+            [
+              131.06916,
+              45.316726
+            ],
+            [
+              131.070569,
+              45.313952
+            ],
+            [
+              131.072357,
+              45.311288
+            ],
+            [
+              131.074506,
+              45.308761
+            ],
+            [
+              131.076995,
+              45.306395
+            ],
+            [
+              131.079801,
+              45.304212
+            ],
+            [
+              131.082896,
+              45.302233
+            ],
+            [
+              131.086252,
+              45.300478
+            ],
+            [
+              131.089834,
+              45.298964
+            ],
+            [
+              131.093609,
+              45.297704
+            ],
+            [
+              131.097541,
+              45.296712
+            ],
+            [
+              131.101592,
+              45.295996
+            ],
+            [
+              131.105722,
+              45.295564
+            ],
+            [
+              131.109893,
+              45.29542
+            ],
+            [
+              131.114064,
+              45.295564
+            ],
+            [
+              131.118194,
+              45.295996
+            ],
+            [
+              131.122245,
+              45.296712
+            ],
+            [
+              131.126177,
+              45.297704
+            ],
+            [
+              131.129952,
+              45.298964
+            ],
+            [
+              131.133534,
+              45.300478
+            ],
+            [
+              131.13689,
+              45.302233
+            ],
+            [
+              131.139985,
+              45.304212
+            ],
+            [
+              131.142791,
+              45.306395
+            ],
+            [
+              131.14528,
+              45.308761
+            ],
+            [
+              131.147429,
+              45.311288
+            ],
+            [
+              131.149217,
+              45.313952
+            ],
+            [
+              131.150626,
+              45.316726
+            ],
+            [
+              131.151643,
+              45.319585
+            ],
+            [
+              131.152258,
+              45.3225
+            ],
+            [
+              131.152465,
+              45.325443
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2224.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-09-15 00:00:00",
+        "notes": "An accurate mine boundary could not be found. There is a good correlation between the area of Chinese underground mine boundaries and the 'Mine Size (Km2)' area found in the GEM Global Coal Mine Tracker May 2025 (GCMT) database (R-squared=0.68). A circular boundary with the area from the GCMT for this mine was created as an estimated boundary.",
+        "description": "Xinghua mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M2224",
+        "Owners": "Heilongjiang Longmei Jixi Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Heilongjiang Longmay Mining Holding Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Xinghua_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E9%BB%91%E9%BE%99%E6%B1%9F%E9%BE%99%E7%85%A4%E9%B8%A1%E8%A5%BF%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%9D%8F%E8%8A%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Xinghua Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.091617,
+          45.316354
+        ]
+      },
+      "properties": {
+        "id": "M2224.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-08-02 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2224",
+        "Owners": "Heilongjiang Longmei Jixi Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Heilongjiang Longmay Mining Holding Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Xinghua_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E9%BB%91%E9%BE%99%E6%B1%9F%E9%BE%99%E7%85%A4%E9%B8%A1%E8%A5%BF%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%9D%8F%E8%8A%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Xinghua Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.110441,
+          45.331724
+        ]
+      },
+      "properties": {
+        "id": "M2224.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2224",
+        "Owners": "Heilongjiang Longmei Jixi Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Heilongjiang Longmay Mining Holding Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Xinghua_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E9%BB%91%E9%BE%99%E6%B1%9F%E9%BE%99%E7%85%A4%E9%B8%A1%E8%A5%BF%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%9D%8F%E8%8A%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Xinghua Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.069566,
+          45.331837
+        ]
+      },
+      "properties": {
+        "id": "M2224.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-08-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2224",
+        "Owners": "Heilongjiang Longmei Jixi Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Heilongjiang Longmay Mining Holding Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Xinghua_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E9%BB%91%E9%BE%99%E6%B1%9F%E9%BE%99%E7%85%A4%E9%B8%A1%E8%A5%BF%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%9D%8F%E8%8A%B1%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Xinghua Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

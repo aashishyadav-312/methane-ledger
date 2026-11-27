@@ -1,0 +1,2047 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.440337,
+              -23.131782
+            ],
+            [
+              148.460327,
+              -23.109418
+            ],
+            [
+              148.492399,
+              -23.109592
+            ],
+            [
+              148.50957,
+              -23.123567
+            ],
+            [
+              148.520715,
+              -23.111889
+            ],
+            [
+              148.562306,
+              -23.115888
+            ],
+            [
+              148.570493,
+              -23.101601
+            ],
+            [
+              148.597105,
+              -23.081698
+            ],
+            [
+              148.608956,
+              -23.073949
+            ],
+            [
+              148.634435,
+              -23.073697
+            ],
+            [
+              148.634431,
+              -23.048435
+            ],
+            [
+              148.651098,
+              -23.04844
+            ],
+            [
+              148.651093,
+              -23.015103
+            ],
+            [
+              148.494617,
+              -23.015099
+            ],
+            [
+              148.492311,
+              -23.018257
+            ],
+            [
+              148.484856,
+              -23.024067
+            ],
+            [
+              148.485247,
+              -23.060282
+            ],
+            [
+              148.471239,
+              -23.060238
+            ],
+            [
+              148.467575,
+              -23.062545
+            ],
+            [
+              148.467707,
+              -23.072185
+            ],
+            [
+              148.442151,
+              -23.086492
+            ],
+            [
+              148.424753,
+              -23.131784
+            ],
+            [
+              148.440337,
+              -23.131782
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0085.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2024-03-01 00:00:00",
+        "notes": "Section 1.1 Project Overview and History of Progressive Rehabilitation and Closure Plan, March 2024, https://web.archive.org/web/20250327202352/https://storagesolutiondocsprod.blob.core.windows.net/register-documents-applications-prcp/PRCP-EPML00942413-V1_1_Applicationdocuments_Attachment_02.pdf describes the mining leases for the mine: ML 1832, ML 2004, ML 70241, ML 70327 and ML 70424 and Figure 2.5 of shows the mining lease areas. Mining lease details from the Queensland Mining Leases dataset https://web.archive.org/web/20250327173139/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27 : ML 1832 (Oaky Creek), granted June 1979, expiring June 2041; ML 70327 (Oaky East), granted March 2009, expiring June 2041;  ML 70424 (Oaky South East), granted July 2012, expiring July 2027;  ML 70241 (Sandy Creek), granted July 2001, expiring June 2041;  ML 2004 (Oaky Creek Extended), granted August 1993, expiring August 2035. The boundary is the perimeter of these mining leases and has an area of 176 sq km.",
+        "description": "Oaky Creek mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.553569,
+          -23.060613
+        ]
+      },
+      "properties": {
+        "id": "M0085.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "A Glencore 'fact sheet' on methane emissions https://web.archive.org/web/2/https://www.glencore.com.au/dam/jcr:d7ab0b8c-6571-4dad-a945-4efa38315ab4/A13649_GCAA_Fact%20Sheet%20Update%20-%20Methane_FINAL.pdf  shows vertical wells, vent stacks, elec gen and flares are used.\n\nFigure 4.2 of the June 2022 Oaky Creek Coal Underground Water Impact Report https://web.archive.org/web/2/https://www.glencore.com.au/dam/jcr:d29bac33-ea25-41b3-a97d-3dac5d93c7c5/220629R-OCC-UWIR-2022.pdf also shows current and historical gas drainage wells. \n\nFigs 2.3, 2.4 of Oaky Creek Joint Venture - Oaky Creek Coal Mine - Application Form for Submission of a Progressive Rehabilitation and Closure Plan https://web.archive.org/web/2/https://storagesolutiondocsprod.blob.core.windows.net/register-documents-applications-prcp/PRCP-EPML00942413-V1_1_Applicationdocuments_Attachment_02.pdf  show some main infrastructure such elec gen and flaring plants.",
+        "description": "drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.591985,
+          -23.050169
+        ]
+      },
+      "properties": {
+        "id": "M0085.P2",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.592011,
+          -23.048527
+        ]
+      },
+      "properties": {
+        "id": "M0085.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.611937,
+          -23.019624
+        ]
+      },
+      "properties": {
+        "id": "M0085.P4",
+        "mine feature category": "other",
+        "mine feature subcategory": "dewatering station",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possibly a mine dewatering pump station - the pipeline appears to terminate at a pond at -23.02861111111111 148.5791666666667",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.590608,
+          -23.04856
+        ]
+      },
+      "properties": {
+        "id": "M0085.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas drainage stations connected to flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.55616,
+          -23.050055
+        ]
+      },
+      "properties": {
+        "id": "M0085.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas to electricity generation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.600089,
+          -23.037679
+        ]
+      },
+      "properties": {
+        "id": "M0085.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.608203,
+          -23.039619
+        ]
+      },
+      "properties": {
+        "id": "M0085.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.584299,
+          -23.042651
+        ]
+      },
+      "properties": {
+        "id": "M0085.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.59345,
+          -23.075408
+        ]
+      },
+      "properties": {
+        "id": "M0085.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.591958,
+          -23.078569
+        ]
+      },
+      "properties": {
+        "id": "M0085.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.580275,
+          -23.078803
+        ]
+      },
+      "properties": {
+        "id": "M0085.P12",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.634862,
+          -23.016865
+        ]
+      },
+      "properties": {
+        "id": "M0085.P13",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.631462,
+          -23.016125
+        ]
+      },
+      "properties": {
+        "id": "M0085.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.62199,
+          -23.024028
+        ]
+      },
+      "properties": {
+        "id": "M0085.P15",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.609861,
+          -23.052732
+        ]
+      },
+      "properties": {
+        "id": "M0085.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.609901,
+          -23.051853
+        ]
+      },
+      "properties": {
+        "id": "M0085.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.60836,
+          -23.054027
+        ]
+      },
+      "properties": {
+        "id": "M0085.P18",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.609033,
+          -23.053163
+        ]
+      },
+      "properties": {
+        "id": "M0085.P19",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.607829,
+          -23.05875
+        ]
+      },
+      "properties": {
+        "id": "M0085.P20",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.606394,
+          -23.059514
+        ]
+      },
+      "properties": {
+        "id": "M0085.P21",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.60332,
+          -23.061329
+        ]
+      },
+      "properties": {
+        "id": "M0085.P22",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.59539,
+          -23.059409
+        ]
+      },
+      "properties": {
+        "id": "M0085.P23",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.599539,
+          -23.065689
+        ]
+      },
+      "properties": {
+        "id": "M0085.P24",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.599011,
+          -23.066253
+        ]
+      },
+      "properties": {
+        "id": "M0085.P25",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.5998,
+          -23.067061
+        ]
+      },
+      "properties": {
+        "id": "M0085.P26",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.617214,
+          -23.068989
+        ]
+      },
+      "properties": {
+        "id": "M0085.P27",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.617958,
+          -23.068438
+        ]
+      },
+      "properties": {
+        "id": "M0085.P28",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.617803,
+          -23.068567
+        ]
+      },
+      "properties": {
+        "id": "M0085.P29",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.618754,
+          -23.067778
+        ]
+      },
+      "properties": {
+        "id": "M0085.P30",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.619476,
+          -23.067188
+        ]
+      },
+      "properties": {
+        "id": "M0085.P31",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.613007,
+          -23.069602
+        ]
+      },
+      "properties": {
+        "id": "M0085.P32",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.608537,
+          -23.069974
+        ]
+      },
+      "properties": {
+        "id": "M0085.P33",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.608025,
+          -23.071679
+        ]
+      },
+      "properties": {
+        "id": "M0085.P34",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.607369,
+          -23.072018
+        ]
+      },
+      "properties": {
+        "id": "M0085.P35",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.606952,
+          -23.072277
+        ]
+      },
+      "properties": {
+        "id": "M0085.P36",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.606419,
+          -23.072761
+        ]
+      },
+      "properties": {
+        "id": "M0085.P37",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.602814,
+          -23.069304
+        ]
+      },
+      "properties": {
+        "id": "M0085.P38",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.603119,
+          -23.070012
+        ]
+      },
+      "properties": {
+        "id": "M0085.P39",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.60068,
+          -23.068924
+        ]
+      },
+      "properties": {
+        "id": "M0085.P40",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.594998,
+          -23.071063
+        ]
+      },
+      "properties": {
+        "id": "M0085.P41",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.586529,
+          -23.071647
+        ]
+      },
+      "properties": {
+        "id": "M0085.P42",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.582432,
+          -23.071025
+        ]
+      },
+      "properties": {
+        "id": "M0085.P43",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.579655,
+          -23.070887
+        ]
+      },
+      "properties": {
+        "id": "M0085.P44",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.579431,
+          -23.07111
+        ]
+      },
+      "properties": {
+        "id": "M0085.P45",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.594192,
+          -23.027587
+        ]
+      },
+      "properties": {
+        "id": "M0085.P46",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.591216,
+          -23.026132
+        ]
+      },
+      "properties": {
+        "id": "M0085.P47",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.60838,
+          -23.031544
+        ]
+      },
+      "properties": {
+        "id": "M0085.P48",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.606244,
+          -23.035634
+        ]
+      },
+      "properties": {
+        "id": "M0085.P49",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.583492,
+          -23.03295
+        ]
+      },
+      "properties": {
+        "id": "M0085.P50",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.610763,
+          -23.038493
+        ]
+      },
+      "properties": {
+        "id": "M0085.P51",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.610599,
+          -23.037624
+        ]
+      },
+      "properties": {
+        "id": "M0085.P52",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.558892,
+          -23.057064
+        ]
+      },
+      "properties": {
+        "id": "M0085.P53",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.589634,
+          -23.065936
+        ]
+      },
+      "properties": {
+        "id": "M0085.P54",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.522789,
+          -23.103036
+        ]
+      },
+      "properties": {
+        "id": "M0085.P55",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas wells",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.609335,
+          -23.034224
+        ]
+      },
+      "properties": {
+        "id": "M0085.P56",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas wells",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.563925,
+          -23.086515
+        ]
+      },
+      "properties": {
+        "id": "M0085.P57",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.600346,
+          -23.062798
+        ]
+      },
+      "properties": {
+        "id": "M0085.P58",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.598475,
+          -23.059457
+        ]
+      },
+      "properties": {
+        "id": "M0085.P59",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.56568,
+          -23.076682
+        ]
+      },
+      "properties": {
+        "id": "M0085.P60",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft and drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.536986,
+          -23.0417
+        ]
+      },
+      "properties": {
+        "id": "M0085.P61",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft and drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.51974,
+          -23.085564
+        ]
+      },
+      "properties": {
+        "id": "M0085.P62",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft and drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.566564,
+          -23.046303
+        ]
+      },
+      "properties": {
+        "id": "M0085.P63",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft and drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.593256,
+          -23.047704
+        ]
+      },
+      "properties": {
+        "id": "M0085.P64",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-12-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft and drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0085",
+        "Owners": "Glencore PLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore [33%]; Sumisho Coal Australia [33%]; Itochu [33%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Oaky_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Oaky Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

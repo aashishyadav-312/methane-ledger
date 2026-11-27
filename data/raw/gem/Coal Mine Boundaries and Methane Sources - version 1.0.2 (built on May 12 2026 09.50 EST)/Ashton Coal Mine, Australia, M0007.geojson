@@ -1,0 +1,1281 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.070399,
+              -32.457956
+            ],
+            [
+              151.068971,
+              -32.459178
+            ],
+            [
+              151.0671,
+              -32.457302
+            ],
+            [
+              151.061914,
+              -32.452103
+            ],
+            [
+              151.06088,
+              -32.451967
+            ],
+            [
+              151.06053,
+              -32.453812
+            ],
+            [
+              151.060342,
+              -32.453666
+            ],
+            [
+              151.060245,
+              -32.454187
+            ],
+            [
+              151.06022,
+              -32.454323
+            ],
+            [
+              151.060133,
+              -32.454803
+            ],
+            [
+              151.059837,
+              -32.456426
+            ],
+            [
+              151.059806,
+              -32.456598
+            ],
+            [
+              151.059738,
+              -32.456973
+            ],
+            [
+              151.059223,
+              -32.459681
+            ],
+            [
+              151.058642,
+              -32.462742
+            ],
+            [
+              151.05806,
+              -32.465803
+            ],
+            [
+              151.058025,
+              -32.465985
+            ],
+            [
+              151.057712,
+              -32.467632
+            ],
+            [
+              151.057372,
+              -32.469423
+            ],
+            [
+              151.057032,
+              -32.471211
+            ],
+            [
+              151.056932,
+              -32.471738
+            ],
+            [
+              151.055464,
+              -32.472844
+            ],
+            [
+              151.054514,
+              -32.479211
+            ],
+            [
+              151.055154,
+              -32.482384
+            ],
+            [
+              151.058678,
+              -32.485591
+            ],
+            [
+              151.061312,
+              -32.48749
+            ],
+            [
+              151.063838,
+              -32.488687
+            ],
+            [
+              151.066836,
+              -32.490736
+            ],
+            [
+              151.069375,
+              -32.491149
+            ],
+            [
+              151.068254,
+              -32.496612
+            ],
+            [
+              151.073238,
+              -32.497322
+            ],
+            [
+              151.077272,
+              -32.475404
+            ],
+            [
+              151.080938,
+              -32.472195
+            ],
+            [
+              151.080915,
+              -32.472137
+            ],
+            [
+              151.080712,
+              -32.471617
+            ],
+            [
+              151.079869,
+              -32.469453
+            ],
+            [
+              151.081409,
+              -32.468116
+            ],
+            [
+              151.083122,
+              -32.466629
+            ],
+            [
+              151.083172,
+              -32.466586
+            ],
+            [
+              151.083559,
+              -32.465469
+            ],
+            [
+              151.083829,
+              -32.465356
+            ],
+            [
+              151.084475,
+              -32.465086
+            ],
+            [
+              151.086814,
+              -32.464301
+            ],
+            [
+              151.086844,
+              -32.46431
+            ],
+            [
+              151.088337,
+              -32.464277
+            ],
+            [
+              151.090525,
+              -32.464486
+            ],
+            [
+              151.091603,
+              -32.464549
+            ],
+            [
+              151.092725,
+              -32.464615
+            ],
+            [
+              151.092967,
+              -32.464645
+            ],
+            [
+              151.093533,
+              -32.464714
+            ],
+            [
+              151.09405,
+              -32.464765
+            ],
+            [
+              151.095212,
+              -32.46498
+            ],
+            [
+              151.0961,
+              -32.465132
+            ],
+            [
+              151.097786,
+              -32.465078
+            ],
+            [
+              151.098979,
+              -32.464857
+            ],
+            [
+              151.102349,
+              -32.463325
+            ],
+            [
+              151.105317,
+              -32.462862
+            ],
+            [
+              151.105375,
+              -32.462808
+            ],
+            [
+              151.106085,
+              -32.462152
+            ],
+            [
+              151.106442,
+              -32.461815
+            ],
+            [
+              151.106687,
+              -32.461584
+            ],
+            [
+              151.106572,
+              -32.461378
+            ],
+            [
+              151.106145,
+              -32.461147
+            ],
+            [
+              151.105714,
+              -32.460923
+            ],
+            [
+              151.105279,
+              -32.460707
+            ],
+            [
+              151.104841,
+              -32.460497
+            ],
+            [
+              151.1044,
+              -32.460295
+            ],
+            [
+              151.103955,
+              -32.4601
+            ],
+            [
+              151.103507,
+              -32.459912
+            ],
+            [
+              151.103056,
+              -32.459732
+            ],
+            [
+              151.102602,
+              -32.459559
+            ],
+            [
+              151.102146,
+              -32.459393
+            ],
+            [
+              151.101687,
+              -32.459235
+            ],
+            [
+              151.101225,
+              -32.459084
+            ],
+            [
+              151.100761,
+              -32.458941
+            ],
+            [
+              151.100294,
+              -32.458806
+            ],
+            [
+              151.099826,
+              -32.458678
+            ],
+            [
+              151.099355,
+              -32.458558
+            ],
+            [
+              151.098883,
+              -32.458446
+            ],
+            [
+              151.098408,
+              -32.458341
+            ],
+            [
+              151.097933,
+              -32.458245
+            ],
+            [
+              151.097455,
+              -32.458156
+            ],
+            [
+              151.096976,
+              -32.458074
+            ],
+            [
+              151.096496,
+              -32.458001
+            ],
+            [
+              151.096015,
+              -32.457935
+            ],
+            [
+              151.095533,
+              -32.457878
+            ],
+            [
+              151.09505,
+              -32.457828
+            ],
+            [
+              151.095014,
+              -32.457825
+            ],
+            [
+              151.094952,
+              -32.45782
+            ],
+            [
+              151.094946,
+              -32.457819
+            ],
+            [
+              151.094566,
+              -32.457786
+            ],
+            [
+              151.094081,
+              -32.457752
+            ],
+            [
+              151.093596,
+              -32.457726
+            ],
+            [
+              151.093487,
+              -32.457722
+            ],
+            [
+              151.093485,
+              -32.457722
+            ],
+            [
+              151.093164,
+              -32.45771
+            ],
+            [
+              151.093155,
+              -32.45771
+            ],
+            [
+              151.093111,
+              -32.457708
+            ],
+            [
+              151.092626,
+              -32.457698
+            ],
+            [
+              151.09214,
+              -32.457696
+            ],
+            [
+              151.092061,
+              -32.457697
+            ],
+            [
+              151.091654,
+              -32.457702
+            ],
+            [
+              151.091169,
+              -32.457716
+            ],
+            [
+              151.091007,
+              -32.457723
+            ],
+            [
+              151.090958,
+              -32.457725
+            ],
+            [
+              151.090684,
+              -32.457737
+            ],
+            [
+              151.09068,
+              -32.457737
+            ],
+            [
+              151.090643,
+              -32.45774
+            ],
+            [
+              151.090199,
+              -32.457767
+            ],
+            [
+              151.089715,
+              -32.457804
+            ],
+            [
+              151.089544,
+              -32.45782
+            ],
+            [
+              151.089231,
+              -32.45785
+            ],
+            [
+              151.088749,
+              -32.457903
+            ],
+            [
+              151.088424,
+              -32.457944
+            ],
+            [
+              151.088267,
+              -32.457964
+            ],
+            [
+              151.087377,
+              -32.458131
+            ],
+            [
+              151.087297,
+              -32.458146
+            ],
+            [
+              151.086254,
+              -32.458341
+            ],
+            [
+              151.086159,
+              -32.458359
+            ],
+            [
+              151.085919,
+              -32.458404
+            ],
+            [
+              151.085824,
+              -32.458422
+            ],
+            [
+              151.084687,
+              -32.458635
+            ],
+            [
+              151.084553,
+              -32.45866
+            ],
+            [
+              151.084558,
+              -32.458307
+            ],
+            [
+              151.083616,
+              -32.458484
+            ],
+            [
+              151.083278,
+              -32.458548
+            ],
+            [
+              151.082488,
+              -32.458696
+            ],
+            [
+              151.08162,
+              -32.458859
+            ],
+            [
+              151.081517,
+              -32.458879
+            ],
+            [
+              151.081257,
+              -32.458928
+            ],
+            [
+              151.081239,
+              -32.458931
+            ],
+            [
+              151.081181,
+              -32.458943
+            ],
+            [
+              151.08113,
+              -32.458954
+            ],
+            [
+              151.081025,
+              -32.458975
+            ],
+            [
+              151.080895,
+              -32.459002
+            ],
+            [
+              151.080884,
+              -32.459004
+            ],
+            [
+              151.080791,
+              -32.459021
+            ],
+            [
+              151.080532,
+              -32.459069
+            ],
+            [
+              151.080168,
+              -32.459128
+            ],
+            [
+              151.079803,
+              -32.459179
+            ],
+            [
+              151.07945,
+              -32.459221
+            ],
+            [
+              151.079443,
+              -32.459222
+            ],
+            [
+              151.079436,
+              -32.459222
+            ],
+            [
+              151.079273,
+              -32.459238
+            ],
+            [
+              151.078867,
+              -32.45927
+            ],
+            [
+              151.078461,
+              -32.459292
+            ],
+            [
+              151.078055,
+              -32.459306
+            ],
+            [
+              151.077648,
+              -32.459311
+            ],
+            [
+              151.077241,
+              -32.459307
+            ],
+            [
+              151.076835,
+              -32.459295
+            ],
+            [
+              151.076428,
+              -32.459273
+            ],
+            [
+              151.076023,
+              -32.459243
+            ],
+            [
+              151.075618,
+              -32.459204
+            ],
+            [
+              151.073973,
+              -32.458976
+            ],
+            [
+              151.073639,
+              -32.458922
+            ],
+            [
+              151.073306,
+              -32.45886
+            ],
+            [
+              151.072996,
+              -32.458795
+            ],
+            [
+              151.072974,
+              -32.45879
+            ],
+            [
+              151.072644,
+              -32.458713
+            ],
+            [
+              151.072503,
+              -32.458676
+            ],
+            [
+              151.072316,
+              -32.458628
+            ],
+            [
+              151.072178,
+              -32.458588
+            ],
+            [
+              151.07199,
+              -32.458535
+            ],
+            [
+              151.071667,
+              -32.458434
+            ],
+            [
+              151.071346,
+              -32.458326
+            ],
+            [
+              151.071027,
+              -32.45821
+            ],
+            [
+              151.070712,
+              -32.458087
+            ],
+            [
+              151.070399,
+              -32.457956
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0007.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground and surface",
+        "data source date": "2024-02-01 00:00:00",
+        "notes": "Based on section 2.1 figure 2.1 on page 3, and table 3.1 on page 5, of the Ashton Coal/Yancoal Annual Review for Ashton Coal Project for 2023, published in March 2024, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/12/Ashton-Annual-Review_March-2024.pdf, Ashton Coal Project is comprised of the following components: (1) a decomissioned north-east open cut (NEOC) used for coarse reject storage and coal fines, north of the A15 New England Highway, in mining leases ML1529 and ML1533; (2) the Ashton undeground mine, south of the A15 New England Highway, in mining lease ML1533; (3) a coal handling and preparation plant and rail loadout, north of the A15 New England Highway in mining ML1533; (4) integration with part of the Ravensworth underground mine, owned by Glencore, in mining leases ML1834, ML1835, ML1836 and ML1837; (5) the south east open cut in mining lease ML1696 (mining here prevented by Wendy Bowman not selling her land to Yancoal).\n\nThis boundary component is comprised of the Ashton underground coal mine and the northeast open cut covered by mining leases ML1529, ML1533 and ML1623. \n\nMining lease polygons were extracted from the Geological Survey NSW GeoServer web feature service \nhttps://web.archive.org/web/20250427032655/https://www.resources.nsw.gov.au/geological-survey/products-and-data/gis-web-services.\n\nThe area of this boundary is 9 sq km.",
+        "description": "Ashton underground coal mine and the northeast open cut.",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.038525,
+              -32.476874
+            ],
+            [
+              151.05486,
+              -32.47048
+            ],
+            [
+              151.055047,
+              -32.470954
+            ],
+            [
+              151.056966,
+              -32.471112
+            ],
+            [
+              151.057387,
+              -32.469494
+            ],
+            [
+              151.060244,
+              -32.454174
+            ],
+            [
+              151.058326,
+              -32.452042
+            ],
+            [
+              151.056501,
+              -32.453187
+            ],
+            [
+              151.030995,
+              -32.46329
+            ],
+            [
+              151.038525,
+              -32.476874
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0007.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground and surface",
+        "data source date": "2024-02-01 00:00:00",
+        "notes": "Based on section 2.1 figure 2.1 on page 3, and table 3.1 on page 5, of the Ashton Coal/Yancoal Annual Review for Ashton Coal Project for 2023, published in March 2024, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/12/Ashton-Annual-Review_March-2024.pdf, Ashton Coal Project is comprised of the following components: (1) a decomissioned north-east open cut (NEOC) used for coarse reject storage and coal fines, north of the A15 New England Highway, in mining leases ML1529 and ML1533; (2) the Ashton undeground mine, south of the A15 New England Highway, in mining lease ML1533; (3) a coal handling and preparation plant and rail loadout, north of the A15 New England Highway in mining ML1533; (4) integration with part of the Ravensworth underground mine, owned by Glencore, in mining leases ML1834, ML1835, ML1836 and ML1837; (5) the south east open cut in mining lease ML1696 (mining here prevented by Wendy Bowman not selling her land to Yancoal).\n\nThis boundary component is comprised of the Ravensworth integration. It's broken out separately because of potential part ownership with Glencore that owns Ravensworth. The boundary is covered by mining leases ML1834, ML1835, ML1836 and ML1837. \n\nMining lease polygons were extracted from the Geological Survey NSW GeoServer web feature service \nhttps://web.archive.org/web/20250427032655/https://www.resources.nsw.gov.au/geological-survey/products-and-data/gis-web-services.\n\nThe area of this boundary is 4 sq km.",
+        "description": "Ravensworth underground mine integration",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.05355,
+              -32.439963
+            ],
+            [
+              151.051068,
+              -32.438775
+            ],
+            [
+              151.046628,
+              -32.438749
+            ],
+            [
+              151.044135,
+              -32.440336
+            ],
+            [
+              151.044955,
+              -32.442849
+            ],
+            [
+              151.045917,
+              -32.442775
+            ],
+            [
+              151.046477,
+              -32.445053
+            ],
+            [
+              151.047646,
+              -32.446405
+            ],
+            [
+              151.04766,
+              -32.446421
+            ],
+            [
+              151.049115,
+              -32.446685
+            ],
+            [
+              151.049148,
+              -32.446692
+            ],
+            [
+              151.050338,
+              -32.446944
+            ],
+            [
+              151.05077,
+              -32.447032
+            ],
+            [
+              151.050774,
+              -32.447018
+            ],
+            [
+              151.051142,
+              -32.445812
+            ],
+            [
+              151.050877,
+              -32.445314
+            ],
+            [
+              151.05103,
+              -32.444872
+            ],
+            [
+              151.051277,
+              -32.444317
+            ],
+            [
+              151.052144,
+              -32.442527
+            ],
+            [
+              151.052821,
+              -32.442094
+            ],
+            [
+              151.05355,
+              -32.439963
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0007.B3",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-02-01 00:00:00",
+        "notes": "Based on section 2.1 figure 2.1 on page 3, and table 3.1 on page 5, of the Ashton Coal/Yancoal Annual Review for Ashton Coal Project for 2023, published in March 2024, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/12/Ashton-Annual-Review_March-2024.pdf, Ashton Coal Project is comprised of the following components: (1) a decomissioned north-east open cut (NEOC) used for coarse reject storage and coal fines, north of the A15 New England Highway, in mining leases ML1529 and ML1533; (2) the Ashton undeground mine, south of the A15 New England Highway, in mining lease ML1533; (3) a coal handling and preparation plant and rail loadout, north of the A15 New England Highway in mining ML1533; (4) integration with part of the Ravensworth underground mine, owned by Glencore, in mining leases ML1834, ML1835, ML1836 and ML1837; (5) the south east open cut in mining lease ML1696 (mining here prevented by Wendy Bowman not selling her land to Yancoal).\n\nThis boundary component is comprised of a tailings dam shown in the Ashton-Ravensworth Underground Mine Integration APPENDIX F Ashton Water Management Plan, from 12/2020, page Figure 1 Site Location and Locality https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/10/340561_appendix-f-ashton-water-management-plan.pdf, and is covered by mining lease ML1861.  \n\nMining lease polygons were extracted from the Geological Survey NSW GeoServer web feature service \nhttps://web.archive.org/web/20250427032655/https://www.resources.nsw.gov.au/geological-survey/products-and-data/gis-web-services.\n\nThe area of this dam is approx 0.5 sq km.",
+        "description": "Ashton and Ravensworth tailings dam",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.072901,
+          -32.462
+        ]
+      },
+      "properties": {
+        "id": "M0007.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "3/2024 and 5/2023",
+        "notes": "Based on figure 2.1 on page 3 of Ashton Coal/Yancoal Annual Review for Ashton Coal Project for 2023, published in March 2024, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/12/Ashton-Annual-Review_March-2024.pdf, and verified with Google Earth satellite imagery",
+        "description": "coal handling and preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.060669,
+          -32.486118
+        ]
+      },
+      "properties": {
+        "id": "M0007.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "dewatering station",
+        "data source date": "12/2020 and 5/2023",
+        "notes": "Located extracted from figure 2 Mine Layout Area on page 2 of Ashton-Ravensworth Underground Mine Integration APPENDIX F Ashton Water Management Plan, from 12/2020, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/10/340561_appendix-f-ashton-water-management-plan.pdf, and verified with Google Earth satellite imagery",
+        "description": "dewatering borehole approx",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.069418,
+          -32.490204
+        ]
+      },
+      "properties": {
+        "id": "M0007.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "dewatering station",
+        "data source date": "12/2020 and 5/2023",
+        "notes": "Located extracted from figure 2 Mine Layout Area on page 2 of Ashton-Ravensworth Underground Mine Integration APPENDIX F Ashton Water Management Plan, from 12/2020, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/10/340561_appendix-f-ashton-water-management-plan.pdf, and verified with Google Earth satellite imagery",
+        "description": "dewatering borehole approx",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.075459,
+          -32.471454
+        ]
+      },
+      "properties": {
+        "id": "M0007.P4",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.075241,
+          -32.471239
+        ]
+      },
+      "properties": {
+        "id": "M0007.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "3/2024 and 5/2023",
+        "notes": "Location estimated based on gas drainage pipelines in figure 8.1 on pg 66 of Yancoal Annual Review for Ashton Coal Project for 2023, published in March 2024, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/12/Ashton-Annual-Review_March-2024.pdf, and Google Earth satellite imagery.",
+        "description": "gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.05913,
+          -32.48127
+        ]
+      },
+      "properties": {
+        "id": "M0007.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "3/2024 and 5/2023",
+        "notes": "Extracted from figure 4.1 MINING OPERATIONS on pg 8 of Ashton Coal/Yancoal Annual Review for Ashton Coal Project for 2023, published in March 2024, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/12/Ashton-Annual-Review_March-2024.pdf, and verified with Google Earth satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.059637,
+          -32.478597
+        ]
+      },
+      "properties": {
+        "id": "M0007.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "3/2024 and 5/2023",
+        "notes": "Extracted from figure 4.1 MINING OPERATIONS on pg 8 of Ashton Coal/Yancoal Annual Review for Ashton Coal Project for 2023, published in March 2024, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/12/Ashton-Annual-Review_March-2024.pdf, and verified with Google Earth satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.06027,
+          -32.474513
+        ]
+      },
+      "properties": {
+        "id": "M0007.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "3/2024 and 5/2023",
+        "notes": "Extracted from figure 4.1 MINING OPERATIONS on pg 8 of Ashton Coal/Yancoal Annual Review for Ashton Coal Project for 2023, published in March 2024, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/12/Ashton-Annual-Review_March-2024.pdf, and verified with Google Earth satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.062109,
+          -32.465904
+        ]
+      },
+      "properties": {
+        "id": "M0007.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "3/2024 and 5/2023",
+        "notes": "Extracted from figure 4.1 MINING OPERATIONS on pg 8 of Ashton Coal/Yancoal Annual Review for Ashton Coal Project for 2023, published in March 2024, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/12/Ashton-Annual-Review_March-2024.pdf, and verified with Google Earth satellite imagery.",
+        "description": "approximate location of gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.063111,
+          -32.460827
+        ]
+      },
+      "properties": {
+        "id": "M0007.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "3/2024 and 5/2023",
+        "notes": "Extracted from figure 4.1 MINING OPERATIONS on pg 8 of Ashton Coal/Yancoal Annual Review for Ashton Coal Project for 2023, published in March 2024, https://web.archive.org/web/2/https://www.yancoal.com.au/wp-content/uploads/2024/12/Ashton-Annual-Review_March-2024.pdf, and verified with Google Earth satellite imagery.",
+        "description": "approximate location of gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.076408,
+          -32.467557
+        ]
+      },
+      "properties": {
+        "id": "M0007.P11",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible mine production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.074547,
+          -32.465422
+        ]
+      },
+      "properties": {
+        "id": "M0007.P12",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible mine production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.075282,
+          -32.470585
+        ]
+      },
+      "properties": {
+        "id": "M0007.P13",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilaton shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0007",
+        "Owners": "Ashton Coal Operations [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Yankuang Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ashton_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Ashton Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.462447,
+              33.867408
+            ],
+            [
+              113.434551,
+              33.886201
+            ],
+            [
+              113.418794,
+              33.889441
+            ],
+            [
+              113.400859,
+              33.902018
+            ],
+            [
+              113.35578,
+              33.932309
+            ],
+            [
+              113.344669,
+              33.921419
+            ],
+            [
+              113.328114,
+              33.915404
+            ],
+            [
+              113.389491,
+              33.854454
+            ],
+            [
+              113.401384,
+              33.839391
+            ],
+            [
+              113.462447,
+              33.867408
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2165.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2014-04-10 00:00:00",
+        "notes": "The mine boundary was georeferenced from a transportation map on page 16 in the document Pingmei Tian'an No.5 Mine Geological Report - For Reference Use (\u5e73\u7164\u5929\u5b89\u4e94\u77ff\u77ff\u4e95\u5730\u8d28\u62a5\u544a---\u53c2\u8003\u4f7f\u7528) https://web.archive.org/web/20250919154215/https://www.doc88.com/p-7905485568595.html. The coordinates precision is estimated because the map is not to scale.",
+        "description": "Estimated Tian'an No.13 coal mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M2165",
+        "Owners": "Pingdingshan Tianan Coal Industry Company Tian'an No.13 Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Pingmei Shenma Energy and Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tian%27an_No.13_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B9%B3%E9%A1%B6%E5%B1%B1%E5%A4%A9%E5%AE%89%E7%85%A4%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%8D%81%E4%B8%89%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Tian'an No.13 Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.411757,
+          33.874193
+        ]
+      },
+      "properties": {
+        "id": "M2165.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-01-09 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation Shaft 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2165",
+        "Owners": "Pingdingshan Tianan Coal Industry Company Tian'an No.13 Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Pingmei Shenma Energy and Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tian%27an_No.13_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B9%B3%E9%A1%B6%E5%B1%B1%E5%A4%A9%E5%AE%89%E7%85%A4%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%8D%81%E4%B8%89%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Tian'an No.13 Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.411397,
+          33.874777
+        ]
+      },
+      "properties": {
+        "id": "M2165.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-01-09 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation Shaft 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2165",
+        "Owners": "Pingdingshan Tianan Coal Industry Company Tian'an No.13 Coal Mine [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Pingmei Shenma Energy and Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tian%27an_No.13_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B9%B3%E9%A1%B6%E5%B1%B1%E5%A4%A9%E5%AE%89%E7%85%A4%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%8D%81%E4%B8%89%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Tian'an No.13 Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

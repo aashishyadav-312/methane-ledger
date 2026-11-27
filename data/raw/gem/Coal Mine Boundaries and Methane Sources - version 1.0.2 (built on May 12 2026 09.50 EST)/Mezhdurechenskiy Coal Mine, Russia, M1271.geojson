@@ -1,0 +1,277 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.89795,
+              53.638947
+            ],
+            [
+              87.903228,
+              53.635336
+            ],
+            [
+              87.91045,
+              53.637558
+            ],
+            [
+              87.91295,
+              53.633947
+            ],
+            [
+              87.914894,
+              53.633947
+            ],
+            [
+              87.92045,
+              53.635892
+            ],
+            [
+              87.922117,
+              53.637003
+            ],
+            [
+              87.924061,
+              53.638669
+            ],
+            [
+              87.924894,
+              53.638669
+            ],
+            [
+              87.927394,
+              53.639781
+            ],
+            [
+              87.932394,
+              53.640614
+            ],
+            [
+              87.933506,
+              53.640614
+            ],
+            [
+              87.934617,
+              53.643669
+            ],
+            [
+              87.938506,
+              53.645058
+            ],
+            [
+              87.937394,
+              53.646169
+            ],
+            [
+              87.934339,
+              53.645614
+            ],
+            [
+              87.934339,
+              53.644781
+            ],
+            [
+              87.932672,
+              53.644225
+            ],
+            [
+              87.931561,
+              53.645058
+            ],
+            [
+              87.933783,
+              53.647281
+            ],
+            [
+              87.939061,
+              53.649781
+            ],
+            [
+              87.94045,
+              53.652836
+            ],
+            [
+              87.94295,
+              53.653114
+            ],
+            [
+              87.94795,
+              53.655614
+            ],
+            [
+              87.94795,
+              53.660336
+            ],
+            [
+              87.95295,
+              53.660614
+            ],
+            [
+              87.95795,
+              53.663114
+            ],
+            [
+              87.955728,
+              53.666447
+            ],
+            [
+              87.958506,
+              53.667003
+            ],
+            [
+              87.961283,
+              53.667281
+            ],
+            [
+              87.961561,
+              53.670336
+            ],
+            [
+              87.961006,
+              53.670614
+            ],
+            [
+              87.962117,
+              53.671725
+            ],
+            [
+              87.963228,
+              53.673392
+            ],
+            [
+              87.959339,
+              53.675336
+            ],
+            [
+              87.954617,
+              53.675614
+            ],
+            [
+              87.948506,
+              53.677281
+            ],
+            [
+              87.947117,
+              53.677003
+            ],
+            [
+              87.939617,
+              53.674781
+            ],
+            [
+              87.934339,
+              53.672003
+            ],
+            [
+              87.927117,
+              53.670614
+            ],
+            [
+              87.924339,
+              53.669503
+            ],
+            [
+              87.922117,
+              53.667281
+            ],
+            [
+              87.920172,
+              53.662836
+            ],
+            [
+              87.920172,
+              53.660058
+            ],
+            [
+              87.915172,
+              53.656725
+            ],
+            [
+              87.912117,
+              53.653114
+            ],
+            [
+              87.906283,
+              53.650892
+            ],
+            [
+              87.902394,
+              53.647003
+            ],
+            [
+              87.901839,
+              53.646169
+            ],
+            [
+              87.898783,
+              53.645058
+            ],
+            [
+              87.898506,
+              53.640058
+            ],
+            [
+              87.89795,
+              53.638947
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1271.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2025-11-12 00:00:00",
+        "notes": "This mine operates under the subsoil land-use license \u041a\u0415\u041c 00487 \u0422\u042d, as identified through the Project Documentation: Development of the \u201cMrassky\u201d, \u201cMrassky-2\u201d, \u201cMrassky Glubokii\u201d Areas with Continuation of Mining at the \u201cMain Field\u201d of the Mezhdurechensky Mine (\u041f\u0440\u043e\u0435\u043a\u0442\u043d\u0430\u044f \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f: \u00ab\u041f\u0440\u043e\u0435\u043a\u0442 \u043e\u0442\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0443\u0447\u0430\u0441\u0442\u043a\u043e\u0432 \u201c\u041c\u0440\u0430\u0441\u0441\u043a\u0438\u0439\u201d, \u201c\u041c\u0440\u0430\u0441\u0441\u043a\u0438\u0439-2\u201d, \u201c\u041c\u0440\u0430\u0441\u0441\u043a\u0438\u0439 \u0413\u043b\u0443\u0431\u043e\u043a\u0438\u0439\u201d \u0441 \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u043a\u043e\u0439 \u0443\u0447\u0430\u0441\u0442\u043a\u0430 \u201c\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0435 \u043f\u043e\u043b\u0435\u201d \u0440\u0430\u0437\u0440\u0435\u0437\u0430 \u201c\u041c\u0435\u0436\u0434\u0443\u0440\u0435\u0447\u0435\u043d\u0441\u043a\u0438\u0439\u201d), page 5, https://www.archive.org/details/MezhdurechenskyCoalMine ,2024.The license was issued on April 7, 2011, and is valid until September 1, 2025.The license was issued on April 29, 1999, and is valid until December 31, 2047. The approximate area of the resulting boundary is 9 square km.",
+        "description": "Mezhdurechenskiy coal mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1271",
+        "Owners": "Mezhdurechye JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Novaya Gornaya Management Company LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mezhdurechenskiy_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Mezhdurechenskiy Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 24, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.953215,
+          53.652935
+        ]
+      },
+      "properties": {
+        "id": "M1271.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2025-04-24 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. Also verified through the official company website of AO OF \u201cMezhdurechenskaya\u201d, https://web.archive.org/web/20251212170949/https://new-mmc.com/kompaniya/nashi-predpriyatiya/, 2025",
+        "description": "Coal handling and preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1271",
+        "Owners": "Mezhdurechye JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Novaya Gornaya Management Company LLC",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mezhdurechenskiy_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Mezhdurechenskiy Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Dec 24, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

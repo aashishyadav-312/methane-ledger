@@ -1,0 +1,1221 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.042391,
+              39.359044
+            ],
+            [
+              -79.978991,
+              39.347009
+            ],
+            [
+              -80.003025,
+              39.318427
+            ],
+            [
+              -79.996938,
+              39.2988
+            ],
+            [
+              -79.992785,
+              39.297423
+            ],
+            [
+              -79.893388,
+              39.314727
+            ],
+            [
+              -79.893533,
+              39.318745
+            ],
+            [
+              -79.91785,
+              39.342519
+            ],
+            [
+              -79.918147,
+              39.342175
+            ],
+            [
+              -79.940843,
+              39.361694
+            ],
+            [
+              -79.948706,
+              39.371911
+            ],
+            [
+              -80.043285,
+              39.36134
+            ],
+            [
+              -80.042391,
+              39.359044
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1036.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2022-02-11 00:00:00",
+        "notes": "The 'Leer Mine Area' is shown in Figure 1.1-1 General Location Map on page 2 and the 'LEER MINE AREA' is show in Figure 7.5-1 Drillhole Collar Locations, on page 35 of Technical Report Summary, Exhibit 96.1, from February 11, 2022, https://web.archive.org/web/20250507102925/https://minedocs.com/25/Leer-Mine-TR-02112022.pdf. The boundary was extracted from Figure 7.5-1 and has an area of 12,967 acres (52.5 sq km). This area very closely matches the area given in 1.1 PROPERTY DESCRIPTION on page 2, \"The Leer Mine permit area includes approximately 12,635 acres of controlled mineral property\". The mine mines the Middle Kittanning coal seam.\n\n\nImportant note: the following mine boundaries overlap the mine boundary and care should be taken when attempting methane source attribution: MINE NO. 1 (Upper Freeport coal seam)",
+        "description": "Leer coal mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1036",
+        "Owners": "ACI Tygart Valley LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Leer_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Leer Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.937788,
+              39.349958
+            ],
+            [
+              -79.937763,
+              39.349707
+            ],
+            [
+              -79.938068,
+              39.34989
+            ],
+            [
+              -79.938021,
+              39.349626
+            ],
+            [
+              -79.938445,
+              39.349456
+            ],
+            [
+              -79.935934,
+              39.345124
+            ],
+            [
+              -79.939506,
+              39.343702
+            ],
+            [
+              -79.940284,
+              39.344846
+            ],
+            [
+              -79.941557,
+              39.344333
+            ],
+            [
+              -79.942076,
+              39.344467
+            ],
+            [
+              -79.942672,
+              39.344207
+            ],
+            [
+              -79.942521,
+              39.343958
+            ],
+            [
+              -79.948126,
+              39.341727
+            ],
+            [
+              -79.949149,
+              39.343208
+            ],
+            [
+              -79.94951,
+              39.34309
+            ],
+            [
+              -79.954675,
+              39.341044
+            ],
+            [
+              -79.953186,
+              39.338755
+            ],
+            [
+              -79.953358,
+              39.338361
+            ],
+            [
+              -79.957423,
+              39.336773
+            ],
+            [
+              -79.947474,
+              39.32127
+            ],
+            [
+              -79.957399,
+              39.317787
+            ],
+            [
+              -79.958395,
+              39.317764
+            ],
+            [
+              -79.961891,
+              39.323739
+            ],
+            [
+              -79.962126,
+              39.323658
+            ],
+            [
+              -79.962388,
+              39.324102
+            ],
+            [
+              -79.964513,
+              39.328139
+            ],
+            [
+              -79.959606,
+              39.329899
+            ],
+            [
+              -79.960874,
+              39.332063
+            ],
+            [
+              -79.965962,
+              39.330507
+            ],
+            [
+              -79.967739,
+              39.329598
+            ],
+            [
+              -79.967531,
+              39.329262
+            ],
+            [
+              -79.968178,
+              39.329027
+            ],
+            [
+              -79.968075,
+              39.32881
+            ],
+            [
+              -79.973013,
+              39.327049
+            ],
+            [
+              -79.9738,
+              39.327877
+            ],
+            [
+              -79.978965,
+              39.336759
+            ],
+            [
+              -79.980308,
+              39.339624
+            ],
+            [
+              -79.980843,
+              39.339466
+            ],
+            [
+              -79.981463,
+              39.340483
+            ],
+            [
+              -79.982043,
+              39.340539
+            ],
+            [
+              -79.982306,
+              39.340425
+            ],
+            [
+              -79.981696,
+              39.339155
+            ],
+            [
+              -79.974657,
+              39.326466
+            ],
+            [
+              -79.983375,
+              39.323407
+            ],
+            [
+              -79.983911,
+              39.32389
+            ],
+            [
+              -79.984136,
+              39.323788
+            ],
+            [
+              -79.984973,
+              39.325265
+            ],
+            [
+              -79.984776,
+              39.325553
+            ],
+            [
+              -79.982627,
+              39.326203
+            ],
+            [
+              -79.982782,
+              39.326477
+            ],
+            [
+              -79.982483,
+              39.326582
+            ],
+            [
+              -79.981818,
+              39.326319
+            ],
+            [
+              -79.982057,
+              39.326729
+            ],
+            [
+              -79.981304,
+              39.326827
+            ],
+            [
+              -79.981975,
+              39.327965
+            ],
+            [
+              -79.985014,
+              39.326574
+            ],
+            [
+              -79.985591,
+              39.326773
+            ],
+            [
+              -79.986313,
+              39.328035
+            ],
+            [
+              -79.998663,
+              39.323712
+            ],
+            [
+              -80.000674,
+              39.327175
+            ],
+            [
+              -80.017186,
+              39.321374
+            ],
+            [
+              -80.016085,
+              39.319485
+            ],
+            [
+              -80.016864,
+              39.319158
+            ],
+            [
+              -80.016486,
+              39.318537
+            ],
+            [
+              -80.015699,
+              39.318813
+            ],
+            [
+              -80.015417,
+              39.318366
+            ],
+            [
+              -80.017783,
+              39.31754
+            ],
+            [
+              -80.017785,
+              39.317285
+            ],
+            [
+              -80.015781,
+              39.314028
+            ],
+            [
+              -80.016205,
+              39.313857
+            ],
+            [
+              -80.015689,
+              39.312952
+            ],
+            [
+              -80.015511,
+              39.312703
+            ],
+            [
+              -80.0151,
+              39.312844
+            ],
+            [
+              -80.014864,
+              39.312477
+            ],
+            [
+              -80.011807,
+              39.313547
+            ],
+            [
+              -80.011715,
+              39.313369
+            ],
+            [
+              -80.012975,
+              39.308223
+            ],
+            [
+              -80.010483,
+              39.304147
+            ],
+            [
+              -80.006469,
+              39.30367
+            ],
+            [
+              -80.00594,
+              39.302694
+            ],
+            [
+              -80.010425,
+              39.30109
+            ],
+            [
+              -80.01074,
+              39.300538
+            ],
+            [
+              -80.008321,
+              39.296021
+            ],
+            [
+              -80.01124,
+              39.294974
+            ],
+            [
+              -80.006569,
+              39.287596
+            ],
+            [
+              -79.998647,
+              39.290323
+            ],
+            [
+              -79.996512,
+              39.286651
+            ],
+            [
+              -79.985644,
+              39.290479
+            ],
+            [
+              -79.984122,
+              39.287455
+            ],
+            [
+              -79.985848,
+              39.286833
+            ],
+            [
+              -79.985383,
+              39.286461
+            ],
+            [
+              -79.972218,
+              39.291078
+            ],
+            [
+              -79.972097,
+              39.290897
+            ],
+            [
+              -79.969223,
+              39.291785
+            ],
+            [
+              -79.969538,
+              39.292329
+            ],
+            [
+              -79.969365,
+              39.292969
+            ],
+            [
+              -79.974585,
+              39.301983
+            ],
+            [
+              -79.974221,
+              39.302413
+            ],
+            [
+              -79.973796,
+              39.301182
+            ],
+            [
+              -79.967625,
+              39.290584
+            ],
+            [
+              -79.945655,
+              39.29826
+            ],
+            [
+              -79.945382,
+              39.298569
+            ],
+            [
+              -79.945045,
+              39.302458
+            ],
+            [
+              -79.944533,
+              39.302767
+            ],
+            [
+              -79.944144,
+              39.307636
+            ],
+            [
+              -79.943254,
+              39.307602
+            ],
+            [
+              -79.943378,
+              39.306619
+            ],
+            [
+              -79.942178,
+              39.306534
+            ],
+            [
+              -79.942113,
+              39.307548
+            ],
+            [
+              -79.9407,
+              39.307477
+            ],
+            [
+              -79.940339,
+              39.307792
+            ],
+            [
+              -79.940679,
+              39.30818
+            ],
+            [
+              -79.940604,
+              39.309144
+            ],
+            [
+              -79.941789,
+              39.309219
+            ],
+            [
+              -79.941881,
+              39.308244
+            ],
+            [
+              -79.942527,
+              39.308481
+            ],
+            [
+              -79.942434,
+              39.30959
+            ],
+            [
+              -79.941341,
+              39.309537
+            ],
+            [
+              -79.94151,
+              39.310423
+            ],
+            [
+              -79.942361,
+              39.310438
+            ],
+            [
+              -79.942321,
+              39.31083
+            ],
+            [
+              -79.941078,
+              39.310798
+            ],
+            [
+              -79.941001,
+              39.311938
+            ],
+            [
+              -79.942885,
+              39.312024
+            ],
+            [
+              -79.943084,
+              39.311836
+            ],
+            [
+              -79.943445,
+              39.308322
+            ],
+            [
+              -79.944081,
+              39.308351
+            ],
+            [
+              -79.943784,
+              39.311868
+            ],
+            [
+              -79.941854,
+              39.31254
+            ],
+            [
+              -79.941237,
+              39.312334
+            ],
+            [
+              -79.94017,
+              39.312508
+            ],
+            [
+              -79.940278,
+              39.312693
+            ],
+            [
+              -79.939814,
+              39.312814
+            ],
+            [
+              -79.940017,
+              39.313173
+            ],
+            [
+              -79.938703,
+              39.313594
+            ],
+            [
+              -79.93883,
+              39.313934
+            ],
+            [
+              -79.938409,
+              39.314139
+            ],
+            [
+              -79.939282,
+              39.315638
+            ],
+            [
+              -79.938979,
+              39.316164
+            ],
+            [
+              -79.93009,
+              39.320023
+            ],
+            [
+              -79.930012,
+              39.320503
+            ],
+            [
+              -79.929042,
+              39.320916
+            ],
+            [
+              -79.929454,
+              39.322109
+            ],
+            [
+              -79.928998,
+              39.322266
+            ],
+            [
+              -79.929563,
+              39.323215
+            ],
+            [
+              -79.928732,
+              39.323575
+            ],
+            [
+              -79.929118,
+              39.32415
+            ],
+            [
+              -79.930048,
+              39.324046
+            ],
+            [
+              -79.933919,
+              39.330345
+            ],
+            [
+              -79.918048,
+              39.335901
+            ],
+            [
+              -79.917116,
+              39.336107
+            ],
+            [
+              -79.916657,
+              39.335554
+            ],
+            [
+              -79.915929,
+              39.335802
+            ],
+            [
+              -79.91618,
+              39.336213
+            ],
+            [
+              -79.915246,
+              39.33649
+            ],
+            [
+              -79.915822,
+              39.337341
+            ],
+            [
+              -79.915297,
+              39.337498
+            ],
+            [
+              -79.916388,
+              39.338765
+            ],
+            [
+              -79.916494,
+              39.338335
+            ],
+            [
+              -79.916778,
+              39.338635
+            ],
+            [
+              -79.916543,
+              39.338054
+            ],
+            [
+              -79.916975,
+              39.337907
+            ],
+            [
+              -79.91734,
+              39.338518
+            ],
+            [
+              -79.917281,
+              39.338277
+            ],
+            [
+              -79.917756,
+              39.338087
+            ],
+            [
+              -79.918208,
+              39.3382
+            ],
+            [
+              -79.917603,
+              39.337688
+            ],
+            [
+              -79.919106,
+              39.337067
+            ],
+            [
+              -79.919268,
+              39.33733
+            ],
+            [
+              -79.918905,
+              39.337448
+            ],
+            [
+              -79.919157,
+              39.337821
+            ],
+            [
+              -79.919459,
+              39.337709
+            ],
+            [
+              -79.922719,
+              39.343219
+            ],
+            [
+              -79.922466,
+              39.342666
+            ],
+            [
+              -79.922989,
+              39.343104
+            ],
+            [
+              -79.922965,
+              39.342491
+            ],
+            [
+              -79.923407,
+              39.343046
+            ],
+            [
+              -79.920102,
+              39.337483
+            ],
+            [
+              -79.920422,
+              39.337355
+            ],
+            [
+              -79.920274,
+              39.337091
+            ],
+            [
+              -79.919909,
+              39.33713
+            ],
+            [
+              -79.919751,
+              39.336837
+            ],
+            [
+              -79.921303,
+              39.336298
+            ],
+            [
+              -79.921714,
+              39.337006
+            ],
+            [
+              -79.921645,
+              39.336757
+            ],
+            [
+              -79.922167,
+              39.336577
+            ],
+            [
+              -79.922615,
+              39.336703
+            ],
+            [
+              -79.921943,
+              39.336071
+            ],
+            [
+              -79.923575,
+              39.335499
+            ],
+            [
+              -79.923749,
+              39.335816
+            ],
+            [
+              -79.923478,
+              39.336008
+            ],
+            [
+              -79.923638,
+              39.336264
+            ],
+            [
+              -79.923962,
+              39.336165
+            ],
+            [
+              -79.931472,
+              39.348986
+            ],
+            [
+              -79.931837,
+              39.34905
+            ],
+            [
+              -79.932177,
+              39.348893
+            ],
+            [
+              -79.924737,
+              39.336156
+            ],
+            [
+              -79.925063,
+              39.336067
+            ],
+            [
+              -79.92492,
+              39.33582
+            ],
+            [
+              -79.924498,
+              39.335757
+            ],
+            [
+              -79.924219,
+              39.335283
+            ],
+            [
+              -79.925339,
+              39.334888
+            ],
+            [
+              -79.925993,
+              39.335774
+            ],
+            [
+              -79.925881,
+              39.335415
+            ],
+            [
+              -79.927035,
+              39.335367
+            ],
+            [
+              -79.92643,
+              39.335191
+            ],
+            [
+              -79.926094,
+              39.334621
+            ],
+            [
+              -79.926936,
+              39.334326
+            ],
+            [
+              -79.927111,
+              39.334627
+            ],
+            [
+              -79.928229,
+              39.334249
+            ],
+            [
+              -79.928023,
+              39.334605
+            ],
+            [
+              -79.92823,
+              39.334932
+            ],
+            [
+              -79.928547,
+              39.334821
+            ],
+            [
+              -79.937394,
+              39.349939
+            ],
+            [
+              -79.937671,
+              39.349733
+            ],
+            [
+              -79.937788,
+              39.349958
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1036.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "Unclear - according to https://web.archive.org/web/2/https://www.wvgs.wvnet.edu/www/coal/cbmp/coalims.html,\"Updates to the data set occur as new data becomes available.\"",
+        "notes": "The boundary is the detailed underground mining area polygon extracted from the West Virginia Geological and Economic Survey (WVGES) resource at https://web.archive.org/web/2/https://atlas.wvgs.wvnet.edu/arcgis/rest/services/Coal_Web_Mercator/All_Mining_WM/MapServer. This resource was filtered for mine_name = LEER MINE, and the resulting polygon was deholed and simplified using distance-based simplification with a tolerance of 25m. The area of this boundary is 27.9 sq km.  The mine mines the Middle Kittanning coal seam.\n\nImportant note: the following mine boundaries overlap the mine boundary and care should be taken when attempting methane source attribution: MINE NO. 1 (Upper Freeport coal seam)",
+        "description": "Leer coal mine detailed underground mining area boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1036",
+        "Owners": "ACI Tygart Valley LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Leer_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Leer Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.958242,
+          39.331326
+        ]
+      },
+      "properties": {
+        "id": "M1036.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2022-02-11 00:00:00",
+        "notes": "The shaft location is based on information found in Figure 15.7-1 Mine Infrastructure on page 87 of Technical Report Summary, Exhibit 96.1, from February 11, 2022,  https://web.archive.org/web/20250327161838/https://minedocs.com/25/Leer-Mine-TR-02112022.pdf",
+        "description": "Possible production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1036",
+        "Owners": "ACI Tygart Valley LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Leer_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Leer Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.984039,
+          39.321361
+        ]
+      },
+      "properties": {
+        "id": "M1036.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-02-11 00:00:00",
+        "notes": "The shaft location is based on information found in Figure 15.7-1 Mine Infrastructure on page 87 of Technical Report Summary, Exhibit 96.1, from February 11, 2022,  https://web.archive.org/web/20250327161838/https://minedocs.com/25/Leer-Mine-TR-02112022.pdf",
+        "description": "Sharp bleeder shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1036",
+        "Owners": "ACI Tygart Valley LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Leer_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Leer Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.974491,
+          39.302813
+        ]
+      },
+      "properties": {
+        "id": "M1036.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-02-11 00:00:00",
+        "notes": "The shaft location is based on information found in Figure 15.7-1 Mine Infrastructure on page 87 of Technical Report Summary, Exhibit 96.1, from February 11, 2022,  https://web.archive.org/web/20250327161838/https://minedocs.com/25/Leer-Mine-TR-02112022.pdf",
+        "description": "Hardesty intake shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1036",
+        "Owners": "ACI Tygart Valley LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Leer_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Leer Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.928869,
+          39.323841
+        ]
+      },
+      "properties": {
+        "id": "M1036.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-02-11 00:00:00",
+        "notes": "The shaft location is based on information found in Figure 15.7-1 Mine Infrastructure on page 87 of Technical Report Summary, Exhibit 96.1, from February 11, 2022,  https://web.archive.org/web/20250327161838/https://minedocs.com/25/Leer-Mine-TR-02112022.pdf",
+        "description": "District 5 bleeder shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1036",
+        "Owners": "ACI Tygart Valley LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Leer_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Leer Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.964111,
+          39.330698
+        ]
+      },
+      "properties": {
+        "id": "M1036.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-02-11 00:00:00",
+        "notes": "The shaft location is based on information found in Figure 15.7-1 Mine Infrastructure on page 87 of Technical Report Summary, Exhibit 96.1, from February 11, 2022,  https://web.archive.org/web/20250327161838/https://minedocs.com/25/Leer-Mine-TR-02112022.pdf",
+        "description": "Intake air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1036",
+        "Owners": "ACI Tygart Valley LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Leer_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Leer Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.962803,
+          39.331147
+        ]
+      },
+      "properties": {
+        "id": "M1036.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-02-11 00:00:00",
+        "notes": "The shaft location is based on information found in Figure 15.7-1 Mine Infrastructure on page 87 of Technical Report Summary, Exhibit 96.1, from February 11, 2022,  https://web.archive.org/web/20250327161838/https://minedocs.com/25/Leer-Mine-TR-02112022.pdf",
+        "description": "possible Return air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1036",
+        "Owners": "ACI Tygart Valley LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Leer_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Leer Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.927278,
+          39.334556
+        ]
+      },
+      "properties": {
+        "id": "M1036.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "4/2023 - 8/2023",
+        "notes": "Identified visually from Bing Maps satellite imagery.",
+        "description": "possible ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1036",
+        "Owners": "ACI Tygart Valley LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Leer_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Leer Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.956027,
+          39.336958
+        ]
+      },
+      "properties": {
+        "id": "M1036.P8",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "4/2023 - 8/2023",
+        "notes": "Identified visually from Bing Maps satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1036",
+        "Owners": "ACI Tygart Valley LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Leer_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Leer Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

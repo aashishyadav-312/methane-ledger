@@ -1,0 +1,529 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.552405,
+              37.756819
+            ],
+            [
+              -81.553006,
+              37.757093
+            ],
+            [
+              -81.553139,
+              37.756853
+            ],
+            [
+              -81.553428,
+              37.756988
+            ],
+            [
+              -81.553263,
+              37.756723
+            ],
+            [
+              -81.553637,
+              37.756963
+            ],
+            [
+              -81.553707,
+              37.756921
+            ],
+            [
+              -81.553597,
+              37.756824
+            ],
+            [
+              -81.553721,
+              37.75671
+            ],
+            [
+              -81.553965,
+              37.756819
+            ],
+            [
+              -81.553995,
+              37.756462
+            ],
+            [
+              -81.554265,
+              37.756705
+            ],
+            [
+              -81.553594,
+              37.755839
+            ],
+            [
+              -81.549034,
+              37.752591
+            ],
+            [
+              -81.549349,
+              37.751684
+            ],
+            [
+              -81.54945,
+              37.75203
+            ],
+            [
+              -81.551147,
+              37.753199
+            ],
+            [
+              -81.552083,
+              37.752077
+            ],
+            [
+              -81.553818,
+              37.750829
+            ],
+            [
+              -81.557037,
+              37.753117
+            ],
+            [
+              -81.557192,
+              37.752976
+            ],
+            [
+              -81.557851,
+              37.753408
+            ],
+            [
+              -81.558927,
+              37.752134
+            ],
+            [
+              -81.558131,
+              37.751568
+            ],
+            [
+              -81.558213,
+              37.751199
+            ],
+            [
+              -81.559216,
+              37.750297
+            ],
+            [
+              -81.558438,
+              37.74974
+            ],
+            [
+              -81.558509,
+              37.749266
+            ],
+            [
+              -81.554899,
+              37.746711
+            ],
+            [
+              -81.555258,
+              37.746414
+            ],
+            [
+              -81.557064,
+              37.747862
+            ],
+            [
+              -81.557955,
+              37.747349
+            ],
+            [
+              -81.558294,
+              37.746569
+            ],
+            [
+              -81.560764,
+              37.748076
+            ],
+            [
+              -81.561636,
+              37.747332
+            ],
+            [
+              -81.56136,
+              37.747136
+            ],
+            [
+              -81.561665,
+              37.746874
+            ],
+            [
+              -81.559538,
+              37.745356
+            ],
+            [
+              -81.558713,
+              37.745258
+            ],
+            [
+              -81.55826,
+              37.744933
+            ],
+            [
+              -81.558562,
+              37.744668
+            ],
+            [
+              -81.557819,
+              37.744121
+            ],
+            [
+              -81.56186,
+              37.740543
+            ],
+            [
+              -81.561665,
+              37.740414
+            ],
+            [
+              -81.562365,
+              37.73981
+            ],
+            [
+              -81.562317,
+              37.738997
+            ],
+            [
+              -81.561941,
+              37.738721
+            ],
+            [
+              -81.561258,
+              37.73878
+            ],
+            [
+              -81.55763,
+              37.736199
+            ],
+            [
+              -81.55866,
+              37.735197
+            ],
+            [
+              -81.55814,
+              37.735086
+            ],
+            [
+              -81.558398,
+              37.734572
+            ],
+            [
+              -81.558017,
+              37.734622
+            ],
+            [
+              -81.558171,
+              37.734404
+            ],
+            [
+              -81.557966,
+              37.734586
+            ],
+            [
+              -81.557675,
+              37.734379
+            ],
+            [
+              -81.557554,
+              37.734662
+            ],
+            [
+              -81.557423,
+              37.734569
+            ],
+            [
+              -81.557654,
+              37.734364
+            ],
+            [
+              -81.557121,
+              37.734354
+            ],
+            [
+              -81.556971,
+              37.734615
+            ],
+            [
+              -81.557075,
+              37.734235
+            ],
+            [
+              -81.554755,
+              37.736284
+            ],
+            [
+              -81.559903,
+              37.73995
+            ],
+            [
+              -81.559436,
+              37.739952
+            ],
+            [
+              -81.558556,
+              37.74069
+            ],
+            [
+              -81.558266,
+              37.740992
+            ],
+            [
+              -81.55854,
+              37.741173
+            ],
+            [
+              -81.555522,
+              37.743559
+            ],
+            [
+              -81.55569,
+              37.743679
+            ],
+            [
+              -81.552564,
+              37.746447
+            ],
+            [
+              -81.552754,
+              37.746571
+            ],
+            [
+              -81.550666,
+              37.748131
+            ],
+            [
+              -81.548063,
+              37.750716
+            ],
+            [
+              -81.547186,
+              37.75128
+            ],
+            [
+              -81.546315,
+              37.750685
+            ],
+            [
+              -81.54571,
+              37.751225
+            ],
+            [
+              -81.545344,
+              37.751167
+            ],
+            [
+              -81.54549,
+              37.7514
+            ],
+            [
+              -81.545035,
+              37.75181
+            ],
+            [
+              -81.546738,
+              37.753045
+            ],
+            [
+              -81.546587,
+              37.753261
+            ],
+            [
+              -81.547218,
+              37.753737
+            ],
+            [
+              -81.547444,
+              37.753536
+            ],
+            [
+              -81.552109,
+              37.756855
+            ],
+            [
+              -81.552405,
+              37.756819
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M3466.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "Unclear - according to https://web.archive.org/web/2/https://www.wvgs.wvnet.edu/www/coal/cbmp/coalims.html, \"Updates to the data set occur as new data becomes available.\"'",
+        "notes": "This boundary was extracted from the West Virginia Geological and Economic Survey (WVGES) resource at https://web.archive.org/web/2/https://atlas.wvgs.wvnet.edu/arcgis/rest/services/Coal_Web_Mercator/All_Mining_WM/MapServer. This resource was filtered for \"mine_name\" = 'FLYING EAGLE MINE'  AND  \"company_name\" = 'ROCKWELL MINING' and simplified using distance-based simplification with a tolerance of 25m. The area of this boundary is 1.1 sq km. Satellite imagery for the area including this boundary was scanned for PPSEs - no additional ones were found. The mine mines the Eagle coal seam. \n\nImportant note: the following mine boundaries overlap the mine boundary and care should be taken when attempting methane source attribution: KOPPERSTON NO 2 mine (Number_2_Gas seam), KOPPERSTON TUNNEL (Eagle_A seam).",
+        "description": "Flying Eagle Mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3466",
+        "Owners": "Rockwell Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sev.en Global Investments AS [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Flying_Eagle_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Flying Eagle Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.553841,
+          37.757037
+        ]
+      },
+      "properties": {
+        "id": "M3466.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible coal mine production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3466",
+        "Owners": "Rockwell Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sev.en Global Investments AS [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Flying_Eagle_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Flying Eagle Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.55353,
+          37.757067
+        ]
+      },
+      "properties": {
+        "id": "M3466.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible shaft or entrance",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3466",
+        "Owners": "Rockwell Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sev.en Global Investments AS [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Flying_Eagle_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Flying Eagle Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.553167,
+          37.757148
+        ]
+      },
+      "properties": {
+        "id": "M3466.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible shaft or entrance",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3466",
+        "Owners": "Rockwell Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sev.en Global Investments AS [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Flying_Eagle_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Flying Eagle Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.552832,
+          37.757161
+        ]
+      },
+      "properties": {
+        "id": "M3466.P4",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible shaft or entrance",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3466",
+        "Owners": "Rockwell Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sev.en Global Investments AS [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Flying_Eagle_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Flying Eagle Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.554072,
+          37.75689
+        ]
+      },
+      "properties": {
+        "id": "M3466.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3466",
+        "Owners": "Rockwell Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sev.en Global Investments AS [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Flying_Eagle_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Flying Eagle Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 10, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

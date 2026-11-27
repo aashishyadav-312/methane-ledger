@@ -1,0 +1,355 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              115.956528,
+              35.278215
+            ],
+            [
+              115.956177,
+              35.284155
+            ],
+            [
+              115.955119,
+              35.290038
+            ],
+            [
+              115.953361,
+              35.295808
+            ],
+            [
+              115.950922,
+              35.301409
+            ],
+            [
+              115.947825,
+              35.306786
+            ],
+            [
+              115.944099,
+              35.311889
+            ],
+            [
+              115.939781,
+              35.316667
+            ],
+            [
+              115.934911,
+              35.321076
+            ],
+            [
+              115.929537,
+              35.325072
+            ],
+            [
+              115.923711,
+              35.328616
+            ],
+            [
+              115.917488,
+              35.331675
+            ],
+            [
+              115.910929,
+              35.33422
+            ],
+            [
+              115.904097,
+              35.336225
+            ],
+            [
+              115.897057,
+              35.337671
+            ],
+            [
+              115.889879,
+              35.338544
+            ],
+            [
+              115.88263,
+              35.338836
+            ],
+            [
+              115.875381,
+              35.338544
+            ],
+            [
+              115.868203,
+              35.337671
+            ],
+            [
+              115.861163,
+              35.336225
+            ],
+            [
+              115.854331,
+              35.33422
+            ],
+            [
+              115.847772,
+              35.331675
+            ],
+            [
+              115.841549,
+              35.328616
+            ],
+            [
+              115.835723,
+              35.325072
+            ],
+            [
+              115.830349,
+              35.321076
+            ],
+            [
+              115.825479,
+              35.316667
+            ],
+            [
+              115.821161,
+              35.311889
+            ],
+            [
+              115.817435,
+              35.306786
+            ],
+            [
+              115.814338,
+              35.301409
+            ],
+            [
+              115.811899,
+              35.295808
+            ],
+            [
+              115.810141,
+              35.290038
+            ],
+            [
+              115.809083,
+              35.284155
+            ],
+            [
+              115.808732,
+              35.278215
+            ],
+            [
+              115.809093,
+              35.272276
+            ],
+            [
+              115.810163,
+              35.266394
+            ],
+            [
+              115.811929,
+              35.260627
+            ],
+            [
+              115.814377,
+              35.255029
+            ],
+            [
+              115.817481,
+              35.249655
+            ],
+            [
+              115.821212,
+              35.244556
+            ],
+            [
+              115.825533,
+              35.239781
+            ],
+            [
+              115.830404,
+              35.235377
+            ],
+            [
+              115.835777,
+              35.231386
+            ],
+            [
+              115.8416,
+              35.227845
+            ],
+            [
+              115.847818,
+              35.22479
+            ],
+            [
+              115.85437,
+              35.222249
+            ],
+            [
+              115.861194,
+              35.220247
+            ],
+            [
+              115.868224,
+              35.218803
+            ],
+            [
+              115.875392,
+              35.217931
+            ],
+            [
+              115.88263,
+              35.21764
+            ],
+            [
+              115.889868,
+              35.217931
+            ],
+            [
+              115.897036,
+              35.218803
+            ],
+            [
+              115.904066,
+              35.220247
+            ],
+            [
+              115.91089,
+              35.222249
+            ],
+            [
+              115.917442,
+              35.22479
+            ],
+            [
+              115.92366,
+              35.227845
+            ],
+            [
+              115.929483,
+              35.231386
+            ],
+            [
+              115.934856,
+              35.235377
+            ],
+            [
+              115.939727,
+              35.239781
+            ],
+            [
+              115.944048,
+              35.244556
+            ],
+            [
+              115.947779,
+              35.249655
+            ],
+            [
+              115.950883,
+              35.255029
+            ],
+            [
+              115.953331,
+              35.260627
+            ],
+            [
+              115.955097,
+              35.266394
+            ],
+            [
+              115.956167,
+              35.272276
+            ],
+            [
+              115.956528,
+              35.278215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0394.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-09-15 00:00:00",
+        "notes": "An accurate mine boundary could not be found. There is a good correlation between the area of Chinese underground mine boundaries and the 'Mine Size (Km2)' area found in the GEM Global Coal Mine Tracker May 2025 (GCMT) database (R-squared=0.68). A circular boundary with the area from the GCMT for this mine was created as an estimated boundary.",
+        "description": "Estimated Xinjulong coal mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M0394",
+        "Owners": "Shandong Xinjulong Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shandong Xinkuang Investment Holding Group [70%]; Shandong Energy Group [20%]; Juye Liwei Investment Company [10%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Xinjulong_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E4%B8%9C%E6%96%B0%E5%B7%A8%E9%BE%99%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%96%B0%E5%B7%A8%E9%BE%99%E7%85%A4%E7%9F%BF%EF%BC%88%E9%BE%99%E5%A0%8C%E7%9F%BF%E4%BA%95%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Xinjulong Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.886976,
+          35.320554
+        ]
+      },
+      "properties": {
+        "id": "M0394.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-09-22 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible Gas Drainage Station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0394",
+        "Owners": "Shandong Xinjulong Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shandong Xinkuang Investment Holding Group [70%]; Shandong Energy Group [20%]; Juye Liwei Investment Company [10%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Xinjulong_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E4%B8%9C%E6%96%B0%E5%B7%A8%E9%BE%99%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%96%B0%E5%B7%A8%E9%BE%99%E7%85%A4%E7%9F%BF%EF%BC%88%E9%BE%99%E5%A0%8C%E7%9F%BF%E4%BA%95%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Xinjulong Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.861134,
+          35.323092
+        ]
+      },
+      "properties": {
+        "id": "M0394.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-09-22 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0394",
+        "Owners": "Shandong Xinjulong Energy [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shandong Xinkuang Investment Holding Group [70%]; Shandong Energy Group [20%]; Juye Liwei Investment Company [10%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Xinjulong_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E4%B8%9C%E6%96%B0%E5%B7%A8%E9%BE%99%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%96%B0%E5%B7%A8%E9%BE%99%E7%85%A4%E7%9F%BF%EF%BC%88%E9%BE%99%E5%A0%8C%E7%9F%BF%E4%BA%95%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Xinjulong Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

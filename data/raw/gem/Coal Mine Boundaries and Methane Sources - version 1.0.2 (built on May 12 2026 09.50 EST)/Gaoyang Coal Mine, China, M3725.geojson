@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              111.600582,
+              37.159061
+            ],
+            [
+              111.600725,
+              37.134964
+            ],
+            [
+              111.611619,
+              37.131396
+            ],
+            [
+              111.620715,
+              37.131503
+            ],
+            [
+              111.625839,
+              37.129973
+            ],
+            [
+              111.629042,
+              37.129668
+            ],
+            [
+              111.645177,
+              37.10486
+            ],
+            [
+              111.645048,
+              37.098426
+            ],
+            [
+              111.649018,
+              37.102512
+            ],
+            [
+              111.654779,
+              37.103228
+            ],
+            [
+              111.660669,
+              37.108028
+            ],
+            [
+              111.668736,
+              37.114869
+            ],
+            [
+              111.685384,
+              37.128241
+            ],
+            [
+              111.688716,
+              37.134365
+            ],
+            [
+              111.688718,
+              37.140388
+            ],
+            [
+              111.697307,
+              37.157942
+            ],
+            [
+              111.698469,
+              37.173355
+            ],
+            [
+              111.672722,
+              37.184285
+            ],
+            [
+              111.662855,
+              37.179999
+            ],
+            [
+              111.636964,
+              37.192864
+            ],
+            [
+              111.630298,
+              37.193273
+            ],
+            [
+              111.600582,
+              37.159061
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M3725.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2023-03-20 00:00:00",
+        "notes": "Estimated boundary based on the map in Table 4-2 on page 33 from the source Research on the Assessment and Treatment of the Mine Geological Environment in Gaoyang Coal Mine (\u9ad8\u9633\u7164\u77ff\u77ff\u5c71\u5730\u8d28\u73af\u5883\u8bc4\u4ef7\u4e0e\u6cbb\u7406\u7814\u7a76) https://web.archive.org/web/20250815053216/https://www.doc88.com/p-70787921415511.html. Note that due to challenges with georeferencing using the information in the figures in this document, the boundary precision is marked as estimated.",
+        "description": "Gaoyang Coal Mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M3725",
+        "Owners": "Shanxi Fenxi Mining Industry \uff08Group\uff09 Company Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi State-Owned Capital Investment and Operation Company",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Gaoyang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%B1%BE%E8%A5%BF%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E9%98%B3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaoyang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.672616,
+          37.136543
+        ]
+      },
+      "properties": {
+        "id": "M3725.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-20 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Vent No.1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3725",
+        "Owners": "Shanxi Fenxi Mining Industry \uff08Group\uff09 Company Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi State-Owned Capital Investment and Operation Company",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Gaoyang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%B1%BE%E8%A5%BF%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E9%98%B3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaoyang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.624837,
+          37.166605
+        ]
+      },
+      "properties": {
+        "id": "M3725.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-20 00:00:00",
+        "notes": "The vent is refered to in Public Notice for Comment on the Regulatory Detailed Planning of Parcel XB-JP-01 in Xiabao Town, Xiaoyi City (Jiaopan Ventilation Shaft, Gaoyang Coal Mine) (\u5b5d\u4e49\u5e02\u4e0b\u5821\u9547XB-JP-01\u53f7\u5730\u5757\uff08\u9ad8\u9633\u7164\u77ff\u89d2\u76d8\u98ce\u4e95\uff09\u63a7\u5236\u6027\u8be6\u7ec6\u89c4\u5212\u6279\u524d\u516c\u793a),  https://web.archive.org/web/20250904184422/http://www.xiaoyi.gov.cn/xxgk/fdzdgknr/jhgh/202411/t20241108_1909346.shtml. The location was identified visually from Google Earth Pro satellite imagery. ",
+        "description": "Vent No.2(Jiaopan Village)",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3725",
+        "Owners": "Shanxi Fenxi Mining Industry \uff08Group\uff09 Company Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi State-Owned Capital Investment and Operation Company",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Gaoyang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%B1%BE%E8%A5%BF%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E9%98%B3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaoyang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.632408,
+          37.126161
+        ]
+      },
+      "properties": {
+        "id": "M3725.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-20 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Vent No.3",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3725",
+        "Owners": "Shanxi Fenxi Mining Industry \uff08Group\uff09 Company Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi State-Owned Capital Investment and Operation Company",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Gaoyang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%B1%BE%E8%A5%BF%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E9%98%B3%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaoyang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

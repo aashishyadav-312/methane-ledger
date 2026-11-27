@@ -1,0 +1,353 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.916857,
+              -34.204901
+            ],
+            [
+              150.914864,
+              -34.211768
+            ],
+            [
+              150.914976,
+              -34.221303
+            ],
+            [
+              150.922665,
+              -34.221408
+            ],
+            [
+              150.922675,
+              -34.212592
+            ],
+            [
+              150.92367,
+              -34.209517
+            ],
+            [
+              150.92714,
+              -34.210543
+            ],
+            [
+              150.925768,
+              -34.218334
+            ],
+            [
+              150.9575,
+              -34.222752
+            ],
+            [
+              150.958246,
+              -34.218959
+            ],
+            [
+              150.964815,
+              -34.219165
+            ],
+            [
+              150.965312,
+              -34.217833
+            ],
+            [
+              150.987992,
+              -34.221322
+            ],
+            [
+              150.991339,
+              -34.203385
+            ],
+            [
+              150.993322,
+              -34.203385
+            ],
+            [
+              150.994437,
+              -34.197544
+            ],
+            [
+              151.001376,
+              -34.198364
+            ],
+            [
+              151.002119,
+              -34.194982
+            ],
+            [
+              151.009553,
+              -34.196109
+            ],
+            [
+              151.008935,
+              -34.200311
+            ],
+            [
+              151.016371,
+              -34.201335
+            ],
+            [
+              151.019216,
+              -34.187294
+            ],
+            [
+              151.024545,
+              -34.187805
+            ],
+            [
+              151.026401,
+              -34.178684
+            ],
+            [
+              151.033712,
+              -34.179399
+            ],
+            [
+              151.035195,
+              -34.169354
+            ],
+            [
+              151.016238,
+              -34.166388
+            ],
+            [
+              151.01438,
+              -34.163416
+            ],
+            [
+              151.016485,
+              -34.160751
+            ],
+            [
+              151.016113,
+              -34.159623
+            ],
+            [
+              151.019582,
+              -34.156342
+            ],
+            [
+              151.020573,
+              -34.15706
+            ],
+            [
+              151.022183,
+              -34.155624
+            ],
+            [
+              151.01376,
+              -34.154192
+            ],
+            [
+              150.99122,
+              -34.145994
+            ],
+            [
+              150.990229,
+              -34.146917
+            ],
+            [
+              150.990104,
+              -34.150504
+            ],
+            [
+              150.987751,
+              -34.152247
+            ],
+            [
+              150.987875,
+              -34.153887
+            ],
+            [
+              150.985646,
+              -34.154706
+            ],
+            [
+              150.982054,
+              -34.156756
+            ],
+            [
+              150.980196,
+              -34.156756
+            ],
+            [
+              150.976605,
+              -34.156653
+            ],
+            [
+              150.972394,
+              -34.157779
+            ],
+            [
+              150.970784,
+              -34.157164
+            ],
+            [
+              150.967813,
+              -34.153371
+            ],
+            [
+              150.966947,
+              -34.151321
+            ],
+            [
+              150.960261,
+              -34.147014
+            ],
+            [
+              150.960261,
+              -34.145886
+            ],
+            [
+              150.958404,
+              -34.144758
+            ],
+            [
+              150.957661,
+              -34.145885
+            ],
+            [
+              150.954689,
+              -34.145167
+            ],
+            [
+              150.954194,
+              -34.142501
+            ],
+            [
+              150.948622,
+              -34.139936
+            ],
+            [
+              150.92655,
+              -34.178052
+            ],
+            [
+              150.909546,
+              -34.200694
+            ],
+            [
+              150.916857,
+              -34.204901
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1345.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2022-03-31 00:00:00",
+        "notes": "The mining leases for the mine are listed in Table 1 on page 1 of the Metropolitan Coal 2022 Annual Review, https://web.archive.org/web/20240809012200/https://www.peabodyenergy.com/Peabody/media/MediaLibrary/Operations/Australia%20Mining/New%20South%20Wales%20Mining/Metropolitan%20Mine/Metropolitan-Coal-2022-Annual-Review.pdf, March 31 2023. The mining lease boundary is shown in Figure 1 on the 151st page. The extracted boundary includes mining leases ML1610, ML1702, CCL703, MPL320, and CL379, and excludes the exploration license 9364. The area of the boundary is 63 square kilometers.",
+        "description": "Metropolitan mine boundary ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1345",
+        "Owners": "Metropolitan Collieries Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Metropolitan_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Metropolitan Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 20, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.992538,
+          -34.187232
+        ]
+      },
+      "properties": {
+        "id": "M1345.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "March 29 2019 and Dec 28 2021 (satellite)",
+        "notes": "Figure 2 on the 156th page of the METROPOLITAN COAL 2018 ANNUAL REVIEW , https://web.archive.org/web/20240809012349/https://www.peabodyenergy.com/Peabody/media/MediaLibrary/Operations/Australia%20Mining/New%20South%20Wales%20Mining/Metropolitan%20Mine/1-Metropolitan-Coal-2018-Annual-Review_1.pdf, March 29, 2019, shows locations of ventilation shafts no. 1 (disused) and 2. Visually checked against Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft number 1 (disused)",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1345",
+        "Owners": "Metropolitan Collieries Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Metropolitan_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Metropolitan Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 20, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.991954,
+          -34.188646
+        ]
+      },
+      "properties": {
+        "id": "M1345.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "March 29 2019 and Dec 28 2021 (satellite)",
+        "notes": "Figure 2 on the 156th page of the METROPOLITAN COAL 2018 ANNUAL REVIEW , https://web.archive.org/web/20240809012349/https://www.peabodyenergy.com/Peabody/media/MediaLibrary/Operations/Australia%20Mining/New%20South%20Wales%20Mining/Metropolitan%20Mine/1-Metropolitan-Coal-2018-Annual-Review_1.pdf, March 29, 2019, shows locations of ventilation shafts no. 1 (disused) and 2. Visually checked against Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft number 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1345",
+        "Owners": "Metropolitan Collieries Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Metropolitan_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Metropolitan Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 20, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.963668,
+          -34.202354
+        ]
+      },
+      "properties": {
+        "id": "M1345.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "March 31 2022 and April 30 2023 (satellite)",
+        "notes": "Figure 1 Metropolitan Coal Longwall Layout on the 151st page of the Metropolitan Coal 2022 Annual Review, https://web.archive.org/web/20240809012200/https://www.peabodyenergy.com/Peabody/media/MediaLibrary/Operations/Australia%20Mining/New%20South%20Wales%20Mining/Metropolitan%20Mine/Metropolitan-Coal-2022-Annual-Review.pdf, March 31 2023, shows the location of ventilation shaft 3. Visually checked against Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft number 3",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1345",
+        "Owners": "Metropolitan Collieries Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Metropolitan_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Metropolitan Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Mar 20, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

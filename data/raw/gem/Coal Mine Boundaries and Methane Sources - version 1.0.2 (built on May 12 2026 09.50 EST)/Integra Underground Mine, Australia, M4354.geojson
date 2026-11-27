@@ -1,0 +1,1437 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.12974,
+              -32.468711
+            ],
+            [
+              151.128969,
+              -32.469697
+            ],
+            [
+              151.128954,
+              -32.470842
+            ],
+            [
+              151.130426,
+              -32.472046
+            ],
+            [
+              151.131094,
+              -32.472869
+            ],
+            [
+              151.138522,
+              -32.47147
+            ],
+            [
+              151.138931,
+              -32.465206
+            ],
+            [
+              151.129937,
+              -32.460738
+            ],
+            [
+              151.131263,
+              -32.4599
+            ],
+            [
+              151.131066,
+              -32.459852
+            ],
+            [
+              151.127852,
+              -32.459061
+            ],
+            [
+              151.12764,
+              -32.459493
+            ],
+            [
+              151.127484,
+              -32.460247
+            ],
+            [
+              151.127359,
+              -32.460231
+            ],
+            [
+              151.125713,
+              -32.458435
+            ],
+            [
+              151.125897,
+              -32.458365
+            ],
+            [
+              151.126219,
+              -32.458213
+            ],
+            [
+              151.126635,
+              -32.458002
+            ],
+            [
+              151.126832,
+              -32.45789
+            ],
+            [
+              151.126895,
+              -32.457834
+            ],
+            [
+              151.126896,
+              -32.457819
+            ],
+            [
+              151.126962,
+              -32.457677
+            ],
+            [
+              151.12703,
+              -32.457391
+            ],
+            [
+              151.127097,
+              -32.45716
+            ],
+            [
+              151.127141,
+              -32.456892
+            ],
+            [
+              151.127213,
+              -32.456666
+            ],
+            [
+              151.127303,
+              -32.456305
+            ],
+            [
+              151.127476,
+              -32.455596
+            ],
+            [
+              151.127643,
+              -32.455103
+            ],
+            [
+              151.127776,
+              -32.454833
+            ],
+            [
+              151.127927,
+              -32.454726
+            ],
+            [
+              151.12813,
+              -32.454582
+            ],
+            [
+              151.128529,
+              -32.454316
+            ],
+            [
+              151.128809,
+              -32.453958
+            ],
+            [
+              151.128816,
+              -32.45396
+            ],
+            [
+              151.128983,
+              -32.453763
+            ],
+            [
+              151.129186,
+              -32.453563
+            ],
+            [
+              151.129492,
+              -32.453395
+            ],
+            [
+              151.129666,
+              -32.453253
+            ],
+            [
+              151.129908,
+              -32.452964
+            ],
+            [
+              151.125302,
+              -32.449504
+            ],
+            [
+              151.127875,
+              -32.442555
+            ],
+            [
+              151.123506,
+              -32.435091
+            ],
+            [
+              151.119702,
+              -32.425965
+            ],
+            [
+              151.110947,
+              -32.418363
+            ],
+            [
+              151.11101,
+              -32.415324
+            ],
+            [
+              151.10948,
+              -32.415343
+            ],
+            [
+              151.107604,
+              -32.415056
+            ],
+            [
+              151.107935,
+              -32.413268
+            ],
+            [
+              151.107766,
+              -32.413245
+            ],
+            [
+              151.103781,
+              -32.409263
+            ],
+            [
+              151.103788,
+              -32.409221
+            ],
+            [
+              151.100306,
+              -32.404697
+            ],
+            [
+              151.096196,
+              -32.404143
+            ],
+            [
+              151.094678,
+              -32.403939
+            ],
+            [
+              151.094948,
+              -32.40247
+            ],
+            [
+              151.092584,
+              -32.402188
+            ],
+            [
+              151.090553,
+              -32.401945
+            ],
+            [
+              151.091094,
+              -32.398726
+            ],
+            [
+              151.088456,
+              -32.398378
+            ],
+            [
+              151.088305,
+              -32.398354
+            ],
+            [
+              151.087464,
+              -32.402966
+            ],
+            [
+              151.086436,
+              -32.408609
+            ],
+            [
+              151.086092,
+              -32.410495
+            ],
+            [
+              151.082479,
+              -32.412538
+            ],
+            [
+              151.080878,
+              -32.4139
+            ],
+            [
+              151.080999,
+              -32.415541
+            ],
+            [
+              151.084326,
+              -32.420188
+            ],
+            [
+              151.08402,
+              -32.421866
+            ],
+            [
+              151.082941,
+              -32.427167
+            ],
+            [
+              151.083935,
+              -32.426477
+            ],
+            [
+              151.084637,
+              -32.42636
+            ],
+            [
+              151.084617,
+              -32.43028
+            ],
+            [
+              151.084617,
+              -32.430332
+            ],
+            [
+              151.084478,
+              -32.435131
+            ],
+            [
+              151.084478,
+              -32.440466
+            ],
+            [
+              151.09353,
+              -32.457355
+            ],
+            [
+              151.09352,
+              -32.457355
+            ],
+            [
+              151.093234,
+              -32.457345
+            ],
+            [
+              151.092132,
+              -32.457329
+            ],
+            [
+              151.091078,
+              -32.457351
+            ],
+            [
+              151.090752,
+              -32.457366
+            ],
+            [
+              151.09004,
+              -32.457409
+            ],
+            [
+              151.089618,
+              -32.457443
+            ],
+            [
+              151.089309,
+              -32.457472
+            ],
+            [
+              151.089048,
+              -32.457497
+            ],
+            [
+              151.088553,
+              -32.457553
+            ],
+            [
+              151.088498,
+              -32.457564
+            ],
+            [
+              151.087631,
+              -32.457727
+            ],
+            [
+              151.087634,
+              -32.457738
+            ],
+            [
+              151.087639,
+              -32.457754
+            ],
+            [
+              151.087686,
+              -32.457897
+            ],
+            [
+              151.08774,
+              -32.458063
+            ],
+            [
+              151.088267,
+              -32.457964
+            ],
+            [
+              151.088424,
+              -32.457944
+            ],
+            [
+              151.088749,
+              -32.457903
+            ],
+            [
+              151.089231,
+              -32.45785
+            ],
+            [
+              151.089544,
+              -32.45782
+            ],
+            [
+              151.089715,
+              -32.457804
+            ],
+            [
+              151.090199,
+              -32.457767
+            ],
+            [
+              151.091007,
+              -32.457723
+            ],
+            [
+              151.091169,
+              -32.457716
+            ],
+            [
+              151.091654,
+              -32.457702
+            ],
+            [
+              151.09214,
+              -32.457696
+            ],
+            [
+              151.092626,
+              -32.457698
+            ],
+            [
+              151.093164,
+              -32.45771
+            ],
+            [
+              151.093485,
+              -32.457722
+            ],
+            [
+              151.093596,
+              -32.457726
+            ],
+            [
+              151.094081,
+              -32.457752
+            ],
+            [
+              151.094566,
+              -32.457786
+            ],
+            [
+              151.094946,
+              -32.457819
+            ],
+            [
+              151.09505,
+              -32.457828
+            ],
+            [
+              151.095533,
+              -32.457878
+            ],
+            [
+              151.096015,
+              -32.457935
+            ],
+            [
+              151.096496,
+              -32.458001
+            ],
+            [
+              151.096976,
+              -32.458074
+            ],
+            [
+              151.097455,
+              -32.458156
+            ],
+            [
+              151.097933,
+              -32.458245
+            ],
+            [
+              151.098408,
+              -32.458341
+            ],
+            [
+              151.098883,
+              -32.458446
+            ],
+            [
+              151.099355,
+              -32.458558
+            ],
+            [
+              151.099826,
+              -32.458678
+            ],
+            [
+              151.100294,
+              -32.458806
+            ],
+            [
+              151.100761,
+              -32.458941
+            ],
+            [
+              151.101225,
+              -32.459084
+            ],
+            [
+              151.101687,
+              -32.459235
+            ],
+            [
+              151.102146,
+              -32.459393
+            ],
+            [
+              151.102602,
+              -32.459559
+            ],
+            [
+              151.103056,
+              -32.459732
+            ],
+            [
+              151.103507,
+              -32.459912
+            ],
+            [
+              151.103955,
+              -32.4601
+            ],
+            [
+              151.1044,
+              -32.460295
+            ],
+            [
+              151.104841,
+              -32.460497
+            ],
+            [
+              151.105279,
+              -32.460707
+            ],
+            [
+              151.105714,
+              -32.460923
+            ],
+            [
+              151.106145,
+              -32.461147
+            ],
+            [
+              151.106572,
+              -32.461378
+            ],
+            [
+              151.106687,
+              -32.461584
+            ],
+            [
+              151.107277,
+              -32.461307
+            ],
+            [
+              151.113446,
+              -32.464267
+            ],
+            [
+              151.1135,
+              -32.464145
+            ],
+            [
+              151.115367,
+              -32.465048
+            ],
+            [
+              151.11554,
+              -32.465087
+            ],
+            [
+              151.11563,
+              -32.465087
+            ],
+            [
+              151.117309,
+              -32.465087
+            ],
+            [
+              151.117462,
+              -32.465087
+            ],
+            [
+              151.12038,
+              -32.466582
+            ],
+            [
+              151.127404,
+              -32.47085
+            ],
+            [
+              151.127456,
+              -32.470795
+            ],
+            [
+              151.127532,
+              -32.470715
+            ],
+            [
+              151.127574,
+              -32.470671
+            ],
+            [
+              151.127411,
+              -32.469879
+            ],
+            [
+              151.127978,
+              -32.469148
+            ],
+            [
+              151.12814,
+              -32.468939
+            ],
+            [
+              151.128197,
+              -32.46888
+            ],
+            [
+              151.12826,
+              -32.468822
+            ],
+            [
+              151.128312,
+              -32.468779
+            ],
+            [
+              151.128368,
+              -32.468738
+            ],
+            [
+              151.128425,
+              -32.468699
+            ],
+            [
+              151.128483,
+              -32.468662
+            ],
+            [
+              151.128541,
+              -32.468625
+            ],
+            [
+              151.128566,
+              -32.468611
+            ],
+            [
+              151.12974,
+              -32.468711
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M4354.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2024-03-21 00:00:00",
+        "notes": "The boundary is CL382_GDA2020 as shown in Figure 2-2 Site Layout on page 11 of the Integra Underground 2023 Annual Review,  https://web.archive.org/web/20250327182528/https://www.glencore.com.au/.rest/api/v1/documents/6196ff7aad3cc548946f562354cc84c8/Integra+Underground+2023+Annual+Review.pdf, and includes mining and exploration leases CL382, ML1437, ML1551, ML1525, ML1518, ML1676, ML1786, ML1740 and ML1742, which are listed in Table 3-2 \u2013 Integra Underground Mining Leases on page 16. Mining lease polygons were extracted from the Geological Survey NSW GeoServer web feature service https://web.archive.org/web/20250427032655/https://www.resources.nsw.gov.au/geological-survey/products-and-data/gis-web-services. The area of the boundary is 21.6 sq km.",
+        "description": "Integra underground mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.105034,
+          -32.450227
+        ]
+      },
+      "properties": {
+        "id": "M4354.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.103982,
+          -32.453077
+        ]
+      },
+      "properties": {
+        "id": "M4354.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.104436,
+          -32.452347
+        ]
+      },
+      "properties": {
+        "id": "M4354.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.089756,
+          -32.427315
+        ]
+      },
+      "properties": {
+        "id": "M4354.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.128621,
+          -32.459883
+        ]
+      },
+      "properties": {
+        "id": "M4354.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2023-07-01 00:00:00",
+        "notes": "Glennies Creek power station. From the 2023 Annual Review report (https://web.archive.org/web/20250327182528/https://www.glencore.com.au/.rest/api/v1/documents/6196ff7aad3cc548946f562354cc84c8/Integra+Underground+2023+Annual+Review.pdf), section 6.3, \"A few goaf gas drainage boreholes are connected to the Glennies Creek Power Station, which utilises the gas to generate electricity for distribution in the NSW power grid.\"",
+        "description": "Glennies Creek power station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.099958,
+          -32.415918
+        ]
+      },
+      "properties": {
+        "id": "M4354.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.10125,
+          -32.418909
+        ]
+      },
+      "properties": {
+        "id": "M4354.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.097699,
+          -32.41807
+        ]
+      },
+      "properties": {
+        "id": "M4354.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.101582,
+          -32.411839
+        ]
+      },
+      "properties": {
+        "id": "M4354.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.09457,
+          -32.41682
+        ]
+      },
+      "properties": {
+        "id": "M4354.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.09304,
+          -32.418074
+        ]
+      },
+      "properties": {
+        "id": "M4354.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.091378,
+          -32.419551
+        ]
+      },
+      "properties": {
+        "id": "M4354.P12",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.09483,
+          -32.424173
+        ]
+      },
+      "properties": {
+        "id": "M4354.P13",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.109487,
+          -32.423598
+        ]
+      },
+      "properties": {
+        "id": "M4354.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.112079,
+          -32.425316
+        ]
+      },
+      "properties": {
+        "id": "M4354.P15",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.093098,
+          -32.425544
+        ]
+      },
+      "properties": {
+        "id": "M4354.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.100786,
+          -32.411139
+        ]
+      },
+      "properties": {
+        "id": "M4354.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.103302,
+          -32.413123
+        ]
+      },
+      "properties": {
+        "id": "M4354.P18",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.102804,
+          -32.413445
+        ]
+      },
+      "properties": {
+        "id": "M4354.P19",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.096602,
+          -32.415137
+        ]
+      },
+      "properties": {
+        "id": "M4354.P20",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.097722,
+          -32.414079
+        ]
+      },
+      "properties": {
+        "id": "M4354.P21",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.098897,
+          -32.412899
+        ]
+      },
+      "properties": {
+        "id": "M4354.P22",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.101604,
+          -32.414419
+        ]
+      },
+      "properties": {
+        "id": "M4354.P23",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.091588,
+          -32.434105
+        ]
+      },
+      "properties": {
+        "id": "M4354.P24",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.100947,
+          -32.430749
+        ]
+      },
+      "properties": {
+        "id": "M4354.P25",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M4354",
+        "Owners": "HV Coking Coal Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Integra_Underground_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Integra Underground Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

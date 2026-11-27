@@ -1,0 +1,1657 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.250752,
+              -23.248491
+            ],
+            [
+              148.234966,
+              -23.248491
+            ],
+            [
+              148.234696,
+              -23.265495
+            ],
+            [
+              148.217818,
+              -23.265243
+            ],
+            [
+              148.217816,
+              -23.298249
+            ],
+            [
+              148.167888,
+              -23.298517
+            ],
+            [
+              148.168188,
+              -23.365278
+            ],
+            [
+              148.251311,
+              -23.365514
+            ],
+            [
+              148.25127,
+              -23.348697
+            ],
+            [
+              148.267926,
+              -23.348692
+            ],
+            [
+              148.267818,
+              -23.331862
+            ],
+            [
+              148.284574,
+              -23.33176
+            ],
+            [
+              148.284739,
+              -23.348547
+            ],
+            [
+              148.317915,
+              -23.348545
+            ],
+            [
+              148.317769,
+              -23.332153
+            ],
+            [
+              148.334723,
+              -23.332015
+            ],
+            [
+              148.334573,
+              -23.315628
+            ],
+            [
+              148.351076,
+              -23.315353
+            ],
+            [
+              148.351221,
+              -23.298968
+            ],
+            [
+              148.401179,
+              -23.298407
+            ],
+            [
+              148.401002,
+              -23.232169
+            ],
+            [
+              148.251019,
+              -23.231736
+            ],
+            [
+              148.250752,
+              -23.248491
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0058.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "12/2021, 12/2024",
+        "notes": "Five mining leases for the mine were determined by cross-referencing mining leases in the Queensland Mining Leases dataset, https://web.archive.org/web/20250327173139/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27, with mining leases in 'Schedule 3 13: Mining Black Coal' in Environmental authority EPML00693413, taking effect on 24 December 2021 , https://web.archive.org/web/20250327173312/https://storagesolutiondocsprod.blob.core.windows.net/register-documents-ea/EPML00693413.pdf, namely ML 1978 (KESTREL), ML 70301 (KESTREL EXTENSION #1), ML 70302 (KESTREL EXTENDED #2), ML 70330  (KESTREL EXTENSION #3) and ML 70481 (KESTREL EXTENDED #4).  The one mineral adjacent development license (MDL 182) was determined using Exploration permits for coal , https://web.archive.org/web/20250327173350/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/2f41c969-a804-4ff5-93dc-6bd5e7200236.  The boundary is the outer perimeter of the five contiguous mining leases' boundaries, and has an area of 120 sq km.",
+        "description": "Kestrel Mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.324791,
+          -23.31915
+        ]
+      },
+      "properties": {
+        "id": "M0058.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.321469,
+          -23.318504
+        ]
+      },
+      "properties": {
+        "id": "M0058.P2",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.320403,
+          -23.31783
+        ]
+      },
+      "properties": {
+        "id": "M0058.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.326787,
+          -23.299768
+        ]
+      },
+      "properties": {
+        "id": "M0058.P4",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.32791,
+          -23.315855
+        ]
+      },
+      "properties": {
+        "id": "M0058.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.309543,
+          -23.317126
+        ]
+      },
+      "properties": {
+        "id": "M0058.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.310777,
+          -23.317219
+        ]
+      },
+      "properties": {
+        "id": "M0058.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.313403,
+          -23.319076
+        ]
+      },
+      "properties": {
+        "id": "M0058.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.314131,
+          -23.319647
+        ]
+      },
+      "properties": {
+        "id": "M0058.P9",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.308582,
+          -23.325428
+        ]
+      },
+      "properties": {
+        "id": "M0058.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.308972,
+          -23.3261
+        ]
+      },
+      "properties": {
+        "id": "M0058.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.306462,
+          -23.341786
+        ]
+      },
+      "properties": {
+        "id": "M0058.P12",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3048,
+          -23.336874
+        ]
+      },
+      "properties": {
+        "id": "M0058.P13",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.29746,
+          -23.347494
+        ]
+      },
+      "properties": {
+        "id": "M0058.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.296524,
+          -23.347206
+        ]
+      },
+      "properties": {
+        "id": "M0058.P15",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.294997,
+          -23.345872
+        ]
+      },
+      "properties": {
+        "id": "M0058.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.295957,
+          -23.335136
+        ]
+      },
+      "properties": {
+        "id": "M0058.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.295147,
+          -23.334419
+        ]
+      },
+      "properties": {
+        "id": "M0058.P18",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.293393,
+          -23.333682
+        ]
+      },
+      "properties": {
+        "id": "M0058.P19",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.298179,
+          -23.330468
+        ]
+      },
+      "properties": {
+        "id": "M0058.P20",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.299557,
+          -23.331149
+        ]
+      },
+      "properties": {
+        "id": "M0058.P21",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.317059,
+          -23.323898
+        ]
+      },
+      "properties": {
+        "id": "M0058.P22",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.319892,
+          -23.325656
+        ]
+      },
+      "properties": {
+        "id": "M0058.P23",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.321828,
+          -23.324998
+        ]
+      },
+      "properties": {
+        "id": "M0058.P24",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.32141,
+          -23.32398
+        ]
+      },
+      "properties": {
+        "id": "M0058.P25",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.326187,
+          -23.325809
+        ]
+      },
+      "properties": {
+        "id": "M0058.P26",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.32371,
+          -23.321154
+        ]
+      },
+      "properties": {
+        "id": "M0058.P27",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.318294,
+          -23.315216
+        ]
+      },
+      "properties": {
+        "id": "M0058.P28",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.316958,
+          -23.314321
+        ]
+      },
+      "properties": {
+        "id": "M0058.P29",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.312182,
+          -23.313065
+        ]
+      },
+      "properties": {
+        "id": "M0058.P30",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.313284,
+          -23.313602
+        ]
+      },
+      "properties": {
+        "id": "M0058.P31",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.325724,
+          -23.319961
+        ]
+      },
+      "properties": {
+        "id": "M0058.P32",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.353556,
+          -23.286461
+        ]
+      },
+      "properties": {
+        "id": "M0058.P33",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.346715,
+          -23.297829
+        ]
+      },
+      "properties": {
+        "id": "M0058.P34",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.340002,
+          -23.30317
+        ]
+      },
+      "properties": {
+        "id": "M0058.P35",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.335908,
+          -23.301279
+        ]
+      },
+      "properties": {
+        "id": "M0058.P36",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.336311,
+          -23.30065
+        ]
+      },
+      "properties": {
+        "id": "M0058.P37",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.336808,
+          -23.30012
+        ]
+      },
+      "properties": {
+        "id": "M0058.P38",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.337754,
+          -23.299037
+        ]
+      },
+      "properties": {
+        "id": "M0058.P39",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.33721,
+          -23.274396
+        ]
+      },
+      "properties": {
+        "id": "M0058.P40",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas well",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.322919,
+          -23.299539
+        ]
+      },
+      "properties": {
+        "id": "M0058.P41",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.288388,
+          -23.274556
+        ]
+      },
+      "properties": {
+        "id": "M0058.P42",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.333812,
+          -23.304312
+        ]
+      },
+      "properties": {
+        "id": "M0058.P43",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.330279,
+          -23.304741
+        ]
+      },
+      "properties": {
+        "id": "M0058.P44",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.296522,
+          -23.281479
+        ]
+      },
+      "properties": {
+        "id": "M0058.P45",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3161,
+          -23.330899
+        ]
+      },
+      "properties": {
+        "id": "M0058.P46",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.331057,
+          -23.301152
+        ]
+      },
+      "properties": {
+        "id": "M0058.P47",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.316005,
+          -23.322938
+        ]
+      },
+      "properties": {
+        "id": "M0058.P48",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible flare",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.361366,
+          -23.245641
+        ]
+      },
+      "properties": {
+        "id": "M0058.P49",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. This is possibly decommissioned based on inspection of satellite imagery from January 2016, where an apparently in tact ventilation system is visible.",
+        "description": "possible decommissioned ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.300134,
+          -23.26227
+        ]
+      },
+      "properties": {
+        "id": "M0058.P50",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.327555,
+          -23.323551
+        ]
+      },
+      "properties": {
+        "id": "M0058.P51",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. Location was based on colocation of a MARS plume(s) source, but the asset cannot be accurately categorized using satellite imagery at this time.",
+        "description": "possible location of flare built since 3/2023",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0058",
+        "Owners": "Kestrel Coal Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "EMR Capital [45.4%]; Adaro Energy [34.6%]; Mitsui and Company [20%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Kestrel_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Kestrel Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

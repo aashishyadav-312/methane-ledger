@@ -1,0 +1,837 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.172952,
+              39.693998
+            ],
+            [
+              -79.175566,
+              39.694243
+            ],
+            [
+              -79.176391,
+              39.69276
+            ],
+            [
+              -79.177619,
+              39.692883
+            ],
+            [
+              -79.178254,
+              39.691573
+            ],
+            [
+              -79.179364,
+              39.690325
+            ],
+            [
+              -79.180275,
+              39.690081
+            ],
+            [
+              -79.182219,
+              39.687005
+            ],
+            [
+              -79.181902,
+              39.6867
+            ],
+            [
+              -79.181744,
+              39.686243
+            ],
+            [
+              -79.186579,
+              39.683351
+            ],
+            [
+              -79.187568,
+              39.68393
+            ],
+            [
+              -79.188161,
+              39.684418
+            ],
+            [
+              -79.188477,
+              39.685363
+            ],
+            [
+              -79.188873,
+              39.685821
+            ],
+            [
+              -79.189586,
+              39.685912
+            ],
+            [
+              -79.190457,
+              39.685882
+            ],
+            [
+              -79.190972,
+              39.685426
+            ],
+            [
+              -79.191676,
+              39.68472
+            ],
+            [
+              -79.192151,
+              39.684263
+            ],
+            [
+              -79.193141,
+              39.684172
+            ],
+            [
+              -79.19334,
+              39.682862
+            ],
+            [
+              -79.193618,
+              39.682039
+            ],
+            [
+              -79.193936,
+              39.681552
+            ],
+            [
+              -79.193501,
+              39.680546
+            ],
+            [
+              -79.193264,
+              39.679784
+            ],
+            [
+              -79.191839,
+              39.67893
+            ],
+            [
+              -79.191127,
+              39.678564
+            ],
+            [
+              -79.190257,
+              39.677557
+            ],
+            [
+              -79.190179,
+              39.67643
+            ],
+            [
+              -79.189743,
+              39.676155
+            ],
+            [
+              -79.189705,
+              39.675363
+            ],
+            [
+              -79.189229,
+              39.675332
+            ],
+            [
+              -79.189268,
+              39.676521
+            ],
+            [
+              -79.189743,
+              39.676887
+            ],
+            [
+              -79.189703,
+              39.677435
+            ],
+            [
+              -79.189267,
+              39.677465
+            ],
+            [
+              -79.189068,
+              39.678258
+            ],
+            [
+              -79.18883,
+              39.679294
+            ],
+            [
+              -79.188948,
+              39.679995
+            ],
+            [
+              -79.187719,
+              39.680847
+            ],
+            [
+              -79.186967,
+              39.680572
+            ],
+            [
+              -79.18677,
+              39.679963
+            ],
+            [
+              -79.185701,
+              39.679505
+            ],
+            [
+              -79.18313,
+              39.677705
+            ],
+            [
+              -79.183131,
+              39.676852
+            ],
+            [
+              -79.183567,
+              39.676121
+            ],
+            [
+              -79.184399,
+              39.675268
+            ],
+            [
+              -79.185429,
+              39.674599
+            ],
+            [
+              -79.184717,
+              39.674111
+            ],
+            [
+              -79.185154,
+              39.673014
+            ],
+            [
+              -79.186066,
+              39.671399
+            ],
+            [
+              -79.18757,
+              39.671689
+            ],
+            [
+              -79.188284,
+              39.670532
+            ],
+            [
+              -79.189353,
+              39.670563
+            ],
+            [
+              -79.190898,
+              39.669741
+            ],
+            [
+              -79.192284,
+              39.669132
+            ],
+            [
+              -79.193631,
+              39.668432
+            ],
+            [
+              -79.193948,
+              39.668127
+            ],
+            [
+              -79.195334,
+              39.667854
+            ],
+            [
+              -79.195967,
+              39.667976
+            ],
+            [
+              -79.19668,
+              39.668159
+            ],
+            [
+              -79.198184,
+              39.66816
+            ],
+            [
+              -79.198977,
+              39.667185
+            ],
+            [
+              -79.201115,
+              39.667247
+            ],
+            [
+              -79.202105,
+              39.666943
+            ],
+            [
+              -79.202185,
+              39.66609
+            ],
+            [
+              -79.202271,
+              39.664506
+            ],
+            [
+              -79.20235,
+              39.663988
+            ],
+            [
+              -79.202549,
+              39.66344
+            ],
+            [
+              -79.202589,
+              39.662769
+            ],
+            [
+              -79.201995,
+              39.662586
+            ],
+            [
+              -79.201124,
+              39.662555
+            ],
+            [
+              -79.200569,
+              39.662799
+            ],
+            [
+              -79.20053,
+              39.661762
+            ],
+            [
+              -79.200689,
+              39.660787
+            ],
+            [
+              -79.201481,
+              39.660788
+            ],
+            [
+              -79.201838,
+              39.660453
+            ],
+            [
+              -79.201285,
+              39.659233
+            ],
+            [
+              -79.200019,
+              39.657374
+            ],
+            [
+              -79.19994,
+              39.657008
+            ],
+            [
+              -79.20133,
+              39.651858
+            ],
+            [
+              -79.19753,
+              39.652039
+            ],
+            [
+              -79.194758,
+              39.652282
+            ],
+            [
+              -79.194639,
+              39.652617
+            ],
+            [
+              -79.191947,
+              39.652768
+            ],
+            [
+              -79.191353,
+              39.653224
+            ],
+            [
+              -79.189927,
+              39.654382
+            ],
+            [
+              -79.189056,
+              39.65496
+            ],
+            [
+              -79.188185,
+              39.655264
+            ],
+            [
+              -79.187076,
+              39.655416
+            ],
+            [
+              -79.185145,
+              39.655354
+            ],
+            [
+              -79.184511,
+              39.655841
+            ],
+            [
+              -79.183877,
+              39.656145
+            ],
+            [
+              -79.1836,
+              39.656602
+            ],
+            [
+              -79.183598,
+              39.657974
+            ],
+            [
+              -79.182767,
+              39.657455
+            ],
+            [
+              -79.182134,
+              39.657363
+            ],
+            [
+              -79.18031,
+              39.659983
+            ],
+            [
+              -79.179914,
+              39.66044
+            ],
+            [
+              -79.179161,
+              39.660439
+            ],
+            [
+              -79.17837,
+              39.660408
+            ],
+            [
+              -79.177737,
+              39.660164
+            ],
+            [
+              -79.17762,
+              39.658494
+            ],
+            [
+              -79.177701,
+              39.656909
+            ],
+            [
+              -79.178296,
+              39.656239
+            ],
+            [
+              -79.180475,
+              39.654108
+            ],
+            [
+              -79.180911,
+              39.653498
+            ],
+            [
+              -79.180912,
+              39.65298
+            ],
+            [
+              -79.180358,
+              39.65237
+            ],
+            [
+              -79.179646,
+              39.651974
+            ],
+            [
+              -79.179093,
+              39.651212
+            ],
+            [
+              -79.178976,
+              39.649749
+            ],
+            [
+              -79.178779,
+              39.648438
+            ],
+            [
+              -79.177989,
+              39.647432
+            ],
+            [
+              -79.17708,
+              39.646395
+            ],
+            [
+              -79.175577,
+              39.645358
+            ],
+            [
+              -79.172965,
+              39.644655
+            ],
+            [
+              -79.172729,
+              39.644229
+            ],
+            [
+              -79.172651,
+              39.64301
+            ],
+            [
+              -79.172493,
+              39.642735
+            ],
+            [
+              -79.171781,
+              39.642613
+            ],
+            [
+              -79.166391,
+              39.643401
+            ],
+            [
+              -79.166508,
+              39.644589
+            ],
+            [
+              -79.16536,
+              39.644589
+            ],
+            [
+              -79.165399,
+              39.645564
+            ],
+            [
+              -79.153485,
+              39.645554
+            ],
+            [
+              -79.153711,
+              39.653383
+            ],
+            [
+              -79.150703,
+              39.653441
+            ],
+            [
+              -79.150657,
+              39.657616
+            ],
+            [
+              -79.140761,
+              39.657759
+            ],
+            [
+              -79.13956,
+              39.665665
+            ],
+            [
+              -79.148271,
+              39.670658
+            ],
+            [
+              -79.147161,
+              39.671388
+            ],
+            [
+              -79.146091,
+              39.672119
+            ],
+            [
+              -79.144982,
+              39.672453
+            ],
+            [
+              -79.14209,
+              39.673303
+            ],
+            [
+              -79.136816,
+              39.678326
+            ],
+            [
+              -79.138597,
+              39.678663
+            ],
+            [
+              -79.138585,
+              39.685373
+            ],
+            [
+              -79.137278,
+              39.685371
+            ],
+            [
+              -79.136526,
+              39.685432
+            ],
+            [
+              -79.136129,
+              39.685797
+            ],
+            [
+              -79.136445,
+              39.686132
+            ],
+            [
+              -79.136682,
+              39.68662
+            ],
+            [
+              -79.136561,
+              39.687717
+            ],
+            [
+              -79.135175,
+              39.688051
+            ],
+            [
+              -79.134658,
+              39.689178
+            ],
+            [
+              -79.134379,
+              39.690214
+            ],
+            [
+              -79.1341,
+              39.69125
+            ],
+            [
+              -79.134375,
+              39.692134
+            ],
+            [
+              -79.135047,
+              39.693018
+            ],
+            [
+              -79.135798,
+              39.693781
+            ],
+            [
+              -79.136392,
+              39.694239
+            ],
+            [
+              -79.13754,
+              39.694453
+            ],
+            [
+              -79.138966,
+              39.694424
+            ],
+            [
+              -79.140312,
+              39.6947
+            ],
+            [
+              -79.143204,
+              39.693819
+            ],
+            [
+              -79.143403,
+              39.693301
+            ],
+            [
+              -79.144869,
+              39.693028
+            ],
+            [
+              -79.145264,
+              39.693973
+            ],
+            [
+              -79.147364,
+              39.693213
+            ],
+            [
+              -79.1476,
+              39.693762
+            ],
+            [
+              -79.148829,
+              39.693062
+            ],
+            [
+              -79.150493,
+              39.693003
+            ],
+            [
+              -79.152987,
+              39.693554
+            ],
+            [
+              -79.153345,
+              39.692579
+            ],
+            [
+              -79.15473,
+              39.692793
+            ],
+            [
+              -79.154333,
+              39.69386
+            ],
+            [
+              -79.158054,
+              39.694716
+            ],
+            [
+              -79.158134,
+              39.694198
+            ],
+            [
+              -79.162648,
+              39.694903
+            ],
+            [
+              -79.163244,
+              39.693502
+            ],
+            [
+              -79.16459,
+              39.693685
+            ],
+            [
+              -79.163993,
+              39.69594
+            ],
+            [
+              -79.169022,
+              39.696706
+            ],
+            [
+              -79.170062,
+              39.69366
+            ],
+            [
+              -79.172952,
+              39.693998
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2871.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2024-02-15 00:00:00",
+        "notes": "The boundary is the Project / Permit Boundary shown in Map 2 on the 175th page of the Technical Report on the Coal Resource and Coal Reserve Controlled by Corsa Coal Corp., signed Feb 15 2024, https://web.archive.org/web/2/https://minedocs.com/26/Corsa-Coal-Corp-TR-12312023.pdf",
+        "description": "Casselman mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2871",
+        "Owners": "Rosebud Mining Co [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Rosebud Mining Co",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Casselman_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Casselman Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Oct 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.202202,
+          39.666539
+        ]
+      },
+      "properties": {
+        "id": "M2871.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-03-28 00:00:00",
+        "notes": "The south mine portal is shown in Map 2 on the 175th page of the Technical Report on the Coal Resource and Coal Reserve Controlled by Corsa Coal Corp., signed Feb 15 2024, https://web.archive.org/web/2/https://minedocs.com/26/Corsa-Coal-Corp-TR-12312023.pdf. The shaft location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "South mine portal - ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2871",
+        "Owners": "Rosebud Mining Co [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Rosebud Mining Co",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Casselman_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Casselman Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Oct 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.20186,
+          39.666851
+        ]
+      },
+      "properties": {
+        "id": "M2871.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2024-03-28 00:00:00",
+        "notes": "The south mine portal is shown in Map 2 on the 175th page of the Technical Report on the Coal Resource and Coal Reserve Controlled by Corsa Coal Corp., signed Feb 15 2024, https://web.archive.org/web/2/https://minedocs.com/26/Corsa-Coal-Corp-TR-12312023.pdf. The production portal location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "South mine portal - production portal",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2871",
+        "Owners": "Rosebud Mining Co [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Rosebud Mining Co",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Casselman_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Casselman Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Oct 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.201999,
+          39.666718
+        ]
+      },
+      "properties": {
+        "id": "M2871.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2024-03-28 00:00:00",
+        "notes": "The south mine portal is shown in Map 2 on the 175th page of the Technical Report on the Coal Resource and Coal Reserve Controlled by Corsa Coal Corp., signed Feb 15 2024, https://web.archive.org/web/2/https://minedocs.com/26/Corsa-Coal-Corp-TR-12312023.pdf. The entrance/exit location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "South mine portal - possible access portal",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2871",
+        "Owners": "Rosebud Mining Co [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Rosebud Mining Co",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Casselman_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Casselman Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Oct 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

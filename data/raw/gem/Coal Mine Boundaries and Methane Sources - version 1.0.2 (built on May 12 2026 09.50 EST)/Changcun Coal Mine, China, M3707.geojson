@@ -1,0 +1,511 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.991989,
+              36.295604
+            ],
+            [
+              112.991585,
+              36.327071
+            ],
+            [
+              112.989871,
+              36.327057
+            ],
+            [
+              112.989815,
+              36.33138
+            ],
+            [
+              112.991529,
+              36.331394
+            ],
+            [
+              112.990513,
+              36.409955
+            ],
+            [
+              112.963758,
+              36.409834
+            ],
+            [
+              112.908023,
+              36.409337
+            ],
+            [
+              112.908975,
+              36.341193
+            ],
+            [
+              112.93125,
+              36.341395
+            ],
+            [
+              112.931877,
+              36.295442
+            ],
+            [
+              112.946887,
+              36.305128
+            ],
+            [
+              112.974288,
+              36.287163
+            ],
+            [
+              112.991989,
+              36.295604
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M3707.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2019-08-01 00:00:00",
+        "notes": "The mine coordinates were found in the Table 1-1-10 on page 8 of the document Coal Resource Development and Utilization Plan, Geological Environmental Protection and Restoration Plan, and Land Reclamation Plan for Changcun Coal Mine of Shanxi Lu'an Environmental Energy Development Co., Ltd (\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6cbb\u7406\u6062\u590d\u3001\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250630205318/https://www.doc88.com/p-99999771826446.html",
+        "description": "Changcun coal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.974576,
+          36.362494
+        ]
+      },
+      "properties": {
+        "id": "M3707.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2019-08-01 00:00:00",
+        "notes": "The coordinates were found in the Table 4-1-8 on page 108 of the document Coal Resource Development and Utilization Plan, Geological Environmental Protection and Restoration Plan, and Land Reclamation Plan for Changcun Coal Mine of Shanxi Lu'an Environmental Energy Development Co., Ltd (\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6cbb\u7406\u6062\u590d\u3001\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250630205318/https://www.doc88.com/p-99999771826446.html",
+        "description": "main shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.975489,
+          36.359618
+        ]
+      },
+      "properties": {
+        "id": "M3707.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-08-01 00:00:00",
+        "notes": "The coordinates were found in the Table 4-1-8 on page 108 of the document Coal Resource Development and Utilization Plan, Geological Environmental Protection and Restoration Plan, and Land Reclamation Plan for Changcun Coal Mine of Shanxi Lu'an Environmental Energy Development Co., Ltd (\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6cbb\u7406\u6062\u590d\u3001\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250630205318/https://www.doc88.com/p-99999771826446.html",
+        "description": "return air shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.973242,
+          36.361205
+        ]
+      },
+      "properties": {
+        "id": "M3707.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "coal storage",
+        "data source date": "2021-03-26 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Coal Storage Unit",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.938252,
+          36.366672
+        ]
+      },
+      "properties": {
+        "id": "M3707.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-08-01 00:00:00",
+        "notes": "The coordinates were found in the Table 4-1-8 on page 108 of the document Coal Resource Development and Utilization Plan, Geological Environmental Protection and Restoration Plan, and Land Reclamation Plan for Changcun Coal Mine of Shanxi Lu'an Environmental Energy Development Co., Ltd (\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6cbb\u7406\u6062\u590d\u3001\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250630205318/https://www.doc88.com/p-99999771826446.html",
+        "description": "Wangcun Return Air Shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.974028,
+          36.322763
+        ]
+      },
+      "properties": {
+        "id": "M3707.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-08-01 00:00:00",
+        "notes": "The coordinates were found in the Table 4-1-8 on page 108 of the document Coal Resource Development and Utilization Plan, Geological Environmental Protection and Restoration Plan, and Land Reclamation Plan for Changcun Coal Mine of Shanxi Lu'an Environmental Energy Development Co., Ltd (\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6cbb\u7406\u6062\u590d\u3001\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250630205318/https://www.doc88.com/p-99999771826446.html",
+        "description": "Xipo Return Air Shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.976652,
+          36.358606
+        ]
+      },
+      "properties": {
+        "id": "M3707.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-23 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery, based on the text information from the document Coal Resource Development and Utilization Plan, Geological Environmental Protection and Restoration Plan, and Land Reclamation Plan for Changcun Coal Mine of Shanxi Lu'an Environmental Energy Development Co., Ltd (\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6cbb\u7406\u6062\u590d\u3001\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250630205318/https://www.doc88.com/p-99999771826446.html",
+        "description": "gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.939285,
+          36.367326
+        ]
+      },
+      "properties": {
+        "id": "M3707.P7",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-23 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery, based on the text information from the document Coal Resource Development and Utilization Plan, Geological Environmental Protection and Restoration Plan, and Land Reclamation Plan for Changcun Coal Mine of Shanxi Lu'an Environmental Energy Development Co., Ltd (\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6cbb\u7406\u6062\u590d\u3001\u571f\u5730\u590d\u57a6\u65b9\u6848). https://web.archive.org/web/20250630205318/https://www.doc88.com/p-99999771826446.html. \nFrom the document Lu'an Huanneng Social Responsibility Report (\u6f5e\u5b89\u73af\u80fd\u793e\u4f1a\u8d23\u4efb\u62a5\u544a, https://web.archive.org/web/20250703165430/https://q.stock.sohu.com/cn,gg,601699,5565971460.shtml, it confirms that the gas drainage station was built in 2019.",
+        "description": "Wangcun gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.928319,
+          36.389441
+        ]
+      },
+      "properties": {
+        "id": "M3707.P8",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-23 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery, based on the text information from the document Public Notice on the Completion of Environmental Protection Facilities for the +470m Level North Wing Huanao Ventilation Shaft Project of Changcun Coal Mine, Shanxi Lu\u2019an Environmental Protection Energy Development Co., Ltd (\u5173\u4e8e\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u5f00\u53d1\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff+470m\u6c34\u5e73\u5317\u7ffc\u82b1\u57b4\u98ce\u4e95\u9879\u76ee\u73af\u4fdd\u8bbe\u65bd\u7ae3\u5de5\u516c\u793a), https://web.archive.org/web/20250703165715/http://www.sxlanlang.com/czlanlang/xinxigongkai/2022-05-20/203.html?v=2024",
+        "description": "Hua'nao gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.927341,
+          36.389178
+        ]
+      },
+      "properties": {
+        "id": "M3707.P9",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-04-04 00:00:00",
+        "notes": "The coordinates were found in the document Public Notice on the Completion of Environmental Protection Facilities for the +470m Level North Wing Huanao Ventilation Shaft Project of Changcun Coal Mine, Shanxi Lu\u2019an Environmental Protection Energy Development Co., Ltd (\u5173\u4e8e\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u5f00\u53d1\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff+470m\u6c34\u5e73\u5317\u7ffc\u82b1\u57b4\u98ce\u4e95\u9879\u76ee\u73af\u4fdd\u8bbe\u65bd\u7ae3\u5de5\u516c\u793a), https://web.archive.org/web/20250703165715/http://www.sxlanlang.com/czlanlang/xinxigongkai/2022-05-20/203.html?v=2024",
+        "description": "Hua'nao intake air Shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.929096,
+          36.38843
+        ]
+      },
+      "properties": {
+        "id": "M3707.P10",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-04-04 00:00:00",
+        "notes": "The coordinates are found in the document Public Notice on the Completion of Environmental Protection Facilities for the +470m Level North Wing Huanao Ventilation Shaft Project of Changcun Coal Mine, Shanxi Lu\u2019an Environmental Protection Energy Development Co., Ltd (\u5173\u4e8e\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u5f00\u53d1\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff+470m\u6c34\u5e73\u5317\u7ffc\u82b1\u57b4\u98ce\u4e95\u9879\u76ee\u73af\u4fdd\u8bbe\u65bd\u7ae3\u5de5\u516c\u793a), https://web.archive.org/web/20250703165715/http://www.sxlanlang.com/czlanlang/xinxigongkai/2022-05-20/203.html?v=2024",
+        "description": "Hua'nao return air Shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.975463,
+          36.362513
+        ]
+      },
+      "properties": {
+        "id": "M3707.P11",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2019-08-01 00:00:00",
+        "notes": "The coordinates were found in the Table 4-1-8 on page 108 of the document Coal Resource Development and Utilization Plan, Geological Environmental Protection and Restoration Plan, and Land Reclamation Plan for Changcun Coal Mine of Shanxi Lu'an Environmental Energy Development Co., Ltd (\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6cbb\u7406\u6062\u590d\u3001\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250630205318/https://www.doc88.com/p-99999771826446.html",
+        "description": "Auxiliary Shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.973981,
+          36.323166
+        ]
+      },
+      "properties": {
+        "id": "M3707.P12",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2019-08-01 00:00:00",
+        "notes": "The coordinates were found in the Table 4-1-8 on page 108 of the document Coal Resource Development and Utilization Plan, Geological Environmental Protection and Restoration Plan, and Land Reclamation Plan for Changcun Coal Mine of Shanxi Lu'an Environmental Energy Development Co., Ltd (\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6cbb\u7406\u6062\u590d\u3001\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250630205318/https://www.doc88.com/p-99999771826446.html",
+        "description": "Xipo Air Intake Shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.936453,
+          36.364932
+        ]
+      },
+      "properties": {
+        "id": "M3707.P13",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2019-08-01 00:00:00",
+        "notes": "The coordinates were found in the Table 4-1-8 on page 108 of the document Coal Resource Development and Utilization Plan, Geological Environmental Protection and Restoration Plan, and Land Reclamation Plan for Changcun Coal Mine of Shanxi Lu'an Environmental Energy Development Co., Ltd (\u5c71\u897f\u6f5e\u5b89\u73af\u4fdd\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5e38\u6751\u7164\u77ff\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u3001\u5730\u8d28\u73af\u5883\u4fdd\u62a4\u4e0e\u6cbb\u7406\u6062\u590d\u3001\u571f\u5730\u590d\u57a6\u65b9\u6848). https://web.archive.org/web/20250630205318/https://www.doc88.com/p-99999771826446.html",
+        "description": "Wangcun Auxiliary Shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.935265,
+          36.313858
+        ]
+      },
+      "properties": {
+        "id": "M3707.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-08-19 00:00:00",
+        "notes": "Identified visually from the Google Earth Imagery.",
+        "description": "possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M3707",
+        "Owners": "Shanxi Lu'an Environmental Energy Development Company Limited. [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Shanxi Lu\u2019an [61.61%]; China Securities Finance Corp.[3.01%]; Others[35.38%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Changcun_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%8E%AF%E4%BF%9D%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B8%B8%E6%9D%91%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Changcun Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104.49673,
+              26.04478
+            ],
+            [
+              104.5141,
+              26.03267
+            ],
+            [
+              104.5746,
+              26.03555
+            ],
+            [
+              104.61315,
+              26.04028
+            ],
+            [
+              104.6049,
+              26.04871
+            ],
+            [
+              104.58365,
+              26.06058
+            ],
+            [
+              104.56976,
+              26.06194
+            ],
+            [
+              104.57129,
+              26.06799
+            ],
+            [
+              104.56377,
+              26.07325
+            ],
+            [
+              104.51733,
+              26.06511
+            ],
+            [
+              104.50366,
+              26.05978
+            ],
+            [
+              104.49673,
+              26.04478
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2177.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2021-02-01 00:00:00",
+        "notes": "Coordinates can be found in Table 3.1-1 on page 32 from the document Project for the Tucheng Mine of Guizhou Panjiang Refined Coal Co., Ltd. (Merger and Reorganization) (\u8d35\u5dde\u76d8\u6c5f\u7cbe\u7164\u80a1\u4efd\u6709\u9650\u516c\u53f8\u571f\u57ce\u77ff\uff08\u517c\u5e76\u91cd\u7ec4\uff09\u9879\u76ee) https://web.archive.org/web/20250815232527/https://www.doc88.com/p-14387179584726.html",
+        "description": "Tucheng Coal Mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2177",
+        "Owners": "Guizhou Panjiang Refined Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Guizhou Panjiang Coal and Electricity Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tucheng_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E8%B4%B5%E5%B7%9E%E7%9B%98%E6%B1%9F%E7%B2%BE%E7%85%A4%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%9C%9F%E5%9F%8E%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Tucheng Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.515678,
+          26.06235
+        ]
+      },
+      "properties": {
+        "id": "M2177.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2020-11-10 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. ",
+        "description": "Possible Vent No.1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2177",
+        "Owners": "Guizhou Panjiang Refined Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Guizhou Panjiang Coal and Electricity Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tucheng_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E8%B4%B5%E5%B7%9E%E7%9B%98%E6%B1%9F%E7%B2%BE%E7%85%A4%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%9C%9F%E5%9F%8E%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Tucheng Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.548521,
+          26.064825
+        ]
+      },
+      "properties": {
+        "id": "M2177.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2020-11-10 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery. ",
+        "description": "Possible Vent No.2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2177",
+        "Owners": "Guizhou Panjiang Refined Coal Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Guizhou Panjiang Coal and Electricity Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Tucheng_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E8%B4%B5%E5%B7%9E%E7%9B%98%E6%B1%9F%E7%B2%BE%E7%85%A4%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%9C%9F%E5%9F%8E%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Tucheng Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 19, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

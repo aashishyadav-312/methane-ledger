@@ -1,0 +1,413 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.020108,
+              36.166868
+            ],
+            [
+              113.020129,
+              36.186078
+            ],
+            [
+              112.97427,
+              36.208531
+            ],
+            [
+              112.9537,
+              36.208554
+            ],
+            [
+              112.954205,
+              36.078442
+            ],
+            [
+              112.97303,
+              36.07832
+            ],
+            [
+              112.973563,
+              36.090806
+            ],
+            [
+              113.008306,
+              36.091242
+            ],
+            [
+              113.007622,
+              36.125079
+            ],
+            [
+              113.006512,
+              36.12508
+            ],
+            [
+              113.006495,
+              36.166866
+            ],
+            [
+              113.020108,
+              36.166868
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0218.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2022-08-01 00:00:00",
+        "notes": "The boundary was delineated and updated using the coordinate points in Table 2-2 on page 15 from the 2022 Water Resources Feasibility Study Report (\u5c71\u897f\u9ad8\u6cb3\u80fd\u6e90\u6709\u9650\u516c\u53f8600\u4e07t/a\u77ff\u4e95\u53ca\u914d\u5957\u9009\u7164\u5382\u9879\u76ee\u6c34\u8d44\u6e90\u8bba\u8bc1\u62a5\u544a\u4e66),https://web.archive.org/web/20250413044206/http://221.238.115.216/wwgj/HWCCzwgk/hwxzxk/xkjd/202209/P020220929537378833304.pdf. The calculated area is 65 sq km, which precisely matches the reported area of 65.0596 sq km. This report was published when the coal mine's production capacity was 6 Mtpa, however, the current capacity has increased to 7.5 Mtpa, https://web.archive.org/web/20250413071909/https://www.changzhi.gov.cn/xxgkml/czsrmzf/zbwj_3466/202206/t20220610_2567895.shtml, and the updated boundaries for the expansion have not yet been released.",
+        "description": "Gaohe coal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.984799,
+          36.140879
+        ]
+      },
+      "properties": {
+        "id": "M0218.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-08-01 00:00:00",
+        "notes": "The coordinates are found in Table 2-6 on page 24 from the 2022 Water Resources Feasibility Study Report (\u5c71\u897f\u9ad8\u6cb3\u80fd\u6e90\u6709\u9650\u516c\u53f8600\u4e07t/a\u77ff\u4e95\u53ca\u914d\u5957\u9009\u7164\u5382\u9879\u76ee\u6c34\u8d44\u6e90\u8bba\u8bc1\u62a5\u544a\u4e66), https://web.archive.org/web/20250413044206/http://221.238.115.216/wwgj/HWCCzwgk/hwxzxk/xkjd/202209/P020220929537378833304.pdf",
+        "description": "Xiaozhuang return air shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.99471,
+          36.153682
+        ]
+      },
+      "properties": {
+        "id": "M0218.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "Aug 11 2025 (from CarbonMapper plume information)",
+        "notes": "Based on Google Earth Pro satellite imagery, it appears to be a drainage station. Carbon Mapper's plume data helped confirm its identification, and it is situated directly within the main mining area of Gaohe coal mine, https://web.archive.org/web/20250417155508/https://data.carbonmapper.org/?coordinates=lat-36.153686_lon-112.993161&details=CH4_1B1a_250m_112.99305_36.15368%3Fstatus%3Dnot_deleted#13.64/36.14591/113.00268",
+        "description": "Gaohe coal mine drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.985028,
+          36.14035
+        ]
+      },
+      "properties": {
+        "id": "M0218.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-08-01 00:00:00",
+        "notes": "The coordinates are found in Table 2-6 on page 24 from the 2022 Water Resources Feasibility Study Report (\u5c71\u897f\u9ad8\u6cb3\u80fd\u6e90\u6709\u9650\u516c\u53f8600\u4e07t/a\u77ff\u4e95\u53ca\u914d\u5957\u9009\u7164\u5382\u9879\u76ee\u6c34\u8d44\u6e90\u8bba\u8bc1\u62a5\u544a\u4e66), https://web.archive.org/web/20250413044206/http://221.238.115.216/wwgj/HWCCzwgk/hwxzxk/xkjd/202209/P020220929537378833304.pdf",
+        "description": "Xiaozhuang intake air shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.991434,
+          36.1533
+        ]
+      },
+      "properties": {
+        "id": "M0218.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-08-01 00:00:00",
+        "notes": "The coordinates are found in Table 2-6 on page 24 from the 2022 Water Resources Feasibility Study Report (\u5c71\u897f\u9ad8\u6cb3\u80fd\u6e90\u6709\u9650\u516c\u53f8600\u4e07t/a\u77ff\u4e95\u53ca\u914d\u5957\u9009\u7164\u5382\u9879\u76ee\u6c34\u8d44\u6e90\u8bba\u8bc1\u62a5\u544a\u4e66), https://web.archive.org/web/20250413044206/http://221.238.115.216/wwgj/HWCCzwgk/hwxzxk/xkjd/202209/P020220929537378833304.pdf",
+        "description": " main return air shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.992643,
+          36.150665
+        ]
+      },
+      "properties": {
+        "id": "M0218.P8",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2022-08-01 00:00:00",
+        "notes": "The coordinates are found in Table 2-6 on page 24 from the 2022 Water Resources Feasibility Study Report (\u5c71\u897f\u9ad8\u6cb3\u80fd\u6e90\u6709\u9650\u516c\u53f8600\u4e07t/a\u77ff\u4e95\u53ca\u914d\u5957\u9009\u7164\u5382\u9879\u76ee\u6c34\u8d44\u6e90\u8bba\u8bc1\u62a5\u544a\u4e66), https://web.archive.org/web/20250413044206/http://221.238.115.216/wwgj/HWCCzwgk/hwxzxk/xkjd/202209/P020220929537378833304.pdf",
+        "description": "auxiliary shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.993738,
+          36.149567
+        ]
+      },
+      "properties": {
+        "id": "M0218.P9",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2022-08-01 00:00:00",
+        "notes": "The coordinates are found in Table 2-6 on page 24 from the 2022 Water Resources Feasibility Study Report (\u5c71\u897f\u9ad8\u6cb3\u80fd\u6e90\u6709\u9650\u516c\u53f8600\u4e07t/a\u77ff\u4e95\u53ca\u914d\u5957\u9009\u7164\u5382\u9879\u76ee\u6c34\u8d44\u6e90\u8bba\u8bc1\u62a5\u544a\u4e66), https://web.archive.org/web/20250413044206/http://221.238.115.216/wwgj/HWCCzwgk/hwxzxk/xkjd/202209/P020220929537378833304.pdf",
+        "description": "main shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.983423,
+          36.17113
+        ]
+      },
+      "properties": {
+        "id": "M0218.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-08-19 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas drainage station 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.980517,
+          36.107283
+        ]
+      },
+      "properties": {
+        "id": "M0218.P11",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-08-19 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas drainage station 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.983812,
+          36.170281
+        ]
+      },
+      "properties": {
+        "id": "M0218.P12",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-08-19 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation Shaft 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.98092,
+          36.108188
+        ]
+      },
+      "properties": {
+        "id": "M0218.P13",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-08-19 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation Shaft 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.984654,
+          36.171066
+        ]
+      },
+      "properties": {
+        "id": "M0218.P14",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-08-19 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation Shaft 3",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0218",
+        "Owners": "Shanxi Gaohe Energy Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Lu'an Chemical Group [55%]; Asian American Continental Coal Company [45%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%BD%9E%E5%AE%89%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E9%AB%98%E6%B2%B3%E7%85%A4%E7%9F%BF(%E5%B1%B1%E8%A5%BF%E9%AB%98%E6%B2%B3%E8%83%BD%E6%BA%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Gaohe Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Sep 17, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2401 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.792889,
+              -23.673135
+            ],
+            [
+              148.786468,
+              -23.681155
+            ],
+            [
+              148.785528,
+              -23.693954
+            ],
+            [
+              148.785461,
+              -23.695301
+            ],
+            [
+              148.787661,
+              -23.714345
+            ],
+            [
+              148.786053,
+              -23.727652
+            ],
+            [
+              148.787388,
+              -23.732535
+            ],
+            [
+              148.782237,
+              -23.733942
+            ],
+            [
+              148.770105,
+              -23.747894
+            ],
+            [
+              148.773717,
+              -23.752244
+            ],
+            [
+              148.775122,
+              -23.751938
+            ],
+            [
+              148.775384,
+              -23.765493
+            ],
+            [
+              148.80326,
+              -23.757473
+            ],
+            [
+              148.836992,
+              -23.775705
+            ],
+            [
+              148.850312,
+              -23.799646
+            ],
+            [
+              148.850179,
+              -23.806811
+            ],
+            [
+              148.831157,
+              -23.836917
+            ],
+            [
+              148.835642,
+              -23.8371
+            ],
+            [
+              148.836315,
+              -23.879756
+            ],
+            [
+              148.806053,
+              -23.901036
+            ],
+            [
+              148.802568,
+              -23.913283
+            ],
+            [
+              148.799214,
+              -23.936423
+            ],
+            [
+              148.805675,
+              -23.947338
+            ],
+            [
+              148.809561,
+              -23.945563
+            ],
+            [
+              148.817133,
+              -23.953158
+            ],
+            [
+              148.817265,
+              -23.975998
+            ],
+            [
+              148.812105,
+              -23.97612
+            ],
+            [
+              148.812037,
+              -23.98157
+            ],
+            [
+              148.801067,
+              -23.981849
+            ],
+            [
+              148.801063,
+              -24.015193
+            ],
+            [
+              148.786085,
+              -24.015074
+            ],
+            [
+              148.77765,
+              -24.020704
+            ],
+            [
+              148.771609,
+              -24.016103
+            ],
+            [
+              148.76821,
+              -24.015067
+            ],
+            [
+              148.733547,
+              -24.015281
+            ],
+            [
+              148.734265,
+              -24.064946
+            ],
+            [
+              148.802282,
+              -24.064972
+            ],
+            [
+              148.801661,
+              -24.028298
+            ],
+            [
+              148.841967,
+              -24.027708
+            ],
+            [
+              148.84172,
+              -24.007235
+            ],
+            [
+              148.846759,
+              -24.007118
+            ],
+            [
+              148.847766,
+              -24.001138
+            ],
+            [
+              148.893468,
+              -24.006295
+            ],
+            [
+              148.920171,
+              -23.865895
+            ],
+            [
+              148.886856,
+              -23.866373
+            ],
+            [
+              148.885371,
+              -23.864764
+            ],
+            [
+              148.886787,
+              -23.665434
+            ],
+            [
+              148.858418,
+              -23.665325
+            ],
+            [
+              148.866429,
+              -23.58703
+            ],
+            [
+              148.858399,
+              -23.585882
+            ],
+            [
+              148.830423,
+              -23.586115
+            ],
+            [
+              148.830298,
+              -23.5883
+            ],
+            [
+              148.824527,
+              -23.588874
+            ],
+            [
+              148.824401,
+              -23.586344
+            ],
+            [
+              148.803571,
+              -23.586683
+            ],
+            [
+              148.792889,
+              -23.673135
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-01 00:00:00",
+        "notes": "The mine boundary is based on combining all of the mining leases described in section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf. This includes the following mining leases :  ML1759, ML1760, ML1761, ML1762, ML1767, ML1771, ML1772, ML1773, ML1792, ML1800, ML1812, ML1829, ML1860, ML1862, ML1907, ML70091, ML70103, ML70104, ML70139, ML70167 and ML70329. \n\nThis boundary excludes a road of approximately 33 km protruding from the northeast corner heading north which is part of ML 1759.\n\nMining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).\n\nThe area of the boundary is 421 sq km.\n\nDue to the large size of this mining area, the underlying individual mining leases are also included for potential use and convenience.",
+        "description": "Blackwater Coal Mine boundary encapsulating 21 mining leases",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.82138,
+              -23.377145
+            ],
+            [
+              148.821382,
+              -23.378381
+            ],
+            [
+              148.821579,
+              -23.37838
+            ],
+            [
+              148.821595,
+              -23.392222
+            ],
+            [
+              148.81466,
+              -23.422998
+            ],
+            [
+              148.816028,
+              -23.435533
+            ],
+            [
+              148.82236,
+              -23.493492
+            ],
+            [
+              148.819916,
+              -23.511863
+            ],
+            [
+              148.817698,
+              -23.528637
+            ],
+            [
+              148.812629,
+              -23.555152
+            ],
+            [
+              148.812426,
+              -23.556206
+            ],
+            [
+              148.806806,
+              -23.585594
+            ],
+            [
+              148.806617,
+              -23.586623
+            ],
+            [
+              148.803656,
+              -23.586655
+            ],
+            [
+              148.80012,
+              -23.61522
+            ],
+            [
+              148.800013,
+              -23.616083
+            ],
+            [
+              148.793009,
+              -23.672505
+            ],
+            [
+              148.792936,
+              -23.673096
+            ],
+            [
+              148.792906,
+              -23.673338
+            ],
+            [
+              148.791208,
+              -23.687013
+            ],
+            [
+              148.78798,
+              -23.712953
+            ],
+            [
+              148.787826,
+              -23.71432
+            ],
+            [
+              148.787653,
+              -23.715641
+            ],
+            [
+              148.786148,
+              -23.727758
+            ],
+            [
+              148.787454,
+              -23.732588
+            ],
+            [
+              148.791154,
+              -23.746264
+            ],
+            [
+              148.793346,
+              -23.74843
+            ],
+            [
+              148.793808,
+              -23.748885
+            ],
+            [
+              148.801244,
+              -23.756229
+            ],
+            [
+              148.803255,
+              -23.75732
+            ],
+            [
+              148.813515,
+              -23.762885
+            ],
+            [
+              148.814071,
+              -23.763186
+            ],
+            [
+              148.814826,
+              -23.763596
+            ],
+            [
+              148.83695,
+              -23.775591
+            ],
+            [
+              148.848362,
+              -23.766131
+            ],
+            [
+              148.859224,
+              -23.757125
+            ],
+            [
+              148.874483,
+              -23.74447
+            ],
+            [
+              148.873483,
+              -23.743421
+            ],
+            [
+              148.868709,
+              -23.738414
+            ],
+            [
+              148.862764,
+              -23.732177
+            ],
+            [
+              148.854538,
+              -23.701869
+            ],
+            [
+              148.858374,
+              -23.665236
+            ],
+            [
+              148.866492,
+              -23.586813
+            ],
+            [
+              148.865048,
+              -23.586826
+            ],
+            [
+              148.862747,
+              -23.586679
+            ],
+            [
+              148.859387,
+              -23.585866
+            ],
+            [
+              148.830292,
+              -23.586318
+            ],
+            [
+              148.830281,
+              -23.588333
+            ],
+            [
+              148.827259,
+              -23.588384
+            ],
+            [
+              148.827249,
+              -23.588832
+            ],
+            [
+              148.824415,
+              -23.588864
+            ],
+            [
+              148.824381,
+              -23.586417
+            ],
+            [
+              148.819225,
+              -23.586478
+            ],
+            [
+              148.817401,
+              -23.586499
+            ],
+            [
+              148.816246,
+              -23.586513
+            ],
+            [
+              148.810962,
+              -23.586575
+            ],
+            [
+              148.810127,
+              -23.586585
+            ],
+            [
+              148.80689,
+              -23.58662
+            ],
+            [
+              148.807006,
+              -23.585592
+            ],
+            [
+              148.807724,
+              -23.581841
+            ],
+            [
+              148.812598,
+              -23.556351
+            ],
+            [
+              148.8128,
+              -23.555296
+            ],
+            [
+              148.817896,
+              -23.52865
+            ],
+            [
+              148.818552,
+              -23.523701
+            ],
+            [
+              148.820097,
+              -23.512053
+            ],
+            [
+              148.822559,
+              -23.493491
+            ],
+            [
+              148.816684,
+              -23.439712
+            ],
+            [
+              148.814857,
+              -23.423007
+            ],
+            [
+              148.818351,
+              -23.407493
+            ],
+            [
+              148.820785,
+              -23.39668
+            ],
+            [
+              148.821786,
+              -23.392239
+            ],
+            [
+              148.821791,
+              -23.391184
+            ],
+            [
+              148.821781,
+              -23.383723
+            ],
+            [
+              148.821775,
+              -23.378381
+            ],
+            [
+              148.821972,
+              -23.378381
+            ],
+            [
+              148.821971,
+              -23.377818
+            ],
+            [
+              148.821885,
+              -23.377727
+            ],
+            [
+              148.821744,
+              -23.3776
+            ],
+            [
+              148.821569,
+              -23.37738
+            ],
+            [
+              148.82138,
+              -23.377145
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-02 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1759 - Blackwater mine - area 136 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1759 - Blackwater mine",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.786505,
+              -23.681132
+            ],
+            [
+              148.785559,
+              -23.694925
+            ],
+            [
+              148.787787,
+              -23.715555
+            ],
+            [
+              148.788184,
+              -23.712295
+            ],
+            [
+              148.788274,
+              -23.711554
+            ],
+            [
+              148.791244,
+              -23.687131
+            ],
+            [
+              148.792868,
+              -23.673775
+            ],
+            [
+              148.792944,
+              -23.673151
+            ],
+            [
+              148.792944,
+              -23.673079
+            ],
+            [
+              148.786505,
+              -23.681132
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B3",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-03 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1760 - Blackwater - area 1.6 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1760 - Blackwater",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.822872,
+              -23.3794
+            ],
+            [
+              148.822938,
+              -23.379465
+            ],
+            [
+              148.822945,
+              -23.38505
+            ],
+            [
+              148.821791,
+              -23.391184
+            ],
+            [
+              148.821786,
+              -23.392239
+            ],
+            [
+              148.823133,
+              -23.385066
+            ],
+            [
+              148.823125,
+              -23.379661
+            ],
+            [
+              148.823269,
+              -23.379803
+            ],
+            [
+              148.823614,
+              -23.379506
+            ],
+            [
+              148.823667,
+              -23.379459
+            ],
+            [
+              148.823234,
+              -23.379088
+            ],
+            [
+              148.823129,
+              -23.379178
+            ],
+            [
+              148.822872,
+              -23.3794
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B4",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-04 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1761 - Mackenzie River - area appox 29,000 sq meters. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1761 - Mackenzie River",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.858374,
+              -23.665236
+            ],
+            [
+              148.854538,
+              -23.701869
+            ],
+            [
+              148.862764,
+              -23.732177
+            ],
+            [
+              148.868709,
+              -23.738414
+            ],
+            [
+              148.873483,
+              -23.743421
+            ],
+            [
+              148.874483,
+              -23.74447
+            ],
+            [
+              148.859224,
+              -23.757125
+            ],
+            [
+              148.848362,
+              -23.766131
+            ],
+            [
+              148.83695,
+              -23.775591
+            ],
+            [
+              148.838312,
+              -23.778048
+            ],
+            [
+              148.850238,
+              -23.799557
+            ],
+            [
+              148.850249,
+              -23.806671
+            ],
+            [
+              148.85024,
+              -23.816056
+            ],
+            [
+              148.850243,
+              -23.816049
+            ],
+            [
+              148.850241,
+              -23.82039
+            ],
+            [
+              148.850234,
+              -23.835719
+            ],
+            [
+              148.850233,
+              -23.842669
+            ],
+            [
+              148.850743,
+              -23.865196
+            ],
+            [
+              148.86023,
+              -23.865204
+            ],
+            [
+              148.862876,
+              -23.865206
+            ],
+            [
+              148.873548,
+              -23.865208
+            ],
+            [
+              148.885218,
+              -23.865216
+            ],
+            [
+              148.885254,
+              -23.860451
+            ],
+            [
+              148.885259,
+              -23.85965
+            ],
+            [
+              148.885849,
+              -23.780953
+            ],
+            [
+              148.885863,
+              -23.779008
+            ],
+            [
+              148.88604,
+              -23.74828
+            ],
+            [
+              148.886121,
+              -23.737069
+            ],
+            [
+              148.88614,
+              -23.734143
+            ],
+            [
+              148.886229,
+              -23.720761
+            ],
+            [
+              148.886231,
+              -23.72047
+            ],
+            [
+              148.886269,
+              -23.71477
+            ],
+            [
+              148.886272,
+              -23.714335
+            ],
+            [
+              148.886617,
+              -23.665226
+            ],
+            [
+              148.858374,
+              -23.665236
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B5",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-05 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1762 - South Blackwater - area 72.5 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1762 - South Blackwater",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.805736,
+              -23.932248
+            ],
+            [
+              148.808025,
+              -23.936042
+            ],
+            [
+              148.81186,
+              -23.942395
+            ],
+            [
+              148.819522,
+              -23.955086
+            ],
+            [
+              148.822559,
+              -23.965721
+            ],
+            [
+              148.822282,
+              -23.97315
+            ],
+            [
+              148.822013,
+              -23.980368
+            ],
+            [
+              148.821677,
+              -23.989398
+            ],
+            [
+              148.842293,
+              -23.984667
+            ],
+            [
+              148.835343,
+              -23.95909
+            ],
+            [
+              148.833174,
+              -23.951106
+            ],
+            [
+              148.832767,
+              -23.949608
+            ],
+            [
+              148.830374,
+              -23.940796
+            ],
+            [
+              148.827361,
+              -23.935894
+            ],
+            [
+              148.821963,
+              -23.92711
+            ],
+            [
+              148.821374,
+              -23.927042
+            ],
+            [
+              148.820552,
+              -23.926949
+            ],
+            [
+              148.819843,
+              -23.926869
+            ],
+            [
+              148.816926,
+              -23.926541
+            ],
+            [
+              148.808733,
+              -23.93072
+            ],
+            [
+              148.805736,
+              -23.932248
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B6",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-06 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1767 - South Blackwater mine - area 11.5 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1767 - South Blackwater mine",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.873548,
+              -23.865208
+            ],
+            [
+              148.873547,
+              -23.867102
+            ],
+            [
+              148.860343,
+              -23.936024
+            ],
+            [
+              148.851028,
+              -23.984356
+            ],
+            [
+              148.847775,
+              -24.000981
+            ],
+            [
+              148.850194,
+              -24.001253
+            ],
+            [
+              148.8511,
+              -24.001355
+            ],
+            [
+              148.893285,
+              -24.006086
+            ],
+            [
+              148.894752,
+              -23.998429
+            ],
+            [
+              148.9011,
+              -23.965299
+            ],
+            [
+              148.91071,
+              -23.915098
+            ],
+            [
+              148.918648,
+              -23.873634
+            ],
+            [
+              148.919473,
+              -23.869319
+            ],
+            [
+              148.919542,
+              -23.868956
+            ],
+            [
+              148.920153,
+              -23.865634
+            ],
+            [
+              148.892276,
+              -23.866321
+            ],
+            [
+              148.891259,
+              -23.866346
+            ],
+            [
+              148.889745,
+              -23.866382
+            ],
+            [
+              148.886578,
+              -23.866459
+            ],
+            [
+              148.885218,
+              -23.865216
+            ],
+            [
+              148.873548,
+              -23.865208
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B7",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-07 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1771 - Sirius Creek - area 76.1 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1771 - Sirius Creek",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.800159,
+              -23.937969
+            ],
+            [
+              148.804945,
+              -23.945914
+            ],
+            [
+              148.81186,
+              -23.942395
+            ],
+            [
+              148.808025,
+              -23.936042
+            ],
+            [
+              148.80745,
+              -23.936188
+            ],
+            [
+              148.806546,
+              -23.936178
+            ],
+            [
+              148.805679,
+              -23.935937
+            ],
+            [
+              148.804977,
+              -23.935518
+            ],
+            [
+              148.800159,
+              -23.937969
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B8",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-08 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1772 - South Blackwater mine - area 0.78 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1772 - South Blackwater mine",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.808733,
+              -23.93072
+            ],
+            [
+              148.816926,
+              -23.926541
+            ],
+            [
+              148.819843,
+              -23.926869
+            ],
+            [
+              148.820552,
+              -23.926949
+            ],
+            [
+              148.821374,
+              -23.927042
+            ],
+            [
+              148.821963,
+              -23.92711
+            ],
+            [
+              148.827361,
+              -23.935894
+            ],
+            [
+              148.830374,
+              -23.940796
+            ],
+            [
+              148.832767,
+              -23.949608
+            ],
+            [
+              148.833174,
+              -23.951106
+            ],
+            [
+              148.836912,
+              -23.950246
+            ],
+            [
+              148.837418,
+              -23.952099
+            ],
+            [
+              148.846765,
+              -23.949947
+            ],
+            [
+              148.857197,
+              -23.947544
+            ],
+            [
+              148.859433,
+              -23.935876
+            ],
+            [
+              148.851808,
+              -23.907835
+            ],
+            [
+              148.815519,
+              -23.916169
+            ],
+            [
+              148.814789,
+              -23.916337
+            ],
+            [
+              148.808733,
+              -23.93072
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B9",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-09 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1773 - Laleham - area 14.9 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1773 - Laleham",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.800159,
+              -23.937969
+            ],
+            [
+              148.804977,
+              -23.935518
+            ],
+            [
+              148.805679,
+              -23.935937
+            ],
+            [
+              148.806546,
+              -23.936178
+            ],
+            [
+              148.80745,
+              -23.936188
+            ],
+            [
+              148.808025,
+              -23.936042
+            ],
+            [
+              148.805736,
+              -23.932248
+            ],
+            [
+              148.808733,
+              -23.93072
+            ],
+            [
+              148.814789,
+              -23.916337
+            ],
+            [
+              148.815519,
+              -23.916169
+            ],
+            [
+              148.851808,
+              -23.907835
+            ],
+            [
+              148.859433,
+              -23.935876
+            ],
+            [
+              148.860343,
+              -23.936024
+            ],
+            [
+              148.873547,
+              -23.867102
+            ],
+            [
+              148.866307,
+              -23.868702
+            ],
+            [
+              148.863464,
+              -23.867746
+            ],
+            [
+              148.862962,
+              -23.867352
+            ],
+            [
+              148.862453,
+              -23.866952
+            ],
+            [
+              148.849224,
+              -23.866945
+            ],
+            [
+              148.836267,
+              -23.879878
+            ],
+            [
+              148.817707,
+              -23.898399
+            ],
+            [
+              148.815853,
+              -23.902579
+            ],
+            [
+              148.809922,
+              -23.915956
+            ],
+            [
+              148.800159,
+              -23.937969
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B10",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-10 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1792 - Terang - area 24.1 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1792 - Terang",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.835721,
+              -23.83387
+            ],
+            [
+              148.8357,
+              -23.836937
+            ],
+            [
+              148.838234,
+              -23.840268
+            ],
+            [
+              148.842694,
+              -23.840268
+            ],
+            [
+              148.843487,
+              -23.839319
+            ],
+            [
+              148.846743,
+              -23.833659
+            ],
+            [
+              148.848609,
+              -23.833661
+            ],
+            [
+              148.850234,
+              -23.835719
+            ],
+            [
+              148.850235,
+              -23.820389
+            ],
+            [
+              148.85024,
+              -23.816056
+            ],
+            [
+              148.844865,
+              -23.822389
+            ],
+            [
+              148.844865,
+              -23.824195
+            ],
+            [
+              148.835721,
+              -23.83387
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B11",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-11 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1800 - Wilpeena mining lease - area 2 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1800 - Wilpeena mining lease",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.802647,
+              -23.913229
+            ],
+            [
+              148.809922,
+              -23.915956
+            ],
+            [
+              148.815853,
+              -23.902579
+            ],
+            [
+              148.808579,
+              -23.899852
+            ],
+            [
+              148.802647,
+              -23.913229
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B12",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-12 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1812 - Terang No2 - area 1.3 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1812 - Terang No2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.818354,
+              -23.973026
+            ],
+            [
+              148.818084,
+              -23.980244
+            ],
+            [
+              148.822013,
+              -23.980368
+            ],
+            [
+              148.822282,
+              -23.97315
+            ],
+            [
+              148.818354,
+              -23.973026
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B13",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-13 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1829 - Togara - area 0.3 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1829 - Togara",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.833174,
+              -23.951106
+            ],
+            [
+              148.835343,
+              -23.95909
+            ],
+            [
+              148.842293,
+              -23.984667
+            ],
+            [
+              148.851028,
+              -23.984356
+            ],
+            [
+              148.860343,
+              -23.936024
+            ],
+            [
+              148.859433,
+              -23.935876
+            ],
+            [
+              148.857197,
+              -23.947544
+            ],
+            [
+              148.846765,
+              -23.949947
+            ],
+            [
+              148.837418,
+              -23.952099
+            ],
+            [
+              148.836912,
+              -23.950246
+            ],
+            [
+              148.833174,
+              -23.951106
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B14",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-14 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1860 - Togara No 2 - area 6.7 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1860 - Togara No 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.8357,
+              -23.836937
+            ],
+            [
+              148.835687,
+              -23.841628
+            ],
+            [
+              148.836041,
+              -23.862917
+            ],
+            [
+              148.836267,
+              -23.879878
+            ],
+            [
+              148.849224,
+              -23.866945
+            ],
+            [
+              148.862453,
+              -23.866952
+            ],
+            [
+              148.862962,
+              -23.867352
+            ],
+            [
+              148.863464,
+              -23.867746
+            ],
+            [
+              148.866307,
+              -23.868702
+            ],
+            [
+              148.873547,
+              -23.867102
+            ],
+            [
+              148.873548,
+              -23.865208
+            ],
+            [
+              148.863484,
+              -23.865195
+            ],
+            [
+              148.862876,
+              -23.865206
+            ],
+            [
+              148.86023,
+              -23.865204
+            ],
+            [
+              148.850743,
+              -23.865196
+            ],
+            [
+              148.850233,
+              -23.842669
+            ],
+            [
+              148.850233,
+              -23.842176
+            ],
+            [
+              148.850234,
+              -23.835719
+            ],
+            [
+              148.848609,
+              -23.833661
+            ],
+            [
+              148.846743,
+              -23.833659
+            ],
+            [
+              148.843487,
+              -23.839319
+            ],
+            [
+              148.842694,
+              -23.840268
+            ],
+            [
+              148.838234,
+              -23.840268
+            ],
+            [
+              148.8357,
+              -23.836937
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B15",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-15 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1862 - Mimosa - area 6.4 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1862 - Mimosa",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.809871,
+              -23.992105
+            ],
+            [
+              148.810073,
+              -24.007271
+            ],
+            [
+              148.841519,
+              -24.006908
+            ],
+            [
+              148.846642,
+              -24.006847
+            ],
+            [
+              148.847775,
+              -24.000981
+            ],
+            [
+              148.851028,
+              -23.984356
+            ],
+            [
+              148.842293,
+              -23.984667
+            ],
+            [
+              148.821677,
+              -23.989398
+            ],
+            [
+              148.809871,
+              -23.992105
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B16",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-16 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 1907 - Marshmead - area 8.5 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 1907 - Marshmead",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.80496,
+              -23.904154
+            ],
+            [
+              148.802578,
+              -23.913208
+            ],
+            [
+              148.799142,
+              -23.936417
+            ],
+            [
+              148.805697,
+              -23.947285
+            ],
+            [
+              148.809444,
+              -23.945408
+            ],
+            [
+              148.817019,
+              -23.953057
+            ],
+            [
+              148.817346,
+              -23.975969
+            ],
+            [
+              148.812017,
+              -23.976032
+            ],
+            [
+              148.812097,
+              -23.981614
+            ],
+            [
+              148.801106,
+              -23.981744
+            ],
+            [
+              148.801113,
+              -24.007376
+            ],
+            [
+              148.810073,
+              -24.007271
+            ],
+            [
+              148.809871,
+              -23.992105
+            ],
+            [
+              148.821677,
+              -23.989398
+            ],
+            [
+              148.822013,
+              -23.980368
+            ],
+            [
+              148.818084,
+              -23.980244
+            ],
+            [
+              148.818354,
+              -23.973026
+            ],
+            [
+              148.822282,
+              -23.97315
+            ],
+            [
+              148.822559,
+              -23.965721
+            ],
+            [
+              148.819522,
+              -23.955086
+            ],
+            [
+              148.81186,
+              -23.942395
+            ],
+            [
+              148.804945,
+              -23.945914
+            ],
+            [
+              148.800159,
+              -23.937969
+            ],
+            [
+              148.809922,
+              -23.915956
+            ],
+            [
+              148.802647,
+              -23.913229
+            ],
+            [
+              148.808579,
+              -23.899852
+            ],
+            [
+              148.815853,
+              -23.902579
+            ],
+            [
+              148.817707,
+              -23.898399
+            ],
+            [
+              148.836267,
+              -23.879878
+            ],
+            [
+              148.806111,
+              -23.901031
+            ],
+            [
+              148.80496,
+              -23.904154
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B17",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-17 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 70091 - Western - area 8.1 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 70091 - Western",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.831241,
+              -23.83698
+            ],
+            [
+              148.8357,
+              -23.836937
+            ],
+            [
+              148.835721,
+              -23.83387
+            ],
+            [
+              148.844865,
+              -23.824195
+            ],
+            [
+              148.844865,
+              -23.822389
+            ],
+            [
+              148.85024,
+              -23.816056
+            ],
+            [
+              148.850249,
+              -23.806671
+            ],
+            [
+              148.831241,
+              -23.83698
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B18",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-18 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 70103 - Wilpeena West - area 1.4 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 70103 - Wilpeena West",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.770298,
+              -23.747988
+            ],
+            [
+              148.773743,
+              -23.752328
+            ],
+            [
+              148.775138,
+              -23.751836
+            ],
+            [
+              148.777383,
+              -23.751043
+            ],
+            [
+              148.79323,
+              -23.748483
+            ],
+            [
+              148.793368,
+              -23.748451
+            ],
+            [
+              148.791154,
+              -23.746264
+            ],
+            [
+              148.787455,
+              -23.732589
+            ],
+            [
+              148.782263,
+              -23.733873
+            ],
+            [
+              148.770298,
+              -23.747988
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B19",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-19 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 70104 - Sugarloaf - area 2.8 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 70104 - Sugarloaf",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.801113,
+              -24.007376
+            ],
+            [
+              148.801221,
+              -24.015097
+            ],
+            [
+              148.801401,
+              -24.02817
+            ],
+            [
+              148.84181,
+              -24.027682
+            ],
+            [
+              148.841519,
+              -24.006908
+            ],
+            [
+              148.810073,
+              -24.007271
+            ],
+            [
+              148.801113,
+              -24.007376
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B20",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-20 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 70139 - South Marshmead - area 9.5 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 70139 - South Marshmead",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.733607,
+              -24.015097
+            ],
+            [
+              148.734279,
+              -24.0651
+            ],
+            [
+              148.801917,
+              -24.065099
+            ],
+            [
+              148.801401,
+              -24.02817
+            ],
+            [
+              148.801221,
+              -24.015097
+            ],
+            [
+              148.785966,
+              -24.015097
+            ],
+            [
+              148.784819,
+              -24.016299
+            ],
+            [
+              148.780135,
+              -24.019817
+            ],
+            [
+              148.777585,
+              -24.020948
+            ],
+            [
+              148.771394,
+              -24.016052
+            ],
+            [
+              148.767822,
+              -24.015097
+            ],
+            [
+              148.751102,
+              -24.015097
+            ],
+            [
+              148.734435,
+              -24.015097
+            ],
+            [
+              148.733607,
+              -24.015097
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B21",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-21 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 70167 - Humboldt - area 37.6 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 70167 - Humboldt",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.775138,
+              -23.751836
+            ],
+            [
+              148.775324,
+              -23.765443
+            ],
+            [
+              148.803304,
+              -23.757347
+            ],
+            [
+              148.801244,
+              -23.756229
+            ],
+            [
+              148.79383,
+              -23.748907
+            ],
+            [
+              148.793368,
+              -23.748451
+            ],
+            [
+              148.79323,
+              -23.748483
+            ],
+            [
+              148.777383,
+              -23.751043
+            ],
+            [
+              148.775138,
+              -23.751836
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0011.B22",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-12-22 00:00:00",
+        "notes": "Mine boundary subcomponent - mining lease ML 70329 - Comet - area 3.3 sq km. Section 1.1 on page 1 and figure 1 on page 2 of the Blackwater Mine - North Extension Project Land Resources Assessment Report from 12/2023 https://web.archive.org/web/20250401110948/https://whitehavencoal.com.au/wp-content/uploads/2024/03/BWM-North-Extension-Project-\u2013-EA-Amendment-Application-\u2013-Appendix-A.pdf describe the mines' leases.  Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "ML 70329 - Comet",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0011",
+        "Owners": "Whitehaven Coal Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Whitehaven Coal Ltd [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Blackwater_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Blackwater Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 06, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.440015,
+              -21.869309
+            ],
+            [
+              148.44022,
+              -21.869218
+            ],
+            [
+              148.440929,
+              -21.868971
+            ],
+            [
+              148.4419,
+              -21.868717
+            ],
+            [
+              148.442891,
+              -21.868539
+            ],
+            [
+              148.443914,
+              -21.868436
+            ],
+            [
+              148.444942,
+              -21.868412
+            ],
+            [
+              148.445929,
+              -21.868471
+            ],
+            [
+              148.446928,
+              -21.868606
+            ],
+            [
+              148.447665,
+              -21.868766
+            ],
+            [
+              148.447908,
+              -21.868828
+            ],
+            [
+              148.449026,
+              -21.869153
+            ],
+            [
+              148.452042,
+              -21.870081
+            ],
+            [
+              148.453143,
+              -21.87041
+            ],
+            [
+              148.454065,
+              -21.870662
+            ],
+            [
+              148.455041,
+              -21.870869
+            ],
+            [
+              148.456003,
+              -21.871044
+            ],
+            [
+              148.456973,
+              -21.871182
+            ],
+            [
+              148.457947,
+              -21.871282
+            ],
+            [
+              148.458926,
+              -21.871346
+            ],
+            [
+              148.459906,
+              -21.871372
+            ],
+            [
+              148.460886,
+              -21.87136
+            ],
+            [
+              148.461866,
+              -21.871311
+            ],
+            [
+              148.462842,
+              -21.871225
+            ],
+            [
+              148.463814,
+              -21.871102
+            ],
+            [
+              148.464779,
+              -21.870941
+            ],
+            [
+              148.465736,
+              -21.870745
+            ],
+            [
+              148.466685,
+              -21.870511
+            ],
+            [
+              148.467622,
+              -21.870242
+            ],
+            [
+              148.468546,
+              -21.869937
+            ],
+            [
+              148.469625,
+              -21.869539
+            ],
+            [
+              148.48443,
+              -21.863953
+            ],
+            [
+              148.484431,
+              -21.861752
+            ],
+            [
+              148.484163,
+              -21.861719
+            ],
+            [
+              148.482058,
+              -21.861425
+            ],
+            [
+              148.479686,
+              -21.861207
+            ],
+            [
+              148.479376,
+              -21.830665
+            ],
+            [
+              148.479376,
+              -21.830665
+            ],
+            [
+              148.479343,
+              -21.827409
+            ],
+            [
+              148.468103,
+              -21.827403
+            ],
+            [
+              148.461125,
+              -21.8274
+            ],
+            [
+              148.456864,
+              -21.827398
+            ],
+            [
+              148.445625,
+              -21.827392
+            ],
+            [
+              148.434422,
+              -21.827387
+            ],
+            [
+              148.434422,
+              -21.831061
+            ],
+            [
+              148.401497,
+              -21.831348
+            ],
+            [
+              148.401256,
+              -21.833158
+            ],
+            [
+              148.39872,
+              -21.852261
+            ],
+            [
+              148.398642,
+              -21.852806
+            ],
+            [
+              148.398027,
+              -21.858025
+            ],
+            [
+              148.397805,
+              -21.859973
+            ],
+            [
+              148.397002,
+              -21.866797
+            ],
+            [
+              148.396735,
+              -21.868798
+            ],
+            [
+              148.414149,
+              -21.868648
+            ],
+            [
+              148.414285,
+              -21.882341
+            ],
+            [
+              148.414907,
+              -21.88202
+            ],
+            [
+              148.415151,
+              -21.881975
+            ],
+            [
+              148.416237,
+              -21.88143
+            ],
+            [
+              148.416689,
+              -21.881121
+            ],
+            [
+              148.419981,
+              -21.87947
+            ],
+            [
+              148.420713,
+              -21.879172
+            ],
+            [
+              148.421601,
+              -21.878711
+            ],
+            [
+              148.422842,
+              -21.877993
+            ],
+            [
+              148.424809,
+              -21.876971
+            ],
+            [
+              148.426271,
+              -21.876211
+            ],
+            [
+              148.428398,
+              -21.875135
+            ],
+            [
+              148.429937,
+              -21.874373
+            ],
+            [
+              148.432408,
+              -21.873114
+            ],
+            [
+              148.434566,
+              -21.872014
+            ],
+            [
+              148.43672,
+              -21.870916
+            ],
+            [
+              148.437915,
+              -21.870243
+            ],
+            [
+              148.438421,
+              -21.870006
+            ],
+            [
+              148.439476,
+              -21.869585
+            ],
+            [
+              148.440015,
+              -21.869309
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2347.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2022-02-01 00:00:00",
+        "notes": "Coppabella mine is part of the Coppabella Moorvale Joint Venture (CMJV). From the Technical Report Summary Coppabella-Moorvale Joint Venture (CMJV) from 2/2022, https://web.archive.org/web/20230523200452/https://www.sec.gov/Archives/edgar/data/1064728/000106472822000008/btu_20211231xex964.htm, the table in section 1.2 Property Description lists mining leases for Coppabella mine as follows: ML 70161 (Johnson); ML 70163 (Johnson Extended); ML 70164 (Johnson Extended No. 2); ML 70236 (Coppabella East); ML 70237 (Coppabella South); ML 70384 (Johnson Extended No. 3); ML 70385 (Johnson Extended No. 4); ML 70386 (Johnson Extended No. 5); ML 70387 (Johnson Extended No. 6). Note that mining leases ML 70236 (Coppabella East) and ML 70237 (Coppabella South) both expired 2023. The boundary includes all nine mining leases above and has an area of approximately 39 sq km. Mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "Coppabella mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2347",
+        "Owners": "Coppabella and Moorvale Joint Venture (CMJV) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy [73.3%]; CITIC Australia Coppabella [14.0%]; Marubeni Corporation [7.0%]; KC Resources [3.7%]; NS Coal [2.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Coppabella_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Coppabella Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.412859,
+          -21.861782
+        ]
+      },
+      "properties": {
+        "id": "M2347.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2024-06-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Coal processing plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2347",
+        "Owners": "Coppabella and Moorvale Joint Venture (CMJV) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Peabody Energy [73.3%]; CITIC Australia Coppabella [14.0%]; Marubeni Corporation [7.0%]; KC Resources [3.7%]; NS Coal [2.0%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Coppabella_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Coppabella Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

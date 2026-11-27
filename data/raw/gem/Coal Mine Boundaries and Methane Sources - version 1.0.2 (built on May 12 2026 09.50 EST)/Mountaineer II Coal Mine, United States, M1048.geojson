@@ -1,0 +1,905 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.777707,
+              37.949923
+            ],
+            [
+              -81.782592,
+              37.950711
+            ],
+            [
+              -81.784463,
+              37.949472
+            ],
+            [
+              -81.784525,
+              37.949063
+            ],
+            [
+              -81.793614,
+              37.949724
+            ],
+            [
+              -81.795325,
+              37.940946
+            ],
+            [
+              -81.795601,
+              37.941021
+            ],
+            [
+              -81.795918,
+              37.940445
+            ],
+            [
+              -81.808291,
+              37.946214
+            ],
+            [
+              -81.808806,
+              37.945584
+            ],
+            [
+              -81.809025,
+              37.945695
+            ],
+            [
+              -81.811489,
+              37.942256
+            ],
+            [
+              -81.808349,
+              37.940655
+            ],
+            [
+              -81.808619,
+              37.940015
+            ],
+            [
+              -81.808391,
+              37.9399
+            ],
+            [
+              -81.810034,
+              37.937929
+            ],
+            [
+              -81.807781,
+              37.936783
+            ],
+            [
+              -81.807927,
+              37.936594
+            ],
+            [
+              -81.804657,
+              37.934953
+            ],
+            [
+              -81.804515,
+              37.935123
+            ],
+            [
+              -81.779323,
+              37.922313
+            ],
+            [
+              -81.779622,
+              37.921733
+            ],
+            [
+              -81.80743,
+              37.931138
+            ],
+            [
+              -81.806549,
+              37.932758
+            ],
+            [
+              -81.807388,
+              37.933054
+            ],
+            [
+              -81.80832,
+              37.931438
+            ],
+            [
+              -81.809854,
+              37.931956
+            ],
+            [
+              -81.809731,
+              37.932199
+            ],
+            [
+              -81.811107,
+              37.932626
+            ],
+            [
+              -81.811178,
+              37.932416
+            ],
+            [
+              -81.815319,
+              37.933835
+            ],
+            [
+              -81.818905,
+              37.930457
+            ],
+            [
+              -81.819139,
+              37.930004
+            ],
+            [
+              -81.818517,
+              37.929793
+            ],
+            [
+              -81.818849,
+              37.929317
+            ],
+            [
+              -81.818527,
+              37.929208
+            ],
+            [
+              -81.819619,
+              37.927184
+            ],
+            [
+              -81.819943,
+              37.927287
+            ],
+            [
+              -81.820183,
+              37.926842
+            ],
+            [
+              -81.819782,
+              37.926414
+            ],
+            [
+              -81.819872,
+              37.923919
+            ],
+            [
+              -81.820317,
+              37.923892
+            ],
+            [
+              -81.820584,
+              37.923452
+            ],
+            [
+              -81.811779,
+              37.920478
+            ],
+            [
+              -81.81351,
+              37.917535
+            ],
+            [
+              -81.787051,
+              37.908588
+            ],
+            [
+              -81.787256,
+              37.908184
+            ],
+            [
+              -81.786751,
+              37.907811
+            ],
+            [
+              -81.787387,
+              37.908026
+            ],
+            [
+              -81.7875,
+              37.907829
+            ],
+            [
+              -81.797042,
+              37.910902
+            ],
+            [
+              -81.801964,
+              37.912719
+            ],
+            [
+              -81.801692,
+              37.913245
+            ],
+            [
+              -81.802354,
+              37.913547
+            ],
+            [
+              -81.809771,
+              37.916056
+            ],
+            [
+              -81.811012,
+              37.91599
+            ],
+            [
+              -81.810976,
+              37.91523
+            ],
+            [
+              -81.815837,
+              37.915495
+            ],
+            [
+              -81.815824,
+              37.916443
+            ],
+            [
+              -81.81667,
+              37.91694
+            ],
+            [
+              -81.816604,
+              37.917632
+            ],
+            [
+              -81.817045,
+              37.918001
+            ],
+            [
+              -81.817392,
+              37.917862
+            ],
+            [
+              -81.820637,
+              37.919834
+            ],
+            [
+              -81.82189,
+              37.918545
+            ],
+            [
+              -81.82359,
+              37.919577
+            ],
+            [
+              -81.823399,
+              37.919769
+            ],
+            [
+              -81.823877,
+              37.92007
+            ],
+            [
+              -81.818576,
+              37.933041
+            ],
+            [
+              -81.822796,
+              37.934127
+            ],
+            [
+              -81.827618,
+              37.922334
+            ],
+            [
+              -81.828097,
+              37.922625
+            ],
+            [
+              -81.828267,
+              37.922105
+            ],
+            [
+              -81.82855,
+              37.922281
+            ],
+            [
+              -81.829558,
+              37.921266
+            ],
+            [
+              -81.823724,
+              37.917727
+            ],
+            [
+              -81.825139,
+              37.916264
+            ],
+            [
+              -81.822136,
+              37.91433
+            ],
+            [
+              -81.821318,
+              37.913943
+            ],
+            [
+              -81.820118,
+              37.915508
+            ],
+            [
+              -81.817619,
+              37.913973
+            ],
+            [
+              -81.817017,
+              37.913942
+            ],
+            [
+              -81.817405,
+              37.913512
+            ],
+            [
+              -81.817183,
+              37.91338
+            ],
+            [
+              -81.819481,
+              37.910896
+            ],
+            [
+              -81.818394,
+              37.910255
+            ],
+            [
+              -81.820259,
+              37.908242
+            ],
+            [
+              -81.818441,
+              37.907201
+            ],
+            [
+              -81.818594,
+              37.906997
+            ],
+            [
+              -81.816658,
+              37.905552
+            ],
+            [
+              -81.816282,
+              37.905958
+            ],
+            [
+              -81.814228,
+              37.904778
+            ],
+            [
+              -81.816809,
+              37.90199
+            ],
+            [
+              -81.813272,
+              37.899947
+            ],
+            [
+              -81.814641,
+              37.89846
+            ],
+            [
+              -81.811795,
+              37.896808
+            ],
+            [
+              -81.812089,
+              37.89647
+            ],
+            [
+              -81.811826,
+              37.896139
+            ],
+            [
+              -81.826537,
+              37.893367
+            ],
+            [
+              -81.826907,
+              37.893542
+            ],
+            [
+              -81.837544,
+              37.891985
+            ],
+            [
+              -81.840161,
+              37.902144
+            ],
+            [
+              -81.839632,
+              37.902439
+            ],
+            [
+              -81.840572,
+              37.906376
+            ],
+            [
+              -81.84142,
+              37.906277
+            ],
+            [
+              -81.841446,
+              37.906469
+            ],
+            [
+              -81.841951,
+              37.906202
+            ],
+            [
+              -81.842043,
+              37.906589
+            ],
+            [
+              -81.842314,
+              37.906531
+            ],
+            [
+              -81.841952,
+              37.904705
+            ],
+            [
+              -81.842425,
+              37.904625
+            ],
+            [
+              -81.842189,
+              37.903434
+            ],
+            [
+              -81.841681,
+              37.903521
+            ],
+            [
+              -81.8416,
+              37.903178
+            ],
+            [
+              -81.850098,
+              37.901912
+            ],
+            [
+              -81.849155,
+              37.897897
+            ],
+            [
+              -81.848831,
+              37.897939
+            ],
+            [
+              -81.848521,
+              37.89662
+            ],
+            [
+              -81.848213,
+              37.89647
+            ],
+            [
+              -81.84347,
+              37.897154
+            ],
+            [
+              -81.843392,
+              37.896769
+            ],
+            [
+              -81.84014,
+              37.896868
+            ],
+            [
+              -81.838506,
+              37.891063
+            ],
+            [
+              -81.837482,
+              37.89068
+            ],
+            [
+              -81.827459,
+              37.892155
+            ],
+            [
+              -81.825913,
+              37.892459
+            ],
+            [
+              -81.825967,
+              37.892661
+            ],
+            [
+              -81.807111,
+              37.896211
+            ],
+            [
+              -81.80583,
+              37.895484
+            ],
+            [
+              -81.810363,
+              37.88762
+            ],
+            [
+              -81.810874,
+              37.887808
+            ],
+            [
+              -81.811393,
+              37.886809
+            ],
+            [
+              -81.813871,
+              37.885208
+            ],
+            [
+              -81.813518,
+              37.884871
+            ],
+            [
+              -81.816867,
+              37.882772
+            ],
+            [
+              -81.817948,
+              37.882572
+            ],
+            [
+              -81.817846,
+              37.882153
+            ],
+            [
+              -81.828205,
+              37.875963
+            ],
+            [
+              -81.82612,
+              37.874206
+            ],
+            [
+              -81.825175,
+              37.874394
+            ],
+            [
+              -81.826544,
+              37.875817
+            ],
+            [
+              -81.813483,
+              37.883976
+            ],
+            [
+              -81.812791,
+              37.883861
+            ],
+            [
+              -81.812095,
+              37.883159
+            ],
+            [
+              -81.811646,
+              37.883244
+            ],
+            [
+              -81.812037,
+              37.882728
+            ],
+            [
+              -81.812356,
+              37.883048
+            ],
+            [
+              -81.824314,
+              37.875571
+            ],
+            [
+              -81.823041,
+              37.874985
+            ],
+            [
+              -81.811052,
+              37.882558
+            ],
+            [
+              -81.810666,
+              37.88215
+            ],
+            [
+              -81.810377,
+              37.882334
+            ],
+            [
+              -81.808818,
+              37.880768
+            ],
+            [
+              -81.807866,
+              37.881123
+            ],
+            [
+              -81.806439,
+              37.879688
+            ],
+            [
+              -81.806314,
+              37.88002
+            ],
+            [
+              -81.804148,
+              37.881152
+            ],
+            [
+              -81.805379,
+              37.881669
+            ],
+            [
+              -81.806111,
+              37.881228
+            ],
+            [
+              -81.806417,
+              37.881537
+            ],
+            [
+              -81.801129,
+              37.884654
+            ],
+            [
+              -81.807152,
+              37.890635
+            ],
+            [
+              -81.806723,
+              37.892004
+            ],
+            [
+              -81.806985,
+              37.892102
+            ],
+            [
+              -81.804571,
+              37.896574
+            ],
+            [
+              -81.789777,
+              37.899313
+            ],
+            [
+              -81.787156,
+              37.9016
+            ],
+            [
+              -81.787382,
+              37.901758
+            ],
+            [
+              -81.786323,
+              37.902704
+            ],
+            [
+              -81.772463,
+              37.928771
+            ],
+            [
+              -81.774069,
+              37.929601
+            ],
+            [
+              -81.774523,
+              37.93009
+            ],
+            [
+              -81.774106,
+              37.930631
+            ],
+            [
+              -81.774765,
+              37.931882
+            ],
+            [
+              -81.776013,
+              37.932516
+            ],
+            [
+              -81.775525,
+              37.935895
+            ],
+            [
+              -81.776088,
+              37.936228
+            ],
+            [
+              -81.776263,
+              37.937668
+            ],
+            [
+              -81.777227,
+              37.937763
+            ],
+            [
+              -81.776811,
+              37.939378
+            ],
+            [
+              -81.777163,
+              37.939998
+            ],
+            [
+              -81.776308,
+              37.943576
+            ],
+            [
+              -81.778781,
+              37.94398
+            ],
+            [
+              -81.780479,
+              37.937386
+            ],
+            [
+              -81.779957,
+              37.937043
+            ],
+            [
+              -81.780291,
+              37.935749
+            ],
+            [
+              -81.780729,
+              37.934578
+            ],
+            [
+              -81.781497,
+              37.933637
+            ],
+            [
+              -81.784636,
+              37.935212
+            ],
+            [
+              -81.781554,
+              37.93384
+            ],
+            [
+              -81.780838,
+              37.934735
+            ],
+            [
+              -81.781159,
+              37.935232
+            ],
+            [
+              -81.78077,
+              37.93678
+            ],
+            [
+              -81.781036,
+              37.936825
+            ],
+            [
+              -81.777707,
+              37.949923
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1048.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "Unclear - according to https://web.archive.org/web/2/https://www.wvgs.wvnet.edu/www/coal/cbmp/coalims.html, \"Updates to the data set occur as new data becomes available.\"'",
+        "notes": "The boundary is the complex underground mining area polygon extracted from the West Virginia Geological and Economic Survey (WVGES) resource at https://web.archive.org/web/2/https://atlas.wvgs.wvnet.edu/arcgis/rest/services/Coal_Web_Mercator/All_Mining_WM/MapServer. This resource was filtered for mine_name containing MOUNTAINEER II ALMA MINE. The polygon was deholed and simplified using distance-based simplification with a tolerance of 25m.  The area of the final boundary is 19 sq km. The mine mines the Powellton seam.\n\nImportant note: the following mine boundaries overlap the mine boundary and care should be taken when attempting methane source attribution: COALBURG NO 3 (Little_Coalburg seam), JEAN (Winifrede seam), BUFFALO NO 11 (Winifrede seam), MINGO-LOGAN MOUNTAINEER II  CG MINE (Number_2_Gas seam), ROBIN NO 2 (Upper_5_Block seam), GUT FORK (Fire_Clay seam), BETTY (Fire_Clay seam), NO 6 (Fire_Clay seam), ROBIN NO 1 (Fire_Clay seam), HOLDRED COLLIERIES (Fire_Clay seam), BOONE COUNTY COAL NO 1 (Fire_Clay seam), BOONE COUNTY COAL NO 9 (Fire_Clay seam), BEND BRANCH NO 3 (Fire_Clay seam), BEND BRANCH NO 4 (Fire_Clay seam)",
+        "description": "Mountaineer II coal mine detailed underground mining area boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1048",
+        "Owners": "Mingo Logan Coal LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mountaineer_II_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Mountaineer II Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Sep 18, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.789453,
+          37.903103
+        ]
+      },
+      "properties": {
+        "id": "M1048.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1048",
+        "Owners": "Mingo Logan Coal LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mountaineer_II_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Mountaineer II Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Sep 18, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.826293,
+          37.876963
+        ]
+      },
+      "properties": {
+        "id": "M1048.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1048",
+        "Owners": "Mingo Logan Coal LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mountaineer_II_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Mountaineer II Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Sep 18, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.787171,
+          37.902393
+        ]
+      },
+      "properties": {
+        "id": "M1048.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-04-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1048",
+        "Owners": "Mingo Logan Coal LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Core Natural Resources Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Mountaineer_II_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Mountaineer II Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Sep 18, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

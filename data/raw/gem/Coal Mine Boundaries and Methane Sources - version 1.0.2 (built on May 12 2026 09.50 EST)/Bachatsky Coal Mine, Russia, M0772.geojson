@@ -1,0 +1,677 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.126228,
+              54.326551
+            ],
+            [
+              86.122398,
+              54.32737
+            ],
+            [
+              86.112265,
+              54.331579
+            ],
+            [
+              86.104877,
+              54.330492
+            ],
+            [
+              86.093907,
+              54.327665
+            ],
+            [
+              86.089826,
+              54.325057
+            ],
+            [
+              86.087874,
+              54.314813
+            ],
+            [
+              86.089653,
+              54.311605
+            ],
+            [
+              86.097795,
+              54.309057
+            ],
+            [
+              86.107107,
+              54.309063
+            ],
+            [
+              86.106862,
+              54.307252
+            ],
+            [
+              86.112345,
+              54.305631
+            ],
+            [
+              86.118106,
+              54.288905
+            ],
+            [
+              86.125921,
+              54.285974
+            ],
+            [
+              86.132953,
+              54.281311
+            ],
+            [
+              86.131127,
+              54.28017
+            ],
+            [
+              86.122507,
+              54.277156
+            ],
+            [
+              86.117527,
+              54.274626
+            ],
+            [
+              86.109643,
+              54.268161
+            ],
+            [
+              86.100439,
+              54.256672
+            ],
+            [
+              86.101855,
+              54.249818
+            ],
+            [
+              86.103938,
+              54.247832
+            ],
+            [
+              86.112936,
+              54.242319
+            ],
+            [
+              86.120129,
+              54.236951
+            ],
+            [
+              86.129836,
+              54.234421
+            ],
+            [
+              86.146066,
+              54.230881
+            ],
+            [
+              86.154207,
+              54.231658
+            ],
+            [
+              86.158322,
+              54.23381
+            ],
+            [
+              86.160242,
+              54.231914
+            ],
+            [
+              86.173974,
+              54.232029
+            ],
+            [
+              86.174859,
+              54.232899
+            ],
+            [
+              86.169413,
+              54.234821
+            ],
+            [
+              86.180688,
+              54.24846
+            ],
+            [
+              86.178344,
+              54.250346
+            ],
+            [
+              86.184461,
+              54.250265
+            ],
+            [
+              86.198946,
+              54.241479
+            ],
+            [
+              86.208975,
+              54.242218
+            ],
+            [
+              86.213403,
+              54.245862
+            ],
+            [
+              86.209592,
+              54.24988
+            ],
+            [
+              86.205797,
+              54.250814
+            ],
+            [
+              86.20371,
+              54.25431
+            ],
+            [
+              86.197767,
+              54.264058
+            ],
+            [
+              86.198535,
+              54.269659
+            ],
+            [
+              86.200416,
+              54.272678
+            ],
+            [
+              86.200782,
+              54.275656
+            ],
+            [
+              86.199021,
+              54.279775
+            ],
+            [
+              86.197181,
+              54.281687
+            ],
+            [
+              86.201555,
+              54.282318
+            ],
+            [
+              86.204805,
+              54.281739
+            ],
+            [
+              86.210922,
+              54.282663
+            ],
+            [
+              86.209721,
+              54.302356
+            ],
+            [
+              86.207829,
+              54.306916
+            ],
+            [
+              86.202465,
+              54.310219
+            ],
+            [
+              86.192026,
+              54.313241
+            ],
+            [
+              86.202693,
+              54.315172
+            ],
+            [
+              86.219909,
+              54.31935
+            ],
+            [
+              86.220435,
+              54.320009
+            ],
+            [
+              86.223769,
+              54.320666
+            ],
+            [
+              86.224322,
+              54.322338
+            ],
+            [
+              86.201355,
+              54.334769
+            ],
+            [
+              86.203635,
+              54.336125
+            ],
+            [
+              86.19826,
+              54.335226
+            ],
+            [
+              86.193374,
+              54.336792
+            ],
+            [
+              86.191263,
+              54.337908
+            ],
+            [
+              86.185696,
+              54.346811
+            ],
+            [
+              86.17898,
+              54.349189
+            ],
+            [
+              86.15555,
+              54.349014
+            ],
+            [
+              86.137301,
+              54.345161
+            ],
+            [
+              86.135615,
+              54.349251
+            ],
+            [
+              86.135242,
+              54.339108
+            ],
+            [
+              86.128505,
+              54.330332
+            ],
+            [
+              86.126228,
+              54.326551
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0772.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2025-04-25 00:00:00",
+        "notes": "The mining boundary was identified in a diagram of the entire Bachatsky coal mine and its operations (see \"40-2019_\u041e\u0412\u041e\u0421 \u043b\u0438\u0441\u0442 1.pdf,\" which is the third PDF in this OBOC document folder: https://web.archive.org/web/20251001145203/https://drive.google.com/drive/folders/1wETjlfn-BJ6invkSzOPoEwKZRKAx8Sf6 ), available along with other Environmental Impact Assessment materials uploaded to the Belovsky City District Administration website (https://web.archive.org/save/https://www.belovo42.ru/documets/2021/07/26/20865-2021-1978.html). The diagram was overlayed in Google Earth Pro and the boundary of the total \"project land allotment\" was extracted manually. The boundary includes the areas of both relevant mining lease boundaries, as well as the processing and handling facility and the adjacent areas used for the mine's waste coal disposal. The approximate area of the total boundary polygon is 73.85 square km.",
+        "description": "Bachatsky Coal Mine total boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0772",
+        "Owners": "Kuzbassrazrezugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Ural Mining and Metallurgical Company OJSC [52.7%]; other unknown/mixed entity types [47.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bachatsky_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bachatsky Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Oct 01, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.12296,
+              54.323163
+            ],
+            [
+              86.122842,
+              54.319408
+            ],
+            [
+              86.127187,
+              54.311766
+            ],
+            [
+              86.131891,
+              54.308015
+            ],
+            [
+              86.120401,
+              54.302545
+            ],
+            [
+              86.123752,
+              54.294048
+            ],
+            [
+              86.134364,
+              54.289329
+            ],
+            [
+              86.136964,
+              54.285412
+            ],
+            [
+              86.150687,
+              54.275286
+            ],
+            [
+              86.156547,
+              54.272496
+            ],
+            [
+              86.16251,
+              54.266084
+            ],
+            [
+              86.168079,
+              54.261062
+            ],
+            [
+              86.175471,
+              54.255338
+            ],
+            [
+              86.185745,
+              54.250295
+            ],
+            [
+              86.187768,
+              54.248875
+            ],
+            [
+              86.189371,
+              54.247475
+            ],
+            [
+              86.193892,
+              54.245181
+            ],
+            [
+              86.196143,
+              54.244501
+            ],
+            [
+              86.200726,
+              54.24323
+            ],
+            [
+              86.210423,
+              54.247145
+            ],
+            [
+              86.206541,
+              54.25067
+            ],
+            [
+              86.203534,
+              54.252763
+            ],
+            [
+              86.200293,
+              54.255563
+            ],
+            [
+              86.19539,
+              54.261035
+            ],
+            [
+              86.191478,
+              54.264774
+            ],
+            [
+              86.189287,
+              54.268928
+            ],
+            [
+              86.185719,
+              54.273391
+            ],
+            [
+              86.182419,
+              54.276665
+            ],
+            [
+              86.178254,
+              54.280712
+            ],
+            [
+              86.173867,
+              54.284212
+            ],
+            [
+              86.16999,
+              54.288146
+            ],
+            [
+              86.165332,
+              54.292082
+            ],
+            [
+              86.161833,
+              54.295194
+            ],
+            [
+              86.158209,
+              54.297122
+            ],
+            [
+              86.154059,
+              54.300728
+            ],
+            [
+              86.152519,
+              54.303605
+            ],
+            [
+              86.149445,
+              54.308897
+            ],
+            [
+              86.147298,
+              54.312584
+            ],
+            [
+              86.143258,
+              54.316607
+            ],
+            [
+              86.132004,
+              54.325993
+            ],
+            [
+              86.124642,
+              54.323508
+            ],
+            [
+              86.12296,
+              54.323163
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0772.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2025-04-25 00:00:00",
+        "notes": "A map of the coal mine's two relevant mining leases (\"\u041a\u0415\u041c 11703 \u0422\u042d \u0438 \u041a\u0415\u041c 01613 \u0422\u0420\") was identified on page 45 of a 2019 project document (https://web.archive.org/save/https://drive.google.com/drive/folders/1uzfs3NsG7h9wc8IA7yLX1fllgc2R1Cbf), available along with other Environmental Impact Assessment materials uploaded to the Belovsky City District Administration website (https://web.archive.org/save/https://www.belovo42.ru/documets/2021/07/26/20865-2021-1978.html). The boundary of mining lease KEM 11703 TE was exactred by overlaying the map in Google Earth Pro. The approximate area of the polygon is 15.76 square km.",
+        "description": "Boundary of mining license KEM 11703 TE",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0772",
+        "Owners": "Kuzbassrazrezugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Ural Mining and Metallurgical Company OJSC [52.7%]; other unknown/mixed entity types [47.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bachatsky_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bachatsky Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Oct 01, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.118065,
+              54.288917
+            ],
+            [
+              86.126258,
+              54.285849
+            ],
+            [
+              86.145625,
+              54.272942
+            ],
+            [
+              86.150069,
+              54.271174
+            ],
+            [
+              86.15234,
+              54.267584
+            ],
+            [
+              86.157177,
+              54.263821
+            ],
+            [
+              86.164216,
+              54.262293
+            ],
+            [
+              86.168095,
+              54.262138
+            ],
+            [
+              86.172233,
+              54.263493
+            ],
+            [
+              86.192898,
+              54.2503
+            ],
+            [
+              86.196503,
+              54.25264
+            ],
+            [
+              86.192406,
+              54.256969
+            ],
+            [
+              86.192293,
+              54.260058
+            ],
+            [
+              86.187427,
+              54.262868
+            ],
+            [
+              86.177938,
+              54.274494
+            ],
+            [
+              86.168645,
+              54.282472
+            ],
+            [
+              86.175653,
+              54.2858
+            ],
+            [
+              86.170942,
+              54.290495
+            ],
+            [
+              86.168409,
+              54.294414
+            ],
+            [
+              86.162995,
+              54.299268
+            ],
+            [
+              86.155288,
+              54.300801
+            ],
+            [
+              86.150453,
+              54.309255
+            ],
+            [
+              86.120848,
+              54.299976
+            ],
+            [
+              86.118065,
+              54.288917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0772.B3",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2025-04-25 00:00:00",
+        "notes": "A map of the coal mine's two relevant mining leases (\"\u041a\u0415\u041c 11703 \u0422\u042d \u0438 \u041a\u0415\u041c 01613 \u0422\u0420\") was identified on page 45 of a 2019 project document https://web.archive.org/save/https://drive.google.com/drive/folders/1uzfs3NsG7h9wc8IA7yLX1fllgc2R1Cbf), available along with other Environmental Impact Assessment materials uploaded to the Belovsky City District Administration website (https://web.archive.org/save/https://www.belovo42.ru/documets/2021/07/26/20865-2021-1978.html). The boundary of mining lease KEM 01613 TR was exactred by overlaying the map in Google Earth Pro. The approximate area of the polygon is 15.76 square km.",
+        "description": "Boundary of mining license KEM 01613 TR",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0772",
+        "Owners": "Kuzbassrazrezugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Ural Mining and Metallurgical Company OJSC [52.7%]; other unknown/mixed entity types [47.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bachatsky_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bachatsky Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Oct 01, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.196484,
+          54.27253
+        ]
+      },
+      "properties": {
+        "id": "M0772.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2025-04-25 00:00:00",
+        "notes": "This coal handling and preparation plant was identified from visual analysis of Google Earth Pro imagery.",
+        "description": "Coal handling and preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0772",
+        "Owners": "Kuzbassrazrezugol JSC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Ural Mining and Metallurgical Company OJSC [52.7%]; other unknown/mixed entity types [47.3%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bachatsky_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Bachatsky Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Oct 01, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

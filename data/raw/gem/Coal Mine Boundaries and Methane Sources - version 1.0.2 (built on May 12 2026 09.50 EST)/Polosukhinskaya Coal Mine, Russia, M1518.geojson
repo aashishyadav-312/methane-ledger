@@ -1,0 +1,685 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.427372,
+              53.925894
+            ],
+            [
+              87.432094,
+              53.928672
+            ],
+            [
+              87.446817,
+              53.938672
+            ],
+            [
+              87.452928,
+              53.942561
+            ],
+            [
+              87.454872,
+              53.94395
+            ],
+            [
+              87.478206,
+              53.959228
+            ],
+            [
+              87.451539,
+              53.974231
+            ],
+            [
+              87.444594,
+              53.972283
+            ],
+            [
+              87.409036,
+              53.963394
+            ],
+            [
+              87.398758,
+              53.957283
+            ],
+            [
+              87.404036,
+              53.953672
+            ],
+            [
+              87.408758,
+              53.950061
+            ],
+            [
+              87.411261,
+              53.948117
+            ],
+            [
+              87.408206,
+              53.94395
+            ],
+            [
+              87.410706,
+              53.941728
+            ],
+            [
+              87.411817,
+              53.940061
+            ],
+            [
+              87.412928,
+              53.937839
+            ],
+            [
+              87.417372,
+              53.934228
+            ],
+            [
+              87.419594,
+              53.932283
+            ],
+            [
+              87.422094,
+              53.929506
+            ],
+            [
+              87.424594,
+              53.926728
+            ],
+            [
+              87.427372,
+              53.925894
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1518.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-11-18 00:00:00",
+        "notes": "The subsoil land-use license relevant to the Polosukhinskaya Coal Mine was identified through the Unified State Register of Legal Entities (\u0415\u0434\u0438\u043d\u044b\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0440\u0435\u0435\u0441\u0442\u0440 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0446), https://web.archive.org/web/20251119034440/https://egrul.nalog.ru/vyp-download/89C80B49EB68556BFB6D1EA172782991051A480E1571012BA93893052F51FEBD733E44BEE290C2DEBB27B53124269E11. The mine operates under subsoil land-use license \u041a\u0415\u041c 13835 \u0422\u042d. The license boundary with geographic coordinates was extracted directly from the NedraExpert portal for license \u041a\u0415\u041c 13835 \u0422\u042d. https://web.archive.org/web/20251119040109/https://www.nedraexpert.ru/license/135670?ysclid=mi52435fhw7462703\nThe license includes two polygons corresponding to the Main Field of the Polosukhinskaya Coal Mine (\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0435 \u043f\u043e\u043b\u0435 \u0448\u0430\u0445\u0442\u044b \u041f\u043e\u043b\u043e\u0441\u0443\u0445\u0438\u043d\u0441\u043a\u0430\u044f) and Antonovsky-3 (\u0410\u043d\u0442\u043e\u043d\u043e\u0432\u0441\u043a\u0438\u0439-3). This polygon represents the Antonovsky-3 (\u0410\u043d\u0442\u043e\u043d\u043e\u0432\u0441\u043a\u0438\u0439-3)\nThe approximate area of this boundary polygon is 15 square km.",
+        "description": "Polosukhinskaya Mine boundary part 1",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.327647,
+              53.912006
+            ],
+            [
+              87.329869,
+              53.909228
+            ],
+            [
+              87.334869,
+              53.901172
+            ],
+            [
+              87.341536,
+              53.892283
+            ],
+            [
+              87.345981,
+              53.893394
+            ],
+            [
+              87.354314,
+              53.890339
+            ],
+            [
+              87.369869,
+              53.893394
+            ],
+            [
+              87.370425,
+              53.892561
+            ],
+            [
+              87.378481,
+              53.893672
+            ],
+            [
+              87.382647,
+              53.892006
+            ],
+            [
+              87.385706,
+              53.894228
+            ],
+            [
+              87.387094,
+              53.900339
+            ],
+            [
+              87.385981,
+              53.905894
+            ],
+            [
+              87.384036,
+              53.917561
+            ],
+            [
+              87.387092,
+              53.919228
+            ],
+            [
+              87.385425,
+              53.924506
+            ],
+            [
+              87.379314,
+              53.932283
+            ],
+            [
+              87.377369,
+              53.933672
+            ],
+            [
+              87.376814,
+              53.936172
+            ],
+            [
+              87.370425,
+              53.939783
+            ],
+            [
+              87.365981,
+              53.936172
+            ],
+            [
+              87.358758,
+              53.936172
+            ],
+            [
+              87.356258,
+              53.937839
+            ],
+            [
+              87.346536,
+              53.937283
+            ],
+            [
+              87.336258,
+              53.933672
+            ],
+            [
+              87.327925,
+              53.927006
+            ],
+            [
+              87.327092,
+              53.920617
+            ],
+            [
+              87.327647,
+              53.912006
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1518.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-11-18 00:00:00",
+        "notes": "The subsoil land-use license relevant to the Polosukhinskaya Coal Mine was identified through the Unified State Register of Legal Entities (\u0415\u0434\u0438\u043d\u044b\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0440\u0435\u0435\u0441\u0442\u0440 \u044e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043b\u0438\u0446), https://web.archive.org/web/20251119034440/https://egrul.nalog.ru/vyp-download/89C80B49EB68556BFB6D1EA172782991051A480E1571012BA93893052F51FEBD733E44BEE290C2DEBB27B53124269E11. The mine operates under subsoil land-use license \u041a\u0415\u041c 13835 \u0422\u042d. The license boundary with geographic coordinates was extracted directly from the NedraExpert portal for license \u041a\u0415\u041c 13835 \u0422\u042d. https://web.archive.org/web/20251119040109/https://www.nedraexpert.ru/license/135670?ysclid=mi52435fhw7462703\nThe license includes two polygons corresponding to the Main Field of the Polosukhinskaya Coal Mine (\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0435 \u043f\u043e\u043b\u0435 \u0448\u0430\u0445\u0442\u044b \u041f\u043e\u043b\u043e\u0441\u0443\u0445\u0438\u043d\u0441\u043a\u0430\u044f) and Antonovsky-3 (\u0410\u043d\u0442\u043e\u043d\u043e\u0432\u0441\u043a\u0438\u0439-3). This polygon represents the Main Field of the Polosukhinskaya Coal Mine (\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0435 \u043f\u043e\u043b\u0435 \u0448\u0430\u0445\u0442\u044b \u041f\u043e\u043b\u043e\u0441\u0443\u0445\u0438\u043d\u0441\u043a\u0430\u044f)\nThe approximate area of this boundary polygon is 17 square km.",
+        "description": "Polosukhinskaya Mine boundary part 2",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.43404,
+          53.968463
+        ]
+      },
+      "properties": {
+        "id": "M1518.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.434104,
+          53.968126
+        ]
+      },
+      "properties": {
+        "id": "M1518.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.433226,
+          53.968334
+        ]
+      },
+      "properties": {
+        "id": "M1518.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.41017,
+          53.962397
+        ]
+      },
+      "properties": {
+        "id": "M1518.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.409593,
+          53.961915
+        ]
+      },
+      "properties": {
+        "id": "M1518.P8",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.41297,
+          53.961118
+        ]
+      },
+      "properties": {
+        "id": "M1518.P9",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.412987,
+          53.959988
+        ]
+      },
+      "properties": {
+        "id": "M1518.P10",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.414942,
+          53.95961
+        ]
+      },
+      "properties": {
+        "id": "M1518.P11",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.415702,
+          53.960261
+        ]
+      },
+      "properties": {
+        "id": "M1518.P12",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.415275,
+          53.959906
+        ]
+      },
+      "properties": {
+        "id": "M1518.P13",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.454185,
+          53.942488
+        ]
+      },
+      "properties": {
+        "id": "M1518.P14",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible gas drainage station with flares",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.326559,
+          53.920985
+        ]
+      },
+      "properties": {
+        "id": "M1518.P15",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-04-04 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible ventilation shaft ",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.405355,
+          53.954073
+        ]
+      },
+      "properties": {
+        "id": "M1518.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.406507,
+          53.952673
+        ]
+      },
+      "properties": {
+        "id": "M1518.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-06-14 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1518",
+        "Owners": "Rusugolholding LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Stirakia Holdings Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Polosukhinskaya_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Polosukhinskaya Coal Mine",
+        "Country / Area": "Russia",
+        "Last researched": "Nov 26, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

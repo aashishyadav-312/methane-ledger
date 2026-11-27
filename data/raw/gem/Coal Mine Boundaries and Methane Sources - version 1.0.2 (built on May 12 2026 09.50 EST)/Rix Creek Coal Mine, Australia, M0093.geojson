@@ -1,0 +1,435 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.104524,
+              -32.485227
+            ],
+            [
+              151.103535,
+              -32.487312
+            ],
+            [
+              151.103769,
+              -32.488647
+            ],
+            [
+              151.106572,
+              -32.490363
+            ],
+            [
+              151.108879,
+              -32.49319
+            ],
+            [
+              151.111462,
+              -32.49611
+            ],
+            [
+              151.111407,
+              -32.498381
+            ],
+            [
+              151.10745,
+              -32.498427
+            ],
+            [
+              151.10723,
+              -32.501485
+            ],
+            [
+              151.103713,
+              -32.501439
+            ],
+            [
+              151.100685,
+              -32.518725
+            ],
+            [
+              151.100685,
+              -32.530693
+            ],
+            [
+              151.107172,
+              -32.531575
+            ],
+            [
+              151.107224,
+              -32.542744
+            ],
+            [
+              151.137264,
+              -32.543068
+            ],
+            [
+              151.140671,
+              -32.533288
+            ],
+            [
+              151.137043,
+              -32.530972
+            ],
+            [
+              151.138087,
+              -32.530416
+            ],
+            [
+              151.139077,
+              -32.530369
+            ],
+            [
+              151.139736,
+              -32.528886
+            ],
+            [
+              151.141221,
+              -32.530508
+            ],
+            [
+              151.143307,
+              -32.521703
+            ],
+            [
+              151.148694,
+              -32.522443
+            ],
+            [
+              151.153036,
+              -32.523044
+            ],
+            [
+              151.153035,
+              -32.521923
+            ],
+            [
+              151.152869,
+              -32.519467
+            ],
+            [
+              151.153253,
+              -32.517567
+            ],
+            [
+              151.153198,
+              -32.51562
+            ],
+            [
+              151.151987,
+              -32.509504
+            ],
+            [
+              151.150777,
+              -32.507697
+            ],
+            [
+              151.154019,
+              -32.508298
+            ],
+            [
+              151.154349,
+              -32.507974
+            ],
+            [
+              151.151546,
+              -32.505287
+            ],
+            [
+              151.150611,
+              -32.503526
+            ],
+            [
+              151.150829,
+              -32.499494
+            ],
+            [
+              151.151708,
+              -32.498428
+            ],
+            [
+              151.150994,
+              -32.497919
+            ],
+            [
+              151.150715,
+              -32.48479
+            ],
+            [
+              151.152912,
+              -32.485021
+            ],
+            [
+              151.154122,
+              -32.487338
+            ],
+            [
+              151.159122,
+              -32.48882
+            ],
+            [
+              151.163357,
+              -32.498689
+            ],
+            [
+              151.166599,
+              -32.499105
+            ],
+            [
+              151.166598,
+              -32.498364
+            ],
+            [
+              151.163576,
+              -32.497484
+            ],
+            [
+              151.160006,
+              -32.488267
+            ],
+            [
+              151.15539,
+              -32.486785
+            ],
+            [
+              151.154731,
+              -32.486368
+            ],
+            [
+              151.153191,
+              -32.483959
+            ],
+            [
+              151.150884,
+              -32.483542
+            ],
+            [
+              151.150938,
+              -32.481688
+            ],
+            [
+              151.160772,
+              -32.481825
+            ],
+            [
+              151.163573,
+              -32.479507
+            ],
+            [
+              151.16368,
+              -32.47529
+            ],
+            [
+              151.165548,
+              -32.474409
+            ],
+            [
+              151.165711,
+              -32.47135
+            ],
+            [
+              151.163733,
+              -32.470099
+            ],
+            [
+              151.163951,
+              -32.465326
+            ],
+            [
+              151.161863,
+              -32.465141
+            ],
+            [
+              151.158511,
+              -32.460694
+            ],
+            [
+              151.157082,
+              -32.459026
+            ],
+            [
+              151.155434,
+              -32.458377
+            ],
+            [
+              151.147141,
+              -32.457128
+            ],
+            [
+              151.146372,
+              -32.456758
+            ],
+            [
+              151.145822,
+              -32.455506
+            ],
+            [
+              151.141373,
+              -32.453931
+            ],
+            [
+              151.14011,
+              -32.454024
+            ],
+            [
+              151.133246,
+              -32.458335
+            ],
+            [
+              151.134351,
+              -32.469479
+            ],
+            [
+              151.133172,
+              -32.469479
+            ],
+            [
+              151.131805,
+              -32.469956
+            ],
+            [
+              151.131758,
+              -32.471149
+            ],
+            [
+              151.132418,
+              -32.472661
+            ],
+            [
+              151.130674,
+              -32.472701
+            ],
+            [
+              151.128646,
+              -32.470951
+            ],
+            [
+              151.128835,
+              -32.469399
+            ],
+            [
+              151.129636,
+              -32.468962
+            ],
+            [
+              151.129306,
+              -32.468604
+            ],
+            [
+              151.127373,
+              -32.468962
+            ],
+            [
+              151.127044,
+              -32.471468
+            ],
+            [
+              151.129731,
+              -32.47286
+            ],
+            [
+              151.129401,
+              -32.473297
+            ],
+            [
+              151.118945,
+              -32.467446
+            ],
+            [
+              151.105158,
+              -32.482427
+            ],
+            [
+              151.104524,
+              -32.485227
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0093.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2025-06-27 00:00:00",
+        "notes": "Table 1 Annual Review title block, on page 2, of Rix\u2019s Creek Mine YEM 2025 Annual Review For period 1 April 2024 - 31 March 2025, published June 27 2025, https://web.archive.org/web/2/https://www.bloomcoll.com.au/uploads/RCM_Annual_Review_YEM-2025_Final.pdf, shows the Rix Creek mine is composed of Rix Creek North and Rix Creek South, with respective project approvals PA 08_0102 and SSD6300 & DA49/94.  The boundaries of these approvals are assumed to be the 'Project Approval Area' shown in Figure 2. YEM 2025 Mining Tenements and Approval Boundaries on page 13, and more clearly visible as the 'Approved Project Area' shown in Figure 7. Rix\u2019s Creek Mine Compliance Environmental Monitoring Locations, on page 37. The mine boundary is the Project Approval Area shown in Figure 2, with an area of 38.1 sq km (3,813 hectares).",
+        "description": "Rix Creek mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0093",
+        "Owners": "Bloomfield Collieries Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Bloomfield Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Rix_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Rix Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 09, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.146355,
+          -32.512083
+        ]
+      },
+      "properties": {
+        "id": "M0093.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2023-07-31 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Coal handling and preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0093",
+        "Owners": "Bloomfield Collieries Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Bloomfield Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Rix_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Rix Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 09, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.145952,
+          -32.483756
+        ]
+      },
+      "properties": {
+        "id": "M0093.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2023-07-31 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Coal handling and preparation plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0093",
+        "Owners": "Bloomfield Collieries Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Bloomfield Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Rix_Creek_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Rix Creek Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 09, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.437648,
+              -23.23186
+            ],
+            [
+              148.436922,
+              -23.167902
+            ],
+            [
+              148.410449,
+              -23.168158
+            ],
+            [
+              148.413618,
+              -23.159957
+            ],
+            [
+              148.419061,
+              -23.145862
+            ],
+            [
+              148.41872,
+              -23.145892
+            ],
+            [
+              148.40665,
+              -23.146936
+            ],
+            [
+              148.402001,
+              -23.143406
+            ],
+            [
+              148.365582,
+              -23.143724
+            ],
+            [
+              148.392312,
+              -23.11855
+            ],
+            [
+              148.381373,
+              -23.111059
+            ],
+            [
+              148.377119,
+              -23.111095
+            ],
+            [
+              148.365318,
+              -23.119135
+            ],
+            [
+              148.351382,
+              -23.14152
+            ],
+            [
+              148.349515,
+              -23.151918
+            ],
+            [
+              148.324848,
+              -23.15907
+            ],
+            [
+              148.304132,
+              -23.165072
+            ],
+            [
+              148.304165,
+              -23.201898
+            ],
+            [
+              148.304169,
+              -23.206429
+            ],
+            [
+              148.304172,
+              -23.20961
+            ],
+            [
+              148.304097,
+              -23.218755
+            ],
+            [
+              148.304105,
+              -23.231955
+            ],
+            [
+              148.317554,
+              -23.231944
+            ],
+            [
+              148.322902,
+              -23.231943
+            ],
+            [
+              148.323606,
+              -23.231943
+            ],
+            [
+              148.334219,
+              -23.231932
+            ],
+            [
+              148.345565,
+              -23.231923
+            ],
+            [
+              148.345962,
+              -23.231922
+            ],
+            [
+              148.350885,
+              -23.231919
+            ],
+            [
+              148.36755,
+              -23.231906
+            ],
+            [
+              148.384216,
+              -23.231895
+            ],
+            [
+              148.393039,
+              -23.231889
+            ],
+            [
+              148.427473,
+              -23.231907
+            ],
+            [
+              148.434211,
+              -23.231863
+            ],
+            [
+              148.437648,
+              -23.23186
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0044.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground and surface",
+        "data source date": "2023-06-29 00:00:00",
+        "notes": "Section 2.1 Project Overview, page 6, of Public Environment Report Gregory Crinum Mine M-Block Extension, June 29 2023,\nhttps://web.archive.org/web/2/https://www.sojitzblue.com.au/wp-content/uploads/2023/07/Gregory-Crinum-Mine-M-Block-Extension-Project-EPBC-2021-9127-Public-Environment-Report-Jul-2023-Rev.-No.-7.pdf, describes the mining leases comprising the mine as MLs 1789, 1923, 70061, 7007. Undergound mining is located in ML 1923 in the southern eastern section of the boundary of the mining leases as shown in Figure 2.1: GCM mining infrastructure on page 7, and partially shown extended westwards from the southeastern corner in Figure 2: M-Block proposed open-cut and underground operations areas on page 6 of Offset Area Management Plan Gregory Crinum M-Block Extension 14 April 2023, https://web.archive.org/web/2/https://www.sojitzblue.com.au/wp-content/uploads/2024/01/GCM-M-Block-Expansion-Offset-Area-Management-Plan_V2.pdf. The area of the extracted boundary is 127 sq km.\n\nMining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).",
+        "description": "Gregory Crinum mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0044",
+        "Owners": "Sojitz Blue Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sojitz Corporation",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Gregory_Crinum_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Gregory Crinum Coal Mines",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.329206,
+          -23.209608
+        ]
+      },
+      "properties": {
+        "id": "M0044.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-05 00:00:00",
+        "notes": "Visually identified with Google Earth Pro satellite imagery.",
+        "description": "ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0044",
+        "Owners": "Sojitz Blue Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sojitz Corporation",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Gregory_Crinum_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Gregory Crinum Coal Mines",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.322001,
+          -23.207973
+        ]
+      },
+      "properties": {
+        "id": "M0044.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2023-03-05 00:00:00",
+        "notes": "Visually identified with Google Earth Pro satellite imagery.",
+        "description": "mine entrance/exit and/or production shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0044",
+        "Owners": "Sojitz Blue Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sojitz Corporation",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Gregory_Crinum_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Gregory Crinum Coal Mines",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.39278,
+          -23.150645
+        ]
+      },
+      "properties": {
+        "id": "M0044.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2023-03-05 00:00:00",
+        "notes": "Visually identified with Google Earth Pro satellite imagery.",
+        "description": "chpp",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0044",
+        "Owners": "Sojitz Blue Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Sojitz Corporation",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Gregory_Crinum_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Gregory Crinum Coal Mines",
+        "Country / Area": "Australia",
+        "Last researched": "Sep 08, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

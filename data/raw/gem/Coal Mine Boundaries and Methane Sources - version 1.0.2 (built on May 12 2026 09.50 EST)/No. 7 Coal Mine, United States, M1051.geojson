@@ -1,0 +1,1111 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.241041,
+              33.283791
+            ],
+            [
+              -87.236824,
+              33.286499
+            ],
+            [
+              -87.238762,
+              33.292736
+            ],
+            [
+              -87.2313,
+              33.298694
+            ],
+            [
+              -87.231292,
+              33.3052
+            ],
+            [
+              -87.215074,
+              33.310877
+            ],
+            [
+              -87.216363,
+              33.317383
+            ],
+            [
+              -87.151747,
+              33.360385
+            ],
+            [
+              -87.196444,
+              33.408941
+            ],
+            [
+              -87.183127,
+              33.413803
+            ],
+            [
+              -87.209056,
+              33.439299
+            ],
+            [
+              -87.237648,
+              33.420899
+            ],
+            [
+              -87.242825,
+              33.436889
+            ],
+            [
+              -87.247678,
+              33.454506
+            ],
+            [
+              -87.267816,
+              33.448557
+            ],
+            [
+              -87.291851,
+              33.435834
+            ],
+            [
+              -87.298344,
+              33.442882
+            ],
+            [
+              -87.308736,
+              33.443699
+            ],
+            [
+              -87.323028,
+              33.452105
+            ],
+            [
+              -87.331798,
+              33.448312
+            ],
+            [
+              -87.307441,
+              33.417414
+            ],
+            [
+              -87.28571,
+              33.380019
+            ],
+            [
+              -87.288314,
+              33.365932
+            ],
+            [
+              -87.284428,
+              33.354551
+            ],
+            [
+              -87.287356,
+              33.341275
+            ],
+            [
+              -87.28218,
+              33.323931
+            ],
+            [
+              -87.276352,
+              33.312546
+            ],
+            [
+              -87.263059,
+              33.311727
+            ],
+            [
+              -87.241041,
+              33.283791
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1051.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2023-05-01 00:00:00",
+        "notes": "Figure 1.1: Warrior Met Mine No. 7 Complex Property Location Map on page 8 of the 10-k ammendment https://web.archive.org/web/20250401205511/https://content.edgar-online.com/ExternalLink/EDGAR/0001193125-23-148198.html?hash=f70b22a3780a7fb34e137d3bee07d24a47918f40323506ca674ad745c038f313&dest=d503495dex961_htm#d503495dex961_htm, dated May 18 2023, shows that No. 7 mine is surrounded by mines numbers 3, 4, 5, Shoal Creek and Oak Grove. The mine boundary was estimated based on Figure 1-1 and Warrior Met and Mine No. 7 permit P3247 from geospatial permit mining data found at  https://web.archive.org/web/20250401200820/https://surface-mining.alabama.gov/. The estimated boundary includes the 'Mine 7 Projections' areas shown in Figure 1-1. The extracted estimated boundary covers approx 152 sq km.\n",
+        "description": "Mine No. 7 approximate mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.282055,
+          33.420276
+        ]
+      },
+      "properties": {
+        "id": "M1051.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.195561,
+          33.414077
+        ]
+      },
+      "properties": {
+        "id": "M1051.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.218529,
+          33.37049
+        ]
+      },
+      "properties": {
+        "id": "M1051.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.169972,
+          33.351451
+        ]
+      },
+      "properties": {
+        "id": "M1051.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.203479,
+          33.380457
+        ]
+      },
+      "properties": {
+        "id": "M1051.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.232925,
+          33.377938
+        ]
+      },
+      "properties": {
+        "id": "M1051.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.251754,
+          33.376786
+        ]
+      },
+      "properties": {
+        "id": "M1051.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.199855,
+          33.383068
+        ]
+      },
+      "properties": {
+        "id": "M1051.P8",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.265317,
+          33.394285
+        ]
+      },
+      "properties": {
+        "id": "M1051.P9",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.18821,
+          33.392646
+        ]
+      },
+      "properties": {
+        "id": "M1051.P10",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.199119,
+          33.403181
+        ]
+      },
+      "properties": {
+        "id": "M1051.P11",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.275279,
+          33.408
+        ]
+      },
+      "properties": {
+        "id": "M1051.P12",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.239883,
+          33.421267
+        ]
+      },
+      "properties": {
+        "id": "M1051.P13",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.240176,
+          33.358818
+        ]
+      },
+      "properties": {
+        "id": "M1051.P15",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure or shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.18488,
+          33.355607
+        ]
+      },
+      "properties": {
+        "id": "M1051.P16",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure or shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.246448,
+          33.425492
+        ]
+      },
+      "properties": {
+        "id": "M1051.P17",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.273717,
+          33.428444
+        ]
+      },
+      "properties": {
+        "id": "M1051.P18",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.223667,
+          33.385989
+        ]
+      },
+      "properties": {
+        "id": "M1051.P19",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.193404,
+          33.371511
+        ]
+      },
+      "properties": {
+        "id": "M1051.P20",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.2355,
+          33.383816
+        ]
+      },
+      "properties": {
+        "id": "M1051.P21",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.210454,
+          33.381598
+        ]
+      },
+      "properties": {
+        "id": "M1051.P22",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.208197,
+          33.351199
+        ]
+      },
+      "properties": {
+        "id": "M1051.P23",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.176987,
+          33.346883
+        ]
+      },
+      "properties": {
+        "id": "M1051.P24",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.290316,
+          33.387775
+        ]
+      },
+      "properties": {
+        "id": "M1051.P25",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.208463,
+          33.396521
+        ]
+      },
+      "properties": {
+        "id": "M1051.P26",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.200999,
+          33.407275
+        ]
+      },
+      "properties": {
+        "id": "M1051.P27",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.27466,
+          33.368312
+        ]
+      },
+      "properties": {
+        "id": "M1051.P28",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.217842,
+          33.38585
+        ]
+      },
+      "properties": {
+        "id": "M1051.P29",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.276065,
+          33.315931
+        ]
+      },
+      "properties": {
+        "id": "M1051.P30",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas well",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas drainage infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.25055,
+          33.431077
+        ]
+      },
+      "properties": {
+        "id": "M1051.P32",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "possible gas related infrastructure",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.291202,
+          33.381094
+        ]
+      },
+      "properties": {
+        "id": "M1051.P33",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery, especially 12/2017.",
+        "description": "possibly abandoned ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.241996,
+          33.322044
+        ]
+      },
+      "properties": {
+        "id": "M1051.P34",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-11-22 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1051",
+        "Owners": "Warrior Met Coal Mining LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Warrior Met Coal Inc [100%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/No._7_coal_mine_%28USA%29",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "No. 7 Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "May 22, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

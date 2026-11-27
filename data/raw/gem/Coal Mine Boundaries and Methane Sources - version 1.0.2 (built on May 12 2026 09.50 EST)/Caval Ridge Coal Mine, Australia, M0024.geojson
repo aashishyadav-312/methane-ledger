@@ -1,0 +1,365 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.01776,
+              -22.073153
+            ],
+            [
+              148.017797,
+              -22.131762
+            ],
+            [
+              148.034421,
+              -22.131784
+            ],
+            [
+              148.03446,
+              -22.165138
+            ],
+            [
+              148.051037,
+              -22.165167
+            ],
+            [
+              148.051103,
+              -22.18182
+            ],
+            [
+              148.067714,
+              -22.181759
+            ],
+            [
+              148.067766,
+              -22.198483
+            ],
+            [
+              148.101057,
+              -22.198502
+            ],
+            [
+              148.101122,
+              -22.215096
+            ],
+            [
+              148.102636,
+              -22.215082
+            ],
+            [
+              148.103599,
+              -22.191246
+            ],
+            [
+              148.144677,
+              -22.221429
+            ],
+            [
+              148.147607,
+              -22.216207
+            ],
+            [
+              148.150389,
+              -22.216558
+            ],
+            [
+              148.151035,
+              -22.214547
+            ],
+            [
+              148.146156,
+              -22.211375
+            ],
+            [
+              148.138305,
+              -22.207888
+            ],
+            [
+              148.13014,
+              -22.205009
+            ],
+            [
+              148.124995,
+              -22.202789
+            ],
+            [
+              148.120955,
+              -22.200534
+            ],
+            [
+              148.117526,
+              -22.198031
+            ],
+            [
+              148.115765,
+              -22.196483
+            ],
+            [
+              148.116247,
+              -22.195839
+            ],
+            [
+              148.11704,
+              -22.19437
+            ],
+            [
+              148.11797,
+              -22.192917
+            ],
+            [
+              148.120634,
+              -22.19141
+            ],
+            [
+              148.124858,
+              -22.190993
+            ],
+            [
+              148.127409,
+              -22.190289
+            ],
+            [
+              148.127409,
+              -22.18989
+            ],
+            [
+              148.126426,
+              -22.189492
+            ],
+            [
+              148.124391,
+              -22.189828
+            ],
+            [
+              148.123391,
+              -22.189126
+            ],
+            [
+              148.124236,
+              -22.188226
+            ],
+            [
+              148.125926,
+              -22.188081
+            ],
+            [
+              148.127133,
+              -22.187522
+            ],
+            [
+              148.127132,
+              -22.186213
+            ],
+            [
+              148.125804,
+              -22.186548
+            ],
+            [
+              148.124873,
+              -22.186086
+            ],
+            [
+              148.125528,
+              -22.185415
+            ],
+            [
+              148.126131,
+              -22.185048
+            ],
+            [
+              148.125562,
+              -22.18417
+            ],
+            [
+              148.128556,
+              -22.179801
+            ],
+            [
+              148.129366,
+              -22.179002
+            ],
+            [
+              148.132158,
+              -22.177739
+            ],
+            [
+              148.132566,
+              -22.177223
+            ],
+            [
+              148.132117,
+              -22.176185
+            ],
+            [
+              148.131651,
+              -22.175116
+            ],
+            [
+              148.13115,
+              -22.174015
+            ],
+            [
+              148.131339,
+              -22.17304
+            ],
+            [
+              148.134183,
+              -22.172144
+            ],
+            [
+              148.135131,
+              -22.171745
+            ],
+            [
+              148.13551,
+              -22.170914
+            ],
+            [
+              148.135285,
+              -22.170084
+            ],
+            [
+              148.135233,
+              -22.169366
+            ],
+            [
+              148.133992,
+              -22.168936
+            ],
+            [
+              148.133854,
+              -22.168664
+            ],
+            [
+              148.134388,
+              -22.168176
+            ],
+            [
+              148.131148,
+              -22.168162
+            ],
+            [
+              148.120488,
+              -22.166147
+            ],
+            [
+              148.099518,
+              -22.15101
+            ],
+            [
+              148.094675,
+              -22.145344
+            ],
+            [
+              148.083069,
+              -22.127298
+            ],
+            [
+              148.073246,
+              -22.096266
+            ],
+            [
+              148.07994,
+              -22.08059
+            ],
+            [
+              148.080428,
+              -22.063357
+            ],
+            [
+              148.078535,
+              -22.057393
+            ],
+            [
+              148.067491,
+              -22.055778
+            ],
+            [
+              148.052954,
+              -22.059573
+            ],
+            [
+              148.047587,
+              -22.0625
+            ],
+            [
+              148.047022,
+              -22.063388
+            ],
+            [
+              148.048299,
+              -22.065118
+            ],
+            [
+              148.018618,
+              -22.065089
+            ],
+            [
+              148.01779,
+              -22.065113
+            ],
+            [
+              148.01776,
+              -22.073153
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0024.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2021-12-14 00:00:00",
+        "notes": "The boundary was extracted from figure 1-1 Regional Locality, of the Horse Pit Extension Project Environmental Authority Amendment Supporting Information Document https://web.archive.org/web/20240426043413/https://environment.desi.qld.gov.au/__data/assets/pdf_file/0022/261940/HPE-EA-Amendment-Supporting-Document.pdf, published Dec 14 2021.\n\nThe boundary is comprised of mining lease ML 70462, mining lease ML 70403 north of Harrow Creek, and mining lease ML 1775 north of Harrow Creek.\n\nPrior to adjustments where necessary to support the above information, mining lease geometries were extracted from the Queensland Mining Leases dataset (https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27).\n\nThe area of the boundary is 102 sq km.",
+        "description": "Caval Ridge coal mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0024",
+        "Owners": "BHP Billiton Mitsubishi Alliance Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "BHP [50%]; Mitsubishi Corporation [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Caval_Ridge_Project",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Caval Ridge Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 27, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.063577,
+          -22.150345
+        ]
+      },
+      "properties": {
+        "id": "M0024.P1",
+        "mine feature category": "other",
+        "mine feature subcategory": "preparation plant",
+        "data source date": "2024-05-17 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "coal handling and processing plant",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0024",
+        "Owners": "BHP Billiton Mitsubishi Alliance Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "BHP [50%]; Mitsubishi Corporation [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Caval_Ridge_Project",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Caval Ridge Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 27, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

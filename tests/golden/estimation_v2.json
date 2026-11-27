@@ -1,0 +1,365 @@
+{
+ "note": "Estimated inputs for every mine from real output and closure year plus coalfield gassiness defaults (ESTIMATED). Moonidih here is the ESTIMATE, not its data/mines.json record; the app uses the record when one exists.",
+ "params": {
+  "DEGREE_BY_FIELD": {
+   "jharia": 3,
+   "raniganj": 2,
+   "e_bokaro": 2,
+   "w_bokaro": 2,
+   "mugma": 2
+  },
+  "DEFAULT_DEGREE": 1,
+  "BY_DEGREE": {
+   "1": {
+    "se": 0.8,
+    "dshare": 0.0,
+    "dconc": 0.0,
+    "vconc": 0.0005
+   },
+   "2": {
+    "se": 5.0,
+    "dshare": 0.3,
+    "dconc": 0.35,
+    "vconc": 0.002
+   },
+   "3": {
+    "se": 15.0,
+    "dshare": 0.5,
+    "dconc": 0.5,
+    "vconc": 0.004
+   }
+  },
+  "OPENCAST": {
+   "se": 0.3,
+   "dshare": 0.0,
+   "dconc": 0.0,
+   "vconc": 0.0
+  },
+  "MIXED_UG_SHARE": 0.5,
+  "F_AMM": 0.3,
+  "AMM_CONC": 0.6,
+  "CAP_VAM": 0.85,
+  "CAP_AMM": 0.7
+ },
+ "cases": {
+  "bccl-moonidih": {
+   "id": "bccl-moonidih",
+   "name": "Moonidih",
+   "type": "UG",
+   "field": "jharia",
+   "status": "Producing",
+   "warnings": [],
+   "productionMt": 0.39,
+   "ugProductionMt": 0.39,
+   "degree": 3,
+   "specificEmission": 15.0,
+   "totalMm3": 5.85,
+   "closureYear": 2034,
+   "activeYears": 8,
+   "drainedMm3": 2.925,
+   "vamMm3": 2.925,
+   "drainedConc": 0.5,
+   "vamConc": 0.004,
+   "modelStatus": "ok",
+   "breakeven": 11.774879,
+   "capex": 6195650.582575,
+   "npv_at_15": 1509456.800839,
+   "irr_at_15": 0.163717,
+   "er_total": 750614.096993,
+   "payback_index": 5
+  },
+  "ecl-belbaid-colliery": {
+   "id": "ecl-belbaid-colliery",
+   "name": "Belbaid Colliery",
+   "type": "UG",
+   "field": "raniganj",
+   "status": "Producing",
+   "warnings": [],
+   "productionMt": 0.05,
+   "ugProductionMt": 0.05,
+   "degree": 2,
+   "specificEmission": 5.0,
+   "totalMm3": 0.25,
+   "closureYear": 2029,
+   "activeYears": 3,
+   "drainedMm3": 0.075,
+   "vamMm3": 0.175,
+   "drainedConc": 0.35,
+   "vamConc": 0.002,
+   "modelStatus": "ok",
+   "breakeven": 268.730172,
+   "capex": 1333539.590409,
+   "npv_at_15": -2658102.167718,
+   "irr_at_15": null,
+   "er_total": 14420.95697,
+   "payback_index": null
+  },
+  "ccl-dhori-khas-ug": {
+   "id": "ccl-dhori-khas-ug",
+   "name": "Dhori Khas(UG)",
+   "type": "UG",
+   "field": "e_bokaro",
+   "status": "Producing",
+   "warnings": [],
+   "productionMt": 0.11,
+   "ugProductionMt": 0.11,
+   "degree": 2,
+   "specificEmission": 5.0,
+   "totalMm3": 0.55,
+   "closureYear": 2029,
+   "activeYears": 3,
+   "drainedMm3": 0.165,
+   "vamMm3": 0.385,
+   "drainedConc": 0.35,
+   "vamConc": 0.002,
+   "modelStatus": "ok",
+   "breakeven": 138.195986,
+   "capex": 1673787.098899,
+   "npv_at_15": -2839349.098739,
+   "irr_at_15": null,
+   "er_total": 31726.105334,
+   "payback_index": null
+  },
+  "secl-khairaha": {
+   "id": "secl-khairaha",
+   "name": "Khairaha",
+   "type": "UG",
+   "field": "sohagpur",
+   "status": "Producing",
+   "warnings": [],
+   "productionMt": 1.07,
+   "ugProductionMt": 1.07,
+   "degree": 1,
+   "specificEmission": 0.8,
+   "totalMm3": 0.856,
+   "closureYear": 2033,
+   "activeYears": 7,
+   "drainedMm3": 0.0,
+   "vamMm3": 0.856,
+   "drainedConc": 0.0,
+   "vamConc": 0.0005,
+   "modelStatus": "not_abatable",
+   "reason": "Ventilation air is 0.05% methane, below the 0.2% an oxidiser needs, and there is no drained gas."
+  },
+  "secl-churcha-ro": {
+   "id": "secl-churcha-ro",
+   "name": "Churcha RO",
+   "type": "UG",
+   "field": "hasdeo",
+   "status": "Producing",
+   "warnings": [],
+   "productionMt": 1.42,
+   "ugProductionMt": 1.42,
+   "degree": 1,
+   "specificEmission": 0.8,
+   "totalMm3": 1.136,
+   "closureYear": 2033,
+   "activeYears": 7,
+   "drainedMm3": 0.0,
+   "vamMm3": 1.136,
+   "drainedConc": 0.0,
+   "vamConc": 0.0005,
+   "modelStatus": "not_abatable",
+   "reason": "Ventilation air is 0.05% methane, below the 0.2% an oxidiser needs, and there is no drained gas."
+  },
+  "bccl-amp-colliery": {
+   "id": "bccl-amp-colliery",
+   "name": "AMP Colliery",
+   "type": "Mixed",
+   "field": "jharia",
+   "status": "Producing",
+   "warnings": [],
+   "productionMt": 3.16,
+   "ugProductionMt": 1.58,
+   "degree": 3,
+   "specificEmission": 15.0,
+   "totalMm3": 23.7,
+   "closureYear": 2072,
+   "activeYears": 10,
+   "drainedMm3": 11.85,
+   "vamMm3": 11.85,
+   "drainedConc": 0.5,
+   "vamConc": 0.004,
+   "modelStatus": "ok",
+   "breakeven": 4.48885,
+   "capex": 18967047.9865,
+   "npv_at_15": 22380600.465324,
+   "irr_at_15": 0.336896,
+   "er_total": 3647594.863125,
+   "payback_index": 3
+  },
+  "ecl-khottadih-ocp": {
+   "id": "ecl-khottadih-ocp",
+   "name": "Khottadih OCP",
+   "type": "OC",
+   "field": "raniganj",
+   "status": "Producing",
+   "warnings": [],
+   "productionMt": 0.71,
+   "ugProductionMt": 0.71,
+   "degree": null,
+   "specificEmission": 0.3,
+   "totalMm3": 0.213,
+   "closureYear": 2028,
+   "activeYears": 2,
+   "drainedMm3": 0.0,
+   "vamMm3": 0.213,
+   "drainedConc": 0.0,
+   "vamConc": 0.0,
+   "modelStatus": "not_abatable",
+   "reason": "Opencast: no concentrated stream to capture."
+  },
+  "ecl-madhusudanpur-7-pit-incline": {
+   "id": "ecl-madhusudanpur-7-pit-incline",
+   "name": "Madhusudanpur 7 Pit & Incline",
+   "type": "UG",
+   "field": "raniganj",
+   "status": "Not producing",
+   "warnings": [],
+   "modelStatus": "no_output",
+   "reason": "No recent output. Enter coal output to model this mine."
+  },
+  "wcl-chhatarpur-ii": {
+   "id": "wcl-chhatarpur-ii",
+   "name": "Chhatarpur -II",
+   "type": "UG",
+   "field": "pathakhera",
+   "status": "Past reported reserve",
+   "warnings": [],
+   "modelStatus": "no_output",
+   "reason": "No recent output. Enter coal output to model this mine."
+  },
+  "ecl-pandaveswar-ug": {
+   "id": "ecl-pandaveswar-ug",
+   "name": "Pandaveswar UG",
+   "type": "UG",
+   "field": "raniganj",
+   "status": "Producing",
+   "warnings": [],
+   "productionMt": 0.08,
+   "ugProductionMt": 0.08,
+   "degree": 2,
+   "specificEmission": 5.0,
+   "totalMm3": 0.4,
+   "closureYear": 2037,
+   "activeYears": 10,
+   "drainedMm3": 0.12,
+   "vamMm3": 0.28,
+   "drainedConc": 0.35,
+   "vamConc": 0.002,
+   "modelStatus": "ok",
+   "breakeven": 95.4151,
+   "capex": 1454221.422952,
+   "npv_at_15": -2781501.063228,
+   "irr_at_15": null,
+   "er_total": 59255.2355,
+   "payback_index": null
+  }
+ },
+ "summary": {
+  "mines": 311,
+  "by_status": {
+   "ok": 58,
+   "not_abatable": 211,
+   "no_output": 42
+  },
+  "pays_at_15": 4,
+  "pays_at_7": 1,
+  "er_total_ok_mt": 13.055207,
+  "er_total_pays_at_15_mt": 7.724759,
+  "cheapest": [
+   [
+    "AMP Colliery",
+    4.49
+   ],
+   [
+    "NAKC",
+    8.51
+   ],
+   [
+    "Moonidih",
+    11.77
+   ],
+   [
+    "Jhanjra Project Colliery",
+    14.94
+   ],
+   [
+    "Nakrakonda -Kumardihi 'B' UG",
+    18.94
+   ],
+   [
+    "Khottadih UG",
+    20.33
+   ],
+   [
+    "Tilaboni Colliery",
+    20.33
+   ],
+   [
+    "Shyam Sundarpur Colliery",
+    24.7
+   ]
+  ]
+ },
+ "closure_curve": {
+  "moonidih_record": {
+   "curve": {
+    "power": {
+     "2027": 43.312608,
+     "2028": 24.963354,
+     "2029": 16.442491,
+     "2030": 11.544957,
+     "2031": 8.382147,
+     "2032": 6.185043,
+     "2033": 4.582228,
+     "2034": 3.373114,
+     "2035": 2.441032,
+     "2036": 0.320842
+    },
+    "flare": {
+     "2027": 24.437816,
+     "2028": 16.613737,
+     "2029": 12.981837,
+     "2030": 10.894522,
+     "2031": 9.546425,
+     "2032": 8.609701,
+     "2033": 7.926015,
+     "2034": 7.409833,
+     "2035": 7.011353,
+     "2036": 6.592875
+    }
+   },
+   "crossover_year": 2031
+  },
+  "amp_colliery_estimate": {
+   "curve": {
+    "power": {
+     "2027": 39.93131,
+     "2028": 25.098241,
+     "2029": 18.106713,
+     "2030": 14.06151,
+     "2031": 11.441991,
+     "2032": 9.622326,
+     "2033": 8.298533,
+     "2034": 7.30627,
+     "2035": 6.550604,
+     "2036": 4.48885
+    },
+    "flare": {
+     "2027": 27.665824,
+     "2028": 19.203903,
+     "2029": 15.219695,
+     "2030": 12.914006,
+     "2031": 11.419127,
+     "2032": 10.378224,
+     "2033": 9.617894,
+     "2034": 9.044129,
+     "2035": 8.602164,
+     "2036": 8.144925
+    }
+   },
+   "crossover_year": 2032
+  }
+ }
+}

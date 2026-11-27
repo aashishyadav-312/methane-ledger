@@ -1,0 +1,263 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.936674,
+              37.360483
+            ],
+            [
+              110.930709,
+              37.351149
+            ],
+            [
+              110.943167,
+              37.343154
+            ],
+            [
+              110.95053,
+              37.353352
+            ],
+            [
+              110.960956,
+              37.357444
+            ],
+            [
+              110.977635,
+              37.350439
+            ],
+            [
+              110.985876,
+              37.359365
+            ],
+            [
+              110.973659,
+              37.364893
+            ],
+            [
+              110.97246,
+              37.363928
+            ],
+            [
+              110.95785,
+              37.3678
+            ],
+            [
+              110.94663,
+              37.363799
+            ],
+            [
+              110.936674,
+              37.360483
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1999.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2013-08-01 00:00:00",
+        "notes": "The boundary is drawn according to the Figure 2 on page 25 Water Level Contours of Jinjiazhuang and Xingwu coal mines from the document Gas Geological Characteristics of the Lower Coal Seam Group in Xingwu-Jinjiazhuang Coal Mine, Liulin, Shanxi (\u5c71\u897f\u67f3\u6797\u5174\u65e0_\u91d1\u5bb6\u5e84\u7164\u77ff\u4e0b\u7ec4\u7164\u5c42\u74e6\u65af\u5730\u8d28\u7279\u5f81) https://web.archive.org/web/20250725233814/https://www.doc88.com/p-9939656441090.html",
+        "description": "Jinjiazhuang coal mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1999",
+        "Owners": "Shanxi Liulin Jinjiazhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Worldman Industrial [HK] Limited",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinjiazhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%9F%B3%E6%9E%97%E9%87%91%E5%AE%B6%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinjiazhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.935523,
+          37.350726
+        ]
+      },
+      "properties": {
+        "id": "M1999.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2021-09-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "return air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1999",
+        "Owners": "Shanxi Liulin Jinjiazhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Worldman Industrial [HK] Limited",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinjiazhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%9F%B3%E6%9E%97%E9%87%91%E5%AE%B6%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinjiazhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.971705,
+          37.353772
+        ]
+      },
+      "properties": {
+        "id": "M1999.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2021-09-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1999",
+        "Owners": "Shanxi Liulin Jinjiazhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Worldman Industrial [HK] Limited",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinjiazhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%9F%B3%E6%9E%97%E9%87%91%E5%AE%B6%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinjiazhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.939886,
+          37.352088
+        ]
+      },
+      "properties": {
+        "id": "M1999.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2021-09-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas drainage station 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1999",
+        "Owners": "Shanxi Liulin Jinjiazhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Worldman Industrial [HK] Limited",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinjiazhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%9F%B3%E6%9E%97%E9%87%91%E5%AE%B6%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinjiazhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.95153,
+          37.364744
+        ]
+      },
+      "properties": {
+        "id": "M1999.P4",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2021-09-06 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas drainage station 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1999",
+        "Owners": "Shanxi Liulin Jinjiazhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Worldman Industrial [HK] Limited",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinjiazhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%9F%B3%E6%9E%97%E9%87%91%E5%AE%B6%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinjiazhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.941535,
+          37.35314
+        ]
+      },
+      "properties": {
+        "id": "M1999.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2007-05-30 00:00:00",
+        "notes": "The gas to electricty station was found in the document CLEAN DEVELOPMENT MECHANISM\nPROJECT DESIGN DOCUMENT FORM (CDM-PDD) https://web.archive.org/web/20250726054741/https://cdm.unfccc.int/UserManagement/FileStorage/PSI34NSUAFRNR11AZ6QXD2G3CJXOX5 ",
+        "description": "gas to electricity station 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1999",
+        "Owners": "Shanxi Liulin Jinjiazhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Worldman Industrial [HK] Limited",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinjiazhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%9F%B3%E6%9E%97%E9%87%91%E5%AE%B6%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinjiazhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.951273,
+          37.361988
+        ]
+      },
+      "properties": {
+        "id": "M1999.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2007-05-30 00:00:00",
+        "notes": "The gas to electricty station was found in the document CLEAN DEVELOPMENT MECHANISM\nPROJECT DESIGN DOCUMENT FORM (CDM-PDD) https://web.archive.org/web/20250726054741/https://cdm.unfccc.int/UserManagement/FileStorage/PSI34NSUAFRNR11AZ6QXD2G3CJXOX5 ",
+        "description": "gas to electricity station 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1999",
+        "Owners": "Shanxi Liulin Jinjiazhuang Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Worldman Industrial [HK] Limited",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Jinjiazhuang_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%9F%B3%E6%9E%97%E9%87%91%E5%AE%B6%E5%BA%84%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Met",
+        "Mine Name": "Jinjiazhuang Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 25, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

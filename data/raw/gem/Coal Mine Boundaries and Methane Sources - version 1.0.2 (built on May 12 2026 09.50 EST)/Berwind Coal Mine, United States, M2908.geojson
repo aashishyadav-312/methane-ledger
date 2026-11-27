@@ -1,0 +1,665 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.772242,
+              37.121647
+            ],
+            [
+              -81.768752,
+              37.117111
+            ],
+            [
+              -81.765374,
+              37.118283
+            ],
+            [
+              -81.762178,
+              37.113619
+            ],
+            [
+              -81.757604,
+              37.114708
+            ],
+            [
+              -81.758617,
+              37.117295
+            ],
+            [
+              -81.746068,
+              37.123381
+            ],
+            [
+              -81.742821,
+              37.120859
+            ],
+            [
+              -81.73232,
+              37.126048
+            ],
+            [
+              -81.736155,
+              37.131645
+            ],
+            [
+              -81.728422,
+              37.138653
+            ],
+            [
+              -81.722884,
+              37.131679
+            ],
+            [
+              -81.722036,
+              37.135986
+            ],
+            [
+              -81.71664,
+              37.138642
+            ],
+            [
+              -81.712914,
+              37.135421
+            ],
+            [
+              -81.699783,
+              37.14508
+            ],
+            [
+              -81.658728,
+              37.160532
+            ],
+            [
+              -81.648729,
+              37.166999
+            ],
+            [
+              -81.64269,
+              37.165388
+            ],
+            [
+              -81.639419,
+              37.168928
+            ],
+            [
+              -81.62399,
+              37.17412
+            ],
+            [
+              -81.608078,
+              37.181938
+            ],
+            [
+              -81.59887,
+              37.186238
+            ],
+            [
+              -81.58998,
+              37.187675
+            ],
+            [
+              -81.573421,
+              37.191226
+            ],
+            [
+              -81.566872,
+              37.191645
+            ],
+            [
+              -81.559382,
+              37.201243
+            ],
+            [
+              -81.5458,
+              37.20138
+            ],
+            [
+              -81.530024,
+              37.206092
+            ],
+            [
+              -81.525923,
+              37.20454
+            ],
+            [
+              -81.524879,
+              37.208016
+            ],
+            [
+              -81.52503,
+              37.214908
+            ],
+            [
+              -81.51695,
+              37.218101
+            ],
+            [
+              -81.510958,
+              37.214341
+            ],
+            [
+              -81.489538,
+              37.220273
+            ],
+            [
+              -81.483704,
+              37.216745
+            ],
+            [
+              -81.479216,
+              37.220196
+            ],
+            [
+              -81.48228,
+              37.221897
+            ],
+            [
+              -81.484163,
+              37.227435
+            ],
+            [
+              -81.490023,
+              37.231557
+            ],
+            [
+              -81.500932,
+              37.231379
+            ],
+            [
+              -81.50554,
+              37.234225
+            ],
+            [
+              -81.508546,
+              37.251978
+            ],
+            [
+              -81.530714,
+              37.246017
+            ],
+            [
+              -81.538338,
+              37.246044
+            ],
+            [
+              -81.543648,
+              37.241024
+            ],
+            [
+              -81.550286,
+              37.239057
+            ],
+            [
+              -81.557276,
+              37.231493
+            ],
+            [
+              -81.582481,
+              37.22057
+            ],
+            [
+              -81.588336,
+              37.224685
+            ],
+            [
+              -81.596004,
+              37.225896
+            ],
+            [
+              -81.611552,
+              37.226409
+            ],
+            [
+              -81.61927,
+              37.235461
+            ],
+            [
+              -81.614583,
+              37.240822
+            ],
+            [
+              -81.592716,
+              37.246073
+            ],
+            [
+              -81.591374,
+              37.25966
+            ],
+            [
+              -81.582745,
+              37.25705
+            ],
+            [
+              -81.579331,
+              37.26095
+            ],
+            [
+              -81.588309,
+              37.261292
+            ],
+            [
+              -81.587267,
+              37.264768
+            ],
+            [
+              -81.589789,
+              37.274563
+            ],
+            [
+              -81.603078,
+              37.28453
+            ],
+            [
+              -81.602356,
+              37.288474
+            ],
+            [
+              -81.606163,
+              37.293478
+            ],
+            [
+              -81.626681,
+              37.297889
+            ],
+            [
+              -81.630655,
+              37.286482
+            ],
+            [
+              -81.628071,
+              37.285486
+            ],
+            [
+              -81.628872,
+              37.279995
+            ],
+            [
+              -81.651596,
+              37.290402
+            ],
+            [
+              -81.662412,
+              37.2851
+            ],
+            [
+              -81.679783,
+              37.289356
+            ],
+            [
+              -81.677173,
+              37.291095
+            ],
+            [
+              -81.692868,
+              37.294567
+            ],
+            [
+              -81.687489,
+              37.297813
+            ],
+            [
+              -81.690823,
+              37.302116
+            ],
+            [
+              -81.688079,
+              37.304216
+            ],
+            [
+              -81.679712,
+              37.304219
+            ],
+            [
+              -81.681393,
+              37.308333
+            ],
+            [
+              -81.676225,
+              37.313
+            ],
+            [
+              -81.676973,
+              37.316308
+            ],
+            [
+              -81.693582,
+              37.319993
+            ],
+            [
+              -81.697414,
+              37.312271
+            ],
+            [
+              -81.706873,
+              37.309976
+            ],
+            [
+              -81.705377,
+              37.30669
+            ],
+            [
+              -81.711156,
+              37.302361
+            ],
+            [
+              -81.697182,
+              37.290876
+            ],
+            [
+              -81.700051,
+              37.281759
+            ],
+            [
+              -81.713785,
+              37.294557
+            ],
+            [
+              -81.711308,
+              37.295937
+            ],
+            [
+              -81.717598,
+              37.29623
+            ],
+            [
+              -81.738088,
+              37.277327
+            ],
+            [
+              -81.746233,
+              37.272572
+            ],
+            [
+              -81.741322,
+              37.266534
+            ],
+            [
+              -81.752593,
+              37.267988
+            ],
+            [
+              -81.749306,
+              37.261546
+            ],
+            [
+              -81.743046,
+              37.261848
+            ],
+            [
+              -81.744317,
+              37.257057
+            ],
+            [
+              -81.741037,
+              37.253943
+            ],
+            [
+              -81.743574,
+              37.241033
+            ],
+            [
+              -81.760757,
+              37.228405
+            ],
+            [
+              -81.764728,
+              37.230309
+            ],
+            [
+              -81.770417,
+              37.224198
+            ],
+            [
+              -81.763381,
+              37.220602
+            ],
+            [
+              -81.764971,
+              37.216276
+            ],
+            [
+              -81.761697,
+              37.216492
+            ],
+            [
+              -81.761747,
+              37.214351
+            ],
+            [
+              -81.768931,
+              37.211524
+            ],
+            [
+              -81.76717,
+              37.208961
+            ],
+            [
+              -81.761471,
+              37.208416
+            ],
+            [
+              -81.759505,
+              37.211089
+            ],
+            [
+              -81.755088,
+              37.212408
+            ],
+            [
+              -81.750396,
+              37.207792
+            ],
+            [
+              -81.752335,
+              37.204526
+            ],
+            [
+              -81.750735,
+              37.202196
+            ],
+            [
+              -81.76361,
+              37.196585
+            ],
+            [
+              -81.761474,
+              37.192369
+            ],
+            [
+              -81.763038,
+              37.187449
+            ],
+            [
+              -81.766266,
+              37.192703
+            ],
+            [
+              -81.772704,
+              37.189896
+            ],
+            [
+              -81.770701,
+              37.18532
+            ],
+            [
+              -81.764812,
+              37.18062
+            ],
+            [
+              -81.765127,
+              37.177758
+            ],
+            [
+              -81.761607,
+              37.172631
+            ],
+            [
+              -81.768816,
+              37.170396
+            ],
+            [
+              -81.770531,
+              37.159048
+            ],
+            [
+              -81.768159,
+              37.156146
+            ],
+            [
+              -81.769859,
+              37.154193
+            ],
+            [
+              -81.767382,
+              37.152245
+            ],
+            [
+              -81.769613,
+              37.148848
+            ],
+            [
+              -81.765268,
+              37.141961
+            ],
+            [
+              -81.768399,
+              37.135444
+            ],
+            [
+              -81.765997,
+              37.128616
+            ],
+            [
+              -81.780651,
+              37.122822
+            ],
+            [
+              -81.78312,
+              37.118106
+            ],
+            [
+              -81.772242,
+              37.121647
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2908.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2023-03-14 00:00:00",
+        "notes": "According to the RAMACO RESOURCES, INC Form 10-K, https://web.archive.org/web/20240812145201/https://s3.amazonaws.com/sec.irpass.cc/2352/0001558370-23-003736.pdf, created March 14th 2023 (from PDF metadata),  page 5, paragraph 2, 'The Berwind property consists of approximately 62,500 acres ofcontrolled mineral rights'. Figure 1.1-1 General Location Map, on the 154th page ('page 2'), shows the boundary of the Berwind Complex, which includes the Berwind Reserve and the Amonate Property acquired in 12/2021. The Berwind Complex is further described on page 56 as including mines Laurel Fork Pocahontas 3Deep Mine, Triad No. 2 Deep Mine, Triple S Surface and Highwall Mine and Berwind No. 1 Pocahontas 4Deep Mine. The boundary is the Berwind Complex shown in Figure 1.1-1 and has an area of approximately 63,358 acres (256 sq km).",
+        "description": "Berwind mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2908",
+        "Owners": "Ramaco Resources LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Ramaco Resources Inc",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Berwind_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Berwind Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.646835,
+          37.209388
+        ]
+      },
+      "properties": {
+        "id": "M2908.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2908",
+        "Owners": "Ramaco Resources LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Ramaco Resources Inc",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Berwind_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Berwind Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.665782,
+          37.21405
+        ]
+      },
+      "properties": {
+        "id": "M2908.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2908",
+        "Owners": "Ramaco Resources LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Ramaco Resources Inc",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Berwind_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Berwind Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.617494,
+          37.205224
+        ]
+      },
+      "properties": {
+        "id": "M2908.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M2908",
+        "Owners": "Ramaco Resources LLC [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Ramaco Resources Inc",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Berwind_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Berwind Coal Mine",
+        "Country / Area": "United States",
+        "Last researched": "Apr 03, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

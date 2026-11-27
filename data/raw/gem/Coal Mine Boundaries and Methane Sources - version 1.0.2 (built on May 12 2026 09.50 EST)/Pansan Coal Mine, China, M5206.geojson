@@ -1,0 +1,425 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.762403,
+              32.796896
+            ],
+            [
+              116.775909,
+              32.790595
+            ],
+            [
+              116.780625,
+              32.799184
+            ],
+            [
+              116.790539,
+              32.817235
+            ],
+            [
+              116.795498,
+              32.82626
+            ],
+            [
+              116.799206,
+              32.833008
+            ],
+            [
+              116.801836,
+              32.837793
+            ],
+            [
+              116.752803,
+              32.851431
+            ],
+            [
+              116.738562,
+              32.862988
+            ],
+            [
+              116.702918,
+              32.866741
+            ],
+            [
+              116.686942,
+              32.821933
+            ],
+            [
+              116.701235,
+              32.810967
+            ],
+            [
+              116.739237,
+              32.796309
+            ],
+            [
+              116.755571,
+              32.796477
+            ],
+            [
+              116.762403,
+              32.796896
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M5206.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2022-10-01 00:00:00",
+        "notes": "The boundary coordinates are found on the page 38 from the table 2-1 in the document Environmental Impact Assessment Report for the Pansan Mine Production Capacity Expansion Project (from 3.0 Mt to 5.0 Mt) (\u6f58\u4e09\u77ff\u751f\u4ea7\u80fd\u529b\u75313.0Mt \u63d0\u5347\u81f35.0 Mt\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66) https://web.archive.org/web/20250805230911/https://www.hfmty.com/uploadfile/ueditor/file/202210/1666322671b77bc1.pdf",
+        "description": "Pansan coal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.742778,
+          32.828321
+        ]
+      },
+      "properties": {
+        "id": "M5206.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2022-03-06 00:00:00",
+        "notes": "The drainage system was found in Figure 2-8, Overall Layout of the Mining Area, on page 54 of Environmental Impact Assessment Report for the Pansan Mine Production Capacity Expansion Project (from 3.0 Mt to 5.0 Mt) (\u6f58\u4e09\u77ff\u751f\u4ea7\u80fd\u529b\u75313.0Mt \u63d0\u5347\u81f35.0 Mt\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66), https://web.archive.org/web/20250805230911/https://www.hfmty.com/uploadfile/ueditor/file/202210/1666322671b77bc1.pdf. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "old gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.742102,
+          32.829053
+        ]
+      },
+      "properties": {
+        "id": "M5206.P2",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2025-04-22 00:00:00",
+        "notes": "The drainage system was found in Figure 2-8, Overall Layout of the Mining Area, on page 54 of Environmental Impact Assessment Report for the Pansan Mine Production Capacity Expansion Project (from 3.0 Mt to 5.0 Mt) (\u6f58\u4e09\u77ff\u751f\u4ea7\u80fd\u529b\u75313.0Mt \u63d0\u5347\u81f35.0 Mt\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66), https://web.archive.org/web/20250805230911/https://www.hfmty.com/uploadfile/ueditor/file/202210/1666322671b77bc1.pdf. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "new gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.742331,
+          32.826813
+        ]
+      },
+      "properties": {
+        "id": "M5206.P3",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2022-03-06 00:00:00",
+        "notes": "The station was found in Figure 2-8, Overall Layout of the Mining Area, on page 54 of Environmental Impact Assessment Report for the Pansan Mine Production Capacity Expansion Project (from 3.0 Mt to 5.0 Mt) (\u6f58\u4e09\u77ff\u751f\u4ea7\u80fd\u529b\u75313.0Mt \u63d0\u5347\u81f35.0 Mt\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66), https://web.archive.org/web/20250805230911/https://www.hfmty.com/uploadfile/ueditor/file/202210/1666322671b77bc1.pdf. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "low-concentration gas power station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.728071,
+          32.86225
+        ]
+      },
+      "properties": {
+        "id": "M5206.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-04-22 00:00:00",
+        "notes": "The shaft is shown in Figure 2-3, and described on page 54, in the Environmental Impact Assessment Report for the Pansan Mine Production Capacity Expansion Project (from 3.0 Mt to 5.0 Mt) (\u6f58\u4e09\u77ff\u751f\u4ea7\u80fd\u529b\u75313.0Mt \u63d0\u5347\u81f35.0 Mt\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66) https://web.archive.org/web/20250805230911/https://www.hfmty.com/uploadfile/ueditor/file/202210/1666322671b77bc1.pdf. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "new west return air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.727817,
+          32.861935
+        ]
+      },
+      "properties": {
+        "id": "M5206.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-04-22 00:00:00",
+        "notes": "The shaft is shown in Figure 2-3, and described on page 54, in the Environmental Impact Assessment Report for the Pansan Mine Production Capacity Expansion Project (from 3.0 Mt to 5.0 Mt) (\u6f58\u4e09\u77ff\u751f\u4ea7\u80fd\u529b\u75313.0Mt \u63d0\u5347\u81f35.0 Mt\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66) https://web.archive.org/web/20250805230911/https://www.hfmty.com/uploadfile/ueditor/file/202210/1666322671b77bc1.pdf. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "old west return air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.780967,
+          32.838398
+        ]
+      },
+      "properties": {
+        "id": "M5206.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "The shaft is shown in Figure 2-3, and described on page 54, in the Environmental Impact Assessment Report for the Pansan Mine Production Capacity Expansion Project (from 3.0 Mt to 5.0 Mt) (\u6f58\u4e09\u77ff\u751f\u4ea7\u80fd\u529b\u75313.0Mt \u63d0\u5347\u81f35.0 Mt\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66) https://web.archive.org/web/20250805230911/https://www.hfmty.com/uploadfile/ueditor/file/202210/1666322671b77bc1.pdf. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "east return air shaft - vent 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.745311,
+          32.828
+        ]
+      },
+      "properties": {
+        "id": "M5206.P7",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-03-06 00:00:00",
+        "notes": "The shaft was found in Figure 2-8, Overall Layout of the Mining Area, on page 54 of Environmental Impact Assessment Report for the Pansan Mine Production Capacity Expansion Project (from 3.0 Mt to 5.0 Mt) (\u6f58\u4e09\u77ff\u751f\u4ea7\u80fd\u529b\u75313.0Mt \u63d0\u5347\u81f35.0 Mt\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66), https://web.archive.org/web/20250805230911/https://www.hfmty.com/uploadfile/ueditor/file/202210/1666322671b77bc1.pdf. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "central intake air shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.745584,
+          32.824843
+        ]
+      },
+      "properties": {
+        "id": "M5206.P8",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2022-03-06 00:00:00",
+        "notes": "The shaft was found in Figure 2-8, Overall Layout of the Mining Area, on page 54 of Environmental Impact Assessment Report for the Pansan Mine Production Capacity Expansion Project (from 3.0 Mt to 5.0 Mt) (\u6f58\u4e09\u77ff\u751f\u4ea7\u80fd\u529b\u75313.0Mt \u63d0\u5347\u81f35.0 Mt\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66), https://web.archive.org/web/20250805230911/https://www.hfmty.com/uploadfile/ueditor/file/202210/1666322671b77bc1.pdf. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "main shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.745838,
+          32.824216
+        ]
+      },
+      "properties": {
+        "id": "M5206.P9",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2022-03-06 00:00:00",
+        "notes": "The shaft was found in Figure 2-8, Overall Layout of the Mining Area, on page 54 of Environmental Impact Assessment Report for the Pansan Mine Production Capacity Expansion Project (from 3.0 Mt to 5.0 Mt) (\u6f58\u4e09\u77ff\u751f\u4ea7\u80fd\u529b\u75313.0Mt \u63d0\u5347\u81f35.0 Mt\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66), https://web.archive.org/web/20250805230911/https://www.hfmty.com/uploadfile/ueditor/file/202210/1666322671b77bc1.pdf. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "auxiliary shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.78119,
+          32.839242
+        ]
+      },
+      "properties": {
+        "id": "M5206.P10",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "The shaft is shown in Figure 2-3, and described on page 54, in the Environmental Impact Assessment Report for the Pansan Mine Production Capacity Expansion Project (from 3.0 Mt to 5.0 Mt) (\u6f58\u4e09\u77ff\u751f\u4ea7\u80fd\u529b\u75313.0Mt \u63d0\u5347\u81f35.0 Mt\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66) https://web.archive.org/web/20250805230911/https://www.hfmty.com/uploadfile/ueditor/file/202210/1666322671b77bc1.pdf. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "east return air shaft - vent 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.744517,
+          32.825818
+        ]
+      },
+      "properties": {
+        "id": "M5206.P11",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2025-08-08 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation system",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M5206",
+        "Owners": "Huainan Mining Group Co Ltd [100%]",
+        "Owners (Non-ENG)": "\u6dee\u5357\u77ff\u4e1a\uff08\u96c6\u56e2\uff09\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6f58\u96c6\u7b2c\u4e09\u7164\u77ff",
+        "Parent Company": "",
+        "GEM Wiki Page (ENG)": "",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B7%AE%E5%8D%97%E7%9F%BF%E4%B8%9A%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%BD%98%E4%B8%89%E7%85%A4%E7%9F%BF",
+        "Coal Grade": "Met",
+        "Mine Name": "Pansan Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

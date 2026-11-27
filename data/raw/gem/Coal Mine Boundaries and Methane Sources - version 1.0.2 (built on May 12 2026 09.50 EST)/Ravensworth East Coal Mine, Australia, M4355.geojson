@@ -1,0 +1,353 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.077326,
+              -32.416648
+            ],
+            [
+              151.079301,
+              -32.422597
+            ],
+            [
+              151.081911,
+              -32.4281
+            ],
+            [
+              151.084131,
+              -32.426671
+            ],
+            [
+              151.087021,
+              -32.426641
+            ],
+            [
+              151.089381,
+              -32.425391
+            ],
+            [
+              151.091002,
+              -32.423308
+            ],
+            [
+              151.090225,
+              -32.420125
+            ],
+            [
+              151.089695,
+              -32.417864
+            ],
+            [
+              151.088848,
+              -32.415247
+            ],
+            [
+              151.087861,
+              -32.412481
+            ],
+            [
+              151.087331,
+              -32.410637
+            ],
+            [
+              151.086732,
+              -32.409209
+            ],
+            [
+              151.085956,
+              -32.407752
+            ],
+            [
+              151.084934,
+              -32.406711
+            ],
+            [
+              151.083842,
+              -32.4068
+            ],
+            [
+              151.084159,
+              -32.40805
+            ],
+            [
+              151.084582,
+              -32.409031
+            ],
+            [
+              151.084477,
+              -32.410875
+            ],
+            [
+              151.084231,
+              -32.412452
+            ],
+            [
+              151.082893,
+              -32.412899
+            ],
+            [
+              151.082505,
+              -32.413107
+            ],
+            [
+              151.082153,
+              -32.414386
+            ],
+            [
+              151.081484,
+              -32.414922
+            ],
+            [
+              151.079969,
+              -32.415279
+            ],
+            [
+              151.078771,
+              -32.415785
+            ],
+            [
+              151.077326,
+              -32.416648
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M4355.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-07-31 00:00:00",
+        "notes": "Ravensworth East mine is part of the Mount Owen complex and within the SSD-5850 boundary as described in the Mount Owen/Glendell 2023 annual report https://web.archive.org/web/2/https://www.glencore.com.au/.rest/api/v1/documents/34f6615ede78150d537b50a23c2b0259/2023+Annual+Review-+Main+report.pdf  executive summary on page 5, describing Ravensworth East as part of SSD-5850.  In lieu of a well documented Ravensworth East mine boundary, this boundary of the West Pit was estimated by visually identifying the pit's perimeter using Google Earth Pro satellite imagery, cross-referencing visually Figure 13: MOC Groundwater Extraction and Monitoring Bores, page 88 of Mt Owen Complex Annual Review 2017, https://web.archive.org/web/20250716162813/https://www.glencore.com.au/.rest/api/v1/documents/bb86bc0925c3c9427ecf9826e40028d2/MOC_Annual_Review_2017.pdf. The area of this boundary is approximately 1.6 sq km.",
+        "description": "Estimated Ravensworth East mine West Pit boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M4355",
+        "Owners": "Mt Owen Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ravensworth_East_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Ravensworth East Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              151.074695,
+              -32.393483
+            ],
+            [
+              151.072823,
+              -32.394315
+            ],
+            [
+              151.071886,
+              -32.394288
+            ],
+            [
+              151.070442,
+              -32.394248
+            ],
+            [
+              151.069823,
+              -32.394529
+            ],
+            [
+              151.069474,
+              -32.395722
+            ],
+            [
+              151.069189,
+              -32.396285
+            ],
+            [
+              151.069776,
+              -32.396767
+            ],
+            [
+              151.0703,
+              -32.397424
+            ],
+            [
+              151.071126,
+              -32.398375
+            ],
+            [
+              151.071348,
+              -32.39859
+            ],
+            [
+              151.072316,
+              -32.399943
+            ],
+            [
+              151.072682,
+              -32.400881
+            ],
+            [
+              151.073174,
+              -32.401685
+            ],
+            [
+              151.074174,
+              -32.401792
+            ],
+            [
+              151.074761,
+              -32.402636
+            ],
+            [
+              151.07538,
+              -32.403561
+            ],
+            [
+              151.076158,
+              -32.404016
+            ],
+            [
+              151.076968,
+              -32.403788
+            ],
+            [
+              151.077872,
+              -32.403842
+            ],
+            [
+              151.078952,
+              -32.403801
+            ],
+            [
+              151.079888,
+              -32.403747
+            ],
+            [
+              151.081015,
+              -32.403734
+            ],
+            [
+              151.081809,
+              -32.403372
+            ],
+            [
+              151.082332,
+              -32.402889
+            ],
+            [
+              151.083078,
+              -32.402098
+            ],
+            [
+              151.084236,
+              -32.400758
+            ],
+            [
+              151.085077,
+              -32.399605
+            ],
+            [
+              151.085854,
+              -32.398747
+            ],
+            [
+              151.086219,
+              -32.39797
+            ],
+            [
+              151.086108,
+              -32.397608
+            ],
+            [
+              151.08525,
+              -32.397287
+            ],
+            [
+              151.084552,
+              -32.396912
+            ],
+            [
+              151.083981,
+              -32.396577
+            ],
+            [
+              151.08333,
+              -32.396309
+            ],
+            [
+              151.082457,
+              -32.396189
+            ],
+            [
+              151.081505,
+              -32.396095
+            ],
+            [
+              151.080743,
+              -32.395787
+            ],
+            [
+              151.080044,
+              -32.395452
+            ],
+            [
+              151.079298,
+              -32.395104
+            ],
+            [
+              151.078774,
+              -32.394729
+            ],
+            [
+              151.078108,
+              -32.394394
+            ],
+            [
+              151.077124,
+              -32.394073
+            ],
+            [
+              151.076092,
+              -32.39359
+            ],
+            [
+              151.074695,
+              -32.393483
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M4355.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2023-07-31 00:00:00",
+        "notes": "Ravensworth East mine is part of the Mount Owen complex and within the SSD-5850 boundary as described in the Mount Owen/Glendell 2023 annual report https://web.archive.org/web/2/https://www.glencore.com.au/.rest/api/v1/documents/34f6615ede78150d537b50a23c2b0259/2023+Annual+Review-+Main+report.pdf  executive summary on page 7, describing Ravensworth East as part of SSD-5850. In lieu of a well documented Ravensworth East mine boundary, this boundary of the Bayswater North Pit was estimated by visually identifying the pit's perimeter using Google Earth Pro satellite imagery, cross-referencing visually Figure 13: MOC Groundwater Extraction and Monitoring Bores, page 88 of Mt Owen Complex Annual Review 2017, https://web.archive.org/web/20250716162813/https://www.glencore.com.au/.rest/api/v1/documents/bb86bc0925c3c9427ecf9826e40028d2/MOC_Annual_Review_2017.pdf. The area of this boundary is approximately 1.2 sq km.",
+        "description": "Estimated Ravensworth East mine Bayswater North Pit boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M4355",
+        "Owners": "Mt Owen Pty Limited [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Glencore",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Ravensworth_East_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Ravensworth East Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

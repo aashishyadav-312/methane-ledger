@@ -1,0 +1,2043 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.79984,
+              -0.334196
+            ],
+            [
+              114.924474,
+              -0.334143
+            ],
+            [
+              114.928715,
+              -0.265588
+            ],
+            [
+              114.985282,
+              -0.262052
+            ],
+            [
+              114.985277,
+              -0.240148
+            ],
+            [
+              115.124472,
+              -0.238727
+            ],
+            [
+              115.125176,
+              -0.216119
+            ],
+            [
+              115.137892,
+              -0.213997
+            ],
+            [
+              115.145662,
+              -0.208344
+            ],
+            [
+              115.157672,
+              -0.206222
+            ],
+            [
+              115.164737,
+              -0.193501
+            ],
+            [
+              115.170389,
+              -0.194207
+            ],
+            [
+              115.176042,
+              -0.181485
+            ],
+            [
+              115.188054,
+              -0.180775
+            ],
+            [
+              115.20855,
+              -0.156737
+            ],
+            [
+              115.219151,
+              -0.156732
+            ],
+            [
+              115.221273,
+              -0.151076
+            ],
+            [
+              115.229756,
+              -0.143295
+            ],
+            [
+              115.30896,
+              -0.141123
+            ],
+            [
+              115.316043,
+              -0.126264
+            ],
+            [
+              115.246022,
+              -0.124195
+            ],
+            [
+              115.245327,
+              -0.092366
+            ],
+            [
+              115.182408,
+              -0.093109
+            ],
+            [
+              115.180993,
+              -0.10867
+            ],
+            [
+              115.13435,
+              -0.110805
+            ],
+            [
+              115.132938,
+              -0.126361
+            ],
+            [
+              115.099021,
+              -0.128487
+            ],
+            [
+              115.099026,
+              -0.156763
+            ],
+            [
+              115.017762,
+              -0.157466
+            ],
+            [
+              115.015659,
+              -0.204818
+            ],
+            [
+              114.934355,
+              -0.20622
+            ],
+            [
+              114.931537,
+              -0.235905
+            ],
+            [
+              114.802668,
+              -0.236591
+            ],
+            [
+              114.79984,
+              -0.334196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1339.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-09-01 00:00:00",
+        "notes": "The boundary was extracted from the concession area shown on page 309 of the INDONESIAN COAL BOOK 2024-2026, released September 2024 (no ISBN was found). The Status table lists the Tenement Status as Production, and the Concession Area as 46,620 hectares. The area of the extracted boundary is 45,360 hectares. Due to the complexities of boundary extraction, the precision is left as estimated.",
+        "description": "AMC Coal Mines - PT Lahai Coal (LC) boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1339",
+        "Owners": "PT Maruwai Coal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Adaro Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/AMC_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "AMC Coal Mines",
+        "Country / Area": "Indonesia",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.898694,
+              -0.142349
+            ],
+            [
+              114.904593,
+              -0.129075
+            ],
+            [
+              114.908281,
+              -0.118012
+            ],
+            [
+              114.916392,
+              -0.109162
+            ],
+            [
+              114.949576,
+              -0.1099
+            ],
+            [
+              114.954001,
+              -0.114325
+            ],
+            [
+              114.964325,
+              -0.115062
+            ],
+            [
+              114.962109,
+              -0.143825
+            ],
+            [
+              114.951048,
+              -0.144563
+            ],
+            [
+              114.940724,
+              -0.150463
+            ],
+            [
+              114.937036,
+              -0.160049
+            ],
+            [
+              114.943672,
+              -0.172585
+            ],
+            [
+              114.946621,
+              -0.183645
+            ],
+            [
+              114.922288,
+              -0.183644
+            ],
+            [
+              114.920075,
+              -0.207239
+            ],
+            [
+              114.909015,
+              -0.207239
+            ],
+            [
+              114.906803,
+              -0.199128
+            ],
+            [
+              114.895743,
+              -0.19839
+            ],
+            [
+              114.889843,
+              -0.210187
+            ],
+            [
+              114.875833,
+              -0.210186
+            ],
+            [
+              114.873622,
+              -0.202813
+            ],
+            [
+              114.864773,
+              -0.207237
+            ],
+            [
+              114.864772,
+              -0.222721
+            ],
+            [
+              114.92966,
+              -0.221986
+            ],
+            [
+              114.93261,
+              -0.191018
+            ],
+            [
+              114.962105,
+              -0.186595
+            ],
+            [
+              114.968005,
+              -0.179221
+            ],
+            [
+              114.973905,
+              -0.168898
+            ],
+            [
+              114.984967,
+              -0.168898
+            ],
+            [
+              114.987184,
+              -0.136449
+            ],
+            [
+              115.016686,
+              -0.136447
+            ],
+            [
+              115.020383,
+              -0.098089
+            ],
+            [
+              115.020387,
+              -0.087761
+            ],
+            [
+              115.007847,
+              -0.08555
+            ],
+            [
+              115.006375,
+              -0.071532
+            ],
+            [
+              114.993835,
+              -0.072272
+            ],
+            [
+              114.990149,
+              -0.065632
+            ],
+            [
+              114.97761,
+              -0.064897
+            ],
+            [
+              114.977614,
+              -0.047186
+            ],
+            [
+              114.954749,
+              -0.040547
+            ],
+            [
+              114.950326,
+              -0.024309
+            ],
+            [
+              114.933361,
+              -0.025048
+            ],
+            [
+              114.929674,
+              -0.014713
+            ],
+            [
+              114.922298,
+              -0.009545
+            ],
+            [
+              114.922299,
+              0.011869
+            ],
+            [
+              114.911233,
+              0.024425
+            ],
+            [
+              114.907544,
+              0.03329
+            ],
+            [
+              114.897215,
+              0.032553
+            ],
+            [
+              114.896479,
+              0.008917
+            ],
+            [
+              114.903856,
+              0.008177
+            ],
+            [
+              114.903856,
+              -0.016927
+            ],
+            [
+              114.91197,
+              -0.018404
+            ],
+            [
+              114.912707,
+              -0.057521
+            ],
+            [
+              114.900906,
+              -0.056782
+            ],
+            [
+              114.888368,
+              -0.047187
+            ],
+            [
+              114.870666,
+              -0.047184
+            ],
+            [
+              114.869192,
+              -0.061205
+            ],
+            [
+              114.852965,
+              -0.061201
+            ],
+            [
+              114.850757,
+              -0.092188
+            ],
+            [
+              114.833055,
+              -0.094397
+            ],
+            [
+              114.833061,
+              -0.140128
+            ],
+            [
+              114.898694,
+              -0.142349
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1339.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-09-01 00:00:00",
+        "notes": "The boundary was extracted from the concession area shown on page 330 of the INDONESIAN COAL BOOK 2024-2026, released September 2024 (no ISBN was found). The Status table lists the Tenement Status as Production, and the Concession Area as 24,990 hectares. The area of the extracted boundary is 22,679 hectares. Due to the complexities of boundary extraction, the precision is left as estimated. ",
+        "description": "AMC Coal Mines - PT Maruwai Coal (MC) boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1339",
+        "Owners": "PT Maruwai Coal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Adaro Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/AMC_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "AMC Coal Mines",
+        "Country / Area": "Indonesia",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.499575,
+              -0.066319
+            ],
+            [
+              114.497109,
+              -0.050807
+            ],
+            [
+              114.518033,
+              -0.049296
+            ],
+            [
+              114.523268,
+              -0.042573
+            ],
+            [
+              114.564904,
+              -0.041976
+            ],
+            [
+              114.566093,
+              -0.025956
+            ],
+            [
+              114.577372,
+              -0.015276
+            ],
+            [
+              114.591023,
+              -0.011716
+            ],
+            [
+              114.591616,
+              0.009049
+            ],
+            [
+              114.604079,
+              0.009049
+            ],
+            [
+              114.6112,
+              0.000743
+            ],
+            [
+              114.64858,
+              0.003708
+            ],
+            [
+              114.650359,
+              0.022098
+            ],
+            [
+              114.640866,
+              0.029217
+            ],
+            [
+              114.641458,
+              0.051168
+            ],
+            [
+              114.65451,
+              0.051167
+            ],
+            [
+              114.666376,
+              0.04464
+            ],
+            [
+              114.668154,
+              0.070744
+            ],
+            [
+              114.709088,
+              0.071336
+            ],
+            [
+              114.712053,
+              0.111686
+            ],
+            [
+              114.734598,
+              0.111092
+            ],
+            [
+              114.737567,
+              0.144332
+            ],
+            [
+              114.814211,
+              0.143153
+            ],
+            [
+              114.81947,
+              0.175226
+            ],
+            [
+              114.81057,
+              0.182944
+            ],
+            [
+              114.810579,
+              0.206111
+            ],
+            [
+              114.851549,
+              0.209104
+            ],
+            [
+              114.853357,
+              0.246552
+            ],
+            [
+              114.829008,
+              0.247725
+            ],
+            [
+              114.788021,
+              0.204915
+            ],
+            [
+              114.773182,
+              0.20491
+            ],
+            [
+              114.773188,
+              0.22333
+            ],
+            [
+              114.746477,
+              0.223918
+            ],
+            [
+              114.746475,
+              0.214411
+            ],
+            [
+              114.713832,
+              0.209062
+            ],
+            [
+              114.698402,
+              0.202528
+            ],
+            [
+              114.697217,
+              0.184114
+            ],
+            [
+              114.662796,
+              0.182932
+            ],
+            [
+              114.647367,
+              0.176997
+            ],
+            [
+              114.645591,
+              0.162152
+            ],
+            [
+              114.637878,
+              0.153841
+            ],
+            [
+              114.637289,
+              0.137218
+            ],
+            [
+              114.651531,
+              0.136621
+            ],
+            [
+              114.651536,
+              0.113472
+            ],
+            [
+              114.619491,
+              0.113479
+            ],
+            [
+              114.618295,
+              0.145535
+            ],
+            [
+              114.586807,
+              0.145408
+            ],
+            [
+              114.58389,
+              0.076692
+            ],
+            [
+              114.550971,
+              0.076059
+            ],
+            [
+              114.548875,
+              0.026853
+            ],
+            [
+              114.512649,
+              0.026859
+            ],
+            [
+              114.512651,
+              0.010242
+            ],
+            [
+              114.481756,
+              0.010838
+            ],
+            [
+              114.48056,
+              -0.065731
+            ],
+            [
+              114.499575,
+              -0.066319
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1339.B3",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-09-01 00:00:00",
+        "notes": "The boundary was extracted from the concession area shown on page 404 of the INDONESIAN COAL BOOK 2024-2026, released September 2024 (no ISBN was found). The Status table lists the Tenement Status as Production Operation, and the Concession Area as 24,993 hectares. The area of this extracted boundary part is 41,980 hectares. Due to the complexities of boundary extraction, the precision is left as estimated.",
+        "description": "AMC Coal Mines - PT Sumber Barito Coal (SBC) boundary part 1",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1339",
+        "Owners": "PT Maruwai Coal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Adaro Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/AMC_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "AMC Coal Mines",
+        "Country / Area": "Indonesia",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.71218,
+              0.302845
+            ],
+            [
+              114.713082,
+              0.328708
+            ],
+            [
+              114.745561,
+              0.327801
+            ],
+            [
+              114.746464,
+              0.363593
+            ],
+            [
+              114.692625,
+              0.364808
+            ],
+            [
+              114.693232,
+              0.302847
+            ],
+            [
+              114.71218,
+              0.302845
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1339.B4",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-09-01 00:00:00",
+        "notes": "The boundary was extracted from the concession area shown on page 404 of the INDONESIAN COAL BOOK 2024-2026, released September 2024 (no ISBN was found). The Status table lists the Tenement Status as Production Operation, and the Concession Area as 24,993 hectares. The area of this extracted boundary part is 2,978 hectares. Due to the complexities of boundary extraction, the precision is left as estimated.",
+        "description": "AMC Coal Mines - PT Sumber Barito Coal (SBC) boundary part 2",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1339",
+        "Owners": "PT Maruwai Coal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Adaro Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/AMC_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "AMC Coal Mines",
+        "Country / Area": "Indonesia",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.455934,
+              -0.089286
+            ],
+            [
+              114.458026,
+              -0.084928
+            ],
+            [
+              114.464475,
+              -0.084056
+            ],
+            [
+              114.470575,
+              -0.075689
+            ],
+            [
+              114.479222,
+              -0.0743
+            ],
+            [
+              114.480266,
+              0.012669
+            ],
+            [
+              114.511128,
+              0.011976
+            ],
+            [
+              114.51113,
+              0.028014
+            ],
+            [
+              114.547462,
+              0.028014
+            ],
+            [
+              114.549205,
+              0.068276
+            ],
+            [
+              114.526227,
+              0.068578
+            ],
+            [
+              114.522838,
+              0.075351
+            ],
+            [
+              114.48387,
+              0.07536
+            ],
+            [
+              114.483874,
+              0.058425
+            ],
+            [
+              114.504206,
+              0.058422
+            ],
+            [
+              114.503644,
+              0.039796
+            ],
+            [
+              114.453934,
+              0.039236
+            ],
+            [
+              114.453932,
+              0.048269
+            ],
+            [
+              114.464103,
+              0.048267
+            ],
+            [
+              114.462969,
+              0.069155
+            ],
+            [
+              114.448842,
+              0.070288
+            ],
+            [
+              114.445452,
+              0.065772
+            ],
+            [
+              114.436409,
+              0.066339
+            ],
+            [
+              114.435283,
+              0.041497
+            ],
+            [
+              114.4285,
+              0.042627
+            ],
+            [
+              114.42624,
+              0.036417
+            ],
+            [
+              114.430762,
+              0.030206
+            ],
+            [
+              114.430763,
+              0.014398
+            ],
+            [
+              114.43585,
+              0.008187
+            ],
+            [
+              114.450544,
+              0.008188
+            ],
+            [
+              114.450542,
+              -0.015522
+            ],
+            [
+              114.433587,
+              -0.016089
+            ],
+            [
+              114.433022,
+              -0.00875
+            ],
+            [
+              114.414932,
+              -0.008188
+            ],
+            [
+              114.40871,
+              -0.020611
+            ],
+            [
+              114.426237,
+              -0.020608
+            ],
+            [
+              114.426235,
+              -0.029077
+            ],
+            [
+              114.434714,
+              -0.029075
+            ],
+            [
+              114.433579,
+              -0.046014
+            ],
+            [
+              114.426796,
+              -0.046016
+            ],
+            [
+              114.426793,
+              -0.053357
+            ],
+            [
+              114.407569,
+              -0.053364
+            ],
+            [
+              114.407551,
+              -0.087252
+            ],
+            [
+              114.455934,
+              -0.089286
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1339.B5",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-09-01 00:00:00",
+        "notes": "The boundary was extracted from the concession area shown on page 286 of the INDONESIAN COAL BOOK 2024-2026, released September 2024 (no ISBN was found). The Status table lists the Tenement Status as Production Operation, and the Concession Area as 24,988 hectares. The area of this extracted boundary part is 12,913 hectares. Due to the complexities of boundary extraction, the precision is left as estimated.",
+        "description": "AMC Coal Mines - PT Kalteng Coal (KC) boundary part 1",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1339",
+        "Owners": "PT Maruwai Coal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Adaro Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/AMC_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "AMC Coal Mines",
+        "Country / Area": "Indonesia",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.581823,
+              0.078681
+            ],
+            [
+              114.584595,
+              0.148798
+            ],
+            [
+              114.593334,
+              0.14901
+            ],
+            [
+              114.593758,
+              0.174375
+            ],
+            [
+              114.577557,
+              0.174379
+            ],
+            [
+              114.577559,
+              0.160096
+            ],
+            [
+              114.57223,
+              0.156047
+            ],
+            [
+              114.567967,
+              0.152424
+            ],
+            [
+              114.563703,
+              0.15008
+            ],
+            [
+              114.563705,
+              0.138996
+            ],
+            [
+              114.556029,
+              0.138145
+            ],
+            [
+              114.55603,
+              0.125143
+            ],
+            [
+              114.549206,
+              0.125143
+            ],
+            [
+              114.54771,
+              0.07825
+            ],
+            [
+              114.581823,
+              0.078681
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1339.B6",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-09-01 00:00:00",
+        "notes": "The boundary was extracted from the concession area shown on page 286 of the INDONESIAN COAL BOOK 2024-2026, released September 2024 (no ISBN was found). The Status table lists the Tenement Status as Production Operation, and the Concession Area as 24,988 hectares. The area of this extracted boundary part is 3,310 hectares. Due to the complexities of boundary extraction, the precision is left as estimated.",
+        "description": "AMC Coal Mines - PT Kalteng Coal (KC) boundary part 2",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1339",
+        "Owners": "PT Maruwai Coal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Adaro Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/AMC_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "AMC Coal Mines",
+        "Country / Area": "Indonesia",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.454991,
+              0.134962
+            ],
+            [
+              114.454264,
+              0.121985
+            ],
+            [
+              114.486713,
+              0.121999
+            ],
+            [
+              114.48996,
+              0.13065
+            ],
+            [
+              114.486357,
+              0.134253
+            ],
+            [
+              114.48636,
+              0.141821
+            ],
+            [
+              114.492487,
+              0.141822
+            ],
+            [
+              114.492485,
+              0.135336
+            ],
+            [
+              114.496089,
+              0.133895
+            ],
+            [
+              114.522757,
+              0.133902
+            ],
+            [
+              114.522758,
+              0.141469
+            ],
+            [
+              114.526002,
+              0.145793
+            ],
+            [
+              114.526727,
+              0.171013
+            ],
+            [
+              114.514837,
+              0.172092
+            ],
+            [
+              114.51556,
+              0.192626
+            ],
+            [
+              114.526369,
+              0.192987
+            ],
+            [
+              114.528171,
+              0.199111
+            ],
+            [
+              114.584005,
+              0.199111
+            ],
+            [
+              114.584005,
+              0.193348
+            ],
+            [
+              114.59373,
+              0.193348
+            ],
+            [
+              114.59373,
+              0.200912
+            ],
+            [
+              114.607417,
+              0.200912
+            ],
+            [
+              114.608858,
+              0.218921
+            ],
+            [
+              114.605256,
+              0.223243
+            ],
+            [
+              114.604896,
+              0.23693
+            ],
+            [
+              114.602375,
+              0.238011
+            ],
+            [
+              114.602375,
+              0.245935
+            ],
+            [
+              114.595171,
+              0.244134
+            ],
+            [
+              114.59301,
+              0.253139
+            ],
+            [
+              114.590849,
+              0.256741
+            ],
+            [
+              114.586167,
+              0.258903
+            ],
+            [
+              114.577162,
+              0.258903
+            ],
+            [
+              114.577882,
+              0.265747
+            ],
+            [
+              114.59157,
+              0.267908
+            ],
+            [
+              114.59121,
+              0.283759
+            ],
+            [
+              114.587247,
+              0.285921
+            ],
+            [
+              114.586166,
+              0.290244
+            ],
+            [
+              114.569956,
+              0.288804
+            ],
+            [
+              114.568877,
+              0.270431
+            ],
+            [
+              114.562393,
+              0.270431
+            ],
+            [
+              114.561312,
+              0.257463
+            ],
+            [
+              114.552667,
+              0.258184
+            ],
+            [
+              114.551947,
+              0.252421
+            ],
+            [
+              114.545102,
+              0.252421
+            ],
+            [
+              114.544022,
+              0.245937
+            ],
+            [
+              114.537898,
+              0.245938
+            ],
+            [
+              114.538258,
+              0.237653
+            ],
+            [
+              114.513759,
+              0.238015
+            ],
+            [
+              114.514839,
+              0.24594
+            ],
+            [
+              114.510876,
+              0.24594
+            ],
+            [
+              114.510875,
+              0.254226
+            ],
+            [
+              114.500785,
+              0.254227
+            ],
+            [
+              114.501147,
+              0.245581
+            ],
+            [
+              114.495381,
+              0.245221
+            ],
+            [
+              114.49466,
+              0.236575
+            ],
+            [
+              114.507634,
+              0.234773
+            ],
+            [
+              114.508354,
+              0.231891
+            ],
+            [
+              114.515561,
+              0.23081
+            ],
+            [
+              114.518443,
+              0.23081
+            ],
+            [
+              114.521686,
+              0.226847
+            ],
+            [
+              114.524568,
+              0.226847
+            ],
+            [
+              114.52673,
+              0.223245
+            ],
+            [
+              114.535737,
+              0.222885
+            ],
+            [
+              114.535376,
+              0.212078
+            ],
+            [
+              114.527811,
+              0.212079
+            ],
+            [
+              114.520605,
+              0.201992
+            ],
+            [
+              114.505471,
+              0.201632
+            ],
+            [
+              114.500426,
+              0.196588
+            ],
+            [
+              114.499704,
+              0.186861
+            ],
+            [
+              114.491415,
+              0.1865
+            ],
+            [
+              114.483125,
+              0.185058
+            ],
+            [
+              114.483485,
+              0.177852
+            ],
+            [
+              114.474112,
+              0.17641
+            ],
+            [
+              114.473746,
+              0.151547
+            ],
+            [
+              114.465093,
+              0.151184
+            ],
+            [
+              114.464727,
+              0.134966
+            ],
+            [
+              114.454991,
+              0.134962
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1339.B7",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-09-01 00:00:00",
+        "notes": "The boundary was extracted from the concession area shown on page 286 of the INDONESIAN COAL BOOK 2024-2026, released September 2024 (no ISBN was found). The Status table lists the Tenement Status as Production Operation, and the Concession Area as 24,988 hectares. The area of this extracted boundary part is 10,499 hectares. Due to the complexities of boundary extraction, the precision is left as estimated.",
+        "description": "AMC Coal Mines - PT Kalteng Coal (KC) boundary part 3",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1339",
+        "Owners": "PT Maruwai Coal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Adaro Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/AMC_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "AMC Coal Mines",
+        "Country / Area": "Indonesia",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.601833,
+              0.298823
+            ],
+            [
+              114.609232,
+              0.309145
+            ],
+            [
+              114.612845,
+              0.309489
+            ],
+            [
+              114.613361,
+              0.318434
+            ],
+            [
+              114.616802,
+              0.318778
+            ],
+            [
+              114.616802,
+              0.324799
+            ],
+            [
+              114.626952,
+              0.325658
+            ],
+            [
+              114.630909,
+              0.324626
+            ],
+            [
+              114.631081,
+              0.327207
+            ],
+            [
+              114.631597,
+              0.335636
+            ],
+            [
+              114.625748,
+              0.339421
+            ],
+            [
+              114.613189,
+              0.339422
+            ],
+            [
+              114.613189,
+              0.331508
+            ],
+            [
+              114.604242,
+              0.330821
+            ],
+            [
+              114.604415,
+              0.322047
+            ],
+            [
+              114.596672,
+              0.321703
+            ],
+            [
+              114.596672,
+              0.314822
+            ],
+            [
+              114.58738,
+              0.31465
+            ],
+            [
+              114.587206,
+              0.298994
+            ],
+            [
+              114.601833,
+              0.298823
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1339.B8",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-09-01 00:00:00",
+        "notes": "The boundary was extracted from the concession area shown on page 286 of the INDONESIAN COAL BOOK 2024-2026, released September 2024 (no ISBN was found). The Status table lists the Tenement Status as Production Operation, and the Concession Area as 24,988 hectares. The area of this extracted boundary part is 991 hectares. Due to the complexities of boundary extraction, the precision is left as estimated.",
+        "description": "AMC Coal Mines - PT Kalteng Coal (KC) boundary part 4",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1339",
+        "Owners": "PT Maruwai Coal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Adaro Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/AMC_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "AMC Coal Mines",
+        "Country / Area": "Indonesia",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.100201,
+              -0.13397
+            ],
+            [
+              114.089979,
+              -0.131252
+            ],
+            [
+              114.082481,
+              -0.126489
+            ],
+            [
+              114.089291,
+              -0.118996
+            ],
+            [
+              114.092691,
+              -0.106739
+            ],
+            [
+              114.086543,
+              -0.082228
+            ],
+            [
+              114.090631,
+              -0.082227
+            ],
+            [
+              114.097455,
+              -0.096524
+            ],
+            [
+              114.106317,
+              -0.105372
+            ],
+            [
+              114.126072,
+              -0.103321
+            ],
+            [
+              114.132202,
+              -0.103319
+            ],
+            [
+              114.147866,
+              -0.100589
+            ],
+            [
+              114.160801,
+              -0.094457
+            ],
+            [
+              114.158748,
+              -0.078119
+            ],
+            [
+              114.140362,
+              -0.080849
+            ],
+            [
+              114.129449,
+              -0.059065
+            ],
+            [
+              114.13626,
+              -0.059063
+            ],
+            [
+              114.144438,
+              -0.065189
+            ],
+            [
+              114.155336,
+              -0.067909
+            ],
+            [
+              114.170316,
+              -0.0645
+            ],
+            [
+              114.173726,
+              -0.074029
+            ],
+            [
+              114.181896,
+              -0.071984
+            ],
+            [
+              114.179844,
+              -0.058369
+            ],
+            [
+              114.175745,
+              -0.038626
+            ],
+            [
+              114.157354,
+              -0.031822
+            ],
+            [
+              114.151902,
+              -0.027057
+            ],
+            [
+              114.153938,
+              -0.018204
+            ],
+            [
+              114.121236,
+              -0.012079
+            ],
+            [
+              114.106236,
+              -0.000501
+            ],
+            [
+              114.08102,
+              -0.000501
+            ],
+            [
+              114.081032,
+              -0.012082
+            ],
+            [
+              114.089904,
+              -0.025023
+            ],
+            [
+              114.098761,
+              -0.022298
+            ],
+            [
+              114.097411,
+              -0.0366
+            ],
+            [
+              114.085828,
+              -0.039326
+            ],
+            [
+              114.072873,
+              -0.033198
+            ],
+            [
+              114.061255,
+              -0.003906
+            ],
+            [
+              114.048982,
+              -0.003905
+            ],
+            [
+              114.046974,
+              -0.040692
+            ],
+            [
+              114.058566,
+              -0.042053
+            ],
+            [
+              114.058574,
+              -0.051589
+            ],
+            [
+              114.051077,
+              -0.054314
+            ],
+            [
+              114.051095,
+              -0.07679
+            ],
+            [
+              114.070183,
+              -0.077466
+            ],
+            [
+              114.070192,
+              -0.091086
+            ],
+            [
+              114.051786,
+              -0.09041
+            ],
+            [
+              114.049762,
+              -0.125823
+            ],
+            [
+              114.062723,
+              -0.14216
+            ],
+            [
+              114.08317,
+              -0.14283
+            ],
+            [
+              114.083855,
+              -0.151001
+            ],
+            [
+              114.098846,
+              -0.151673
+            ],
+            [
+              114.100201,
+              -0.13397
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1339.B9",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-09-01 00:00:00",
+        "notes": "The boundary was extracted from the concession area shown on page 281 of the INDONESIAN COAL BOOK 2024-2026, released September 2024 (no ISBN was found). The Status table lists the Tenement Status as Production Operation, and the Concession Area as 24,988 hectares. The area of this extracted boundary part is 13,687 hectares. Due to the complexities of boundary extraction, the precision is left as estimated.",
+        "description": "AMC Coal Mines - PT Juloi Coal (JC) boundary part 1",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1339",
+        "Owners": "PT Maruwai Coal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Adaro Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/AMC_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "AMC Coal Mines",
+        "Country / Area": "Indonesia",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.174745,
+              -0.008019
+            ],
+            [
+              114.174757,
+              -0.023684
+            ],
+            [
+              114.179536,
+              -0.032536
+            ],
+            [
+              114.191805,
+              -0.033214
+            ],
+            [
+              114.197253,
+              -0.027084
+            ],
+            [
+              114.222469,
+              -0.031162
+            ],
+            [
+              114.221794,
+              -0.041376
+            ],
+            [
+              114.191811,
+              -0.042066
+            ],
+            [
+              114.191818,
+              -0.052962
+            ],
+            [
+              114.213627,
+              -0.056358
+            ],
+            [
+              114.213631,
+              -0.061805
+            ],
+            [
+              114.204775,
+              -0.067256
+            ],
+            [
+              114.2041,
+              -0.078831
+            ],
+            [
+              114.215006,
+              -0.085635
+            ],
+            [
+              114.217734,
+              -0.090399
+            ],
+            [
+              114.225229,
+              -0.093119
+            ],
+            [
+              114.237491,
+              -0.09107
+            ],
+            [
+              114.242944,
+              -0.099237
+            ],
+            [
+              114.253842,
+              -0.099912
+            ],
+            [
+              114.275634,
+              -0.097177
+            ],
+            [
+              114.275637,
+              -0.103304
+            ],
+            [
+              114.255207,
+              -0.106719
+            ],
+            [
+              114.25521,
+              -0.114208
+            ],
+            [
+              114.264065,
+              -0.116926
+            ],
+            [
+              114.267473,
+              -0.123051
+            ],
+            [
+              114.291307,
+              -0.125079
+            ],
+            [
+              114.29063,
+              -0.13529
+            ],
+            [
+              114.306972,
+              -0.135961
+            ],
+            [
+              114.308327,
+              -0.118943
+            ],
+            [
+              114.302198,
+              -0.115542
+            ],
+            [
+              114.302191,
+              -0.101248
+            ],
+            [
+              114.294021,
+              -0.101252
+            ],
+            [
+              114.294015,
+              -0.087638
+            ],
+            [
+              114.28312,
+              -0.087643
+            ],
+            [
+              114.283113,
+              -0.074029
+            ],
+            [
+              114.264046,
+              -0.075399
+            ],
+            [
+              114.263361,
+              -0.067231
+            ],
+            [
+              114.269489,
+              -0.064505
+            ],
+            [
+              114.270158,
+              -0.044082
+            ],
+            [
+              114.270154,
+              -0.037955
+            ],
+            [
+              114.259258,
+              -0.037959
+            ],
+            [
+              114.259251,
+              -0.027066
+            ],
+            [
+              114.250396,
+              -0.027069
+            ],
+            [
+              114.246303,
+              -0.018219
+            ],
+            [
+              114.194521,
+              -0.018231
+            ],
+            [
+              114.191105,
+              -0.008017
+            ],
+            [
+              114.174745,
+              -0.008019
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1339.B10",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-09-01 00:00:00",
+        "notes": "The boundary was extracted from the concession area shown on page 281 of the INDONESIAN COAL BOOK 2024-2026, released September 2024 (no ISBN was found). The Status table lists the Tenement Status as Production Operation, and the Concession Area as 24,988 hectares. The area of this extracted boundary part is 8,138 hectares. Due to the complexities of boundary extraction, the precision is left as estimated.",
+        "description": "AMC Coal Mines - PT Juloi Coal (JC) boundary part 2",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1339",
+        "Owners": "PT Maruwai Coal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Adaro Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/AMC_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "AMC Coal Mines",
+        "Country / Area": "Indonesia",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.356651,
+              -0.05085
+            ],
+            [
+              114.362782,
+              -0.052208
+            ],
+            [
+              114.368239,
+              -0.072629
+            ],
+            [
+              114.392758,
+              -0.072614
+            ],
+            [
+              114.39684,
+              -0.060358
+            ],
+            [
+              114.404326,
+              -0.050142
+            ],
+            [
+              114.414539,
+              -0.048095
+            ],
+            [
+              114.415893,
+              -0.031757
+            ],
+            [
+              114.399551,
+              -0.031765
+            ],
+            [
+              114.399548,
+              -0.025639
+            ],
+            [
+              114.378436,
+              -0.025649
+            ],
+            [
+              114.370265,
+              -0.029738
+            ],
+            [
+              114.358009,
+              -0.039956
+            ],
+            [
+              114.356651,
+              -0.05085
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1339.B11",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2024-09-01 00:00:00",
+        "notes": "The boundary was extracted from the concession area shown on page 281 of the INDONESIAN COAL BOOK 2024-2026, released September 2024 (no ISBN was found). The Status table lists the Tenement Status as Production Operation, and the Concession Area as 24,988 hectares. The area of this extracted boundary part is 2,352 hectares. Due to the complexities of boundary extraction, the precision is left as estimated.",
+        "description": "AMC Coal Mines - PT Juloi Coal (JC) boundary part 3",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1339",
+        "Owners": "PT Maruwai Coal [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Adaro Energy",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/AMC_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "AMC Coal Mines",
+        "Country / Area": "Indonesia",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

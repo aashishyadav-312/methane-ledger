@@ -1,0 +1,385 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.295565,
+              24.15243
+            ],
+            [
+              86.297408,
+              24.151074
+            ],
+            [
+              86.30247,
+              24.147826
+            ],
+            [
+              86.30481,
+              24.147826
+            ],
+            [
+              86.305775,
+              24.147949
+            ],
+            [
+              86.306613,
+              24.148427
+            ],
+            [
+              86.307608,
+              24.151532
+            ],
+            [
+              86.307377,
+              24.152225
+            ],
+            [
+              86.30711,
+              24.154471
+            ],
+            [
+              86.305664,
+              24.155701
+            ],
+            [
+              86.304008,
+              24.156438
+            ],
+            [
+              86.302947,
+              24.157594
+            ],
+            [
+              86.301049,
+              24.157974
+            ],
+            [
+              86.29559,
+              24.153754
+            ],
+            [
+              86.295565,
+              24.15243
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0560.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2025-09-16 00:00:00",
+        "notes": "An accurate boundary could not be found. The boundary is that shown by OpenStreetMaps (OSM) for the mine. The boundary area is significantly less than the documented area of the mine - 729 hectares - found on page 1 of the Pre-feasibility Report of Konar Expansion OCP (Nominal / Peak capacity 8.00/ 11.00 MTPA) & Integrated Konar Non-coking Coal Washery (7 MTPA) published Sept 2015, https://web.archive.org/web/20210917135959/http://environmentclearance.nic.in/writereaddata/Online/TOR/0_0_23_Sep_2015_1612247171Annexure-Pre-feasibilityReport(PFR).pdf",
+        "description": "Estimated Konar coal mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M0560",
+        "Owners": "Central Coalfields Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coal India",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bokaro_and_Kargali_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Konar Coal Mine",
+        "Country / Area": "India",
+        "Last researched": "Sep 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.318078,
+              24.155313
+            ],
+            [
+              86.318007,
+              24.156653
+            ],
+            [
+              86.317792,
+              24.15798
+            ],
+            [
+              86.317437,
+              24.159281
+            ],
+            [
+              86.316945,
+              24.160544
+            ],
+            [
+              86.31632,
+              24.161757
+            ],
+            [
+              86.315568,
+              24.162907
+            ],
+            [
+              86.314698,
+              24.163984
+            ],
+            [
+              86.313716,
+              24.164978
+            ],
+            [
+              86.312633,
+              24.165879
+            ],
+            [
+              86.311459,
+              24.166678
+            ],
+            [
+              86.310205,
+              24.167368
+            ],
+            [
+              86.308883,
+              24.167942
+            ],
+            [
+              86.307507,
+              24.168393
+            ],
+            [
+              86.306088,
+              24.168719
+            ],
+            [
+              86.304642,
+              24.168916
+            ],
+            [
+              86.303182,
+              24.168982
+            ],
+            [
+              86.301722,
+              24.168916
+            ],
+            [
+              86.300276,
+              24.168719
+            ],
+            [
+              86.298857,
+              24.168393
+            ],
+            [
+              86.297481,
+              24.167942
+            ],
+            [
+              86.296159,
+              24.167368
+            ],
+            [
+              86.294905,
+              24.166678
+            ],
+            [
+              86.293731,
+              24.165879
+            ],
+            [
+              86.292648,
+              24.164978
+            ],
+            [
+              86.291666,
+              24.163984
+            ],
+            [
+              86.290796,
+              24.162907
+            ],
+            [
+              86.290044,
+              24.161757
+            ],
+            [
+              86.289419,
+              24.160544
+            ],
+            [
+              86.288927,
+              24.159281
+            ],
+            [
+              86.288572,
+              24.15798
+            ],
+            [
+              86.288357,
+              24.156653
+            ],
+            [
+              86.288286,
+              24.155313
+            ],
+            [
+              86.288358,
+              24.153974
+            ],
+            [
+              86.288572,
+              24.152647
+            ],
+            [
+              86.288928,
+              24.151346
+            ],
+            [
+              86.28942,
+              24.150083
+            ],
+            [
+              86.290045,
+              24.14887
+            ],
+            [
+              86.290797,
+              24.14772
+            ],
+            [
+              86.291668,
+              24.146643
+            ],
+            [
+              86.29265,
+              24.145649
+            ],
+            [
+              86.293733,
+              24.144748
+            ],
+            [
+              86.294907,
+              24.143949
+            ],
+            [
+              86.296161,
+              24.14326
+            ],
+            [
+              86.297482,
+              24.142686
+            ],
+            [
+              86.298858,
+              24.142234
+            ],
+            [
+              86.300276,
+              24.141909
+            ],
+            [
+              86.301722,
+              24.141712
+            ],
+            [
+              86.303182,
+              24.141646
+            ],
+            [
+              86.304642,
+              24.141712
+            ],
+            [
+              86.306088,
+              24.141909
+            ],
+            [
+              86.307506,
+              24.142234
+            ],
+            [
+              86.308882,
+              24.142686
+            ],
+            [
+              86.310203,
+              24.14326
+            ],
+            [
+              86.311457,
+              24.143949
+            ],
+            [
+              86.312631,
+              24.144748
+            ],
+            [
+              86.313714,
+              24.145649
+            ],
+            [
+              86.314696,
+              24.146643
+            ],
+            [
+              86.315567,
+              24.14772
+            ],
+            [
+              86.316319,
+              24.14887
+            ],
+            [
+              86.316944,
+              24.150083
+            ],
+            [
+              86.317436,
+              24.151346
+            ],
+            [
+              86.317792,
+              24.152647
+            ],
+            [
+              86.318006,
+              24.153974
+            ],
+            [
+              86.318078,
+              24.155313
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0560.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2025-09-16 00:00:00",
+        "notes": "An accurate mine boundary could not be found. There is a good correlation between the area of mine boundaries found in this research project, and the 'Mine Size (Km2)' area found in the GEM Global Coal Mine Tracker May 2025 (GCMT) database (R-squared=0.68). A circular boundary with the area from the GCMT for this mine was created as an estimated boundary.",
+        "description": "Estimated Konar coal mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M0560",
+        "Owners": "Central Coalfields Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Coal India",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Bokaro_and_Kargali_coal_mines",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Konar Coal Mine",
+        "Country / Area": "India",
+        "Last researched": "Sep 16, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

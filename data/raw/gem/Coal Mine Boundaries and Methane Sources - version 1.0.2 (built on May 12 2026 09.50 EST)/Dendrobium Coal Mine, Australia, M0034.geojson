@@ -1,0 +1,379 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.712441,
+              -34.359913
+            ],
+            [
+              150.710862,
+              -34.363537
+            ],
+            [
+              150.707002,
+              -34.364625
+            ],
+            [
+              150.707866,
+              -34.367226
+            ],
+            [
+              150.697208,
+              -34.370248
+            ],
+            [
+              150.697129,
+              -34.370541
+            ],
+            [
+              150.689864,
+              -34.369654
+            ],
+            [
+              150.685277,
+              -34.385786
+            ],
+            [
+              150.689413,
+              -34.386666
+            ],
+            [
+              150.696352,
+              -34.401355
+            ],
+            [
+              150.699226,
+              -34.40451
+            ],
+            [
+              150.702732,
+              -34.406463
+            ],
+            [
+              150.727212,
+              -34.411213
+            ],
+            [
+              150.731397,
+              -34.396454
+            ],
+            [
+              150.758525,
+              -34.400972
+            ],
+            [
+              150.763493,
+              -34.385861
+            ],
+            [
+              150.764831,
+              -34.38618
+            ],
+            [
+              150.755217,
+              -34.414169
+            ],
+            [
+              150.797373,
+              -34.405694
+            ],
+            [
+              150.810312,
+              -34.417795
+            ],
+            [
+              150.810277,
+              -34.419063
+            ],
+            [
+              150.811377,
+              -34.419095
+            ],
+            [
+              150.812368,
+              -34.423744
+            ],
+            [
+              150.812051,
+              -34.428328
+            ],
+            [
+              150.8128,
+              -34.428392
+            ],
+            [
+              150.813314,
+              -34.423451
+            ],
+            [
+              150.81213,
+              -34.419517
+            ],
+            [
+              150.81276,
+              -34.4189
+            ],
+            [
+              150.813233,
+              -34.419192
+            ],
+            [
+              150.827457,
+              -34.420056
+            ],
+            [
+              150.827456,
+              -34.41921
+            ],
+            [
+              150.813422,
+              -34.418471
+            ],
+            [
+              150.811411,
+              -34.416684
+            ],
+            [
+              150.812549,
+              -34.407222
+            ],
+            [
+              150.789581,
+              -34.384276
+            ],
+            [
+              150.783159,
+              -34.388731
+            ],
+            [
+              150.776184,
+              -34.381573
+            ],
+            [
+              150.764718,
+              -34.381476
+            ],
+            [
+              150.75054,
+              -34.350173
+            ],
+            [
+              150.72462,
+              -34.343922
+            ],
+            [
+              150.712441,
+              -34.359913
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0034.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2024-09-27 00:00:00",
+        "notes": "The boundary is the 'Dendrobium Mine Mining Areas' shown in Plan 1: Location of Mining Domain, page 121 of the Dendrobium Mine and Cordeaux Colliery Annual Review FY24, https://web.archive.org/web/2/https://gm3.au/wp-content/uploads/2024/09/Dendrobium-Mine-and-Cordeaux-Colliery-Annual-Review-FY24-1.pdf, 27 September 2024.",
+        "description": "Dendrobium coal mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0034",
+        "Owners": "Gear M Illawarra Met Coal Pty Ltd(GM-3) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Golden Energy and Resources Pte Ltd (GEAR); M Resources Pty Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dendrobium_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Dendrobium Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.809787,
+          -34.413715
+        ]
+      },
+      "properties": {
+        "id": "M0034.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-09-27 00:00:00",
+        "notes": "Location extracted from page 125: Plan 5 Site Layout - No. 1 Ventilation Shaft of the Dendrobium Mine and Cordeaux Colliery Annual Review FY24, https://web.archive.org/web/2/https://gm3.au/wp-content/uploads/2024/09/Dendrobium-Mine-and-Cordeaux-Colliery-Annual-Review-FY24-1.pdf, 27 September 2024. Visually confirmed with Google Earth Pro satellite imagery from 3/2025.",
+        "description": "Dendrobium No.1 ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0034",
+        "Owners": "Gear M Illawarra Met Coal Pty Ltd(GM-3) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Golden Energy and Resources Pte Ltd (GEAR); M Resources Pty Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dendrobium_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Dendrobium Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.81189,
+          -34.428707
+        ]
+      },
+      "properties": {
+        "id": "M0034.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "mine entrance or exit",
+        "data source date": "2024-09-27 00:00:00",
+        "notes": "Location extracted from page 123: Plan 3 Site Layout - Dendrobium Mine Pit Top of the Dendrobium Mine and Cordeaux Colliery Annual Review FY24, https://web.archive.org/web/2/https://gm3.au/wp-content/uploads/2024/09/Dendrobium-Mine-and-Cordeaux-Colliery-Annual-Review-FY24-1.pdf, 27 September 2024. Visually confirmed with Google Earth Pro satellite imagery from 3/2025.",
+        "description": "Dendrobium tunnel portal",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0034",
+        "Owners": "Gear M Illawarra Met Coal Pty Ltd(GM-3) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Golden Energy and Resources Pte Ltd (GEAR); M Resources Pty Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dendrobium_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Dendrobium Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.764298,
+          -34.384932
+        ]
+      },
+      "properties": {
+        "id": "M0034.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-09-27 00:00:00",
+        "notes": "Location extracted from page 126: Plan 6: Site Layout - No. 2 and 3 Ventilation Shaft of the Dendrobium Mine and Cordeaux Colliery Annual Review FY24, https://web.archive.org/web/2/https://gm3.au/wp-content/uploads/2024/09/Dendrobium-Mine-and-Cordeaux-Colliery-Annual-Review-FY24-1.pdf, 27 September 2024. Visually confirmed with Google Earth Pro satellite imagery from 3/2025.",
+        "description": "ventilation shaft 3 (upcast)",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0034",
+        "Owners": "Gear M Illawarra Met Coal Pty Ltd(GM-3) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Golden Energy and Resources Pte Ltd (GEAR); M Resources Pty Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dendrobium_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Dendrobium Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.764332,
+          -34.384969
+        ]
+      },
+      "properties": {
+        "id": "M0034.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2024-09-27 00:00:00",
+        "notes": "Location extracted from page 126: Plan 6: Site Layout - No. 2 and 3 Ventilation Shaft of the Dendrobium Mine and Cordeaux Colliery Annual Review FY24, https://web.archive.org/web/2/https://gm3.au/wp-content/uploads/2024/09/Dendrobium-Mine-and-Cordeaux-Colliery-Annual-Review-FY24-1.pdf, 27 September 2024. Visually confirmed with Google Earth Pro satellite imagery from 3/2025.",
+        "description": "Ventilation shaft 2 (downcast)",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0034",
+        "Owners": "Gear M Illawarra Met Coal Pty Ltd(GM-3) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Golden Energy and Resources Pte Ltd (GEAR); M Resources Pty Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dendrobium_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Dendrobium Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.764517,
+          -34.385336
+        ]
+      },
+      "properties": {
+        "id": "M0034.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "flare",
+        "data source date": "2024-09-27 00:00:00",
+        "notes": "Location extracted from page 126: Plan 6: Site Layout - No. 2 and 3 Ventilation Shaft of the Dendrobium Mine and Cordeaux Colliery Annual Review FY24, https://web.archive.org/web/2/https://gm3.au/wp-content/uploads/2024/09/Dendrobium-Mine-and-Cordeaux-Colliery-Annual-Review-FY24-1.pdf, 27 September 2024. Visually confirmed with Google Earth Pro satellite imagery from 3/2025.",
+        "description": "Flare stack",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0034",
+        "Owners": "Gear M Illawarra Met Coal Pty Ltd(GM-3) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Golden Energy and Resources Pte Ltd (GEAR); M Resources Pty Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dendrobium_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Dendrobium Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.823398,
+          -34.419449
+        ]
+      },
+      "properties": {
+        "id": "M0034.P6",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2025-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "mine production slope",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0034",
+        "Owners": "Gear M Illawarra Met Coal Pty Ltd(GM-3) [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Golden Energy and Resources Pte Ltd (GEAR); M Resources Pty Ltd",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Dendrobium_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Dendrobium Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jul 14, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.594275,
+              34.097583
+            ],
+            [
+              113.589582,
+              34.081971
+            ],
+            [
+              113.620546,
+              34.057547
+            ],
+            [
+              113.62138,
+              34.061436
+            ],
+            [
+              113.651479,
+              34.04795
+            ],
+            [
+              113.661408,
+              34.056858
+            ],
+            [
+              113.660636,
+              34.060281
+            ],
+            [
+              113.65558,
+              34.065045
+            ],
+            [
+              113.644341,
+              34.071414
+            ],
+            [
+              113.647698,
+              34.071875
+            ],
+            [
+              113.639646,
+              34.080145
+            ],
+            [
+              113.620211,
+              34.089552
+            ],
+            [
+              113.594275,
+              34.097583
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M2092.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2022-11-01 00:00:00",
+        "notes": "The boundary coordinates were given in Table 3.3-2 on page 124 of Environmental Impact Assessment Report for the Production Capacity Verification Project of QuanDian Coal Mine, Henan Shenhuo Xinglong Mining Co., Ltd. (\u6cb3\u5357\u795e\u706b\u5174\u9686\u77ff\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6cc9\u5e97\u7164\u77ff\u751f\u4ea7\u80fd\u529b\u6838\u5b9a\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66) https://web.archive.org/web/20250806031649/https://sthjj.xuchang.gov.cn/BigFileUpLoadStorage/temp/2023-02-24/f9322184-6248-4a56-9cab-aed6be932d5e/%E6%B2%B3%E5%8D%97%E7%A5%9E%E7%81%AB%E5%85%B4%E9%9A%86%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%B3%89%E5%BA%97%E7%85%A4%E7%9F%BF%E7%94%9F%E4%BA%A7%E8%83%BD%E5%8A%9B%E6%A0%B8%E5%AE%9A%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E5%BD%B1%E5%93%8D%E6%8A%A5%E5%91%8A%E4%B9%A6.pdf",
+        "description": "Quandian coal mine boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2092",
+        "Owners": "Henan Shenhuo Xinglong Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Henan Shenhuo Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Quandian_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B2%B3%E5%8D%97%E7%A5%9E%E7%81%AB%E5%85%B4%E9%9A%86%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%EF%BC%88%E6%B3%89%E5%BA%97%E7%85%A4%E7%9F%BF%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Quandian Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.633828,
+          34.074194
+        ]
+      },
+      "properties": {
+        "id": "M2092.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-11-01 00:00:00",
+        "notes": "The coordinates were given in Table 3.3-5 on page 129 of Environmental Impact Assessment Report for the Production Capacity Verification Project of QuanDian Coal Mine, Henan Shenhuo Xinglong Mining Co., Ltd. (\u6cb3\u5357\u795e\u706b\u5174\u9686\u77ff\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6cc9\u5e97\u7164\u77ff\u751f\u4ea7\u80fd\u529b\u6838\u5b9a\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66) https://web.archive.org/web/20250806031649/https://sthjj.xuchang.gov.cn/BigFileUpLoadStorage/temp/2023-02-24/f9322184-6248-4a56-9cab-aed6be932d5e/%E6%B2%B3%E5%8D%97%E7%A5%9E%E7%81%AB%E5%85%B4%E9%9A%86%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%B3%89%E5%BA%97%E7%85%A4%E7%9F%BF%E7%94%9F%E4%BA%A7%E8%83%BD%E5%8A%9B%E6%A0%B8%E5%AE%9A%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E5%BD%B1%E5%93%8D%E6%8A%A5%E5%91%8A%E4%B9%A6.pdf",
+        "description": "central return air shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2092",
+        "Owners": "Henan Shenhuo Xinglong Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Henan Shenhuo Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Quandian_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B2%B3%E5%8D%97%E7%A5%9E%E7%81%AB%E5%85%B4%E9%9A%86%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%EF%BC%88%E6%B3%89%E5%BA%97%E7%85%A4%E7%9F%BF%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Quandian Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.611373,
+          34.091628
+        ]
+      },
+      "properties": {
+        "id": "M2092.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2022-11-01 00:00:00",
+        "notes": "The coordinates were given in Table 3.3-5 on page 129 of Environmental Impact Assessment Report for the Production Capacity Verification Project of QuanDian Coal Mine, Henan Shenhuo Xinglong Mining Co., Ltd. (\u6cb3\u5357\u795e\u706b\u5174\u9686\u77ff\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6cc9\u5e97\u7164\u77ff\u751f\u4ea7\u80fd\u529b\u6838\u5b9a\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66) https://web.archive.org/web/20250806031649/https://sthjj.xuchang.gov.cn/BigFileUpLoadStorage/temp/2023-02-24/f9322184-6248-4a56-9cab-aed6be932d5e/%E6%B2%B3%E5%8D%97%E7%A5%9E%E7%81%AB%E5%85%B4%E9%9A%86%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%B3%89%E5%BA%97%E7%85%A4%E7%9F%BF%E7%94%9F%E4%BA%A7%E8%83%BD%E5%8A%9B%E6%A0%B8%E5%AE%9A%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E5%BD%B1%E5%93%8D%E6%8A%A5%E5%91%8A%E4%B9%A6.pdf",
+        "description": "west return air shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2092",
+        "Owners": "Henan Shenhuo Xinglong Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Henan Shenhuo Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Quandian_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B2%B3%E5%8D%97%E7%A5%9E%E7%81%AB%E5%85%B4%E9%9A%86%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%EF%BC%88%E6%B3%89%E5%BA%97%E7%85%A4%E7%9F%BF%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Quandian Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.634546,
+          34.074106
+        ]
+      },
+      "properties": {
+        "id": "M2092.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2022-11-01 00:00:00",
+        "notes": "The coordinates were given in Table 3.3-5 on page 129 of Environmental Impact Assessment Report for the Production Capacity Verification Project of QuanDian Coal Mine, Henan Shenhuo Xinglong Mining Co., Ltd. (\u6cb3\u5357\u795e\u706b\u5174\u9686\u77ff\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6cc9\u5e97\u7164\u77ff\u751f\u4ea7\u80fd\u529b\u6838\u5b9a\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66) https://web.archive.org/web/20250806031649/https://sthjj.xuchang.gov.cn/BigFileUpLoadStorage/temp/2023-02-24/f9322184-6248-4a56-9cab-aed6be932d5e/%E6%B2%B3%E5%8D%97%E7%A5%9E%E7%81%AB%E5%85%B4%E9%9A%86%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%B3%89%E5%BA%97%E7%85%A4%E7%9F%BF%E7%94%9F%E4%BA%A7%E8%83%BD%E5%8A%9B%E6%A0%B8%E5%AE%9A%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E5%BD%B1%E5%93%8D%E6%8A%A5%E5%91%8A%E4%B9%A6.pdf",
+        "description": "main shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2092",
+        "Owners": "Henan Shenhuo Xinglong Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Henan Shenhuo Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Quandian_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B2%B3%E5%8D%97%E7%A5%9E%E7%81%AB%E5%85%B4%E9%9A%86%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%EF%BC%88%E6%B3%89%E5%BA%97%E7%85%A4%E7%9F%BF%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Quandian Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.635297,
+          34.074155
+        ]
+      },
+      "properties": {
+        "id": "M2092.P4",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2022-11-01 00:00:00",
+        "notes": "The coordinates were given in Table 3.3-5 on page 129 of Environmental Impact Assessment Report for the Production Capacity Verification Project of QuanDian Coal Mine, Henan Shenhuo Xinglong Mining Co., Ltd. (\u6cb3\u5357\u795e\u706b\u5174\u9686\u77ff\u4e1a\u6709\u9650\u8d23\u4efb\u516c\u53f8\u6cc9\u5e97\u7164\u77ff\u751f\u4ea7\u80fd\u529b\u6838\u5b9a\u9879\u76ee\u73af\u5883\u5f71\u54cd\u62a5\u544a\u4e66) https://web.archive.org/web/20250806031649/https://sthjj.xuchang.gov.cn/BigFileUpLoadStorage/temp/2023-02-24/f9322184-6248-4a56-9cab-aed6be932d5e/%E6%B2%B3%E5%8D%97%E7%A5%9E%E7%81%AB%E5%85%B4%E9%9A%86%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%B3%89%E5%BA%97%E7%85%A4%E7%9F%BF%E7%94%9F%E4%BA%A7%E8%83%BD%E5%8A%9B%E6%A0%B8%E5%AE%9A%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E5%BD%B1%E5%93%8D%E6%8A%A5%E5%91%8A%E4%B9%A6.pdf",
+        "description": "auxiliary shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M2092",
+        "Owners": "Henan Shenhuo Xinglong Mining Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Henan Shenhuo Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Quandian_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E6%B2%B3%E5%8D%97%E7%A5%9E%E7%81%AB%E5%85%B4%E9%9A%86%E7%9F%BF%E4%B8%9A%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%EF%BC%88%E6%B3%89%E5%BA%97%E7%85%A4%E7%9F%BF%EF%BC%89",
+        "Coal Grade": "Met",
+        "Mine Name": "Quandian Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Aug 05, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.263134,
+              -22.378269
+            ],
+            [
+              148.271244,
+              -22.392684
+            ],
+            [
+              148.272537,
+              -22.395271
+            ],
+            [
+              148.275665,
+              -22.405827
+            ],
+            [
+              148.275274,
+              -22.406244
+            ],
+            [
+              148.275995,
+              -22.413923
+            ],
+            [
+              148.274279,
+              -22.418679
+            ],
+            [
+              148.274459,
+              -22.421294
+            ],
+            [
+              148.270631,
+              -22.421785
+            ],
+            [
+              148.272133,
+              -22.439065
+            ],
+            [
+              148.276634,
+              -22.438533
+            ],
+            [
+              148.295212,
+              -22.449627
+            ],
+            [
+              148.318278,
+              -22.480606
+            ],
+            [
+              148.318347,
+              -22.491583
+            ],
+            [
+              148.333041,
+              -22.500502
+            ],
+            [
+              148.334523,
+              -22.500488
+            ],
+            [
+              148.337444,
+              -22.502203
+            ],
+            [
+              148.342796,
+              -22.506232
+            ],
+            [
+              148.347227,
+              -22.512886
+            ],
+            [
+              148.352934,
+              -22.531794
+            ],
+            [
+              148.359164,
+              -22.545818
+            ],
+            [
+              148.367314,
+              -22.553143
+            ],
+            [
+              148.375701,
+              -22.560211
+            ],
+            [
+              148.379269,
+              -22.566636
+            ],
+            [
+              148.383808,
+              -22.563185
+            ],
+            [
+              148.380978,
+              -22.557845
+            ],
+            [
+              148.381549,
+              -22.556372
+            ],
+            [
+              148.383651,
+              -22.554588
+            ],
+            [
+              148.3862,
+              -22.553584
+            ],
+            [
+              148.389832,
+              -22.553038
+            ],
+            [
+              148.393434,
+              -22.552654
+            ],
+            [
+              148.396277,
+              -22.552143
+            ],
+            [
+              148.399843,
+              -22.549961
+            ],
+            [
+              148.392526,
+              -22.543325
+            ],
+            [
+              148.387466,
+              -22.535379
+            ],
+            [
+              148.375174,
+              -22.526677
+            ],
+            [
+              148.369375,
+              -22.508386
+            ],
+            [
+              148.37759,
+              -22.498252
+            ],
+            [
+              148.364324,
+              -22.468142
+            ],
+            [
+              148.352981,
+              -22.474197
+            ],
+            [
+              148.348183,
+              -22.470188
+            ],
+            [
+              148.34291,
+              -22.463277
+            ],
+            [
+              148.345948,
+              -22.442799
+            ],
+            [
+              148.33049,
+              -22.423313
+            ],
+            [
+              148.313847,
+              -22.395831
+            ],
+            [
+              148.311713,
+              -22.364837
+            ],
+            [
+              148.285661,
+              -22.321547
+            ],
+            [
+              148.254734,
+              -22.334797
+            ],
+            [
+              148.232486,
+              -22.343282
+            ],
+            [
+              148.263134,
+              -22.378269
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0096.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "surface",
+        "data source date": "2017-02-10 00:00:00",
+        "notes": "The boundary is derived from information found in the Saraji East Mining Lease Project INITIAL ADVICE STATEMENT Final 10 February 2017 report , https://web.archive.org/web/20240403042430/https://www.qld.gov.au/__data/assets/pdf_file/0015/108411/saraji_east_ias.pdf. Section 1.2 Project Background, page 2 : \"As depicted in Figure 1-1, the Project is located adjacent to the existing Saraji Open-Cut Coal Mine (Saraji Mine). BMA currently operates the Saraji Mine on Mining Lease (ML) 70142, ML 1775, ML 1784, ML 1782, ML 2360, ML 2410, ML 70294, ML 70298 and ML 70328\". The Saraji coal mine is sandwiched between Peak Downs coal mine to the north, Norwich Park coal mine to the south, and the Saraji East mine to the east. The location and shape of the southern boundary edge shared with Norwich Park has been estimated, as has the uppermost northeast edge shared with Peak Downs mine. Prior to adjustments where necessary to support the above information, mining lease geometries were extracted from the Queensland Mining Leases dataset, https://web.archive.org/web/2/https://www.data.qld.gov.au/dataset/queensland-mining-and-exploration-tenure-series/resource/f87794b8-7b9a-4732-89bb-56ccb2228d27. The mining leases components permit names taken from the Queensland Mining Leases dataset are as follows: ML 70142 - boomerang creek;  ML 1775 - Peak Downs;  ML 1784 - Saraji mine;  ML 1782 - Norwich Park;  ML 2360 - Fiddlewood; ML 2410 - Phillips Creek;  ML 70294 - Hakea West;  ML 70298 - Hakea South;  ML 70328 - Tay-Glen. The area of the boundary is 122 sq km.",
+        "description": "Estimated Saraji Coal mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M0096",
+        "Owners": "BHP Billiton Mitsubishi Alliance Pty Ltd [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "BHP [50%]; Mitsubishi Corporation [50%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Saraji_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Thermal & Met",
+        "Mine Name": "Saraji Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Jun 27, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

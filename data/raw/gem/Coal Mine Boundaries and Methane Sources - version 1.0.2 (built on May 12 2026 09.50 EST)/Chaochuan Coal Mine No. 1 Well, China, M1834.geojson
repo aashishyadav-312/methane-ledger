@@ -1,0 +1,475 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.92589,
+              34.055414
+            ],
+            [
+              112.925741,
+              34.057956
+            ],
+            [
+              112.925293,
+              34.060474
+            ],
+            [
+              112.924551,
+              34.062943
+            ],
+            [
+              112.923521,
+              34.06534
+            ],
+            [
+              112.922214,
+              34.067641
+            ],
+            [
+              112.920643,
+              34.069824
+            ],
+            [
+              112.918821,
+              34.071869
+            ],
+            [
+              112.916768,
+              34.073755
+            ],
+            [
+              112.914502,
+              34.075465
+            ],
+            [
+              112.912046,
+              34.076981
+            ],
+            [
+              112.909423,
+              34.07829
+            ],
+            [
+              112.906658,
+              34.079378
+            ],
+            [
+              112.903778,
+              34.080236
+            ],
+            [
+              112.900811,
+              34.080855
+            ],
+            [
+              112.897785,
+              34.081228
+            ],
+            [
+              112.89473,
+              34.081353
+            ],
+            [
+              112.891675,
+              34.081228
+            ],
+            [
+              112.888649,
+              34.080855
+            ],
+            [
+              112.885682,
+              34.080236
+            ],
+            [
+              112.882802,
+              34.079378
+            ],
+            [
+              112.880037,
+              34.07829
+            ],
+            [
+              112.877414,
+              34.076981
+            ],
+            [
+              112.874958,
+              34.075465
+            ],
+            [
+              112.872692,
+              34.073755
+            ],
+            [
+              112.870639,
+              34.071869
+            ],
+            [
+              112.868817,
+              34.069824
+            ],
+            [
+              112.867246,
+              34.067641
+            ],
+            [
+              112.865939,
+              34.06534
+            ],
+            [
+              112.864909,
+              34.062943
+            ],
+            [
+              112.864167,
+              34.060474
+            ],
+            [
+              112.863719,
+              34.057956
+            ],
+            [
+              112.86357,
+              34.055414
+            ],
+            [
+              112.863721,
+              34.052872
+            ],
+            [
+              112.864171,
+              34.050355
+            ],
+            [
+              112.864915,
+              34.047886
+            ],
+            [
+              112.865946,
+              34.04549
+            ],
+            [
+              112.867254,
+              34.043189
+            ],
+            [
+              112.868826,
+              34.041006
+            ],
+            [
+              112.870648,
+              34.038963
+            ],
+            [
+              112.872701,
+              34.037077
+            ],
+            [
+              112.874967,
+              34.035368
+            ],
+            [
+              112.877423,
+              34.033852
+            ],
+            [
+              112.880045,
+              34.032544
+            ],
+            [
+              112.882809,
+              34.031456
+            ],
+            [
+              112.885687,
+              34.030599
+            ],
+            [
+              112.888653,
+              34.029981
+            ],
+            [
+              112.891677,
+              34.029608
+            ],
+            [
+              112.89473,
+              34.029483
+            ],
+            [
+              112.897783,
+              34.029608
+            ],
+            [
+              112.900807,
+              34.029981
+            ],
+            [
+              112.903773,
+              34.030599
+            ],
+            [
+              112.906651,
+              34.031456
+            ],
+            [
+              112.909415,
+              34.032544
+            ],
+            [
+              112.912037,
+              34.033852
+            ],
+            [
+              112.914493,
+              34.035368
+            ],
+            [
+              112.916759,
+              34.037077
+            ],
+            [
+              112.918812,
+              34.038963
+            ],
+            [
+              112.920634,
+              34.041006
+            ],
+            [
+              112.922206,
+              34.043189
+            ],
+            [
+              112.923514,
+              34.04549
+            ],
+            [
+              112.924545,
+              34.047886
+            ],
+            [
+              112.925289,
+              34.050355
+            ],
+            [
+              112.925739,
+              34.052872
+            ],
+            [
+              112.92589,
+              34.055414
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1834.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2025-09-15 00:00:00",
+        "notes": "An accurate mine boundary could not be found. There is a good correlation between the area of Chinese underground mine boundaries and the 'Mine Size (Km2)' area found in the GEM Global Coal Mine Tracker May 2025 (GCMT) database (R-squared=0.68). A circular boundary with the area from the GCMT for this mine was created as an estimated boundary.",
+        "description": "Estimated Chaochuan Coal Mine No. 1 Well mine boundary",
+        "coordinates precision": "estimated",
+        "GEM Mine ID": "M1834",
+        "Owners": "Pingdingshan Tianan Coal Industry Company Chaochuan Coal Mine No.1 Well [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Pingmei Shenma Energy and Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Chaochuan_Coal_Mine_No.1_Well",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B9%B3%E9%A1%B6%E5%B1%B1%E5%A4%A9%E5%AE%89%E7%85%A4%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%9C%9D%E5%B7%9D%E7%9F%BF%E4%B8%80%E4%BA%95",
+        "Coal Grade": "Met",
+        "Mine Name": "Chaochuan Coal Mine No. 1 Well",
+        "Country / Area": "China",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.891,
+          34.059854
+        ]
+      },
+      "properties": {
+        "id": "M1834.P1",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "gas to electric station",
+        "data source date": "2021-12-27 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas to electric station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1834",
+        "Owners": "Pingdingshan Tianan Coal Industry Company Chaochuan Coal Mine No.1 Well [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Pingmei Shenma Energy and Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Chaochuan_Coal_Mine_No.1_Well",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B9%B3%E9%A1%B6%E5%B1%B1%E5%A4%A9%E5%AE%89%E7%85%A4%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%9C%9D%E5%B7%9D%E7%9F%BF%E4%B8%80%E4%BA%95",
+        "Coal Grade": "Met",
+        "Mine Name": "Chaochuan Coal Mine No. 1 Well",
+        "Country / Area": "China",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.864879,
+          34.052605
+        ]
+      },
+      "properties": {
+        "id": "M1834.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2021-12-27 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "ventilation shaft 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1834",
+        "Owners": "Pingdingshan Tianan Coal Industry Company Chaochuan Coal Mine No.1 Well [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Pingmei Shenma Energy and Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Chaochuan_Coal_Mine_No.1_Well",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B9%B3%E9%A1%B6%E5%B1%B1%E5%A4%A9%E5%AE%89%E7%85%A4%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%9C%9D%E5%B7%9D%E7%9F%BF%E4%B8%80%E4%BA%95",
+        "Coal Grade": "Met",
+        "Mine Name": "Chaochuan Coal Mine No. 1 Well",
+        "Country / Area": "China",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.888074,
+          34.052168
+        ]
+      },
+      "properties": {
+        "id": "M1834.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2021-12-27 00:00:00",
+        "notes": "According to the document Pingdingshan Tianan Coal Industry Co., Ltd. Chaochuan Mine: Public Participation Report for the Environmental Impact Assessment of the 2023 Coal Mine Safety Upgrade Project (\u5e73\u9876\u5c71\u5929\u5b89\u7164\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u671d\u5ddd\u77ff 2023 \u5e74\u7164\u77ff\u5b89\u5168\u6539\u9020\u9879\u76ee\u73af\u5883\u5f71\u54cd\u8bc4\u4ef7\u516c\u4f17\u53c2\u4e0e\u8bf4\u660e), there are two return shafts on the west side of the coal mine from page 1, https://web.archive.org/web/20250819225232/https://www.ruzhou.gov.cn/upload/files/2025/1/fa1fdac97ef1b41f2b6f3df668957bae.pdf",
+        "description": "West return shaft No.1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1834",
+        "Owners": "Pingdingshan Tianan Coal Industry Company Chaochuan Coal Mine No.1 Well [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Pingmei Shenma Energy and Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Chaochuan_Coal_Mine_No.1_Well",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B9%B3%E9%A1%B6%E5%B1%B1%E5%A4%A9%E5%AE%89%E7%85%A4%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%9C%9D%E5%B7%9D%E7%9F%BF%E4%B8%80%E4%BA%95",
+        "Coal Grade": "Met",
+        "Mine Name": "Chaochuan Coal Mine No. 1 Well",
+        "Country / Area": "China",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.888044,
+          34.052279
+        ]
+      },
+      "properties": {
+        "id": "M1834.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2021-12-27 00:00:00",
+        "notes": "According to the document Pingdingshan Tianan Coal Industry Co., Ltd. Chaochuan Mine: Public Participation Report for the Environmental Impact Assessment of the 2023 Coal Mine Safety Upgrade Project (\u5e73\u9876\u5c71\u5929\u5b89\u7164\u4e1a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u671d\u5ddd\u77ff 2023 \u5e74\u7164\u77ff\u5b89\u5168\u6539\u9020\u9879\u76ee\u73af\u5883\u5f71\u54cd\u8bc4\u4ef7\u516c\u4f17\u53c2\u4e0e\u8bf4\u660e), there are two return shafts on the west side of the coal mine from page 1, https://web.archive.org/web/20250819225232/https://www.ruzhou.gov.cn/upload/files/2025/1/fa1fdac97ef1b41f2b6f3df668957bae.pdf",
+        "description": "West return shaft No.2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1834",
+        "Owners": "Pingdingshan Tianan Coal Industry Company Chaochuan Coal Mine No.1 Well [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Pingmei Shenma Energy and Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Chaochuan_Coal_Mine_No.1_Well",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B9%B3%E9%A1%B6%E5%B1%B1%E5%A4%A9%E5%AE%89%E7%85%A4%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%9C%9D%E5%B7%9D%E7%9F%BF%E4%B8%80%E4%BA%95",
+        "Coal Grade": "Met",
+        "Mine Name": "Chaochuan Coal Mine No. 1 Well",
+        "Country / Area": "China",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.902307,
+          34.040045
+        ]
+      },
+      "properties": {
+        "id": "M1834.P5",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2021-12-27 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "East return shaft No.1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1834",
+        "Owners": "Pingdingshan Tianan Coal Industry Company Chaochuan Coal Mine No.1 Well [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Pingmei Shenma Energy and Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Chaochuan_Coal_Mine_No.1_Well",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B9%B3%E9%A1%B6%E5%B1%B1%E5%A4%A9%E5%AE%89%E7%85%A4%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%9C%9D%E5%B7%9D%E7%9F%BF%E4%B8%80%E4%BA%95",
+        "Coal Grade": "Met",
+        "Mine Name": "Chaochuan Coal Mine No. 1 Well",
+        "Country / Area": "China",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.902312,
+          34.039812
+        ]
+      },
+      "properties": {
+        "id": "M1834.P6",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2021-12-27 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "East return shaft No.2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1834",
+        "Owners": "Pingdingshan Tianan Coal Industry Company Chaochuan Coal Mine No.1 Well [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Pingmei Shenma Energy and Chemical Group",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Chaochuan_Coal_Mine_No.1_Well",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B9%B3%E9%A1%B6%E5%B1%B1%E5%A4%A9%E5%AE%89%E7%85%A4%E4%B8%9A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%9C%9D%E5%B7%9D%E7%9F%BF%E4%B8%80%E4%BA%95",
+        "Coal Grade": "Met",
+        "Mine Name": "Chaochuan Coal Mine No. 1 Well",
+        "Country / Area": "China",
+        "Last researched": "Sep 15, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

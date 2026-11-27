@@ -1,0 +1,501 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.667219,
+              35.700218
+            ],
+            [
+              112.667217,
+              35.704381
+            ],
+            [
+              112.65893,
+              35.704334
+            ],
+            [
+              112.643582,
+              35.66656
+            ],
+            [
+              112.657386,
+              35.666542
+            ],
+            [
+              112.69271,
+              35.660481
+            ],
+            [
+              112.69266,
+              35.671882
+            ],
+            [
+              112.703773,
+              35.672013
+            ],
+            [
+              112.704559,
+              35.674661
+            ],
+            [
+              112.713422,
+              35.672868
+            ],
+            [
+              112.715532,
+              35.675487
+            ],
+            [
+              112.725692,
+              35.673404
+            ],
+            [
+              112.725553,
+              35.670033
+            ],
+            [
+              112.734708,
+              35.670022
+            ],
+            [
+              112.73472,
+              35.674618
+            ],
+            [
+              112.730523,
+              35.674624
+            ],
+            [
+              112.730529,
+              35.676426
+            ],
+            [
+              112.706562,
+              35.679535
+            ],
+            [
+              112.716358,
+              35.70022
+            ],
+            [
+              112.667219,
+              35.700218
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1217.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2021-03-01 00:00:00",
+        "notes": "The boundary coordinates were found in Table 1-1-2 on page 4 in the document (\u5c71\u897f\u5929\u5730\u738b\u5761\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) Shanxi Tiandi Wangpo Coal Industry Co. Ltd. Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan https://web.archive.org/web/20250710184846/https://www.doc88.com/p-31273663648930.html",
+        "description": "Wangpo mine - No3 Coal Seam Boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.667219,
+              35.700218
+            ],
+            [
+              112.667217,
+              35.704381
+            ],
+            [
+              112.65893,
+              35.704334
+            ],
+            [
+              112.643582,
+              35.66656
+            ],
+            [
+              112.657386,
+              35.666542
+            ],
+            [
+              112.704853,
+              35.6584
+            ],
+            [
+              112.704883,
+              35.666555
+            ],
+            [
+              112.723428,
+              35.663137
+            ],
+            [
+              112.723444,
+              35.670039
+            ],
+            [
+              112.730159,
+              35.670033
+            ],
+            [
+              112.730529,
+              35.676426
+            ],
+            [
+              112.706562,
+              35.679535
+            ],
+            [
+              112.716358,
+              35.70022
+            ],
+            [
+              112.667219,
+              35.700218
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M1217.B2",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2021-03-01 00:00:00",
+        "notes": "The boundary coordinates were found in Table 1-1-2 on page 4 in the document (\u5c71\u897f\u5929\u5730\u738b\u5761\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848) Shanxi Tiandi Wangpo Coal Industry Co. Ltd. Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan https://web.archive.org/web/20250710184846/https://www.doc88.com/p-31273663648930.html",
+        "description": "Wangpo mine - No9-15 Coal Seam Boundary",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.669878,
+          35.68693
+        ]
+      },
+      "properties": {
+        "id": "M1217.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2021-03-01 00:00:00",
+        "notes": "The coordinates are shown in Table 4-1-9 on page 125 in the document  Shanxi Tiandi Wangpo Coal Industry Co. Ltd. Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan (\u5c71\u897f\u5929\u5730\u738b\u5761\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250710184846/https://www.doc88.com/p-31273663648930.html",
+        "description": "Tali return air shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.701546,
+          35.674683
+        ]
+      },
+      "properties": {
+        "id": "M1217.P2",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2021-03-01 00:00:00",
+        "notes": "The coordinates are shown in Table 4-1-9 on page 125 in the document  Shanxi Tiandi Wangpo Coal Industry Co. Ltd. Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan (\u5c71\u897f\u5929\u5730\u738b\u5761\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250710184846/https://www.doc88.com/p-31273663648930.html",
+        "description": "Shangsitou return air shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.669969,
+          35.686266
+        ]
+      },
+      "properties": {
+        "id": "M1217.P3",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2021-03-01 00:00:00",
+        "notes": "The coordinates are shown in Table 4-1-9 on page 125 in the document  Shanxi Tiandi Wangpo Coal Industry Co. Ltd. Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan (\u5c71\u897f\u5929\u5730\u738b\u5761\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250710184846/https://www.doc88.com/p-31273663648930.html",
+        "description": "Tali intake air shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.701883,
+          35.674619
+        ]
+      },
+      "properties": {
+        "id": "M1217.P4",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "shaft",
+        "data source date": "2021-03-01 00:00:00",
+        "notes": "The coordinates are shown in Table 4-1-9 on page 125 in the document  Shanxi Tiandi Wangpo Coal Industry Co. Ltd. Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan (\u5c71\u897f\u5929\u5730\u738b\u5761\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250710184846/https://www.doc88.com/p-31273663648930.html",
+        "description": "Phase II Shangsitou return air shaft",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.668715,
+          35.686934
+        ]
+      },
+      "properties": {
+        "id": "M1217.P5",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "The drainage station is described in page 112 of  Shanxi Tiandi Wangpo Coal Industry Co. Ltd. Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan (\u5c71\u897f\u5929\u5730\u738b\u5761\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250710184846/https://www.doc88.com/p-31273663648930.html. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas drainage station 1",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.700837,
+          35.674823
+        ]
+      },
+      "properties": {
+        "id": "M1217.P6",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "The drainage station is described in page 112 of  Shanxi Tiandi Wangpo Coal Industry Co. Ltd. Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan (\u5c71\u897f\u5929\u5730\u738b\u5761\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848), https://web.archive.org/web/20250710184846/https://www.doc88.com/p-31273663648930.html. The location was identified visually from Google Earth Pro satellite imagery.",
+        "description": "gas drainage station 2",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.727633,
+          35.673852
+        ]
+      },
+      "properties": {
+        "id": "M1217.P7",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2021-03-01 00:00:00",
+        "notes": "The coordinates are shown in Table 4-1-9 on page 125 in the document  Shanxi Tiandi Wangpo Coal Industry Co. Ltd. Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan (\u5c71\u897f\u5929\u5730\u738b\u5761\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250710184846/https://www.doc88.com/p-31273663648930.html",
+        "description": "main slope",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.727332,
+          35.674081
+        ]
+      },
+      "properties": {
+        "id": "M1217.P8",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2021-03-01 00:00:00",
+        "notes": "The coordinates are shown in Table 4-1-9 on page 125 in the document  Shanxi Tiandi Wangpo Coal Industry Co. Ltd. Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan (\u5c71\u897f\u5929\u5730\u738b\u5761\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250710184846/https://www.doc88.com/p-31273663648930.html",
+        "description": "pedestrain slope",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.72689,
+          35.674061
+        ]
+      },
+      "properties": {
+        "id": "M1217.P9",
+        "mine feature category": "other",
+        "mine feature subcategory": "slope access or production shaft",
+        "data source date": "2021-03-01 00:00:00",
+        "notes": "The coordinates are shown in Table 4-1-9 on page 125 in the document  Shanxi Tiandi Wangpo Coal Industry Co. Ltd. Coal Resource Development and Utilization, Mine Environmental Protection, and Land Reclamation Plan (\u5c71\u897f\u5929\u5730\u738b\u5761\u7164\u4e1a\u6709\u9650\u516c\u53f8\u7164\u70ad\u8d44\u6e90\u5f00\u53d1\u5229\u7528\u548c\u77ff\u5c71\u73af\u5883\u4fdd\u62a4\u4e0e\u571f\u5730\u590d\u57a6\u65b9\u6848),  https://web.archive.org/web/20250710184846/https://www.doc88.com/p-31273663648930.html",
+        "description": "auxiliary slope",
+        "coordinates precision": "reported",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.671201,
+          35.68625
+        ]
+      },
+      "properties": {
+        "id": "M1217.P10",
+        "mine feature category": "degasification system",
+        "mine feature subcategory": "drainage station",
+        "data source date": "2023-03-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery and plume location.",
+        "description": "possible gas drainage station",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M1217",
+        "Owners": "Shanxi Tiandi Wangpo Coal Industry Company [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "China Coal Science and Industry Energy Technology Development Company [39.48%] Zezhou County State-owned Capital Investment Operation Company [38.59%] Coal Science and Technology Research Institute Company [21.93%]",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Wangpo_Coal_Mine",
+        "GEM Wiki Page (Non-ENG)": "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E5%A4%A9%E5%9C%B0%E7%8E%8B%E5%9D%A1%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+        "Coal Grade": "Thermal",
+        "Mine Name": "Wangpo Coal Mine",
+        "Country / Area": "China",
+        "Last researched": "Jul 11, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}

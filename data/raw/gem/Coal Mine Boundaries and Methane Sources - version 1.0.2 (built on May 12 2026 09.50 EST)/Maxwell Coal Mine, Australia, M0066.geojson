@@ -1,0 +1,417 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.813833,
+              -32.42652
+            ],
+            [
+              150.815807,
+              -32.434019
+            ],
+            [
+              150.818909,
+              -32.438271
+            ],
+            [
+              150.821532,
+              -32.438805
+            ],
+            [
+              150.82382,
+              -32.438806
+            ],
+            [
+              150.829362,
+              -32.440473
+            ],
+            [
+              150.832059,
+              -32.441472
+            ],
+            [
+              150.832723,
+              -32.442153
+            ],
+            [
+              150.833814,
+              -32.442674
+            ],
+            [
+              150.834193,
+              -32.443255
+            ],
+            [
+              150.834122,
+              -32.444537
+            ],
+            [
+              150.834572,
+              -32.446019
+            ],
+            [
+              150.834856,
+              -32.44708
+            ],
+            [
+              150.867515,
+              -32.447067
+            ],
+            [
+              150.872014,
+              -32.442682
+            ],
+            [
+              150.881838,
+              -32.438056
+            ],
+            [
+              150.883055,
+              -32.405793
+            ],
+            [
+              150.885496,
+              -32.404549
+            ],
+            [
+              150.887642,
+              -32.402665
+            ],
+            [
+              150.891497,
+              -32.397898
+            ],
+            [
+              150.89337,
+              -32.393031
+            ],
+            [
+              150.895953,
+              -32.387336
+            ],
+            [
+              150.900338,
+              -32.381688
+            ],
+            [
+              150.92671,
+              -32.381312
+            ],
+            [
+              150.926686,
+              -32.374674
+            ],
+            [
+              150.936883,
+              -32.374689
+            ],
+            [
+              150.933344,
+              -32.353113
+            ],
+            [
+              150.937599,
+              -32.353128
+            ],
+            [
+              150.937377,
+              -32.334004
+            ],
+            [
+              150.926758,
+              -32.333868
+            ],
+            [
+              150.926805,
+              -32.332459
+            ],
+            [
+              150.920438,
+              -32.332462
+            ],
+            [
+              150.92021,
+              -32.332869
+            ],
+            [
+              150.919143,
+              -32.33331
+            ],
+            [
+              150.911868,
+              -32.335055
+            ],
+            [
+              150.91073,
+              -32.335295
+            ],
+            [
+              150.909343,
+              -32.335386
+            ],
+            [
+              150.909306,
+              -32.337347
+            ],
+            [
+              150.911391,
+              -32.337614
+            ],
+            [
+              150.911464,
+              -32.340478
+            ],
+            [
+              150.90971,
+              -32.34357
+            ],
+            [
+              150.909091,
+              -32.347329
+            ],
+            [
+              150.911556,
+              -32.347809
+            ],
+            [
+              150.91196,
+              -32.350252
+            ],
+            [
+              150.911701,
+              -32.355018
+            ],
+            [
+              150.910975,
+              -32.359305
+            ],
+            [
+              150.907798,
+              -32.359281
+            ],
+            [
+              150.901611,
+              -32.359287
+            ],
+            [
+              150.899169,
+              -32.360649
+            ],
+            [
+              150.89438,
+              -32.36061
+            ],
+            [
+              150.888998,
+              -32.363762
+            ],
+            [
+              150.886979,
+              -32.367031
+            ],
+            [
+              150.884518,
+              -32.36709
+            ],
+            [
+              150.884495,
+              -32.381884
+            ],
+            [
+              150.890585,
+              -32.381863
+            ],
+            [
+              150.893649,
+              -32.381803
+            ],
+            [
+              150.897277,
+              -32.381762
+            ],
+            [
+              150.896519,
+              -32.382824
+            ],
+            [
+              150.894242,
+              -32.382844
+            ],
+            [
+              150.893958,
+              -32.385187
+            ],
+            [
+              150.894963,
+              -32.385213
+            ],
+            [
+              150.889664,
+              -32.397842
+            ],
+            [
+              150.888808,
+              -32.398729
+            ],
+            [
+              150.88448,
+              -32.400734
+            ],
+            [
+              150.882974,
+              -32.402508
+            ],
+            [
+              150.882211,
+              -32.402853
+            ],
+            [
+              150.842722,
+              -32.402881
+            ],
+            [
+              150.842237,
+              -32.405565
+            ],
+            [
+              150.831819,
+              -32.407429
+            ],
+            [
+              150.831373,
+              -32.407209
+            ],
+            [
+              150.82745,
+              -32.409726
+            ],
+            [
+              150.81354,
+              -32.422681
+            ],
+            [
+              150.813833,
+              -32.42652
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M0066.B1",
+        "mine feature category": "mine boundary",
+        "mine feature subcategory": "underground",
+        "data source date": "2022-03-31 00:00:00",
+        "notes": "Page 2 of ANNUAL REVIEW 2021 MAXWELL UNDERGROUND COAL MINE PROJECT, https://web.archive.org/web/20240701220242/https://minedocs.com/23/Malabar-AREV-12312021.pdf, dated March 31 2022,  lists the mine's mining leases A173, CL229, CL395, ML1531, ML1820, and ML1822. These are shown in Figure 2. Maxwell UG Project boundaries, on page 15. Mining lease polygons were extracted from the Geological Survey NSW GeoServer web feature service https://web.archive.org/web/20250427032655/https://www.resources.nsw.gov.au/geological-survey/products-and-data/gis-web-services. The area of the boundary is 45 sq km.",
+        "description": "Maxwell coal mine boundary",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0066",
+        "Owners": "Malabar Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Malabar Resources",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Maxwell_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Maxwell Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.864912,
+          -32.410046
+        ]
+      },
+      "properties": {
+        "id": "M0066.P1",
+        "mine feature category": "ventilation system",
+        "mine feature subcategory": "vent",
+        "data source date": "2024-10-01 00:00:00",
+        "notes": "Identified visually from Google Earth Pro satellite imagery.",
+        "description": "Ventilation shaft",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0066",
+        "Owners": "Malabar Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Malabar Resources",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Maxwell_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Maxwell Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.862157,
+          -32.407979
+        ]
+      },
+      "properties": {
+        "id": "M0066.P2",
+        "mine feature category": "other",
+        "mine feature subcategory": "adit or drift",
+        "data source date": "2019 (source date from figure 3-5)",
+        "notes": "Identified using figure 3-5 pg 14 of MAXWELL PROJECT Project Description SECTION 3, https://web.archive.org/web/20250327204928/https://minedocs.com/23/Maxwell-EIS-Project-Description-2019.pdf and located using Google Earth Pro satellite imagery.",
+        "description": "Mine access drift",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0066",
+        "Owners": "Malabar Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Malabar Resources",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Maxwell_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Maxwell Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.862071,
+          -32.408219
+        ]
+      },
+      "properties": {
+        "id": "M0066.P3",
+        "mine feature category": "other",
+        "mine feature subcategory": "adit or drift",
+        "data source date": "2019 (source date from figure 3-5)",
+        "notes": "Identified using figure 3-5 pg 14 of MAXWELL PROJECT Project Description SECTION 3, https://web.archive.org/web/20250327204928/https://minedocs.com/23/Maxwell-EIS-Project-Description-2019.pdf and located using Google Earth Pro satellite imagery.",
+        "description": "Mine access drift",
+        "coordinates precision": "extracted",
+        "GEM Mine ID": "M0066",
+        "Owners": "Malabar Resources [100%]",
+        "Owners (Non-ENG)": "",
+        "Parent Company": "Malabar Resources",
+        "GEM Wiki Page (ENG)": "https://www.gem.wiki/Maxwell_coal_mine",
+        "GEM Wiki Page (Non-ENG)": "",
+        "Coal Grade": "Met",
+        "Mine Name": "Maxwell Coal Mine",
+        "Country / Area": "Australia",
+        "Last researched": "Apr 04, 2025",
+        "build_version": "Coal Mine Boundaries and Methane Sources - version 1.0.2 (built on May 12 2026 09.50 EST)"
+      }
+    }
+  ]
+}
