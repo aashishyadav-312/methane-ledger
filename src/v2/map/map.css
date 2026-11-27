@@ -1,0 +1,379 @@
+/*
+ * v2 map (PLAN_V2 Step 3). Colours are DESIGN.md and DESIGN_V2 tokens; DESIGN_V2's new tokens are added to
+ * tokens.css by Step 5, so each has its DESIGN_V2 value as a fallback. Timings arrive as --mmv2-* variables set from
+ * `motion.ts` on the root, so no duration is written here.
+ */
+
+.mmv2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.mmv2-dock {
+  position: absolute;
+  inset: 0;
+  transform-origin: top right;
+}
+
+.mmv2.is-docking .mmv2-dock {
+  z-index: var(--z-mini, 40);
+}
+
+.mmv2-clip {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.mmv2-chrome {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border: 0 solid var(--line);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mmv2-surface {
+  position: absolute;
+  inset: 0;
+  outline: none;
+  cursor: grab;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mmv2-surface:active {
+  cursor: grabbing;
+}
+
+.mmv2-surface:focus-visible {
+  box-shadow: inset 0 0 0 2px var(--ink);
+}
+
+.mmv2.is-docking .mmv2-surface {
+  pointer-events: none;
+}
+
+.mmv2-svg {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.mmv2-base {
+  z-index: 0;
+}
+
+.mmv2-smog {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.mmv2-over {
+  z-index: 2;
+}
+
+/* Land, coal states, the ink boundary. */
+.mmv2-land {
+  fill: var(--land);
+}
+
+.mmv2-coal {
+  fill: var(--land-coal);
+  stroke: var(--state-line, #cfc7b4);
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.mmv2-boundary {
+  fill: none;
+  stroke: var(--boundary, #1a1916);
+  stroke-width: 1.1px;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+/* Dots keep r / sqrt(zoom) in map units through --dot-scale; hover adds the separate `scale` property. */
+.mmv2-scaled {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: scale(var(--dot-scale, 1));
+}
+
+/* Transitions only on the hovered dot and the one before it (see MineMapV2 setHoverClass). */
+.mmv2-dot,
+.mmv2-closed {
+  scale: 1;
+}
+
+.mmv2-dot.is-hot,
+.mmv2-closed.is-hot {
+  transition: scale var(--mmv2-hover-ms) var(--mmv2-ease-out);
+}
+
+.mmv2-dot.is-hover,
+.mmv2-closed.is-hover {
+  scale: var(--mmv2-hover-scale);
+}
+
+.mmv2-fill {
+  stroke: var(--paper);
+  stroke-width: 0.8px;
+  vector-effect: non-scaling-stroke;
+}
+
+.mmv2-fill.mmv2-band-by2031 {
+  fill: var(--band-2031);
+}
+
+.mmv2-fill.mmv2-band-by2036 {
+  fill: var(--band-2036);
+}
+
+.mmv2-fill.mmv2-band-by2050 {
+  fill: var(--band-2050);
+}
+
+.mmv2-fill.mmv2-band-after2050 {
+  fill: var(--band-after);
+}
+
+.mmv2-fill.mmv2-band-nodate {
+  fill: var(--paper);
+  stroke: var(--band-nodate);
+  stroke-width: 1px;
+}
+
+/* Hollow centres for coalfield-placed dots, past zoom 4 only (gradients in HollowDefs, ids set on the root). */
+.is-deep .mmv2-fill.is-approx.mmv2-band-by2031 {
+  fill: var(--mmv2-hollow-by2031);
+}
+
+.is-deep .mmv2-fill.is-approx.mmv2-band-by2036 {
+  fill: var(--mmv2-hollow-by2036);
+}
+
+.is-deep .mmv2-fill.is-approx.mmv2-band-by2050 {
+  fill: var(--mmv2-hollow-by2050);
+}
+
+.is-deep .mmv2-fill.is-approx.mmv2-band-after2050 {
+  fill: var(--mmv2-hollow-after2050);
+}
+
+.mmv2-closed {
+  fill: var(--band-closed);
+  opacity: var(--closed-opacity);
+}
+
+.mmv2-ring {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.6px;
+  vector-effect: non-scaling-stroke;
+}
+
+/* Selecting a mine fades every other dot (one layer) to 45%. */
+.mmv2-dimmable {
+  transition: opacity var(--mmv2-dim-ms) var(--mmv2-ease-out);
+}
+
+.has-sel .mmv2-dimmable {
+  opacity: var(--mmv2-dim);
+}
+
+/* Cities and labels keep their screen size through --inv-k (1 / k). */
+.mmv2-city {
+  fill: var(--ink-3);
+}
+
+.mmv2-city-label,
+.mmv2-label {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: calc(var(--mmv2-label-px) * var(--inv-k, 1));
+  paint-order: stroke;
+  stroke: var(--paper);
+  stroke-width: var(--mmv2-halo-em);
+  stroke-linejoin: round;
+}
+
+.mmv2-city-label {
+  fill: var(--ink-3);
+}
+
+.mmv2-label {
+  fill: var(--ink-2);
+}
+
+.mmv2-label.is-sel {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: calc(var(--mmv2-sel-label-px) * var(--inv-k, 1));
+  fill: var(--ink);
+}
+
+/* Tooltip */
+.mmv2-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 240px;
+  padding: 10px 12px 11px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-tile);
+  background: var(--card);
+  box-shadow: var(--shadow-pin);
+  color: var(--ink-2);
+  font-size: 13px;
+  line-height: 1.4;
+  pointer-events: none;
+  animation: mmv2-tip-in var(--mmv2-tip-ms) var(--mmv2-ease-out) both;
+}
+
+@keyframes mmv2-tip-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.mmv2-tip-name {
+  color: var(--ink);
+  font-size: var(--fs-label);
+  font-weight: 600;
+}
+
+.mmv2-tip-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  color: var(--ink);
+}
+
+.mmv2-tip-swatch {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.mmv2-tip-swatch.is-hollow {
+  border: 1px solid var(--band-nodate);
+  background: var(--paper);
+}
+
+.mmv2-tip-note {
+  color: var(--ink-3);
+}
+
+/* Floating controls */
+.mmv2-controls {
+  position: absolute;
+  inset: 0;
+  z-index: var(--z-ui, 10);
+  pointer-events: none;
+}
+
+.mmv2-controls > * {
+  pointer-events: auto;
+}
+
+.mmv2-zoom {
+  position: absolute;
+  right: 32px;
+  bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--r-tile);
+  background: var(--glass, rgba(251, 250, 246, 0.84));
+  backdrop-filter: blur(14px);
+}
+
+.mmv2-zoom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  transition:
+    transform var(--mmv2-press-ms) var(--mmv2-ease-out),
+    background-color var(--mmv2-press-ms) ease;
+}
+
+.mmv2-zoom-btn + .mmv2-zoom-btn {
+  border-top: 1px solid var(--line-soft);
+}
+
+.mmv2-zoom-btn:hover {
+  background-color: var(--track);
+}
+
+.mmv2-zoom-btn:active {
+  transform: scale(var(--mmv2-press-scale));
+}
+
+.mmv2-zoom-btn:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: -2px;
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .mmv2-zoom {
+    background: var(--card);
+    backdrop-filter: none;
+  }
+}
+
+/* Docked: the card is a link back to the map. */
+.mmv2-docklink {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.mmv2-docklink:focus-visible {
+  outline: calc(2px * var(--dock-inv-s, 1)) solid var(--ink);
+  outline-offset: calc(2px * var(--dock-inv-s, 1));
+}
+
+/* Reduced motion: nothing eases. */
+.mmv2.is-reduced .mmv2-dot,
+.mmv2.is-reduced .mmv2-closed,
+.mmv2.is-reduced .mmv2-dimmable,
+.mmv2.is-reduced .mmv2-zoom-btn {
+  transition: none;
+}
+
+.mmv2.is-reduced .mmv2-tip {
+  animation: none;
+}
