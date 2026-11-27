@@ -1,0 +1,97 @@
+/* v2 About pages, Compare and Data. Tokens only (DESIGN_V2). The v1 page styles are reused and added to here. */
+
+.v2-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.v2-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.v2-filter .control-note {
+  margin: 0;
+}
+
+/* The hover card over the supply curve. */
+.supply-tip {
+  z-index: var(--z-ui, 10);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 220px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card);
+  box-shadow: 0 10px 28px rgba(26, 25, 22, 0.14);
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.supply-tip span {
+  color: var(--ink-2);
+}
+
+.supply-chart-v2 a:focus-visible rect {
+  outline: 2px solid var(--eyebrow);
+}
+
+/* Tags sitting in a caption line or a table cell. */
+.compare-kind .tag {
+  margin-left: 4px;
+  padding: 1px 8px;
+  font-size: 11.5px;
+}
+
+.control-note .tag {
+  padding: 1px 8px;
+  font-size: 11.5px;
+}
+
+/* Extra sections under a v1 page (Method, Assumptions): the page above already ended with its own spacing. */
+.v2-pages-stack > .doc-page + .doc-page {
+  padding-top: 0;
+}
+
+.v2-pages-stack > .doc-page:first-child {
+  padding-bottom: 40px;
+}
+
+.doc-section .num-col {
+  text-align: right;
+}
+
+.v2-count-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Data page: the optional columns. */
+.data-optional {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--ink-2);
+  font-size: var(--fs-label);
+  line-height: 1.5;
+}
+
+@media (max-width: 720px) {
+  .supply-tip {
+    max-width: 180px;
+  }
+}
+
+/* DESIGN_V2 "Copy": no all-caps labels. The v1 page styles set eyebrows and table heads in capitals; v2 sets them in sentence case. */
+.v2-shell--page .eyebrow,
+.v2-shell--page .t-caps,
+.v2-shell--page .doc-table thead th,
+.v2-shell--page .legend {
+  text-transform: none;
+  letter-spacing: 0;
+}
