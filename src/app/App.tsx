@@ -1,14 +1,23 @@
-import { useEffect, useRef } from 'react';
+import { lazy, Suspense, useEffect, useRef } from 'react';
 import '../styles/tokens.css';
 import '../styles/global.css';
 import '../styles/components.css';
-import { AssumptionsV2, CompareV2, DataV2, MethodV2, SourcesV2 } from '../v2/pages';
 import { sectionForRoute } from '../v2/shell/sections';
 import { ShellV2 } from '../v2/shell/ShellV2';
 import { HomeV2, MINE_LAYOUT, MineView } from '../v2/shell/slots';
 import { NotFound } from './NotFound';
-import { UiGallery } from './UiGallery';
 import { useRouteLocation, type Route } from './router';
+
+// The About pages, Compare, Data and the component gallery load when their route opens, so the home stays light.
+// Each lazy module exposes one named export.
+const AssumptionsV2 = lazy(() =>
+  import('../v2/pages/assumptions/AssumptionsV2').then((m) => ({ default: m.AssumptionsV2 })),
+);
+const CompareV2 = lazy(() => import('../v2/pages/compare/CompareV2').then((m) => ({ default: m.CompareV2 })));
+const DataV2 = lazy(() => import('../v2/pages/data/DataV2').then((m) => ({ default: m.DataV2 })));
+const MethodV2 = lazy(() => import('../v2/pages/method/MethodV2').then((m) => ({ default: m.MethodV2 })));
+const SourcesV2 = lazy(() => import('../v2/pages/sources/SourcesV2').then((m) => ({ default: m.SourcesV2 })));
+const UiGallery = lazy(() => import('./UiGallery').then((m) => ({ default: m.UiGallery })));
 
 const SITE = 'Methane Ledger';
 
@@ -77,7 +86,9 @@ export function App() {
 
   return (
     <ShellV2 section={sectionForRoute(route)} routeKey={path} layout={layoutFor(route)}>
-      <RouteView route={route} />
+      <Suspense fallback={null}>
+        <RouteView route={route} />
+      </Suspense>
     </ShellV2>
   );
 }
