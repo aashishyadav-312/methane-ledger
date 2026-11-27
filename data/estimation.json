@@ -1,0 +1,146 @@
+{
+  "degreeByField": {
+    "value": { "jharia": 3, "raniganj": 2, "e_bokaro": 2, "w_bokaro": 2, "mugma": 2 },
+    "unit": "DGMS gassiness grade (1 to 3) by coalfield key",
+    "source": "PLAN_V2 Appendix B; reference/ref_v2.py DEGREE_BY_FIELD. Estimated until a mine-wise DGMS list replaces it",
+    "quality": "estimated"
+  },
+  "defaultDegree": {
+    "value": 1,
+    "unit": "DGMS gassiness grade (1 to 3)",
+    "source": "PLAN_V2 Appendix B: every coalfield not listed above is Degree I; reference/ref_v2.py DEFAULT_DEGREE",
+    "quality": "estimated"
+  },
+  "byDegree": {
+    "1": {
+      "specificEmissionM3PerT": {
+        "value": 0.8,
+        "unit": "m3 CH4 per t coal",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree I",
+        "quality": "estimated"
+      },
+      "drainedShare": {
+        "value": 0,
+        "unit": "fraction of liberated CH4",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree I: no drainage",
+        "quality": "estimated"
+      },
+      "drainedConc": {
+        "value": 0,
+        "unit": "fraction CH4",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree I: no drained gas",
+        "quality": "estimated"
+      },
+      "vamConc": {
+        "value": 0.0005,
+        "unit": "fraction CH4",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree I: 0.05%",
+        "quality": "estimated"
+      }
+    },
+    "2": {
+      "specificEmissionM3PerT": {
+        "value": 5,
+        "unit": "m3 CH4 per t coal",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree II",
+        "quality": "estimated"
+      },
+      "drainedShare": {
+        "value": 0.3,
+        "unit": "fraction of liberated CH4",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree II",
+        "quality": "estimated"
+      },
+      "drainedConc": {
+        "value": 0.35,
+        "unit": "fraction CH4",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree II",
+        "quality": "estimated"
+      },
+      "vamConc": {
+        "value": 0.002,
+        "unit": "fraction CH4",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree II: 0.2%",
+        "quality": "estimated"
+      }
+    },
+    "3": {
+      "specificEmissionM3PerT": {
+        "value": 15,
+        "unit": "m3 CH4 per t coal",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree III",
+        "quality": "estimated"
+      },
+      "drainedShare": {
+        "value": 0.5,
+        "unit": "fraction of liberated CH4",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree III",
+        "quality": "estimated"
+      },
+      "drainedConc": {
+        "value": 0.5,
+        "unit": "fraction CH4",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree III",
+        "quality": "estimated"
+      },
+      "vamConc": {
+        "value": 0.004,
+        "unit": "fraction CH4",
+        "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), Degree III: 0.4%",
+        "quality": "estimated"
+      }
+    }
+  },
+  "opencastSpecificEmissionM3PerT": {
+    "value": 0.3,
+    "unit": "m3 CH4 per t coal",
+    "source": "v1 archetypes (reference/cmm_model.py ARCHETYPES), opencast. No drained gas and no ventilation air",
+    "quality": "estimated"
+  },
+  "mixedUndergroundShare": {
+    "value": 0.5,
+    "unit": "fraction of a mixed mine's output from underground workings",
+    "source": "PLAN_V2 Appendix B: UG 100%, Mixed 50%, OC 0; reference/ref_v2.py MIXED_UG_SHARE",
+    "quality": "estimated"
+  },
+  "afterClosure": {
+    "fAmm": {
+      "value": 0.3,
+      "unit": "fraction of last active year's gas",
+      "source": "PLAN_V2 Appendix B: q0 = 0.30 x total, decline as v1 (reference/ref_v2.py F_AMM)",
+      "quality": "estimated"
+    },
+    "conc": {
+      "value": 0.6,
+      "unit": "fraction CH4",
+      "source": "PLAN_V2 Appendix B: 60% CH4 after closure (reference/ref_v2.py AMM_CONC)",
+      "quality": "estimated"
+    }
+  },
+  "captureEff": {
+    "drained": {
+      "value": 1,
+      "unit": "fraction of liberated CH4 collected",
+      "source": "PLAN_V2 Appendix B: drained 100% (v1 default, reference/cmm_model.py Stream.capture_eff)",
+      "quality": "estimated"
+    },
+    "vam": {
+      "value": 0.85,
+      "unit": "fraction of liberated CH4 collected",
+      "source": "PLAN_V2 Appendix B: ventilation 85% (reference/ref_v2.py CAP_VAM)",
+      "quality": "estimated"
+    },
+    "amm": {
+      "value": 0.7,
+      "unit": "fraction of liberated CH4 collected",
+      "source": "PLAN_V2 Appendix B: after closure 70% captured (reference/ref_v2.py CAP_AMM)",
+      "quality": "estimated"
+    }
+  },
+  "oxidiserMinVamConc": {
+    "value": 0.002,
+    "unit": "fraction CH4",
+    "source": "Lowest ventilation-air CH4 an oxidiser accepts: the same value as rto.minConc in data/technologies.json (tests/model/estimation.test.ts checks they agree)",
+    "quality": "estimated"
+  }
+}
