@@ -2,11 +2,7 @@ import { useEffect, useRef } from 'react';
 import '../styles/tokens.css';
 import '../styles/global.css';
 import '../styles/components.css';
-import { AssumptionsPage } from '../pages/AssumptionsPage';
-import { ComparePage } from '../pages/ComparePage';
-import { DataPage } from '../pages/DataPage';
-import { MethodPage } from '../pages/MethodPage';
-import { SourcesPage } from '../pages/SourcesPage';
+import { AssumptionsV2, CompareV2, DataV2, MethodV2, SourcesV2 } from '../v2/pages';
 import { sectionForRoute } from '../v2/shell/sections';
 import { ShellV2 } from '../v2/shell/ShellV2';
 import { HomeV2, MINE_LAYOUT, MineView } from '../v2/shell/slots';
@@ -35,15 +31,15 @@ function RouteView({ route }: { route: Route }) {
     case 'mine':
       return <MineView />;
     case 'compare':
-      return <ComparePage />;
+      return <CompareV2 />;
     case 'method':
-      return <MethodPage />;
+      return <MethodV2 />;
     case 'assumptions':
-      return <AssumptionsPage />;
+      return <AssumptionsV2 />;
     case 'sources':
-      return <SourcesPage />;
+      return <SourcesV2 />;
     case 'data':
-      return <DataPage />;
+      return <DataV2 />;
     case 'ui':
       return <UiGallery />;
     case 'notFound':
