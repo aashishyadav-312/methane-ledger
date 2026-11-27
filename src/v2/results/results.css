@@ -1,0 +1,575 @@
+/* The results dashboard (PLAN_V2 Step 7, design/v2/V2-Results.dc.html). Tokens only: src/styles/tokens.css. */
+
+.v2r {
+  position: relative;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  border-radius: var(--v2r-sheet-radius, 0) var(--v2r-sheet-radius, 0) 0 0;
+}
+
+/* ---------- sticky summary bar ---------- */
+
+.v2r-bar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  min-height: 84px;
+  box-sizing: border-box;
+  /* Room for the docked mini map at the top right (Step 7, item 3). */
+  padding: 12px calc(var(--v2r-clear-right) + 20px) 12px 48px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  background: var(--glass);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line-soft);
+  border-radius: inherit;
+}
+
+.v2r-wordmark {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.v2r-wordmark:hover {
+  color: var(--ink-2);
+}
+
+.v2r-bar-rule {
+  width: 1px;
+  height: 28px;
+  background: var(--line);
+}
+
+.v2r-bar-name {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 450;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.v2r-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.v2r-chip {
+  padding: 4px 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill);
+  background: var(--card);
+  white-space: nowrap;
+}
+
+.v2r-source {
+  align-self: center;
+}
+
+.v2r-edit {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--hit);
+  padding: 0 18px;
+  border: 1px solid var(--ink);
+  border-radius: 12px;
+  background: transparent;
+  color: var(--ink);
+  font: 600 14.5px/1 var(--font-sans);
+  cursor: pointer;
+  transition:
+    transform var(--dur-press) var(--ease-out),
+    background-color var(--dur-press) ease;
+}
+
+.v2r-edit:hover {
+  background: var(--card);
+}
+
+.v2r-edit:active {
+  transform: scale(0.97);
+}
+
+.v2r-edit:focus-visible,
+.v2r-wordmark:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* ---------- body ---------- */
+
+.v2r-body {
+  padding: 40px 48px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.v2r-head {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* The headline sits in the results' top 240px, so it keeps clear of the mini map too. */
+  padding-right: var(--v2r-clear-right);
+}
+
+.v2r-be-label {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+
+.v2r-be-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.v2r-be-value {
+  font-family: var(--font-display);
+  font-size: 112px;
+  font-weight: 420;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.v2r-be-unit {
+  font-size: 17px;
+  color: var(--ink-2);
+}
+
+.v2r-pill-none {
+  background: var(--est-bg);
+  color: var(--est-fg);
+}
+
+.v2r-sentence {
+  margin: 0;
+  max-width: 46em;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.v2r-measure {
+  min-width: 0;
+}
+
+.v2r-svg {
+  display: block;
+  overflow: visible;
+}
+
+/* ---------- tiles ---------- */
+
+.v2r-tiles {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+  overflow: hidden;
+}
+
+.v2r-tile {
+  padding: 16px 20px;
+  background: var(--card);
+}
+
+.v2r-tile-label {
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.v2r-tile-value {
+  font-family: var(--font-mono);
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* ---------- chart cards ---------- */
+
+.v2r-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.v2r-card {
+  min-width: 0;
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+}
+
+.v2r-chart--wide {
+  padding: 28px 32px 24px;
+  gap: 6px;
+}
+
+.v2r-chart-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+
+.v2r-chart-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.v2r-chart-title-lg {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 450;
+  font-size: 32px;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.v2r-chart-unit {
+  font-size: 13px;
+  color: var(--ink-3);
+}
+
+.v2r-chart-lede {
+  margin: 0 0 14px;
+  max-width: 60em;
+  font-size: 15.5px;
+  color: var(--ink-2);
+}
+
+.v2r-note {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--ink-2);
+}
+
+.v2r-footnote {
+  margin: 0;
+  max-width: 60em;
+  font-size: 13px;
+  color: var(--ink-3);
+}
+
+.v2r-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.v2r-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.v2r-legend-key {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+/* ---------- SVG marks ---------- */
+
+.v2r-tick {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  fill: var(--ink-3);
+}
+
+.v2r-axis {
+  stroke: var(--ink);
+  stroke-width: 1;
+}
+
+.v2r-grid {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+
+.v2r-ref {
+  stroke: var(--ink-3);
+  stroke-width: 1;
+  stroke-dasharray: 3 5;
+}
+
+.v2r-ref-label {
+  font-size: 12px;
+  fill: var(--ink-2);
+}
+
+.v2r-cross {
+  stroke: var(--ink);
+  stroke-width: 1;
+  stroke-dasharray: 3 4;
+}
+
+.v2r-cross-label {
+  font-size: 12.5px;
+  font-weight: 600;
+  fill: var(--ink);
+}
+
+.v2r-zone {
+  fill: var(--stream-amm);
+  fill-opacity: 0.08;
+}
+
+.v2r-zone-label {
+  font-size: 12.5px;
+  font-weight: 500;
+  fill: var(--ink-2);
+}
+
+.v2r-line {
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.v2r-line--power {
+  stroke: var(--stream-drained);
+}
+
+.v2r-line--flare {
+  stroke: var(--stream-amm);
+}
+
+.v2r-series-label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.v2r-series-label--power {
+  fill: var(--stream-drained);
+}
+
+.v2r-series-label--flare {
+  fill: var(--tag-fg);
+}
+
+.v2r-ring {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.6;
+}
+
+.v2r-ring-dot {
+  fill: var(--band-2036);
+  stroke: var(--card);
+  stroke-width: 1.2;
+}
+
+.v2r-ring-label {
+  font-size: 13px;
+  font-weight: 600;
+  fill: var(--ink);
+}
+
+.v2r-row-label {
+  font-size: 12.5px;
+  fill: var(--ink);
+}
+
+.v2r-row-label--strong {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.v2r-value {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  fill: var(--ink-2);
+}
+
+.v2r-value--small {
+  font-size: 11.5px;
+}
+
+.v2r-value--strong {
+  font-weight: 500;
+  fill: var(--ink);
+}
+
+.v2r-wf-build,
+.v2r-bar {
+  fill: var(--ink-2);
+}
+
+.v2r-wf-up {
+  fill: var(--line-strong);
+}
+
+.v2r-wf-down,
+.v2r-bar-good {
+  fill: var(--range);
+}
+
+.v2r-wf-total {
+  fill: var(--band-2036);
+}
+
+.v2r-tornado-low {
+  fill: var(--stream-amm);
+}
+
+.v2r-tornado-high {
+  fill: var(--stream-drained);
+}
+
+/* ---------- price ruler ---------- */
+
+.v2r-ruler {
+  margin: 0;
+  padding: 8px 0 4px;
+}
+
+.v2r-ruler-track {
+  fill: var(--line-soft);
+}
+
+.v2r-ruler-covered {
+  fill: var(--range);
+}
+
+.v2r-ruler-be {
+  fill: var(--card);
+  stroke: var(--range);
+  stroke-width: 3;
+}
+
+.v2r-ruler-price {
+  fill: var(--ink);
+}
+
+.v2r-ruler-label {
+  font-size: 12.5px;
+  font-weight: 600;
+  fill: var(--ink);
+}
+
+.v2r-ruler-tick {
+  fill: var(--band-closed);
+  stroke: var(--card);
+  stroke-width: 2;
+}
+
+.v2r-ruler-tick-label {
+  fill: var(--ink-3);
+}
+
+/* ---------- narrower screens ---------- */
+
+@media (max-width: 1100px) {
+  .v2r-tiles {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Below 900px the dashboard is one column (Step 7, item 1). */
+@media (max-width: 899.98px) {
+  .v2r-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .v2r-be-value {
+    font-size: 84px;
+  }
+}
+
+/* Phones (below 768px, PHONE_MAX_W_PX): the mini map is a 120px card. */
+@media (max-width: 767.98px) {
+  .v2r-bar {
+    padding: 12px calc(var(--v2r-clear-right-phone) + 4px) 12px 16px;
+    gap: 8px 12px;
+  }
+
+  .v2r-wordmark,
+  .v2r-bar-rule {
+    display: none;
+  }
+
+  .v2r-bar-name {
+    font-size: 22px;
+  }
+
+  .v2r-edit {
+    margin-left: 0;
+  }
+
+  .v2r-body {
+    padding: 24px 16px 48px;
+    gap: 20px;
+  }
+
+  .v2r-head {
+    padding-right: 0;
+  }
+
+  .v2r-be-value {
+    font-size: 64px;
+  }
+
+  .v2r-sentence {
+    font-size: 16px;
+  }
+
+  .v2r-tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .v2r-tile {
+    padding: 12px 14px;
+  }
+
+  .v2r-tile-value {
+    font-size: 20px;
+  }
+
+  .v2r-card,
+  .v2r-chart--wide {
+    padding: 18px 16px;
+  }
+
+  .v2r-chart-title-lg {
+    font-size: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .v2r-edit {
+    transition: none;
+  }
+}
