@@ -12,6 +12,11 @@
   flex: 1;
 }
 
+/* The skip link must show above the header (z-index --z-menu), or the header hides it when it takes focus. */
+.v2-shell .skip-link {
+  z-index: calc(var(--z-menu) + 1);
+}
+
 /* ---------- header ---------- */
 
 .v2-header {
