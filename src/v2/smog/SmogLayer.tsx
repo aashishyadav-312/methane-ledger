@@ -58,6 +58,19 @@ function budgetForViewport(): number {
   return w < PHONE_MAX_W_PX ? SMOG_BUDGET_PHONE : SMOG_BUDGET_DESKTOP;
 }
 
+/** `?perf=1` (in the query or inside the hash route): the engine's per-frame cost goes to `window.__smogFrameMs`. */
+function perfProbe(): ((ms: number) => void) | undefined {
+  if (typeof window === 'undefined') return undefined;
+  const hashQuery = location.hash.includes('?') ? location.hash.slice(location.hash.indexOf('?')) : '';
+  const on = (q: string) => new URLSearchParams(q).get('perf') === '1';
+  if (!on(location.search) && !on(hashQuery)) return undefined;
+  const w = window as Window & { __smogFrameMs?: number[] };
+  const frames: number[] = (w.__smogFrameMs = []);
+  return (ms) => {
+    frames.push(ms);
+  };
+}
+
 export function SmogLayer({ emitters, viewBox, mode, map, slot, seed, displayScale, ref }: SmogLayerProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const engineRef = useRef<SmogEngine | null>(null);
@@ -84,6 +97,7 @@ export function SmogLayer({ emitters, viewBox, mode, map, slot, seed, displaySca
       viewBox: vbKey.split(',').map(Number) as unknown as ViewBox,
       seed: seed ?? SMOG_DEFAULT_SEED,
       budget: budgetForViewport(),
+      onFrameMs: perfProbe(),
     });
     engineRef.current = engine;
 

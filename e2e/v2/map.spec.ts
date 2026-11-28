@@ -260,7 +260,9 @@ test.describe('map engine', () => {
     await expect(page.locator('.mmv2-label')).toHaveCount(1);
   });
 
-  test('hover shows the tooltip; "Approximate position" only on coalfield-positioned mines; a click selects', async ({ page }) => {
+  test('hover shows the tooltip; "Approximate position" only on coalfield-positioned mines; a click selects', async ({
+    page,
+  }) => {
     const errors = await open(page, `fly=${MOONIDIH}&offsetRight=${PANEL_W}`);
     await expect.poll(() => zoomLevel(page)).toBeCloseTo(6, 3);
     await page.evaluate(() => window.__map!.select(null));
@@ -305,7 +307,7 @@ test.describe('map engine', () => {
     expect(z).toBeLessThan(6);
   });
 
-  test('wheel zoom: 60 frames at a median under 20 ms each', async ({ page }) => {
+  test('wheel zoom: 60 frames at a median under 20 ms each (or idle + 4 ms)', async ({ page }) => {
     await open(page);
     const r = await page.evaluate(async () => {
       const el = document.querySelector<HTMLElement>('.mmv2-surface')!;
@@ -313,6 +315,17 @@ test.describe('map engine', () => {
       const rect = el.getBoundingClientRect();
       const frame: number[] = [];
       const work: number[] = [];
+      const median = (a: number[]) => [...a].sort((x, y) => x - y)[Math.floor(a.length / 2)];
+      // The same page, idle: how long a frame takes on this machine right now, with nothing zooming.
+      const idle: number[] = [];
+      await new Promise((res) => requestAnimationFrame(res));
+      let t = performance.now();
+      for (let i = 0; i < 30; i++) {
+        await new Promise((res) => requestAnimationFrame(res));
+        const n = performance.now();
+        idle.push(n - t);
+        t = n;
+      }
       await new Promise((res) => requestAnimationFrame(res));
       let last = performance.now();
       for (let i = 0; i < 60; i++) {
@@ -333,12 +346,19 @@ test.describe('map engine', () => {
         dot.getBoundingClientRect(); // style and layout inside the measured slice
         work.push(performance.now() - t0);
       }
-      const median = (a: number[]) => [...a].sort((x, y) => x - y)[Math.floor(a.length / 2)];
-      return { frame: median(frame), work: median(work), zoomed: window.__map!.api!.getZoomLevel() };
+      return {
+        frame: median(frame),
+        idle: median(idle),
+        work: median(work),
+        zoomed: window.__map!.api!.getZoomLevel(),
+      };
     });
-    console.log(`wheel zoom median frame ${r.frame.toFixed(1)} ms, work ${r.work.toFixed(2)} ms`);
+    console.log(
+      `wheel zoom median frame ${r.frame.toFixed(1)} ms (idle ${r.idle.toFixed(1)} ms), work ${r.work.toFixed(2)} ms`,
+    );
     expect(r.work).toBeLessThan(20);
-    expect(r.frame).toBeLessThan(20);
+    // 20 ms on a machine that draws idle frames in time; on a loaded one, no more than 4 ms over its own idle frame.
+    expect(r.frame).toBeLessThan(Math.max(20, r.idle + 4));
   });
 
   test('docking: at p = 1 the map is a 184px card at the top right, and a link back', async ({ page }) => {
@@ -427,7 +447,7 @@ test.describe('geometry (pure)', () => {
     // Reference values solved by bisection on the Bézier polynomials.
     expect(ease(0.25)).toBeCloseTo(0.052889, 4);
     expect(ease(0.5)).toBeCloseTo(0.595971, 4);
-    expect(ease(0.98)).toBeCloseTo(0.99980, 4);
+    expect(ease(0.98)).toBeCloseTo(0.9998, 4);
   });
 
   test('fly path duration is clamped to 500–900 ms and ends on the target', () => {

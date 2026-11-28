@@ -6,6 +6,8 @@ import {
   useMemo,
   useRef,
   useState,
+  lazy,
+  Suspense,
   type CSSProperties,
 } from 'react';
 import { mineHref, useRouteLocation } from '../../app/router';
@@ -28,17 +30,13 @@ import { SHEET_PEEK_PX, smogMethaneMm3, V2_KEYS } from '../panel';
 import { MineSearch } from '../search';
 import { useMediaQuery } from '../shell/useMediaQuery';
 import { emittersFromSources, SmogLayer } from '../smog';
-import {
-  dockProgressAt,
-  HOME_INSETS_DESKTOP,
-  HOME_INSETS_PHONE,
-  HOME_PHONE_QUERY,
-  panelWidthPx,
-} from './layout';
+import { dockProgressAt, HOME_INSETS_DESKTOP, HOME_INSETS_PHONE, HOME_PHONE_QUERY, panelWidthPx } from './layout';
 import { Legend } from './Legend';
-import { MineSession } from './MineSession';
 import { playLoad, playRipple, RIPPLE_DIAMETER_PX } from './motion';
 import './home.css';
+
+// The panel, the model run and the results load when a mine is first chosen or opened by link.
+const MineSession = lazy(() => import('./MineSession').then((m) => ({ default: m.MineSession })));
 
 const OVERVIEW: SmogMode = { kind: 'overview' };
 
@@ -289,22 +287,30 @@ export function HomeV2() {
         </div>
 
         {shown ? (
-          <MineSession
-            key={shown.id}
-            mine={data.byId.get(shown.id)!}
-            initialRan={shown.id === deepLink}
-            closing={shown.closing}
-            phone={phone}
-            still={still}
-            stageHeight={stageH}
-            resultsSlot={resultsSlot}
-            onClose={close}
-            onScrollToResults={scrollToResults}
-            onScrollToTop={scrollToTop}
-          />
+          <Suspense fallback={null}>
+            <MineSession
+              key={shown.id}
+              mine={data.byId.get(shown.id)!}
+              initialRan={shown.id === deepLink}
+              closing={shown.closing}
+              phone={phone}
+              still={still}
+              stageHeight={stageH}
+              resultsSlot={resultsSlot}
+              onClose={close}
+              onScrollToResults={scrollToResults}
+              onScrollToTop={scrollToTop}
+            />
+          </Suspense>
         ) : null}
       </section>
-      <div ref={setResultsSlot} className="v2-home-results" data-testid="v2-results" aria-label="Results" role="region" />
+      <div
+        ref={setResultsSlot}
+        className="v2-home-results"
+        data-testid="v2-results"
+        aria-label="Results"
+        role="region"
+      />
     </div>
   );
 }

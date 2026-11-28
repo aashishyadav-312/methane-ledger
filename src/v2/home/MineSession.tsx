@@ -97,6 +97,16 @@ export function MineSession({
   const [sheetGroup, setSheetGroup] = useState<RegistryGroup>('Market');
   const headingId = `v2-panel-${useId().replace(/[^a-zA-Z0-9]/g, '')}`;
   const path = `/mine/${encodeURIComponent(id)}`;
+
+  // Choosing a mine moves focus to its panel title, so a screen reader hears which mine it is. The session loads
+  // after the route change, so the app's own focus step has already run; a page opened on a mine keeps the
+  // browser's focus.
+  useEffect(() => {
+    if (initialRan) return;
+    document.getElementById(headingId)?.focus({ preventScroll: true });
+    // Once, when this mine's session mounts.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const writer = useMemo(() => createQueryWriter(), []);
 
   const pb = useMemo(() => panelBase(id, choices, overrides, panel), [id, choices, overrides, panel]);
@@ -246,7 +256,17 @@ export function MineSession({
       {showCue ? (
         <button type="button" className="v2-cue v2-press" onClick={onScrollToResults} data-testid="v2-cue">
           Results are ready. Scroll to see them
-          <svg aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+          <svg
+            aria-hidden="true"
+            width="14"
+            height="14"
+            viewBox="0 0 16 16"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.8"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
             <path d="M8 3v10M4 9l4 4 4-4" />
           </svg>
         </button>

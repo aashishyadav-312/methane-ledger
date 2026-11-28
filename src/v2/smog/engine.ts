@@ -73,6 +73,8 @@ export interface SmogEngineOptions {
   cancelFrame?: (handle: number) => void;
   /** Wall clock used only to measure each frame's own cost (simulate and draw) for the throttle. */
   perfNow?: () => number;
+  /** Called with each live frame's own cost in milliseconds (simulate and draw). The `?perf=1` probe uses it. */
+  onFrameMs?: (ms: number) => void;
 }
 
 export interface SmogStats {
@@ -164,6 +166,7 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
   const raf = opts.requestFrame ?? ((cb: FrameRequestCallback) => requestAnimationFrame(cb));
   const caf = opts.cancelFrame ?? ((h: number) => cancelAnimationFrame(h));
   const perfNow = opts.perfNow ?? (() => performance.now());
+  const onFrameMs = opts.onFrameMs;
   let clock: () => number = opts.now ?? (() => performance.now());
   let budget = opts.budget ?? SMOG_BUDGET_DESKTOP;
 
@@ -486,7 +489,9 @@ export function createSmogEngine(opts: SmogEngineOptions): SmogEngine {
     if (lastClockMs !== null) step(Math.min(Math.max((nowMs - lastClockMs) / 1000, 0), SMOG_MAX_DT_S));
     lastClockMs = nowMs;
     draw();
-    recordFrameMs(perfNow() - workStartMs);
+    const frameMs = perfNow() - workStartMs;
+    recordFrameMs(frameMs);
+    onFrameMs?.(frameMs);
     schedule();
   };
 
