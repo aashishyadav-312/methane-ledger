@@ -145,6 +145,32 @@ test.describe('lazy pages', () => {
     });
     await expect(page.getByRole('heading', { level: 1 })).toBeFocused();
   });
+
+  test('a mine opened from another page gets focus on its panel title once the session loads', async ({ page }) => {
+    await page.goto('./#/compare');
+    await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+    await page.evaluate((id) => {
+      window.location.hash = `#/mine/${id}`;
+    }, MOONIDIH);
+    await expect(page.getByRole('heading', { level: 1, name: MOONIDIH_NAME })).toBeFocused();
+  });
+
+  test('a page whose code fails to load says so, keeps the header, and offers a reload', async ({ page }) => {
+    await page.route(/\/assets\/MethodV2-[^/]*\.js$/, (r) => r.abort());
+    await page.goto('./#/');
+    await expect(search(page)).toBeVisible();
+    await page.evaluate(() => {
+      window.location.hash = '#/method';
+    });
+    await expect(page.getByRole('heading', { level: 1, name: 'This page did not load' })).toBeFocused();
+    await expect(page.getByRole('button', { name: 'Reload the page' })).toBeVisible();
+    await expect(page.getByRole('navigation', { name: 'Main' })).toBeVisible();
+    // Another page still opens.
+    await page.evaluate(() => {
+      window.location.hash = '#/sources';
+    });
+    await expect(page.getByRole('heading', { level: 1, name: 'Where the data comes from' })).toBeVisible();
+  });
 });
 
 test.describe('screen reader', () => {
