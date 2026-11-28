@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useRef } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useRef, type ReactNode } from 'react';
 import '../styles/tokens.css';
 import '../styles/global.css';
 import '../styles/components.css';
@@ -33,24 +33,37 @@ const TITLES: Record<Route['name'], string> = {
   notFound: `Page not found · ${SITE}`,
 };
 
-function RouteView({ route }: { route: Route }) {
+/** Mounts once the lazy page inside it has loaded, and tells the app, which then moves focus to the page's H1. */
+function Loaded({ onLoaded, children }: { onLoaded: () => void; children: ReactNode }) {
+  useEffect(() => {
+    onLoaded();
+  }, [onLoaded]);
+  return children;
+}
+
+function RouteView({ route, onLoaded }: { route: Route; onLoaded: () => void }) {
+  const page = (node: ReactNode) => (
+    <Loaded key={route.name} onLoaded={onLoaded}>
+      {node}
+    </Loaded>
+  );
   switch (route.name) {
     case 'map':
       return <HomeV2 />;
     case 'mine':
       return <MineView />;
     case 'compare':
-      return <CompareV2 />;
+      return page(<CompareV2 />);
     case 'method':
-      return <MethodV2 />;
+      return page(<MethodV2 />);
     case 'assumptions':
-      return <AssumptionsV2 />;
+      return page(<AssumptionsV2 />);
     case 'sources':
-      return <SourcesV2 />;
+      return page(<SourcesV2 />);
     case 'data':
-      return <DataV2 />;
+      return page(<DataV2 />);
     case 'ui':
-      return <UiGallery />;
+      return page(<UiGallery />);
     case 'notFound':
       return <NotFound />;
   }
@@ -63,16 +76,30 @@ function layoutFor(route: Route): 'map' | 'page' {
   return 'page';
 }
 
-function focusHeading() {
+/** React hides the old page with `display: none` while a lazy page loads; such a heading cannot take focus. */
+function hiddenByAncestor(el: HTMLElement): boolean {
+  for (let n: HTMLElement | null = el; n; n = n.parentElement) if (n.hidden || n.style.display === 'none') return true;
+  return false;
+}
+
+/** Focuses the page's H1. Returns false while there is none on screen (a lazy page still loading). */
+function focusHeading(): boolean {
   const heading = document.querySelector<HTMLElement>('main h1');
-  if (!heading) return;
+  if (!heading || hiddenByAncestor(heading)) return false;
   if (!heading.hasAttribute('tabindex')) heading.setAttribute('tabindex', '-1');
   heading.focus({ preventScroll: true });
+  return true;
 }
 
 export function App() {
   const { route, path } = useRouteLocation();
   const shownPath = useRef<string | null>(null);
+  // A route change wants focus on the H1; a lazy page that is still loading gets it when it arrives.
+  const focusPending = useRef(false);
+  const onLoaded = useCallback(() => {
+    if (!focusPending.current) return;
+    if (focusHeading()) focusPending.current = false;
+  }, []);
 
   useEffect(() => {
     document.title = TITLES[route.name];
@@ -81,13 +108,13 @@ export function App() {
     shownPath.current = path;
     if (firstLoad) return; // do not steal focus from the browser on first load
     window.scrollTo(0, 0);
-    focusHeading();
+    focusPending.current = !focusHeading();
   }, [route, path]);
 
   return (
     <ShellV2 section={sectionForRoute(route)} routeKey={path} layout={layoutFor(route)}>
       <Suspense fallback={null}>
-        <RouteView route={route} />
+        <RouteView route={route} onLoaded={onLoaded} />
       </Suspense>
     </ShellV2>
   );

@@ -44,7 +44,13 @@ export function ModelRun({ mine, base, view, source, ran, onRun, resultsSlot, on
   // The dashboard's own charts (structures, waterfall, tornado, closure curve) run on the same data and settings as
   // the panel's result, so the sheet's changes and the cost basis reach them too.
   const resultsData = useMemo<ResultsData>(
-    () => ({ tech: base.tech, constants: base.constants, costs: base.costs, finance: base.finance, prices: base.prices }),
+    () => ({
+      tech: base.tech,
+      constants: base.constants,
+      costs: base.costs,
+      finance: base.finance,
+      prices: base.prices,
+    }),
     [base.tech, base.constants, base.costs, base.finance, base.prices],
   );
 
@@ -63,11 +69,23 @@ export function ModelRun({ mine, base, view, source, ran, onRun, resultsSlot, on
   const be = result.breakevenUsdPerT;
   const price = modelView.priceUsdPerT;
   const covered = be !== null && be <= price;
+  const verdictText = !result.abatable
+    ? 'Not abatable'
+    : covered
+      ? `Covered at ${usdPrice(price)}`
+      : be === null
+        ? `Not covered at ${usdPrice(price)}`
+        : `Short by ${usdPerT(be - price)} a tonne`;
+  const spoken = `${mine.name}. ${be === null ? 'No break-even credit price' : `Break-even credit price ${usdPerT(be)} a tonne`}. ${verdictText}.`;
 
   return (
     <>
+      {/* Always in the page, so a screen reader hears the result when it arrives (a live region added with its text is skipped). */}
+      <p className="sr-only" role="status" data-testid="v2-result-status">
+        {ran ? spoken : ''}
+      </p>
       {ran ? (
-        <div className="v2-peek" data-testid="v2-peek" aria-live="polite">
+        <div className="v2-peek" data-testid="v2-peek">
           <div className="v2-peek-text">
             <span className="v2-peek-label">Break-even credit price</span>
             <span className="v2-peek-num" data-testid="v2-breakeven">
@@ -75,17 +93,7 @@ export function ModelRun({ mine, base, view, source, ran, onRun, resultsSlot, on
               {be === null ? null : <span className="v2-peek-unit"> a tonne</span>}
             </span>
           </div>
-          {result.abatable ? (
-            <VerdictPill verdict={covered ? 'ok' : 'short'}>
-              {covered
-                ? `Covered at ${usdPrice(price)}`
-                : be === null
-                  ? `Not covered at ${usdPrice(price)}`
-                  : `Short by ${usdPerT(be - price)} a tonne`}
-            </VerdictPill>
-          ) : (
-            <VerdictPill verdict="short">Not abatable</VerdictPill>
-          )}
+          <VerdictPill verdict={result.abatable && covered ? 'ok' : 'short'}>{verdictText}</VerdictPill>
         </div>
       ) : null}
       <button

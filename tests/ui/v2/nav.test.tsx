@@ -1,7 +1,8 @@
 import { act, cleanup, render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { useState } from 'react';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
+import { preloadLazyPages, settle } from '../lazyPages';
 import { App } from '../../../src/app/App';
 import minesMap from '../../../src/generated/mines_map.json';
 import { MineSearch } from '../../../src/v2/search';
@@ -9,12 +10,15 @@ import type { SearchableMine } from '../../../src/v2/search';
 
 const mines = minesMap.mines as SearchableMine[];
 
-function goTo(hash: string) {
+async function goTo(hash: string) {
   act(() => {
     window.location.hash = hash;
     window.dispatchEvent(new HashChangeEvent('hashchange'));
   });
+  await settle();
 }
+
+beforeAll(preloadLazyPages);
 
 beforeEach(() => {
   window.location.hash = '#/';
@@ -29,34 +33,34 @@ const current = () =>
   Array.from(nav().querySelectorAll('[aria-current="page"]')).map((el) => el.textContent?.replace(/\s+/g, ' ').trim());
 
 describe('routes', () => {
-  it('resolves every route to a page with one H1', () => {
+  it('resolves every route to a page with one H1', async () => {
     render(<App />);
     const h1 = () => screen.getByRole('heading', { level: 1 }).textContent;
     expect(h1()).toBe('Which closing mines can pay for their own methane?');
-    goTo('#/mine/bccl-moonidih');
+    await goTo('#/mine/bccl-moonidih');
     expect(h1()).toBe('Moonidih');
-    goTo('#/method');
+    await goTo('#/method');
     expect(h1()).toBe('How the model works');
     for (const hash of ['#/compare', '#/assumptions', '#/sources', '#/data']) {
-      goTo(hash);
+      await goTo(hash);
       expect(screen.getAllByRole('heading', { level: 1 }), hash).toHaveLength(1);
     }
-    goTo('#/nowhere');
+    await goTo('#/nowhere');
     expect(h1()).toBe('Page not found');
-    goTo('#/mine');
+    await goTo('#/mine');
     expect(h1()).toBe('Page not found');
   });
 
-  it('shows the footer on pages and not on the home', () => {
+  it('shows the footer on pages and not on the home', async () => {
     render(<App />);
     expect(screen.queryByRole('contentinfo')).toBeNull();
-    goTo('#/method');
+    await goTo('#/method');
     expect(screen.getByRole('contentinfo')).toBeTruthy();
   });
 
-  it('keeps the v1 pages rendering inside the v2 shell', () => {
+  it('keeps the v1 pages rendering inside the v2 shell', async () => {
     const { container } = render(<App />);
-    goTo('#/assumptions');
+    await goTo('#/assumptions');
     expect(container.querySelector('header.v2-header')).toBeTruthy();
     expect(screen.getByRole('main').querySelector('h1')).toBeTruthy();
     expect(screen.getByRole('contentinfo')).toBeTruthy();
@@ -64,7 +68,7 @@ describe('routes', () => {
 });
 
 describe('header', () => {
-  it('shows the wordmark, the Research preview pill, Map, Data and About', () => {
+  it('shows the wordmark, the Research preview pill, Map, Data and About', async () => {
     render(<App />);
     expect(screen.getByRole('link', { name: 'Methane Ledger' }).getAttribute('href')).toBe('#/');
     expect(screen.getByText('Research preview')).toBeTruthy();
@@ -77,16 +81,16 @@ describe('header', () => {
     expect(aboutButton().getAttribute('aria-expanded')).toBe('false');
   });
 
-  it('marks the active section with aria-current', () => {
+  it('marks the active section with aria-current', async () => {
     render(<App />);
     expect(current()).toEqual(['Map']);
-    goTo('#/mine/bccl-moonidih');
+    await goTo('#/mine/bccl-moonidih');
     expect(current()).toEqual(['Map']);
-    goTo('#/data');
+    await goTo('#/data');
     expect(current()).toEqual(['Data']);
-    goTo('#/method');
+    await goTo('#/method');
     expect(current()).toEqual(['About']);
-    goTo('#/ui');
+    await goTo('#/ui');
     expect(current()).toEqual([]);
   });
 });
@@ -197,7 +201,7 @@ describe('About menu', () => {
     await user.click(aboutButton());
     await user.click(screen.getByRole('menuitem', { name: /^Method/ }));
     expect(screen.queryByRole('menu')).toBeNull();
-    goTo('#/method');
+    await goTo('#/method');
     expect(screen.getByRole('heading', { level: 1 }).textContent).toBe('How the model works');
     expect(current()).toEqual(['About']);
     await user.click(aboutButton());
@@ -209,7 +213,7 @@ describe('About menu', () => {
     const user = userEvent.setup();
     render(<App />);
     await user.click(aboutButton());
-    goTo('#/data');
+    await goTo('#/data');
     expect(screen.queryByRole('menu')).toBeNull();
   });
 });
@@ -218,15 +222,12 @@ describe('phone nav', () => {
   afterEach(() => vi.unstubAllGlobals());
 
   it('folds the nav into one Menu button with every page in it', async () => {
-    vi.stubGlobal(
-      'matchMedia',
-      (query: string) => ({
-        matches: query.includes('max-width: 720px'),
-        media: query,
-        addEventListener: () => {},
-        removeEventListener: () => {},
-      }),
-    );
+    vi.stubGlobal('matchMedia', (query: string) => ({
+      matches: query.includes('max-width: 720px'),
+      media: query,
+      addEventListener: () => {},
+      removeEventListener: () => {},
+    }));
     const user = userEvent.setup();
     render(<App />);
     expect(within(nav()).queryByRole('link')).toBeNull();
@@ -241,7 +242,9 @@ describe('phone nav', () => {
       'Sources',
       'Version 1 site',
     ]);
-    expect(items.filter((el) => el.getAttribute('aria-current') === 'page').map((el) => el.textContent)).toEqual(['Map']);
+    expect(items.filter((el) => el.getAttribute('aria-current') === 'page').map((el) => el.textContent)).toEqual([
+      'Map',
+    ]);
     await user.keyboard('{Escape}');
     expect(screen.queryByRole('menu')).toBeNull();
   });
