@@ -1,10 +1,11 @@
-import { lazy, Suspense, useCallback, useEffect, useRef, type ReactNode } from 'react';
+import { lazy, Suspense, useEffect, useRef } from 'react';
 import '../styles/tokens.css';
 import '../styles/global.css';
 import '../styles/components.css';
 import { sectionForRoute } from '../v2/shell/sections';
 import { ShellV2 } from '../v2/shell/ShellV2';
 import { HomeV2, MINE_LAYOUT, MineView } from '../v2/shell/slots';
+import { LoadError } from './LoadError';
 import { NotFound } from './NotFound';
 import { useRouteLocation, type Route } from './router';
 
@@ -33,37 +34,24 @@ const TITLES: Record<Route['name'], string> = {
   notFound: `Page not found · ${SITE}`,
 };
 
-/** Mounts once the lazy page inside it has loaded, and tells the app, which then moves focus to the page's H1. */
-function Loaded({ onLoaded, children }: { onLoaded: () => void; children: ReactNode }) {
-  useEffect(() => {
-    onLoaded();
-  }, [onLoaded]);
-  return children;
-}
-
-function RouteView({ route, onLoaded }: { route: Route; onLoaded: () => void }) {
-  const page = (node: ReactNode) => (
-    <Loaded key={route.name} onLoaded={onLoaded}>
-      {node}
-    </Loaded>
-  );
+function RouteView({ route }: { route: Route }) {
   switch (route.name) {
     case 'map':
       return <HomeV2 />;
     case 'mine':
       return <MineView />;
     case 'compare':
-      return page(<CompareV2 />);
+      return <CompareV2 />;
     case 'method':
-      return page(<MethodV2 />);
+      return <MethodV2 />;
     case 'assumptions':
-      return page(<AssumptionsV2 />);
+      return <AssumptionsV2 />;
     case 'sources':
-      return page(<SourcesV2 />);
+      return <SourcesV2 />;
     case 'data':
-      return page(<DataV2 />);
+      return <DataV2 />;
     case 'ui':
-      return page(<UiGallery />);
+      return <UiGallery />;
     case 'notFound':
       return <NotFound />;
   }
@@ -82,7 +70,7 @@ function hiddenByAncestor(el: HTMLElement): boolean {
   return false;
 }
 
-/** Focuses the page's H1. Returns false while there is none on screen (a lazy page still loading). */
+/** Focuses the page's H1. Returns false while there is none on screen (a lazy page or mine session still loading). */
 function focusHeading(): boolean {
   const heading = document.querySelector<HTMLElement>('main h1');
   if (!heading || hiddenByAncestor(heading)) return false;
@@ -94,28 +82,47 @@ function focusHeading(): boolean {
 export function App() {
   const { route, path } = useRouteLocation();
   const shownPath = useRef<string | null>(null);
-  // A route change wants focus on the H1; a lazy page that is still loading gets it when it arrives.
-  const focusPending = useRef(false);
-  const onLoaded = useCallback(() => {
-    if (!focusPending.current) return;
-    if (focusHeading()) focusPending.current = false;
-  }, []);
+  // The path whose H1 still wants focus after a route change (cleared once it has it).
+  const focusFor = useRef<string | null>(null);
 
   useEffect(() => {
     document.title = TITLES[route.name];
-    if (shownPath.current === path) return; // a query-only change keeps scroll and focus
-    const firstLoad = shownPath.current === null;
-    shownPath.current = path;
-    if (firstLoad) return; // do not steal focus from the browser on first load
-    window.scrollTo(0, 0);
-    focusPending.current = !focusHeading();
-  }, [route, path]);
+  }, [route.name]);
+
+  // Keyed on the path alone, so a query-only change keeps scroll and focus and does not end a pending focus watch.
+  useEffect(() => {
+    if (shownPath.current !== path) {
+      const firstLoad = shownPath.current === null;
+      shownPath.current = path;
+      if (firstLoad) return; // do not steal focus from the browser on first load
+      window.scrollTo(0, 0);
+      focusFor.current = path;
+    }
+    if (focusFor.current !== path) return;
+    if (focusHeading()) {
+      focusFor.current = null;
+      return;
+    }
+    // The page's code (or a mine's session) is still loading: focus its H1 as soon as it is on screen. Any lazy part
+    // of the tree is covered, wherever its Suspense boundary sits, and the watch ends with the route.
+    const main = document.querySelector('main');
+    if (!main) return;
+    const watch = new MutationObserver(() => {
+      if (!focusHeading()) return;
+      focusFor.current = null;
+      watch.disconnect();
+    });
+    watch.observe(main, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'hidden'] });
+    return () => watch.disconnect();
+  }, [path]);
 
   return (
     <ShellV2 section={sectionForRoute(route)} routeKey={path} layout={layoutFor(route)}>
-      <Suspense fallback={null}>
-        <RouteView route={route} onLoaded={onLoaded} />
-      </Suspense>
+      <LoadError resetKey={path}>
+        <Suspense fallback={null}>
+          <RouteView route={route} />
+        </Suspense>
+      </LoadError>
     </ShellV2>
   );
 }
